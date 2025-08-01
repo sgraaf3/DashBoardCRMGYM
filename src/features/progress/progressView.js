@@ -4,7 +4,7 @@ class ProgressView {
         this.chartContainer = null;
     }
 
-    render(container) {
+    render(container, model = null) {
         const user = this.app.authManager.getCurrentUser();
         const workoutLogs = this.app.dataStore.getWorkoutLogsForUser(user.id) || [];
 

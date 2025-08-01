@@ -20,7 +20,7 @@ class ReportsView {
         this.downloadTxt = () => downloadTxt(this.currentReportData);
     }
 
-    render(container) {
+    render(container, model = null) {
         container.innerHTML = `
             <div class="view-header">
                 <h1>Reports</h1>

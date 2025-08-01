@@ -5,7 +5,7 @@ class WorkoutHistoryView {
         this.app = app;
     }
 
-    render(container) {
+    render(container, model = null) {
         const user = this.app.authManager.getCurrentUser();
         const logs = this.app.dataStore.getWorkoutLogsForUser(user.id);
         const schemas = this.app.dataStore.getWorkoutSchemas();

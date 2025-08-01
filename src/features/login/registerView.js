@@ -3,7 +3,7 @@ class RegisterView {
         this.app = app;
     }
 
-    render(container) {
+    render(container, model = null) {
         container.innerHTML = `
             <div class="login-container">
                 <h2>Create Account</h2>

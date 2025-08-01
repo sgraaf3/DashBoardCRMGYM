@@ -7,7 +7,7 @@ class TrainingAnalyserView {
         this.chartInstances = {};
     }
 
-    render(container) {
+    render(container, model = null) {
         const members = this.app.dataStore.getMembers();
         const memberOptions = members.map(m => `<option value="${m.id}">${m.name}</option>`).join('');
 

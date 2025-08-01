@@ -7,7 +7,7 @@ export default class CoachingDashboardView {
         this.app = app;
     }
 
-    render(container) {
+    render(container, model = null) {
         const { recentActivityHtml, upcomingSessionsHtml } = getDashboardData(this.app.dataStore);
 
 

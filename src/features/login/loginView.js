@@ -3,7 +3,7 @@ class LoginView {
         this.app = app;
     }
 
-    render(container) {
+    render(container, model = null) {
         container.innerHTML = `
             <div class="login-container">
                 <h2>${this.app.localizationService.t('login.title')}</h2>

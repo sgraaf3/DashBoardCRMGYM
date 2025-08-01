@@ -6,7 +6,7 @@ import PdfService from '../features/services/pdfService.js';
 import fileService from '../features/services/fileService.js';
 import stylingManager from '../features/services/stylingManager.js';
 import UIManager from '../core/uiManager.js';
-import Router from '../core/router.js';
+
 import BillingCycleService from '../features/billing/billingCycleService.js';
 class App {
     constructor() {
@@ -18,7 +18,114 @@ class App {
         this.pdfService = new PdfService(this.localizationService, this.dataStore);
         this.fileService = fileService;
         this.bluetoothService = bluetoothService;
+
+        class Router {
+            constructor(app) {
+                this.app = app;
+                this.routes = {};
+                this.currentRoute = null;
+                window.addEventListener('hashchange', this.handleRouteChange.bind(this));
+                window.addEventListener('load', this.handleRouteChange.bind(this));
+            }
+
+            addRoute({ path, view, handler }) {
+                this.routes[path] = { view, handler };
+            }
+
+
+            handleRouteChange() {
+                const path = window.location.hash.slice(1) || '/';
+                let route = this.routes[path];
+
+                if (!route) {
+                    for (const routePath in this.routes) {
+                        if (routePath.includes(':') && this.matchRoute(path, routePath)) {
+                            route = this.routes[routePath];
+                            break;
+                        }
+                    }
+                }
+
+
+
+
+
+
+                route = route || this.routes['*'];
+
+                if (route) {
+
+                    this.navigateTo(path);
+                } else {
+                    //this.showNotFound();
+                }
+            }
+
+            matchRoute(path, routePath) {
+                const pathParts = path.split('/');
+                const routeParts = routePath.split('/');
+
+                if (pathParts.length !== routeParts.length) {
+                    return false;
+                }
+
+                for (let i = 0; i < routeParts.length; i++) {
+                    if (routeParts[i].charAt(0) !== ':' && routeParts[i] !== pathParts[i]) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+
+             /*showNotFound() {
+                const mainContent = document.getElementById('main-content');
+                if (mainContent) {
+                    mainContent.innerHTML = '<div>404 Not Found</div>';
+                }
+            navigateTo(path) {
+
+                window.location.hash = path;
+                this.currentRoute = path;
+
+                let route = this.routes[path];
+                if (!route) {
+                    for (const routePath in this.routes) {
+                        if (routePath.includes(':') && this.matchRoute(path, routePath)) {
+                            route = this.routes[routePath];
+                            const paramNames = routePath.split('/').filter(part => part.startsWith(':')).map(part => part.slice(1));
+                            const pathParts = path.split('/');
+                            const routeParts = routePath.split('/');
+
+                            let params = {};
+                            for (let i = 0; i < paramNames.length; i++) {
+                                let paramName = paramNames[i];
+                                let routePart = routeParts[i];
+                                if (routePart.startsWith(':')) {
+                                    params[paramName] = pathParts[i];
+                                }
+                            }
+                            if (route.handler && typeof route.handler === 'function') {
+                                route.handler.call(this, route.view, params, null, route.routeData);
+                            } else if (route.view && typeof route.view === 'function') {
+                                this.renderView(route.view, params, route.routeData);
+                            }
+                            return;
+                        }
+                    }
+                }
+
+                if (route) {
+                    if (route.handler && typeof route.handler === 'function') {
+                        route.handler.call(this, route.view, null, null, route.routeData);
+                    } else if (route.view && typeof route.view === 'function') {
+                        this.renderView(route.view, null, route.routeData);
+                    }
+                }
+
+            }
+    }
         this.router = new Router(this);
+
         this.billingCycleService = new BillingCycleService(this);
     }
 
@@ -31,6 +138,7 @@ class App {
         this.router.addRoute({ path: 'gym', view: () => import('../features/gym/gymView.js') });
         this.router.addRoute({ path: 'history', view: () => import('../features/workout/workoutHistoryView.js') });
         this.router.addRoute({ path: 'coaching', view: () => import('../features/gym/coachingDashboardView.js') });
+
         this.router.addRoute({ path: 'workout-planner-member-progress', view: () => import('../features/gym/workoutPlannerMemberProgressView.js') });
         this.router.addRoute({ path: 'progress', view: () => import('../features/progress/progressView.js') });
         this.router.addRoute({ path: 'reports', view: () => import('../features/Analysis/Reports/reportsView.js') });
@@ -46,6 +154,7 @@ class App {
         this.router.addRoute({ path: 'general-settings', view: () => import('../features/settings/settingsView.js') });
         this.router.addRoute({ path: 'settings/invoice-templates', view: () => import('../features/settings/invoiceTemplateView.js') });
         this.router.addRoute({ path: 'settings/rooms', view: () => import('../features/settings/roomManagementView.js') });
+
         this.router.addRoute({ path: 'settings/lessons', view: () => import('../features/settings/lessonScheduleView.js') });
 
         // Page routes with data resolution
@@ -813,9 +922,4 @@ class App {
         await runBluetoothServiceTests();
         await runHrvValidationTests();
     }
-}
-
-const app = new App();
-document.addEventListener('DOMContentLoaded', () => {
-    app.init();
-});
+        }}}

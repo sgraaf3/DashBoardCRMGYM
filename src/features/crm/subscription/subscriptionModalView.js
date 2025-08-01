@@ -1,29 +1,33 @@
+import router from '../../../core/router.js';
+import dataStore from '../../../core/dataStore.js';
+import UIManager from '../../../core/uiManager.js';
+import localizationService from '../../services/localizationServices.js';
+import { t } from '../../services/localizationServices.js';
+
 export default class SubscriptionModalView {
-    constructor(app) {
-        this.app = app;
-        this.dataStore = app.dataStore;
-        this.uiManager = app.uiManager;
-        this.localizationService = app.localizationService;
+    constructor() {
+
+
         this.member = null;
     }
 
     // The router handler will call this.
     render(memberId) {
         // Assuming dataStore methods are synchronous for mock data
-        this.member = this.dataStore.getMemberById(memberId);
+        this.member = dataStore.getMemberById(memberId);
         if (!this.member) {
-            this.uiManager.showNotification('Member not found.', 'error');
+            UIManager.showNotification('Member not found.', 'error');
             // The router handler that calls this should close the modal or not open it.
             // For now, we just notify.
             return;
         }
 
-        const t = this.localizationService.t.bind(this.localizationService);
+
         const title = t('subscription.manageTitle', 'Manage Subscription for {0}', this.member.name);
         const bodyHtml = this.generateFormHtml();
         const footerHtml = this.createModalFooter();
 
-        this.uiManager.showModal(title, bodyHtml, null, footerHtml);
+        UIManager.showModal(title, bodyHtml, null, footerHtml);
 
         // We need to add event listeners to the modal *after* it's in the DOM.
         this.addModalEventListeners();
@@ -32,7 +36,7 @@ export default class SubscriptionModalView {
 
     generateFormHtml() {
         const subscription = this.member.subscription || {};
-        // Assuming dataStore has a way to get plans. Let's use a mock for now.
+        // Assuming dataStore methods are synchronous for mock data // In a real app, this would come from dataStore.
         // In a real app, this would come from dataStore.
         const allPlans = [
             { name: 'Basic', price: 25, durationDays: 30 },
@@ -40,7 +44,7 @@ export default class SubscriptionModalView {
         ];
         const statuses = ['Active', 'Paused', 'Cancelled'];
         const t = this.localizationService.t.bind(this.localizationService);
-
+		
         const planOptions = allPlans.map(plan =>
             `<option value="${plan.name}" data-duration="${plan.durationDays}" ${plan.name === subscription.plan ? 'selected' : ''}>${plan.name} (€${plan.price.toFixed(2)})</option>`
         ).join('');
@@ -71,14 +75,14 @@ export default class SubscriptionModalView {
     }
 
     createModalFooter() {
-        const t = this.localizationService.t.bind(this.localizationService);
+
         return `
             <button class="btn" data-action="send-reminder">${t('common.sendReminder', 'Send Reminder')}</button>
             <button class="btn btn-secondary" data-action="close-modal">${t('common.cancel', 'Cancel')}</button>
             <button class="btn btn-primary" data-action="save-subscription">${t('common.saveChanges', 'Save Changes')}</button>
         `;
     }
-
+	
     addModalEventListeners() {
         const modal = document.querySelector('.modal'); // Assuming UIManager adds this class
         if (!modal) return;
@@ -89,10 +93,10 @@ export default class SubscriptionModalView {
                 this.handleSave();
             }
             if (action === 'send-reminder') {
-                this.uiManager.showNotification(t('subscription.reminderSent', 'Reminder sent to {0}.', this.member.name), 'info');
+                UIManager.showNotification(t('subscription.reminderSent', 'Reminder sent to {0}.', this.member.name), 'info');
             }
             if (action === 'close-modal') {
-                this.uiManager.closeModal();
+                UIManager.closeModal();
             }
         });
     }
@@ -112,7 +116,7 @@ export default class SubscriptionModalView {
                 const newRenewalDate = new Date();
                 newRenewalDate.setDate(newRenewalDate.getDate() + parseInt(duration, 10));
                 renewalDateInput.value = newRenewalDate.toISOString().split('T')[0];
-                this.uiManager.showNotification(this.localizationService.t('subscription.renewalDateUpdated', 'Renewal date automatically updated based on plan duration.'), 'info');
+                UIManager.showNotification(localizationService.t('subscription.renewalDateUpdated', 'Renewal date automatically updated based on plan duration.'), 'info');
             }
         });
     }
@@ -136,14 +140,14 @@ export default class SubscriptionModalView {
 
         try {
             // This is a more realistic dataStore method than `updateMemberSubscription`
-            await this.app.dataStore.saveMember(this.member);
-            this.uiManager.showNotification(t('subscription.updatedSuccess', 'Subscription updated successfully!'), 'success');
-            this.uiManager.closeModal();
+            await dataStore.saveMember(this.member);
+            UIManager.showNotification(t('subscription.updatedSuccess', 'Subscription updated successfully!'), 'success');
+            UIManager.closeModal();
             // The view that opened the modal should refresh. The router can handle this.
-            this.app.router.handleRouteChange();
+            router.handleRouteChange();
         } catch (error) {
             console.error('Failed to save subscription:', error);
-            this.uiManager.showNotification(t('errors.saveFailed', 'Failed to save subscription.'), 'error');
+            UIManager.showNotification(t('errors.saveFailed', 'Failed to save subscription.'), 'error');
         }
     }
 }

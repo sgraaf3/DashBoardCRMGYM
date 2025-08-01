@@ -6,7 +6,7 @@ export default class BillingView {
         this.revenueChart = null; // To hold the chart instance
     }
 
-    render(container) {
+    render(container, model = null) {
         container.innerHTML = `
             <div class="view-header">
                 <h1>Billing & Subscriptions</h1>

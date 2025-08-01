@@ -5,7 +5,7 @@ export default class CalendarView {
         this.selectedDate = null;
     }
 
-    render(container) {
+    render(container, model = null) {
         container.innerHTML = `
             <div class="view-header">
                 <h1>Workout Planning Calendar</h1>

@@ -3,7 +3,7 @@ export default class SettingsView {
         this.app = app;
     }
 
-    render(container) {
+    render(container, model = null) {
         const t = this.app.localizationService.t.bind(this.app.localizationService);
         container.innerHTML = `
             <div class="view-header">

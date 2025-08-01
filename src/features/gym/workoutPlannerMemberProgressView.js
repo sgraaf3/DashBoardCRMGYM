@@ -3,7 +3,7 @@ export default class WorkoutPlannerMemberProgressView {
         this.app = app;
     }
 
-    render(container) {
+    render(container, model = null) {
         const members = this.app.dataStore.getMembers();
 
         container.innerHTML = `

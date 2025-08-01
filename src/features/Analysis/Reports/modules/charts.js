@@ -1,4 +1,4 @@
-import { readFileAsText, parseAndAnalyzeRrData, debounce } from '../../../../core/utils.js';
+import { parseAndAnalyzeRrData, debounce } from '../../../../core/utils.js';
 import { buildHrvReportPages } from './modules/hrvReportBuilder.js';
 
 const GRAPH_EXPLANATIONS = {
@@ -437,7 +437,7 @@ class ReportsView {
 
     renderReportOutput(container, title, headers, rows, reportPages = [], isHrvReport = false, isComparison = false) {
         const tableHtml = `
-            <table class="report-table">
+            <table class="report-table
                 <thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
                 <tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>
             </table>`;

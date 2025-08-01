@@ -10,7 +10,7 @@ export default class MemberProgressDetailView {
         Object.values(this.chartInstances).forEach(chart => chart.destroy());
     }
 
-    render(container, memberId) {
+    render(container, model = null, memberId) {
         this.destroy();
         const member = this.app.dataStore.getMemberById(memberId);
         if (!member) {

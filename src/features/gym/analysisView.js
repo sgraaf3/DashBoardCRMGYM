@@ -13,7 +13,7 @@ class AnalysisView {
             pose: new PoseCorrectionView(app),
         };
     }
-    render(container, pathParts) {
+    render(container, model = null, pathParts) {
         const [subViewId = 'energy'] = pathParts;
         container.innerHTML = `
             <div class="view-header"><h1>Bio-Analysis Lab</h1></div>

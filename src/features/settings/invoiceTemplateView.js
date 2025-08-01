@@ -9,7 +9,7 @@ class InvoiceTemplateView {
         this.template = this.app.dataStore.getInvoiceTemplate('default') || {};
     }
 
-    render(container) {
+    render(container, model = null) {
         this.init();
         const t = this.app.localizationService.t.bind(this.app.localizationService);
         const [address1 = '', address2 = ''] = (this.template.companyAddress || '').split('\n');

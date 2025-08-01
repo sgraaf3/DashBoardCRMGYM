@@ -9,7 +9,7 @@ export default class CrmView {
         this.employeeRoleFilter = 'all';
     }
 
-    render(container) {
+    render(container, model = null) {
 
         container.innerHTML = `
             <div class="view-header">

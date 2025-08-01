@@ -1,64 +1,31 @@
-Dashboard Widget Plan
+Goal: Standardize the `render` method in all view components and simplify the `router.js` logic.
 
-Responsiveness and Layout:
+Plan:
 
-Goal: Widgets should dynamically resize to fit their content and wrap horizontally and vertically within the dashboard container.
-Implementation:
-Use a CSS grid or flexbox layout for the dashboard container to manage widget placement and wrapping.
-Ensure each widget's internal content is responsive, using percentage-based widths or other flexible sizing units.
-Set resize property in css to allow resizing of the widgets.
-Widget Placement and Overlap Prevention:
+1.  Analyze Login-related Files:
+    *   `src/features/login/loginView.js`: Update `render(container)` to `render(container, model)`.
+    *   `src/features/login/registerView.js`: Update `render(container)` to `render(container, model)`.
+    *   `src/features/login/login.js`: Analyze this file to understand its role and see if any changes are needed to support the view updates. (Already analyzed and determined to be an older, unused file).
 
-Goal: Widgets should be drawn to the top-left of the container, with no overlap. Original spacing and padding should be maintained.
-Implementation:
-Utilize the grid or flexbox layout to control the order and position of widgets.
-Implement a "drag and drop" mechanism (if desired) that dynamically updates the grid or flexbox layout, preventing overlap. Libraries like react-grid-layout (if using React) or similar for other frameworks can help.
-Consider a collision detection algorithm to prevent manual overlapping.
-Widget Resizing and Expansion:
+2.  Systematically Refactor All Views: Go through all the remaining view files identified in `src/app/app.js` and apply the same `render(container, model)` signature update. The list of files to be updated are:
+    *   `src/features/dashboard/DashboardView.js`
+    *   `src/features/crm/CrmView.js`
+    *   `src/features/workout/workoutHistoryView.js`
+    *   `src/features/gym/coachingDashboardView.js`
+    *   `src/features/gym/workoutPlannerMemberProgressView.js`
+    *   `src/features/progress/progressView.js`
+    *   `src/features/Analysis/Reports/reportsView.js`
+    *   `src/features/settings/settingsView.js`
+    *   `src/features/gym/analysisView.js`
+    *   `src/features/gym/trainingAnalyserView.js`
+    *   `src/features/billing/billingView.js`
+    *   `src/features/settings/invoiceTemplateView.js`
+    *   `src/features/settings/roomManagementView.js`
+    *   `src/features/settings/lessonScheduleView.js`
+    *   `src/features/progress/memberProgressDetailView.js`
 
-Goal: Add resizing functionality to widgets with a resize button offering four sizes. Expanded sizes should reveal more advanced data visualizations.
-Implementation:
-Add a resize button to each widget.
-Define four preset sizes for the widgets (e.g., small, medium, large, extra-large).
-When the resize button is clicked, cycle through the preset sizes, adjusting the widget's dimensions and the content displayed accordingly.
-Use CSS media queries or JavaScript to dynamically load and display more detailed data visualizations as the widget size increases.
-Widget Expansion/Collapse Button:
+3.  Update the Router: Once all views are standardized, modify `src/core/router.js`:
+    *   Remove the backward-compatibility code that passes `model || []`.
+    *   The call will be changed from `view.render(this.mainContent, model || [], routeData);` to `view.render(this.mainContent, model, routeData);`.
 
-Goal: Fix the non-functional widget expansion/collapse button.
-Implementation:
-Replace the <div> element with a <button> or <a> element (a "LinkButton") to ensure proper click handling and accessibility.
-Add JavaScript to toggle the widget's expanded/collapsed state when the button is clicked.
-Use CSS to visually indicate the expanded/collapsed state (e.g., changing the button icon or text).
-
-Widget Expansion/Collapse Implementation Plan:
-
-Goal: Implement the logic for expanding and collapsing widgets to cycle through different content views (icon, basic, advanced).
-
-1.  **Event Handling:**
-    *   In `dashboardEvents.js`, add a new action handler for `expand-widget`.
-    *   The click event listener on the grid should delegate to a new `handleWidgetExpand(widgetId)` function in `DashboardView.js`.
-    *   The widget header or a dedicated icon (e.g., `<i class="fas fa-expand"></i>`) within the widget template in `createWidget` should have the `data-action="expand-widget"` attribute.
-
-2.  **Core Expansion Logic (`toggleWidget` in `dashboardWidgets.js`):**
-    *   Uncomment and complete the `toggleWidget` function.
-    *   This function will take `view` and `widgetId` as arguments.
-    *   It should correctly read the current expansion level from `dashboardState`.
-    *   It must determine the max expansion level for the widget by checking its config for `expandedContentL3`, `advancedDataContent`, etc.
-    *   It will calculate the next level: `(currentLevel + 1) % (maxLevel + 1)`.
-    *   Update the state: `dashboardState.widgetExpandedState[widgetId] = nextLevel;`.
-    *   Call `updateSingleWidget(view, widgetId)` to re-render the widget with its new content and size.
-
-3.  **Dynamic Content Loading:**
-    *   For widgets that require fetching data on expansion (e.g., detailed charts), the `toggleWidget` function should first check if the expanded content needs new data.
-    *   If so, it should call a data-fetching method (e.g., `view.app.dataStore.getDetailedData(widgetId)`).
-    *   The fetched data should be passed to `updateSingleWidget` to be used when re-rendering the widget. The `updateSingleWidget` function already has a `dynamicData` parameter that can be used for this.
-
-4.  **Layout Repositioning (`repositionWidgets` in `DashboardView.js`):**
-    *   Create a new function `repositionWidgets` in `DashboardView.js`.
-    *   This function will be called after a widget is expanded/collapsed.
-    *   It needs to re-apply the grid layout logic to accommodate the changed size of the widget.
-    *   A simple approach is to re-read the widget order from the DOM and re-apply the grid classes, but a more sophisticated solution using a library like Muuri or Gridstack.js could be considered for smoother animations and collision detection. For now, a basic re-rendering of the grid should suffice.
-
-5.  **Styling:**
-    *   Ensure CSS classes for different widget sizes (col-span, row-span) are correctly applied in `createWidget` based on the `expansionLevel`.
-    *   Add transition effects in CSS for a smoother resizing animation.
+4.  Final Review: Perform a final check to ensure consistency across the project.

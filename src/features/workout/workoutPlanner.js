@@ -1,9 +1,13 @@
 import { debounce } from '../../core/utils.js';
+import router from '../../core/router.js';
+import dataStore from '../../core/dataStore.js';
+import UIManager from '../../core/uiManager.js';
+
 
 export default class WorkoutPlanner {
-    constructor(app) {
-        this.app = app;
+    constructor() {
         this.currentDate = new Date();
+		
         this.selectedDate = null;
         this.selectedMemberId = null;
         this.searchTerm = '';
@@ -13,13 +17,13 @@ export default class WorkoutPlanner {
         this.lessonCategoryFilter = 'all';
     }
 
-    render(container, _model, routeData) {
+    render(container, model = null, routeData) {
         // Handle prefill data from router
         if (routeData && routeData.prefill) {
             this.selectedMemberId = routeData.prefill.userId;
             this.selectedDate = new Date(routeData.prefill.date);
             this.currentDate = new Date(routeData.prefill.date); // Navigate calendar to the prefilled month
-            this.app.uiManager.showNotification(`Showing schedule for ${this.app.dataStore.getMemberById(this.selectedMemberId)?.name} on ${this.selectedDate.toLocaleDateString()}`, 'info');
+            UIManager.showNotification(`Showing schedule for ${dataStore.getMemberById(this.selectedMemberId)?.name} on ${this.selectedDate.toLocaleDateString()}`, 'info');
         } else {
             // If no prefill, and no member is selected yet, default to "All Members"
             if (!this.selectedMemberId) {
@@ -29,8 +33,7 @@ export default class WorkoutPlanner {
                 this.selectedDate = new Date();
             }
         }
-
-        const members = this.app.dataStore.getMembers();
+        const members = dataStore.getMembers();
         const isGlobalView = this.selectedMemberId === 'all';
         const allMembersOption = `<option value="all" ${isGlobalView ? 'selected' : ''}>All Members</option>`;
         const memberOptions = members.map(member =>
@@ -38,7 +41,7 @@ export default class WorkoutPlanner {
         ).join('');
 
         const lessonTemplates = this.app.dataStore.getLessonTemplates();
-        const lessonCategories = ['all', ...new Set(lessonTemplates.map(t => t.mainSection).filter(Boolean))];
+        const lessonCategories = ['all', ...new Set(dataStore.getLessonTemplates().map(t => t.mainSection).filter(Boolean))];
         const categoryOptions = lessonCategories.map(cat =>
             `<option value="${cat}" ${this.lessonCategoryFilter === cat ? 'selected' : ''}>${cat === 'all' ? 'All Categories' : cat}</option>`
         ).join('');
@@ -109,7 +112,7 @@ export default class WorkoutPlanner {
         const firstDayOfMonth = new Date(year, month, 1).getDay();
         const daysInMonth = new Date(year, month + 1, 0).getDate();
 
-        const allScheduledWorkouts = this.app.dataStore.getScheduledWorkouts();
+        const allScheduledWorkouts = dataStore.getScheduledWorkouts();
         const allScheduledLessons = this.showLessons ? this.app.dataStore.getScheduledLessons() : [];
 
         for (let i = 0; i < firstDayOfMonth; i++) {
@@ -143,10 +146,10 @@ export default class WorkoutPlanner {
                 const workoutList = document.createElement('ul');
                 workoutList.className = 'calendar-workout-list';
                 workoutsForDay.forEach(workout => {
-                    const schema = this.app.dataStore.getWorkoutSchema(workout.schemaId);
-                    const member = this.selectedMemberId === 'all' ? this.app.dataStore.getMemberById(workout.memberId) : null;
+                    const schema = dataStore.getWorkoutSchema(workout.schemaId);
+                    const member = this.selectedMemberId === 'all' ? dataStore.getMemberById(workout.memberId) : null;
 
-                    const listItem = document.createElement('li');
+					const listItem = document.createElement('li');
                     listItem.draggable = true;
                     listItem.className = 'calendar-workout-item'; // Base class
 
@@ -178,7 +181,7 @@ export default class WorkoutPlanner {
 
             if (lessonsForDay.length > 0) {
                 const lessonList = document.createElement('ul');
-                lessonList.className = 'calendar-lesson-list';
+				lessonList.className = 'calendar-lesson-list';
                 lessonsForDay.forEach(lesson => {
                     const template = this.app.dataStore.getLessonTemplateById(lesson.templateId);
                     const listItem = document.createElement('li');
@@ -215,7 +218,7 @@ export default class WorkoutPlanner {
             container.querySelector('#copy-week-btn').disabled = isGlobalView;
             container.querySelector('#clear-week-btn').disabled = isGlobalView;
             container.querySelector('#weekly-notes-container').style.display = isGlobalView ? 'none' : 'block';
-            this.renderWeeklyNotes();
+            this.renderWeeklyNotes();			
             this.renderCalendar();
         });
         container.querySelector('#show-lessons-toggle').addEventListener('change', (e) => {
@@ -268,14 +271,14 @@ export default class WorkoutPlanner {
                 const lessonId = lessonEl.dataset.lessonId;
 
                 if (this.selectedMemberId === 'all') {
-                    this.app.uiManager.showNotification('Please select a specific member to book a lesson for.', 'warning');
+                    UIManager.showNotification('Please select a specific member to book a lesson for.', 'warning');
                     return;
                 }
 
                 const memberId = this.selectedMemberId;
-                this.app.router.navigate('#/book-lesson', { lessonId: lessonId, memberId: memberId });
+                router.navigate('#/book-lesson', { lessonId: lessonId, memberId: memberId });
                 return; // Action handled, stop propagation.
-            }
+			}
 
             // Priority 2: Handle workout quick view
             const workoutEl = e.target.closest('.calendar-workout-item');
@@ -302,7 +305,7 @@ export default class WorkoutPlanner {
                     // In member view, update notes, calendar, and navigate.
                     this.renderWeeklyNotes();
                     this.renderCalendar(); // Re-render to show selection
-                    this.app.router.navigate('#/assign-workout', { selectedDate: this.selectedDate, memberId: this.selectedMemberId });
+                    router.navigate('#/assign-workout', { selectedDate: this.selectedDate, memberId: this.selectedMemberId });
                 }
             }
         });
@@ -346,13 +349,13 @@ export default class WorkoutPlanner {
             const workoutsOnTargetDay = scheduledWorkouts.filter(w => w.date === newDate && w.memberId == this.selectedMemberId);
 
             if (this.selectedMemberId === 'all') {
-                this.app.uiManager.showNotification('Please select a specific member to reschedule workouts.', 'warning');
+                UIManager.showNotification('Please select a specific member to reschedule workouts.', 'warning');
                 return;
             }
 
             let canProceed = true;
             if (workoutsOnTargetDay.length > 0) {
-                canProceed = await this.app.uiManager.showConfirmation(
+                canProceed = await UIManager.showConfirmation(
                     'Reschedule Workout',
                     'This day already has a workout scheduled. Are you sure you want to add another one to this day?'
                 );

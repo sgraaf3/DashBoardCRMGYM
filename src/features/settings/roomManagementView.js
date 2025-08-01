@@ -4,7 +4,7 @@ export default class RoomManagementView {
         this.dataStore = app.dataStore;
     }
 
-    render(container) {
+    render(container, model = null) {
         const rooms = this.dataStore.getRooms();
         container.innerHTML = `
             <div class="view-header">

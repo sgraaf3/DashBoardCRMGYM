@@ -1,213 +1,161 @@
-import { addDashboardEventListeners } from './dashboardEvents.js';
-import { dashboardState } from './dashboardState.js';
-import { createWidget, updateSingleWidget } from './dashboardWidgets.js';
-import { buildWidgetConfig } from './widgetConfigBuilder.js';
-import debounce from '../../utils/domUtils.js';
+// DashboardView.js
 
+/**
+ * Manages the rendering and interaction of the Dashboard view.
+ */
 export class DashboardView {
     constructor(app) {
         this.app = app;
-        this.container = null;
-        this.dataStore = app.dataStore;
-        this.uiManager = app.uiManager;
-        this.localizationService = app.localizationService;
-        this.boundBluetoothHandler = null;
-
-        this.handleIceSearch = debounce(this._handleIceSearch.bind(this), 300);
+        this.chart = null; // To hold the chart instance
+        this.currentMetric = 'volume'; // Default metric
     }
 
-    getHTML() {
-        const t = this.localizationService.t.bind(this.localizationService);
-        return `
-            <div id="dashboard-view" class="h-full flex flex-col p-4 sm:p-6 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
-                <div class="flex justify-between items-center mb-4">
-                    <h1 class="text-2xl font-bold">${t('dashboard.title')}</h1>
-                    <div class="flex items-center space-x-2">
-                        <input type="search" id="ice-search" placeholder="${t('dashboard.searchPlaceholder')}" class="form-input-class">
-                        <button id="configure-widgets-btn" class="btn-secondary">${t('dashboard.configureWidgets')}</button>
-                        <button id="reset-layout-btn" class="btn-secondary">${t('dashboard.resetLayout')}</button>
-                    </div>
+    render(container, model = null) {
+        const userData = this.app.dbManager.get('user_data');
+        // Aangepast om de configuratie uit SchedulemakerDB te halen
+        const dbConfig = this.app.dbManager.get('SchedulemakerDB');
+
+        if (!userData || !userData.users || userData.users.length === 0 || !dbConfig) {
+            container.innerHTML = '<p>Dashboard data could not be loaded.</p>';
+            return;
+        }
+
+        const user = userData.users[0];
+        const lastWorkout = user.workout_logs.length > 0 ? [...user.workout_logs].pop() : null;
+
+        let lastWorkoutHtml = '<p>No workouts logged yet. Time to hit the gym!</p>';
+        if (lastWorkout) {
+            const appConfig = this.app.dbManager.get('application_config');
+            const exerciseDetails = lastWorkout.exercises.map(ex => {
+                const configEx = appConfig.exercises.find(e => e.id === ex.exercise_id);
+                const name = configEx ? configEx.name : 'Unknown Exercise';
+                const sets = ex.sets.length;
+                return `<li>${name} - ${sets} sets</li>`;
+            }).join('');
+
+            lastWorkoutHtml = `
+                <h4>${lastWorkout.workout_name} - <small>${new Date(lastWorkout.date).toLocaleDateString()}</small></h4>
+                <ul class="compact-list">${exerciseDetails}</ul>
+            `;
+        }
+
+        container.innerHTML = `
+            <div class="view-header">
+                <h1>Welcome, ${user.username}!</h1>
+                <p>Dashboard: Your personal fitness summary</p>
+            </div>
+            <div class="dashboard-grid">
+                <div class="widget">
+                    <h3>Last Workout</h3>
+                    ${lastWorkoutHtml}
                 </div>
-                <div id="dashboard-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 flex-grow overflow-y-auto">
-                    <!-- Widgets will be rendered here -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3>Weekly Trend</h3>
+                        <div class="chart-controls">
+                            <select id="chart-metric-select" class="form-control-small">
+                                <option value="volume" ${this.currentMetric === 'volume' ? 'selected' : ''}>Total Volume</option>
+                                <option value="reps" ${this.currentMetric === 'reps' ? 'selected' : ''}>Total Reps</option>
+                                <option value="maxWeight" ${this.currentMetric === 'maxWeight' ? 'selected' : ''}>Max Weight</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="chart-container" style="height: 250px;">
+                        <canvas id="volume-chart"></canvas>
+                    </div>
                 </div>
             </div>
         `;
-    }
 
-    render(container) {
-        this.container = container;
-        this.container.innerHTML = this.getHTML();
-        this.onRender();
-    }
-
-    onRender() {
-        this._renderWidgets();
-        this.addEventListeners(this.container);
-    }
-
-    _renderWidgets() {
-        const grid = this.container.querySelector('#dashboard-grid');
-        if (!grid) return;
-
-        const dashboardData = this._composeDashboardData();
-        const widgetContext = this._getWidgetContext();
-        const allWidgetConfigs = buildWidgetConfig(dashboardData, widgetContext);
-
-        const userWidgetConfig = this.app.settings.get('dashboardWidgets', allWidgetConfigs.map(w => w.id));
-        const activeWidgetConfigs = allWidgetConfigs.filter(w => userWidgetConfig.includes(w.id));
-
-        const savedOrder = JSON.parse(localStorage.getItem('dashboardWidgetOrder'));
-        const orderedConfigs = savedOrder
-            ? activeWidgetConfigs.sort((a, b) => savedOrder.indexOf(a.id) - savedOrder.indexOf(b.id))
-            : activeWidgetConfigs;
-
-        grid.innerHTML = orderedConfigs.map(config => createWidget(config)).join('');
-        this.renderCharts(orderedConfigs);
-    }
-
-    _composeDashboardData() {
-        return {
-            recentMembers: this.dataStore.getRecentMembers(5),
-            upcomingAppointments: this.dataStore.getUpcomingAppointments(5),
-            openInvoices: this.dataStore.getOpenInvoices(),
-            gymOccupancy: this.dataStore.getGymOccupancy(),
-            memberStats: this.dataStore.getMemberStats(),
-            trainerPerformance: this.dataStore.getTrainerPerformance(),
-            recentActivityLogs: this.dataStore.getWorkoutLogs({ limit: 10, sort: 'desc' }),
-        };
-    }
-
-    _getWidgetContext() {
-        return {
-            memberManagementState: dashboardState.memberManagementState,
-            employeeManagementState: dashboardState.employeeManagementState,
-            bluetoothState: {
-                state: this.app.bluetoothService.getState(),
-                deviceName: this.app.bluetoothService.getDevice()?.name
-            },
-            members: this.dataStore.getMembers(),
-            employees: this.dataStore.getEmployees(),
-            hrvAnalysisResult: dashboardState.hrvAnalysisResult,
-            t: this.localizationService.t.bind(this.localizationService),
-            view: this
-        };
-    }
-
-    renderCharts(widgetConfigs) {
-        widgetConfigs.forEach(config => {
-            if (config.chart) {
-                const chartContainer = this.container.querySelector(`#${config.id} .widget-content`);
-                if (chartContainer) {
-                    // this.app.chartRenderer.render(chartContainer, config.chart.type, config.chart.data, config.chart.options);
-                }
-            }
-        });
+        this.addEventListeners(container);
+        this.renderChart(user.workout_logs, dbConfig.chart_configurations.charts);
     }
 
     addEventListeners(container) {
-        addDashboardEventListeners(this, container);
+        const metricSelect = container.querySelector('#chart-metric-select');
+        if (metricSelect) {
+            metricSelect.addEventListener('change', (e) => {
+                this.currentMetric = e.target.value;
+                const userData = this.app.dbManager.get('user_data');
+                const dbConfig = this.app.dbManager.get('SchedulemakerDB');
+                this.renderChart(userData.users[0].workout_logs, dbConfig.chart_configurations.charts);
+            });
+        }
     }
 
-    updateSingleWidget(widgetId) {
-        updateSingleWidget(this, widgetId);
-    }
+    renderChart(logs, chartConfigs) {
+        const canvas = document.getElementById('volume-chart');
+        if (!canvas || !logs || logs.length === 0) return;
 
-    getDragAfterElement(container, y) {
-        const draggableElements = [...container.querySelectorAll('.widget:not(.dragging)')];
+        if (this.chart) this.chart.destroy();
 
-        return draggableElements.reduce((closest, child) => {
-            const box = child.getBoundingClientRect();
-            const offset = y - box.top - box.height / 2;
-            if (offset < 0 && offset > closest.offset) {
-                return { offset: offset, element: child };
-            } else {
-                return closest;
+        const recentLogs = logs.slice(-7);
+        const labels = recentLogs.map(log => new Date(log.date).toLocaleDateString('en-CA'));
+        
+        let data, label;
+        let chartId;
+
+        switch (this.currentMetric) {
+            case 'reps':
+                label = 'Total Reps';
+                data = recentLogs.map(log => 
+                    log.exercises.reduce((totalReps, ex) => 
+                        totalReps + ex.sets.reduce((reps, set) => reps + set.reps, 0), 0)
+                );
+                chartId = 'sdnnChart'; // Gebruik een bestaande chart id uit de configuratie
+                break;
+            case 'maxWeight':
+                label = 'Max Weight Lifted (kg)';
+                data = recentLogs.map(log => 
+                    Math.max(0, ...log.exercises.flatMap(ex => ex.sets.map(set => set.weight)))
+                );
+                chartId = 'rmssdChart'; // Gebruik een bestaande chart id uit de configuratie
+                break;
+            case 'volume':
+            default:
+                label = 'Total Volume (kg)';
+                data = recentLogs.map(log => 
+                    log.exercises.reduce((totalVolume, ex) => 
+                        totalVolume + ex.sets.reduce((vol, set) => vol + (set.reps * set.weight), 0), 0)
+                );
+                chartId = 'hrChart'; // Gebruik een bestaande chart id uit de configuratie
+                break;
+        }
+
+        // Zoek de juiste configuratie op basis van de gekozen metric
+        const config = chartConfigs.find(c => c.id === chartId);
+        const chartColor = config ? config.color : '#3498db';
+
+        this.chart = new Chart(canvas, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{ 
+                    label: label, 
+                    data: data, 
+                    borderColor: chartColor,
+                    backgroundColor: `${chartColor}33`,
+                    fill: true, 
+                    tension: 0.1 
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                responsive: true,
+                scales: {
+                    x: {
+                        ticks: { display: true }
+                    },
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    title: { display: true, text: `Weekly Trend: ${label}`, font: { size: 14, style: 'italic' }, color: '#888' }
+                },
+                animation: { duration: 500 }
             }
-        }, { offset: Number.NEGATIVE_INFINITY }).element;
-    }
-
-    async showWidgetConfigModal() {
-        const t = this.localizationService.t.bind(this.localizationService);
-        const allWidgetConfigs = buildWidgetConfig(this._composeDashboardData(), this._getWidgetContext());
-        const currentConfig = this.app.settings.get('dashboardWidgets', allWidgetConfigs.map(w => w.id));
-
-        const body = `
-            <p class="mb-4">${t('dashboard.configModal.description')}</p>
-            <div class="grid grid-cols-2 gap-4">
-                ${allWidgetConfigs.map(widget => `
-                    <label class="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200">
-                        <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" data-widget-id="${widget.id}" ${currentConfig.includes(widget.id) ? 'checked' : ''}>
-                        <span class="text-gray-800 dark:text-gray-200">${t(widget.title)}</span>
-                    </label>
-                `).join('')}
-            </div>
-        `;
-
-        const confirmed = await this.uiManager.showConfirmation(t('dashboard.configureWidgets'), body);
-
-        if (confirmed) {
-            const selectedWidgets = Array.from(this.uiManager.modal.querySelectorAll('input[type="checkbox"]:checked'))
-                .map(input => input.dataset.widgetId);
-            this.app.settings.set('dashboardWidgets', selectedWidgets);
-            this.uiManager.showNotification(t('dashboard.configModal.saved'), 'success');
-            this.render(this.container);
-        }
-    }
-
-    _handleIceSearch(event) {
-        const searchTerm = event.target.value.toLowerCase();
-        console.log('ICE Search:', searchTerm);
-    }
-
-    async handleDashboardRrUpload(file) {
-        this.uiManager.showLoading('Analyzing HRV data...');
-        try {
-            const result = await this.app.hrvService.analyzeRrIntervals(file);
-            dashboardState.hrvAnalysisResult = result;
-            this.updateSingleWidget('hrv-analysis');
-            this.uiManager.showNotification('HRV analysis complete.', 'success');
-        } catch (error) {
-            console.error('Error analyzing HRV data:', error);
-            this.uiManager.showNotification(`Error: ${error.message}`, 'error');
-        } finally {
-            this.uiManager.hideLoading();
-        }
-    }
-
-    showAgeCategoryModal(category) {
-        const members = this.dataStore.getMembersByAgeCategory(category);
-        const t = this.localizationService.t.bind(this.localizationService);
-        const title = `${t('dashboard.memberDistribution.title')}: ${category}`;
-        const body = `
-            <ul>
-                ${members.map(m => `<li>${m.name}</li>`).join('')}
-            </ul>
-        `;
-        this.uiManager.showAlert(title, body);
-    }
-
-    showTrainerRatingsModal(trainerId) {
-        const trainer = this.dataStore.getEmployeeById(trainerId);
-        const ratings = this.dataStore.getRatingsForTrainer(trainerId);
-        const t = this.localizationService.t.bind(this.localizationService);
-        const title = `${t('dashboard.trainerPerformance.ratingsFor')} ${trainer.name}`;
-        const body = `
-            <p>Average Rating: ${ratings.average.toFixed(2)}</p>
-            <ul>
-                ${ratings.comments.map(c => `<li>\"${c.comment}\" - ${c.rating} stars</li>`).join('')}
-            </ul>
-        `;
-        this.uiManager.showAlert(title, body);
-    }
-
-    destroy() {
-        if (this.boundBluetoothHandler) {
-            this.app.bluetoothService.off('connectionStateChange', this.boundBluetoothHandler);
-            this.boundBluetoothHandler = null;
-        }
-        if (this.container) {
-            this.container.innerHTML = '';
-        }
+        });
     }
 }

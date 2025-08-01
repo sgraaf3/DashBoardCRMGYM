@@ -4,7 +4,7 @@ export default class LessonScheduleView {
         this.dataStore = app.dataStore;
     }
 
-    render(container) {
+    render(container, model = null) {
         const lessonTemplates = this.dataStore.getLessonTemplates();
         const employees = this.dataStore.getEmployees();
         const daysMap = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
