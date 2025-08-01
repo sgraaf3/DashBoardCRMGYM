@@ -1,0 +1,292 @@
+{"sport_teaching_coaching_db": [
+    {"concept": "Lesgeven Algemeen (Sportschool)",
+      "description": "Richtlijnen en basisregels voor sportdocenten in een sportschoolomgeving, gericht op contact, betrokkenheid en lesgeefplezier.",
+      "before_class": [
+        "Aanmelden bij receptie, proefleskaartjes ophalen, tablet meenemen voor presentie.",
+        "10 minuten voor les aanwezig zijn: zaal opruimen, muziek, luchtbehandeling, lichten klaarzetten (sfeer).",
+        "Materialen klaarleggen, verbandtrommel controleren.",
+        "Leerlingen ontvangen en nieuwe leerlingen helpen opgang.",
+        "Presentie voeren (contact maken).",
+        "Vertellen over de les van vandaag."
+      ],"during_class": [
+        "Les 5 minuten voor eindtijd stoppen.",
+        "Zorgen dat iedereen zijn spullen schoonmaakt en opruimt.",
+        "Vragen wat leerlingen van de les vonden."
+      ],"after_class": [
+        "Zaal afsluiten, opgeruimd, luchtbehandeling, lichten, muziek uit.",
+        "Tablet terug aan de oplader.",
+        "Afmelden bij receptie, licht op bord uit laten doen.",
+        "Nieuwe leerling aanspreken en zorgen dat hij/zij bij receptie langsloopt (via proefleskaartjes)."
+      ],"basic_rules_interaction": [
+        "Nieuwe leerlingen ontvangen en vragen stellen.",
+        "Ouders spreken (evt. foto 1e les judopak).",
+        "Leerlingen bij naam kennen (presentie).",
+        "Iedereen aandacht geven, inspelen op zaken die spelen (bijv. 3 weken niet geweest, ziekte, vakantie).",
+        "Optreden waar nodig (rommel, niet opruimen, hygiëne, te vroeg/laat in zaal komen).",
+        "Doorsturen waar nodig (andere sport, dokter, podoloog).",
+        "Vertellen wat er in de les gaat gebeuren, corrigeren.",
+        "Aan einde vragen wat ze ervan vonden.",
+        "Proefles nabellen (reactie thuis, vragen)."
+      ]
+    },{"concept": "Specifieke Vaardigheden Docent (Sport)",
+      "description": "Cruciale vaardigheden voor effectief lesgeven en begeleiden van sporters.",
+      "skills": [
+        {"name": "Vakbekwaamheid", "details": "Grondige kennis van de sport (vaardigheden, technieken, tactieken, regels), op de hoogte blijven van recente ontwikkelingen."},
+        {"name": "Didactische vaardigheden", "details": "Kennis en vaardigheden effectief en begrijpelijk overbrengen (complexe concepten vereenvoudigen, duidelijke instructies, geschikte leermethoden/hulpmiddelen)."},
+        {"name": "Communicatieve vaardigheden", "details": "Helder en beknopt spreken, luisteren naar behoeften, constructieve feedback, empathie, vertrouwensband opbouwen."},
+        {"name": "Coachingsvaardigheden", "details": "Sporters coachen op technisch, tactisch en mentaal vlak (motiveren, inspireren, potentieel realiseren, individuele verschillen begrijpen)."},
+        {"name": "Organisatorische vaardigheden", "details": "Les effectief organiseren (lesinhoud plannen, tijd beheren, oefeningen opzetten, veiligheid waarborgen, voorbeeldfunctie)."},
+        {"name": "Probleemoplossende vaardigheden", "details": "Snel reageren op onverwachte situaties/problemen, creatieve oplossingen, kalm blijven onder druk, aanpassingen maken."},
+        {"name": "Leiderschapsvaardigheden", "details": "Leiderschapsrol vervullen (motiveren, inspireren, begeleiden, teamwork stimuleren, positieve sportcultuur creëren)."}
+      ],"benefits": [
+        "Verbeterde leerervaring, motivatie en inspiratie, veilige en ondersteunende omgeving, effectieve probleemoplossing."
+      ],"challenges": [
+        "Beperkingen in eigen vaardigheden, aansluiten bij verschillende leerstijlen, gebrek aan flexibiliteit, mismatch met sporters (specialisatie vs. behoeften)."
+      ]
+    },{"concept": "Span of Control (Sportdocent)",
+      "description": "Het aantal sporters dat een docent effectief kan begeleiden en coachen.",
+      "importance": [
+        "Individuele aandacht: Gepersonaliseerde aanpak voor specifieke behoeften, sterke en zwakke punten.",
+        "Effectieve communicatie: Voldoende tijd voor instructies, feedback en ondersteuning.",
+        "Teamcohesie: Opbouwen van positieve groepscultuur, samenwerking bevorderen, conflicten oplossen.",
+        "Veiligheid en controle: Beter bewaken van veiligheid en gedrag van sporters."
+      ],"challenges": [
+        "Beperkte individuele band bij grote groepen.",
+        "Tijdsbeheer: Moeilijk om voldoende tijd te besteden aan elk individu.",
+        "Behoud van orde en discipline bij grotere groepen.",
+        "Beoordeling en evaluatie: Lastig om individuele prestaties nauwkeurig te volgen.",
+        "Opbouwen van positieve relaties binnen een grotere groep.",
+        "Objectieve beoordeling van prestaties en voortgang."
+      ],"notes": "Optimale span of control is afhankelijk van docent's persoonlijke kennen en kunnen (beginnende instructeur 20-30 personen, ervaren 80-100). Vereist 'controle en overzicht' (alles zien en begrijpen)."
+    },{"concept": "Road & Fieldwork (Outdoor Sporting)",
+      "description": "Een les met conditionele doelstellingen, gegeven in en met gebruikmaking van terrein en wegen (oorsprong U.S. Army 'terreinwerk').",
+      "lesson_duration": "45 tot 90 minuten, afhankelijk van behoefte en mogelijkheden.",
+      "gathering_methods": [
+        "Vaste dag, vaste tijd, vaste plaats.",
+        "Vaste route tot een bepaald punt, dan wisselende startplaats (mogelijkheid om onderweg 'aan te sluiten').",
+        "Klein groepsverband via 'pasgemaakte afspraken'."
+      ],"start_locations": [
+        "Sportpark DE WOLFSKAMER", "Parkeerterrein EUKENBERG (JAN SINT)", "Begin VALKEVEENSELAAN",
+        "Waterpomp OUD BUSSUMERWEG / LAAGHUIZERWEG", "Zwembad SIJSJESBERG", "Parkeerterrein LEGERPLAATS CRAILO",
+        "Parkeerterrein TRAPPENBERG", "Parkeerterrein GOEDE GOOIER", "Heiderand LANG HUIZERWEG",
+        "Parkeerterrein TAFELBERG", "Parkeerterrein DE KUIL (TENNIS)", "Oud bussummerweg/ de beek",
+        "De woensberg", "De Eendracht", "Sportschool REBEL"
+      ],"loop_principles": [
+        "Doelstelling van de les (kracht, snelheid, lenigheid, uithoudingsvermogen, coördinatievermogen via frequentie, intensiteit, duur over 18 hoofdspiergroepen).",
+        "Temperatuur (hoger = meer oefeningen op de plaats; kouder = meer oefeningen tijdens voortgaan).",
+        "Regen (bossen bieden meer beschutting).",
+        "Windsterkte (bepaalt of in open terrein getraind kan worden, afkoeling).",
+        "Windrichting (start tegen de wind in, eindig met wind in de rug; kringloop is fout).",
+        "Seizoen (vitaliteitsdieptepunt feb-apr: voorzichtiger opbouwen, sub-max duurtrainingen beter).",
+        "Moment van de dag (meer inspanning voor werkdag dan erna).",
+        "Moment in de week (begin van week/weekend kan gemaximaliseerd worden door rustdag ervoor).",
+        "Groepsgrootte (afhankelijk van instructeur's kunnen, 20-30 beginners, 80-100 ervaren; bij grotere groepen: hulptrainers).",
+        "Groepssamenstelling (hoe heterogener, hoe meer 'controle en overzicht' nodig; loop-lussen, interval-stations, groepsopdrachten, partneroefeningen, terreingebruik)."
+      ],"lesson_planning_elements": [
+        "Aantal-registratie/presentielijst", "Keuze startplaats", "Terrein", "Looprichting", "Oefenstof omschrijving",
+        "Aantal series", "Aantal reps", "Duur en minuten van onderdelen", "Cumulatieve minuten verloop"
+      ],"attire": "2-laags sporttenue voor romp, lange trainingsbroek (kreupelhout, struikgewas), plastic folie (zitten/liggen), handdoek bij zware regen."
+    },{"concept": "Opleiding tot Multifunctionele Sportdocent (Algemeen)",
+      "description": "Overzicht van de inhoud en structuur van opleidingen voor sportdocenten, met nadruk op vakkennis en didactische vaardigheden.",
+      "core_subjects": [
+        "Anatomie", "Fysiologie", "Trainingsleer", "Didactiek", "Pedagogie", "EHBO", "Reanimatie"
+      ],"teaching_skills": [
+        "Tellen (standaard beginprocedure: attentie-semi, waarschuwingscommando, uitvoeringscommando; andere vormen: oplopende toon, halve tel, accent-tellen, tempo-tellen, accumulatief tellen, seconde-waarde, variabele tussenwaardes, serietellen).",
+        "Oppakken bestaand tempo en geleidelijk aanpassen.",
+        "Vanuit rust beginnen met benodigd tempo.",
+        "Voorgeschreven actie (bijv. 1e pas met linkervoet).",
+        "Sfeer in de les creëren (stem, commando's, meetellen).",
+        "Omgaan met groepsdynamiek (niet competitie aangaan met groep, zorgen voor de minst presterende).",
+        "Controleren en overzicht bewaren (alles zien en begrijpen).",
+        "Les opbouw: Inleiding, Kern, Kalmering."
+      ],"personal_experience_teaching": "Onzekerheid bij lesgeven aan groepen/theorie, belang van oefening om zaken onder de knie te krijgen (tellen, correcties, tempo, tijd)."
+    },{"concept": "Energy Control Academy Opleidingen",
+      "description": "Overzicht van de opleidingen aangeboden door de Energy Control Academy, gericht op coaches en behandelaars die de Energy Control methode willen toepassen.",
+      "mission": "Kennis overdragen en vaardigheden verschaffen om zelf inspanningstesten te beoordelen, trainingsprogramma’s te maken en veelvoorkomende gezondheidsproblematiek te herkennen. Bewegen wordt erkend als medicijn.",
+      "courses_offered": [
+        {"name": "Basis workshop", "duration": "1 dag", "target_audience": "Geïnteresseerde zorgverleners en patiënten", "goal": "Inkijkje in EC-methode, enthousiasmeren voor opleiding/apparatuur, meer leren over methode, afspraak maken bij netwerkcoaches.", "price": "€19,95 p.p."},
+        {"name": "Opleiding tot EnergyControl Coach", "duration": "Meerdere dagen (Ademtherapie, Inspanningsfysiologie, Medische fitness, Marketing, Praktijkdag, Examen)", "target_audience": "Professionals", "goal": "Nagenoeg feilloos uitvoeren en beoordelen van testen, coachen met de methode, herkennen gezondheidsproblematiek.", "price": "€850,- per praktijk (max. 2 deelnemers)"},
+        {"name": "Opleiding tot EnergyControl Looptrainer", "duration": "1 dag + 1 halve dag stage + terugkomavond", "target_audience": "Looptrainers", "goal": "Uitleg ademtherapie, inspanningsfysiologie, testen, invulling looptrainersdag.", "price": "€350,-"},
+        {"name": "Opleiding tot EnergyControl Analist", "duration": "Nog te bespreken", "target_audience": "Alleen ervaren EC-coaches die testen snappen.", "goal": "Verdieping in testanalyse."},
+        {"name": "Basis Opleidingen Ademtherapie en Inspanningsfysiologie", "duration": "1 hele dag per module (10:00-16:00)", "target_audience": "Diegene die meer willen weten over fysiologie van ademhaling/inspanning.", "goal": "Zelf met eenvoudige middelen ademhaling/inspanning analyseren.", "price": "€150,- excl. BTW per dag"},
+        {"name": "Ademtherapeut (Gevorderd)", "duration": "2 dagen (theorie + praktijk)", "target_audience": "Dieper in ademhaling, nieuw beroep ontdekken.", "goal": "Goede diagnose stellen, programma opstellen, bediening apparatuur (optioneel).", "price": "Vanaf €1250,- excl. BTW (met apparatuur), €150,- excl. BTW (alleen theoriedag)"},
+        {"name": "Inspanningsfysiologie (Gevorderd)", "duration": "Praktijkdag (alleen voor apparatuurbezitters)", "target_audience": "Dieper in inspanningsfysiologie.", "goal": "Bekijken/praktijk testen, vragen."},
+        {"name": "Medical Fitness Coach (Gevorderd)", "duration": "1 dag (verkort voor reeds opgeleiden), 6 hele dagen + stage + terugkomavond (volledig)", "target_audience": "Mensen weer op de rails krijgen.", "goal": "Behandelen van stressgerelateerde ziekten, Oncofit, COPD, Overgewicht, Diabetes 2."},
+        {"name": "EC Topcoach", "description": "Gratis voor leden van het netwerk. Zet alle puntjes op i voor goede begeleiding, uitgebreid gebruik website en App."}
+      ],"network_membership": {
+        "description": "Lidmaatschap van het Energy Control team na basiscursus, met richtlijnen voor meten en begeleiden.",
+        "benefits": "Onbeperkt insturen van testen, ondersteuning bij loopprogramma's, updates, korting op service/apparatuur, doorverwijzing van klanten, lezingen (gratis voor leden binnen 50km), gratis 1 opleiding naar keuze, spoedopleiding medewerker, 1 netwerkbijeenkomst/scholing, gratis EC topcoach.",
+        "costs_2020": "€300,- per jaar (startende coaches €150,- eerste jaar), gratis bij aanschaf apparatuur."
+      }
+    },{"concept": "Pakketten (Energy Control Methode)",
+      "description": "Verschillende programma's en diensten aangeboden door Energy Control, afgestemd op diverse behoeften.",
+      "types": [
+        {"name": "Doe het zelf/sport",
+          "description": "Zelfstandige ondersteuning met de Energy Control Methode.",
+          "includes": [
+            "Startmeting/Nulmeting (fitheid bepalen)",
+            "Pakket: band, contactgel, boekje met uitleg, toegang tot de app, extra merch, voedingsadviezen (optioneel)",
+            "Zelfstandig trainen met app."
+          ],
+          "price": "Niet gespecificeerd, maar impliceert een prijs."
+        },{
+          "name": "Doe het samen",
+          "description": "Begeleiding door een gecertificeerde coach.",
+          "includes": [
+            "Startmeting/Nulmeting",
+            "Pakket: band, contactgel, boekje met uitleg, toegang tot de app, extra merch, voedingsadviezen (optioneel)",
+            "Samenwerking met gecertificeerde coach."
+          ],"price": "Niet gespecificeerd, maar impliceert een prijs."
+        },{"name": "Bedrijfspakket (Uitval en preventie)",
+          "description": "Programma's gericht op werkgevers voor verzuimreductie en preventie van stress/burn-out.",
+          "benefits": "Bespaart max. €63.840,- per uitgevallen werknemer, werknemer gemiddeld 152 dagen eerder terug op werk.",
+          "includes": [
+            "Intake (persoonlijk gesprek, rust- en stressmeting, inspanningstest).",
+            "Programma (cardiotraining op juiste niveau, ademhalingstherapie, monitoring via app).",
+            "Vitaal (instrumenten om balans te behouden, 41 weken toegang tot app)."
+          ],"types_of_programs": [
+            {"name": "Preventie/Fit programma", "description": "Stresspreventie, testen belastbaarheid, app-gebruik met/zonder begeleiding, stresspreventie dagen op werkvloer.", "cost": "Op aanvraag."},
+            {"name": "Intensief op afstand", "description": "Zelfstandig trainen met app, online monitoring/advies door trainer. Na 12 weken hermeting, app jaar beschikbaar, wekelijkse monitoring.", "cost": "€1.700,- excl. BTW voor een jaar."},
+            {"name": "Intensief begeleiding", "description": "12 weken begeleiding door professionele coach (3x/week, max 6 pers/groep). Na 6/12 weken test, app jaar beschikbaar, wekelijkse monitoring.", "cost": "€3.000,- excl. BTW voor een jaar."}
+          ]
+        },{"name": "UWV Werkfit Traject",
+          "description": "Re-integratietraject voor mensen die door burn-out/chronische vermoeidheid langdurig niet hebben gewerkt, met UWV-uitkering of AOV (ZZP).",
+          "duration": "12 weken",
+          "benefits": "92% voelt zich fit, 95% terug naar werk.",
+          "methodology": "Metingen (rust, inspanning) om balans te herstellen, cardiotraining, ademhalingstherapie, monitoring via app, mobiliteits- en vibratietraining, mentale begeleiding (optioneel)."
+        }
+      ]
+    },{"concept": "Klanttypen en Communicatie",
+      "description": "Inzicht in verschillende klanttypen en effectieve communicatiestrategieën voor coaches.",
+      "client_types": [
+        {"name": "De dominante klant",
+          "characteristics": "Heldere visie, strijdlustig, behoefte om anderen te onderwerpen, voelt zich graag gehoord en bewonderd.",
+          "approach": "Actief luisteren, vragen naar mening, zelfverzekerd en zakelijk overkomen, complimenten geven."
+        },{"name": "De afstandelijke klant",
+          "characteristics": "Verlegen, analytische houding, goed ingevoerd, houdt van feitelijke aanpak, sociale kant minder aanwezig.",
+          "approach": "Communiceren in logische bewoordingen, gesprek inhoudelijk en onpersoonlijk houden, inhoudelijk ruimte geven."
+        },{"name": "De sociale klant",
+          "characteristics": "Hartelijk, vriendelijk, bereid tot small talk, vaak geen of onvolledige visie, moeilijk ter zake komend, hecht waarde aan comfortabel gesprek.",
+          "approach": "Zelf initiatief nemen, duidelijke visie meegeven, altijd vriendelijk blijven."
+        }
+      ],"notes": "Klant's houding heeft vaak te maken met een behoefte, niet persoonlijkheid. Oefening baart kunst; durf het gesprek aan te gaan, ken je grenzen."
+    },{"concept": "Sales en Communicatie (Algemeen)",
+      "description": "Basisprincipes van communicatie in sales voor sportcoaches.",
+      "core_elements_of_conversation": ["Vragen", "Begrip tonen", "Antwoorden", "Onderwerpen aansnijden"],
+      "influencing_factors_conversation_order": ["Lichaamstaal", "Intonatie", "Woordkeus"],
+      "communication_channels": [
+        {"type": "Telefonische communicatie", "body_language_impact": "10%", "intonation_impact": "70%", "word_choice_impact": "20%"},
+        {"type": "Face to face communicatie", "body_language_impact": "55%", "intonation_impact": "38%", "word_choice_impact": "7%"}
+      ],"body_language": {
+        "recognizing": "Waar herken ik mensen aan in hun lichaamstaal? Waar let iedereen op?",
+        "reacting": "Hoe reageer ik in mijn lichaamstaal? Hoe reageren anderen?",
+        "mirroring": "Hoe/wat spiegel ik? Hoe spiegelt een derde? Wat doet iedereen tijdens spiegelen?",
+        "redirecting": "Wat betekent lichaamstaal ombuigen? Hoe buig ik/een ander lichaamstaal om? Wat doet iedereen?"
+      },"intonation": {
+        "recognizing": "Hoe spreek ik/een ander zinnen uit? Hoe spreken mensen zinnen uit in een situatie?",
+        "redirecting": "Hoe buig ik/een ander mijn intonatie om? Wat doet iedereen?",
+        "topic_change": "Hoe stap ik over van onderwerp? In welke situatie? Welke manieren zijn er?"
+      },"word_choice": {
+        "recognizing": "Wat spreek ik/een ander uit? Hoe spreken mensen zinnen uit?",
+        "vocabulary_differences": "Wat zijn verschillende vocabulaires (binnen 1 taal)? Hoe herken ik een vocabulaire? Welke woorden moet ik gebruiken?"
+      },"sales_techniques": {
+        "open_question": "Vraag naar vooruitgang in het gesprek (bijv. 'Welke les kom je volgen?').",
+        "closed_question": "Vraag ter afsluiting van het onderwerp (bijv. 'Lekker gesport?').",
+        "yes_ladder_or_hype_moment": "Driemaal 'ja' op een vraag binnen 2 minuten om een positieve flow te creëren.",
+        "handling_resistance_time": "Erkennen van tijdgebrek ('chaos' domineert), koppelen aan voordelen sporten (meer energie, plezier, snellere afhandeling dagelijkse bezigheden).",
+        "handling_resistance_money": "Kwaliteit van dienstverlening benadrukken, 'Bring a friend' acties, extra's (fysio, diëtist, sauna, zwembad, gezonde bar)."
+      },"motivators_for_joining_rebelsport": [
+        "Gemak, goede prijs, herkenning, motivatie/trigger, sociale omgeving, snel resultaat.",
+        "Aanbod Rebel: veelheid sporten, extra's (sauna, zwembad, fysio, diëtist), kwalitatieve begeleiding/leerplan, warmte/gezelligheid (familiebedrijf), flexibele abonnementen, verspreide sportscholen, betrokkenheid."
+      ],"contact_moments_bar": "4-6 contactmomenten per gezin per kind (wegbrengen/ophalen, drankje aan de bar).",
+      "contact_moments_teacher": "3-4 momenten per leerling per les (inloop, les, uitloop, buiten lessen om)."
+    },{"concept": "Algemene Voorwaarden RebelSport",
+      "description": "Regels en voorwaarden voor deelname aan activiteiten en diensten van RebelSport.",
+      "activities_and_services": "Deelname geschiedt geheel voor rekening en risico van de deelnemer.",
+      "membership": {
+        "personal": "Persoonsgebonden en niet overdraagbaar.",
+        "registration": "Inschrijfformulier naar waarheid invullen, ondertekenen, contributie betalen.",
+        "duration": "Overeengekomen periode, stilzwijgend verlengd met een maand tot wederopzegging.",
+        "types": {"ONE": "1x/week (13 lessen/3 maanden)", "PLUS": "Onbeperkt toegang."},
+        "start_costs": "Opvraagbaar bij receptie.",
+        "membership_pass": "Persoonsgebonden, bewijs van lidmaatschap/toegang. Ongelimiteerd door paslezer halen (1 bezoek afgeboekt). Kosten voor nieuwe pas.",
+        "discount": "Gezin >2 betalende leden krijgen 10% korting op maandcontributie. Max 10% korting."
+      },"membership_changes": {
+        "frequency_increase": "Kan op elk moment, pro rata verschil bij volgende betaling. Wijzigingsformulier.",
+        "frequency_decrease": "Per kalendermaand, na 1e contractsperiode, vóór 20e van vorige maand. Gemiste lessen vervallen."
+      },"temporary_suspension": {
+        "conditions": "Zwangerschap, langdurige ziekte/blessure (>4 weken), verblijf buitenland >1 maand (geen vakantie). Max 6 maanden.",
+        "extension": "Contract evenredig verlengd met opschortingsperiode.",
+        "own_risk": "Max 2 weken (behoudens hardheidsclausule directie).",
+        "financial_settlement": "Directe verrekening of bij eerstvolgende betaling.",
+        "reactivation": "Automatisch geactiveerd na einddatum opschorting.",
+        "proof": "Digitale kopie bewaren als bewijs."
+      },"cancellation": {
+        "re_registration_costs": "Bij onderbreking >3 maanden opnieuw startkosten.",
+        "procedure": "Persoonlijk via opzegformulier bij receptie of schriftelijk met handtekening. Andere wijzen niet geaccepteerd.",
+        "notice_period": "Minimaal 1 maand voor afloop lopende contractsperiode. Na 1e contractsperiode per maand opzegbaar met 1 maand opzegtermijn.",
+        "outstanding_payments": "Alle startkosten, abonnementsgelden, negatieve bartegoeden volledig betaald bij opzegging.",
+        "proof": "Digitale kopie bewaren als bewijs."
+      },"payments": {
+        "method": "Maandelijkse automatische incasso (1e/2e werkdag maand).",
+        "initial_payment": "Bij inschrijving na 1e van maand: direct verschuldigde bedrag. Tussentijdse incasso voor deelbedrag.",
+        "reminders": "Max 3 herinneringsnota's. Daarna incassobureau (kosten voor debiteur).",
+        "cash_payments": "Minimaal 3 kalendermaanden vooruit (incl. restbedrag lopende maand). Daarna steeds min 3 maanden."
+      },"holidays_and_vacation": "Gesloten op officiële feest-/gedenkdagen. Aangepaste openingstijden/roosters in vakantieperiodes. Normale abonnementsgelden verschuldigd."
+    },{"concept": "Algemene Voorwaarden Native Art Films",
+      "description": "Juridische voorwaarden voor de ontwikkeling, productie en distributie van audiovisuele content.",
+      "definitions": ["Native Art: Opdrachtnemer (NAF).",
+        "Opdrachtgever: Rechtspersoon/natuurlijke persoon die Overeenkomst sluit.",
+        "Overeenkomst: Ondertekende/schriftelijk bevestigde Offerte + Algemene Voorwaarden.",
+        "Draaidag: Productiedag van 10 uur (extra kosten buiten Werkdag).",
+        "Werkdag: Maandag t/m vrijdag (excl. officiële feestdagen).",
+        "Resultaten: Eindresultaat of ruwe, nog te verwerken resultaten van opdracht.",
+        "Materialen: Alle intellectuele voortbrengselen gerelateerd aan de opdracht (websites, apps, logo's, teksten, audiovisueel materiaal, etc.).",
+        "Meerwerk: Aanvullende werkzaamheden buiten Overeenkomst."
+      ],"agreement_formation_duration": "Totstandkoming door schriftelijke bevestiging/ondertekening Offerte. Duur gelijk aan opdracht in Offerte.",
+      "assignment_execution": {
+        "responsibility": "Native Art voert opdracht naar eigen inzicht uit, naar behoren en met volledige inzet, inzicht en kennis.",
+        "location": "Niet locatiegebonden, tenzij schriftelijk anders.",
+        "obligation": "Inspanningsverplichting, geen resultaatverplichting.",
+        "instruction_authority": "Opdrachtgever heeft geen instructiebevoegdheid.",
+        "third_parties": "Native Art mag derden inschakelen.",
+        "suspension": "Native Art kan uitvoering opschorten tot schriftelijke goedkeuring deelopdracht. Betalingsverplichtingen blijven bestaan."
+      },"delivery_acceptance": "Resultaten geleverd in vastgesteld formaat. Eén feedbackronde inbegrepen. Acceptatie door schriftelijke bevestiging of stilzwijgend na 5 Werkdagen. Gebruik geldt als acceptatie.",
+      "intellectual_property_rights": {
+        "ownership": "Materialen van Native Art/derden blijven eigendom van Native Art/derden. Materialen van Opdrachtgever blijven eigendom van Opdrachtgever/derden.",
+        "third_party_conditions": "Partijen wijzen elkaar op extra voorwaarden van derden; aansprakelijkheid bij niet-naleving.",
+        "care_for_materials": "Grootst mogelijke zorg; schadevergoeding bij beschadiging.",
+        "availability_of_materials": "Materiaal niet-Resultaten enkel voor duur Overeenkomst. Digitale bestanden vernietigen na einde. Fysieke bestanden aangetekend retour.",
+        "rights_on_results": "Native Art/ingeschakelde derde is rechthebbende intellectueel eigendom op Resultaten.",
+        "license_to_use": "Opdrachtgever krijgt licentie na volledige betaling. Reikwijdte in Offerte. Standaard: niet overdraagbaar, geen sub-licenties, eenmalig, niet-exclusief gebruik in ongewijzigde vorm, in land van openbaarmaking, op overeengekomen domein.",
+        "license_extension": "Uitbreiding gebruiksrechten (territorium, termijn, gebruik) enkel schriftelijk.",
+        "modification": "Wijziging Resultaten enkel na schriftelijke goedkeuring Native Art.",
+        "transfer_of_copyright": "Overdracht auteursrecht op Resultaten betekent geen overdracht morele rechten (art. 25 Auteurswet). Native Art behoudt niet-exclusief gebruiksrecht voor promotie. Exclusief gebruiksrecht voor niet-gekozen Resultaten.",
+        "breach_of_rights": "Bij schending gebruiksrechten: Native Art kan licentie opschorten/opzeggen, boete van €500/dag (max €50.000), onverminderd recht op schadevergoeding/nakoming."
+      },"remuneration_payment": {
+        "fee": "Vastgesteld in Offerte. Lager bij deelopdracht van grotere opdracht.",
+        "excl_vat": "Exclusief BTW en andere heffingen.",
+        "invoicing": "50% direct na Overeenkomst, 50% na uitvoering (laatste preview). Meerwerk bij laatste factuur. Elektronische factuur.",
+        "payment_term": "14 dagen, tenzij anders.",
+        "collection_costs": "Bij niet-tijdige betaling: volledige vergoeding buitenrechtelijke/gerechtelijke incassokosten.",
+        "immediate_payment": "Vordering direct opeisbaar bij faillissement, surseance, beslag, overlijden, liquidatie/ontbinding.",
+        "suspension_rights": "Native Art kan uitvoering opschorten/beëindigen zonder ingebrekestelling bij niet-betaling, zonder afbreuk aan betalingsverplichting.",
+        "no_set_off": "Opdrachtgever mag vergoedingen niet verrekenen.",
+        "information_for_invoicing": "Opdrachtgever levert benodigde info schriftelijk binnen 5 werkdagen/vóór 1e Draaidag. Bij niet-tijdige levering: opschorting opdracht, verlenging deadlines.",
+        "liberating_payments": "Uitsluitend betalingen aan Native Art zelf zijn bevrijdend."
+      },"cancellation_shooting_day": "Kosten doorberekend bij afgelasting door Opdrachtgever: 0% (>5 Werkdagen), 25% (3 Werkdagen), 50% (1 Werkdag), 100% (op Draaidag zelf).",
+      "competition": "Native Art mag voor derden werken, ook concurrenten. Opdrachtgever mag werknemers Native Art niet in dienst nemen/inhuren/benaderen gedurende Overeenkomst en 2 jaar erna (tenzij schriftelijk overeengekomen).",
+      "confidentiality": "Informatie gemarkeerd als vertrouwelijk wordt vertrouwelijk behandeld, ook na einde Overeenkomst.",
+      "liability_limitation": {
+        "general": "Native Art aansprakelijk voor toerekenbare tekortkoming (directe schade) tot max bedrag vergoeding van betreffende opdracht. Max vervalt bij opzet/grove schuld.",
+        "other_damages_excluded": "Uitsluiting aansprakelijkheid voor aanvullende/indirecte/gevolgschade, gederfde omzet/winst.",
+        "notification_of_defect": "Aansprakelijkheid ontstaat enkel bij onverwijlde schriftelijke melding (binnen 14 dagen) en voortdurende tekortkoming.",
+        "unlawful_act": "Aansprakelijk voor schade door dood/lichamelijk letsel, en andere schade door opzet/bewuste roekeloosheid (max €5000,- per gebeurtenis).",
+        "indemnification": "Opdrachtgever vrijwaart Native Art voor aanspraken van derden."
+      },"force_majeure": "Native Art niet gehouden tot nakoming bij overmacht (storingen, tekortkomingen toeleveranciers, gebrekkigheid materialen, stakingen, overheidsmaatregelen). Ontbinding mogelijk na 3 maanden overmacht, reeds gepresteerd wordt naar verhouding afgerekend.",
+      "amendments_transfer": "Overeenkomst/opdracht enkel schriftelijk en gezamenlijk te wijzigen/aanvullen. Algemene Voorwaarden wijzigbaar door Native Art (gelden voor nieuwe Overeenkomsten). Rechten/plichten enkel overdraagbaar met schriftelijke toestemming.",
+      "termination": "Overeenkomst eindigt van rechtswege bij voldoen van rechten/plichten. Native Art kan opzeggen bij niet-tijdige betaling factuur. Beide partijen kunnen per direct opzeggen bij faillissement, surseance, ontbinding/liquidatie. Bepaalde artikelen blijven van toepassing na einde Overeenkomst.",
+      "miscellaneous": "Nederlands recht van toepassing. Geschillen voorgelegd aan bevoegde Nederlandse rechter. Nietigheid bepaling tast geldigheid gehele overeenkomst niet aan. 'Schriftelijk' omvat e-mail/fax. Ontvangen/opgeslagen versie communicatie geldt als authentiek. Partijen informeren elkaar over wijzigingen contactgegevens. Native Art mag opdracht tonen ter promotie, tenzij redelijke belangen Opdrachtgever dit onaanvaardbaar maken. Bij strijd tussen Algemene Voorwaarden en Offerte, prevaleert Offerte."
+    }
+  ]
+}

@@ -1,0 +1,3552 @@
+[
+  {
+    "name": "Vocalis",
+    "description": "De Vocalis is een intrinsieke spier van de larynx, die een integraal onderdeel vormt van de stembanden zelf en essentieel is voor fijne modulatie van de stem.",
+    "anatomy": {
+      "origin": {
+        "location": "Lateraal oppervlak van het vocale proces van het arytenoïd kraakbeen, en het angulus van het thyroïd kraakbeen.",
+        "details": [
+          "De oorsprong is verstrengeld met de laterale rand van de conus elasticus."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale rand van het vocale ligament en de laterale aspecten van de vocale plooi (stemband).",
+        "details": [
+          "Vezels lopen anteroposterieur, parallel aan de vrije rand van de stemband."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": 15.0,
+          "range": "12-18",
+          "standard_deviation": 1.5,
+          "unit": "mm",
+          "note": "Variabel met geslacht en leeftijd."
+        },
+        "width_mm": {
+          "average": 3.0,
+          "range": "2-4",
+          "standard_deviation": 0.5,
+          "unit": "mm",
+          "note": "In transversale doorsnede."
+        },
+        "thickness_mm": {
+          "average": 2.0,
+          "range": "1.5-2.5",
+          "standard_deviation": 0.3,
+          "unit": "mm"
+        }
+      },
+      "innervation": {
+        "nerve": "N. laryngeus recurrens (tak van N. vagus, tiende hersenzenuw, nervus cranialis X)",
+        "branch": "Laryngeale takken.",
+        "details": "Alle intrinsieke larynxspieren (behalve de Cricothyroïd) worden geïnnerveerd door deze zenuw."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. laryngea superior (tak van de A. thyroidea superior).",
+          "A. laryngea inferior (tak van de A. thyroidea inferior)."
+        ],
+        "venous_drainage": "V. laryngea superior en V. laryngea inferior."
+      }
+    },
+    "function": {
+      "primary_action": "Verdikking en verkorting van de stembanden, adductie tijdens spraak.",
+      "mechanism_of_action": "De Vocalis fungeert als een 'fine-tuner' van de stembandspanning. Door contractie verkorten en verdikken de vocale plooien, wat de toonhoogte verlaagt en de intensiteit verhoogt. Het speelt een cruciale rol bij adductorische bewegingen (sluiten van de stembanden) voor fonatie.",
+      "force_vector_components": {
+        "anteroposterior_shortening": "Hoofdcomponent, geschat op 60-70% van de spieractiviteit voor toonhoogteverandering.",
+        "vertical_thickening": "Belangrijk voor stemintensiteit, geschat op 30-40% van de spieractiviteit."
+      },
+      "vocal_fold_change_mm": {
+        "length_decrease_mm": "1-3",
+        "thickness_increase_mm": "0.5-1.5",
+        "note": "Geschatte veranderingen bij spraakproductie."
+      },
+      "role_in_expression": [
+        "Essentieel voor spraak, zang en geluidsproductie.",
+        "Maakt fijne modulatie van toonhoogte, volume en timbre van de stem mogelijk.",
+        "Draagt bij aan de sluiting van de glottis tijdens activiteiten zoals hoesten en persen."
+      ],
+      "synergists": [
+        "Thyroarytenoid (waartoe Vocalis vaak als een deel wordt gerekend)",
+        "Lateral cricoarytenoid (voor adductie)",
+        "Transverse arytenoid (voor adductie)"
+      ],
+      "antagonists": [
+        "Cricothyroid (verlengt en spant stembanden)",
+        "Posterior cricoarytenoid (abducteert stembanden)"
+      ]
+    },
+    "visual_analogy": "Denk aan de Vocalis als kleine elastische banden die binnenin de stembanden lopen. Wanneer ze samentrekken, worden de stembanden dikker en korter, net zoals je een gitaarsnaar strakker zet om de toon te veranderen. Dit is de kern van hoe je verschillende klanken en toonhoogtes produceert bij het spreken of zingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Verticalis linguae",
+    "description": "De Verticalis linguae is een intrinsieke tongspier die voornamelijk verantwoordelijk is voor het afvlakken of verbreden van de tong.",
+    "anatomy": {
+      "origin": {
+        "location": "Bovenste oppervlak van de tong, nabij de dorsale mucosale laag.",
+        "details": [
+          "Vezels ontspringen diffuus uit het submucosale bindweefsel van de tongrug."
+        ]
+      },
+      "insertion": {
+        "location": "Onderste oppervlak van de tong, nabij de ventrale mucosale laag en de inferieure longitudinale vezels.",
+        "details": [
+          "Vezels lopen verticaal door de tongsubstantie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Variabel afhankelijk van de positie en vorm van de tong."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de intrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Verbreedt en vlakt de tong af.",
+      "mechanism_of_action": "Bij contractie trekken de vezels het bovenste en onderste oppervlak van de tong naar elkaar toe, waardoor de tong breder en platter wordt.",
+      "force_vector_components": {
+        "vertical_compression": "Hoofdcomponent, geschat op 60-70% van de spieractiviteit voor vormverandering."
+      },
+      "tongue_shape_change": {
+        "thickening_decrease_mm": "2-5",
+        "width_increase_mm": "3-8",
+        "note": "Geschatte veranderingen, zeer contextafhankelijk."
+      },
+      "role_in_expression": [
+        "Belangrijk voor spraakarticulatie, met name bij het vormen van klinkers en bepaalde medeklinkers.",
+        "Speelt een rol bij het manipuleren van voedsel tijdens kauwen en slikken door de tong aan te passen aan de vorm van de mondholte."
+      ],
+      "synergists": [
+        "Transversus linguae (voor vernauwing)",
+        "Superior en Inferior longitudinal lingual (voor verkorting)"
+      ],
+      "antagonists": [
+        "Genioglossus (protrusie en depressie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Verticalis linguae voor als minuscule verticale pilaren die de bovenkant en onderkant van de tong met elkaar verbinden. Wanneer deze pilaren samentrekken, drukken ze de tong plat en spreiden ze hem naar de zijkanten uit, alsof je een ballon plat knijpt om hem breder te maken.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Uvulae",
+    "description": "De Musculus uvulae is een kleine, intrinsieke spier van het zachte gehemelte die verantwoordelijk is voor het optillen en verkorten van de huig.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure nasale wervelkolom van het palatijn bot en de palatinale aponeurose.",
+        "details": [
+          "De oorsprong is smal en bevindt zich in het midden van de zachte gehemelte."
+        ]
+      },
+      "insertion": {
+        "location": "Mucosa van de uvula (huig) aan de posterieure zijde.",
+        "details": [
+          "Vezels lopen posterior en inferieur naar de huig."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": 10.0,
+          "range": "8-12",
+          "standard_deviation": 1.0,
+          "unit": "mm",
+          "note": "Lengte van de spierbuik."
+        },
+        "width_mm": {
+          "average": 2.0,
+          "range": "1.5-2.5",
+          "standard_deviation": 0.3,
+          "unit": "mm"
+        },
+        "thickness_mm": {
+          "average": 1.0,
+          "range": "0.5-1.5",
+          "standard_deviation": 0.2,
+          "unit": "mm"
+        }
+      },
+      "innervation": {
+        "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+        "branch": "Takken van de pharyngeale plexus (gevormd door N. vagus en N. glossopharyngeus)."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. palatina descendens (tak van de A. maxillaris)."
+        ],
+        "venous_drainage": "Plexus venosus pharyngeus."
+      }
+    },
+    "function": {
+      "primary_action": "Beweegt en verandert de vorm van de uvula.",
+      "mechanism_of_action": "Bij contractie verkort en tilt de Musculus uvulae de huig op, wat helpt om het zachte gehemelte strakker te maken en de nasopharynx af te sluiten tijdens het slikken en spreken.",
+      "uvula_movement_mm": {
+        "elevation_mm": "2-4",
+        "shortening_mm": "1-3",
+        "note": "Geschatte verplaatsing bij contractie."
+      },
+      "role_in_expression": [
+        "Sluit de nasopharynx af tijdens slikken om te voorkomen dat voedsel in de neusholte terechtkomt.",
+        "Belangrijk voor spraakarticulatie, met name bij het produceren van velare klanken en het reguleren van neusklanken (nasaliteit)."
+      ],
+      "synergists": [
+        "Levator veli palatini (voor elevatie van het zachte gehemelte)"
+      ],
+      "antagonists": [
+        "Tensor veli palatini (spant het zachte gehemelte, maar met een ander effect op de huig)."
+      ]
+    },
+    "visual_analogy": "Stel je de Musculus uvulae voor als een minuscuul touwtje dat aan de achterkant van je huig is bevestigd en omhoog en iets naar voren trekt. Wanneer dit touwtje strakker wordt, wordt de huig korter en dikker, en trekt hij omhoog, net zoals je een kleine waterballon zou optillen en erin knijpen om de vorm te veranderen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Transversus nuchae",
+    "description": "De Transversus nuchae is een kleine, variabele spier in de nek, gelegen in de suboccipitale regio. Zijn functie is onduidelijk en van weinig klinisch belang. Het is afwezig bij een significant deel van de populatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Occipitale protuberantia externa of de linea nuchae superior."
+      },
+      "insertion": {
+        "location": "Variabel; kan insertie in de huid van de nek of het superieure deel van het ligamentum nuchae."
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer variabel, vaak rudimentair."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Variabel, mogelijk door takken van de N. occipitalis major of de cervicale spinale zenuwen (C2-C3).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. occipitalis."
+      ],
+      "venous_drainage": "V. occipitalis."
+    },
+    "function": {
+      "primary_action": "Geen expliciete, consistente functie gedocumenteerd.",
+      "mechanism_of_action": "Vanwege zijn variabiliteit en geringe omvang, wordt aangenomen dat de functie minimaal is, mogelijk gerelateerd aan de huid van de nek of het stabiliseren van de oppervlakkige nekfascia. De primaire betekenis is anatomisch als een variant.",
+      "role_in_expression": [
+        "Zeer waarschijnlijk geen significante rol in beweging of expressie."
+      ],
+      "synergists": null,
+      "antagonists": null
+    },
+    "visual_analogy": "Stel je de Transversus nuchae voor als een minuscuul, soms afwezig, spiervezeltje aan de achterkant van je nek, zo klein en onbeduidend dat het nauwelijks een rol speelt in enige beweging. Het is als een klein spinnenwebje dat bijna niet te zien is en geen belangrijke functie vervult.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Transversus linguae",
+    "description": "De Transversus linguae is een intrinsieke tongspier die voornamelijk verantwoordelijk is voor het versmallen van de tong zonder deze te verlengen.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediaal fibreus septum van de tong (linguale septum).",
+        "details": [
+          "De vezels ontspringen van de volledige lengte van het septum."
+        ]
+      },
+      "insertion": {
+        "location": "Submucosale bindweefsel van de laterale randen van de tong.",
+        "details": [
+          "Vezels lopen horizontaal en lateraal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Variabel afhankelijk van de positie en vorm van de tong."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de intrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Vernauwt de tong zonder verlenging.",
+      "mechanism_of_action": "Bij contractie trekken de vezels de laterale randen van de tong naar de middenlijn, waardoor de tong smaller en hoger wordt (afgerond).",
+      "tongue_shape_change": {
+        "width_decrease_mm": "5-10",
+        "height_increase_mm": "2-5",
+        "note": "Geschatte veranderingen, zeer contextafhankelijk."
+      },
+      "role_in_expression": [
+        "Cruciaal voor spraakarticulatie, met name voor het vormen van bepaalde medeklinkers zoals 's' en 'ch' geluiden, waar een smalle tongpunt vereist is.",
+        "Speelt een rol bij het vormen van een bolus van voedsel tijdens kauwen en slikken."
+      ],
+      "synergists": [
+        "Verticalis linguae (assisteert bij vormverandering)",
+        "Superior en Inferior longitudinal lingual (voor verkorting van de tongpunt)"
+      ],
+      "antagonists": [
+        "Genioglossus (voor protrusie en depressie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Transversus linguae voor als horizontale draden die van de middenlijn van je tong naar de zijkanten lopen. Wanneer deze draden samentrekken, trekken ze de zijkanten van je tong naar binnen, waardoor de tong smaller en een beetje boller wordt, alsof je een lange, platte worst omvormt tot een dunnere, ronde stok.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Thyrohyoid",
+    "description": "De Thyrohyoid is een kleine, quadrangulaire spier van de infrahyoïdale groep, die de larynx eleveert of het hyoïd bot depresseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Oblique lijn op het lamina van het thyroïd kraakbeen (schildkraakbeen).",
+        "details": [
+          "Smalle lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Inferieure rand van de grote hoorn (cornu majus) van het hyoïd bot en een deel van het lichaam van het hyoïd.",
+        "details": [
+          "Insertie is relatief breed."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "20-30",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm"
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      },
+      "innervation": {
+        "nerve": "Ansa cervicalis (via C1 vezels die meelopen met de N. hypoglossus).",
+        "branch": null
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. laryngea superior (tak van de A. thyroidea superior)."
+        ],
+        "venous_drainage": "V. laryngea superior."
+      }
+    },
+    "function": {
+      "primary_action": "Deprimeert hyoïd.",
+      "mechanism_of_action": "Afhankelijk van de fixatie van het hyoïd of de larynx: als het hyoïd gefixeerd is, eleveert het de larynx (bijvoorbeeld tijdens hoge toonhoogte zang); als de larynx gefixeerd is, depresseert het het hyoïd (bijvoorbeeld tijdens slikken).",
+      "movement_mm": {
+        "hyoid_larynx_displacement_mm": "2-5",
+        "note": "Geschatte verticale verplaatsing."
+      },
+      "role_in_expression": [
+        "Belangrijk voor slikken (deglutitie), waardoor de larynx omhoog kan bewegen om de luchtweg te beschermen.",
+        "Speelt een rol bij de stemproductie door de positie van de larynx te beïnvloeden.",
+        "Draagt bij aan de mobiliteit van het hyoïd bot."
+      ],
+      "synergists": [
+        "Sternothyroid (voor larynxdepressie)",
+        "Geniohyoid (voor hyoïd elevatie)"
+      ],
+      "antagonists": [
+        "Stylohyoid",
+        "Mylohyoid",
+        "Digastric (voor hyoïd elevatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Thyrohyoid voor als een kort, plat bandje dat de top van je stembandenkraakbeen (thyroïd) verbindt met het hoefijzervormige botje onder je kin (hyoïd). Het is als een klein liftje dat, afhankelijk van wat je doet, de ene structuur naar de andere trekt, essentieel voor slikken en het maken van geluid.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Thyroarytenoid, thyroepiglottic part",
+    "description": "De Thyroarytenoid, thyroepiglottische deel, is een superieure en laterale uitbreiding van de Thyroarytenoid spier, die een rol speelt in het controleren van de aditus laryngis (ingang van de larynx) en de epiglottis.",
+    "anatomy": {
+      "origin": {
+        "location": "Innerlijke oppervlak van het thyroïd kraakbeen, lateraal van de thyroarytenoid spier."
+      },
+      "insertion": {
+        "location": "Laterale rand van de epiglottis en het aryepiglottische plooi.",
+        "details": [
+          "Vezels lopen superieur en posterieur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. laryngeus recurrens (tak van N. vagus, tiende hersenzenuw, nervus cranialis X)",
+      "branch": "Laryngeale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+          "A. laryngea superior."
+        ],
+        "venous_drainage": "V. laryngea superior."
+      },
+    "function": {
+      "primary_action": "Verdikking en verkorting van de vocal folds (hoofd Thyroarytenoid functie); specifiek de thyroepiglottische deel trekt de epiglottis naar beneden en sluit de aditus laryngis.",
+      "mechanism_of_action": "Naast de algemene functie van de Thyroarytenoid (die de stembanden spant en verkort), trekt dit specifieke deel de epiglottis naar beneden, wat bijdraagt aan de bescherming van de luchtweg tijdens slikken door de ingang van de larynx te sluit.",
+      "role_in_expression": [
+        "Essentieel voor de bescherming van de luchtwegen tijdens slikken.",
+        "Draagt mogelijk bij aan subtiele veranderingen in de stemkwaliteit door invloed op de supraglottische ruimte."
+      ],
+      "synergists": [
+        "Aryepiglottic part of Oblique arytenoid (voor sluiting van aditus laryngis)"
+      ],
+      "antagonists": [
+        "Thyrohyoid (voor larynx elevatie)"
+      ]
+    },
+    "visual_analogy": "Stel je dit deel van de spier voor als een klein, flexibel hendeltje dat van je stembandenkraakbeen naar het 'dekseltje' van je luchtpijp (epiglottis) loopt. Wanneer je slikt, trekt dit hendeltje het dekseltje dicht om te voorkomen dat voedsel de verkeerde weg inslaat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Thyroarytenoid, external part",
+    "description": "De externe (laterale) deel van de Thyroarytenoid is een primaire intrinsieke larynxspier die verantwoordelijk is voor het verkorten en verdikken van de stembanden, en het adductie (sluiten) van de stembanden tijdens spraak.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure helft van het interne oppervlak van het thyroïd kraakbeen (re-entrant angle)."
+      },
+      "insertion": {
+        "location": "Anterolateraal oppervlak van het arytenoïd kraakbeen (musculaire proces en lateraal oppervlak)."
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": 18.0,
+          "range": "15-20",
+          "standard_deviation": 1.0,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. laryngeus recurrens (tak van N. vagus, tiende hersenzenuw, nervus cranialis X)",
+      "branch": "Laryngeale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+          "A. laryngea superior."
+        ],
+        "venous_drainage": "V. laryngea superior."
+      },
+    "function": {
+      "primary_action": "Verdikking en verkorting van de vocal folds, adductie tijdens spraak.",
+      "mechanism_of_action": "Bij contractie roteert de Thyroarytenoid het arytenoïd kraakbeen naar binnen, waardoor het vocale proces naar de middenlijn beweegt en de stembanden dichter bij elkaar komen (adductie). Tegelijkertijd verkorten en ontspannen de vezels van de spier de vocale ligamenten, wat resulteert in een verlaging van de toonhoogte en een toename van de massa van de stembanden.",
+      "vocal_fold_change_mm": {
+        "length_decrease_mm": "1-3",
+        "thickness_increase_mm": "0.5-1.5",
+        "adduction_mm": "0.5-1.0",
+        "note": "Geschatte veranderingen tijdens fonatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor spraakproductie en zang, met name voor het produceren van lage tonen en het sluiten van de stembanden.",
+        "Draagt bij aan de 'spanning' en 'relaxatie' van de stembanden, wat de klankkleur beïnvloedt."
+      ],
+      "synergists": [
+        "Lateral cricoarytenoid (voor adductie)",
+        "Transverse arytenoid (voor adductie)",
+        "Vocalis (als onderdeel van deze spier)"
+      ],
+      "antagonists": [
+        "Posterior cricoarytenoid (voor abductie)",
+        "Cricothyroid (voor verlenging en spanning)"
+      ]
+    },
+    "visual_analogy": "Stel je de externe Thyroarytenoid voor als een krachtige, korte spier die aan de binnenkant van je stembandenkraakbeen naar het kleine 'piramidevormige' kraakbeen (arytenoïd) loopt. Wanneer deze spier samentrekt, trekt hij de stembanden naar elkaar toe en maakt ze dikker en korter, alsof je twee elastieken naar elkaar toe trekt en ze zo verkort en dikker maakt om een diepere klank te produceren.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Stylopharyngeus",
+    "description": "De Stylopharyngeus is de enige spier van de farynx die wordt geïnnerveerd door de N. glossopharyngeus, en is verantwoordelijk voor het elevaren van de larynx en farynx en het dilateren van de farynx tijdens slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale oppervlak van de processus styloideus van het temporaalbot.",
+        "details": [
+          "Dunne, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Posterieure en superieure randen van het thyroïd kraakbeen, en de faryngeale wand (tussen de superieure en middelste constrictor spieren).",
+        "details": [
+          "Vezels lopen inferieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "60-80",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. glossopharyngeus (negende hersenzenuw, nervus cranialis IX)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. pharyngea ascendens (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Eleveert larynx, eleveert farynx, slikken.",
+      "mechanism_of_action": "Bij contractie trekt de Stylopharyngeus de farynx en larynx superieur en lateraal, wat de keelholte verbreedt en de voedselbolus helpt passeren tijdens de slikfase. Het helpt ook bij het openen van de mond van de slokdarm.",
+      "laryngeal_pharyngeal_elevation_mm": {
+        "average": "10-20",
+        "note": "Geschatte verticale verplaatsing tijdens slikken."
+      },
+      "pharyngeal_diameter_increase_mm": {
+        "average": "2-5",
+        "note": "Geschatte toename in diameter van de farynx."
+      },
+      "role_in_expression": [
+        "Essentieel voor een veilige en efficiënte slikfunctie.",
+        "Draagt bij aan de articulatie van spraak door de vorm van de farynx te beïnvloeden.",
+        "Belangrijk voor het voorkomen van aspiratie (voedsel in de luchtwegen)."
+      ],
+      "synergists": [
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale elevatie)"
+      ],
+      "antagonists": [
+        "Pharyngeal constrictors (voor vernauwing van de farynx)"
+      ]
+    },
+    "visual_analogy": "Stel je de Stylopharyngeus voor als een lange, dunne spier die van een puntig uitsteeksel onder je oor (processus styloideus) schuin naar beneden en naar je keelholte loopt. Wanneer je slikt, trekt deze spier je keel omhoog en opzij, alsof hij een trechter opent om voedsel soepel te laten passeren.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Stylohyoid",
+    "description": "De Stylohyoid is een slanke spier die boven de Digastric ligt en die het hyoïd bot eleveert en retracteert tijdens slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur en lateraal oppervlak van de processus styloideus van het temporaalbot.",
+        "details": [
+          "Dunne, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van het lichaam van het hyoïd bot, nabij de junction met het grote hoorn (cornu majus).",
+        "details": [
+          "Vezels lopen inferieur en anterieur, mediaal van de posterieure buik van de Digastric."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "40-50",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Tak van de N. facialis kort na het verlaten van het foramen stylomastoideum."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. facialis en A. occipitalis."
+      ],
+      "venous_drainage": "V. facialis en V. retromandibularis."
+    },
+    "function": {
+      "primary_action": "Eleveert hyoïd tijdens slikken.",
+      "mechanism_of_action": "Bij contractie trekt de Stylohyoid het hyoïd bot superieur en posterieur, wat essentieel is voor de suprahyoïdale fase van het slikken, waarbij de larynx wordt opgetild om de luchtweg te beschermen.",
+      "hyoid_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van het hyoïd bot."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), samen met andere suprahyoïdale spieren.",
+        "Draagt bij aan de positionering van de tong en de mondbodem."
+      ],
+      "synergists": [
+        "Digastric",
+        "Mylohyoid",
+        "Geniohyoid (andere suprahyoïdale spieren)"
+      ],
+      "antagonists": [
+        "Sternohyoid",
+        "Omohyoid",
+        "Thyrohyoid (infrahyoïdale spieren)"
+      ]
+    },
+    "visual_analogy": "Stel je de Stylohyoid voor als een dun, elegant touwtje dat van een puntig uitsteeksel onder je oor (processus styloideus) schuin naar beneden en naar voren loopt, om vast te zitten aan het hoefijzervormige botje onder je kin (hyoïd). Wanneer je slikt, trekt dit touwtje het hyoïd bot omhoog en naar achteren, alsof het een klein deurtje optrekt om het voedsel door te laten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Styloglossus",
+    "description": "De Styloglossus is een extrinsieke tongspier die de tong eleveert en retracteert, en bijdraagt aan het vormen van een trog (groef) in de tong.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterolateraal oppervlak van de processus styloideus van het temporaalbot en de stylomandibulaire ligament.",
+        "details": [
+          "Dunne, platte oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van de tong, versmeltend met de Inferior longitudinal lingual en Hyoglossus spieren.",
+        "details": [
+          "Vezels lopen anterieur en inferieur in de tong."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "60-70",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de extrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Eleveert en retracteert de tong.",
+      "mechanism_of_action": "Bij contractie trekt de Styloglossus de tong superieur en posterieur. Het draagt ook bij aan het vormen van een groef in de tong, wat helpt bij het transporteren van voedsel en vloeistoffen naar de farynx.",
+      "tongue_movement_mm": {
+        "elevation_mm": "5-10",
+        "retraction_mm": "5-10",
+        "note": "Geschatte verticale en anteroposteriore verplaatsing."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken, waardoor de tong de voedselbolus naar achteren kan duwen.",
+        "Belangrijk voor spraakarticulatie, met name voor het vormen van klanken die een teruggetrokken of opgeheven tongpositie vereisen (bijv. 'k', 'g')."
+      ],
+      "synergists": [
+        "Hyoglossus (voor depressie en retractie)",
+        "Palatoglossus (voor elevatie van de tongrug)"
+      ],
+      "antagonists": [
+        "Genioglossus (voor protrusie en depressie van de tong)"
+      ]
+    },
+    "visual_analogy": "Stel je de Styloglossus voor als een sierlijke spier die van een puntig uitsteeksel onder je oor (processus styloideus) schuin naar beneden en naar voren loopt, om vast te zitten aan de zijkant van je tong. Wanneer deze spier samentrekt, trekt hij je tong omhoog en naar achteren, alsof hij de tong als een 'katrol' omhoog hijst en iets terugtrekt om te slikken of specifieke klanken te vormen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Sternothyroid",
+    "description": "De Sternothyroid is een van de infrahyoïdale (riem) spieren, gelegen in de nek, die de larynx depresseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur oppervlak van het manubrium sterni (borstbeen), en de 1e costale kraakbeen.",
+        "details": [
+          "Brede, platte oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Oblique lijn op het lamina van het thyroïd kraakbeen (schildkraakbeen).",
+        "details": [
+          "De insertie is lineair."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "60-80",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "Ansa cervicalis (C1, C2, C3)",
+      "branch": "Takken van de ansa cervicalis die de infrahyoïdale spieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. thyroidea superior en inferior."
+      ],
+      "venous_drainage": "V. thyroidea superior en inferior."
+    },
+    "function": {
+      "primary_action": "Deprimeert de larynx, kan het hyoïd licht deprimeren.",
+      "mechanism_of_action": "Bij contractie trekt de Sternothyroid het thyroïd kraakbeen (en daarmee de larynx) naar beneden. Deze beweging is essentieel voor het herstellen van de positie van de larynx na elevatie tijdens slikken en voor het veranderen van de toonhoogte van de stem (verlaging).",
+      "laryngeal_depression_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van de larynx."
+      },
+      "role_in_expression": [
+        "Belangrijk voor slikken (deglutitie), om de larynx terug te brengen naar zijn rustpositie.",
+        "Speelt een rol bij de stemproductie, met name bij het verlagen van de toonhoogte."
+      ],
+      "synergists": [
+        "Sternohyoid",
+        "Omohyoid (voor algemene depressie van het hyoïd en larynx)"
+      ],
+      "antagonists": [
+        "Thyrohyoid",
+        "Stylohyoid",
+        "Digastric",
+        "Mylohyoid",
+        "Geniohyoid (voor elevatie van het hyoïd en larynx)"
+      ]
+    },
+    "visual_analogy": "Stel je de Sternothyroid voor als een platte, verticale band van spieren die van je borstbeen omhoog loopt en vastzit aan het kraakbeen aan de voorkant van je keel (schildkraakbeen, je 'adamsappel'). Wanneer deze spier samentrekt, trekt hij je keel naar beneden, alsof je je stem verlaagt of iets zwaars doorslikt en je keel weer laat zakken.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Sternohyoid",
+    "description": "De Sternohyoid is een van de lange, platte infrahyoïdale (riem) spieren in de nek, die het hyoïd bot depresseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur oppervlak van het manubrium sterni (borstbeen) en de mediale extremiteit van de clavicula (sleutelbeen).",
+        "details": [
+          "Brede, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Inferieure rand van het lichaam van het hyoïd bot.",
+        "details": [
+          "Insertie is over de mediale helft van de inferieure rand."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "60-90",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "Ansa cervicalis (C1, C2, C3)",
+      "branch": "Takken van de ansa cervicalis die de infrahyoïdale spieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. thyroidea superior en inferior."
+      ],
+      "venous_drainage": "V. thyroidea superior en inferior."
+    },
+    "function": {
+      "primary_action": "Deprimeert hyoïd.",
+      "mechanism_of_action": "Bij contractie trekt de Sternohyoid het hyoïd bot direct naar beneden. Deze beweging is cruciaal voor het herstellen van de positie van het hyoïd na elevatie tijdens slikken en bij het openen van de mond.",
+      "hyoid_depression_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van het hyoïd bot."
+      },
+      "role_in_expression": [
+        "Belangrijk voor slikken (deglutitie), om het hyoïd en daarmee de tong en larynx te laten zakken.",
+        "Speelt een rol bij het spreken en zingen door de positie van het hyoïd te beïnvloeden.",
+        "Assisteert bij het openen van de mond door het hyoïd naar beneden te trekken."
+      ],
+      "synergists": [
+        "Omohyoid",
+        "Thyrohyoid",
+        "Sternothyroid (voor algemene depressie van het hyoïd en larynx)"
+      ],
+      "antagonists": [
+        "Stylohyoid",
+        "Digastric",
+        "Mylohyoid",
+        "Geniohyoid (voor elevatie van het hyoïd)"
+      ]
+    },
+    "visual_analogy": "Stel je de Sternohyoid voor als een lange, platte riem die van je borstbeen en sleutelbeen omhoog loopt en vastzit aan de voorkant van het hoefijzervormige botje onder je kin (hyoïd). Wanneer deze riem samentrekt, trekt hij het hyoïd bot naar beneden, alsof je een zware steen laat zakken, essentieel voor het herstellen van de slikbeweging.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Sternocleidomastoid",
+    "description": "De Sternocleidomastoid (SCM) is een grote, prominente spier in de nek, met twee koppen, verantwoordelijk voor het buigen, roteren en lateraal buigen van het hoofd, en assisteren bij geforceerde inspiratie.",
+    "anatomy": {
+      "origin": {
+        "sternal_head": {
+          "location": "Anterieur oppervlak van het manubrium sterni (borstbeen).",
+          "details": "Pezige, ronde oorsprong."
+        },
+        "clavicular_head": {
+          "location": "Superieur oppervlak van de mediale één derde van de clavicula (sleutelbeen).",
+          "details": "Vlezige, bredere oorsprong."
+        }
+      },
+      "insertion": {
+        "location": "Lateraal oppervlak van de processus mastoideus van het temporaalbot en de laterale helft van de linea nuchae superior van het occipitale bot.",
+        "details": [
+          "Beide koppen versmelten en insertie als een gemeenschappelijke massa."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "100-150",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "thickness_mm": {
+          "average": "15-25",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Gemiddelde dikte op het breedste punt."
+        },
+        "cross_sectional_area_cm2": {
+          "average": "5-10",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "cm²",
+          "note": "Geschatte fysiologische dwarsdoorsnede."
+        }
+      },
+      "innervation": {
+        "nerve": "N. accessorius (elfde hersenzenuw, nervus cranialis XI) en takken van de ventrale rami van C2, C3 (voor proprioceptie).",
+        "branch": "Motorische tak van de N. accessorius."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. occipitalis (superieur).",
+          "A. thyroidea superior (midden).",
+          "Takken van de A. cervicalis ascendens (inferieur)."
+        ],
+        "venous_drainage": "V. jugularis externa, V. facialis, V. lingualis, V. thyroidea superior."
+      }
+    },
+    "function": {
+      "primary_action": "Kiept het hoofd naar zijn eigen zijde, roteert het hoofd zodat het gezicht naar de tegenovergestelde zijde is gedraaid, flext de nek, verhoogt het sternum, helpt bij geforceerde inspiratie.",
+      "mechanism_of_action": "Unilaterale contractie: roteert het hoofd zodat de kin naar de tegenovergestelde schouder wijst en buigt het hoofd lateraal naar de ipsilaterale zijde. Bilaterale contractie: flext de nek (hoofd naar borst), verhoogt de ribbenkast bij geforceerde inspiratie (door het sternum omhoog te trekken).",
+      "range_of_motion_degrees": {
+        "rotatie_per_zijde_graden": "45-60",
+        "laterale_flexie_per_zijde_graden": "30-45",
+        "flexie_graden": "30-45",
+        "note": "Geschatte bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Essentieel voor het positioneren van het hoofd en de nek in diverse bewegingen.",
+        "Speelt een belangrijke rol bij communicatie (non-verbale gebaren) en visuele oriëntatie.",
+        "Kan hypertrofie vertonen bij nekspanning of torticollis."
+      ],
+      "synergists": [
+        "Scalene spieren (voor nekflexie en laterale flexie)",
+        "Longus colli",
+        "Longus capitis (voor nekflexie)",
+        "Trapezius (voor hoofdextensie, antagonistisch voor flexie)."
+      ],
+      "antagonists": [
+        "Splenius capitis",
+        "Semispinalis capitis",
+        "Trapezius (voor hoofdextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Sternocleidomastoid voor als twee dikke, schuine kabels die van je borstbeen en sleutelbeen aan de voorkant van je nek omhoog lopen naar de achterkant van je schedel, achter je oor. Wanneer je één kant van deze kabel samentrekt, draait je hoofd weg van die kant en kantelt het naar dezelfde kant, alsof je 'nee' schudt met je hoofd of je oor naar je schouder trekt. Als beide kabels samentrekken, buig je je hoofd naar voren, alsof je in een diepe buiging gaat.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Splenius colli",
+    "description": "De Splenius colli (of Splenius cervicis) is een spier van de diepe nek en bovenrug die voornamelijk betrokken is bij het lateraal buigen en roteren van de nek en het hoofd, en bij extensie van de nek.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de thoracale wervels T3-T6 (variabel, T3-T5 is het meest voorkomend).",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tubercula posterieure van de processus transversus van de cervicale wervels C1-C3 of C4.",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Geschatte lengte."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen (C6, C7, C8, en soms C5).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en de A. intercostalis superior."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Unilaterale contractie: lateraal flext en roteert de nek naar dezelfde zijde. Bilaterale contractie: Extendert de nek.",
+      "mechanism_of_action": "Bij unilaterale contractie trekken de vezels van de Splenius colli de nek en het hoofd naar achteren en naar de zijkant, en roteren ze naar de ipsilaterale zijde (zelfde zijde). Bij bilaterale contractie trekken ze de nek recht naar achteren, wat helpt bij het rechtop houden van het hoofd en de nek.",
+      "range_of_motion_degrees": {
+        "laterale_flexie_graden": "5-10",
+        "rotatie_graden": "10-15",
+        "extensie_graden": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor de stabiliteit van de nek en het hoofd in verschillende posities.",
+        "Draagt bij aan de complexe bewegingen van het hoofd en de nek die nodig zijn voor visuele oriëntatie en communicatie."
+      ],
+      "synergists": [
+        "Splenius capitis",
+        "Longissimus colli",
+        "Iliocostalis colli (voor extensie)",
+        "Levator scapulae (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Sternocleidomastoid (voor flexie en contralaterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Splenius colli voor als twee diagonale banden van spieren die van je bovenrug (tussen de schouderbladen) schuin omhoog en naar de zijkanten van je nekwervels lopen. Wanneer één band samentrekt, trekt hij je hoofd naar die kant en draait het lichtjes naar dezelfde kant, alsof je je hoofd zijwaarts kantelt en over je schouder probeert te kijken. Als beide banden samentrekken, trekken ze je hoofd recht naar achteren.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Splenius capitis",
+    "description": "De Splenius capitis is een grote, platte spier van de diepe nek en bovenrug, die het hoofd roteert, lateraal flext en extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure helft van het ligamentum nuchae en de processus spinosus van de 7e cervicale wervel (C7) en de thoracale wervels T1-T3 (soms T4).",
+        "details": [
+          "Brede, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Processus mastoideus van het temporaalbot en de laterale zijde van de linea nuchae superior van het occipitale bot.",
+        "details": [
+          "Pezige, robuuste insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "100-140",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de middelste cervicale spinale zenuwen (C2, C3, C4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. occipitalis.",
+        "A. cervicalis profunda."
+      ],
+      "venous_drainage": "V. occipitalis en V. cervicalis profunda."
+    },
+    "function": {
+      "primary_action": "Extendert, roteert en lateraal flext het hoofd.",
+      "mechanism_of_action": "Unilaterale contractie: roteert het hoofd naar de ipsilaterale zijde (zelfde zijde) en buigt het lateraal naar die zijde. Bilaterale contractie: extendert het hoofd (trekt het hoofd naar achteren), waardoor de blik naar boven gaat. Speelt een cruciale rol bij het rechtop houden van het hoofd en het draaien ervan.",
+      "range_of_motion_degrees": {
+        "extensie_graden": "20-30",
+        "laterale_flexie_per_zijde_graden": "10-15",
+        "rotatie_per_zijde_graden": "15-20",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Essentieel voor het handhaven van de houding van het hoofd en het uitvoeren van bewegingen zoals 'ja' knikken en 'nee' schudden.",
+        "Draagt bij aan de non-verbale communicatie en visuele tracking."
+      ],
+      "synergists": [
+        "Semispinalis capitis",
+        "Longissimus capitis (voor extensie)",
+        "Sternocleidomastoid (voor rotatie en laterale flexie, maar contralateraal)"
+      ],
+      "antagonists": [
+        "Sternocleidomastoid (voor flexie en contralaterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Splenius capitis voor als twee brede, krachtige banden die van het midden van je nek en bovenrug schuin omhoog en naar achteren lopen, om vast te zitten aan het bot achter je oor en de basis van je schedel. Wanneer één band samentrekt, trekt hij je hoofd naar achteren en draait het naar dezelfde kant, alsof je je hoofd achterover gooit en over je schouder probeert te kijken. Als beide banden samentrekken, trekken ze je hoofd krachtig recht naar achteren, waardoor je naar het plafond kijkt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Spinalis colli",
+    "description": "De Spinalis colli (of Spinalis cervicis) is een kleine, vaak inconsistente spier van de erector spinae groep in de cervicale regio, die de cervicale wervelkolom extendert en assisteert bij rotatie en laterale flexie. Deze spier is zeer variabel in aanwezigheid en grootte.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de thoracale wervels T1-T2 en de processus spinosus van C6-C7.",
+        "details": [
+          "Zeer variabel en kan afwezig zijn."
+        ]
+      },
+      "insertion": {
+        "location": "Processus spinosus van de cervicale wervels C2-C4 (meest consistent bij C2).",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Variabel, typisch kort."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en A. occipitalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert/flext de wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie extendert de Spinalis colli de cervicale wervelkolom, wat helpt bij het rechtop houden van de nek. Unilaterale contractie kan bijdragen aan lichte laterale flexie en rotatie. De bijdrage is echter klein gezien zijn omvang en variabiliteit, en de spier heeft waarschijnlijk een grotere proprioceptieve rol dan een krachtige motorische functie.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "2-5",
+        "note": "Kleine bijdrage aan cervicale extensie."
+      },
+      "role_in_expression": [
+        "Assisteert bij het handhaven van de nekhouding.",
+        "Mogelijk proprioceptieve functie voor nekpositie, wat bijdraagt aan de fijne afstemming van hoofdbewegingen."
+      ],
+      "synergists": [
+        "Semispinalis colli",
+        "Longissimus colli",
+        "Splenius colli (voor extensie)"
+      ],
+      "antagonists": [
+        "Longus colli",
+        "Longus capitis",
+        "Sternocleidomastoid (voor flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Spinalis colli voor als een reeks minuscule, soms afwezige, spiervezels die dicht langs de doornuitsteeksels van je nekwervels lopen, als kleine draadjes die helpen je nek recht te houden. Het is zo fijn en variabel dat het nauwelijks een grote rol speelt.",
+    "status": "done",
+    "precisie_score": 5
+  },
+  {
+    "name": "Spinalis capitis",
+    "description": "De Spinalis capitis is een inconsistente spier die vaak is samengevoegd met de Semispinalis capitis. Wanneer aanwezig als een aparte eenheid, draagt het bij aan de extensie van het hoofd. Zijn onafhankelijke bestaan en functionele betekenis zijn echter discutabel.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de lagere cervicale en bovenste thoracale wervels (bijv. C7-T2).",
+        "details": [
+          "Vaak niet duidelijk onderscheiden van de Semispinalis capitis."
+        ]
+      },
+      "insertion": {
+        "location": "Occipitale bot, mediale van de linea nuchae superior.",
+        "details": [
+          "Smalle insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Vaak samengevoegd met andere spieren, zeer variabel."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen (voornamelijk C1-C3).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. occipitalis en A. cervicalis profunda."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert/flext de wervelkolom (hoofd).",
+      "mechanism_of_action": "Indien aanwezig als aparte eenheid, zou de primaire actie de extensie van het hoofd zijn. Het werkt synergetisch met de Semispinalis capitis, maar de bijdrage is minimaal in vergelijking met de grotere extensoren van het hoofd.",
+      "role_in_expression": [
+        "Mogelijk een minimale bijdrage aan het rechtop houden en achterover buigen van het hoofd, maar de Semispinalis capitis en Splenius capitis zijn de hoofdrollen."
+      ],
+      "synergists": [
+        "Semispinalis capitis",
+        "Splenius capitis"
+      ],
+      "antagonists": [
+        "Sternocleidomastoid",
+        "Longus capitis"
+      ]
+    },
+    "visual_analogy": "Stel je de Spinalis capitis voor als een nog kleiner, vaak afwezig, spiervezeltje dat van je bovenste ruggengraat naar de basis van je schedel loopt. Het is zo zeldzaam en verweven dat het nauwelijks een eigen identiteit heeft, meer een toevallige verzameling vezels die andere spieren helpen bij het strekken van je hoofd.",
+    "status": "skipped",
+    "precisie_score": 2
+  },
+  {
+    "name": "Scalenus minimus",
+    "description": "De Scalenus minimus (of Pleuralis) is een zeldzame, inconsistente spier die soms aanwezig is in de nek, gelegen posterieur van de Scalenus anterior. Hoewel het de 1e rib kan elevaren, is zijn belangrijkste klinische betekenis de relatie met de neurovasculaire structuren van de thoracic outlet.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus transversus van C7 (zelden C6).",
+        "details": [
+          "Zeer variabel, afwezig bij ongeveer 30-50% van de populatie."
+        ]
+      },
+      "insertion": {
+        "location": "Innerlijke rand van de 1e rib en de pleurale koepel (apex van de long).",
+        "details": [
+          "Smalle insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer klein en variabel."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale rami van de cervicale spinale zenuw (C8 of T1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis ascendens."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Eleveert eerste rib.",
+      "mechanism_of_action": "Indien aanwezig, trekt de Scalenus minimus de 1e rib omhoog, wat bijdraagt aan inspiratie. Zijn primaire klinische betekenis ligt echter in zijn relatie tot de plexus brachialis en de subclavia arterie, omdat compressie hiervan (thoracic outlet syndrome) kan optreden als de spier hypertrofisch is of anatomisch afwijkend is.",
+      "rib_elevation_mm": {
+        "average": "0.5-1.0",
+        "note": "Minimale verticale elevatie van de rib."
+      },
+      "role_in_expression": [
+        "Zeer minimale bijdrage aan ademhaling.",
+        "Belangrijker als potentiële bron van zenuw- en vaatcompressie in de nek/schouderregio, wat kan leiden tot pijn, gevoelloosheid of zwakte in de arm en hand."
+      ],
+      "synergists": [
+        "Scalenus anterior",
+        "Scalenus medius (voor ribelevatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Scalenus minimus voor als een minuscuul, vaak afwezig, draadje dat van de zijkant van je laagste nekwervel naar de bovenkant van je eerste rib loopt. Het is zo klein en variabel dat het nauwelijks een echte functie heeft, meer een toevallige connectie die soms aanwezig is.",
+    "status": "skipped",
+    "precisie_score": 3
+  },
+  {
+    "name": "Levator glandulae thyroideae",
+    "description": "De Levator glandulae thyroideae is een zeldzame, inconsistente spier die soms aanwezig is in de nek. Het is een anatomische variatie zonder significante functionele rol, die de schildklier (glandula thyroidea) kan eleveert.",
+    "anatomy": {
+      "origin": {
+        "location": "Variabel; kan ontspringen van het hyoïd bot, thyroïd kraakbeen, of de linea obliqua van het thyroïd kraakbeen.",
+        "details": [
+          "Afwezig bij ongeveer 30-50% van de populatie."
+        ]
+      },
+      "insertion": {
+        "location": "Isthmus of één van de lobben van de schildklier (glandula thyroidea).",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer klein en variabel."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Variabel; kan geïnnerveerd worden door de N. laryngeus superior, externe tak, of takken van de N. hypoglossus (via ansa cervicalis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. thyroidea superior."
+      ],
+      "venous_drainage": "V. thyroidea superior."
+    },
+    "function": {
+      "primary_action": "Geen expliciete één-lijn gebruik verstrekt.",
+      "mechanism_of_action": "Indien aanwezig, trekt deze spier de schildklier omhoog. Zijn functionele betekenis is minimaal, en wordt voornamelijk gezien als een anatomische variatie of rudimentair overblijfsel zonder belangrijke fysiologische functie.",
+      "role_in_expression": [
+        "Geen bekende significante rol in beweging, expressie of fysiologische processen. Voornamelijk van anatomisch belang."
+      ],
+      "synergists": [],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Levator glandulae thyroideae voor als een minuscuul, vaak afwezig, draadje dat van je hyoïd bot of stembandenkraakbeen naar je schildklier loopt. Het is zo klein en zeldzaam dat het nauwelijks een echte functie heeft, meer een toevallige connectie die soms aanwezig is zonder duidelijke rol.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Superior longitudinal lingual",
+    "description": "De Superior longitudinal lingual is een intrinsieke tongspier die over de gehele lengte van de tong loopt en verantwoordelijk is voor het verkorten van de tong, het optillen van de tongpunt en het opkrullen van de laterale randen van de tong.",
+    "anatomy": {
+      "origin": {
+        "location": "Submucosale fibreuze weefsel van de tongwortel, nabij de epiglottis en het mediaal fibreus septum van de tong.",
+        "details": [
+          "Brede, posterieure oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Submucosale weefsel van de tongpunt en de laterale randen van de tong.",
+        "details": [
+          "Vezels lopen anterieur, parallel aan het dorsale oppervlak van de tong."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Loopt over de gehele lengte van de tong, variabel."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de intrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Verkort de tong, draait de tongpunt omhoog, draait de laterale randen omhoog.",
+      "mechanism_of_action": "Bij contractie trekken de vezels de tong van voor naar achteren samen, waardoor deze korter wordt. Tegelijkertijd trekt het de tongpunt omhoog en krult het de zijkanten van de tong naar boven, wat essentieel is voor het vormen van een 'lepel'-vorm of het articuleren van specifieke klanken.",
+      "tongue_shape_change": {
+        "length_decrease_mm": "5-15",
+        "tip_elevation_mm": "2-5",
+        "note": "Geschatte veranderingen, zeer contextafhankelijk."
+      },
+      "role_in_expression": [
+        "Cruciaal voor spraakarticulatie, met name voor het vormen van alveolaire en palatale medeklinkers (bijv. 't', 'd', 'n', 'l', 'ch').",
+        "Speelt een belangrijke rol bij het manipuleren en doorslikken van voedsel (bolusvorming)."
+      ],
+      "synergists": [
+        "Inferior longitudinal lingual (voor verkorting en depressie van de tongpunt)",
+        "Genioglossus (voor protrusie)",
+        "Styloglossus (voor elevatie en retractie)"
+      ],
+      "antagonists": [
+        "Genioglossus (voor depressie en protrusie van de tong)"
+      ]
+    },
+    "visual_analogy": "Stel je de Superior longitudinal lingual voor als een laag spiervezels die net onder het oppervlak van je tongrug ligt, van achter naar voren. Wanneer deze spier samentrekt, trekt hij de tong korter en krult hij de punt en de zijkanten omhoog, alsof je de tong verandert in een klein kommetje of een scherp puntje om specifieke geluiden te maken of voedsel te verzamelen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Longus colli",
+    "description": "De Longus colli is een lange, diepliggende spier aan de anterieure zijde van de cervicale en bovenste thoracale wervelkolom, die de nek en het hoofd flext en lateraal buigt.",
+    "anatomy": {
+      "origin": {
+        "location": "Bestaan uit drie delen: Oblique superieur (processus transversus C3-C5), Verticaal (lichamen C5-T3), Oblique inferieur (lichamen T1-T3).",
+        "details": [
+          "Complexe, multi-segmentale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Oblique superieur (tuberculum anterieur C1), Verticaal (lichamen C2-C4), Oblique inferieur (processus transversus C5-C6).",
+        "details": [
+          "Verdeelde, multi-segmentale insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale rami van de cervicale spinale zenuwen (C2-C6), en soms T1.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. cervicalis ascendens."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext nek en hoofd.",
+      "mechanism_of_action": "Bij bilaterale contractie buigt de Longus colli de nek en het hoofd naar voren (flexie). Unilaterale contractie lateraal flext de nek naar de ipsilaterale zijde. Het speelt een cruciale rol bij de stabilisatie van de cervicale wervelkolom en het handhaven van de neutrale nekhouding, vooral bij het zitten of staan.",
+      "neck_flexion_degrees": {
+        "average": "10-20",
+        "note": "Belangrijke bijdrage aan cervicale flexie."
+      },
+      "neck_lateral_flexion_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale flexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het controleren van de positie van het hoofd en de nek in de ruimte, met name bij het kijken naar beneden of het handhaven van een ergonomische houding.",
+        "Disfunctie kan leiden tot nekpijn en hoofdpijn."
+      ],
+      "synergists": [
+        "Longus capitis",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor flexie)"
+      ],
+      "antagonists": [
+        "Splenius capitis",
+        "Semispinalis capitis",
+        "Erector spinae (voor extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Longus colli voor als een diepliggende, veelzijdige 'spierkolom' aan de voorkant van je wervelkolom, die van je bovenrugwervels omhoog loopt naar de nekwervels. Wanneer hij samentrekt, buigt hij je nek naar voren, alsof hij een lange, flexibele stang is die je nek geleidelijk naar voren trekt, essentieel voor het naar beneden kijken of het rechtop houden van je hoofd.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Longus capitis",
+    "description": "De Longus capitis is een diepliggende spier aan de anterieure zijde van de nek, die het hoofd flext bij het atlanto-occipitale gewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Tubercula anterior van de processus transversus van C3-C6.",
+        "details": [
+          "Meerdere, korte oorsprongstakken."
+        ]
+      },
+      "insertion": {
+        "location": "Basilaire deel van het occipitale bot (schedelbasis), anterieur van het foramen magnum.",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale rami van de cervicale spinale zenuwen (C1-C3).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. cervicalis ascendens."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext nek bij atlanto-occipitale gewricht.",
+      "mechanism_of_action": "Bij bilaterale contractie buigt de Longus capitis het hoofd naar voren bij het gewricht tussen de schedel en de eerste nekwervel (atlanto-occipitale gewricht), waardoor de blik naar beneden gaat. Unilaterale contractie kan lichte laterale flexie veroorzaken. Het is een belangrijke stabilisator van dit gewricht.",
+      "head_flexion_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan hoofdknikken."
+      },
+      "role_in_expression": [
+        "Essentieel voor het 'ja' knikken met het hoofd.",
+        "Belangrijk voor de fijne controle van de hoofdpositie en balans.",
+        "Speelt een rol bij slikken en het handhaven van de luchtweg."
+      ],
+      "synergists": [
+        "Rectus capitis anterior",
+        "Longus colli",
+        "Sternocleidomastoid (voor flexie)"
+      ],
+      "antagonists": [
+        "Rectus capitis posterior major",
+        "Rectus capitis posterior minor",
+        "Semispinalis capitis",
+        "Splenius capitis (voor hoofdexstensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Longus capitis voor als een diepliggende spier die van de zijkanten van je nekwervels (vanaf de derde tot de zesde) omhoog loopt naar de basis van je schedel. Wanneer hij samentrekt, knikt hij je hoofd zachtjes naar voren, alsof hij een klein touwtje is dat je hoofd naar beneden trekt om 'ja' te knikken of naar beneden te kijken.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Levator scapulae",
+    "description": "De Levator scapulae is een spier van de nek en bovenrug die de scapula (schouderblad) eleveert en roteert, en ook de nek lateraal flext.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus transversus van C1-C4 (posterieure tubercula van de transversale uitsteeksels).",
+        "details": [
+          "Vier afzonderlijke pezige slipjes."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale rand van de scapula, tussen de superieure hoek en de spina scapulae (wortel van de spina).",
+        "details": [
+          "Lineaire, langwerpige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. dorsalis scapulae (C5) en takken van de cervicale plexus (C3, C4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. dorsalis scapulae (tak van de A. subclavia of truncus thyrocervicalis).",
+        "A. cervicalis ascendens."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Eleveert scapula, kantelt glenoïd holte inferieur door scapula te roteren.",
+      "mechanism_of_action": "Bij contractie trekt de Levator scapulae de scapula omhoog (elevatie). Het roteert ook de scapula naar beneden, wat betekent dat de glenoïd holte (waar de arm in zit) naar beneden wijst. Unilaterale contractie van de spier lateraal flext de nek naar de ipsilaterale zijde.",
+      "scapular_elevation_mm": {
+        "average": "10-20",
+        "note": "Geschatte verticale elevatie van de scapula."
+      },
+      "scapular_downward_rotation_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan neerwaartse rotatie."
+      },
+      "neck_lateral_flexion_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale nekflexie."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het optrekken van de schouders (shrugging) bij stress of bij het dragen van gewicht.",
+        "Draagt bij aan de stabiliteit en positionering van de scapula voor armbewegingen.",
+        "Een veelvoorkomende bron van nek- en schouderpijn door overactiviteit of spanning."
+      ],
+      "synergists": [
+        "Rhomboid major",
+        "Rhomboid minor (voor neerwaartse rotatie en retractie)",
+        "Trapezius (dalende deel voor elevatie)"
+      ],
+      "antagonists": [
+        "Trapezius (opgaande en transversale delen voor opwaartse rotatie en depressie)",
+        "Serratus anterior (voor opwaartse rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Levator scapulae voor als een 'liftkabel' die van de zijkanten van je bovenste nekwervels schuin naar beneden loopt en vastzit aan de bovenkant van je schouderblad. Wanneer deze kabel samentrekt, trekt hij je schouderblad omhoog en draait het tegelijkertijd iets naar beneden, alsof je je schouder ophaalt, vaak bij stress of vermoeidheid.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Multifidus colli",
+    "description": "De Multifidus colli is een spier van de diepe rug, onderdeel van de transversospinalis groep, die de cervicale wervelkolom stabiliseert en assisteert bij extensie en rotatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus articulares van C4-C7, en de processus transversus van T1.",
+        "details": [
+          "Meerdere, korte oorsprongstakken."
+        ]
+      },
+      "insertion": {
+        "location": "Processus spinosus van de cervicale wervels (C2-C5), 2-4 segmenten superieur van hun oorsprong.",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en A. vertebralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Stabilizes vertebrae in local movements of vertebral column.",
+      "mechanism_of_action": "De Multifidus colli werkt als een diepe stabilisator van de cervicale wervelkolom, waardoor de individuele wervels worden gecontroleerd tijdens beweging. Bij bilaterale contractie assisteert het bij extensie van de nek. Unilaterale contractie veroorzaakt rotatie naar de contralaterale zijde en lichte laterale flexie. Zijn primaire rol is proprioceptief en segmentale stabilisatie.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de nekwervels, wat bijdraagt aan de algehele houding en beweging van het hoofd.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de nek kennen.",
+        "Disfunctie of zwakte kan leiden tot chronische nekpijn en instabiliteit."
+      ],
+      "synergists": [
+        "Semispinalis colli",
+        "Rotatores colli (voor stabilisatie en rotatie)"
+      ],
+      "antagonists": [
+        "Longus colli",
+        "Longus capitis (voor flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Multifidus colli voor als een reeks kleine, diepliggende 'draadjes' die diagonaal van de dwarsuitsteeksels van je thoracale en onderste nekwervels omhoog lopen naar de doornuitsteeksels van de bovenste nekwervels. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je nek soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Omohyoid, superior belly",
+    "description": "De superieure buik van de Omohyoid is een van de infrahyoïdale (riem) spieren, die het hyoïd bot depresseert en lateraal beweegt, en de larynx depresseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Tussenpees (intermediate tendon) van de Omohyoid, die vastzit aan de clavicula (sleutelbeen) via een fibreuze lus.",
+        "details": [
+          "Oorsprong is van de tussenpees."
+        ]
+      },
+      "insertion": {
+        "location": "Inferieure rand van het lichaam van het hyoïd bot, lateraal van de aanhechting van de Sternohyoid.",
+        "details": [
+          "Smalle, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ansa cervicalis (C1, C2, C3)",
+      "branch": "Takken van de ansa cervicalis die de infrahyoïdale spieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. thyroidea superior en A. cervicalis ascendens."
+      ],
+      "venous_drainage": "V. thyroidea superior en V. jugularis interna."
+    },
+    "function": {
+      "primary_action": "Deprimeert larynx, depresseert en beweegt naar zijde hyoïd.",
+      "mechanism_of_action": "Bij contractie trekt de superieure buik van de Omohyoid het hyoïd bot naar beneden en lateraal, en depresseert het de larynx. Dit is cruciaal voor het herstellen van de positie van het hyoïd en de larynx na slikken en bij het openen van de mond. De spier helpt ook bij het handhaven van de spanning van de diepe cervicale fascia.",
+      "hyoid_larynx_depression_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing."
+      },
+      "hyoid_lateral_movement_mm": {
+        "average": "2-5",
+        "note": "Geschatte laterale verplaatsing."
+      },
+      "role_in_expression": [
+        "Belangrijk voor slikken (deglutitie) en het controleren van de positie van de larynx tijdens spraak en zang.",
+        "Draagt bij aan de stabiliteit van de nek en de diepe cervicale fascia."
+      ],
+      "synergists": [
+        "Sternohyoid",
+        "Thyrohyoid",
+        "Sternothyroid (voor depressie van het hyoïd en larynx)"
+      ],
+      "antagonists": [
+        "Stylohyoid",
+        "Digastric",
+        "Mylohyoid",
+        "Geniohyoid (voor elevatie van het hyoïd)"
+      ]
+    },
+    "visual_analogy": "Stel je de superieure buik van de Omohyoid voor als een platte, schuine 'riem' die van een tussenpees (die onder je sleutelbeen zit) schuin omhoog en naar de zijkant van het hoefijzervormige botje onder je kin (hyoïd) loopt. Wanneer hij samentrekt, trekt hij die tussenpees naar beneden, wat indirect het hyoïd bot en keel naar beneden trekt en opzij beweegt, alsof het een fijne afsteller is die de positie van je keel reguleert na het slikken.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Omohyoid, inferior belly",
+    "description": "De inferieure buik van de Omohyoid is een van de infrahyoïdale (riem) spieren, die het hyoïd bot depresseert en lateraal beweegt, en de larynx depresseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Superieure rand van de scapula (schouderblad), nabij de scapulaire inkeping.",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tussenpees (intermediate tendon) van de Omohyoid, die vastzit aan de clavicula (sleutelbeen) via een fibreuze lus.",
+        "details": [
+          "Vezels lopen superieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ansa cervicalis (C1, C2, C3)",
+      "branch": "Takken van de ansa cervicalis die de infrahyoïdale spieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. thyroidea inferior en A. cervicalis ascendens."
+      ],
+      "venous_drainage": "V. thyroidea inferior en V. jugularis interna."
+    },
+    "function": {
+      "primary_action": "Deprimeert larynx, depresseert en beweegt naar zijde hyoïd.",
+      "mechanism_of_action": "Bij contractie trekt de inferieure buik van de Omohyoid de tussenpees naar beneden, wat indirect het hyoïd bot depresseert en lateraal beweegt, en de larynx depresseert. Het helpt ook bij het handhaven van de spanning van de diepe cervicale fascia en voorkomt dat de jugularis interna vene inklapt.",
+      "hyoid_larynx_depression_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing."
+      },
+      "hyoid_lateral_movement_mm": {
+        "average": "2-5",
+        "note": "Geschatte laterale verplaatsing."
+      },
+      "role_in_expression": [
+        "Belangrijk voor slikken (deglutitie) en het controleren van de positie van de larynx tijdens spraak en zang.",
+        "Draagt bij aan de stabiliteit van de nek en de diepe cervicale fascia."
+      ],
+      "synergists": [
+        "Sternohyoid",
+        "Thyrohyoid",
+        "Sternothyroid (voor depressie van het hyoïd en larynx)"
+      ],
+      "antagonists": [
+        "Stylohyoid",
+        "Digastric",
+        "Mylohyoid",
+        "Geniohyoid (voor elevatie van het hyoïd)"
+      ]
+    },
+    "visual_analogy": "Stel je de inferieure buik van de Omohyoid voor als een lange, platte 'riem' die van de bovenkant van je schouderblad (bij de inkeping) schuin omhoog loopt naar een tussenpees die onder je sleutelbeen zit. Wanneer hij samentrekt, trekt hij die tussenpees naar beneden, wat indirect je hyoïd bot en keel naar beneden trekt en opzij beweegt, alsof het een fijne afsteller is die de positie van je keel reguleert en de spanning in je nek handhaaft.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Mylohyoid",
+    "description": "De Mylohyoid is een platte, driehoekige spier die het grootste deel van de mondbodem vormt en die het hyoïd bot eleveert, de mondbodem verhoogt, en de mandibula depresseert (wanneer het hyoïd gefixeerd is).",
+    "anatomy": {
+      "origin": {
+        "location": "Mylohyoïdlijn van de mandibula (onderkaak), die zich uitstrekt van de symphysis menti tot de laatste molaar.",
+        "details": [
+          "Brede, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Corpus van het hyoïd bot (anterieure deel) en de mediane raphe (een fibreuze naad in de middenlijn van de mondbodem).",
+        "details": [
+          "Vezels lopen inferieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. mylohyoideus (tak van de inferieure alveolaire zenuw, die een tak is van de mandibulaire divisie van de N. trigeminus, vijfde hersenzenuw, nervus cranialis V).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. sublinguale (tak van de A. lingualis).",
+        "A. mylohyoidea (tak van de A. alveolaire inferior)."
+      ],
+      "venous_drainage": "V. sublinguale en V. facialis."
+    },
+    "function": {
+      "primary_action": "Raises oral cavity floor, elevates hyoid, depresses mandible.",
+      "mechanism_of_action": "Bij contractie eleveert de Mylohyoid de mondbodem en het hyoïd bot, wat essentieel is voor de initiële fase van slikken en spraak. Wanneer het hyoïd gefixeerd is (bijv. door infrahyoïdale spieren), kan het de mandibula deprimeren (mond openen).",
+      "hyoid_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van het hyoïd bot."
+      },
+      "mouth_opening_mm": {
+        "average": "2-5",
+        "note": "Kleine bijdrage aan mondopening."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de tong tegen het gehemelte te duwen en de voedselbolus naar achteren te bewegen.",
+        "Belangrijk voor spraakarticulatie, met name voor het vormen van orale klanken.",
+        "Draagt bij aan het openen van de mond en het stabiliseren van het hyoïd bot."
+      ],
+      "synergists": [
+        "Digastric",
+        "Geniohyoid",
+        "Stylohyoid (voor hyoïd elevatie en mondopening)"
+      ],
+      "antagonists": [
+        "Sternohyoid",
+        "Omohyoid",
+        "Thyrohyoid (voor hyoïd depressie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Mylohyoid voor als een platte, gespierde 'hangmat' die het grootste deel van de mondbodem vormt, van de binnenkant van je onderkaak naar het hoefijzervormige botje onder je kin (hyoïd). Wanneer hij samentrekt, tilt hij de bodem van je mond en je hyoïd bot omhoog, alsof hij een lift is die je tong naar het gehemelte duwt om te slikken of te spreken, en ook helpt je mond te openen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Chondroglossus",
+    "description": "De Chondroglossus is een kleine, intrinsieke tongspier die de tong depresseert. Het wordt soms beschouwd als een deel van de Hyoglossus spier.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale zijde van de kleine hoorn (cornu minus) van het hyoïd bot.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Submucosale weefsel van de tong, tussen de Genioglossus en Hyoglossus.",
+        "details": [
+          "Vezels lopen superieur en anterieur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de intrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Depresses tongue (some consider this muscle to be part of hyoglossus).",
+      "mechanism_of_action": "Bij contractie trekt de Chondroglossus de tong naar beneden, wat helpt bij het openen van de mond en het manipuleren van voedsel. Zijn functie is nauw verbonden met die van de Hyoglossus.",
+      "tongue_depression_mm": {
+        "average": "2-5",
+        "note": "Geschatte verticale verplaatsing van de tong."
+      },
+      "role_in_expression": [
+        "Assisteert bij slikken en spraakarticulatie, met name voor het vormen van klanken die een lage tongpositie vereisen.",
+        "Draagt bij aan het openen van de mond en het creëren van ruimte in de mondholte."
+      ],
+      "synergists": [
+        "Hyoglossus (hoofd depressor van de tong)",
+        "Genioglossus (voor depressie)"
+      ],
+      "antagonists": [
+        "Styloglossus",
+        "Palatoglossus",
+        "Superior longitudinal lingual (voor elevatie van de tong)"
+      ]
+    },
+    "visual_analogy": "Stel je de Chondroglossus voor als een klein, verborgen 'duwertje' dat van het hoefijzervormige botje onder je kin (hyoïd) naar de basis van je tong loopt. Wanneer hij samentrekt, duwt hij je tong zachtjes naar beneden, alsof hij helpt om je mond te openen of om voedsel naar beneden te krijgen, vaak als een subtiele assistent van de grotere tongspieren.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Ceratocricoideus",
+    "description": "De Ceratocricoideus is een zeldzame, inconsistente intrinsieke larynxspier die soms aanwezig is. Zijn functie is niet duidelijk gedefinieerd, maar wordt verondersteld de spanning van de stembanden te beïnvloeden.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure hoorn (cornu inferius) van het thyroïd kraakbeen (schildkraakbeen).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Cricoïd kraakbeen (ringvormig kraakbeen van de larynx), nabij de aanhechting van de Posterior cricoarytenoid.",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer klein en variabel, vaak afwezig."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. laryngeus recurrens (tak van N. vagus, tiende hersenzenuw, nervus cranialis X).",
+      "branch": "Laryngeale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. laryngea inferior (tak van de A. thyroidea inferior)."
+      ],
+      "venous_drainage": "V. laryngea inferior."
+    },
+    "function": {
+      "primary_action": "Geen expliciete één-lijn gebruik verstrekt.",
+      "mechanism_of_action": "Indien aanwezig, wordt aangenomen dat de Ceratocricoideus de spanning van de vocale plooien beïnvloedt door de positie van het thyroïd en cricoïd kraakbeen ten opzichte van elkaar te veranderen. Zijn bijdrage aan de stemproductie is echter minimaal en wordt overschaduwd door de primaire larynxspieren.",
+      "role_in_expression": [
+        "Geen bekende significante rol in spraak of ademhaling. Voornamelijk van anatomisch belang als een zeldzame variatie."
+      ],
+      "synergists": [],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Ceratocricoideus voor als een minuscuul, vaak afwezig, draadje dat de onderkant van je adamsappel (thyroïd) verbindt met je ringvormige kraakbeen (cricoïd). Het is zo klein en zeldzaam dat het nauwelijks een echte functie heeft, meer een toevallige connectie die soms aanwezig is zonder duidelijke rol in de stemproductie.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Intertransversarii, medial posterior colli 1-7",
+    "description": "De mediale posterieure Intertransversarii colli zijn kleine, diepliggende spieren die tussen de processus articulares van de cervicale wervels liggen en de cervicale wervelkolom lateraal buigen en stabiliseren.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus articulares van C3-C7.",
+        "details": [
+          "Kleine, segmentale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Processus articulares van de direct superieur gelegen cervicale wervel.",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer kort."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en A. vertebralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij unilaterale contractie buigen de mediale posterieure Intertransversarii colli de cervicale wervelkolom lateraal naar de ipsilaterale zijde. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de nekbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de nekwervels, wat bijdraagt aan de algehele houding en beweging van het hoofd.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de nek kennen."
+      ],
+      "synergists": [
+        "Scalene spieren",
+        "Longus colli (voor laterale flexie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de mediale posterieure Intertransversarii colli voor als minuscule, diepliggende 'draadjes' die tussen de gewrichtsuitsteeksels aan de achterkant van je nekwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je nek soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je nek.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Intertransversarii, lateral posterior colli 1-7",
+    "description": "De laterale posterieure Intertransversarii colli zijn kleine, diepliggende spieren die tussen de transversale processus van de cervicale wervels liggen en de cervicale wervelkolom lateraal buigen en stabiliseren.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure tubercula van de processus transversus van C3-C7.",
+        "details": [
+          "Kleine, segmentale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Posterieure tubercula van de processus transversus van de direct superieur gelegen cervicale wervel.",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer kort."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en A. vertebralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij unilaterale contractie buigen de laterale posterieure Intertransversarii colli de cervicale wervelkolom lateraal naar de ipsilaterale zijde. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de nekbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de nekwervels, wat bijdraagt aan de algehele houding en beweging van het hoofd.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de nek kennen."
+      ],
+      "synergists": [
+        "Scalene spieren",
+        "Longus colli (voor laterale flexie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de laterale posterieure Intertransversarii colli voor als minuscule, diepliggende 'draadjes' die tussen de dwarsuitsteeksels aan de achter-zijkant van je nekwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je nek soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je nek.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Intertransversarii, anterior colli 1-7",
+    "description": "De anterieure Intertransversarii colli zijn kleine, diepliggende spieren die tussen de transversale processus van de cervicale wervels liggen en de cervicale wervelkolom lateraal buigen en stabiliseren.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure tubercula van de processus transversus van C3-C7.",
+        "details": [
+          "Kleine, segmentale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Anterieure tubercula van de processus transversus van de direct superieur gelegen cervicale wervel.",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer kort."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis ascendens en A. vertebralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij unilaterale contractie buigen de anterieure Intertransversarii colli de cervicale wervelkolom lateraal naar de ipsilaterale zijde. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de nekbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de nekwervels, wat bijdraagt aan de algehele houding en beweging van het hoofd.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de nek kennen."
+      ],
+      "synergists": [
+        "Scalene spieren",
+        "Longus colli (voor laterale flexie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de anterieure Intertransversarii colli voor als minuscule, diepliggende 'draadjes' die tussen de dwarsuitsteeksels aan de voorkant van je nekwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je nek soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je nek.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Interspinales colli 1-6",
+    "description": "De Interspinales colli zijn kleine, diepliggende spieren die tussen de doornuitsteeksels van de cervicale wervels liggen en de cervicale wervelkolom extendert en stabiliseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Superieure zijde van de doornuitsteeksels van C2-C7.",
+        "details": [
+          "Kleine, segmentale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Inferieure zijde van de doornuitsteeksels van de direct superieur gelegen cervicale wervel.",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer kort."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en A. vertebralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij bilaterale contractie extendert de Interspinales colli de cervicale wervelkolom. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de nekbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de nekwervels, wat bijdraagt aan de algehele houding en beweging van het hoofd.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de nek kennen."
+      ],
+      "synergists": [
+        "Spinalis colli",
+        "Multifidus colli",
+        "Rotatores colli (voor extensie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Interspinales colli voor als minuscule, diepliggende 'draadjes' die tussen de doornuitsteeksels van je nekwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je nek soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je nek.",
+    "status": "done",
+    "precisie_score": 6
+  },
+  {
+    "name": "Iliocostalis colli",
+    "description": "De Iliocostalis colli is een spier van de diepe nek, onderdeel van de erector spinae groep, die de cervicale wervelkolom extendert en lateraal buigt.",
+    "anatomy": {
+      "origin": {
+        "location": "Angels van de 3e tot 6e ribben.",
+        "details": [
+          "Smalle, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Processus transversus van C4-C6.",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en A. vertebralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext cervicale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis colli de cervicale wervelkolom. Bij unilaterale contractie buigt het de cervicale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de nek.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding van het hoofd en het controleren van de nekbewegingen.",
+        "Draagt bij aan de algemene stabiliteit van de nek.",
+        "Speelt een rol bij het uitvoeren van zijwaartse buigingen van de nek."
+      ],
+      "synergists": [
+        "Longissimus colli",
+        "Spinalis colli (voor extensie)",
+        "Scalene spieren (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Longus colli",
+        "Longus capitis",
+        "Sternocleidomastoid (voor flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis colli voor als een lange, verticale 'band' van spier die langs de zijkant van je nek loopt, van je ribben naar de dwarsuitsteeksels van je nekwervels. Wanneer hij samentrekt, trekt hij je nek recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je nek rechtop houdt en helpt bij zijwaartse bewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Hyoglossus (ceratoglossus)",
+    "description": "De Hyoglossus is een extrinsieke tongspier die de tong depresseert en retracteert (naar achteren trekt).",
+    "anatomy": {
+      "origin": {
+        "location": "Grote hoorn (cornu majus) en een deel van het lichaam van het hyoïd bot.",
+        "details": [
+          "Brede, platte oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van de tong, versmeltend met de intrinsieke tongspieren.",
+        "details": [
+          "Vezels lopen superieur en anterieur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de extrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Depresses and retracts tongue.",
+      "mechanism_of_action": "Bij contractie trekt de Hyoglossus de tong naar beneden en naar achteren. Dit is essentieel voor het openen van de mond, het manipuleren van voedsel tijdens kauwen en slikken, en het vormen van spraakklanken.",
+      "tongue_depression_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van de tong."
+      },
+      "tongue_retraction_mm": {
+        "average": "5-10",
+        "note": "Geschatte anteroposteriore verplaatsing van de tong."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de tong te helpen de voedselbolus naar achteren te bewegen.",
+        "Belangrijk voor spraakarticulatie, met name voor klanken die een lage of teruggetrokken tongpositie vereisen.",
+        "Draagt bij aan het openen van de mond en het creëren van ruimte in de mondholte."
+      ],
+      "synergists": [
+        "Genioglossus (voor depressie en protrusie)",
+        "Chondroglossus (voor depressie)"
+      ],
+      "antagonists": [
+        "Styloglossus",
+        "Palatoglossus",
+        "Superior longitudinal lingual (voor elevatie van de tong)"
+      ]
+    },
+    "visual_analogy": "Stel je de Hyoglossus voor als een platte, vierkante 'trekplaat' die van het hoefijzervormige botje onder je kin (hyoïd) naar de zijkant van je tong loopt. Wanneer hij samentrekt, trekt hij je tong naar beneden en naar achteren, alsof het een 'duwer' is die je tong helpt bij het slikken of het vormen van bepaalde klanken, essentieel voor de beweeglijkheid van je tong.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Geniohyoid",
+    "description": "De Geniohyoid is een spier van de suprahyoïdale groep, gelegen boven de Mylohyoid, die het hyoïd bot eleveert en naar voren trekt, en de mandibula depresseert (wanneer het hyoïd gefixeerd is).",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure mentale spina (kleine uitsteeksel aan de binnenkant van de kin) van de mandibula (onderkaak).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Anterieur oppervlak van het lichaam van het hyoïd bot.",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "C1 vezels die meelopen met de N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. sublinguale (tak van de A. lingualis)."
+      ],
+      "venous_drainage": "V. sublinguale en V. facialis."
+    },
+    "function": {
+      "primary_action": "Eleveert hyoïd, protruedeert hyoïd, depresses mandible.",
+      "mechanism_of_action": "Bij contractie trekt de Geniohyoid het hyoïd bot superieur en anterieur (omhoog en naar voren), wat essentieel is voor de suprahyoïdale fase van het slikken en het openen van de mond. Wanneer het hyoïd gefixeerd is, kan het de mandibula deprimeren (mond openen).",
+      "hyoid_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van het hyoïd bot."
+      },
+      "hyoid_protrusion_mm": {
+        "average": "2-5",
+        "note": "Geschatte anterieure verplaatsing van het hyoïd bot."
+      },
+      "mouth_opening_mm": {
+        "average": "2-5",
+        "note": "Kleine bijdrage aan mondopening."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de tong en larynx omhoog en naar voren te bewegen.",
+        "Belangrijk voor het openen van de mond en het controleren van de positie van de tong en de mondbodem tijdens spraak.",
+        "Draagt bij aan de stabiliteit van het hyoïd bot."
+      ],
+      "synergists": [
+        "Digastric",
+        "Mylohyoid",
+        "Stylohyoid (voor hyoïd elevatie en mondopening)"
+      ],
+      "antagonists": [
+        "Sternohyoid",
+        "Omohyoid",
+        "Thyrohyoid (voor hyoïd depressie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Geniohyoid voor als een gespierd 'touwtje' dat van de binnenkant van je kin naar de voorkant van het hoefijzervormige botje onder je kin (hyoïd) loopt. Wanneer hij samentrekt, trekt hij het hyoïd bot omhoog en naar voren, alsof het een 'lift' is die je keel omhoog en naar voren trekt om te slikken of je mond te openen, essentieel voor de beweeglijkheid van je mondbodem.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Genioglossus, superior fibers",
+    "description": "De superieure vezels van de Genioglossus zijn een extrinsieke tongspier die de tongpunt naar beneden en naar achteren trekt, en de tong naar voren en omhoog duwt.",
+    "anatomy": {
+      "origin": {
+        "location": "Superieure mentale spina (kleine uitsteeksel aan de binnenkant van de kin) van de mandibula (onderkaak).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tongpunt en dorsum van de tong.",
+        "details": [
+          "Vezels waaieren uit in de tong."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de extrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Depresses tongue tip, retracts tongue tip, protrudes tongue.",
+      "mechanism_of_action": "Bij contractie trekken de superieure vezels van de Genioglossus de tongpunt naar beneden en naar achteren, terwijl de gehele tong naar voren en omhoog wordt geduwd. Dit is cruciaal voor het vormen van verschillende spraakklanken en het manipuleren van voedsel.",
+      "tongue_movement_mm": {
+        "tip_depression_mm": "5-10",
+        "tip_retraction_mm": "5-10",
+        "tongue_protrusion_mm": "10-20",
+        "note": "Geschatte verplaatsing."
+      },
+      "role_in_expression": [
+        "Essentieel voor spraakarticulatie, met name voor het vormen van klanken die een lage of teruggetrokken tongpunt vereisen.",
+        "Belangrijk voor het manipuleren van voedsel tijdens kauwen en slikken.",
+        "De belangrijkste spier voor het naar voren steken van de tong (protrusie)."
+      ],
+      "synergists": [
+        "Genioglossus, middle and inferior fibers (voor protrusie en depressie)",
+        "Hyoglossus (voor depressie en retractie)"
+      ],
+      "antagonists": [
+        "Styloglossus",
+        "Palatoglossus",
+        "Superior longitudinal lingual (voor elevatie van de tong)"
+      ]
+    },
+    "visual_analogy": "Stel je de superieure vezels van de Genioglossus voor als een 'trekveer' die van de binnenkant van je kin naar de punt van je tong loopt. Wanneer hij samentrekt, trekt hij de tongpunt naar beneden en naar achteren, terwijl de rest van de tong naar voren wordt geduwd, alsof je je tong 'vormt' voor precieze klanken of bewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Genioglossus, middle fibers",
+    "description": "De middelste vezels van de Genioglossus zijn een extrinsieke tongspier die de tong naar voren en naar beneden trekt, en de tongrug depresseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale mentale spina (kleine uitsteeksel aan de binnenkant van de kin) van de mandibula (onderkaak).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Dorsum van de tong, van de wortel tot de punt, en het hyoïd bot.",
+        "details": [
+          "Vezels waaieren uit in de tong."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de extrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Depresses tongue, protrudes tongue.",
+      "mechanism_of_action": "Bij contractie trekken de middelste vezels van de Genioglossus de tong naar beneden en naar voren, wat essentieel is voor het openen van de mond en het vormen van spraakklanken. Het is de belangrijkste spier voor het naar voren steken van de tong (protrusie).",
+      "tongue_depression_mm": {
+        "average": "10-15",
+        "note": "Geschatte verticale verplaatsing van de tong."
+      },
+      "tongue_protrusion_mm": {
+        "average": "10-20",
+        "note": "Geschatte anterieure verplaatsing van de tong."
+      },
+      "role_in_expression": [
+        "Essentieel voor spraakarticulatie, met name voor het vormen van klinkers en medeklinkers die een lage of naar voren geduwde tongpositie vereisen.",
+        "Belangrijk voor het manipuleren van voedsel tijdens kauwen en slikken.",
+        "De belangrijkste spier voor het naar voren steken van de tong (protrusie)."
+      ],
+      "synergists": [
+        "Genioglossus, superior and inferior fibers (voor protrusie en depressie)",
+        "Hyoglossus (voor depressie)"
+      ],
+      "antagonists": [
+        "Styloglossus",
+        "Palatoglossus",
+        "Superior longitudinal lingual (voor elevatie van de tong)"
+      ]
+    },
+    "visual_analogy": "Stel je de middelste vezels van de Genioglossus voor als een krachtige 'duwer' die van de binnenkant van je kin naar het midden van je tong loopt. Wanneer hij samentrekt, duwt hij je tong naar voren en naar beneden, alsof hij een 'schep' is die je tong naar buiten en omlaag duwt om te spreken of voedsel te verplaatsen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Genioglossus, inferior fibers",
+    "description": "De inferieure vezels van de Genioglossus zijn een extrinsieke tongspier die de tongwortel naar voren en naar beneden trekt, en de tongpunt omhoog duwt.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure mentale spina (kleine uitsteeksel aan de binnenkant van de kin) van de mandibula (onderkaak).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tongwortel en het hyoïd bot.",
+        "details": [
+          "Vezels waaieren uit in de tong."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. hypoglossus (twaalfde hersenzenuw, nervus cranialis XII)",
+      "branch": "Takken die de extrinsieke tongspieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. lingualis (tak van de A. carotis externa)."
+      ],
+      "venous_drainage": "V. lingualis."
+    },
+    "function": {
+      "primary_action": "Depresses tongue, protrudes tongue, elevates tongue tip.",
+      "mechanism_of_action": "Bij contractie trekken de inferieure vezels van de Genioglossus de tongwortel naar voren en naar beneden, terwijl de tongpunt omhoog wordt geduwd. Dit is cruciaal voor het vormen van verschillende spraakklanken en het manipuleren van voedsel. Het is een belangrijke spier voor het naar voren steken van de tong (protrusie).",
+      "tongue_movement_mm": {
+        "root_depression_mm": "5-10",
+        "root_protrusion_mm": "10-20",
+        "tip_elevation_mm": "2-5",
+        "note": "Geschatte verplaatsing."
+      },
+      "role_in_expression": [
+        "Essentieel voor spraakarticulatie, met name voor het vormen van klanken die een naar voren geduwde of omhooggetrokken tongpunt vereisen.",
+        "Belangrijk voor het manipuleren van voedsel tijdens kauwen en slikken.",
+        "Draagt bij aan de stabiliteit van de tong en de luchtweg."
+      ],
+      "synergists": [
+        "Genioglossus, superior and middle fibers (voor protrusie en depressie)",
+        "Hyoglossus (voor depressie)"
+      ],
+      "antagonists": [
+        "Styloglossus",
+        "Palatoglossus",
+        "Superior longitudinal lingual (voor elevatie van de tong)"
+      ]
+    },
+    "visual_analogy": "Stel je de inferieure vezels van de Genioglossus voor als een 'trekker' die van de binnenkant van je kin naar de wortel van je tong loopt. Wanneer hij samentrekt, trekt hij de tongwortel naar voren en naar beneden, en duwt hij de tongpunt omhoog, alsof hij een 'duw- en trekbeweging' maakt om je tong in complexe vormen te bewegen voor spraak en slikken.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Rectus capitis, posterior minor",
+    "description": "De Rectus capitis posterior minor is een kleine, diepliggende spier van de suboccipitale regio, die het hoofd extendert en een belangrijke proprioceptieve rol heeft voor de nekpositie.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure tuberculum van de atlas (C1, de eerste cervicale wervel).",
+        "details": [
+          "Smalle, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale deel van de linea nuchae inferior van het occipitale bot (schedelbasis).",
+        "details": [
+          "Smalle, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. suboccipitalis (dorsale ramus van C1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. occipitalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Sensory organ for neck position, also extends head at neck.",
+      "mechanism_of_action": "Bij bilaterale contractie extendert de Rectus capitis posterior minor het hoofd bij het atlanto-occipitale gewricht (knikt het hoofd naar achteren). Zijn primaire rol is echter die van een proprioceptor, met een hoge dichtheid aan spierspoeltjes, wat essentieel is voor de fijne afstemming van de hoofdpositie en balans.",
+      "head_extension_degrees": {
+        "average": "1-3",
+        "note": "Minimale bijdrage aan hoofdexstensie."
+      },
+      "proprioceptive_density": {
+        "muscle_spindles_per_gram": "Hoge dichtheid (bijv. 30-40 per gram spierweefsel), essentieel voor fijne motoriek en positiezin.",
+        "note": "Kwantitatieve schatting van proprioceptieve receptoren."
+      },
+      "role_in_expression": [
+        "Cruciaal voor de proprioceptie van het hoofd en de nek, wat bijdraagt aan balans en coördinatie.",
+        "Assisteert bij het handhaven van de houding van het hoofd.",
+        "Disfunctie kan bijdragen aan cervicogene hoofdpijn of duizeligheid."
+      ],
+      "synergists": [
+        "Rectus capitis posterior major",
+        "Obliquus capitis superior (voor hoofdexstensie)"
+      ],
+      "antagonists": [
+        "Rectus capitis anterior",
+        "Longus capitis (voor hoofdflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus capitis posterior minor voor als een minuscuul, diepliggend 'sensor' spiertje aan de achterkant van je nek, net onder de schedelbasis, dat je hoofd heel lichtjes achterover kan trekken. Het is als een uiterst gevoelige 'antenne' die je hersenen constant informeert over de exacte positie van je hoofd, cruciaal voor je balans en coördinatie.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Rectus capitis, posterior major",
+    "description": "De Rectus capitis posterior major is een spier van de suboccipitale regio, die het hoofd roteert en extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de axis (C2, de tweede cervicale wervel).",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale deel van de linea nuchae inferior van het occipitale bot (schedelbasis).",
+        "details": [
+          "Brede, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. suboccipitalis (dorsale ramus van C1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. occipitalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Rotates and extends head to same side.",
+      "mechanism_of_action": "Bij unilaterale contractie roteert de Rectus capitis posterior major het hoofd naar de ipsilaterale zijde (zelfde zijde) en extendert het (trekt het hoofd naar achteren). Bij bilaterale contractie extendert het het hoofd krachtig. Het is een belangrijke spier voor de fijne controle van hoofdbewegingen.",
+      "head_rotation_degrees_per_side": {
+        "average": "5-10",
+        "note": "Bijdrage aan hoofdrotatie."
+      },
+      "head_extension_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan hoofdexstensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het draaien en kantelen van het hoofd, wat bijdraagt aan visuele tracking en non-verbale communicatie.",
+        "Belangrijk voor de stabiliteit van de bovenste nekwervels en het handhaven van de houding van het hoofd.",
+        "Disfunctie kan leiden tot nekpijn en beperkte hoofdbeweging."
+      ],
+      "synergists": [
+        "Rectus capitis posterior minor",
+        "Obliquus capitis inferior (voor rotatie)",
+        "Obliquus capitis superior (voor extensie)"
+      ],
+      "antagonists": [
+        "Rectus capitis anterior",
+        "Longus capitis (voor hoofdflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus capitis posterior major voor als een diepliggende, gespierde 'band' die van de doornuitsteeksel van je tweede nekwervel (axis) schuin omhoog en naar de achterkant van je schedel loopt. Wanneer hij samentrekt, draait hij je hoofd naar dezelfde kant en trekt het tegelijkertijd iets achterover, alsof het een fijne 'stuurkabel' is die je hoofd in precieze posities kan draaien en kantelen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Rectus capitis, lateralis",
+    "description": "De Rectus capitis lateralis is een kleine, diepliggende spier van de nek, die het hoofd lateraal flext en de atlanto-occipitale gewricht stabiliseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus transversus van de atlas (C1, de eerste cervicale wervel).",
+        "details": [
+          "Smalle, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Jugulaire proces van het occipitale bot (schedelbasis).",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale ramus van C1 (N. suboccipitalis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. occipitalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes neck, stabilises sidebends at atlanto-occipital joint.",
+      "mechanism_of_action": "Bij unilaterale contractie buigt de Rectus capitis lateralis het hoofd lateraal naar de ipsilaterale zijde (zelfde zijde) bij het atlanto-occipitale gewricht. Het speelt een belangrijke rol bij de stabilisatie van dit gewricht, wat cruciaal is voor de fijne controle van de hoofdpositie.",
+      "head_lateral_flexion_degrees": {
+        "average": "3-5",
+        "note": "Kleine bijdrage aan laterale flexie."
+      },
+      "role_in_expression": [
+        "Assisteert bij het kantelen van het hoofd zijwaarts.",
+        "Belangrijk voor de stabiliteit van de schedel op de wervelkolom, wat bijdraagt aan balans en coördinatie."
+      ],
+      "synergists": [
+        "Sternocleidomastoid",
+        "Scalene spieren (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Contralaterale Rectus capitis lateralis"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus capitis lateralis voor als een klein, diepliggend 'stabilisatiedraadje' dat van de zijkant van je eerste nekwervel (atlas) naar de basis van je schedel loopt. Wanneer het samentrekt, kantelt het je hoofd heel subtiel zijwaarts, alsof het een fijne afsteller is die je hoofd perfect recht houdt of lichtjes zijwaarts beweegt.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rectus capitis, anterior",
+    "description": "De Rectus capitis anterior is een kleine, diepliggende spier van de nek, die het hoofd flext bij het atlanto-occipitale gewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale massa en de wortel van de processus transversus van de atlas (C1, de eerste cervicale wervel).",
+        "details": [
+          "Smalle, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basilaire deel van het occipitale bot (schedelbasis), anterieur van het foramen magnum.",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale ramus van C1 (N. suboccipitalis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. pharyngea ascendens."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flexes neck at atlanto-occipital joint.",
+      "mechanism_of_action": "Bij bilaterale contractie buigt de Rectus capitis anterior het hoofd naar voren bij het atlanto-occipitale gewricht (knikt het hoofd naar voren). Het is een belangrijke stabilisator van dit gewricht en werkt samen met de Longus capitis voor hoofdflexie.",
+      "head_flexion_degrees": {
+        "average": "3-5",
+        "note": "Kleine bijdrage aan hoofdflexie."
+      },
+      "role_in_expression": [
+        "Assisteert bij het 'ja' knikken met het hoofd.",
+        "Belangrijk voor de fijne controle van de hoofdpositie en balans."
+      ],
+      "synergists": [
+        "Longus capitis",
+        "Sternocleidomastoid (voor flexie)"
+      ],
+      "antagonists": [
+        "Rectus capitis posterior major",
+        "Rectus capitis posterior minor",
+        "Semispinalis capitis",
+        "Splenius capitis (voor hoofdexstensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus capitis anterior voor als een klein, diepliggend 'knikkabeltje' dat van de voorkant van je eerste nekwervel (atlas) naar de basis van je schedel loopt. Wanneer hij samentrekt, knikt hij je hoofd heel subtiel naar voren, alsof het een fijne afsteller is die je hoofd in de perfecte positie voor knikken brengt.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Obliquus capitis, superior",
+    "description": "De Obliquus capitis superior is een spier van de suboccipitale regio, die het hoofd lateraal flext en extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus transversus van de atlas (C1, de eerste cervicale wervel).",
+        "details": [
+          "Smalle, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tussen de linea nuchae superior en inferior van het occipitale bot (schedelbasis), lateraal van de Rectus capitis posterior major.",
+        "details": [
+          "Brede, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. suboccipitalis (dorsale ramus van C1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. occipitalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flexes head to same side.",
+      "mechanism_of_action": "Bij unilaterale contractie buigt de Obliquus capitis superior het hoofd lateraal naar de ipsilaterale zijde (zelfde zijde) en extendert het (trekt het hoofd naar achteren). Bij bilaterale contractie extendert het het hoofd. Het is een belangrijke spier voor de fijne controle van hoofdbewegingen en stabilisatie van het atlanto-occipitale gewricht.",
+      "head_lateral_flexion_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale flexie."
+      },
+      "head_extension_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan hoofdexstensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het kantelen van het hoofd zijwaarts en het omhoog kijken.",
+        "Belangrijk voor de proprioceptie en stabiliteit van het hoofd op de nek."
+      ],
+      "synergists": [
+        "Rectus capitis posterior major",
+        "Rectus capitis posterior minor (voor extensie)",
+        "Rectus capitis lateralis (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus capitis anterior",
+        "Longus capitis (voor flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Obliquus capitis superior voor als een klein, schuin 'trekdraadje' dat van de zijkant van je eerste nekwervel (atlas) schuin omhoog en naar de achterkant van je schedel loopt. Wanneer hij samentrekt, kantelt hij je hoofd zijwaarts en trekt het iets achterover, alsof het een fijne afsteller is die je hoofd in precieze posities kan bewegen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Obliquus capitis, inferior",
+    "description": "De Obliquus capitis inferior is de grootste van de suboccipitale spieren, die primair verantwoordelijk is voor de rotatie van het hoofd bij het atlanto-axiale gewricht (tussen C1 en C2).",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de axis (C2, de tweede cervicale wervel).",
+        "details": [
+          "Robuuste, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Processus transversus van de atlas (C1, de eerste cervicale wervel).",
+        "details": [
+          "Grote, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. suboccipitalis (dorsale ramus van C1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. vertebralis en A. occipitalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Rotates neck.",
+      "mechanism_of_action": "Bij unilaterale contractie roteert de Obliquus capitis inferior de atlas (C1) en daarmee het hoofd naar de ipsilaterale zijde (zelfde zijde) ten opzichte van de axis (C2). Dit is de belangrijkste spier voor rotatie van het hoofd. Bilaterale contractie kan lichte extensie veroorzaken.",
+      "head_rotation_degrees_per_side": {
+        "average": "30-40",
+        "note": "Belangrijke bijdrage aan hoofdrotatie (ongeveer 50% van de totale rotatie)."
+      },
+      "role_in_expression": [
+        "Essentieel voor het 'nee' schudden met het hoofd en het draaien van het hoofd om te kijken.",
+        "Cruciaal voor de stabiliteit van het atlanto-axiale gewricht en de fijne controle van de hoofdpositie.",
+        "Disfunctie kan leiden tot beperkte nekrotatie en nekpijn."
+      ],
+      "synergists": [
+        "Rectus capitis posterior major (voor ipsilaterale rotatie)"
+      ],
+      "antagonists": [
+        "Contralaterale Obliquus capitis inferior",
+        "Sternocleidomastoid (voor contralaterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Obliquus capitis inferior voor als een dikke, horizontale 'draaibank' van spier die van de doornuitsteeksel van je tweede nekwervel (axis) naar de zijkant van je eerste nekwervel (atlas) loopt. Wanneer hij samentrekt, draait hij je hoofd naar dezelfde kant, alsof hij een 'draaischijf' is die je hoofd van links naar rechts kan draaien, essentieel voor het over je schouder kijken.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Rotatores colli",
+    "description": "De Rotatores colli zijn kleine, diepliggende spieren van de nek, onderdeel van de transversospinalis groep, die de cervicale wervelkolom roteren en stabiliseren. Ze overbruggen één of twee wervelsegmenten.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus transversus van C2-T1.",
+        "details": [
+          "Kleine, segmentale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Processus spinosus van de cervicale wervels, één of twee niveaus superieur van hun oorsprong.",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer kort."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de cervicale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. cervicalis profunda en A. vertebralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores colli de cervicale wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de nekbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de nekwervels, wat bijdraagt aan de algehele houding en beweging van het hoofd.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de nek kennen."
+      ],
+      "synergists": [
+        "Multifidus colli",
+        "Semispinalis colli (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores colli voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één nekwervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je nek soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je nek.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Digastric, posterior belly",
+    "description": "De posterieure buik van de Digastric is een spier van de suprahyoïdale groep, die het hyoïd bot eleveert en de mandibula depresseert (mond opent) wanneer het hyoïd gefixeerd is.",
+    "anatomy": {
+      "origin": {
+        "location": "Mastoid notch van het temporaalbot (achter het oor).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tussenpees (intermediate tendon) van de Digastric, die vastzit aan het hyoïd bot via een fibreuze lus.",
+        "details": [
+          "Vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII), digastrische tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. auricularis posterior en A. occipitalis."
+      ],
+      "venous_drainage": "V. retromandibularis en V. facialis."
+    },
+    "function": {
+      "primary_action": "Eleveert hyoïd, depresses mandible.",
+      "mechanism_of_action": "Bij contractie trekt de posterieure buik van de Digastric het hyoïd bot omhoog en naar achteren. Wanneer het hyoïd gefixeerd is, werkt het samen met de anterieure buik om de mandibula te deprimeren (mond te openen). Het is cruciaal voor slikken en mondopening.",
+      "hyoid_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van het hyoïd bot."
+      },
+      "mouth_opening_mm": {
+        "average": "10-20",
+        "note": "Bijdrage aan mondopening."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de tong en larynx omhoog te bewegen.",
+        "Belangrijk voor het openen van de mond en het controleren van de positie van de tong en de mondbodem tijdens spraak.",
+        "Draagt bij aan de stabiliteit van het hyoïd bot."
+      ],
+      "synergists": [
+        "Anterieure buik van de Digastric",
+        "Mylohyoid",
+        "Geniohyoid",
+        "Stylohyoid (voor hyoïd elevatie en mondopening)"
+      ],
+      "antagonists": [
+        "Masseter",
+        "Temporalis",
+        "Medial pterygoid (voor mondsluiting)"
+      ]
+    },
+    "visual_analogy": "Stel je de posterieure buik van de Digastric voor als een gespierde 'band' die van het bot achter je oor (mastoid) naar een tussenpees bij je hyoïd bot loopt. Wanneer hij samentrekt, trekt hij je hyoïd bot omhoog en naar achteren, en helpt hij je mond te openen, alsof het een 'trekker' is die je kaak laat zakken om te eten of te spreken.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Digastric, anterior belly",
+    "description": "De anterieure buik van de Digastric is een spier van de suprahyoïdale groep, die het hyoïd bot eleveert en de mandibula depresseert (mond opent) wanneer het hyoïd gefixeerd is.",
+    "anatomy": {
+      "origin": {
+        "location": "Digastrische fossa van de mandibula (onderkaak), nabij de symphysis menti (kinpunt).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tussenpees (intermediate tendon) van de Digastric, die vastzit aan het hyoïd bot via een fibreuze lus.",
+        "details": [
+          "Vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. mylohyoideus (tak van de inferieure alveolaire zenuw, die een tak is van de mandibulaire divisie van de N. trigeminus, vijfde hersenzenuw, nervus cranialis V).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. sublinguale (tak van de A. lingualis) en A. mentalis."
+      ],
+      "venous_drainage": "V. sublinguale en V. facialis."
+    },
+    "function": {
+      "primary_action": "Eleveert hyoïd, depresses mandible.",
+      "mechanism_of_action": "Bij contractie trekt de anterieure buik van de Digastric het hyoïd bot omhoog en naar voren. Wanneer het hyoïd gefixeerd is, werkt het samen met de posterieure buik om de mandibula te deprimeren (mond te openen). Het is cruciaal voor slikken en mondopening.",
+      "hyoid_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van het hyoïd bot."
+      },
+      "mouth_opening_mm": {
+        "average": "10-20",
+        "note": "Bijdrage aan mondopening."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de tong en larynx omhoog te bewegen.",
+        "Belangrijk voor het openen van de mond en het controleren van de positie van de tong en de mondbodem tijdens spraak.",
+        "Draagt bij aan de stabiliteit van het hyoïd bot."
+      ],
+      "synergists": [
+        "Posterieure buik van de Digastric",
+        "Mylohyoid",
+        "Geniohyoid",
+        "Stylohyoid (voor hyoïd elevatie en mondopening)"
+      ],
+      "antagonists": [
+        "Masseter",
+        "Temporalis",
+        "Medial pterygoid (voor mondsluiting)"
+      ]
+    },
+    "visual_analogy": "Stel je de anterieure buik van de Digastric voor als een gespierde 'band' die van de binnenkant van je kin naar een tussenpees bij je hyoïd bot loopt. Wanneer hij samentrekt, trekt hij je hyoïd bot omhoog en naar voren, en helpt hij je mond te openen, alsof het een 'trekker' is die je kaak laat zakken om te eten of te spreken.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pharyngeal constrictor, superior, pterygopharyngeal part",
+    "description": "De pterygofaryngeale deel van de Superior pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Pterygoïde hamulus en de pterygoïd-mandibulaire raphe.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pharyngea ascendens en A. palatina ascendens."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing.",
+      "mechanism_of_action": "Bij contractie vernauwt de pterygofaryngeale deel van de Superior pharyngeal constrictor de farynx, wat de voedselbolus naar beneden duwt tijdens slikken. Het helpt ook bij het afsluiten van de nasopharynx van de oropharynx.",
+      "pharyngeal_constriction_percentage": {
+        "average": "20-30%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen.",
+        "Belangrijk voor spraakarticulatie, met name voor het vormen van klanken die een vernauwde farynx vereisen."
+      ],
+      "synergists": [
+        "Andere delen van de Superior pharyngeal constrictor",
+        "Middle pharyngeal constrictor",
+        "Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de pterygofaryngeale deel van de Superior pharyngeal constrictor voor als een gespierde 'ring' die zich aan de bovenkant van je keelholte bevindt, van de basis van je schedel naar de achterkant van je keel. Wanneer je slikt, knijpt deze ring samen en duwt het voedsel naar beneden, alsof het een 'knijpmechanisme' is dat helpt bij het doorslikken van voedsel.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pharyngeal constrictor, superior, mylopharyngeal part",
+    "description": "De mylofaryngeale deel van de Superior pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Mylohyoidlijn van de mandibula (onderkaak).",
+        "details": [
+          "Brede, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pharyngea ascendens en A. palatina ascendens."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing.",
+      "mechanism_of_action": "Bij contractie vernauwt de mylofaryngeale deel van de Superior pharyngeal constrictor de farynx, wat de voedselbolus naar beneden duwt tijdens slikken. Het werkt synergetisch met andere constrictor spieren om de farynx te sluiten en de voedselbolus efficiënt te transporteren.",
+      "pharyngeal_constriction_percentage": {
+        "average": "20-30%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen.",
+        "Belangrijk voor spraakarticulatie en het voorkomen van nasale regurgitatie."
+      ],
+      "synergists": [
+        "Andere delen van de Superior pharyngeal constrictor",
+        "Middle pharyngeal constrictor",
+        "Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de mylofaryngeale deel van de Superior pharyngeal constrictor voor als een gespierde 'ring' die zich aan de bovenkant van je keelholte bevindt, van de binnenkant van je onderkaak naar de achterkant van je keel. Wanneer je slikt, knijpt deze ring samen en duwt het voedsel naar beneden, alsof het een 'knijpmechanisme' is dat helpt bij het doorslikken van voedsel.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pharyngeal constrictor, superior, glossopharyngeal part",
+    "description": "De glossopharyngeale deel van de Superior pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale zijde van de tong (via Glossopharyngeus spier).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pharyngea ascendens."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing.",
+      "mechanism_of_action": "Bij contractie vernauwt de glossopharyngeale deel van de Superior pharyngeal constrictor de farynx, wat de voedselbolus naar beneden duwt tijdens slikken. Het werkt synergetisch met andere constrictor spieren om de farynx te sluiten en de voedselbolus efficiënt te transporteren.",
+      "pharyngeal_constriction_percentage": {
+        "average": "20-30%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen.",
+        "Belangrijk voor spraakarticulatie en het voorkomen van nasale regurgitatie."
+      ],
+      "synergists": [
+        "Andere delen van de Superior pharyngeal constrictor",
+        "Middle pharyngeal constrictor",
+        "Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de glossopharyngeale deel van de Superior pharyngeal constrictor voor als een gespierde 'ring' die zich aan de bovenkant van je keelholte bevindt, van de zijkant van je tong naar de achterkant van je keel. Wanneer je slikt, knijpt deze ring samen en duwt het voedsel naar beneden, alsof het een 'knijpmechanisme' is dat helpt bij het doorslikken van voedsel.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pharyngeal constrictor, superior, buccopharyngeal part",
+    "description": "De buccofaryngeale deel van de Superior pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Pterygoïd-mandibulaire raphe en de posterieure rand van de Bucinator spier.",
+        "details": [
+          "Smalle, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pharyngea ascendens."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing.",
+      "mechanism_of_action": "Bij contractie vernauwt de buccofaryngeale deel van de Superior pharyngeal constrictor de farynx, wat de voedselbolus naar beneden duwt tijdens slikken. Het werkt synergetisch met andere constrictor spieren om de farynx te sluiten en de voedselbolus efficiënt te transporteren.",
+      "pharyngeal_constriction_percentage": {
+        "average": "20-30%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen.",
+        "Belangrijk voor spraakarticulatie en het voorkomen van nasale regurgitatie."
+      ],
+      "synergists": [
+        "Andere delen van de Superior pharyngeal constrictor",
+        "Middle pharyngeal constrictor",
+        "Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de buccofaryngeale deel van de Superior pharyngeal constrictor voor als een gespierde 'ring' die zich aan de bovenkant van je keelholte bevindt, van de pterygoïd-mandibulaire raphe naar de achterkant van je keel. Wanneer je slikt, knijpt deze ring samen en duwt het voedsel naar beneden, alsof het een 'knijpmechanisme' is dat helpt bij het doorslikken van voedsel.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pharyngeal constrictor, middle, chondropharyngeal part",
+    "description": "De chondrofaryngeale deel van de Middle pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Kleine hoorn (cornu minus) van het hyoïd bot.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pharyngea ascendens."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing.",
+      "mechanism_of_action": "Bij contractie vernauwt de chondrofaryngeale deel van de Middle pharyngeal constrictor de farynx, wat de voedselbolus naar beneden duwt tijdens slikken. Het overlapt de Superior pharyngeal constrictor en werkt synergetisch met de andere constrictor spieren.",
+      "pharyngeal_constriction_percentage": {
+        "average": "30-40%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen.",
+        "Belangrijk voor spraakarticulatie en het voorkomen van nasale regurgitatie."
+      ],
+      "synergists": [
+        "Superior pharyngeal constrictor",
+        "Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de chondrofaryngeale deel van de Middle pharyngeal constrictor voor als een gespierde 'ring' die zich in het midden van je keelholte bevindt, van het hyoïd bot naar de achterkant van je keel. Wanneer je slikt, knijpt deze ring samen en duwt het voedsel naar beneden, alsof het een 'knijpmechanisme' is dat helpt bij het doorslikken van voedsel.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pharyngeal constrictor, middle, ceratopharyngeal part",
+    "description": "De ceratofaryngeale deel van de Middle pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Grote hoorn (cornu majus) van het hyoïd bot.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pharyngea ascendens."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing.",
+      "mechanism_of_action": "Bij contractie vernauwt de ceratofaryngeale deel van de Middle pharyngeal constrictor de farynx, wat de voedselbolus naar beneden duwt tijdens slikken. Het overlapt de Superior pharyngeal constrictor en werkt synergetisch met de andere constrictor spieren.",
+      "pharyngeal_constriction_percentage": {
+        "average": "30-40%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen.",
+        "Belangrijk voor spraakarticulatie en het voorkomen van nasale regurgitatie."
+      ],
+      "synergists": [
+        "Superior pharyngeal constrictor",
+        "Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de ceratofaryngeale deel van de Middle pharyngeal constrictor voor als een gespierde 'ring' die zich in het midden van je keelholte bevindt, van het hyoïd bot naar de achterkant van je keel. Wanneer je slikt, knijpt deze ring samen en duwt het voedsel naar beneden, alsof het een 'knijpmechanisme' is dat helpt bij het doorslikken van voedsel.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pharyngeal constrictor, inferior, thyropharyngeal part",
+    "description": "De thyrofaryngeale deel van de Inferior pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken.",
+    "anatomy": {
+      "origin": {
+        "location": "Oblique lijn van het thyroïd kraakbeen (schildkraakbeen).",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pharyngea ascendens en A. thyroidea inferior."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing.",
+      "mechanism_of_action": "Bij contractie vernauwt de thyrofaryngeale deel van de Inferior pharyngeal constrictor de farynx, wat de voedselbolus naar beneden duwt tijdens slikken. Het overlapt de Middle pharyngeal constrictor en werkt synergetisch met de andere constrictor spieren. Dit deel vormt het bovenste deel van de slokdarmsfincter.",
+      "pharyngeal_constriction_percentage": {
+        "average": "40-50%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen.",
+        "Belangrijk voor spraakarticulatie en het voorkomen van aspiratie.",
+        "Vormt een belangrijk deel van de bovenste slokdarmsfincter."
+      ],
+      "synergists": [
+        "Superior pharyngeal constrictor",
+        "Middle pharyngeal constrictor",
+        "Cricopharyngeal part of Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de thyrofaryngeale deel van de Inferior pharyngeal constrictor voor als een gespierde 'ring' die zich aan de onderkant van je keelholte bevindt, van je adamsappel (thyroïd) naar de achterkant van je keel. Wanneer je slikt, knijpt deze ring samen en duwt het voedsel naar beneden, alsof het een 'knijpmechanisme' is dat helpt bij het doorslikken van voedsel en de ingang van de slokdarm vormt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pharyngeal constrictor, inferior, cricopharyngeal part",
+    "description": "De cricofaryngeale deel van de Inferior pharyngeal constrictor is een spier van de farynx die de farynx vernauwt en helpt bij slikken. Het vormt de onderste grens van de farynx en de bovenste slokdarmsfincter.",
+    "anatomy": {
+      "origin": {
+        "location": "Zijkant van het cricoïd kraakbeen (ringvormig kraakbeen van de larynx).",
+        "details": [
+          "Smalle, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Faryngeale raphe (posterieure middenlijn van de farynxwand).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. vagus (tiende hersenzenuw, nervus cranialis X) via de pharyngeale plexus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. thyroidea inferior."
+      ],
+      "venous_drainage": "Plexus venosus pharyngeus."
+    },
+    "function": {
+      "primary_action": "Constricts pharynx, aids in swallowing, forms upper esophageal sphincter.",
+      "mechanism_of_action": "Bij contractie vernauwt de cricofaryngeale deel van de Inferior pharyngeal constrictor de farynx en vormt het de bovenste slokdarmsfincter (UES). Deze sfincter is in rust gesloten om luchtinname in de slokdarm te voorkomen en opent reflexmatig tijdens slikken om voedselpassage naar de slokdarm mogelijk te maken. Het werkt synergetisch met de thyrofaryngeale deel.",
+      "pharyngeal_constriction_percentage": {
+        "average": "40-50%",
+        "note": "Geschatte vernauwing van de farynxdiameter."
+      },
+      "UES_pressure_mmHg": {
+        "average": "30-100",
+        "note": "Druk bij rust, varieert sterk."
+      },
+      "role_in_expression": [
+        "Essentieel voor slikken (deglutitie), door de voedselbolus naar de slokdarm te duwen en de luchtweg te beschermen.",
+        "Belangrijk voor het voorkomen van reflux van maaginhoud naar de farynx.",
+        "Disfunctie kan leiden tot slikproblemen (dysfagie) of reflux."
+      ],
+      "synergists": [
+        "Superior pharyngeal constrictor",
+        "Middle pharyngeal constrictor",
+        "Thyropharyngeal part of Inferior pharyngeal constrictor (voor slikken)"
+      ],
+      "antagonists": [
+        "Stylopharyngeus",
+        "Palatopharyngeus",
+        "Salpingopharyngeus (voor faryngeale dilatatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de cricofaryngeale deel van de Inferior pharyngeal constrictor voor als een gespierde 'klep' die zich aan de onderkant van je keelholte bevindt, rond je ringvormige kraakbeen (cricoïd). Het is als een 'poortwachter' die de ingang van je slokdarm bewaakt, die in rust gesloten is om te voorkomen dat lucht in je maag komt, en opent alleen wanneer je slikt, essentieel voor veilig eten en drinken.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

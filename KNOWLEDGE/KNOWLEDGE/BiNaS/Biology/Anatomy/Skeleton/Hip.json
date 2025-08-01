@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Femur (Dijbeen)",
+    "type": "bone",
+    "category": "Hip",
+    "description": "Het Femur, of dijbeen, is het langste, zwaarste en sterkste bot in het menselijk lichaam, dat articuleert met het heupbeen bij de heup en met de tibia en patella bij de knie.",
+    "location": "Bovenbeen, tussen de heup en de knie.",
+    "articulations": [
+      "Hip bone (via heupgewricht)",
+      "Patella (knieschijf, via patellofemorale gewricht)",
+      "Tibia (scheenbeen, via tibiofemorale gewricht)"
+    ],
+    "key_features": [
+      "Head (articuleert met acetabulum van heupbeen)",
+      "Neck (smalle deel onder het hoofd, veelvoorkomende breuklocatie)",
+      "Greater and lesser trochanters (aanhechting voor heup- en dijspieren)",
+      "Linea aspera (ruwe richel aan posterieure zijde, aanhechting voor dijspieren)",
+      "Medial and lateral condyles (articulatie met tibia)",
+      "Medial and lateral epicondyles (aanhechting voor ligamenten en spieren)",
+      "Adductor tubercle (aanhechting voor Adductor magnus)"
+    ],
+    "dimensions": {
+      "average_length_mm": "450-550",
+      "average_diameter_mm": "25-35",
+      "note": "Lengte varieert met lichaamslengte."
+    },
+    "function": {
+      "primary_role": "Dragen van lichaamsgewicht, aanhechting van spieren, facilitatie van beenbewegingen.",
+      "details": "Vormt het structurele fundament van het bovenbeen, draagt het gewicht van het bovenlichaam en dient als aanhechtingspunt voor de krachtigste spieren van het lichaam (quadriceps, hamstrings, gluteale spieren). Cruciaal voor staan, lopen, rennen, springen en alle bewegingen van de onderste ledematen."
+    },
+    "visual_analogy": "Stel je het Femur voor als een lange, robuuste 'pilaar' van bot die je bovenbeen vormt, met een 'bal' aan de bovenkant (femurhoofd) die in de kom van je heupbeen past, en twee 'rollen' aan de onderkant (condylen) die op je scheenbeen rusten. Het is de 'hoofdpilaar' van je been, die je lichaamsgewicht draagt en je in staat stelt te bewegen met ongekende kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

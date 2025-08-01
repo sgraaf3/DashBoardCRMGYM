@@ -1,0 +1,134 @@
+{
+  "technical_resources_db": [
+    {
+      "name": "Co2ntrol (Meetinstrument)",
+      "description": "Een klein en licht apparaat, bevestigd aan een borstband, dat indirect de ventilatie meet en wordt gebruikt voor het registreren van hartslagvariabiliteit (HRV) en ademfrequentie.",
+      "components": [
+        "Polar hartslagmeterband (ongecodeerd)",
+        "De Co2ntrol apparaat zelf",
+        "Kabeltje van Co2ntrol naar PC met verlengkabel",
+        "Handleiding in PowerPoint",
+        "Software"
+      ],
+      "functionality": [
+        "Detecteert R-toppen van QRS-complexen in beat-to-beat hartslagsignaal.",
+        "Meet normal-to-normal (NN) intervallen (RR-intervallen) met 1 ms nauwkeurigheid.",
+        "Registreert ademfrequentie, inademings- en uitademingstijden, borstexpansie (Chest Expansion) elke 1 ms.",
+        "Ontwikkeld volgens richtlijnen van Europese en Noord-Amerikaanse Task Force (HRV).",
+        "Bewezen betrouwbaarheid voor HRV en ademfrequentie in rust en bij lichte fysieke activiteit bij gezonde personen."
+      ],
+      "usage_notes": "Geschikt voor professionals in sportbegeleiding. Kan los van de PC vele uren opnemen. Prijs: €2495,- excl. BTW (2003).",
+      "scientific_validation": [
+        "Eerste onderzoek door Adrie van Diemen (2003) keek naar bruikbaarheid in wielersport (buiten).",
+        "Eerste echte validatie-onderzoek door Martijn Carol (vergelijking ademfrequentie en ventilatiedrempel tussen Oxycon en Co2ntrol).",
+        "Wetenschappelijke validatie door Universiteit van Amsterdam (Monique Frings, Judith Sluiter, Margot Joosen) over betrouwbaarheid HRV en ademfrequentie meting via thorax uitzetting (5 jaar geduurd)."
+      ],
+      "errors_and_troubleshooting": "Softwareproblemen (bijv. onduidelijke ademfrequentie signalen door bevestiging Co2ntrol) kunnen optreden, maar leiden zelden tot uitval van deelnemers."
+    },
+    {
+      "name": "ATDS (Anaerobic Treshold Detection System)",
+      "description": "Een volledig draadloos systeem voor professionals in de sport, ontworpen voor het meten van adempatroon, ademfrequentie, hartslag, hartslagvariabiliteit, huidtemperatuur en activiteit.",
+      "components": [
+        "Elastische band met 3 drukkers",
+        "Antenne (bereik tot 100 meter, sterkere antenne verkrijgbaar)",
+        "Docking station",
+        "Kabeltje van docking station naar de computer",
+        "Handleiding in PowerPoint",
+        "Software"
+      ],
+      "functionality": [
+        "Kan 1-kanaals ECG schrijven.",
+        "Kan meerdere uren alle signalen registreren.",
+        "Geschikt voor atletiekbaan en ijsbaan (groot bereik).",
+        "EC-protocol in software voor geautomatiseerde fietstesten (1 Watt per 6 seconden oplopend)."
+      ],
+      "origin": "Ontstaan na analyse van voor- en nadelen van andere meetsystemen, ontwikkeld door Werner Gut (expert longfunctie apparatuur in jaren '70)."
+    },
+    {
+      "name": "EC-Coach (Meetinstrument)",
+      "description": "Geschikt voor ademtherapeuten die 1 op 1 werken. Meet hartslag, hartslagvariabiliteit en een adempatroon afgeleid van HRV. Doet een voorspelling over de mate van inspanning, stress en het omslagpunt.",
+      "components": ["Band", "Sensor", "Bluetooth Sensor", "Software"]
+    },
+    {
+      "name": "EC-Coach Team (Meetinstrument)",
+      "description": "Geschikt voor het meten van meerdere mensen tegelijk (tot maximaal 7). Maakt ademtherapie sessies met meerdere mensen tegelijk mogelijk.",
+      "notes": "Kan uitgebreid worden naar een groot teamsysteem voor 100 personen met server software voor online monitoring van inspanningsniveau."
+    },
+    {
+      "name": "EC Watch (Meetinstrument)",
+      "description": "Uitermate geschikt voor personal trainers en ademtherapeuten. Meet hartslag, hartslagvariabiliteit en een adempatroon afgeleid van HRV. Doet een voorspelling over de mate van inspanning, stress en het omslagpunt. Heeft geheugen en display.",
+      "components": ["Band", "Sensor", "Dongel", "Horloge", "Software"],
+      "team_system_options": "Heeft een klein teamsysteem (tot 10 personen) en een groot teamsysteem (voor 100 personen) met server software (bereik tot 500 meter)."
+    },
+    {
+      "name": "Testfiets (Fietsergometer)",
+      "description": "Speciale inspanningsfiets gebruikt voor de inspanningstest binnen de Energy Control methode. Geschikt voor iedereen, ongeacht belastbaarheid of sportniveau.",
+      "functionality": [
+        "Weerstand kan in stappen toenemen (wiel kan afgeremd worden).",
+        "Betrouwbare berekening van zuurstofopname uit vermogen.",
+        "Te koppelen met PC-software (Daum Ergobike Premium 8i, LifeFitness, PowerBike, EC Bike).",
+        "Kan gestuurd worden vanuit ATDS/Co2ntrol software (automatisch protocol)."
+      ],
+      "notes": "Niet gekoppelde fietsen kunnen handmatig gevolgd worden. Belangrijk dat maximale belasting wordt geboden (bijv. 500 Watt). Prijs is vergelijkbaar met gewone fitnessfiets."
+    },
+    {
+      "name": "Trilplaat / Power-Plate",
+      "description": "Fitnessapparaat dat vibratietraining biedt, zeer effectief voor spierversterking en revalidatie, met name bij longpatiënten en voor gewichtsreductie.",
+      "benefits": [
+        "Versnelt afvalproces (stimuleert vetverbranding).",
+        "Maakt spieren snel sterker (ongemerkt de hele dag meer kunnen).",
+        "Vermindert vermoeidheidsgevoel tijdens en na training (door extra zuurstof).",
+        "Zeer goed voor longpatiënten in ergste stadium (GOLD 4).",
+        "Positief gevalideerd (ondanks aanvankelijke twijfel)."
+      ],
+      "usage": "Kan oplopen van 4 minuten naar 18 minuten per training. Ideale optie voor mensen met hekel aan sporten (bijv. GOLD 4 patiënten)."
+    },
+    {
+      "name": "Zuurstofgenerator / Extra Zuurstof",
+      "description": "Apparatuur voor het toedienen van extra zuurstof tijdens trainingen.",
+      "benefits": [
+        "Verhoogt geleverd vermogen in dezelfde verbranding (meer calorieën, meer resultaat).",
+        "Stimuleert vetverbranding en spaart suikervoorraad.",
+        "Vermindert vermoeidheidsgevoel tijdens en na training."
+      ],
+      "notes": "Niet bang zijn voor verlies van ademprikkel; dit gebeurt niet bij inspanning en gezonde longen. 'Thuis geen zuurstof, dus training ook niet' is onjuiste redenering, extra zuurstof prikkelt meer spieren."
+    },
+    {
+      "name": "Hartslagmeterband (Smart Bluetooth)",
+      "description": "Essentieel voor het meten van hartslag en RR-tijden (tijden tussen hartslagen) voor HRV-analyse. Werkt met de Energy Control App en PC-software.",
+      "recommended_models": ["Polar H7", "Wahoo Tickr", "Sigma Bluetooth+Ant", "Geonaute BT van de Decathlon", "BMI coach band"],
+      "notes": "Borstband is veruit het beste. Armsoren zijn minder betrouwbaar voor rustmeting op basis van HRV."
+    },
+    {
+      "name": "Saturatiemeter",
+      "description": "Meet de zuurstofverzadiging (SaO2) van het ijzer in het bloed aan de middelvinger.",
+      "usage": "Belangrijk hulpmiddel bij longpatiënten (toezicht op SaO2, staken arbeid onder 90%)."
+    },
+    {
+      "name": "Digitale Verzuimintake (DVI)",
+      "description": "Korte vragenlijst (ca. 10 minuten) van Perspectief (arbodienst) voor werknemers die zich ziekmelden. In te vullen via werknemersportal.",
+      "purpose": "Meer informatie voor professional van Perspectief om beter te adviseren over verzuimsituatie. Werknemer kan in eigen tijd nadenken over situatie. Deelt direct eigen verhaal. Duurzame re-integratie en herstel.",
+      "process": "Uitnodiging meestal op 1e verzuimdag. Verdiepende vragenlijsten mogelijk. Antwoorden alleen inzichtelijk voor werknemer en professional van Perspectief. Voldoet aan veiligheids- en privacyrichtlijnen (Autoriteit Persoonsgegevens, AVG).",
+      "notes": "Infographic beschikbaar voor volledig proces."
+    },
+    {
+      "name": "Fullstack Vue (Boek)",
+      "description": "Een uitgebreide gids voor het leren van Vue.js en gerelateerde technologieën, gericht op het bouwen van betrouwbare en krachtige Vue-applicaties.",
+      "authors": ["Hassan Djirdeh", "Nate Murray", "Ari Lerner"],
+      "publication_year": 2018,
+      "content_overview": {
+        "part_i_fundamentals": "Behandelt de basisprincipes van Vue met een progressieve, voorbeeldgestuurde aanpak. Van CDN-integratie tot Webpack-applicaties, gebruikersinteractie, single-file componenten, eenvoudig state management en custom events. Eindigt met introductie van Vuex.",
+        "part_ii_advanced_concepts": "Duikt in geavanceerdere concepten voor grote productie-applicaties. Integratie van Vuex met server-persisted apps, beheer van complexe formulieren, multi-page apps met client-side routing, en unit testing met Vue's officiële bibliotheek."
+      },
+      "learning_approach": "Project-gestuurd leren. Niet noodzakelijk lineair te lezen, maar aanbevolen om Part I eerst te doorlopen. Inclusief runnable codevoorbeelden voor elk hoofdstuk.",
+      "development_environment": "Vereist Node.js en npm (voor Webpack projecten). Aanbevolen: Google Chrome Web Browser en Vue.js devtools (met 'Allow access to file URLs' voor lokale bestanden).",
+      "javascript_version": "Geschreven in JavaScript ES7 (veelal ES6 features).",
+      "testing_tools": "Mocha (testframework) en Chai (assertion library, met 'expect' interface voor BDD). Vue-test-utils voor het testen van Vue componenten (shallowMount voor isolatie en snelheid). Sinon voor het stubben van externe afhankelijkheden (bijv. API calls).",
+      "server_interaction_vuex": "Behandelt hoe Vuex data beheert op een server (client-side state en server-side state synchroniseren). Gebruikt localStorage voor simulatie van persistentie en apiService voor HTTP-verzoeken. API proxying via vue.config.js.",
+      "forms": "Diepgaande duik in formulierafhandeling: basisknoppen, tekstinvoer, meerdere velden, validatie (form-level en field-level, real-time feedback), asynchrone persistentie (localStorage), en integratie met Vuex (mutaties, actions, getters).",
+      "routing": "Uitleg van routing in webdevelopment (URL, pathname, server-side vs client-side routing). Gebruik van Vue Router voor Single-page applications (SPAs): router-view, router-link, dynamische routes, navigation guards (global, per-route, in-component), programmatic navigation (router.push, router.go, router.replace). Behandelt authenticatie (login/logout, API token, localStorage) en beveiliging van routes.",
+      "screencast": "Fullstack Vue Screencast: bouwen en deployen van SimpleCoinCap (crypto market cap app) met Vuex, Vue Router en Heroku. Gebruikt CoinMarketCap API.",
+      "support": "Bug reports/suggestions via email (vue@fullstack.io). Technische hulp: specificeren boekrevisie, OS, hoofdstuk/project, doel, geprobeerde oplossingen, verwachte/werkelijke output (incl. log). Voorbeeldcode via Plunkr."
+    }
+  ]
+}

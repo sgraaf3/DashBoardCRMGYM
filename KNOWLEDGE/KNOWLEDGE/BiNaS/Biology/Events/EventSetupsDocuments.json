@@ -1,0 +1,188 @@
+{
+  "draaiboeken_docs_db": [
+    {"document_type": "Draaiboek Evenementen",
+      "event_name": "Volleybaltoernooi Rebelsport Huizen",
+      "date": "20 januari 2024",
+      "description": "Volleybaltoernooi voor leden vanaf 16 jaar, inclusief hapje en drankje achteraf.",
+      "details": {
+        "teams": "Max 6 leden per team, elke poule 4 teams (minimaal 3 wedstrijden per team).",
+        "registration_deadline": "Vrijdag 6 januari 2024",
+        "registration_fee": "€15,- (per pin of contant)",
+        "schedule": "Volleybal: 13:00 - 17:00 uur, Eten en borrel: 17:00 - 19:00 uur",
+        "photo_consent": "Mogelijkheid om aan te geven NIET op de foto te willen."
+      },"planning_checklist": {
+        "date_time_planning": "18 jan 2025 (12:00-19:00 uur)",
+        "location_check": "Controleren of locatie vrij is en reserveren (na 13:00 geen les meer).",
+        "target_audience": "Alleen Leden - 15+.",
+        "registration_form_poster": "Online inschrijfformulier en poster klaar (16/12/2024).",
+        "two_weeks_before_check": "2 weken voor evenement controle of alles geregeld is (4/1/2023).",
+        "catering": "Eigen inkoop frituur.",
+        "decoration_setup": "Biertafels en bierbanken (aanwezig sportschool), scorebord volleybal.",
+        "staff_needed": "Timo, Samuel, Steven, Raoul, persoon 5, persoon 6.",
+        "end_responsible": "Steven de G.",
+        "technical_adjustments": "Ja, Scorebord.",
+        "materials": "Scorebord, Wisselbokaal, Volleybal Ballen, Fluitjes, Biertafels/banken, Plastic Bestek/glazen, tafelkleden.",
+        "phone_numbers": "Medewerkers, Leverancier(s).",
+        "location": "Rebelsport.",
+        "route_description": "Nodig waar nodig (actieve leden kennen route)."
+      }
+    },{"document_type": "Intake Protocol",
+      "name": "De Intake (Algemeen)",
+      "description": "Richtlijnen voor het voeren van een intakegesprek met een cliënt, inclusief kwalificatie en intakeformulier.",
+      "pre_intake": {
+        "initial_contact": "Klant kort gesproken om datum in te plannen.",
+        "qualification_list": [
+          "Naam",
+          "Doel van het testen/training",
+          "Directe behoefte van de klant in kaart brengen",
+          "Latente behoefte van de klant in kaart brengen",
+          "Afstand tot trainingslocatie",
+          "Inplannen van verdere stappen"
+        ],
+        "purpose_qualification": "Randzaken om de intake heen in kaart brengen."
+      },"intake_form": {
+        "purpose": "Duidelijk beeld krijgen van situatie, klachten en doelstellingen. Naar waarheid en zo volledig mogelijk invullen.",
+        "instruction_save": "Document eerst opslaan op bureaublad, regelmatig opslaan tijdens invullen.",
+        "sections": [
+          "Persoons- en contactgegevens (Voornaam, Achternaam, Geboortedatum, Lengte, Gewicht, Adres, Huisnummer, Postcode, Woonplaats, Telefoon (thuis/mobiel), E-mail, Huisarts, Telefoon huisarts, Beroep/functie, Hoeveel uur werk je p/w, Uitgevallen? Sinds wanneer, Hobby)",
+          "Medisch (Medicijnen, Erfelijke aandoeningen familie, Operaties, Specialist(en) onder behandeling, Zwanger, Pacemaker, Defibrillator, Hart- en vaatziekten, Tumor(en), Beroerte, Andere medische aandoening, Geen van alle)",
+          "Klachten (Duidelijke en uitgebreide omschrijving)",
+          "Doel dat je wilt bereiken (Wat, Waarom, Wat levert het op, Hoe gekomen, Obstakel)",
+          "Huidige sportactiviteiten (Geen, Eenmaal/Tweemaal/Meer dan tweemaal per week, Wat)",
+          "Sport historie (0 t/m 17 jaar, 18 t/m 25 jaar, 26 t/m 40 jaar, 41 t/m 50 jaar, Na 50 jaar: Wat/hoe vaak)",
+          "Intoxicaties (Roken, Alcohol, Drugs: hoeveel per week, jaren, gestopt, vroeger)",
+          "Voeding (Ontbijt, lunch, avondeten, tussendoortjes)",
+          "Opmerkingen (Overige zaken)"
+        ],"example_client_data": {
+          "name": "Suzanne Tonkes", "age": "51", "height": "1.62m", "weight": "80kg",
+          "complaints": "Zintuigelijke overprikkeling (vertraagde prikkelverwerking), ernstige vermoeidheid, verstoring energiehuishouding, problemen met licht/geluid/drukte/organiseren/plannen/concentreren/dubbeltaken/evenwicht, verstoring coördinatiecentrum hersenen (Fixatie Disparatie), hitte intolerantie, trage schildklier, brain fog, temperatuurswisseling, gewichtstoename, slaap-waak stoornis, ruiken/proeven, fight/flight altijd AAN, gekneusde hersenstam (NAH), ernstige whiplash, koolhydraat intolerantie.",
+          "goals": "Vrijuit fantaseren: weer hardlopen, rollator/scootmobiel in bosjes gooien, voluit leven, energie voor 10, reizen, voluit sporten (Fitness cardio en kracht, Zwemmen, Tennis, Hardlopen, Karate).",
+          "sport_history": "Vroeger 4x/week Fitness cardio en kracht, Zwemmen, Tennis, Hardlopen, Karate. Nu revalidatiesport op niveau 90-jarige 3x/week.",
+          "medication": "Amitriptyline 40mg, Diclofenac 50mg, Desloratadine 5mg, Levon/Ethin pil (doorgeslikt).",
+          "medical_history": "Veel oorontstekingen, rechter binnenoor vervangen (1993), linkervoet ernstig verbrand (1979), huidtransplantaties, blindedarm verwijderd.",
+          "specialists": "Neuroloog Boss (slaapcentrum), Koninklijke Visio (zicht/evenwicht), Professionals in NAH (ambulante begeleiding)."
+        }
+      },"part_2_next_steps": [
+        "Wanneer komt de klant weer sporten?",
+        "Zijn er verdere stappen te ondernemen voordat de intake is afgerond (meer testen)?",
+        "Wanneer ontvangt hij/zij het trainingsschema?",
+        "Wanneer wil de klant komen trainen (ma, wo, vrij)?",
+        "Wanneer vindt een evaluatie plaats op het trainingsschema (6, 12 of 18 weken)?"
+      ]
+    },{
+      "document_type": "Werkgeversbrochure",
+      "name": "Stress & Vermoeidheid (Energy Control Methode bij Rebelsport)",
+      "purpose": "Overzicht van positieve uitwerking Energy Control Methode voor werknemer, bedrijf en werkgever.",
+      "arguments_for_employer": [
+        "Energy Control is uitdrager van medisch gevalideerde Energy Control Methode.",
+        "Biedt herstel- en (medische) sportprogramma’s op hoogste niveau.",
+        "Herstelt balans tussen (in)spanning (werk, sport, emoties) en ontspanning."
+      ],"consequences_stress_fatigue_for_employer": [
+        "Slechter functioneren werknemers",
+        "Meer uitval",
+        "Langdurig zieke werknemer(s)",
+        "Extra werkdruk",
+        "Meer conflicten op werkvloer",
+        "Kwaliteitsvermindering van werkprestaties"
+      ],"cost_of_employee_absence": {
+        "average_duration": "9 maanden (38 weken)",
+        "daily_sickness_costs": "€200 - €400 per dag",
+        "total_costs_per_employee": "€39.000 - €78.400",
+        "additional_cost": "Vervanging tijdens uitval"
+      },"benefits_for_employers": "Verzuim vermindert, werknemers kunnen werkdruk beter dragen, korter ziek, betere prestaties. Besparing van €26.000 - €52.000 per werknemer bij vroegtijdige inzet (92% voelt zich fit, 95% terug naar werk na 12 weken).",
+      "program_overview": {
+        "approach": "Herstellen balans tussen (in)spanning en ontspanning. Werknemer krijgt instrumenten om balans te vinden en behouden, en weerbaarder te worden tegen stress.",
+        "steps": [
+          {"name": "Stap 1: Intake", "description": "Persoonlijk gesprek (drempels, doelen), rust- en stressmeting, inspanningstest (VO2max). Advies over best passende programma."},
+          {"name": "Stap 2: Het programma", "description": "Lichaam in balans brengen met cardio- en ademhalingstherapie op juiste niveau (on/offline begeleiding), monitoring via app. Focus op herkennen/bewaken grenzen, arbeidsritme, fysieke/psychische fitheid, sociale activiteiten."},
+          {"name": "Stap 3: Vitaal", "description": "Werknemer in balans en in staat dit te behouden. Instrumenten voor balans bij drukte. 41 weken toegang tot app voor monitoring en contact."}
+        ],"program_types": [
+          {"name": "Preventie/Fit programma", "description": "Stresspreventie, testen belastbaarheid, app-gebruik met/zonder begeleiding, stresspreventie dagen op werkvloer.", "cost": "Op aanvraag."},
+          {"name": "Intensief op afstand", "description": "Zelfstandig trainen met app, online monitoring/advies door trainer. Na 12 weken hermeting, app jaar beschikbaar, wekelijkse monitoring.", "cost": "€1.700,- excl. BTW voor een jaar."},
+          {"name": "Intensief begeleiding", "description": "12 weken begeleiding door professionele coach (3x/week, max. 6 pers/groep). Na 6/12 weken test, app jaar beschikbaar, wekelijkse monitoring.", "cost": "€3.000,- excl. BTW voor een jaar."}
+        ]
+      },"symptoms_to_recognize": [
+        "Moeheid", "Gestoorde of onrustige slaap", "Prikkelbaarheid, piekeren", "Niet tegen drukte/herrie/prikkels kunnen",
+        "Emotionele labiliteit", "Concentratieproblemen en/of vergeetachtigheid"
+      ],"call_to_action": "Aanmelden via www.rebelsport.nl/energy-control/ of bel adviseur Steven de Graaf (06-45048407)."
+    },{"document_type": "Werkcollege",
+      "name": "Road & Fieldwork",
+      "date": "Vrijdag 91-06-14",
+      "author": "C. Rebel",
+      "description": "Les met conditionele doelstelling, gegeven in en met gebruikmaking van terrein en wegen. Oorsprong: U.S. Army 'terreinwerk'.",
+      "adaptations_for_civilian_use": "Aangepast voor 'burger gebruik' sinds 1960. Beleid: dagelijks een les 'Road and Fieldwork'.",
+      "lesson_duration": "45 tot 90 minuten, afhankelijk van behoefte en mogelijkheden.",
+      "gathering_methods": [
+        "Vaste dag, vaste tijd en vaste plaats.",
+        "Volgen van een vaste route tot een bepaald punt, vanwaar vertrokken wordt naar een steeds wisselende startplaats (mogelijkheid om onderweg 'aan te sluiten').",
+        "In klein groepsverband via 'pas gemaakte afspraken'."
+      ],"start_locations": [
+        "Sportpark DE WOLFSKAMER", "Parkeerterrein EUKENBERG", "Begin VALKEVEENSELAAN",
+        "Waterpomp OUD BUSSUMERWEG", "Zwembad SIJSJESBERG", "Parkeerterrein LEGERPLAATS CRAILO",
+        "Parkeerterrein TRAPPENBERG", "Parkeerterrein GOEDE GOOIER", "Heiderand LANG HUIZERWEG",
+        "Parkeerterrein TAFELBERG", "Parkeerterrein DE KUIL (TENNIS)", "Oud bussummerweg/ de beek",
+        "De woensberg", "De Eendracht", "Sportschool REBEL"
+      ],"loop_principles": [
+        {"principle": "Doelstelling van de les", "details": "Kracht, snelheid, lenigheid, uithoudingsvermogen, coördinatievermogen met behulp van frequentie, intensiteit en duur van oefenstof verdeeld over 18 hoofdspiergroepen."},
+        {"principle": "Temperatuur", "details": "Hoger = meer 'oefeningen op de plaats'. Kouder = meer oefeningen tijdens voortgaan door terrein."},
+        {"principle": "Regen", "details": "Bossen geven meer beschutting. Lessen in bossen bij regenachtig weer."},
+        {"principle": "Windsterkte", "details": "Bepaalt of in open terrein getraind kan worden. Afkoeling door wind is meer dan gedacht."},
+        {"principle": "Windrichting", "details": "Start tegen de wind in, eindig met wind in de rug. Kringloop is fout."},
+        {"principle": "Seizoen", "details": "Vitaliteitsdieptepunt feb-apr. Training voorzichtiger opbouwen. Interval-trainingen met max. belasting minder geschikt, sub-max duurtrainingen beter. Gebruik veel verschillende terreinen voor afwisseling."},
+        {"principle": "Moment van de dag", "details": "Voor werkdag meer inspanning vragen dan na werkdag."},
+        {"principle": "Moment in de week", "details": "Training begin van week (ma/vr/za hele dag) kan gemaximaliseerd worden door rustdag ervoor."},
+        {"principle": "Groepsgrootte", "details": "Afhankelijk van instructeur's kennen en kunnen (20-30 beginners, 80-100 ervaren). Bij grotere groepen: hulptrainers voor 'staart van de groep'. Bekwaamheid = 'controle en overzicht'."},
+        {"principle": "Samenstelling van de groep", "details": "Hoe verder individuele prestaties uit elkaar liggen, hoe meer 'controle en overzicht' nodig. Gebruik 'loop-lussen' (vegen), interval-stations, groepsopdrachten met persoonlijke invulling, partneroefeningen, terreingebruik. Uitstekende terreinkennis is absolute voorwaarde."}
+      ],"lesson_structure": {
+        "standard_layout": ["Inleiding", "Kern", "Kalmering"],
+        "introduction": "Tellen deelnemers (begin/eind). Minimaal 10 minuten sub-max inspanning voor slechtste deelnemer. Voorkom competitie met groep. Instructeur loopt 'half pasje voor'. Gewenning aan terreinomstandigheden.",
+        "core": "Alle 18 spiergroepen 'gaande of staande' behandelen (frequentie, intensiteit, duur). Grootst mogelijke creativiteit, speelsheid moet arbeidsintensief zijn.",
+        "calming": "Leerling geestelijk en lichamelijk voorbereiden op autorit naar huis (laatste 100m wandelend en pratend). Leerlingen die sprinten corrigeren en uitleggen waarom."
+      },"lesson_planning_methods": "Samengesteld met: aantal-registratie/presentielijst, keuze startplaats, terrein, looprichting, oefenstof omschrijving, aantal series, aantal reps, duur en minuten van onderdelen, cumulatieve minuten verloop.",
+      "post_lesson_notes": "Indruk, omstandigheden en resultaat van les noteren t.b.v. feedback.",
+      "tenue": "2-laags sporttenue voor romp (bij transpiratie), lange trainingsbroek (kreupelhout, struikgewas), plastic-folie (zitten/liggen), handdoek (bij zware regen)."
+    },{"document_type": "Algemene Voorwaarden",
+      "name": "Algemene Voorwaarden en huisregels van RebelSport",
+      "scope": "Van toepassing op alle activiteiten en diensten, georganiseerd door of namens RebelSport (trainingen, work-outs, cursussen). Deelname geschiedt geheel voor rekening en risico van de deelnemer.",
+      "sections": [
+        {"title": "Abonnement", "details": "Persoonsgebonden, niet overdraagbaar. Leden vullen inschrijfformulier in en betalen contributie. Duur: overeengekomen periode, stilzwijgend verlengd met een maand. Vormen: 1x/week (ONE, 13 lessen/3 maanden), onbeperkt (PLUS). Startkosten opvraagbaar. Lidmaatschapspas/tag: persoonsgebonden, toegangsbewijs, ongelimiteerd door paslezer (1 bezoek afgeboekt). Kosten voor nieuwe pas. Korting: gezin >2 betalende leden 10%, cumulatie niet mogelijk."},
+        {"title": "Wijzigen van abonnementsvorm", "details": "Verhogen bezoekfrequentie: elk moment, pro rata verschil bij volgende betaalperiode. Verlagen bezoekfrequentie: per kalendermaand, na 1e contractsperiode, vóór 20e van vorige maand. Gemiste lessen vervallen."},
+        {"title": "Tijdelijke opschorting abonnement", "details": "Max 6 maanden bij zwangerschap, langdurige ziekte/blessure (>4 weken), verblijf buitenland >1 maand. Contract evenredig verlengd. Eigen risico max 2 weken. Financiële verrekening direct/eerstvolgende betaaldatum. Automatisch geactiveerd na einddatum. Digitale kopie als bewijs bewaren."},
+        {"title": "Opzeggen van abonnement", "details": "Bij onderbreking >3 maanden opnieuw startkosten. Persoonlijk via opzegformulier of schriftelijk met handtekening. Minimaal 1 maand voor afloop lopende contractsperiode. Na 1e contractsperiode per maand opzegbaar met 1 maand opzegtermijn. Alle kosten betaald bij opzegging. Digitale kopie als bewijs bewaren."},
+        {"title": "Betalingen", "details": "Maandelijkse automatische incasso (1e/2e werkdag). Bij inschrijving na 1e van maand: direct verschuldigd. Max 3 herinneringsnota's, daarna incassobureau. Contante betaling: min 3 kalendermaanden vooruit."},
+        {"title": "Feestdagen & vakantie", "details": "Gesloten op officiële feest-/gedenkdagen. Aangepaste openingstijden/roosters in vakantieperiodes. Normale abonnementsgelden verschuldigd."},
+        {"title": "Vakantieregeling", "details": "12 maanden abonnement: opschorting max 4 weken/jaar (bijv. 4x1 week). Financiële verrekening bij eerstvolgende betaling. Schriftelijk melden vóór 20e van maand voorafgaand aan vakantie. Niet (tijdig) melden = abonnement loopt door."},
+        {"title": "Reserveren sportlessen", "details": "ONE abonnement: 1 vaste les/week (13/kwartaal). PLUS abonnement: 2 lessen/week (26/kwartaal)."},
+        {"title": "Individuele fitness", "details": "Instructeurs adviseren 'fitness introductie'. Leden <16 jaar onder begeleiding. Leden 16-18 jaar onder begeleiding, tenzij schriftelijke toestemming instructeurs (kan ingetrokken worden)."},
+        {"title": "Inhalen van gemiste lessen (ONE 3 maanden abonnement)", "details": "Max 13 lessen/kalenderkwartaal in te halen in volgende kalenderkwartaal."},
+        {"title": "Tussentijdse beëindiging abonnement", "details": "Onder voorwaarden: aantoonbare verhuizing >15km, medisch advies (sporten ontraden), ernstige ziekte (ter beoordeling directie). Geen restitutie reeds betaalde gelden bij strafbare feiten/onbehoorlijk gedrag."},
+        {"title": "Strafbare feiten", "details": "Leden die zich schuldig maken aan strafbare feiten/onbehoorlijk gedrag/aantasting goede naam RebelSport: aangegeven bij politie, toegang ontzegd, abonnement direct beëindigd zonder restitutie."},
+        {"title": "Aansprakelijkheid", "details": "RebelSport niet aansprakelijk voor schade door ongeval/letsel/vermissing. Deelnemer aansprakelijk voor schade door opzet/schuld aan gebouw/apparatuur/eigendommen."},
+        {"title": "Persoonsgegevens", "details": "Toestemming voor (digitale) pasfoto (ledenadministratie). E-mailadres alleen voor nieuws/aanpassingen RebelSport. Gegevens nimmer aan derden/externe promotie."},
+        {"title": "Prijswijzigingen", "details": "RebelSport bevoegd prijzen jaarlijks te verhogen (CBS CPI 2015). Twee weken vooraf bekendmaking. Recht op ontbinding abonnement binnen 4 weken na bekendmaking. Vooruitbetaald geld terugbetaald."},
+        {"title": "Overige bepalingen", "details": "RebelSport behoudt recht om tijden, huisregels, aantal lessen, apparatuur te wijzigen. Normale abonnementsgelden verschuldigd tijdens vakantierooster. Directie beslist in onvoorziene gevallen. Nederlands recht, bevoegde rechter. Nietigheid bepaling tast geldigheid overeenkomst niet aan. 'Schriftelijk' omvat e-mail/fax. Ontvangen/opgeslagen communicatie authentiek. Partijen informeren over wijzigingen contactgegevens. RebelSport mag opdracht tonen ter promotie, tenzij redelijke belangen Opdrachtgever onaanvaardbaar. Offerte prevaleert bij strijd met Algemene Voorwaarden."},
+        {"title": "Huisregels", "details": "Correcte sportkleding, sportschoeisel volgens eisen. Gebruik handdoek verplicht (hygiëne). Achtergelaten kleding/voorwerpen 2 weken bewaard. Geen meegebrachte consumpties. Opmerkingen/suggesties/klachten bij directie/medewerkers. Afmelden gereserveerde lessen min 1 uur van tevoren. Bij 3 weken aaneengesloten afwezigheid zonder opgaaf van redenen: van reserveringslijst gehaald."}
+      ]
+    },{"document_type": "Algemene Voorwaarden",
+      "name": "Algemene Voorwaarden Native Art Films",
+      "description": "Voorwaarden voor de ontwikkeling, productie en distributie van audiovisuele content.",
+      "sections": [
+        {"title": "Definities", "details": "Native Art (opdrachtnemer), Opdrachtgever, Partijen, Overeenkomst, Algemene Voorwaarden, Offerte, Draaidag (10 uur, extra kosten buiten Werkdag), Werkdag, Resultaten, Materialen, Meerwerk, Website."},
+        {"title": "Totstandkoming en duur van de Overeenkomst", "details": "Schriftelijke bevestiging Offerte of ondertekening. Algemene Voorwaarden van toepassing. Afwijkende voorwaarden Opdrachtgever alleen bindend na schriftelijke aanvaarding Native Art. Duur gelijk aan opdracht in Offerte."},
+        {"title": "Opdracht", "details": "Opdrachtgever verleent opdracht aan Native Art voor werkzaamheden (formats, concepten, productie, online distributie). Native Art mag zekerheid vragen voor betalingsverplichtingen (bankgarantie, waarborgsom)."},
+        {"title": "Uitvoering van de Opdracht", "details": "Native Art naar eigen inzicht, behoren en volledige inzet. Niet locatiegebonden. Inspanningsverplichting, geen resultaatverplichting. Opdrachtgever geen instructiebevoegdheid. Native Art mag derden inschakelen. Opschorting uitvoering bij niet-goedkeuring deelopdracht."},
+        {"title": "Oplevering en acceptatie", "details": "Resultaten geleverd in vastgesteld formaat. Eén feedbackronde inbegrepen. Acceptatie door schriftelijke bevestiging of stilzwijgend na 5 Werkdagen. Gebruik geldt als acceptatie."},
+        {"title": "Intellectuele eigendomsrechten", "details": "Materialen van Native Art/derden blijven eigendom van Native Art/derden. Materialen van Opdrachtgever blijven eigendom van Opdrachtgever/derden. Partijen wijzen elkaar op extra voorwaarden van derden. Grootst mogelijke zorg voor Materialen; schadevergoeding bij beschadiging. Materiaal niet-Resultaten enkel voor duur Overeenkomst, digitaal vernietigen, fysiek retour. Native Art rechthebbende intellectueel eigendom op Resultaten. Licentie voor gebruik Resultaten na betaling (reikwijdte in Offerte, standaard: niet overdraagbaar, geen sub-licenties, eenmalig, niet-exclusief gebruik in ongewijzigde vorm, in land van openbaarmaking, op overeengekomen domein). Uitbreiding gebruiksrechten enkel schriftelijk. Wijziging Resultaten enkel na schriftelijke goedkeuring Native Art. Overdracht auteursrecht Resultaten betekent geen overdracht morele rechten. Native Art verkrijgt niet-exclusief gebruiksrecht voor promotie, en exclusief gebruiksrecht voor niet-verkozen Resultaten. Bij schending gebruiksrechten: opschorting/opzegging licentie, boete van €500/dag (max €50.000)."},
+        {"title": "Vergoeding en betaling", "details": "Vastgesteld in Offerte. Lager bij deelopdracht van grotere opdracht. Exclusief BTW. 50% direct na Overeenkomst, 50% na uitvoering (laatste preview). Meerwerk bij laatste factuur. Betalingstermijn 14 dagen. Bij niet-tijdige betaling: incassokosten voor Opdrachtgever. Vordering direct opeisbaar bij faillissement, etc. Native Art kan uitvoering opschorten/beëindigen. Opdrachtgever mag niet verrekenen. Opdrachtgever levert benodigde info voor factuur. Betalingen enkel aan Native Art zelf."},
+        {"title": "Afgelasting van de Draaidag", "details": "Kosten doorberekend bij afgelasting door Opdrachtgever: 0% (>5 Werkdagen), 25% (3 Werkdagen), 50% (1 Werkdag), 100% (op Draaidag zelf)."},
+        {"title": "Concurrentie", "details": "Native Art mag voor derden werken, ook concurrenten. Opdrachtgever verboden werknemers Native Art in dienst te nemen/inhuren/benaderen gedurende Overeenkomst en 2 jaar erna."},
+        {"title": "Geheimhouding", "details": "Vertrouwelijke informatie vertrouwelijk behandelen, ook na einde Overeenkomst."},
+        {"title": "Aansprakelijkheidsbeperking", "details": "Native Art enkel aansprakelijk voor toerekenbare tekortkoming (directe schade) tot max bedrag vergoeding van betreffende opdracht (max vervalt bij opzet/grove schuld). Uitsluiting aansprakelijkheid voor andere schade. Aansprakelijkheid ontstaat enkel bij onverwijlde schriftelijke melding. Bij onrechtmatige daad: max €5000,- per gebeurtenis. Opdrachtgever vrijwaart Native Art voor aanspraken derden."},
+        {"title": "Overmacht", "details": "Native Art niet gehouden tot nakoming bij overmacht (storingen, tekortkomingen toeleveranciers, gebrekkigheid materialen, stakingen, overheidsmaatregelen). Ontbinding mogelijk na 3 maanden overmacht, reeds gepresteerd wordt naar verhouding afgerekend."},
+        {"title": "Wijzigingen en overdracht", "details": "Overeenkomst/opdracht enkel schriftelijk en gezamenlijk te wijzigen/aanvullen. Algemene Voorwaarden wijzigbaar door Native Art (gelden voor nieuwe Overeenkomsten). Rechten/plichten enkel overdraagbaar met schriftelijke toestemming."},
+        {"title": "Einde van de Overeenkomst", "details": "Overeenkomst eindigt van rechtswege bij voldoen van rechten/plichten. Native Art kan opzeggen bij niet-tijdige betaling factuur. Beide partijen kunnen per direct opzeggen bij faillissement, surseance, ontbinding/liquidatie. Bepaalde artikelen blijven van toepassing na einde Overeenkomst."},
+        {"title": "Slotbepalingen", "details": "Nederlands recht. Geschillen voorgelegd aan bevoegde Nederlandse rechter. Nietigheid bepaling tast geldigheid gehele overeenkomst niet aan. 'Schriftelijk' omvat e-mail/fax. Ontvangen/opgeslagen communicatie authentiek. Partijen informeren elkaar over wijzigingen contactgegevens. Native Art mag opdracht tonen ter promotie, tenzij redelijke belangen Opdrachtgever dit onaanvaardbaar maken. Offerte prevaleert bij strijd met Algemene Voorwaarden."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,818 @@
+[
+  {
+    "name": "BiNaS",
+    "type": "directory",
+    "path": "BiNaS",
+    "children": [
+      {
+        "name": "Biology",
+        "type": "directory",
+        "path": "BiNaS\\Biology",
+        "children": [
+          {
+            "name": "Anatomy",
+            "type": "directory",
+            "path": "BiNaS\\Biology\\Anatomy",
+            "children": [
+              {
+                "name": "Muscles",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Anatomy\\Muscles",
+                "children": [
+                  {
+                    "name": "Arm.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Arm.json"
+                  },
+                  {
+                    "name": "Foot.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Foot.json"
+                  },
+                  {
+                    "name": "Forearm.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Forearm.json"
+                  },
+                  {
+                    "name": "Hand.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Hand.json"
+                  },
+                  {
+                    "name": "Head.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Head.json"
+                  },
+                  {
+                    "name": "Leg.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Leg.json"
+                  },
+                  {
+                    "name": "Neck.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Neck.json"
+                  },
+                  {
+                    "name": "Pelvis.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Pelvis.json"
+                  },
+                  {
+                    "name": "Torso.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Muscles\\Torso.json"
+                  }
+                ]
+              },
+              {
+                "name": "Organs",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Anatomy\\Organs",
+                "children": []
+              },
+              {
+                "name": "RelativeRatios",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Anatomy\\RelativeRatios",
+                "children": []
+              },
+              {
+                "name": "Skeleton",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Anatomy\\Skeleton",
+                "children": [
+                  {
+                    "name": "Arm.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Arm.json"
+                  },
+                  {
+                    "name": "Foot.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Foot.json"
+                  },
+                  {
+                    "name": "Hand.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Hand.json"
+                  },
+                  {
+                    "name": "Head.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Head.json"
+                  },
+                  {
+                    "name": "Hip.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Hip.json"
+                  },
+                  {
+                    "name": "Leg.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Leg.json"
+                  },
+                  {
+                    "name": "Neck.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Neck.json"
+                  },
+                  {
+                    "name": "Pelvis.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Pelvis.json"
+                  },
+                  {
+                    "name": "Shoulder.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Shoulder.json"
+                  },
+                  {
+                    "name": "Torso.json",
+                    "type": "file",
+                    "path": "BiNaS\\Biology\\Anatomy\\Skeleton\\Torso.json"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Biomechenica",
+            "type": "directory",
+            "path": "BiNaS\\Biology\\Biomechenica",
+            "children": []
+          },
+          {
+            "name": "Events",
+            "type": "directory",
+            "path": "BiNaS\\Biology\\Events",
+            "children": [
+              {
+                "name": "EventSetupsDocuments.json",
+                "type": "file",
+                "path": "BiNaS\\Biology\\Events\\EventSetupsDocuments.json"
+              }
+            ]
+          },
+          {
+            "name": "Fysiology",
+            "type": "directory",
+            "path": "BiNaS\\Biology\\Fysiology",
+            "children": [
+              {
+                "name": "SportFysiologieDatabase.json",
+                "type": "file",
+                "path": "BiNaS\\Biology\\Fysiology\\SportFysiologieDatabase.json"
+              }
+            ]
+          },
+          {
+            "name": "PopulationAverages",
+            "type": "directory",
+            "path": "BiNaS\\Biology\\PopulationAverages",
+            "children": []
+          },
+          {
+            "name": "Psychology",
+            "type": "directory",
+            "path": "BiNaS\\Biology\\Psychology",
+            "children": [
+              {
+                "name": "Consistency",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Psychology\\Consistency",
+                "children": []
+              },
+              {
+                "name": "Fight_Flight",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Psychology\\Fight_Flight",
+                "children": []
+              },
+              {
+                "name": "General",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Psychology\\General",
+                "children": []
+              },
+              {
+                "name": "Motivation",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Psychology\\Motivation",
+                "children": []
+              },
+              {
+                "name": "Patterns_Behaviours",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Psychology\\Patterns_Behaviours",
+                "children": []
+              },
+              {
+                "name": "Perception",
+                "type": "directory",
+                "path": "BiNaS\\Biology\\Psychology\\Perception",
+                "children": []
+              },
+              {
+                "name": "index_Psychology.js",
+                "type": "file",
+                "path": "BiNaS\\Biology\\Psychology\\index_Psychology.js"
+              },
+              {
+                "name": "Psychologie.json",
+                "type": "file",
+                "path": "BiNaS\\Biology\\Psychology\\Psychologie.json"
+              }
+            ]
+          },
+          {
+            "name": "HumanBiologySportsHealthDatabase.json",
+            "type": "file",
+            "path": "BiNaS\\Biology\\HumanBiologySportsHealthDatabase.json"
+          },
+          {
+            "name": "index_Biology.js",
+            "type": "file",
+            "path": "BiNaS\\Biology\\index_Biology.js"
+          }
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "type": "directory",
+        "path": "BiNaS\\Chemistry",
+        "children": [
+          {
+            "name": "Elements",
+            "type": "directory",
+            "path": "BiNaS\\Chemistry\\Elements",
+            "children": []
+          },
+          {
+            "name": "Formulas",
+            "type": "directory",
+            "path": "BiNaS\\Chemistry\\Formulas",
+            "children": []
+          },
+          {
+            "name": "Safety",
+            "type": "directory",
+            "path": "BiNaS\\Chemistry\\Safety",
+            "children": []
+          },
+          {
+            "name": "Theory",
+            "type": "directory",
+            "path": "BiNaS\\Chemistry\\Theory",
+            "children": [
+              {
+                "name": "Chemistry.json",
+                "type": "file",
+                "path": "BiNaS\\Chemistry\\Theory\\Chemistry.json"
+              }
+            ]
+          },
+          {
+            "name": "index_Chemistry.js",
+            "type": "file",
+            "path": "BiNaS\\Chemistry\\index_Chemistry.js"
+          }
+        ]
+      },
+      {
+        "name": "Filosophy",
+        "type": "directory",
+        "path": "BiNaS\\Filosophy",
+        "children": [
+          {
+            "name": "index_Filosophy.js",
+            "type": "file",
+            "path": "BiNaS\\Filosophy\\index_Filosophy.js"
+          }
+        ]
+      },
+      {
+        "name": "Math",
+        "type": "directory",
+        "path": "BiNaS\\Math",
+        "children": [
+          {
+            "name": "Formulas",
+            "type": "directory",
+            "path": "BiNaS\\Math\\Formulas",
+            "children": []
+          },
+          {
+            "name": "Theory",
+            "type": "directory",
+            "path": "BiNaS\\Math\\Theory",
+            "children": []
+          },
+          {
+            "name": "Index_Math.js",
+            "type": "file",
+            "path": "BiNaS\\Math\\Index_Math.js"
+          }
+        ]
+      },
+      {
+        "name": "Nutritions",
+        "type": "directory",
+        "path": "BiNaS\\Nutritions",
+        "children": [
+          {
+            "name": "Calc",
+            "type": "directory",
+            "path": "BiNaS\\Nutritions\\Calc",
+            "children": [
+              {
+                "name": "Voedingsformule_plannen_Macronutriënten.json",
+                "type": "file",
+                "path": "BiNaS\\Nutritions\\Calc\\Voedingsformule_plannen_Macronutriënten.json"
+              }
+            ]
+          },
+          {
+            "name": "Foods_Vegs",
+            "type": "directory",
+            "path": "BiNaS\\Nutritions\\Foods_Vegs",
+            "children": [
+              {
+                "name": "VoedingsmiddelenNutriënten.json",
+                "type": "file",
+                "path": "BiNaS\\Nutritions\\Foods_Vegs\\VoedingsmiddelenNutriënten.json"
+              }
+            ]
+          },
+          {
+            "name": "index_Nutrition.js",
+            "type": "file",
+            "path": "BiNaS\\Nutritions\\index_Nutrition.js"
+          }
+        ]
+      },
+      {
+        "name": "Physics",
+        "type": "directory",
+        "path": "BiNaS\\Physics",
+        "children": [
+          {
+            "name": "index_Physics.js",
+            "type": "file",
+            "path": "BiNaS\\Physics\\index_Physics.js"
+          },
+          {
+            "name": "Phyiscs.json",
+            "type": "file",
+            "path": "BiNaS\\Physics\\Phyiscs.json"
+          }
+        ]
+      },
+      {
+        "name": "index_Binas.js",
+        "type": "file",
+        "path": "BiNaS\\index_Binas.js"
+      }
+    ]
+  },
+  {
+    "name": "Business",
+    "type": "directory",
+    "path": "Business",
+    "children": [
+      {
+        "name": "foundInOwnFiles",
+        "type": "directory",
+        "path": "Business\\foundInOwnFiles",
+        "children": [
+          {
+            "name": "Business.Json",
+            "type": "file",
+            "path": "Business\\foundInOwnFiles\\Business.Json"
+          }
+        ]
+      },
+      {
+        "name": "marketing",
+        "type": "directory",
+        "path": "Business\\marketing",
+        "children": [
+          {
+            "name": "Marketing.json",
+            "type": "file",
+            "path": "Business\\marketing\\Marketing.json"
+          }
+        ]
+      },
+      {
+        "name": "Sales",
+        "type": "directory",
+        "path": "Business\\Sales",
+        "children": [
+          {
+            "name": "Sales.json",
+            "type": "file",
+            "path": "Business\\Sales\\Sales.json"
+          }
+        ]
+      },
+      {
+        "name": "Sports_Trainer_Education",
+        "type": "directory",
+        "path": "Business\\Sports_Trainer_Education",
+        "children": [
+          {
+            "name": "Lesgeven_Begeleiden.json",
+            "type": "file",
+            "path": "Business\\Sports_Trainer_Education\\Lesgeven_Begeleiden.json"
+          }
+        ]
+      },
+      {
+        "name": "Index.js",
+        "type": "file",
+        "path": "Business\\Index.js"
+      }
+    ]
+  },
+  {
+    "name": "Development",
+    "type": "directory",
+    "path": "Development",
+    "children": [
+      {
+        "name": "Hardware",
+        "type": "directory",
+        "path": "Development\\Hardware",
+        "children": [
+          {
+            "name": "Assigned_Use",
+            "type": "directory",
+            "path": "Development\\Hardware\\Assigned_Use",
+            "children": [
+              {
+                "name": "Arduino",
+                "type": "directory",
+                "path": "Development\\Hardware\\Assigned_Use\\Arduino",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Server",
+            "type": "directory",
+            "path": "Development\\Hardware\\Server",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Software",
+        "type": "directory",
+        "path": "Development\\Software",
+        "children": [
+          {
+            "name": "LanguageKnowledge",
+            "type": "directory",
+            "path": "Development\\Software\\LanguageKnowledge",
+            "children": [
+              {
+                "name": "Android",
+                "type": "directory",
+                "path": "Development\\Software\\LanguageKnowledge\\Android",
+                "children": []
+              },
+              {
+                "name": "CSS",
+                "type": "directory",
+                "path": "Development\\Software\\LanguageKnowledge\\CSS",
+                "children": []
+              },
+              {
+                "name": "Flutter",
+                "type": "directory",
+                "path": "Development\\Software\\LanguageKnowledge\\Flutter",
+                "children": []
+              },
+              {
+                "name": "HTML",
+                "type": "directory",
+                "path": "Development\\Software\\LanguageKnowledge\\HTML",
+                "children": []
+              },
+              {
+                "name": "JS",
+                "type": "directory",
+                "path": "Development\\Software\\LanguageKnowledge\\JS",
+                "children": [
+                  {
+                    "name": "Modules",
+                    "type": "directory",
+                    "path": "Development\\Software\\LanguageKnowledge\\JS\\Modules",
+                    "children": []
+                  },
+                  {
+                    "name": "Regular",
+                    "type": "directory",
+                    "path": "Development\\Software\\LanguageKnowledge\\JS\\Regular",
+                    "children": []
+                  },
+                  {
+                    "name": "VueJS",
+                    "type": "directory",
+                    "path": "Development\\Software\\LanguageKnowledge\\JS\\VueJS",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Index_Language.js",
+                "type": "file",
+                "path": "Development\\Software\\LanguageKnowledge\\Index_Language.js"
+              }
+            ]
+          },
+          {
+            "name": "ProjectFunctions",
+            "type": "directory",
+            "path": "Development\\Software\\ProjectFunctions",
+            "children": [
+              {
+                "name": "Agents",
+                "type": "directory",
+                "path": "Development\\Software\\ProjectFunctions\\Agents",
+                "children": [
+                  {
+                    "name": "Building_Manual.txt",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\Agents\\Building_Manual.txt"
+                  },
+                  {
+                    "name": "Checklist_index",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\Agents\\Checklist_index"
+                  }
+                ]
+              },
+              {
+                "name": "GymCRM",
+                "type": "directory",
+                "path": "Development\\Software\\ProjectFunctions\\GymCRM",
+                "children": [
+                  {
+                    "name": "3DHumanBodyDesignGuide.txt",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\GymCRM\\3DHumanBodyDesignGuide.txt"
+                  },
+                  {
+                    "name": "BuildingHiPendroidAppVuejs.txt",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\GymCRM\\BuildingHiPendroidAppVuejs.txt"
+                  },
+                  {
+                    "name": "ERPSystemAnalysis.txt",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\GymCRM\\ERPSystemAnalysis.txt"
+                  },
+                  {
+                    "name": "GUIDE_VueJSAndroid.txt",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\GymCRM\\GUIDE_VueJSAndroid.txt"
+                  },
+                  {
+                    "name": "GuideDesignMS3DHUMAN_EL_VIS.txt",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\GymCRM\\GuideDesignMS3DHUMAN_EL_VIS.txt"
+                  },
+                  {
+                    "name": "InteractiveGymManagementSystemReport.html",
+                    "type": "file",
+                    "path": "Development\\Software\\ProjectFunctions\\GymCRM\\InteractiveGymManagementSystemReport.html"
+                  }
+                ]
+              },
+              {
+                "name": "HumansProjcts",
+                "type": "directory",
+                "path": "Development\\Software\\ProjectFunctions\\HumansProjcts",
+                "children": [
+                  {
+                    "name": "Biology",
+                    "type": "directory",
+                    "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Biology",
+                    "children": [
+                      {
+                        "name": "JSCalculationModules",
+                        "type": "directory",
+                        "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Biology\\JSCalculationModules",
+                        "children": [
+                          {
+                            "name": "Anatomy",
+                            "type": "directory",
+                            "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Biology\\JSCalculationModules\\Anatomy",
+                            "children": []
+                          },
+                          {
+                            "name": "BioMechanics",
+                            "type": "directory",
+                            "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Biology\\JSCalculationModules\\BioMechanics",
+                            "children": []
+                          },
+                          {
+                            "name": "Physiology",
+                            "type": "directory",
+                            "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Biology\\JSCalculationModules\\Physiology",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Human_E=mc2",
+                    "type": "directory",
+                    "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2",
+                    "children": [
+                      {
+                        "name": "Tree",
+                        "type": "directory",
+                        "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\Tree",
+                        "children": [
+                          {
+                            "name": "FormuleboomDETheorie.html",
+                            "type": "file",
+                            "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\Tree\\FormuleboomDETheorie.html"
+                          },
+                          {
+                            "name": "FormuleboomHumanAlgoritme.txt",
+                            "type": "file",
+                            "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\Tree\\FormuleboomHumanAlgoritme.txt"
+                          },
+                          {
+                            "name": "MindmapKoppeling.txt",
+                            "type": "file",
+                            "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\Tree\\MindmapKoppeling.txt"
+                          },
+                          {
+                            "name": "Plan.txt",
+                            "type": "file",
+                            "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\Tree\\Plan.txt"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "manual_research_ai_actions.js",
+                        "type": "file",
+                        "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\manual_research_ai_actions.js"
+                      },
+                      {
+                        "name": "manual_research_ai_data.json",
+                        "type": "file",
+                        "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\manual_research_ai_data.json"
+                      },
+                      {
+                        "name": "manual_research_ai_explanation.txt",
+                        "type": "file",
+                        "path": "Development\\Software\\ProjectFunctions\\HumansProjcts\\Human_E=mc2\\manual_research_ai_explanation.txt"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "index_ProjectFunctions.js",
+                "type": "file",
+                "path": "Development\\Software\\ProjectFunctions\\index_ProjectFunctions.js"
+              }
+            ]
+          },
+          {
+            "name": "Index_Software.js",
+            "type": "file",
+            "path": "Development\\Software\\Index_Software.js"
+          }
+        ]
+      },
+      {
+        "name": "index_development.js",
+        "type": "file",
+        "path": "Development\\index_development.js"
+      }
+    ]
+  },
+  {
+    "name": "Sport",
+    "type": "directory",
+    "path": "Sport",
+    "children": [
+      {
+        "name": "Formulas",
+        "type": "directory",
+        "path": "Sport\\Formulas",
+        "children": [
+          {
+            "name": "Fitness_Training_Formulas.json",
+            "type": "file",
+            "path": "Sport\\Formulas\\Fitness_Training_Formulas.json"
+          },
+          {
+            "name": "SportDB.json",
+            "type": "file",
+            "path": "Sport\\Formulas\\SportDB.json"
+          }
+        ]
+      },
+      {
+        "name": "Questioneres",
+        "type": "directory",
+        "path": "Sport\\Questioneres",
+        "children": [
+          {
+            "name": "SportAssessmentVragenDatabase.json",
+            "type": "file",
+            "path": "Sport\\Questioneres\\SportAssessmentVragenDatabase.json"
+          }
+        ]
+      },
+      {
+        "name": "Support",
+        "type": "directory",
+        "path": "Sport\\Support",
+        "children": [
+          {
+            "name": "technical_resources_db.json",
+            "type": "file",
+            "path": "Sport\\Support\\technical_resources_db.json"
+          }
+        ]
+      },
+      {
+        "name": "Theory",
+        "type": "directory",
+        "path": "Sport\\Theory",
+        "children": [
+          {
+            "name": "Recovery",
+            "type": "directory",
+            "path": "Sport\\Theory\\Recovery",
+            "children": []
+          },
+          {
+            "name": "Tests",
+            "type": "directory",
+            "path": "Sport\\Theory\\Tests",
+            "children": [
+              {
+                "name": "test_protocols_db.json",
+                "type": "file",
+                "path": "Sport\\Theory\\Tests\\test_protocols_db.json"
+              }
+            ]
+          },
+          {
+            "name": "trainig",
+            "type": "directory",
+            "path": "Sport\\Theory\\trainig",
+            "children": [
+              {
+                "name": "Schedules",
+                "type": "directory",
+                "path": "Sport\\Theory\\trainig\\Schedules",
+                "children": [
+                  {
+                    "name": "sport_specific_data_db.json",
+                    "type": "file",
+                    "path": "Sport\\Theory\\trainig\\Schedules\\sport_specific_data_db.json"
+                  },
+                  {
+                    "name": "SportTrainingsleerDatabase.json",
+                    "type": "file",
+                    "path": "Sport\\Theory\\trainig\\Schedules\\SportTrainingsleerDatabase.json"
+                  }
+                ]
+              },
+              {
+                "name": "Theory",
+                "type": "directory",
+                "path": "Sport\\Theory\\trainig\\Theory",
+                "children": [
+                  {
+                    "name": "SportTrainingTheory.json",
+                    "type": "file",
+                    "path": "Sport\\Theory\\trainig\\Theory\\SportTrainingTheory.json"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "index_sport.js",
+        "type": "file",
+        "path": "Sport\\index_sport.js"
+      }
+    ]
+  }
+]

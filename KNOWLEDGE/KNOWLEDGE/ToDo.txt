@@ -1,0 +1,15 @@
+## Project: Knowledge Base Consolidation
+
+See `PLAN.md` for the detailed execution strategy.
+
+[ ] **Phase 1: Duplicate Data Management**
+    [x] 1.1: Define duplication criteria.
+    [x] 1.2: Create and run an analysis script to find duplicates. (Global search complete)
+    [x] 1.3: Review the list of duplicates.
+    [x] 1.4: Execute deletion/merging of duplicates.
+
+[ ] **Phase 2: Migration to Single JSON Database**
+    [ ] 2.1: Design the consolidated JSON structure.
+    [ ] 2.2: Create the migration script.
+    [ ] 2.3: Run the script to generate `consolidated_database.json`.
+    [ ] 2.4: Verify the migrated data.

@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Scapula (Schouderblad)",
+    "type": "bone",
+    "category": "Arm",
+    "description": "De Scapula, of schouderblad, is een groot, plat, driehoekig bot dat aan de posterieure zijde van de borstkas ligt en een cruciaal onderdeel vormt van de schoudergordel.",
+    "location": "Posterieur deel van de borstkas, tussen de 2e en 7e rib.",
+    "articulations": [
+      "Humerus (opperarmbeen, via glenohumerale gewricht)",
+      "Clavicle (sleutelbeen, via acromioclaviculaire gewricht)",
+      "Thorax (via scapulothoracale 'gewricht', een fysiologisch gewricht)"
+    ],
+    "key_features": [
+      "Glenoid fossa (ondiepe kom voor humerushoofd)",
+      "Acromion (lateraal uitsteeksel, vormt 'dak' van schouder)",
+      "Coracoid process (haakvormig uitsteeksel, aanhechting voor spieren/ligamenten)",
+      "Spine (prominente richel aan posterieure zijde)",
+      "Supraspinous and infraspinous fossae (holtes voor spieren)",
+      "Subscapular fossa (holte aan anterieure zijde voor spier)"
+    ],
+    "dimensions": {
+      "average_length_mm": "150-180",
+      "average_width_mm": "100-120",
+      "average_thickness_mm": "3-8",
+      "note": "Grootte varieert."
+    },
+    "function": {
+      "primary_role": "Verbindt de arm met de romp, aanhechting van spieren, facilitatie van schouderbewegingen.",
+      "details": "Dient als een beweegbaar platform voor de humerus, waardoor een breed scala aan armbewegingen mogelijk is. Biedt aanhechtingspunten voor 17 spieren van de schouder, arm en rug, die essentieel zijn voor stabiliteit en kracht van de bovenste extremiteit."
+    },
+    "visual_analogy": "Stel je de Scapula voor als een plat, driehoekig 'schild' dat op je bovenrug rust, als een 'zwevend platform' waaraan je arm is bevestigd. Het is de 'bewegende basis' van je schouder, die draait en glijdt om je arm in bijna elke richting te kunnen bewegen, als een dynamische schakel tussen je arm en je romp.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Humerus (Opperarmbeen)",
+    "type": "bone",
+    "category": "Arm",
+    "description": "De Humerus is het bot van de bovenarm, dat articuleert met de scapula bij de schouder en met de ulna en radius bij de elleboog.",
+    "location": "Bovenarm, tussen de schouder en de elleboog.",
+    "articulations": [
+      "Scapula (via glenohumerale gewricht)",
+      "Ulna (via humeroulnair gewricht)",
+      "Radius (via humeroradiaal gewricht)"
+    ],
+    "key_features": [
+      "Head (articuleert met glenoid fossa van scapula)",
+      "Anatomical and surgical necks (belangrijke breuklocaties)",
+      "Greater and lesser tubercles (aanhechting voor rotatormanchet spieren)",
+      "Deltoid tuberosity (aanhechting voor Deltoid spier)",
+      "Medial and lateral epicondyles (aanhechting voor onderarmspieren)",
+      "Trochlea and capitulum (articulatie met ulna en radius)"
+    ],
+    "dimensions": {
+      "average_length_mm": "280-340",
+      "average_diameter_mm": "20-30",
+      "note": "Lengte varieert met lichaamslengte."
+    },
+    "function": {
+      "primary_role": "Verbinding van schouder en elleboog, aanhechting van spieren, facilitatie van armbewegingen.",
+      "details": "Vormt de structurele basis van de bovenarm en dient als aanhechtingspunt voor een groot aantal spieren die de schouder en elleboog bewegen (bijv. Deltoid, Biceps brachii, Triceps brachii). Cruciaal voor het heffen, duwen, trekken en roteren van de arm."
+    },
+    "visual_analogy": "Stel je de Humerus voor als een lang, cilindervormig 'bot' dat je bovenarm vormt, met een 'bal' aan de bovenkant (humerushoofd) die in de kom van je schouderblad past, en een 'scharnier' aan de onderkant (ellebooggewricht). Het is de 'centrale as' van je bovenarm, die je in staat stelt je arm te bewegen en te draaien, als een krachtige hefboom voor je armbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Ulna (Ellepijp)",
+    "type": "bone",
+    "category": "Arm (Forearm)",
+    "description": "De Ulna, of ellepijp, is het mediale bot van de onderarm, dat articuleert met de humerus bij de elleboog en met de radius.",
+    "location": "Mediale zijde van de onderarm, van elleboog tot pols.",
+    "articulations": [
+      "Humerus (via trochlear notch)",
+      "Radius (via proximale en distale radioulnair gewrichten)",
+      "Carpale botten (indirect via articulaire schijf)"
+    ],
+    "key_features": [
+      "Olecranon (prominentie van de elleboog)",
+      "Coronoid process (uitsteeksel onder trochlear notch)",
+      "Trochlear notch (articulatie met trochlea van humerus)",
+      "Radial notch (articulatie met radiushoofd)",
+      "Styloid process (puntig uitsteeksel aan distale uiteinde)"
+    ],
+    "dimensions": {
+      "average_length_mm": "240-280",
+      "average_diameter_mm": "10-15",
+      "note": "Lengte varieert met lichaamslengte."
+    },
+    "function": {
+      "primary_role": "Vorming van ellebooggewricht, aanhechting van spieren, stabilisatie van onderarm.",
+      "details": "Vormt het belangrijkste bot van het ellebooggewricht, waardoor flexie en extensie mogelijk zijn. Dient als aanhechtingspunt voor veel onderarmspieren die de pols en vingers bewegen. De ulna is relatief stabiel en fungeert als de as waaromheen de radius roteert tijdens pronatie en supinatie."
+    },
+    "visual_analogy": "Stel je de Ulna voor als een lange, stevige 'pijp' van bot die de binnenkant van je onderarm vormt, met een 'haak' aan de bovenkant (olecranon) die om de onderkant van je bovenarm past. Het is de 'stabilisator' van je onderarm, die je elleboogbewegingen leidt en de basis vormt voor het draaien van je hand, als een vaste as waaromheen de andere botten bewegen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Radius (Spaakbeen)",
+    "type": "bone",
+    "category": "Arm (Forearm)",
+    "description": "De Radius, of spaakbeen, is het laterale bot van de onderarm, dat articuleert met de humerus, ulna en carpale botten, en essentieel is voor pronatie en supinatie van de onderarm.",
+    "location": "Laterale zijde van de onderarm, van elleboog tot pols.",
+    "articulations": [
+      "Humerus (via capitulum)",
+      "Ulna (via proximale en distale radioulnair gewrichten)",
+      "Scaphoid and lunate (carpale botten, via radiocarpale gewricht)"
+    ],
+    "key_features": [
+      "Head (articuleert met capitulum van humerus en radiale inkeping van ulna)",
+      "Neck (smalle deel onder het hoofd)",
+      "Radial tuberosity (aanhechting voor Biceps brachii)",
+      "Styloid process (puntig uitsteeksel aan distale uiteinde)",
+      "Ulnar notch (articulatie met ulnahoofd)"
+    ],
+    "dimensions": {
+      "average_length_mm": "220-260",
+      "average_diameter_mm": "10-15",
+      "note": "Lengte varieert met lichaamslengte."
+    },
+    "function": {
+      "primary_role": "Rotatie van onderarm (pronatie/supinatie), aanhechting van spieren, vorming van polsgewricht.",
+      "details": "Roteert rond de ulna tijdens pronatie en supinatie, waardoor de handpalm kan draaien. Vormt het belangrijkste bot van het polsgewricht, waardoor een breed scala aan handbewegingen mogelijk is. Dient als aanhechtingspunt voor veel onderarmspieren."
+    },
+    "visual_analogy": "Stel je de Radius voor als een lange, cilindervormige 'spil' van bot die de buitenkant van je onderarm vormt, met een 'kop' aan de bovenkant die om de ellepijp draait, en een breder uiteinde aan de pols. Het is de 'draaiende as' van je onderarm, die je in staat stelt je handpalm omhoog en omlaag te draaien, als een flexibele stang die je hand oriënteert in de ruimte.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

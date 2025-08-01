@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Carpal Bones (Handwortelbeentjes)",
+    "type": "bone",
+    "category": "Hand",
+    "description": "De Carpale botten zijn acht kleine, onregelmatig gevormde botten die de handwortel vormen, gelegen tussen de onderarmbotten en de middenhandsbeentjes. Ze zijn gerangschikt in twee rijen (proximaal en distaal).",
+    "location": "Polsregio, tussen de radius/ulna en de metacarpale botten.",
+    "bones_list": [
+      "Scaphoid (bootvormig bot)",
+      "Lunate (maanvormig bot)",
+      "Triquetrum (driehoekig bot)",
+      "Pisiform (erwtvormig bot)",
+      "Trapezium (groot veelhoekig bot)",
+      "Trapezoid (klein veelhoekig bot)",
+      "Capitate (hoofdvormig bot)",
+      "Hamate (haakvormig bot)"
+    ],
+    "articulations": [
+      "Radius (proximale rij)",
+      "Ulna (indirect via articulaire schijf)",
+      "Elkaar (via intercarpale gewrichten)",
+      "Metacarpal bones (distale rij)"
+    ],
+    "key_features": [
+      "Carpale tunnel (doorgang voor zenuwen en pezen)",
+      "Flexor retinaculum (band die de carpale tunnel overspant)"
+    ],
+    "dimensions": {
+      "total_width_mm": "40-50",
+      "total_length_mm": "20-30",
+      "note": "Totale afmetingen van de carpale regio."
+    },
+    "function": {
+      "primary_role": "Flexibiliteit en stabiliteit van de pols, doorgang voor pezen en zenuwen.",
+      "details": "De rangschikking van de carpale botten zorgt voor een complex, flexibel gewricht dat een breed scala aan polsbewegingen mogelijk maakt. Ze vormen de bodem en zijkanten van de carpale tunnel, een belangrijke doorgang voor de buigpezen en de N. medianus."
+    },
+    "visual_analogy": "Stel je de Carpale botten voor als een 'mozaïek' van acht kleine, onregelmatige steentjes die samen je pols vormen, gerangschikt in twee rijen. Ze zijn als de 'flexibele basis' van je hand, die je pols in alle richtingen kan bewegen en de 'poort' vormt voor de pezen en zenuwen die naar je hand lopen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Metacarpal Bones (Middenhandsbeentjes) 1-5",
+    "type": "bone",
+    "category": "Hand",
+    "description": "De Metacarpale botten zijn vijf lange, slanke botten die de handpalm vormen en articuleren met de carpale botten en de falanxen.",
+    "location": "Handpalm, tussen de handwortel en de vingers.",
+    "articulations": [
+      "Carpal bones (via carpometacarpale gewrichten)",
+      "Each other (via intermetacarpale gewrichten)",
+      "Proximal phalanges (via metacarpofalangeale gewrichten)"
+    ],
+    "key_features": [
+      "Base (proximaal uiteinde, articuleert met carpale botten)",
+      "Shaft (lichaam)",
+      "Head (distaal uiteinde, articuleert met falanxen, vormt 'knokkels')"
+    ],
+    "dimensions": {
+      "average_length_mm": {
+        "1st_metacarpal": "40-50",
+        "2nd_metacarpal": "70-80",
+        "note": "Lengte varieert, 2e en 3e zijn het langst."
+      },
+      "average_diameter_mm": "5-10",
+      "note": "Relatief slank."
+    },
+    "function": {
+      "primary_role": "Vorming van handpalm, aanhechting van spieren, flexibiliteit van de vingers.",
+      "details": "Vormt de benige structuur van de handpalm en biedt aanhechtingspunten voor intrinsieke handspieren. De gewrichten met de carpale botten en falanxen maken een breed scala aan grijp- en manipulatieve bewegingen van de vingers mogelijk."
+    },
+    "visual_analogy": "Stel je de Metacarpale botten voor als vijf lange, slanke 'balkjes' van bot die je handpalm vormen, als de 'fundamenten' van je vingers. Hun koppen vormen je knokkels, en ze zijn als 'hefbomen' die de bewegingen van je vingers aandrijven, essentieel voor het grijpen en manipuleren van objecten.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Phalanges (Vingerkootjes) - Hand",
+    "type": "bone",
+    "category": "Hand",
+    "description": "De Falanxen zijn de botten die de vingers en duim vormen. Elke vinger (2e-5e) heeft drie falanxen (proximaal, middelste, distaal), en de duim (1e) heeft twee (proximaal, distaal).",
+    "location": "Vingers en duim.",
+    "articulations": [
+      "Metacarpal bones (proximale falanxen)",
+      "Elkaar (via interfalangeale gewrichten)"
+    ],
+    "key_features": [
+      "Base (proximaal uiteinde)",
+      "Shaft (lichaam)",
+      "Head (distaal uiteinde)"
+    ],
+    "dimensions": {
+      "average_length_mm": {
+        "proximal_phalanx_thumb": "25-30",
+        "distal_phalanx_pinky": "10-15",
+        "note": "Lengte varieert aanzienlijk per falanx en vinger."
+      },
+      "average_diameter_mm": "3-8",
+      "note": "Worden smaller naar distaal."
+    },
+    "function": {
+      "primary_role": "Vorming van vingers, flexibiliteit van de vingers, aanhechting van pezen.",
+      "details": "Vormt de benige structuur van de vingers en duim, waardoor een breed scala aan buig- en strekbewegingen mogelijk is. Essentieel voor grijpen, knijpen, typen en alle fijne motorische taken van de hand."
+    },
+    "visual_analogy": "Stel je de Falanxen voor als kleine, gestapelde 'buisjes' van bot die je vingers vormen, als de 'segmenten' die je vingers flexibel maken. Ze zijn als de 'scharnierende schakels' die je vingers in staat stellen te buigen en te strekken, essentieel voor het vastpakken van objecten en het uitvoeren van delicate taken.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

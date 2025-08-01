@@ -1,0 +1,2496 @@
+[
+  {
+    "name": "Vastus medialis",
+    "description": "De Vastus medialis is een van de vier koppen van de Quadriceps femoris spier, gelegen aan de mediale zijde van het dijbeen, cruciaal voor knie-extensie en patellastabilisatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale lip van de linea aspera van het femur, distaal van de intertrochanterica lijn en de mediale supracondylaire lijn.",
+        "details": [
+          "De meest distale vezels (vastus medialis obliquus) ontspringen meer inferieur en mediaal."
+        ]
+      },
+      "insertion": {
+        "location": "Gemeenschappelijke patellaire pees, mediaal van de patella, en de mediale patellaire retinaculum.",
+        "details": [
+          "De vezels convergeren naar beneden en lateraal richting de patella.",
+          "Een aanzienlijk deel van de vezels insertie direct op de mediale rand van de patella."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": "150-250",
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Geschatte spierbuik lengte."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. femoralis (L2, L3, L4)",
+      "branch": "Takken van de N. femoralis die de quadriceps spieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. femoralis (via de A. profunda femoris, met name de mediale circumflex femorale arterie)."
+      ],
+      "venous_drainage": "V. femoralis."
+    },
+    "function": {
+      "primary_action": "Extendert de knie.",
+      "mechanism_of_action": "Contractie van de Vastus medialis trekt de patella proximaal en mediaal, wat resulteert in extensie van het onderbeen bij het kniegewricht.",
+      "force_generation": {
+        "quadriceps_contribution_percentage": "20-25%",
+        "note": "Geschatte bijdrage aan de totale quadriceps kracht."
+      },
+      "patellar_tracking": "Speelt een cruciale rol bij het handhaven van de mediale stabiliteit van de patella en het voorkomen van laterale dislocatie.",
+      "role_in_expression": [
+        "Essentieel voor staan, lopen, springen en het uitvoeren van squats.",
+        "Belangrijk voor de eindfase van knie-extensie ('terminal knee extension'), wat cruciaal is voor volledige strekking en vergrendeling van het kniegewricht."
+      ],
+      "synergists": [
+        "Rectus femoris",
+        "Vastus lateralis",
+        "Vastus intermedius"
+      ],
+      "antagonists": [
+        "Hamstrings (Biceps femoris, Semitendinosus, Semimembranosus)"
+      ]
+    },
+    "visual_analogy": "Stel je de Vastus medialis voor als een grote, afgeronde spier aan de binnenzijde van je dij, net boven de knie. Het is de 'teardrop' spier die vaak zichtbaar is bij getrainde atleten. Wanneer je je been strekt, trekt deze spier de knieschijf omhoog en iets naar binnen, als een katrol die een touw omhoog trekt om iets recht te trekken.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Vastus lateralis",
+    "description": "De Vastus lateralis is de grootste van de vier koppen van de Quadriceps femoris spier, gelegen aan de laterale zijde van het dijbeen, een primaire extender van de knie.",
+    "anatomy": {
+      "origin": {
+        "location": "Grote trochanter van het femur, laterale lip van de linea aspera, en het laterale intermusculaire septum.",
+        "details": [
+          "Oorsprong beslaat een breed gebied langs de laterale zijde van het femur."
+        ]
+      },
+      "insertion": {
+        "location": "Gemeenschappelijke patellaire pees, lateraal van de patella, en de laterale patellaire retinaculum.",
+        "details": [
+          "De vezels convergeren schuin naar beneden en mediaal richting de patella.",
+          "Een deel van de vezels insertie op de laterale rand van de patella."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": null,
+          "range": "200-300",
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte, vaak de langste quadriceps kop."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      },
+      "innervation": {
+        "nerve": "N. femoralis (L2, L3, L4)",
+        "branch": "Takken van de N. femoralis die de quadriceps spieren innerveren."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. femoralis (via de A. profunda femoris, met name de laterale circumflex femorale arterie)."
+        ],
+        "venous_drainage": "V. femoralis."
+      }
+    },
+    "function": {
+      "primary_action": "Extendert de knie.",
+      "mechanism_of_action": "Contractie van de Vastus lateralis trekt de patella proximaal en lateraal, wat resulteert in extensie van het onderbeen bij het kniegewricht.",
+      "force_generation": {
+        "quadriceps_contribution_percentage": "35-40%",
+        "note": "Geschatte bijdrage aan de totale quadriceps kracht, grootste bijdrage."
+      },
+      "patellar_tracking": "Heeft een neiging om de patella lateraal te trekken; de balans met de Vastus medialis is cruciaal voor correcte patellabeweging.",
+      "role_in_expression": [
+        "Essentieel voor krachtige knie-extensie, zoals bij springen, rennen en opstaan uit een stoel.",
+        "Draagt significant bij aan de algehele kracht en stabiliteit van het kniegewricht."
+      ],
+      "synergists": [
+        "Rectus femoris",
+        "Vastus medialis",
+        "Vastus intermedius"
+      ],
+      "antagonists": [
+        "Hamstrings (Biceps femoris, Semitendinosus, Semimembranosus)"
+      ]
+    },
+    "visual_analogy": "Stel je de Vastus lateralis voor als een grote, brede spier aan de buitenzijde van je dijbeen, die een aanzienlijk deel van de zijkant van je bovenbeen beslaat. Het is de 'werkpaard' van de quadriceps, die met veel kracht de knie strekt, alsof je met een krachtige beweging je onderbeen naar voren duwt.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Vastus intermedius",
+    "description": "De Vastus intermedius is een van de diepst gelegen spieren van de Quadriceps femoris, direct onder de Rectus femoris, en is een belangrijke knie-extensor.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure en laterale oppervlakken van de femurshaft (dijbeen), distaal van de linea intertrochanterica.",
+        "details": [
+          "De oorsprong beslaat ruwweg de bovenste twee derden van de anterolaterale zijde van het femur."
+        ]
+      },
+      "insertion": {
+        "location": "Gemeenschappelijke patellaire pees, onder de Rectus femoris en oppervlakkiger dan de Vastus medialis en lateralis.",
+        "details": [
+          "De vezels lopen direct distaal naar de patella."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": null,
+          "range": "180-280",
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      },
+      "innervation": {
+        "nerve": "N. femoralis (L2, L3, L4)",
+        "branch": "Takken van de N. femoralis die de quadriceps spieren innerveren."
+      },
+      "blood_supply": {
+        "arterial": [
+          "Takken van de A. profunda femoris."
+        ],
+        "venous_drainage": "V. femoralis."
+      }
+    },
+    "function": {
+      "primary_action": "Extendert de knie.",
+      "mechanism_of_action": "Bij contractie trekt de Vastus intermedius de patella proximaal, wat direct bijdraagt aan de strekking van het onderbeen.",
+      "force_generation": {
+        "quadriceps_contribution_percentage": "15-20%",
+        "note": "Geschatte bijdrage aan de totale quadriceps kracht."
+      },
+      "role_in_expression": [
+        "Belangrijk voor de basiskracht van knie-extensie, vooral bij niet-gewichtdragende activiteiten.",
+        "Draagt bij aan de stabiliteit van het kniegewricht."
+      ],
+      "synergists": [
+        "Rectus femoris",
+        "Vastus medialis",
+        "Vastus intermedius"
+      ],
+      "antagonists": [
+        "Hamstrings (Biceps femoris, Semitendinosus, Semimembranosus)"
+      ]
+    },
+    "visual_analogy": "Stel je de Vastus intermedius voor als de 'onzichtbare' krachtpatser die diep onder de oppervlakte van je dijbeen ligt, verborgen onder de Rectus femoris. Het is de directe, rechte lijn trekker die helpt om je knie te strekken, alsof het een diep liggende motor is die de beweging vanuit de kern aandrijft.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Tibialis posterior",
+    "description": "De Tibialis posterior is de diepst gelegen spier in het posterieure compartiment van het onderbeen, essentieel voor inversie en plantairflexie van de voet en ondersteuning van de voetboog.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure oppervlak van de tibia (scheenbeen) distaal van de soleale lijn, posterieure oppervlak van de fibula (kuitbeen), en de interossea membraan.",
+        "details": [
+          "Brede oorsprong over de twee botten en het membraan."
+        ]
+      },
+      "insertion": {
+        "location": "Tuberositas van de naviculare (bootvormig bot), en strekt zich uit naar de cuneïforme botten, cuboid, en de basis van de 2e, 3e, en 4e metatarsale botten.",
+        "details": [
+          "De pees passeert posterieur aan de mediale malleolus en splitst zich in meerdere inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. tibialis (L4, L5)",
+      "branch": "Takken van de N. tibialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. tibialis posterior."
+      ],
+      "venous_drainage": "V. tibialis posterior."
+    },
+    "function": {
+      "primary_action": "Inverteert de voet, plantairflext de voet bij de enkel.",
+      "mechanism_of_action": "Bij contractie trekt de pees van de Tibialis posterior de voetboog omhoog en draait de voetzool naar binnen (inversie). Het assisteert ook bij het strekken van de voet (plantairflexie) bij het enkelgewricht.",
+      "joint_movement_degrees": {
+        "inversie_graden": "10-20",
+        "plantairflexie_graden": "5-10",
+        "note": "Geschatte bijdrage aan de bewegingsuitslag."
+      },
+      "arch_support": "De belangrijkste spier voor het dynamisch ondersteunen van de longitudinale voetboog, cruciaal voor schokabsorptie en efficiënt lopen.",
+      "role_in_expression": [
+        "Essentieel voor stabiliteit van de voet en enkel tijdens staan, lopen en rennen.",
+        "Speelt een vitale rol bij het afzetten van de voet tijdens de gangcyclus."
+      ],
+      "synergists": [
+        "Flexor digitorum longus",
+        "Flexor hallucis longus (voor plantairflexie en inversie)",
+        "Gastrocnemius",
+        "Soleus (voor plantairflexie)"
+      ],
+      "antagonists": [
+        "Tibialis anterior (voor dorsiflexie en eversie)",
+        "Fibularis longus",
+        "Fibularis brevis (voor eversie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Tibialis posterior voor als een diepe, krachtige kabel die vanuit de achterkant van je scheenbeen en kuitbeen naar de onderkant van je voetboog loopt. Wanneer deze kabel samentrekt, tilt hij de binnenkant van je voetboog op en draait je voetzool naar binnen, alsof je je voet 'opslot' zet om stabiel te staan of je af te zetten.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Tibialis anterior",
+    "description": "De Tibialis anterior is een prominente spier in het anterieure compartiment van het onderbeen, de primaire dorsiflexor en inversor van de voet.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale condyl van de tibia, laterale oppervlak van de tibia (proximale twee derden), en de interossea membraan.",
+        "details": [
+          "Oorsprong beslaat een groot gebied aan de voorzijde van het scheenbeen."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale en inferieure oppervlakken van de mediale cuneïforme (wigvormig bot) en de basis van de 1e metatarsale (middenvoetsbeentje).",
+        "details": [
+          "De pees kruist de enkel anterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. fibularis profundus (diepe peroneuszenuw) (L4, L5)",
+      "branch": "Takken van de N. fibularis profundus."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. tibialis anterior."
+      ],
+      "venous_drainage": "V. tibialis anterior."
+    },
+    "function": {
+      "primary_action": "Dorsiflext en inverteert de voet.",
+      "mechanism_of_action": "Bij contractie trekt de Tibialis anterior de voorvoet omhoog (dorsiflexie) en de voetzool naar binnen (inversie). Het speelt een cruciale rol bij het 'opheffen' van de voet tijdens de zwaaifase van het lopen en het controleren van de afrolbeweging van de voet.",
+      "joint_movement_degrees": {
+        "dorsiflexie_graden": "15-25",
+        "inversie_graden": "5-10",
+        "note": "Geschatte bijdrage aan de bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Essentieel voor lopen (voorkomt 'voetsleep' door tenen van de grond te tillen).",
+        "Belangrijk voor balans en stabiliteit tijdens bewegingen van de voet en enkel."
+      ],
+      "synergists": [
+        "Extensor digitorum longus (voor dorsiflexie)",
+        "Extensor hallucis longus (voor dorsiflexie)"
+      ],
+      "antagonists": [
+        "Gastrocnemius",
+        "Soleus",
+        "Tibialis posterior (voor plantairflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Tibialis anterior voor als een lange, krachtige spier die langs de voorkant van je scheenbeen loopt, en waarvan de pees over je enkel naar de binnenzijde van je voet gaat. Wanneer deze spier samentrekt, trekken je tenen omhoog en draait de onderkant van je voet iets naar binnen, alsof je de punt van je schoen optilt om nergens achter te blijven haken tijdens het lopen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Tensor fasciae latae",
+    "description": "De Tensor fasciae latae (TFL) is een spier aan de laterale zijde van de heup en dij, die de tractus iliotibialis spant en fungeert als flexor, abductor en mediale rotator van de heup.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure deel van de buitenste lip van de crista iliaca (bekkenkam), anterieure superieure iliaca wervelkolom (ASIS), en de diepe fascia.",
+        "details": [
+          "Relatief smalle oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tractus iliotibialis (IT-band), die distaal insertie op de laterale condyl van de tibia (Gerdy's tuberculum).",
+        "details": [
+          "De spiervezels voegen zich samen met de fibreuze IT-band ongeveer een derde van de weg naar beneden de dij."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "150-200",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": {
+          "average": "30-50",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Breedte aan de oorsprong."
+        },
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. gluteus superior (L4, L5, S1)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. circumflexa femoris lateralis (tak van de A. profunda femoris).",
+        "A. glutea superior."
+      ],
+      "venous_drainage": "V. circumflexa femoris lateralis en V. glutea superior."
+    },
+    "function": {
+      "primary_action": "Flext de heup, mediaal roteert de heup, stabiliseert de romp (via IT-band), abduceert de heup.",
+      "mechanism_of_action": "Bij contractie flexeert de TFL de heup, assisteert bij mediale rotatie en abductie van het dijbeen. Door spanning op de IT-band te plaatsen, stabiliseert het de knie (vooral in extensie) en de heup, en ondersteunt het de romp tijdens het staan en lopen.",
+      "hip_flexion_degrees": {
+        "average": "10-15",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "hip_abduction_degrees": {
+        "average": "10-15",
+        "note": "Bijdrage aan heupabductie."
+      },
+      "hip_laterale_rotatie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor lopen, rennen en balans, met name tijdens de zwaaifase van de gangcyclus.",
+        "Belangrijk voor sporten die snelle richtingsveranderingen en laterale bewegingen vereisen.",
+        "Kan bijdragen aan laterale kniepijn wanneer overbelast (IT-band syndroom)."
+      ],
+      "synergists": [
+        "Gluteus medius",
+        "Gluteus minimus (voor abductie)",
+        "Iliopsoas (voor flexie)",
+        "Rectus femoris (voor flexie)"
+      ],
+      "antagonists": [
+        "Gluteus maximus (voor extensie en laterale rotatie)",
+        "Adductor Magnus",
+        "Adductor longus",
+        "Adductor brevis (voor adductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Tensor fasciae latae voor als een korte, dikke spier die aan de voorkant van je bekkenbot (zijwaarts) begint en overgaat in een lange, strakke, dikke band (de IT-band) die langs de buitenkant van je dij naar je knie loopt. Wanneer deze spier samentrekt, spant hij die band strak en trekt hij je been naar voren en iets opzij, alsof hij een strakke veer is die je been in de juiste positie trekt voor beweging.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Soleus",
+    "description": "De Soleus is een grote, platte, krachtige spier in het posterieure compartiment van het onderbeen, diep gelegen ten opzichte van de Gastrocnemius, en is een primaire plantairflexor van de enkel, vooral belangrijk bij staande positie.",
+    "anatomy": {
+      "origin": {
+        "location": "Caput en posterieure oppervlak van de fibula (kuitbeen), soleale lijn van de tibia (scheenbeen), en de mediale rand van de tibia.",
+        "details": [
+          "Brede, hoefijzervormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Posterieur oppervlak van het calcaneus (hielbeen) via de gemeenschappelijke Achillespees (tendo calcaneus) met de Gastrocnemius.",
+        "details": [
+          "Vezels lopen distaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "150-200",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "volume_cm3": {
+          "average": "250-400",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "cm³",
+          "note": "Geschat spierbuik volume bij volwassenen, vaak groter dan Gastrocnemius."
+        }
+      },
+      "innervation": {
+        "nerve": "N. tibialis (S1, S2)",
+        "branch": "Takken van de N. tibialis."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. tibialis posterior.",
+          "A. fibularis (peroneus arterie)."
+        ],
+        "venous_drainage": "V. tibialis posterior en V. fibularis."
+      }
+    },
+    "function": {
+      "primary_action": "Plantairflext de enkel.",
+      "mechanism_of_action": "Bij contractie trekt de Soleus het hielbeen omhoog, waardoor de voet naar beneden wordt gestrekt (plantairflexie). Het is een krachtige plantairflexor, vooral wanneer de knie gebogen is (waarbij de Gastrocnemius minder effectief is). Het speelt een cruciale rol bij het handhaven van de staande houding en voortstuwing tijdens lopen en rennen.",
+      "plantairflexie_koppel_Nm": {
+        "average": "80-150",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische plantairflexiekoppel."
+      },
+      "role_in_expression": [
+        "Essentieel voor staan (antigravitatie spier), lopen, rennen en springen.",
+        "Belangrijk voor de voortstuwing tijdens de afzetfase van de gangcyclus.",
+        "Draagt bij aan de stabiliteit van het onderbeen en de enkel."
+      ],
+      "synergists": [
+        "Gastrocnemius (hoofd plantairflexor, vooral bij gestrekte knie)",
+        "Plantaris (assisteert)",
+        "Tibialis posterior (assisteert plantairflexie en inversie)",
+        "Fibularis longus",
+        "Fibularis brevis (assisteert plantairflexie en eversie)"
+      ],
+      "antagonists": [
+        "Tibialis anterior",
+        "Extensor digitorum longus",
+        "Extensor hallucis longus (voor dorsiflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Soleus voor als een grote, platte 'scholfilet' van een spier die diep in je kuit ligt, onder de tweelingkuitspier, en vastzit aan je scheenbeen, kuitbeen en hielbeen. Het is als de motor van een onderzeeër: gestaag en krachtig, waardoor je constant je voet kunt strekken en rechtop kunt blijven staan, zelfs als je knie gebogen is.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Semitendinosus",
+    "description": "De Semitendinosus is een van de drie hamstrings, gelegen aan de posteromediale zijde van het dijbeen, en is verantwoordelijk voor knieflexie, heupextensie en mediale rotatie van het been bij de knie.",
+    "anatomy": {
+      "origin": {
+        "location": "Superomediale impressie op de ischiadicus tuberositas (zitbeenknobbel), gemeenschappelijk met de lange kop van de Biceps femoris.",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Superieure mediale oppervlak van de tibia (scheenbeen), als onderdeel van de pes anserinus (ganzenvoetje).",
+        "details": [
+          "De pees is lang en dun en loopt distaal langs de mediale zijde van de knie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "250-350",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. tibialis (L5, S1, S2)",
+      "branch": "Mediale takken van de N. tibialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris.",
+        "Takken van de A. poplitea."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext knie, extendert heup, mediaal roteert been bij knie.",
+      "mechanism_of_action": "Bij contractie buigt de Semitendinosus het onderbeen bij de knie. Het assisteert ook bij het strekken van het dijbeen bij de heup (heupextensie) en roteert het onderbeen naar binnen (mediale rotatie) wanneer de knie gebogen is. Het is een bi-articulaire spier.",
+      "knie_flexie_graden": {
+        "average": "30-40",
+        "note": "Bijdrage aan knieflexie."
+      },
+      "heup_extensie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupextensie."
+      },
+      "knie_mediale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan mediale rotatie bij gebogen knie."
+      },
+      "role_in_expression": [
+        "Essentieel voor lopen, rennen, springen en klimmen.",
+        "Belangrijk voor het afremmen van de beenbeweging tijdens de zwaaifase van de gangcyclus (excentrische controle).",
+        "Speelt een rol bij de stabiliteit van de knie, vooral tegen valgus stress."
+      ],
+      "synergists": [
+        "Semimembranosus",
+        "Biceps femoris (voor knieflexie en heupextensie)",
+        "Gastrocnemius (voor knieflexie)"
+      ],
+      "antagonists": [
+        "Quadriceps femoris (voor knie-extensie)",
+        "Iliopsoas",
+        "Rectus femoris (voor heupflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Semitendinosus voor als een lange, gespierde band die van je zitbeenknobbel (onderste deel van je bil) langs de binnen-achterkant van je dijbeen naar de binnenkant van je scheenbeen loopt, net onder de knie, als een lange, strakke snaar. Wanneer hij samentrekt, trekt hij je onderbeen naar achteren (buigt je knie) en helpt hij je been naar achteren te zwaaien vanuit de heup, en de binnenkant van je onderbeen iets naar binnen te draaien.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Semimembranosus",
+    "description": "De Semimembranosus is een van de drie hamstrings, gelegen aan de posteromediale zijde van het dijbeen, diep gelegen ten opzichte van de Semitendinosus, en is verantwoordelijk voor knieflexie, heupextensie en mediale rotatie van het been bij de knie.",
+    "anatomy": {
+      "origin": {
+        "location": "Superolaterale impressie op de ischiadicus tuberositas (zitbeenknobbel), superieur en lateraal van de oorsprong van de Semitendinosus en Biceps femoris.",
+        "details": [
+          "Pezige oorsprong, vaak breder dan de Semitendinosus."
+        ]
+      },
+      "insertion": {
+        "location": "Posteriomediale condyl van de tibia (scheenbeen), door middel van een uitgebreide, complexe insertie die drie verschillende delen heeft (anterieure, horizontale en posterieure).",
+        "details": [
+          "De pees is breed en membranoeus (vandaar de naam)."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "280-380",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. tibialis (L5, S1, S2)",
+      "branch": "Mediale takken van de N. tibialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris.",
+        "Takken van de A. poplitea."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext knie, extendert heup, mediaal roteert been bij knie.",
+      "mechanism_of_action": "Bij contractie buigt de Semimembranosus het onderbeen bij de knie en strekt het dijbeen bij de heup (heupextensie). Het roteert ook het onderbeen naar binnen (mediale rotatie) wanneer de knie gebogen is. Het is een bi-articulaire spier en speelt een cruciale rol bij de stabiliteit van de knie en dynamische controle tijdens lopen en rennen.",
+      "knie_flexie_graden": {
+        "average": "35-45",
+        "note": "Sterke bijdrage aan knieflexie."
+      },
+      "heup_extensie_graden": {
+        "average": "15-25",
+        "note": "Sterke bijdrage aan heupextensie."
+      },
+      "knie_mediale_rotatie_graden": {
+        "average": "8-15",
+        "note": "Sterke bijdrage aan mediale rotatie bij gebogen knie."
+      },
+      "role_in_expression": [
+        "Essentieel voor hardlopen, springen, en activiteiten die krachtige knieflexie en heupextensie vereisen.",
+        "Belangrijk voor het stabiliseren van de knie, met name tegen valgus stress en hyperextensie.",
+        "Draagt bij aan de afremming van het been tijdens de zwaaifase van de gangcyclus."
+      ],
+      "synergists": [
+        "Semitendinosus",
+        "Biceps femoris (voor knieflexie en heupextensie)",
+        "Gastrocnemius (voor knieflexie)"
+      ],
+      "antagonists": [
+        "Quadriceps femoris (voor knie-extensie)",
+        "Iliopsoas",
+        "Rectus femoris (voor heupflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Semimembranosus voor als een dikke, platte 'membraan' van een spier die diep in je bil en langs de binnen-achterkant van je dijbeen loopt, en zich wijd uitspreidt om vast te hechten aan de binnenkant van je scheenbeen, net onder de knie. Het is als een brede, krachtige riem die je onderbeen buigt en je been achterwaarts zwaait, en tegelijkertijd je knie stabiliseert, alsof het een 'anker' is dat je been stevig op zijn plaats houdt terwijl je beweegt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Sartorius",
+    "description": "De Sartorius is de langste spier in het menselijk lichaam, gelegen aan de anterieure zijde van het dijbeen, die de heup flexeert, abduceert en lateraal roteert, en de knie flext en mediaal roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure superieure iliaca wervelkolom (ASIS) en het superieure deel van de inkeping eronder (anterieure zijde van het bekken).",
+        "details": [
+          "Puntvormige, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Superieure mediale oppervlak van de tibia (scheenbeen), als onderdeel van de pes anserinus (ganzenvoetje), distaal van de aanhechting van de Gracilis en Semitendinosus.",
+        "details": [
+          "Lange, dunne pees die spiraalvormig over de dij loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "400-500",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte van de spier, kan tot 550 mm lang zijn."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. femoralis (L2, L3)",
+      "branch": "Takken van de N. femoralis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. femoralis (via oppervlakkige takken).",
+        "Takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. femoralis en V. profunda femoris."
+    },
+    "function": {
+      "primary_action": "Flext, lateraal roteert en abduceert dij, flext en mediaal roteert been.",
+      "mechanism_of_action": "Door zijn lange, schuine verloop is de Sartorius een multi-articulaire spier. Hij buigt de heup, beweegt het been zijwaarts (abductie), roteert het been naar buiten (laterale rotatie), en buigt de knie en roteert het onderbeen naar binnen (mediale rotatie). Deze combinatie van bewegingen is essentieel voor het aannemen van een kleermakerszit.",
+      "heup_flexie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "heup_abductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupabductie."
+      },
+      "heup_laterale_rotatie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "knie_flexie_graden": {
+        "average": "15-25",
+        "note": "Bijdrage aan knieflexie."
+      },
+      "knie_mediale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan mediale rotatie (bij gebogen knie)."
+      },
+      "role_in_expression": [
+        "Essentieel voor complexe beenbewegingen zoals traplopen, fietsen, schoenveters strikken en de kleermakerszit aannemen.",
+        "Speelt een rol bij de stabiliteit van de heup en knie tijdens bewegingen.",
+        "Wordt vaak gebruikt als referentiepunt voor neurovasculaire structuren in de dij (binnenste rand vormt de laterale grens van de femorale driehoek)."
+      ],
+      "synergists": [
+        "Iliopsoas",
+        "Rectus femoris (voor heupflexie)",
+        "Gracilis",
+        "Semitendinosus (voor knieflexie en mediale rotatie)"
+      ],
+      "antagonists": [
+        "Gluteus maximus (voor heupextensie)",
+        "Adductor Magnus",
+        "Adductor longus",
+        "Adductor brevis (voor heupadductie)",
+        "Hamstrings (voor knie-extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Sartorius voor als een lange, dunne, lintachtige spier die als een diagonaal lint over de voorkant van je dijbeen loopt, van de buitenkant van je bekken naar de binnenkant van je knie. Wanneer hij samentrekt, trekt hij je been in een 'kleermakerszit'-positie, alsof hij je been elegant kruist, wat een combinatie is van buigen, spreiden en draaien.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Rectus femoris",
+    "description": "De Rectus femoris is een van de vier koppen van de Quadriceps femoris spier, uniek omdat het een bi-articulaire spier is die zowel de heup flext als de knie extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure inferieure iliaca wervelkolom (AIIS) en een groef boven het acetabulum (heupkom).",
+        "details": "Twee hoofden: rechte kop en gereflecteerde kop."
+      },
+      "insertion": {
+        "location": "Gemeenschappelijke patellaire pees, die distaal insertie op de tuberositas tibia (scheenbeenknobbel).",
+        "details": "De pees is breed en plat."
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": "200-300",
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Geschatte spierbuik lengte."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. femoralis (L2, L3, L4)",
+      "branch": "Takken van de N. femoralis die de quadriceps spieren innerveren."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. circumflexa femoris lateralis (tak van de A. profunda femoris)."
+      ],
+      "venous_drainage": "V. femoralis."
+    },
+    "function": {
+      "primary_action": "Knie-extensie; heupflexie.",
+      "mechanism_of_action": "Bij contractie strekt de Rectus femoris het onderbeen bij de knie en buigt het dijbeen bij de heup. Zijn bi-articulaire aard betekent dat zijn effect op de knie afhankelijk is van de heuppositie, en vice versa. Het is een krachtige spier voor trappen en springen.",
+      "knie_extensie_koppel_Nm": {
+        "average": "50-80",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Bijdrage aan knie-extensiekoppel."
+      },
+      "heup_flexie_koppel_Nm": {
+        "average": "20-40",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Bijdrage aan heupflexiekoppel."
+      },
+      "role_in_expression": [
+        "Essentieel voor activiteiten zoals trappen, springen, rennen en het optillen van het been.",
+        "Belangrijk voor de dynamische stabiliteit van de heup en knie.",
+        "Een veelvoorkomende bron van blessures bij sporters (bijv. hamstring-achtige blessures in de quadriceps)."
+      ],
+      "synergists": [
+        "Vastus medialis",
+        "Vastus lateralis",
+        "Vastus intermedius (voor knie-extensie)",
+        "Iliopsoas",
+        "Sartorius (voor heupflexie)"
+      ],
+      "antagonists": [
+        "Hamstrings (voor knieflexie en heupextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus femoris voor als een lange, gespierde 'riem' die over de voorkant van je dijbeen loopt, van je bekken naar je knieschijf. Het is de enige quadriceps-spier die over twee gewrichten werkt, alsof het een 'dubbele trekker' is die zowel je been kan optillen als je knie kan strekken, essentieel voor krachtige trapbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Gastrocnemius",
+    "description": "De Gastrocnemius is een grote, oppervlakkige spier in de kuit, bestaande uit twee koppen, die de enkel plantairflext en de knie flext.",
+    "anatomy": {
+      "origin": {
+        "medial_head": {
+          "location": "Posterieur oppervlak van de mediale condyl van het femur (dijbeen), superieur van de mediale epicondyl."
+        },
+        "lateral_head": {
+          "location": "Posterieur oppervlak van de laterale condyl van het femur (dijbeen), superieur van de laterale epicondyl."
+        },
+        "details": "Beide koppen ontspringen van het dijbeen, waardoor het een bi-articulaire spier is."
+      },
+      "insertion": {
+        "location": "Posterieur oppervlak van het calcaneus (hielbeen) via de gemeenschappelijke Achillespees (tendo calcaneus) met de Soleus.",
+        "details": [
+          "De pees is lang en robuust."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": "200-300",
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Geschatte spierbuik lengte."
+      },
+      "volume_cm3": {
+        "average": "200-350",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "cm³",
+        "note": "Geschat spierbuik volume bij volwassenen."
+      }
+    },
+    "innervation": {
+      "nerve": "N. tibialis (S1, S2)",
+      "branch": "Takken van de N. tibialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. poplitea (via surale arteriën)."
+      ],
+      "venous_drainage": "V. poplitea."
+    },
+    "function": {
+      "primary_action": "Plantairflext enkel, flext knie (minor).",
+      "mechanism_of_action": "Bij contractie plantairflext de Gastrocnemius de enkel (trekt de voet naar beneden), vooral wanneer de knie gestrekt is. Het assisteert ook bij de flexie van de knie. Het is een krachtige spier voor springen en rennen, en draagt bij aan de 'push-off' fase van het lopen.",
+      "plantairflexie_koppel_Nm": {
+        "average": "60-120",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische plantairflexiekoppel."
+      },
+      "knie_flexie_koppel_Nm": {
+        "average": "10-20",
+        "note": "Kleine bijdrage aan knieflexiekoppel."
+      },
+      "role_in_expression": [
+        "Essentieel voor springen, rennen en alle activiteiten die een krachtige afzet van de voet vereisen.",
+        "Belangrijk voor de esthetiek van de kuitspieren.",
+        "Speelt een rol bij het handhaven van de balans en de stabiliteit van de enkel."
+      ],
+      "synergists": [
+        "Soleus (hoofd plantairflexor, vooral bij gebogen knie)",
+        "Plantaris (assisteert)",
+        "Tibialis posterior",
+        "Fibularis longus",
+        "Fibularis brevis (voor plantairflexie)"
+      ],
+      "antagonists": [
+        "Tibialis anterior",
+        "Extensor digitorum longus",
+        "Extensor hallucis longus (voor dorsiflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gastrocnemius voor als de twee grote, 'ballonachtige' spieren die de bovenkant van je kuit vormen, die samenkomen in de dikke Achillespees die naar je hiel loopt. Wanneer je op je tenen staat of springt, voel je deze spieren krachtig samentrekken, alsof ze je voet naar beneden duwen en je knie licht buigen, als de 'motor' voor explosieve beenbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Gracilis",
+    "description": "De Gracilis is een lange, slanke spier aan de mediale zijde van het dijbeen, die de heup adduceert en flext, en de knie flext en mediaal roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure helft van de symphysis pubis (schaambeenvoeg) en de aangrenzende inferieure ramus van het pubis.",
+        "details": [
+          "Smalle, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Superieure mediale oppervlak van de tibia (scheenbeen), als onderdeel van de pes anserinus (ganzenvoetje), inferieur van de Sartorius en Semitendinosus.",
+        "details": [
+          "Lange, dunne pees."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4)",
+      "branch": "Anterieure tak van de N. obturatorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. circumflexa femoris medialis en A. obturatoria."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adduceert heup, flext heup, mediaal roteert knie.",
+      "mechanism_of_action": "Bij contractie trekt de Gracilis het dijbeen naar de middenlijn (adductie) en buigt het bij de heup. Het assisteert ook bij de flexie van de knie en roteert het onderbeen naar binnen (mediale rotatie) wanneer de knie gebogen is. Het is de enige adductor die ook de knie beweegt, en is een belangrijke spier voor de stabiliteit van het bekken en de knie.",
+      "heup_adductie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupadductie."
+      },
+      "heup_flexie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "knie_flexie_graden": {
+        "average": "10-15",
+        "note": "Bijdrage aan knieflexie."
+      },
+      "knie_mediale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan mediale rotatie bij gebogen knie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het stabiliseren van het bekken en het controleren van de beenbewegingen, met name bij lopen en rennen.",
+        "Belangrijk voor sporten die snelle zijwaartse bewegingen en stabiliteit vereisen (bijv. schaatsen, voetbal).",
+        "Wordt soms gebruikt als transplantaat voor reconstructieve chirurgie (bijv. handchirurgie)."
+      ],
+      "synergists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Adductor magnus (voor adductie)",
+        "Sartorius",
+        "Semitendinosus (voor knieflexie en mediale rotatie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)",
+        "Quadriceps femoris (voor knie-extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gracilis voor als een lange, dunne, elegante 'snaar' die van je schaambeen (midden van je bekken) langs de binnenkant van je dijbeen naar de binnenkant van je scheenbeen loopt, net onder de knie. Wanneer hij samentrekt, trekt hij je benen naar elkaar toe, buigt je knie en draait je onderbeen iets naar binnen, alsof het een fijne afsteller is die je benen helpt bij het sluiten en stabiliseren.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Gluteus minimus",
+    "description": "De Gluteus minimus is de diepst gelegen van de drie Gluteale spieren, die voornamelijk verantwoordelijk is voor de abductie en mediale rotatie van de heup, en de stabilisatie van het bekken tijdens het lopen.",
+    "anatomy": {
+      "origin": {
+        "location": "Buitenste oppervlak van het ilium (bekkenbot), tussen de anterieure en inferieure gluteale lijnen.",
+        "details": [
+          "Brede, concave oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Anterieure rand van de grote trochanter van het femur (dijbeen).",
+        "details": [
+          "Sterke, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. gluteus superior (L4, L5, S1)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. glutea superior (tak van de A. iliaca interna)."
+      ],
+      "venous_drainage": "V. glutea superior."
+    },
+    "function": {
+      "primary_action": "Abductie van heup; voorkomt adductie van heup. Mediale rotatie van dij.",
+      "mechanism_of_action": "Bij contractie trekt de Gluteus minimus het dijbeen zijwaarts (abductie) en roteert het naar binnen (mediale rotatie). Zijn belangrijkste functie is het stabiliseren van het bekken in het frontale vlak tijdens het lopen, door te voorkomen dat de niet-gewichtdragende zijde van het bekken naar beneden zakt (Trendelenburg-teken).",
+      "heup_abductie_graden": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan heupabductie."
+      },
+      "heup_mediale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan mediale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor een stabiele gang (lopen, rennen).",
+        "Belangrijk voor activiteiten die zijwaartse bewegingen van het been vereisen (bijv. schaatsen, zijwaartse lunges).",
+        "Disfunctie kan leiden tot loopstoornissen en bekkeninstabiliteit."
+      ],
+      "synergists": [
+        "Gluteus medius",
+        "Tensor fasciae latae (voor abductie en mediale rotatie)"
+      ],
+      "antagonists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Adductor magnus (voor adductie)",
+        "Gluteus maximus",
+        "Piriformis (voor laterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gluteus minimus voor als een diepliggende, platte 'waaiervormige' spier die aan de buitenkant van je bekkenbot (ilium) vastzit en naar de bovenkant van je dijbeen (grote trochanter) loopt. Het is als een 'stabilisator' die voorkomt dat je bekken kantelt wanneer je op één been staat, en je been zijwaarts kan bewegen en iets naar binnen kan draaien, alsof het een fijn afgestelde balansmotor is.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Gluteus medius",
+    "description": "De Gluteus medius is een grote, waaiervormige spier aan de laterale zijde van de heup, die voornamelijk verantwoordelijk is voor de abductie en mediale rotatie van de heup, en de stabilisatie van het bekken tijdens het lopen.",
+    "anatomy": {
+      "origin": {
+        "location": "Buitenste oppervlak van het ilium (bekkenbot), tussen de crista iliaca en de anterieure gluteale lijn.",
+        "details": [
+          "Brede, concave oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Lateraal oppervlak van de grote trochanter van het femur (dijbeen).",
+        "details": [
+          "Sterke, brede pees."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. gluteus superior (L4, L5, S1)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. glutea superior (tak van de A. iliaca interna)."
+      ],
+      "venous_drainage": "V. glutea superior."
+    },
+    "function": {
+      "primary_action": "Abductie van heup; voorkomt adductie van heup. Mediale rotatie van dij.",
+      "mechanism_of_action": "Bij contractie trekt de Gluteus medius het dijbeen zijwaarts (abductie) en roteert het naar binnen (mediale rotatie). Het is de belangrijkste spier voor het handhaven van de laterale stabiliteit van het bekken tijdens het lopen, door te voorkomen dat de niet-gewichtdragende zijde van het bekken naar beneden zakt (Trendelenburg-teken is een indicator van zwakte).",
+      "heup_abductie_koppel_Nm": {
+        "average": "60-100",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische abductiekoppel."
+      },
+      "heup_mediale_rotatie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan mediale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor een stabiele en efficiënte gang (lopen, rennen).",
+        "Cruciaal voor activiteiten die zijwaartse bewegingen vereisen, zoals schaatsen, dansen of zijwaartse sprongen.",
+        "Vaak een focus in revalidatie na heupblessures of operaties."
+      ],
+      "synergists": [
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie en mediale rotatie)"
+      ],
+      "antagonists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Adductor magnus (voor adductie)",
+        "Gluteus maximus",
+        "Piriformis (voor laterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gluteus medius voor als een grote, waaiervormige 'spierwaaier' die aan de zijkant van je bekkenbot (onder de heupkam) vastzit en naar de zijkant van je dijbeen (grote trochanter) loopt. Het is de 'hoofdstabilisator' van je bekken tijdens het lopen, die voorkomt dat je heup wegzakt, en je been krachtig zijwaarts kan bewegen en iets naar binnen kan draaien, alsof het een krachtige hefboom is voor je beenbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Gluteus maximus",
+    "description": "De Gluteus maximus is de grootste en meest oppervlakkige van de gluteale spieren, die de heup krachtig extendert en lateraal roteert, en het bekken stabiliseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure gluteale lijn van het ilium (bekkenbot), dorsaal oppervlak van het sacrum (heiligbeen) en coccyx (stuitbeen), en het sacrotuberale ligament.",
+        "details": [
+          "Zeer brede en uitgebreide oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Gluteale tuberositas van het femur (dijbeen) en de iliotibiale tractus (IT-band).",
+        "details": [
+          "De vezels lopen schuin inferolateraal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. gluteus inferior (L5, S1, S2)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. glutea inferior (tak van de A. iliaca interna).",
+        "A. glutea superior (tak van de A. iliaca interna)."
+      ],
+      "venous_drainage": "V. glutea inferior en V. glutea superior."
+    },
+    "function": {
+      "primary_action": "Extern roteert en extendert heupgewricht, ondersteunt gestrekte knie via iliotibiale tractus, belangrijkste antigravitatie spier in zit.",
+      "mechanism_of_action": "Bij contractie extendert de Gluteus maximus krachtig de heup (trekt het been naar achteren), roteert het lateraal (naar buiten) en abduceert het (vooral de superieure vezels) of adduceert het (inferieure vezels). Het speelt een cruciale rol bij het opstaan uit een stoel, traplopen, springen en rennen. Via de IT-band stabiliseert het ook de knie.",
+      "heup_extensie_koppel_Nm": {
+        "average": "150-250",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische extensiekoppel, zeer krachtig."
+      },
+      "heup_laterale_rotatie_graden": {
+        "average": "20-30",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor krachtige bewegingen van de heup en het been, zoals opstaan, klimmen, springen en sprinten.",
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het stabiliseren van het bekken en de romp.",
+        "Een van de grootste en sterkste spieren in het lichaam, vaak getraind voor kracht en esthetiek."
+      ],
+      "synergists": [
+        "Hamstrings (voor heupextensie)",
+        "Piriformis",
+        "Obturator internus",
+        "Obturator externus (voor laterale rotatie)"
+      ],
+      "antagonists": [
+        "Iliopsoas",
+        "Rectus femoris",
+        "Sartorius",
+        "Tensor fasciae latae (voor heupflexie en mediale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gluteus maximus voor als een enorme, dikke 'spierdeken' die je hele bil bedekt, van je bekken en heiligbeen naar de bovenkant van je dijbeen. Het is de 'hoofdmotor' voor het strekken van je been naar achteren en het draaien ervan, alsof het een krachtige duwer is die je helpt op te staan, te springen en te sprinten, en je bekken stabiel houdt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Plantaris",
+    "description": "De Plantaris is een kleine, slanke spier in de kuit, met een lange pees, die de enkel plantairflext en de knie flext (minor). Vaak aangeduid als de 'verse' spier vanwege zijn lange, dunne pees die soms wordt verward met een zenuw.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale supracondylaire richel van het femur (dijbeen), superieur van de laterale kop van de Gastrocnemius.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Posterieur oppervlak van het calcaneus (hielbeen), mediaal van de Achillespees, of versmelt met de Achillespees.",
+        "details": [
+          "Zeer lange, dunne pees die distaal loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. tibialis (L4, L5, S1)",
+      "branch": "Takken van de N. tibialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. poplitea."
+      ],
+      "venous_drainage": "V. poplitea."
+    },
+    "function": {
+      "primary_action": "Plantairflext enkel, flext knie (minor).",
+      "mechanism_of_action": "Bij contractie assisteert de Plantaris de Gastrocnemius en Soleus bij de plantairflexie van de enkel en de flexie van de knie. Zijn bijdrage aan de kracht is echter minimaal. Het wordt vaak beschouwd als een proprioceptief orgaan voor de kuitspieren en de enkel.",
+      "plantairflexie_koppel_Nm": {
+        "average": "<5",
+        "note": "Minimale bijdrage aan plantairflexiekoppel."
+      },
+      "knie_flexie_graden": {
+        "average": "<5",
+        "note": "Minimale bijdrage aan knieflexie."
+      },
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "De lange pees kan soms scheuren ('tennis leg'), wat pijn in de kuit kan veroorzaken.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Gastrocnemius",
+        "Soleus (voor plantairflexie)",
+        "Hamstrings (voor knieflexie)"
+      ],
+      "antagonists": [
+        "Tibialis anterior (voor dorsiflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Plantaris voor als een heel dun, lang 'visdraadje' dat van de achterkant van je dijbeen (net boven de knie) helemaal naar je hiel loopt, vaak parallel aan de Achillespees. Het is zo klein dat het nauwelijks iets doet, meer een 'reserve'-spier die soms aanwezig is en een kleine rol speelt bij het buigen van je voet en knie, alsof het een fijne sensor is voor de beweging van je kuit.",
+    "status": "done",
+    "precisie_score": 5
+  },
+  {
+    "name": "Biceps femoris",
+    "description": "De Biceps femoris is een van de drie hamstrings, gelegen aan de posterolaterale zijde van het dijbeen, bestaande uit twee koppen, en is verantwoordelijk voor knieflexie, heupextensie en laterale rotatie van het been bij de knie.",
+    "anatomy": {
+      "origin": {
+        "long_head": {
+          "location": "Superomediale impressie op de ischiadicus tuberositas (zitbeenknobbel), gemeenschappelijk met de Semitendinosus."
+        },
+        "short_head": {
+          "location": "Laterale lip van de linea aspera van het femur (dijbeen), en de laterale supracondylaire richel.",
+          "details": "Deze kop is uni-articulair (werkt alleen over de knie)."
+        }
+      },
+      "insertion": {
+        "location": "Caput fibulae (kop van het kuitbeen), en de laterale condyl van de tibia (scheenbeen).",
+        "details": [
+          "De pees splitst zich rond het fibula-hoofd."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": {
+        "long_head": "N. tibialis (L5, S1, S2)"
+      },
+      "short_head": {
+        "nerve": "N. fibularis communis (gemeenschappelijke peroneuszenuw) (L5, S1, S2)"
+      },
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris.",
+        "Takken van de A. poplitea."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext knie, lateraal roteert been bij knie (wanneer knie gebogen is), extendert heup (lange kop alleen).",
+      "mechanism_of_action": "Bij contractie buigt de Biceps femoris het onderbeen bij de knie. De lange kop assisteert ook bij het strekken van het dijbeen bij de heup. Het roteert het onderbeen naar buiten (laterale rotatie) wanneer de knie gebogen is. Het is een krachtige spier voor sprinten en springen.",
+      "knie_flexie_graden": {
+        "average": "30-40",
+        "note": "Belangrijke bijdrage aan knieflexie."
+      },
+      "heup_extensie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupextensie (lange kop)."
+      },
+      "knie_laterale_rotatie_graden": {
+        "average": "10-15",
+        "note": "Belangrijke bijdrage aan laterale rotatie bij gebogen knie."
+      },
+      "role_in_expression": [
+        "Essentieel voor hardlopen, springen en activiteiten die krachtige knieflexie en heupextensie vereisen.",
+        "Belangrijk voor het afremmen van de beenbeweging tijdens de zwaaifase van de gangcyclus (excentrische controle).",
+        "Een veelvoorkomende locatie voor hamstringblessures."
+      ],
+      "synergists": [
+        "Semitendinosus",
+        "Semimembranosus (voor knieflexie en heupextensie)",
+        "Gastrocnemius (voor knieflexie)"
+      ],
+      "antagonists": [
+        "Quadriceps femoris (voor knie-extensie)",
+        "Iliopsoas",
+        "Rectus femoris (voor heupflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Biceps femoris voor als twee gespierde 'kabels' aan de achter-buitenkant van je dijbeen. De ene kabel (lange kop) loopt van je zitbeenknobbel, en de andere (korte kop) van je dijbeen, beide komen samen en hechten aan de buitenkant van je scheenbeen en kuitbeen. Wanneer ze samentrekken, buigen ze je knie en trekken ze je been naar achteren, en draaien ze je onderbeen naar buiten, alsof ze een krachtige trekbeweging maken om je been te buigen en te draaien, essentieel voor sprinten en springen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Articularis genus",
+    "description": "De Articularis genus is een kleine spier diep in de dij, die de suprapatellaire bursa (slijmbeurs boven de knieschijf) omhoog trekt tijdens knie-extensie om inklemming te voorkomen.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure oppervlak van het distale femur (dijbeen), net boven de patellaire fossa, van de Vastus intermedius spier.",
+        "details": [
+          "Vaak moeilijk te onderscheiden van de Vastus intermedius."
+        ]
+      },
+      "insertion": {
+        "location": "Superieure en laterale aspecten van de suprapatellaire bursa en de synoviaale membraan van het kniegewricht.",
+        "details": [
+          "Dunne, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. femoralis (L2, L3, L4), tak naar Vastus intermedius.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. femoralis."
+    },
+    "function": {
+      "primary_action": "Pulls suprapatellar bursa during extension of knee.",
+      "mechanism_of_action": "Bij contractie trekt de Articularis genus de suprapatellaire bursa proximaal (omhoog) tijdens de extensie van de knie. Dit voorkomt dat de bursa bekneld raakt tussen de patella en het femur, wat cruciaal is voor een soepele en pijnvrije kniebeweging.",
+      "bursa_retraction_mm": {
+        "average": "1-2",
+        "note": "Geschatte retractie van de bursa."
+      },
+      "role_in_expression": [
+        "Essentieel voor de soepele en pijnvrije beweging van het kniegewricht, met name bij volledige strekking.",
+        "Een belangrijke, maar vaak over het hoofd geziene, stabilisator van het kniegewricht."
+      ],
+      "synergists": [
+        "Quadriceps femoris (voor knie-extensie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Articularis genus voor als een klein, verborgen 'touwtje' dat diep in je dijbeen zit, net boven je knie, en vastzit aan de slijmbeurs boven je knieschijf. Wanneer je je knie strekt, trekt dit touwtje de slijmbeurs omhoog, alsof het een klein 'veiligheidsgordijntje' is dat voorkomt dat de slijmbeurs bekneld raakt, waardoor je knie soepel kan bewegen zonder pijn.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Adductor minimus",
+    "description": "De Adductor minimus is het meest posterieure en superieure deel van de Adductor magnus spier, soms beschouwd als een aparte spier, die de heup adduceert en lateraal roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure ramus van het pubis (schaambeen) en de ramus van de ischium (zitbeen).",
+        "details": [
+          "Oorsprong is van het bekken."
+        ]
+      },
+      "insertion": {
+        "location": "Bovenste deel van de linea aspera van het femur (dijbeen), distaal van de gluteale tuberositas.",
+        "details": [
+          "Smalle, lineaire insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4) en/of N. ischiadicus (L4, L5, S1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. profunda femoris."
+    },
+    "function": {
+      "primary_action": "Adductie en laterale rotatie van dij.",
+      "mechanism_of_action": "Bij contractie trekt de Adductor minimus het dijbeen naar de middenlijn (adductie) en roteert het naar buiten (laterale rotatie) bij het heupgewricht. Het assisteert de Adductor magnus bij deze bewegingen en draagt bij aan de stabiliteit van de heup.",
+      "heup_adductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupadductie."
+      },
+      "heup_laterale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "role_in_expression": [
+        "Assisteert bij het sluiten van de benen en het stabiliseren van de heup.",
+        "Speelt een rol bij sporten die adductie en laterale rotatie vereisen (bijv. paardrijden, schaatsen)."
+      ],
+      "synergists": [
+        "Adductor magnus",
+        "Adductor longus",
+        "Adductor brevis (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Adductor minimus voor als een klein, diepliggend spiervezeltje aan de binnen-achterkant van je dijbeen, net onder je bil, dat deel uitmaakt van een grotere spier. Het is als een 'kleine trekker' die helpt je benen naar elkaar toe te trekken en iets naar buiten te draaien, voor stabiliteit en fijne bewegingen van de heup.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Adductor magnus, ischiocondylar part",
+    "description": "De ischiocondylaire deel van de Adductor magnus is het hamstring-achtige deel van de spier, dat de heup extendert en adduceert, en de knie flext.",
+    "anatomy": {
+      "origin": {
+        "location": "Ischiadicus tuberositas (zitbeenknobbel), superieur en lateraal van de oorsprong van de hamstrings.",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Adductor tuberculum van het mediale epicondyl van het femur (dijbeen).",
+        "details": [
+          "Puntvormige insertie aan de distale zijde van het femur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. tibialis (L4, L5, S1) (van de N. ischiadicus).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. profunda femoris."
+    },
+    "function": {
+      "primary_action": "Adduceert heup.",
+      "mechanism_of_action": "Bij contractie extendert de ischiocondylaire deel van de Adductor magnus de heup (trekt het been naar achteren) en adduceert het (trekt het been naar de middenlijn). Het werkt synergetisch met de hamstrings voor heupextensie en heeft een kleine bijdrage aan knieflexie.",
+      "heup_extensie_koppel_Nm": {
+        "average": "50-80",
+        "note": "Belangrijke bijdrage aan heupextensiekoppel, vergelijkbaar met hamstrings."
+      },
+      "heup_adductie_koppel_Nm": {
+        "average": "20-40",
+        "note": "Bijdrage aan heupadductiekoppel."
+      },
+      "role_in_expression": [
+        "Essentieel voor het krachtig strekken van het been naar achteren, zoals bij sprinten, springen en klimmen.",
+        "Belangrijk voor het sluiten van de benen en het stabiliseren van de heup tijdens diverse bewegingen.",
+        "Vaak betrokken bij liesblessures bij sporters."
+      ],
+      "synergists": [
+        "Hamstrings (voor heupextensie)",
+        "Gluteus maximus (voor heupextensie)",
+        "Adductor longus",
+        "Adductor brevis (voor adductie)"
+      ],
+      "antagonists": [
+        "Iliopsoas",
+        "Rectus femoris (voor heupflexie)",
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de ischiocondylaire deel van de Adductor magnus voor als een krachtige, diepliggende spier die van je zitbeenknobbel (onderste deel van je bil) schuin naar beneden en naar de binnenkant van je dijbeen (net boven de knie) loopt. Het is als een 'achterste trekker' die helpt je been krachtig naar achteren te zwaaien en tegelijkertijd naar de middenlijn te trekken, alsof het een krachtige motor is voor je achterwaartse beenbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Adductor magnus, adductor part",
+    "description": "De adductor deel van de Adductor magnus is het grootste en meest anterieure deel van de spier, dat de heup krachtig adduceert en flext, en de knie lateraal roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure ramus van het pubis (schaambeen) en de ramus van de ischium (zitbeen).",
+        "details": [
+          "Brede, vlezige oorsprong langs het bekken."
+        ]
+      },
+      "insertion": {
+        "location": "Linea aspera van het femur (dijbeen), over bijna de gehele lengte, en het mediale supracondylaire richel.",
+        "details": [
+          "Zeer brede en uitgebreide insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4).",
+      "branch": "Posterieure tak van de N. obturatorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. profunda femoris."
+    },
+    "function": {
+      "primary_action": "Adduceert heup.",
+      "mechanism_of_action": "Bij contractie trekt de adductor deel van de Adductor magnus het dijbeen krachtig naar de middenlijn (adductie). Het assisteert ook bij de flexie van de heup en kan bijdragen aan laterale rotatie. Het is de meest krachtige adductor van de heup.",
+      "heup_adductie_koppel_Nm": {
+        "average": "80-150",
+        "note": "Geschatte maximale isometrische adductiekoppel, zeer krachtig."
+      },
+      "heup_flexie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de benen, het stabiliseren van het bekken en het controleren van de beenbewegingen tijdens lopen en rennen.",
+        "Belangrijk voor sporten die krachtige adductie vereisen (bijv. schaatsen, voetbal, vechtsporten).",
+        "Vaak betrokken bij liesblessures (adductor strains)."
+      ],
+      "synergists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Gracilis",
+        "Pectineus (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de adductor deel van de Adductor magnus voor als een enorme, brede 'spierplaat' die de hele binnenkant van je dijbeen bedekt, van je bekken naar de achterkant van je dijbeen. Het is de 'hoofdmotor' voor het naar elkaar toe trekken van je benen, alsof het een krachtige klem is die je benen bij elkaar houdt en stabiliseert tijdens beweging.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Adductor longus",
+    "description": "De Adductor longus is een lange, platte spier aan de mediale zijde van het dijbeen, die de heup adduceert en mediale roteert, en ook assisteert bij heupflexie.",
+    "anatomy": {
+      "origin": {
+        "location": "Superieure ramus van het pubis (schaambeen), inferieur van de crista pubica.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Linea aspera van het femur (dijbeen), in het midden één derde.",
+        "details": [
+          "Brede, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4).",
+      "branch": "Anterieure tak van de N. obturatorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. profunda femoris en A. obturatoria."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adduceert en mediale roteert heup.",
+      "mechanism_of_action": "Bij contractie trekt de Adductor longus het dijbeen naar de middenlijn (adductie) en roteert het naar binnen (mediale rotatie). Het assisteert ook bij de flexie van de heup. Het is een van de meest oppervlakkige adductor spieren en is vaak zichtbaar bij atleten.",
+      "heup_adductie_graden": {
+        "average": "20-30",
+        "note": "Belangrijke bijdrage aan heupadductie."
+      },
+      "heup_mediale_rotatie_graden": {
+        "average": "10-15",
+        "note": "Bijdrage aan mediale rotatie."
+      },
+      "heup_flexie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de benen, het stabiliseren van het bekken en het controleren van de beenbewegingen.",
+        "Belangrijk voor sporten die zijwaartse bewegingen en snelle richtingsveranderingen vereisen (bijv. voetbal, basketbal).",
+        "Een veelvoorkomende bron van liespijn (adductor strain)."
+      ],
+      "synergists": [
+        "Adductor brevis",
+        "Adductor magnus",
+        "Gracilis",
+        "Pectineus (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Adductor longus voor als een lange, platte 'riem' die van je schaambeen (voorkant van je bekken) schuin naar beneden en naar de binnenkant van je dijbeen loopt. Wanneer hij samentrekt, trekt hij je benen naar elkaar toe en draait hij ze iets naar binnen, alsof het een krachtige band is die je benen bij elkaar trekt en stabiliseert tijdens beweging.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Adductor brevis",
+    "description": "De Adductor brevis is een korte, dikke spier in de mediale zijde van het dijbeen, diep gelegen ten opzichte van de Adductor longus, die de heup adduceert en flext.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure ramus van het pubis (schaambeen), tussen de oorsprong van de Gracilis en Adductor longus.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Linea aspera van het femur (dijbeen), superieur van de insertie van de Adductor longus en Adductor magnus.",
+        "details": [
+          "Lineaire, ruwe insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4).",
+      "branch": "Anterieure tak van de N. obturatorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. profunda femoris en A. obturatoria."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adduceert heup.",
+      "mechanism_of_action": "Bij contractie trekt de Adductor brevis het dijbeen naar de middenlijn (adductie) en assisteert het bij de flexie van de heup. Het is een belangrijke, diepe adductor die bijdraagt aan de stabiliteit van de heup en de controle van de beenbewegingen.",
+      "heup_adductie_graden": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan heupadductie."
+      },
+      "heup_flexie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de benen en het stabiliseren van het bekken tijdens diverse activiteiten.",
+        "Belangrijk voor sporten die zijwaartse bewegingen en snelle richtingsveranderingen vereisen.",
+        "Draagt bij aan de algehele kracht van de adductorgroep."
+      ],
+      "synergists": [
+        "Adductor longus",
+        "Adductor magnus",
+        "Gracilis",
+        "Pectineus (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Adductor brevis voor als een kortere, dikkere 'spierblok' die diep in je lies ligt, van je schaambeen naar de binnenkant van je dijbeen. Het is als een krachtige, compacte trekker die je benen naar elkaar toe trekt, essentieel voor het stabiliseren van je heup en het controleren van je beenbewegingen, als een robuuste schakel in de adductor keten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pectineus",
+    "description": "De Pectineus is een kleine, platte, quadrangulaire spier in de liesregio, die de heup adduceert en flext, en assisteert bij mediale rotatie van de heup.",
+    "anatomy": {
+      "origin": {
+        "location": "Pectineale lijn van het pubis (schaambeen) en de superieure ramus van het pubis.",
+        "details": [
+          "Smalle, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Pectineale lijn van het femur (dijbeen), inferieur van de kleine trochanter.",
+        "details": [
+          "Lineaire, ruwe insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. femoralis (L2, L3), en soms een tak van de N. obturatorius.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. circumflexa femoris medialis en A. obturatoria."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adduceert en flext heup.",
+      "mechanism_of_action": "Bij contractie trekt de Pectineus het dijbeen naar de middenlijn (adductie) en buigt het bij de heup (flexie). Het assisteert ook bij mediale rotatie van de heup. Het is de meest superieure en anterieure van de adductor spieren.",
+      "heup_adductie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupadductie."
+      },
+      "heup_flexie_graden": {
+        "average": "10-15",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de benen en het optillen van het been naar voren.",
+        "Belangrijk voor het stabiliseren van het bekken en het controleren van de beenbewegingen tijdens lopen en rennen.",
+        "Draagt bij aan de algehele kracht van de adductorgroep."
+      ],
+      "synergists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Adductor magnus",
+        "Gracilis (voor adductie)",
+        "Iliopsoas",
+        "Sartorius",
+        "Rectus femoris (voor heupflexie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)",
+        "Gluteus maximus",
+        "Hamstrings (voor heupextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Pectineus voor als een klein, plat, vierkant 'blokje' van spier dat diep in je lies ligt, van je schaambeen naar de bovenkant van je dijbeen. Het is als een 'beginpunt' voor het naar elkaar toe trekken en naar voren buigen van je benen, essentieel voor de fijne controle van je heupbewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Gluteus minimus",
+    "description": "De Gluteus minimus is de diepst gelegen van de drie Gluteale spieren, die voornamelijk verantwoordelijk is voor de abductie en mediale rotatie van de heup, en de stabilisatie van het bekken tijdens het lopen.",
+    "anatomy": {
+      "origin": {
+        "location": "Buitenste oppervlak van het ilium (bekkenbot), tussen de anterieure en inferieure gluteale lijnen.",
+        "details": [
+          "Brede, concave oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Anterieure rand van de grote trochanter van het femur (dijbeen).",
+        "details": [
+          "Sterke, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. gluteus superior (L4, L5, S1)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. glutea superior (tak van de A. iliaca interna)."
+      ],
+      "venous_drainage": "V. glutea superior."
+    },
+    "function": {
+      "primary_action": "Abductie van heup; voorkomt adductie van heup. Mediale rotatie van dij.",
+      "mechanism_of_action": "Bij contractie trekt de Gluteus minimus het dijbeen zijwaarts (abductie) en roteert het naar binnen (mediale rotatie). Zijn belangrijkste functie is het stabiliseren van het bekken in het frontale vlak tijdens het lopen, door te voorkomen dat de niet-gewichtdragende zijde van het bekken naar beneden zakt (Trendelenburg-teken).",
+      "heup_abductie_graden": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan heupabductie."
+      },
+      "heup_mediale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan mediale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor een stabiele gang (lopen, rennen).",
+        "Belangrijk voor activiteiten die zijwaartse bewegingen van het been vereisen (bijv. schaatsen, zijwaartse lunges).",
+        "Disfunctie kan leiden tot loopstoornissen en bekkeninstabiliteit."
+      ],
+      "synergists": [
+        "Gluteus medius",
+        "Tensor fasciae latae (voor abductie en mediale rotatie)"
+      ],
+      "antagonists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Adductor magnus (voor adductie)",
+        "Gluteus maximus",
+        "Piriformis (voor laterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gluteus minimus voor als een diepliggende, platte 'waaiervormige' spier die aan de buitenkant van je bekkenbot (ilium) vastzit en naar de bovenkant van je dijbeen (grote trochanter) loopt. Het is als een 'stabilisator' die voorkomt dat je bekken kantelt wanneer je op één been staat, en je been zijwaarts kan bewegen en iets naar binnen kan draaien, alsof het een fijn afgestelde balansmotor is.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Gluteus medius",
+    "description": "De Gluteus medius is een grote, waaiervormige spier aan de laterale zijde van de heup, die voornamelijk verantwoordelijk is voor de abductie en mediale rotatie van de heup, en de stabilisatie van het bekken tijdens het lopen.",
+    "anatomy": {
+      "origin": {
+        "location": "Buitenste oppervlak van het ilium (bekkenbot), tussen de crista iliaca en de anterieure gluteale lijn.",
+        "details": [
+          "Brede, concave oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Lateraal oppervlak van de grote trochanter van het femur (dijbeen).",
+        "details": [
+          "Sterke, brede pees."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. gluteus superior (L4, L5, S1)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. glutea superior (tak van de A. iliaca interna)."
+      ],
+      "venous_drainage": "V. glutea superior."
+    },
+    "function": {
+      "primary_action": "Abductie van heup; voorkomt adductie van heup. Mediale rotatie van dij.",
+      "mechanism_of_action": "Bij contractie trekt de Gluteus medius het dijbeen zijwaarts (abductie) en roteert het naar binnen (mediale rotatie). Het is de belangrijkste spier voor het handhaven van de laterale stabiliteit van het bekken tijdens het lopen, door te voorkomen dat de niet-gewichtdragende zijde van het bekken naar beneden zakt (Trendelenburg-teken is een indicator van zwakte).",
+      "heup_abductie_koppel_Nm": {
+        "average": "60-100",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische abductiekoppel."
+      },
+      "heup_mediale_rotatie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan mediale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor een stabiele en efficiënte gang (lopen, rennen).",
+        "Cruciaal voor activiteiten die zijwaartse bewegingen vereisen, zoals schaatsen, dansen of zijwaartse sprongen.",
+        "Vaak een focus in revalidatie na heupblessures of operaties."
+      ],
+      "synergists": [
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie en mediale rotatie)"
+      ],
+      "antagonists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Adductor magnus (voor adductie)",
+        "Gluteus maximus",
+        "Piriformis (voor laterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gluteus medius voor als een grote, waaiervormige 'spierwaaier' die aan de zijkant van je bekkenbot (onder de heupkam) vastzit en naar de zijkant van je dijbeen (grote trochanter) loopt. Het is de 'hoofdstabilisator' van je bekken tijdens het lopen, die voorkomt dat je heup wegzakt, en je been krachtig zijwaarts kan bewegen en iets naar binnen kan draaien, alsof het een krachtige hefboom is voor je beenbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Gluteus maximus",
+    "description": "De Gluteus maximus is de grootste en meest oppervlakkige van de gluteale spieren, die de heup krachtig extendert en lateraal roteert, en het bekken stabiliseert.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure gluteale lijn van het ilium (bekkenbot), dorsaal oppervlak van het sacrum (heiligbeen) en coccyx (stuitbeen), en het sacrotuberale ligament.",
+        "details": [
+          "Zeer brede en uitgebreide oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Gluteale tuberositas van het femur (dijbeen) en de iliotibiale tractus (IT-band).",
+        "details": [
+          "De vezels lopen schuin inferolateraal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. gluteus inferior (L5, S1, S2)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. glutea inferior (tak van de A. iliaca interna).",
+        "A. glutea superior (tak van de A. iliaca interna)."
+      ],
+      "venous_drainage": "V. glutea inferior en V. glutea superior."
+    },
+    "function": {
+      "primary_action": "Extern roteert en extendert heupgewricht, ondersteunt gestrekte knie via iliotibiale tractus, belangrijkste antigravitatie spier in zit.",
+      "mechanism_of_action": "Bij contractie extendert de Gluteus maximus krachtig de heup (trekt het been naar achteren), roteert het lateraal (naar buiten) en abduceert het (vooral de superieure vezels) of adduceert het (inferieure vezels). Het speelt een cruciale rol bij het opstaan uit een stoel, traplopen, springen en rennen. Via de IT-band stabiliseert het ook de knie.",
+      "heup_extensie_koppel_Nm": {
+        "average": "150-250",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische extensiekoppel, zeer krachtig."
+      },
+      "heup_laterale_rotatie_graden": {
+        "average": "20-30",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor krachtige bewegingen van de heup en het been, zoals opstaan, klimmen, springen en sprinten.",
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het stabiliseren van het bekken en de romp.",
+        "Een van de grootste en sterkste spieren in het lichaam, vaak getraind voor kracht en esthetiek."
+      ],
+      "synergists": [
+        "Hamstrings (voor heupextensie)",
+        "Piriformis",
+        "Obturator internus",
+        "Obturator externus (voor laterale rotatie)"
+      ],
+      "antagonists": [
+        "Iliopsoas",
+        "Rectus femoris",
+        "Sartorius",
+        "Tensor fasciae latae (voor heupflexie en mediale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Gluteus maximus voor als een enorme, dikke 'spierdeken' die je hele bil bedekt, van je bekken en heiligbeen naar de bovenkant van je dijbeen. Het is de 'hoofdmotor' voor het strekken van je been naar achteren en het draaien ervan, alsof het een krachtige duwer is die je helpt op te staan, te springen en te sprinten, en je bekken stabiel houdt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Plantaris",
+    "description": "De Plantaris is een kleine, slanke spier in de kuit, met een lange pees, die de enkel plantairflext en de knie flext (minor). Vaak aangeduid als de 'verse' spier vanwege zijn lange, dunne pees die soms wordt verward met een zenuw.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale supracondylaire richel van het femur (dijbeen), superieur van de laterale kop van de Gastrocnemius.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Posterieur oppervlak van het calcaneus (hielbeen), mediaal van de Achillespees, of versmelt met de Achillespees.",
+        "details": [
+          "Zeer lange, dunne pees die distaal loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. tibialis (L4, L5, S1)",
+      "branch": "Takken van de N. tibialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. poplitea."
+      ],
+      "venous_drainage": "V. poplitea."
+    },
+    "function": {
+      "primary_action": "Plantairflext enkel, flext knie (minor).",
+      "mechanism_of_action": "Bij contractie assisteert de Plantaris de Gastrocnemius en Soleus bij de plantairflexie van de enkel en de flexie van de knie. Zijn bijdrage aan de kracht is echter minimaal. Het wordt vaak beschouwd als een proprioceptief orgaan voor de kuitspieren en de enkel.",
+      "plantairflexie_koppel_Nm": {
+        "average": "<5",
+        "note": "Minimale bijdrage aan plantairflexiekoppel."
+      },
+      "knie_flexie_graden": {
+        "average": "<5",
+        "note": "Minimale bijdrage aan knieflexie."
+      },
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "De lange pees kan soms scheuren ('tennis leg'), wat pijn in de kuit kan veroorzaken.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Gastrocnemius",
+        "Soleus (voor plantairflexie)",
+        "Hamstrings (voor knieflexie)"
+      ],
+      "antagonists": [
+        "Tibialis anterior (voor dorsiflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Plantaris voor als een heel dun, lang 'visdraadje' dat van de achterkant van je dijbeen (net boven de knie) helemaal naar je hiel loopt, vaak parallel aan de Achillespees. Het is zo klein dat het nauwelijks iets doet, meer een 'reserve'-spier die soms aanwezig is en een kleine rol speelt bij het buigen van je voet en knie, alsof het een fijne sensor is voor de beweging van je kuit.",
+    "status": "done",
+    "precisie_score": 5
+  },
+  {
+    "name": "Biceps femoris",
+    "description": "De Biceps femoris is een van de drie hamstrings, gelegen aan de posterolaterale zijde van het dijbeen, bestaande uit twee koppen, en is verantwoordelijk voor knieflexie, heupextensie en laterale rotatie van het been bij de knie.",
+    "anatomy": {
+      "origin": {
+        "long_head": {
+          "location": "Superomediale impressie op de ischiadicus tuberositas (zitbeenknobbel), gemeenschappelijk met de Semitendinosus."
+        },
+        "short_head": {
+          "location": "Laterale lip van de linea aspera van het femur (dijbeen), en de laterale supracondylaire richel.",
+          "details": "Deze kop is uni-articulair (werkt alleen over de knie)."
+        }
+      },
+      "insertion": {
+        "location": "Caput fibulae (kop van het kuitbeen), en de laterale condyl van de tibia (scheenbeen).",
+        "details": [
+          "De pees splitst zich rond het fibula-hoofd."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": {
+        "long_head": "N. tibialis (L5, S1, S2)"
+      },
+      "short_head": {
+        "nerve": "N. fibularis communis (gemeenschappelijke peroneuszenuw) (L5, S1, S2)"
+      },
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris.",
+        "Takken van de A. poplitea."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext knie, lateraal roteert been bij knie (wanneer knie gebogen is), extendert heup (lange kop alleen).",
+      "mechanism_of_action": "Bij contractie buigt de Biceps femoris het onderbeen bij de knie. De lange kop assisteert ook bij het strekken van het dijbeen bij de heup. Het roteert het onderbeen naar buiten (laterale rotatie) wanneer de knie gebogen is. Het is een krachtige spier voor sprinten en springen.",
+      "knie_flexie_graden": {
+        "average": "30-40",
+        "note": "Belangrijke bijdrage aan knieflexie."
+      },
+      "heup_extensie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupextensie (lange kop)."
+      },
+      "knie_laterale_rotatie_graden": {
+        "average": "10-15",
+        "note": "Belangrijke bijdrage aan laterale rotatie bij gebogen knie."
+      },
+      "role_in_expression": [
+        "Essentieel voor hardlopen, springen en activiteiten die krachtige knieflexie en heupextensie vereisen.",
+        "Belangrijk voor het afremmen van de beenbeweging tijdens de zwaaifase van de gangcyclus (excentrische controle).",
+        "Een veelvoorkomende locatie voor hamstringblessures."
+      ],
+      "synergists": [
+        "Semitendinosus",
+        "Semimembranosus (voor knieflexie en heupextensie)",
+        "Gastrocnemius (voor knieflexie)"
+      ],
+      "antagonists": [
+        "Quadriceps femoris (voor knie-extensie)",
+        "Iliopsoas",
+        "Rectus femoris (voor heupflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Biceps femoris voor als twee gespierde 'kabels' aan de achter-buitenkant van je dijbeen. De ene kabel (lange kop) loopt van je zitbeenknobbel, en de andere (korte kop) van je dijbeen, beide komen samen en hechten aan de buitenkant van je scheenbeen en kuitbeen. Wanneer ze samentrekken, buigen ze je knie en trekken ze je been naar achteren, en draaien ze je onderbeen naar buiten, alsof ze een krachtige trekbeweging maken om je been te buigen en te draaien, essentieel voor sprinten en springen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Articularis genus",
+    "description": "De Articularis genus is een kleine spier diep in de dij, die de suprapatellaire bursa (slijmbeurs boven de knieschijf) omhoog trekt tijdens knie-extensie om inklemming te voorkomen.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure oppervlak van het distale femur (dijbeen), net boven de patellaire fossa, van de Vastus intermedius spier.",
+        "details": [
+          "Vaak moeilijk te onderscheiden van de Vastus intermedius."
+        ]
+      },
+      "insertion": {
+        "location": "Superieure en laterale aspecten van de suprapatellaire bursa en de synoviaale membraan van het kniegewricht.",
+        "details": [
+          "Dunne, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. femoralis (L2, L3, L4), tak naar Vastus intermedius.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. femoralis."
+    },
+    "function": {
+      "primary_action": "Pulls suprapatellar bursa during extension of knee.",
+      "mechanism_of_action": "Bij contractie trekt de Articularis genus de suprapatellaire bursa proximaal (omhoog) tijdens de extensie van de knie. Dit voorkomt dat de bursa bekneld raakt tussen de patella en het femur, wat cruciaal is voor een soepele en pijnvrije kniebeweging.",
+      "bursa_retractie_mm": {
+        "average": "1-2",
+        "note": "Geschatte retractie van de bursa."
+      },
+      "role_in_expression": [
+        "Essentieel voor de soepele en pijnvrije beweging van het kniegewricht, met name bij volledige strekking.",
+        "Een belangrijke, maar vaak over het hoofd geziene, stabilisator van het kniegewricht."
+      ],
+      "synergists": [
+        "Quadriceps femoris (voor knie-extensie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Articularis genus voor als een klein, verborgen 'touwtje' dat diep in je dijbeen zit, net boven je knie, en vastzit aan de slijmbeurs boven je knieschijf. Wanneer je je knie strekt, trekt dit touwtje de slijmbeurs omhoog, alsof het een klein 'veiligheidsgordijntje' is dat voorkomt dat de slijmbeurs bekneld raakt, waardoor je knie soepel kan bewegen zonder pijn.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Adductor minimus",
+    "description": "De Adductor minimus is het meest posterieure en superieure deel van de Adductor magnus spier, soms beschouwd als een aparte spier, die de heup adduceert en lateraal roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure ramus van het pubis (schaambeen) en de ramus van de ischium (zitbeen).",
+        "details": [
+          "Oorsprong is van het bekken."
+        ]
+      },
+      "insertion": {
+        "location": "Bovenste deel van de linea aspera van het femur (dijbeen), distaal van de gluteale tuberositas.",
+        "details": [
+          "Smalle, lineaire insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4) en/of N. ischiadicus (L4, L5, S1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. profunda femoris."
+    },
+    "function": {
+      "primary_action": "Adductie en laterale rotatie van dij.",
+      "mechanism_of_action": "Bij contractie trekt de Adductor minimus het dijbeen naar de middenlijn (adductie) en roteert het naar buiten (laterale rotatie) bij het heupgewricht. Het assisteert de Adductor magnus bij deze bewegingen en draagt bij aan de stabiliteit van de heup.",
+      "heup_adductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupadductie."
+      },
+      "heup_laterale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "role_in_expression": [
+        "Assisteert bij het sluiten van de benen en het stabiliseren van de heup.",
+        "Speelt een rol bij sporten die adductie en laterale rotatie vereisen (bijv. paardrijden, schaatsen)."
+      ],
+      "synergists": [
+        "Adductor magnus",
+        "Adductor longus",
+        "Adductor brevis (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Adductor minimus voor als een klein, diepliggend spiervezeltje aan de binnen-achterkant van je dijbeen, net onder je bil, dat deel uitmaakt van een grotere spier. Het is als een 'kleine trekker' die helpt je benen naar elkaar toe te trekken en iets naar buiten te draaien, voor stabiliteit en fijne bewegingen van de heup.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Adductor magnus, ischiocondylar part",
+    "description": "De ischiocondylaire deel van de Adductor magnus is het hamstring-achtige deel van de spier, dat de heup extendert en adduceert, en de knie flext.",
+    "anatomy": {
+      "origin": {
+        "location": "Ischiadicus tuberositas (zitbeenknobbel), superieur en lateraal van de oorsprong van de hamstrings.",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Adductor tuberculum van het mediale epicondyl van het femur (dijbeen).",
+        "details": [
+          "Puntvormige insertie aan de distale zijde van het femur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. tibialis (L4, L5, S1) (van de N. ischiadicus).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. profunda femoris."
+    },
+    "function": {
+      "primary_action": "Adduceert heup.",
+      "mechanism_of_action": "Bij contractie extendert de ischiocondylaire deel van de Adductor magnus de heup (trekt het been naar achteren) en adduceert het (trekt het been naar de middenlijn). Het werkt synergetisch met de hamstrings voor heupextensie en heeft een kleine bijdrage aan knieflexie.",
+      "heup_extensie_koppel_Nm": {
+        "average": "50-80",
+        "note": "Belangrijke bijdrage aan heupextensiekoppel, vergelijkbaar met hamstrings."
+      },
+      "heup_adductie_koppel_Nm": {
+        "average": "20-40",
+        "note": "Bijdrage aan heupadductiekoppel."
+      },
+      "role_in_expression": [
+        "Essentieel voor het krachtig strekken van het been naar achteren, zoals bij sprinten, springen en klimmen.",
+        "Belangrijk voor het sluiten van de benen en het stabiliseren van de heup tijdens diverse bewegingen.",
+        "Vaak betrokken bij liesblessures bij sporters."
+      ],
+      "synergists": [
+        "Hamstrings (voor heupextensie)",
+        "Gluteus maximus (voor heupextensie)",
+        "Adductor longus",
+        "Adductor brevis (voor adductie)"
+      ],
+      "antagonists": [
+        "Iliopsoas",
+        "Rectus femoris (voor heupflexie)",
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de ischiocondylaire deel van de Adductor magnus voor als een krachtige, diepliggende spier die van je zitbeenknobbel (onderste deel van je bil) schuin naar beneden en naar de binnenkant van je dijbeen (net boven de knie) loopt. Het is als een 'achterste trekker' die helpt je been krachtig naar achteren te zwaaien en tegelijkertijd naar de middenlijn te trekken, alsof het een krachtige motor is voor je achterwaartse beenbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Adductor magnus, adductor part",
+    "description": "De adductor deel van de Adductor magnus is het grootste en meest anterieure deel van de spier, dat de heup krachtig adduceert en flext, en de knie lateraal roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure ramus van het pubis (schaambeen) en de ramus van de ischium (zitbeen).",
+        "details": [
+          "Brede, vlezige oorsprong langs het bekken."
+        ]
+      },
+      "insertion": {
+        "location": "Linea aspera van het femur (dijbeen), over bijna de gehele lengte, en het mediale supracondylaire richel.",
+        "details": [
+          "Zeer brede en uitgebreide insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4).",
+      "branch": "Posterieure tak van de N. obturatorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Perforerende takken van de A. profunda femoris."
+      ],
+      "venous_drainage": "V. profunda femoris."
+    },
+    "function": {
+      "primary_action": "Adduceert heup.",
+      "mechanism_of_action": "Bij contractie trekt de adductor deel van de Adductor magnus het dijbeen krachtig naar de middenlijn (adductie). Het assisteert ook bij de flexie van de heup en kan bijdragen aan laterale rotatie. Het is de meest krachtige adductor van de heup.",
+      "heup_adductie_koppel_Nm": {
+        "average": "80-150",
+        "note": "Geschatte maximale isometrische adductiekoppel, zeer krachtig."
+      },
+      "heup_flexie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de benen, het stabiliseren van het bekken en het controleren van de beenbewegingen tijdens lopen en rennen.",
+        "Belangrijk voor sporten die krachtige adductie vereisen (bijv. schaatsen, voetbal, vechtsporten).",
+        "Vaak betrokken bij liesblessures (adductor strains)."
+      ],
+      "synergists": [
+        "Adductor longus",
+        "Adductor brevis",
+        "Gracilis",
+        "Pectineus (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de adductor deel van de Adductor magnus voor als een enorme, brede 'spierplaat' die de hele binnenkant van je dijbeen bedekt, van je bekken naar de achterkant van je dijbeen. Het is de 'hoofdmotor' voor het naar elkaar toe trekken van je benen, alsof het een krachtige klem is die je benen bij elkaar houdt en stabiliseert tijdens beweging.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Adductor longus",
+    "description": "De Adductor longus is een lange, platte spier aan de mediale zijde van het dijbeen, die de heup adduceert en mediale roteert, en ook assisteert bij heupflexie.",
+    "anatomy": {
+      "origin": {
+        "location": "Superieure ramus van het pubis (schaambeen), inferieur van de crista pubica.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Linea aspera van het femur (dijbeen), in het midden één derde.",
+        "details": [
+          "Brede, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4).",
+      "branch": "Anterieure tak van de N. obturatorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. profunda femoris en A. obturatoria."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adduceert en mediale roteert heup.",
+      "mechanism_of_action": "Bij contractie trekt de Adductor longus het dijbeen naar de middenlijn (adductie) en roteert het naar binnen (mediale rotatie). Het assisteert ook bij de flexie van de heup. Het is een van de meest oppervlakkige adductor spieren en is vaak zichtbaar bij atleten.",
+      "heup_adductie_graden": {
+        "average": "20-30",
+        "note": "Belangrijke bijdrage aan heupadductie."
+      },
+      "heup_mediale_rotatie_graden": {
+        "average": "10-15",
+        "note": "Bijdrage aan mediale rotatie."
+      },
+      "heup_flexie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de benen, het stabiliseren van het bekken en het controleren van de beenbewegingen.",
+        "Belangrijk voor sporten die zijwaartse bewegingen en snelle richtingsveranderingen vereisen (bijv. voetbal, basketbal).",
+        "Een veelvoorkomende bron van liespijn (adductor strain)."
+      ],
+      "synergists": [
+        "Adductor brevis",
+        "Adductor magnus",
+        "Gracilis",
+        "Pectineus (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Adductor longus voor als een lange, platte 'riem' die van je schaambeen (voorkant van je bekken) schuin naar beneden en naar de binnenkant van je dijbeen loopt. Wanneer hij samentrekt, trekt hij je benen naar elkaar toe en draait hij ze iets naar binnen, alsof het een krachtige band is die je benen bij elkaar trekt en stabiliseert tijdens beweging.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Adductor brevis",
+    "description": "De Adductor brevis is een korte, dikke spier in de mediale zijde van het dijbeen, diep gelegen ten opzichte van de Adductor longus, die de heup adduceert en flext.",
+    "anatomy": {
+      "origin": {
+        "location": "Inferieure ramus van het pubis (schaambeen), tussen de oorsprong van de Gracilis en Adductor longus.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Linea aspera van het femur (dijbeen), superieur van de insertie van de Adductor longus en Adductor magnus.",
+        "details": [
+          "Lineaire, ruwe insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. obturatorius (L2, L3, L4).",
+      "branch": "Anterieure tak van de N. obturatorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. profunda femoris en A. obturatoria."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adduceert heup.",
+      "mechanism_of_action": "Bij contractie trekt de Adductor brevis het dijbeen naar de middenlijn (adductie) en assisteert het bij de flexie van de heup. Het is een belangrijke, diepe adductor die bijdraagt aan de stabiliteit van de heup en de controle van de beenbewegingen.",
+      "heup_adductie_graden": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan heupadductie."
+      },
+      "heup_flexie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan heupflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de benen en het stabiliseren van het bekken tijdens diverse activiteiten.",
+        "Belangrijk voor sporten die zijwaartse bewegingen en snelle richtingsveranderingen vereisen.",
+        "Draagt bij aan de algehele kracht van de adductorgroep."
+      ],
+      "synergists": [
+        "Adductor longus",
+        "Adductor magnus",
+        "Gracilis",
+        "Pectineus (voor adductie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Adductor brevis voor als een kortere, dikkere 'spierblok' die diep in je lies ligt, van je schaambeen naar de binnenkant van je dijbeen. Het is als een krachtige, compacte trekker die je benen naar elkaar toe trekt, essentieel voor het stabiliseren van je heup en het controleren van je beenbewegingen, als een robuuste schakel in de adductor keten.",
+    "status": "done",
+    "precisie_score": 8
+  }
+]

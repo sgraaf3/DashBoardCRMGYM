@@ -1,0 +1,152 @@
+{
+  "sales_db": [
+    {
+      "concept": "Salesproces (Playbook Extern)",
+      "description": "De stappen en technieken die coaches kunnen aanwenden om de Energy Control methode weg te zetten en te integreren met hun bedrijfsvoering.",
+      "key_areas": [
+        "Doelgroepen eindgebruikers",
+        "Product overzichten",
+        "ROI (return on investment)",
+        "Verschillende te hanteren verdienmodellen",
+        "Templates, brochures, presentaties",
+        "Begrippenlijst"
+      ],
+      "notes": "Het playbook is opgesteld om coaches te helpen klanten aan te trekken en de Energy Control methode succesvol te vermarkten."
+    },
+    {
+      "concept": "ROI (Return on Investment)",
+      "description": "Het rendement op investering, cruciaal voor coaches om de winstgevendheid van het Energy Control concept te bepalen. De eindgebruiker is de sleutel voor ROI op korte en lange termijn.",
+      "calculation": "(Inkomen / Investering = ROI). Negatief bij verlies, positief bij winst.",
+      "roi_tool_usage": "Gebruikt om de waardepropositie per eindgebruiker duidelijk te maken. Benadrukt flexibele integratie in bedrijfsmodel (fysieke begeleiding vs. begeleiding op afstand via app).",
+      "coaches_roi": "Opleiden van medewerkers/coaches kan de skill set uitbreiden en verdiensten vergroten. Mastercoach upgrade kan verdiensten aanzienlijk bevorderen en status binnen EC concept verbeteren.",
+      "examples_roi_calculations": [
+        {"item": "Testfiets", "cost": "€6.000,00", "roi_months": "4,9 maanden", "revenue_after_1yr": "€7.219,79"},
+        {"item": "Intake (gemiddeld per maand)", "cost_per_intake": "€15,00", "revenue_per_intake": "€150,00", "profit_per_intake": "€125,00"},
+        {"item": "App-gebruiker (gemiddeld per maand)", "cost_per_app": "€16,52", "revenue_per_app": "€24,79", "profit_per_app": "€8,27"},
+        {"item": "Begeleiding op locatie (2x/week, app betaald door coach)", "cost_per_client": "€449,85", "revenue_per_client": "€650,00", "profit_per_client": "€200,15"},
+        {"item": "Controle/begeleiding op afstand (5x/week, app betaald door coach)", "cost_per_client": "€70,69", "revenue_per_client": "€216,67", "profit_per_client": "€145,98"},
+        {"item": "Controle/begeleiding op afstand (5x/week, app betaald door klant)", "cost_per_client": "€54,17", "revenue_per_client": "€216,67", "profit_per_client": "€162,50"},
+        {"item": "Looptrainersdag (opleiding nieuwe coaches)", "cost": "€350,00", "roi_months": "1,8 maanden", "revenue_after_1yr": "€1.275,00"},
+        {"item": "Ademtherapie basis / Inspanningsfysiologie basis (opleiding nieuwe coaches)", "cost": "€350,00", "roi_months": "Niet berekend (DIV/0!)"},
+        {"item": "Ademtherapeut / Inspanningsfysiologie (opleiding nieuwe coaches)", "cost": "€350,00", "roi_months": "2,6 maanden", "revenue_after_1yr": "€4.490,00"},
+        {"item": "Medical Fitness Coach (opleiding nieuwe coaches)", "cost": "€2.000,00", "roi_months": "1,2 maanden", "revenue_after_1yr": "€9.803,25"},
+        {"item": "Master Coach (opleiding nieuwe coaches)", "cost": "€5.000,00", "roi_months": "Niet berekend (DIV/0!)"},
+        {"item": "ATDS 1-1 (kosten pc's)", "cost": "€500,00", "roi_months": "Niet berekend (DIV/0!)"},
+        {"item": "ATDS Team (kosten pc's)", "cost": "€750,00", "roi_months": "Niet berekend (DIV/0!)"},
+        {"item": "ATDS Team + Antenne (kosten pc's)", "cost": "€2.000,00", "roi_months": "Niet berekend (DIV/0!)"}
+      ]
+    },
+    {
+      "concept": "Klantbenadering en Kwalificatie (Intake)",
+      "description": "Het belang van een goede intake om een duidelijk beeld van de cliënt te krijgen en de randzaken in kaart te brengen.",
+      "qualification_points": [
+        "Naam",
+        "Doel van het testen/training",
+        "Directe behoefte van de klant in kaart brengen",
+        "Latente behoefte van de klant in kaart brengen",
+        "Afstand tot trainingslocatie",
+        "Inplannen van verdere stappen"
+      ],
+      "intake_process": "Voorafgaand aan de intake kort met de klant gesproken om datum in te plannen. Intakeformulier (uitgebreider dan nodig, kies relevante info).",
+      "notes": "Kwalificatie helpt bij het in kaart brengen van randzaken rondom de intake."
+    },
+    {
+      "concept": "Verkoopstrategieën (Algemeen)",
+      "description": "Basisprincipes en technieken voor effectieve verkoopgesprekken, met aandacht voor communicatiestijlen en klantbehoeften.",
+      "communication_elements": [
+        "Vragen", "Begrip tonen", "Antwoorden", "Onderwerpen aansnijden"
+      ],
+      "influencing_factors_in_conversation": [
+        {"factor": "Lichaamstaal", "telephone": "10%", "face_to_face": "55%"},
+        {"factor": "Intonatie", "telephone": "70%", "face_to_face": "38%"},
+        {"factor": "Woordkeus", "telephone": "20%", "face_to_face": "7%"}
+      ],
+      "body_language_techniques": [
+        "Herkennen: Waar herken ik mensen aan? Hoe reageer ik? Hoe herkennen anderen? Waar let iedereen op?",
+        "Spiegelen: Hoe/wat spiegel ik? Hoe spiegelt een derde? Wat doet iedereen?",
+        "Ombuigen: Wat betekent ombuigen? Hoe buig ik/een ander om? Wat doet iedereen?"
+      ],
+      "intonation_techniques": [
+        "Herkennen: Hoe spreek ik/een ander zinnen uit? Hoe spreken mensen zinnen uit in een situatie?",
+        "Ombuigen: Hoe buig ik/een ander mijn intonatie om? Wat doet iedereen?",
+        "Onderwerp veranderen: Hoe stap ik over van onderwerp? In welke situatie? Welke manieren zijn er?"
+      ],
+      "word_choice_techniques": [
+        "Herkennen: Wat spreek ik/een ander uit? Hoe spreken mensen zinnen uit?",
+        "Vocabulaire verschillen: Wat zijn verschillende vocabulaires? Hoe herken ik een vocabulaire? Welke woorden moet ik gebruiken?"
+      ],
+      "question_types": [
+        {"type": "Open vraag", "purpose": "Naar vooruitgang in het gesprek (bijv. 'Welke les kom je volgen?')."},
+        {"type": "Gesloten vraag", "purpose": "Ter afsluiting van het onderwerp (bijv. 'Lekker gesport?')."}
+      ],
+      "yes_ladder_or_hype_moment": "Driemaal 'ja' op een vraag binnen 2 minuten om een positieve flow te creëren en de klant te sturen naar een gewenste actie (bijv. proefles aanbieden).",
+      "handling_resistance": {
+        "time_management": "Klant heeft geen tijd: 'chaos' domineert (kinderen, werk, familie, stress). Prioriteiten verschoven. Benadruk dat sporten meer energie, plezier en snellere afhandeling dagelijkse bezigheden oplevert. Koppel aan Rebelsport aanbod (bijv. proefles).",
+        "cost_concerns": "Uitgave moet evenredig zijn met kwaliteit. Klant sport elders: vraag naar doelen, blessures, etc. Bied extra's aan (fysio, diëtist, sauna, zwembad, gezonde bar, kwalitatieve begeleiding)."
+      },
+      "sales_drivers": [
+        "Nut (investering in jezelf, veelheid sporten, leren).",
+        "Gezondheid (investering in jezelf, veelheid sporten, leren).",
+        "Motivatie (investering in jezelf, veelheid sporten, leren).",
+        "Reistijd (hoe tijd gevonden om nu te komen?).",
+        "Atmosfeer (kwaliteit, warmte, gezelligheid, familiebedrijf).",
+        "Hygiëne (moet op orde zijn).",
+        "Drukte in sportschool (rustige tijden weergeven, doorverwijzen naar minder lopende lessen).",
+        "Aansluitend aanbod (40+ sporten).",
+        "Status (kwaliteit, zorg, opschepmateriaal, vooruitgang).",
+        "Emotie (begrip, begeleiding, familiebedrijf, veilige omgeving).",
+        "Muziek."
+      ],
+      "visie_pauline_bar_sales_training": {
+        "conscious_elements": ["Intake", "Klantcontact (f2f, bellen, mail)", "Ontvangst gast (gezien en gehoord voelen)"],
+        "unconscious_elements": ["Eindcontrole docent", "Eindcontrole lessen", "Ordebewaarders"]
+      }
+    },
+    {
+      "concept": "Financiële Overzichten en Berekeningen",
+      "description": "Gedetailleerde overzichten van omzet, kosten, winst en ROI voor verschillende producten en diensten van Energy Control.",
+      "annual_overviews": {
+        "description": "Jaaroverzichten van omzet, kosten en resultaat per product (opleidingen, producten, coaches, overig) voor jaar 1, 2 en 3.",
+        "example_data_year1": [
+          {"product": "Basis online (min. 1)", "purchased_qty": 90, "cost_price": "€850,00", "sold_qty": 90, "sales_price": "€1.250,00", "total_cost": "€76.500,00", "total_revenue": "€112.500,00", "result": "€36.000,00"},
+          {"product": "Looptrainer online (min. 1)", "purchased_qty": 30, "cost_price": "€240,00", "sold_qty": 30, "sales_price": "€1.500,00", "total_cost": "€7.200,00", "total_revenue": "€45.000,00", "result": "€37.800,00"},
+          {"product": "Netwerklidmaatschap", "purchased_qty": 7.5, "cost_price": "€0,00", "sold_qty": "N/A", "sales_price": "€300,00", "total_cost": "€0,00", "total_revenue": "N/A", "result": "N/A"}
+        ],
+        "notes": "Bevat ook kosten voor IT (load balancer, database, cache, main server), kantoorartikelen, promotie/communicatie (telefoon, hosting, cybersecurity, software, advertenties, boeken, evenementen), administratie (facturatie, boekhouding, advies), website & app (onderhoud, servers, optimalisatie), personeel (salarissen Richard, Steven, Stans, trainers, marketing, administratie, flex inhuur), ontwikkeling (website, app, beeldmateriaal, Energy Control methode theorie/apparatuur/software), algemene kosten (KVK, notaris)."
+      },
+      "monthly_overviews": {
+        "description": "Maandelijkse overzichten van inkoop, omzet en resultaat per product/dienst.",
+        "example_data_january": [
+          {"item": "Basis online (min. 1)", "purchased_qty": 7.5, "cost_price": "€850,00", "sold_qty": 8, "sales_price": "€1.250,00", "total_cost": "€6.375,00", "total_revenue": "€9.375,00", "result": "€3.000,00"},
+          {"item": "Marathonschema", "purchased_qty": 8, "cost_price": "€6,00", "sold_qty": 7.5, "sales_price": "€60,00", "total_cost": "€45,00", "total_revenue": "€450,00", "result": "€405,00"}
+        ]
+      },
+      "sales_tools_roi": {
+        "description": "Berekeningen voor ROI van opleidingen en specifieke producten/diensten, inclusief uurloon en vaste lasten.",
+        "coach_training_roi": {
+          "coaches_to_train": 1, "hourly_wage_purchase": "€25,00", "hourly_wage_sale": "€70,00",
+          "network_membership_cost_monthly": "€10,00", "app_cost_monthly": "€16,52", "training_cost": "€1.250,00",
+          "intake_sales_per_month": {"qty": 0, "cost": "€15,00", "revenue": "€0,00", "profit": "-€15,00"},
+          "roi_after_month1": "-€1.265,00", "roi_months_to_break_even": "-83,3", "revenue_after_1yr": "-€1.430,00"
+        }
+      },
+      "product_roi_calculations": [
+        {"product": "Inspanningstest", "qty": 2, "duration_min": 45, "hourly_wage": "€50,00", "price": "€150,00", "cost": "€75,00", "revenue": "€300,00", "profit_ex_btw": "€225,00"},
+        {"product": "Ademconsult (Rustmeting)", "qty": 1, "duration_min": 30, "sessions_per_week": 1, "weeks": 1, "hourly_wage": "€50,00", "price": "€75,00", "cost": "€50,00", "profit_ex_btw": "€25,00"},
+        {"product": "Begeleiding op afstand", "app_users": 5, "duration_weeks": 15, "control_duration_min": 2, "hourly_wage": "€25,00", "sales_price_coach": "€30,00", "app_price": "€16,52", "cost": "€79,02", "revenue_ex_btw": "€2.250,00", "profit_ex_btw": "€2.170,98"},
+        {"product": "Begeleiding direct", "app_users": 5, "duration_weeks": 12, "session_duration_min": 60, "hourly_wage": "€25,00", "sales_price_coach": "€35,00", "app_price": "€16,52", "cost": "€1.516,52", "revenue_ex_btw": "€2.100,00", "profit_ex_btw": "€583,48"}
+      ],
+      "training_roi_calculations": [
+        {"training": "Looptrainersdag", "new_coaches": 1, "cost_per_day": "€350,00", "hourly_wage": "€25,00", "intakes_per_month": 1, "intake_cost": "€25,00", "intake_revenue": "€150,00", "intake_profit": "€125,00", "roi_after_month1": "€225,00", "roi_months_to_break_even": 1.8, "revenue_after_1yr": "€1.275,00"},
+        {"training": "Ademtherapie basis / Inspanningsfysiologie basis", "new_coaches": 1, "cost_per_day": "€350,00", "hourly_wage": "€30,00", "roi_months_to_break_even": "#DIV/0!", "revenue_after_1yr": "#DIV/0!"},
+        {"training": "Ademtherapeut / Inspanningsfysiologie", "new_coaches": 5, "cost_per_day": "€350,00", "hourly_wage": "€30,00", "intakes_per_month": 4, "intake_cost": "€120,00", "intake_revenue": "€600,00", "intake_profit": "€480,00", "roi_after_month1": "€1.270,00", "roi_months_to_break_even": 2.6, "revenue_after_1yr": "€4.490,00"},
+        {"training": "Medical Fitness Coach", "new_coaches": 1, "cost_per_training": "€2.000,00", "hourly_wage": "€30,00", "intakes_per_month": 5, "intake_cost": "€150,00", "intake_revenue": "€750,00", "intake_profit": "€600,00", "direct_guidance_cost": "€553,04", "direct_guidance_revenue": "€780,00", "direct_guidance_profit": "€226,96", "remote_guidance_cost": "€49,02", "remote_guidance_revenue": "€130,00", "remote_guidance_profit": "€80,98", "roi_after_month1": "€1.092,06", "roi_months_to_break_even": 1.2, "revenue_after_1yr": "€9.803,25"},
+        {"training": "Master Coach", "new_coaches": 1, "cost_per_master_coach": "€5.000,00", "hourly_wage": "€30,00", "roi_months_to_break_even": "#DIV/0!", "revenue_after_1yr": "#DIV/0!"},
+        {"training": "ATDS 1-1", "pcs": 1, "cost_per_pc": "€500,00", "hourly_wage": "€30,00", "roi_months_to_break_even": "#DIV/0!", "revenue_after_1yr": "#DIV/0!"},
+        {"training": "ATDS Team", "pcs": 1, "cost_per_pc": "€750,00", "hourly_wage": "€50,00", "roi_months_to_break_even": "#DIV/0!", "revenue_after_1yr": "#DIV/0!"},
+        {"training": "ATDS Team + Antenne", "pcs": 2, "cost_per_pc": "€2.000,00", "hourly_wage": "€50,00", "roi_months_to_break_even": "#DIV/0!", "revenue_after_1yr": "#DIV/0!"},
+        {"training": "Testfiets", "bikes": 1, "cost_per_bike": "€6.000,00", "hourly_wage": "€30,00", "roi_months_to_break_even": "#DIV/0!", "revenue_after_1yr": "#DIV/0!"}
+      ]
+    }
+  ]
+}

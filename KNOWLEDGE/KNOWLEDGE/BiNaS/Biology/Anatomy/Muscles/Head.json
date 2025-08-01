@@ -1,0 +1,991 @@
+[
+  {
+    "name": "Zygomaticus minor",
+    "description": "De Zygomaticus minor is een relatief kleine, slanke spier die een belangrijke rol speelt in de expressie van menselijke emoties, met name de elevatie van de bovenlip.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieur aspect van het laterale oppervlak van het os zygomaticum (jukbeen), nabij de sutura zygomaticomaxillaris.",
+        "details": [
+          "Ongeveer 1-2 mm inferieur van de inferieure rand van de orbita.",
+          "Ongeveer 3-5 mm lateraal van de sutura zygomaticomaxillaris.",
+          "De vezels ontspringen in een smalle band van 3-5 mm breed."
+        ]
+      },
+      "insertion": {
+        "location": "Diepe aspecten van de huid en slijmvliezen van de bovenlip, mediaal van de mondhoek. Diffuus in het weke weefsel van de bovenlip.",
+        "details": [
+          "Vezels lopen schuin naar beneden en mediaal.",
+          "Versmelt met vezels van de Orbicularis oris en Levator labii superioris.",
+          "Meest superieure vezels insertie ongeveer 5-10 mm onder de inferieure rand van de neusvleugel (ala nasi).",
+          "Inferieure vezels insertie kunnen zich uitstrekken tot ongeveer 10-15 mm lateraal van de philtrum."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": 32.7,
+          "range": "25-40",
+          "standard_deviation": 4.2,
+          "unit": "mm"
+        },
+        "width_mm": {
+          "average": 4.8,
+          "range": "3-7",
+          "standard_deviation": 1.1,
+          "unit": "mm",
+          "note": "Op het breedste punt, meestal nabij de oorsprong."
+        },
+        "thickness_mm": {
+          "average": 1.5,
+          "range": "<2",
+          "standard_deviation": 0.3,
+          "unit": "mm"
+        }
+      },
+      "innervation": {
+        "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+        "branch": "Zygomatische takken van de N. facialis.",
+        "details": "Deze takken lopen anterieur over de arcus zygomaticus en innerveren de spieren van de bovenlip en neus.",
+        "neuronal_density_per_mm2": {
+          "average": "20-30",
+          "unit": "zenuwvezels/mm²",
+          "note": "Hypothetisch; in het spierbuikje."
+        }
+      },
+      "blood_supply": {
+        "arterial": [
+          "Takken van de A. facialis (arteria facialis).",
+          "Terminale takken van de A. infraorbitalis (arteria infraorbitalis)."
+        ],
+        "venous_drainage": "Volgt typisch de arteriële aanvoer, voornamelijk via de V. facialis."
+      }
+    },
+    "function": {
+      "primary_action": "Elevatie van de bovenlip.",
+      "mechanism_of_action": "Bij contractie trekken de spiervezels de bovenlip superior en mediaal.",
+      "force_vector_components": {
+        "superior_percentage": "70-80%",
+        "medial_percentage": "20-30%"
+      },
+      "lip_displacement_mm": {
+        "average": "3-7",
+        "unit": "mm",
+        "note": "Verticale verplaatsing van de cupidoboog, afhankelijk van contractie-intensiteit."
+      },
+      "role_in_expression": [
+        "Draagt bij aan subtiele gezichtsuitdrukkingen, met name bij het vormen van een glimlach.",
+        "Bijdrage aan de lichte elevatie van de bovenlip voor een 'ingetogen' of 'verlegen' glimlach.",
+        "Kan bijdragen aan het uitdrukken van afkeer door de bovenlip iets op te trekken."
+      ],
+      "synergists": [
+        "Levator labii superioris",
+        "Levator labii superioris alaeque nasi"
+      ],
+      "antagonists": [
+        "Depressor labii inferioris",
+        "Orbicularis oris (door de lippen samen te persen)"
+      ]
+    },
+    "visual_analogy": "Stel je voor dat je een zeer dunne, lichtroze draad spant van het prominente jukbeen (net onder het oogkasrandje) schuin naar beneden en iets naar het midden van de bovenlip. Deze draad is de Zygomaticus minor. Wanneer deze draad korter wordt (de spier samentrekt), trekt hij de bovenlip subtiel omhoog, waardoor je net een beetje van je boventanden kunt zien of een lichte plooi in de nasolabiale regio ontstaat. Het is alsof een onzichtbare hand de bovenlip zachtjes omhoog trekt, net genoeg om een vleugje van een emotie te onthullen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Zygomaticus major",
+    "description": "De Zygomaticus major is een belangrijke spier voor gezichtsuitdrukkingen, voornamelijk verantwoordelijk voor de brede, Duchenne glimlach.",
+    "anatomy": {
+      "origin": {
+        "location": "Lateraal oppervlak van het os zygomaticum (jukbeen), anterieur van de temporozygomatische hechting.",
+        "details": [
+          "Ongeveer 5-10 mm lateraal van de oorsprong van de Zygomaticus minor.",
+          "Oorsprongspunt bevindt zich posterieur en inferieur ten opzichte van de laterale orbitale rand."
+        ]
+      },
+      "insertion": {
+        "location": "Modiolus van de mondhoek en de huid van de bovenlip, mediaal en inferieur van de mondhoek.",
+        "details": [
+          "De vezels lopen schuin naar beneden en mediaal.",
+          "De insertie versmelt met de vezels van de Orbicularis oris en Levator anguli oris.",
+          "De modiolus is een knooppunt van spiervezels bij de mondhoek, cruciaal voor mondbewegingen."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": 50.0,
+          "range": "40-65",
+          "standard_deviation": 5.0,
+          "unit": "mm",
+          "note": "Geschatte gemiddelde lengte."
+        },
+        "width_mm": {
+          "average": 7.0,
+          "range": "5-10",
+          "standard_deviation": 1.5,
+          "unit": "mm",
+          "note": "Op het breedste punt."
+        },
+        "thickness_mm": {
+          "average": 2.0,
+          "range": "1-3",
+          "standard_deviation": 0.5,
+          "unit": "mm"
+        }
+      },
+      "innervation": {
+        "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+        "branch": "Zygomatische en/of buccale takken van de N. facialis.",
+        "details": "Deze takken doorkruisen de masseter en innerveren de spier aan de diepe zijde."
+      },
+      "blood_supply": {
+        "arterial": [
+          "Takken van de A. facialis.",
+          "Takken van de A. transversa faciei (tak van de A. temporalis superficialis)."
+        ],
+        "venous_drainage": "Volgt typisch de arteriële aanvoer, voornamelijk via de V. facialis."
+      }
+    },
+    "function": {
+      "primary_action": "Trekt de mondhoek omhoog en lateraal.",
+      "mechanism_of_action": "Bij contractie trekt de spier de modiolus superieur en lateraal, wat resulteert in het optrekken van de mondhoek.",
+      "force_vector_components": {
+        "superior_percentage": "60-70%",
+        "lateral_percentage": "30-40%"
+      },
+      "lip_displacement_mm": {
+        "average": "8-15",
+        "unit": "mm",
+        "note": "Diagonale verplaatsing van de mondhoek bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Verantwoordelijk voor het vormen van een glimlach, met name een brede, 'echte' of Duchenne glimlach (waarbij ook de Orbicularis oculi actief is).",
+        "Draagt bij aan expressies van vreugde en geluk."
+      ],
+      "synergists": [
+        "Levator anguli oris",
+        "Risorius (voor laterale trek)",
+        "Zygomaticus minor (voor elevatie van de bovenlip)"
+      ],
+      "antagonists": [
+        "Depressor anguli oris",
+        "Platysma (deels)"
+      ]
+    },
+    "visual_analogy": "Stel je voor dat een sterkere, bredere draad van het jukbeen schuin naar beneden en naar de mondhoek loopt. Deze draad, de Zygomaticus major, trekt de mondhoek krachtig omhoog en opzij, alsof je een brede, vrolijke glimlach trekt die je wangen omhoog duwt en kleine 'kraaienpootjes' bij je ogen veroorzaakt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Tragicus",
+    "description": "De Tragicus is een kleine, intrinsieke spier van het oorschelp (auricula), gelegen op de tragus. Zijn functie is minimaal en gerelateerd aan subtiele aanpassingen van de vorm van de oorschelp.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale aspect van de wortel van de helix, juist superior van de tragus."
+      },
+      "insertion": {
+        "location": "De huid op de tragus zelf, en het kraakbeen van de tragus."
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "5-10",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Zeer klein."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      },
+      "innervation": {
+        "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+        "branch": "Posterieure auriculaire tak van de N. facialis."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. temporalis superficialis (via auriculaire takken)."
+        ],
+        "venous_drainage": "V. temporalis superficialis."
+      }
+    },
+    "function": {
+      "primary_action": "Mogelijk vergroten van de opening van de externe gehoorgang.",
+      "mechanism_of_action": "Bij contractie kan het de tragus enigszins naar buiten en anterieur trekken, wat de ingang van de gehoorgang subtiel kan beïnvloeden. De functie is echter controversieel en van beperkt klinisch belang bij mensen.",
+      "movement_mm": {
+        "tragus_displacement_mm": "<1",
+        "note": "Minimale, nauwelijks waarneembare beweging."
+      },
+      "role_in_expression": [
+        "Geen bekende rol in menselijke gezichtsuitdrukkingen of belangrijke fysiologische processen."
+      ],
+      "synergists": null,
+      "antagonists": null
+    },
+    "visual_analogy": "Stel je de Tragicus voor als een minuscuul, bijna onzichtbaar spiervezeltje dat zich op het kleine flapje van je oor (de tragus) bevindt. De beweging die het kan maken is zo subtiel, dat het lijkt alsof het probeert te knipperen met een mini-oogje om de gehoorgang net iets verder open te trekken.",
+    "status": "done",
+    "precisie_score": 4
+  },
+  {
+    "name": "Temporoparietalis",
+    "description": "De Temporoparietalis is een brede, dunne, waaiervormige spier die tot de extrinsic spieren van het oor behoort, en die de galeal aponeurose fixeert.",
+    "anatomy": {
+      "origin": {
+        "location": "Fascia temporalis, superior van de zygomatische boog.",
+        "details": [
+          "Vezels ontspringen van een breed, oppervlakkig gebied."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale rand van de galeal aponeurose (epicraniale aponeurose), en de huid superior van het oor.",
+        "details": [
+          "Vezels lopen superieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer variabel in grootte en ontwikkeling."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+      },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Temporale takken van de N. facialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. temporalis superficialis."
+      ],
+      "venous_drainage": "V. temporalis superficialis."
+    }
+    },{
+    "function": {
+      "primary_action": "Fixeert de galeal aponeurose.",
+      "mechanism_of_action": "Bij contractie trekt de Temporoparietalis aan de galeal aponeurose, wat kan leiden tot beweging van de hoofdhuid, met name de oorschelp superieur en anterieur. De primaire rol wordt echter gezien als het opspannen en stabiliseren van de aponeurose, wat de actie van de Frontalis en Occipitalis spieren vergemakkelijkt.",
+      "scalp_movement_mm": {
+        "superior_displacement_mm": "1-3",
+        "note": "Subtiele beweging van de hoofdhuid."
+      },
+      "ear_movement_mm": {
+        "superior_anterior_displacement_mm": "0.5-1.5",
+        "note": "Minimale beweging van de oorschelp."
+      },
+      "role_in_expression": [
+        "Kan bijdragen aan subtiele gezichtsuitdrukkingen die de hoofdhuid of oren bewegen (bijv. 'oren spitsen'), hoewel dit bij de meeste mensen beperkt is.",
+        "Belangrijk voor de algehele beweeglijkheid van de hoofdhuid en het voorhoofd."
+      ],
+      "synergists": [
+        "Auricularis superior",
+        "Auricularis anterior",
+        "Frontalis (via galeal aponeurose)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Temporoparietalis voor als een dun, bijna doorschijnend 'waaier' van spiervezels aan de zijkant van je hoofd, net boven je oor, die vastzit aan de grote peesplaat over je schedel. Wanneer deze waaier samentrekt, trekt hij de hoofdhuid en het oor heel lichtjes omhoog en naar voren, alsof je je oren probeert te spitsen als een dier.",
+    "status": "done",
+    "precisie_score": 6
+  },
+  {
+    "name": "Temporalis",
+    "description": "De Temporalis is een grote, sterke, waaiervormige spier die de temporale fossa van de schedel vult en een van de belangrijkste kauwspieren is, verantwoordelijk voor het elevatie en retractie van de mandibula.",
+    "anatomy": {
+      "origin": {
+        "location": "Temporale fossa (brede, ondiepe depressie aan de zijkant van de schedel), en de diepe temporale fascia.",
+        "details": [
+          "Oorsprong is zeer breed, beslaat een groot deel van de zijkant van de schedel."
+        ]
+      },
+      "insertion": {
+        "location": "Coronoid proces van de mandibula (onderkaak) en het anterieure deel van de ramus mandibulae.",
+        "details": [
+          "De vezels convergeren en passeren onder de zygomatische boog."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "80-120",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte van de spiervezels."
+        },
+        "thickness_mm": {
+          "average": "10-20",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte maximale dikte."
+        },
+        "cross_sectional_area_cm2": {
+          "average": "10-15",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "cm²",
+          "note": "Geschatte fysiologische dwarsdoorsnede, indicatief voor kracht."
+        }
+      },
+      "innervation": {
+        "nerve": "N. trigeminus (vijfde hersenzenuw, nervus cranialis V)",
+        "branch": "Diepe temporale takken van de mandibulaire divisie van de N. trigeminus."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. temporalis profunda anterior en posterior (takken van de A. maxillaris)."
+        ],
+        "venous_drainage": "Plexus venosus pterygoideus en V. temporalis profunda."
+      }
+    },
+    "function": {
+      "primary_action": "Eleveert en retracteert de mandibula (sluit de mond).",
+      "mechanism_of_action": "De verticale vezels elevaten de mandibula krachtig, wat resulteert in het sluiten van de mond. De horizontale (posterieure) vezels retracteert de mandibula naar achteren. Dit maakt het een primaire spier voor het bijten en vermalen van voedsel.",
+      "bite_force_N": {
+        "average": "200-400",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "N",
+        "note": "Geschatte bijdrage aan de maximale bijtkracht."
+      },
+      "mandible_movement_mm": {
+        "elevation_mm": "20-30",
+        "retraction_mm": "5-10",
+        "note": "Geschatte verticale en horizontale verplaatsing."
+      },
+      "role_in_expression": [
+        "Essentieel voor kauwen (masticatie).",
+        "Belangrijk voor het sluiten van de mond en het vasthouden van de kaak in rustpositie.",
+        "Draagt bij aan de gezichtsuitdrukking van spanning of concentratie (clenching)."
+      ],
+      "synergists": [
+        "Masseter",
+        "Medial pterygoid (voor elevatie)"
+      ],
+      "antagonists": [
+        "Lateral pterygoid (voor depressie en protrusie)",
+        "Digastric",
+        "Mylohyoid",
+        "Geniohyoid (voor depressie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Temporalis voor als een grote, platte, waaiervormige spier die je hele slaap bedekt, en waarvan de vezels samenkomen tot een dikke pees die onder je jukbeen doorloopt naar je onderkaak. Wanneer je je tanden op elkaar klemt, voel je deze spier krachtig samentrekken, alsof een enorme hand je onderkaak omhoog en naar achteren trekt om iets te vermalen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Stapedius",
+    "description": "De Stapedius is de kleinste spier in het menselijk lichaam, gelegen in het middenoor, die de beweging van de stapes (stijgbeugel) reguleert om de amplitude van geluidsgolven naar het binnenoor te controleren en het binnenoor te beschermen tegen harde geluiden.",
+    "anatomy": {
+      "origin": {
+        "location": "Innerlijke wand van de pyramideale eminentie in het middenoor (een kleine conische uitstulping op de posterieure wand van de tympanische holte)."
+      },
+      "insertion": {
+        "location": "Posterieur oppervlak van de nek van de stapes (stijgbeugel).",
+        "details": [
+          "Zeer kleine, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "6-7",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte, de kleinste skeletspier."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII) via de N. stapedius (een tak die binnen de facialis kanaal ontspringt).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. stylomastoidea (tak van de A. auricularis posterior)."
+      ],
+      "venous_drainage": "Venen die draineren in de plexus venosus tympanica."
+    },
+    "function": {
+      "primary_action": "Vermindert de beweging van de stapes, regelt de amplitude van geluidsgolven naar het binnenoor.",
+      "mechanism_of_action": "Bij contractie trekt de Stapedius de stapes van het ovale venster weg, waardoor de trilling van de stapes wordt verminderd. Dit dempt de overdracht van geluidstrillingen naar de cochlea, met name voor harde geluiden (akoestische reflex) en helpt het binnenoor te beschermen tegen overstimulatie. Het effect is meer uitgesproken voor lage frequenties.",
+      "sound_attenuation_dB": {
+        "average": "10-20",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "dB",
+        "note": "Geschatte geluidsdemping, voornamelijk voor lage frequenties en harde geluiden."
+      },
+      "onset_latency_ms": {
+        "average": "10-25",
+        "note": "Snelle reactietijd van de akoestische reflex."
+      },
+      "role_in_expression": [
+        "Cruciaal voor gehoorbescherming tegen luid geluid, samen met de Tensor tympani.",
+        "Speelt een rol bij het 'filteren' van achtergrondgeluiden en het focussen op spraak (door lage frequenties te dempen)."
+      ],
+      "synergists": [
+        "Tensor tympani (voor gehoorbescherming)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Stapedius voor als een minuscuul veertje, het kleinste in je lichaam, dat aan de stijgbeugel (stapes) in je oor vastzit. Wanneer een hard geluid binnenkomt, trekt dit veertje de stijgbeugel heel even terug, alsof het een schokdemper is die voorkomt dat een te harde klap je binnenoor beschadigt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Frontalis",
+    "description": "De Frontalis is een brede, platte spier van het voorhoofd, die de hoofdhuid retracteert en de wenkbrauwen optilt, wat rimpels in het voorhoofd veroorzaakt.",
+    "anatomy": {
+      "origin": {
+        "location": "Galeal aponeurose (epicraniale aponeurose), anterieur van de coronale hechting.",
+        "details": [
+          "Oorsprong is breed en diffuus."
+        ]
+      },
+      "insertion": {
+        "location": "Huid van de wenkbrauwen en de neuswortel.",
+        "details": [
+          "Vezels lopen inferieur naar het voorhoofd."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Temporale takken van de N. facialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. temporalis superficialis.",
+        "A. supraorbitalis.",
+        "A. supratrochlearis."
+      ],
+      "venous_drainage": "V. temporalis superficialis en V. ophthalmica."
+    },
+    "function": {
+      "primary_action": "Rimpelt wenkbrauw.",
+      "mechanism_of_action": "Bij contractie trekt de Frontalis de huid van het voorhoofd naar boven en veroorzaakt horizontale rimpels. Het tilt ook de wenkbrauwen op, wat bijdraagt aan verschillende gezichtsuitdrukkingen.",
+      "brow_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van de wenkbrauw."
+      },
+      "forehead_wrinkle_depth_mm": {
+        "average": "1-3",
+        "note": "Geschatte diepte van horizontale rimpels."
+      },
+      "role_in_expression": [
+        "Essentieel voor gezichtsuitdrukkingen van verrassing, schrik, aandacht, en vraagtekens.",
+        "Draagt bij aan de visuele communicatie en non-verbale signalen.",
+        "Een overactieve Frontalis kan leiden tot prominente voorhoofdsrimpels (expressielijnen)."
+      ],
+      "synergists": [
+        "Occipitalis (via galeal aponeurose)"
+      ],
+      "antagonists": [
+        "Corrugator supercilii",
+        "Procerus",
+        "Orbicularis oculi (voor het fronsen of sluiten van de ogen)"
+      ]
+    },
+    "visual_analogy": "Stel je de Frontalis voor als een brede, platte 'trekveer' die onder de huid van je voorhoofd ligt, van je haargrens tot je wenkbrauwen. Wanneer je verrast bent, trekt deze veer je wenkbrauwen omhoog en veroorzaakt het horizontale rimpels op je voorhoofd, alsof je een jaloezie omhoog trekt om meer licht binnen te laten.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Helicis minor",
+    "description": "De Helicis minor is een kleine, intrinsieke spier van het oorschelp (auricula), gelegen op de helix. Zijn functie is minimaal en gerelateerd aan subtiele aanpassingen van de vorm van de oorschelp.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur en superieur oppervlak van de helix van het oorschelp (bovenrand van het buitenoor).",
+        "details": [
+          "Smalle, variabele oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Huid en kraakbeen van de helix, nabij de helix incisura anterior.",
+        "details": [
+          "Vezels lopen schuin."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": "5-8",
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer klein."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Posterieure auriculaire tak van de N. facialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. auricularis posterior."
+      ],
+      "venous_drainage": "V. auricularis posterior."
+    },
+    "function": {
+      "primary_action": "Past de vorm van de anterieure rand van het oorkraakbeen aan.",
+      "mechanism_of_action": "Bij contractie kan het de anterieure rand van de helix enigszins strakker maken of bewegen. De functie is echter minimaal en niet duidelijk gedefinieerd in de menselijke anatomie, vaak beschouwd als een rudimentaire spier.",
+      "ear_movement_mm": {
+        "average": "<0.5",
+        "note": "Niet-kwantificeerbare beweging, indien aanwezig."
+      },
+      "role_in_expression": [
+        "Geen bekende significante rol in menselijke gezichtsuitdrukkingen of gehoorfunctie."
+      ],
+      "synergists": [],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Helicis minor voor als een minuscuul, bijna onzichtbaar spiervezeltje dat net onder de bovenrand van je oor zit. Het is zo klein dat het nauwelijks iets doet, alsof het een 'restant' is van een spier die bij dieren nog functioneel is voor het bewegen van de oorschelp.",
+    "status": "skipped",
+    "precisie_score": 2
+  },
+  {
+    "name": "Helicis major",
+    "description": "De Helicis major is een kleine, intrinsieke spier van het oorschelp (auricula), gelegen op de helix. Zijn functie is minimaal en gerelateerd aan subtiele aanpassingen van de vorm van de oorschelp.",
+    "anatomy": {
+      "origin": {
+        "location": "Superieure deel van de helix van het oorschelp (bovenrand van het buitenoor).",
+        "details": [
+          "Langwerpige oorsprong langs de helix."
+        ]
+      },
+      "insertion": {
+        "location": "Posterieure aspect van de helix, inferieur van de aanhechting van de Helicis minor.",
+        "details": [
+          "Vezels lopen inferieur en posterieur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": "8-12",
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Relatief klein."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Posterieure auriculaire tak van de N. facialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. auricularis posterior."
+      ],
+      "venous_drainage": "V. auricularis posterior."
+    },
+    "function": {
+      "primary_action": "Deprimeert de anterieure rand van het oorkraakbeen.",
+      "mechanism_of_action": "Bij contractie kan het de anterieure rand van de helix enigszins naar beneden trekken. Zoals de meeste intrinsieke oorschelp spieren bij mensen, is de functie rudimentair en onopvallend.",
+      "ear_movement_mm": {
+        "average": "<0.5",
+        "note": "Niet-kwantificeerbare beweging, indien aanwezig."
+      },
+      "role_in_expression": [
+        "Geen bekende significante rol in menselijke gezichtsuitdrukkingen of gehoorfunctie."
+      ],
+      "synergists": [],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Helicis major voor als een klein, dun spiervezeltje dat langs de bovenrand van je oor loopt en de voorkant ervan iets naar beneden trekt. Net als de Helicis minor is het zo subtiel dat de meeste mensen hun oren er niet mee kunnen bewegen.",
+    "status": "skipped",
+    "precisie_score": 2
+  },
+  {
+    "name": "Mentalis",
+    "description": "De Mentalis is een kleine, gepaarde spier van de kin, die de huid van de kin eleveert en rimpelt, en de onderlip protruedeert (naar voren duwt).",
+    "anatomy": {
+      "origin": {
+        "location": "Incisive fossa van de mandibula (onderkaak), nabij de symphysis menti (kinpunt), van de alveolaire processus onder de incisieve tanden.",
+        "details": [
+          "Oorsprong is bilateraal, nabij de middenlijn."
+        ]
+      },
+      "insertion": {
+        "location": "Huid van de kin en de onderlip.",
+        "details": [
+          "Vezels lopen inferieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "15-20",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm"
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Mandibulaire takken van de N. facialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. labialis inferior (tak van de A. facialis).",
+        "A. mentalis (tak van de A. alveolaris inferior)."
+      ],
+      "venous_drainage": "V. facialis en V. mentalis."
+    },
+    "function": {
+      "primary_action": "Eleveert en rimpelt de huid van de kin, protruedeert de onderlip.",
+      "mechanism_of_action": "Bij contractie trekt de Mentalis de huid van de kin omhoog, waardoor deze rimpelig wordt (bekende 'pout' of 'sulking' expressie). Tegelijkertijd duwt het de onderlip naar voren en omhoog.",
+      "chin_elevation_mm": {
+        "average": "2-5",
+        "note": "Geschatte verticale verplaatsing van de kinhuid."
+      },
+      "lip_protrusion_mm": {
+        "average": "1-3",
+        "note": "Geschatte anterieure verplaatsing van de onderlip."
+      },
+      "role_in_expression": [
+        "Essentieel voor expressies van twijfel, ontevredenheid, trots, huilen, en het vormen van een 'pruillip'.",
+        "Belangrijk voor het vasthouden van vloeistoffen in de mond en het controleren van de positie van de onderlip tijdens slikken en spreken.",
+        "Chronische overactiviteit kan leiden tot een 'pebble chin' of 'orange peel' uiterlijk."
+      ],
+      "synergists": [
+        "Orbicularis oris (voor het samentrekken van de lippen)"
+      ],
+      "antagonists": [
+        "Depressor labii inferioris",
+        "Depressor anguli oris (voor het naar beneden trekken van de onderlip)"
+      ]
+    },
+    "visual_analogy": "Stel je de Mentalis voor als twee kleine, gespierde kussentjes die aan de binnenkant van je kin (net onder je ondertanden) vastzitten en uitlopen naar de huid van je kin en onderlip. Wanneer je je kin 'optrekt' of een pruillip trekt, voel je deze spieren samentrekken, alsof ze de huid van je kin naar boven en naar voren duwen, waardoor er kleine putjes of rimpels ontstaan.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Masseter, superficial part",
+    "description": "De oppervlakkige deel van de Masseter is een grote, krachtige spier van het gezicht, essentieel voor kauwen, die de mandibula eleveert en protruedeert.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure twee derde van de inferieure rand van de zygomatische boog.",
+        "details": [
+          "Oorsprong is breed en robuust."
+        ]
+      },
+      "insertion": {
+        "location": "Hoek van de mandibula (onderkaak) en het inferieure deel van het laterale oppervlak van de ramus mandibulae.",
+        "details": [
+          "Vezels lopen inferieur en posterieur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "40-60",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. trigeminus (vijfde hersenzenuw, nervus cranialis V)",
+      "branch": "Masseterische zenuw (tak van de mandibulaire divisie van de N. trigeminus)."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. masseterica (tak van de A. maxillaris).",
+        "Takken van de A. facialis."
+      ],
+      "venous_drainage": "V. masseterica en V. facialis."
+    },
+    "function": {
+      "primary_action": "Eleveert en retracteert de mandibula (sluit de mond).",
+      "mechanism_of_action": "Bij contractie trekt de oppervlakkige Masseter de onderkaak krachtig omhoog, wat resulteert in het sluiten van de mond. Het speelt een primaire rol bij het bijten en vermalen van voedsel. Het kan ook bijdragen aan de protrusie (naar voren schuiven) van de mandibula.",
+      "bite_force_N": {
+        "average": "250-500",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "N",
+        "note": "Geschatte bijdrage aan de maximale bijtkracht, een van de sterkste spieren per eenheid van gewicht."
+      },
+      "mandible_elevation_mm": {
+        "average": "20-30",
+        "note": "Verticale verplaatsing van de mandibula."
+      },
+      "role_in_expression": [
+        "Essentieel voor kauwen (masticatie) en het krachtig sluiten van de kaken.",
+        "Belangrijk voor het uiten van spanning, woede of frustratie (kaakklemmen).",
+        "Kan hypertrofisch worden bij chronisch klemmen of tandenknarsen (bruxisme)."
+      ],
+      "synergists": [
+        "Temporalis",
+        "Medial pterygoid (voor elevatie)"
+      ],
+      "antagonists": [
+        "Lateral pterygoid (voor depressie en protrusie)",
+        "Digastric",
+        "Mylohyoid",
+        "Geniohyoid (voor depressie)"
+      ]
+    },
+    "visual_analogy": "Stel je de oppervlakkige Masseter voor als een dikke, vierkante 'spierplaat' die van je jukbeen (onder je oog) schuin naar beneden loopt en vastzit aan de hoek van je onderkaak. Wanneer je je kaken krachtig op elkaar klemt, voel je deze spier sterk aanspannen, alsof het een krachtige krik is die je kaak omhoog duwt om iets te vermalen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Masseter, deep part",
+    "description": "De diepe deel van de Masseter is een spier van het gezicht, diep gelegen ten opzichte van de oppervlakkige Masseter, die de mandibula eleveert en retracteert, en de stabiliteit van de kaak verhoogt.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure één derde van de inferieure rand en het mediale oppervlak van de zygomatische boog.",
+        "details": [
+          "Diepe en meer verticale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Lateraal oppervlak van de ramus en het coronoid proces van de mandibula (onderkaak), superieur van de insertie van de oppervlakkige Masseter.",
+        "details": [
+          "Vezels lopen inferieur en anterieur."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. trigeminus (vijfde hersenzenuw, nervus cranialis V)",
+      "branch": "Masseterische zenuw (tak van de mandibulaire divisie van de N. trigeminus)."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. masseterica (tak van de A. maxillaris)."
+      ],
+      "venous_drainage": "V. masseterica."
+    },
+    "function": {
+      "primary_action": "Eleveert en retracteert de mandibula (sluit de mond).",
+      "mechanism_of_action": "Bij contractie trekt de diepe Masseter de onderkaak krachtig omhoog en trekt deze iets naar achteren (retractie). Het speelt een belangrijke rol bij de stabilisatie van de kaak tijdens complexe kauwbewegingen en bij het krachtig sluiten van de mond.",
+      "bite_force_N": {
+        "average": "Bijdrage aan de totale bijtkracht, geschat op 20-30% van de Masseter's totale kracht.",
+        "note": "Meer voor precisie en stabilisatie dan pure kracht."
+      },
+      "mandible_retraction_mm": {
+        "average": "3-5",
+        "note": "Horizontale verplaatsing van de mandibula."
+      },
+      "role_in_expression": [
+        "Essentieel voor het vermalen van voedsel en het handhaven van de stabiliteit van de kaak tijdens het kauwen.",
+        "Draagt bij aan het positioneren van de kaak voor verschillende spraakklanken."
+      ],
+      "synergists": [
+        "Temporalis (voor elevatie en retractie)",
+        "Medial pterygoid (voor elevatie)"
+      ],
+      "antagonists": [
+        "Lateral pterygoid (voor depressie en protrusie)"
+      ]
+    },
+    "visual_analogy": "Stel je de diepe Masseter voor als een kleinere, meer verborgen spierplaat die diep onder de oppervlakkige Masseter ligt, die van je jukbeen naar de zijkant van je onderkaak loopt. Het is als een fijnere afsteller van de kaakbeweging, die helpt om de kaak omhoog te trekken en tegelijkertijd iets naar achteren te trekken, voor precieze kauwbewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Levator palpebrae superioris",
+    "description": "De Levator palpebrae superioris is de primaire spier die verantwoordelijk is voor het optillen van het bovenste ooglid, waardoor de oogspleet wordt geopend.",
+    "anatomy": {
+      "origin": {
+        "location": "Superieure rand van het optische foramen, op de kleine vleugel van het sphenoïd bot, boven de annulus tendineus communis (gemeenschappelijke anulus pees).",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Bovenste tarsale plaat van het ooglid, en de huid van het bovenste ooglid.",
+        "details": [
+          "De spier waaiert uit in een brede aponeurose."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. oculomotorius (derde hersenzenuw, nervus cranialis III), superieure divisie.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. ophthalmica (tak van de A. carotis interna)."
+      ],
+      "venous_drainage": "V. ophthalmica."
+    },
+    "function": {
+      "primary_action": "Retracteert en eleveert ooglid.",
+      "mechanism_of_action": "Bij contractie trekt de Levator palpebrae superioris het bovenste ooglid omhoog en naar achteren, waardoor de oogspleet wordt geopend. Dit is de hoofdactie voor het openen van het oog.",
+      "eyelid_elevation_mm": {
+        "average": "8-12",
+        "note": "Geschatte verticale beweging van het ooglid."
+      },
+      "role_in_expression": [
+        "Essentieel voor het openen van de ogen en het handhaven van een open blik.",
+        "Belangrijk voor visuele functies en non-verbale communicatie.",
+        "Paralyse leidt tot ptosis (hangend ooglid)."
+      ],
+      "synergists": [
+        "Superior tarsal (Müller's spier, gladde spier die bijdraagt aan de elevatie)."
+      ],
+      "antagonists": [
+        "Orbicularis oculi (voor het sluiten van de oogleden)."
+      ]
+    },
+    "visual_analogy": "Stel je de Levator palpebrae superioris voor als een lange, platte 'liftkabel' die diep in je oogkas begint en naar de bovenkant van je bovenste ooglid loopt. Wanneer je je ogen opent, trekt deze kabel je ooglid krachtig omhoog, alsof hij een rolluik optrekt om je blikveld te onthullen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Levator nasolabialis (levator labii superioris alaeque nasi)",
+    "description": "De Levator nasolabialis is een lange, slanke spier van het gezicht die de neusvleugel (ala nasi) en de bovenlip optilt, wat bijdraagt aan uitdrukkingen van afkeer of walging.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale zijde van de neus (frontale processus van de maxilla) en de superieure en mediale zijde van de nasale botten.",
+        "details": [
+          "Smalle, verticale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Huid van de neusvleugel (ala nasi) en de huid van de bovenlip, net lateraal van de philtrum.",
+        "details": [
+          "Verdeelt zich in twee slips."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Buccale takken van de N. facialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. facialis (via de A. labialis superior en A. angularis)."
+      ],
+      "venous_drainage": "V. facialis."
+    },
+    "function": {
+      "primary_action": "Vergroot de nostril, eleveert bovenlip, eleveert vleugel van neus.",
+      "mechanism_of_action": "Bij contractie trekt de Levator nasolabialis de neusvleugel omhoog en lateraal, wat de neusgaten verwijdt. Tegelijkertijd tilt het de bovenlip op, wat een uitdrukking van afkeer of walging veroorzaakt, vaak gecombineerd met het blootleggen van de boventanden.",
+      "nostril_dilation_mm": {
+        "average": "1-3",
+        "note": "Geschatte toename in nostril opening."
+      },
+      "lip_elevation_mm": {
+        "average": "5-8",
+        "note": "Geschatte verticale verplaatsing van de bovenlip."
+      },
+      "role_in_expression": [
+        "Essentieel voor het uitdrukken van afkeer, walging of snuiven (geur waarnemen).",
+        "Speelt een rol bij de ademhaling door de neusgaten te verwijden (bijv. tijdens inspanning)."
+      ],
+      "synergists": [
+        "Levator labii superioris",
+        "Zygomaticus minor (voor elevatie van de bovenlip)",
+        "Nasalis, alar part (voor nostril dilatatie)"
+      ],
+      "antagonists": [
+        "Depressor septi nasi",
+        "Orbicularis oris (voor het sluiten van de mond)"
+      ]
+    },
+    "visual_analogy": "Stel je de Levator nasolabialis voor als een lange, dunne 'trekdraad' die van de zijkant van je neus naar je bovenlip loopt. Wanneer je vies kijkt, trekt deze draad je neusvleugel omhoog en je bovenlip mee, alsof je je neus optrekt om een vieze geur te vermijden of je tanden ontbloot in walging.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Levator labii superioris",
+    "description": "De Levator labii superioris is een spier van het gezicht die de bovenlip optilt, wat bijdraagt aan glimlachen en andere expressies.",
+    "anatomy": {
+      "origin": {
+        "location": "Maxilla (bovenkaakbeen), van het infraorbitale foramen en de aangrenzende botten.",
+        "details": [
+          "Oorsprong is breed en diffuus."
+        ]
+      },
+      "insertion": {
+        "location": "Huid en slijmvlies van de bovenlip, mediaal van de mondhoek, en versmelt met de Orbicularis oris.",
+        "details": [
+          "Vezels lopen inferieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. facialis (zevende hersenzenuw, nervus cranialis VII)",
+      "branch": "Buccale en zygomatische takken van de N. facialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. facialis (via de A. labialis superior)."
+      ],
+      "venous_drainage": "V. facialis."
+    },
+    "function": {
+      "primary_action": "Eleveert bovenlip.",
+      "mechanism_of_action": "Bij contractie trekt de Levator labii superioris de bovenlip omhoog, wat de boventanden kan blootleggen en bijdraagt aan glimlachen, grijnzen en uitdrukkingen van afkeer.",
+      "lip_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale verplaatsing van de bovenlip."
+      },
+      "role_in_expression": [
+        "Essentieel voor verschillende gezichtsuitdrukkingen, waaronder glimlachen (blootleggen van de boventanden), grijnzen en het uitdrukken van afkeer.",
+        "Speelt een rol bij articulatie van spraak."
+      ],
+      "synergists": [
+        "Zygomaticus major",
+        "Zygomaticus minor",
+        "Levator anguli oris (voor glimlachen)",
+        "Levator labii superioris alaeque nasi (voor afkeer)"
+      ],
+      "antagonists": [
+        "Depressor labii inferioris",
+        "Orbicularis oris (voor het sluiten van de lippen)"
+      ]
+    },
+    "visual_analogy": "Stel je de Levator labii superioris voor als een reeks korte, verticale 'strengen' die van je bovenkaak (onder je oog) naar je bovenlip lopen. Wanneer deze strengen samentrekken, trekken ze je bovenlip omhoog, alsof ze een 'gordijntje' omhoog trekken om je boventanden te laten zien bij een lach of een frons.",
+    "status": "done",
+    "precisie_score": 8
+  }
+]

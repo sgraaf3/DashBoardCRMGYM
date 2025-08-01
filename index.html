@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.U.T.E. Fitness Hub</title>
+    <link rel="stylesheet" href="src/assets/css/main.css">
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <p>Loading Application...</p>
+    </div>
+
+    <div id="app-container">
+        <aside id="sidebar" class="sidebar"></aside>
+        <main id="main-content" class="main-content"></main>
+    </div>
+
+    <div id="modal-backdrop" class="modal-overlay">
+        <div id="modal-content" class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Modal Title</h3>
+                <button class="modal-close-button">&times;</button>
+            </div>
+            <div id="modal-body" class="modal-body"></div>
+        </div>
+    </div>
+
+    <div id="notification-container"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script type="module" src="src/app/app.js"></script>
+</body>
+</html>

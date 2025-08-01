@@ -1,0 +1,166 @@
+{"sport_assessment_questions_db": [
+    {"source": "Examen Energy Control Coach",
+      "section": "Ademhaling",
+      "questions": [
+        {"question": "Bij hoeveel ademhalingen per minuut beschouwen we de ademhaling als rustig?", "answer": "6-12"},
+        {"question": "Bij hoeveel ademhalingen per minuut zien we verzuring optreden?", "answer": "35+"},
+        {"question": "Op welke drie onderdelen kun je de ademhaling aanpassen?", "answer": ["frequentie", "teug", "patroon"]},
+        {"question": "Wat is de juiste volgorde voor de ademtherapie?", "answer": "in, uit, wachten"},
+        {"question": "Wat is het belangrijkste onderdeel van de ademtherapie?", "answer": "Wachten"},
+        {"question": "Waarom is dat het belangrijkste onderdeel van de ademtherapie?", "answer": "Dan vindt de gaswisseling plaats"},
+        {"question": "Hoelang wordt aangeraden te wachten in de ademtherapie?", "answer": "1 sec, afhankelijk van de persoon"},
+        {"question": "Noem een voorbeeld wanneer wordt aangeraden de ademtherapie toe te passen, naast de rustmeting en het trainen? Noem er drie.", "answer": "Alles gerelateerd aan inspanning/stress reductie is goed."},
+        {"question": "Op welke twee stoffen richten wij ons met betrekking tot de ademhaling?", "answer": ["zuurstof", "koolzuur"]},
+        {"question": "Welke van de bovengenoemde twee stoffen geven wij de prioriteit om ons op te focussen?", "answer": "koolzuur"},
+        {"question": "Via welk principe wordt de gaswisseling tussen longen en de bloedvaten beschreven?", "answer": "Wet van communicerende vaten"},
+        {"question": "Welke balans wordt met deze twee stoffen bepaald in het bloed?", "answer": "Zuur/base balans, zuurtegraad bloed, PH, etc."},
+        {"question": "Wat gebeurt er als dit balans uit balans raakt?", "answer": "Dan raakt het lichaam van slag, de balans tussen de verbrandingszone en activiteit gaat uit elkaar lopen."},
+        {"question": "Wat is de benaming voor de twee vormen die we onderscheiden in problemen bij de ademhaling?", "answer": ["Restrictief", "Obstructief"]},
+        {"question": "Wat wordt naast de ademtherapie aangeraden om aan te passen om fit te worden?", "answer": ["sport", "voeding"]}
+      ]
+    },{"source": "Examen Energy Control Coach",
+      "section": "Ziektebeelden",
+      "questions": [
+        {"question": "Welke ziekten vallen eronder CVS?", "answer": "CVS, Fibromyalgie, ME, Burn-out, Ziekte van Pfeiffer (als oorzaak van vermoeidheidsklachten)"}
+      ]
+    },{"source": "Examen Energy Control Coach",
+      "section": "HRV",
+      "questions": [
+        {"question": "Hoe wordt het aantal hartslagen per minuut gevonden?", "answer": "Door de hartslagpulsen te timen"},
+        {"question": "Wat zijn de basisgegevens die je nodig hebt om tot een goede HRV te komen?", "answer": "Tijd van de ene hartslag naar de andere (RR-intervallen)"},
+        {"question": "Welk systeem zorgt voor goede waarden in rust en welk systeem zorgt voor slechte waarden in rust?", "answer": "Parasympaticus (goed) en Sympaticus (slecht)"},
+        {"question": "HRV wordt vaak te makkelijk genoemd maar wat is het nu echt?", "answer": "De variatie in tijd tussen twee opeenvolgende hartslagen, wat een maat is voor de activiteit van het autonome zenuwstelsel."},
+        {"question": "Wat is het verschil tussen HRT en HRV?", "answer": "HRT (Heart Rate Time) is de tijd tussen twee hartslagen. HRV (Heart Rate Variability) is de variatie in die tijden over een reeks hartslagen."},
+        {"question": "Wij gebruiken in onze metingen de term Amplitude. Hoe komt dit tot stand?", "answer": "Het gemiddelde verschil in tijd tussen de hartslagen, gemiddeld over zes hartslagen. Hoe groter dit verschil, hoe groter het herstelvermogen."},
+        {"question": "Waarom is een lampje (horloge) om de pols minder betrouwbaar? Welke informatie mis je het meeste?", "answer": "Mist nauwkeurige RR-tijden voor HRV-analyse; kan geen goede rustmeting op basis van HRV doen."},
+        {"question": "Wat gebeurt er met de HRV tijdens inspanning?", "answer": "De HRV neemt af tot bijna 0 bij oplopende belasting."},
+        {"question": "Wat gebeurt er bij stress tijdens inspanning? (Antwoordopties: Overslagjes nemen toe / Overslagjes nemen af)", "answer": "Overslagjes nemen af (impliciet, door de overactivatie van de sympaticus)"},
+        {"question": "Als overslagjes toenemen tijdens inspanning wat zou er aan de hand kunnen zijn?", "answer": "Hartritmestoornissen die geen kwaad kunnen (bij afnemende storing op hartslagsignaal bij oplopend vermogen)."}
+      ]
+    },{"source": "Examen Energy Control Coach",
+      "section": "Inspanningsfysiologie",
+      "questions": [
+        {"question": "Hoe wordt de weerstand genoemd die de klant levert tijdens inspanning?", "answer": "Vermogen (Watt)"},
+        {"question": "Hoe laag wil je het liefst beginnen met deze inspanning?", "answer": "Zo laag mogelijk, bijv. 10 Watt/min voor ongetrainde."},
+        {"question": "Hoe gaan wij omhoog?", "answer": "Geleidelijk, in stappen (bijv. 10-20 Watt/min)."},
+        {"question": "Hoe gaan wij omhoog als je bijvoorbeeld niet laag genoeg kan starten?", "answer": "Voorzichtig opbouwen, eventueel submaximaal testen, terugverwijzen naar huisarts/specialist indien nodig."},
+        {"question": "Wij hebben een vast protocol. Wat mag je niet doen als je veel metingen hebt gedaan?", "answer": "Niet te snel van protocol veranderen. Niet te snel opjagen naar max."},
+        {"question": "Wat is de maximale belasting die de fiets tenminste moet bieden?", "answer": "Fiets moet tot maximaal vermogen kunnen meten (bijv. 500 Watt)."},
+        {"question": "Op welke belasting wordt er uitgefietst?", "answer": "40% van het maximaal behaalde vermogen."},
+        {"question": "Wat wordt er meteen na de inspanning gedaan? En hoe lang doen we dat?", "answer": "3 minuten uitfietsen op 40% van max vermogen, daarna 3 minuten stilzitten."},
+        {"question": "Welke parameters van de meting heb je nodig voor een goede begeleiding?", "answer": ["Maximale wattage", "VO2Max", "Omslagpunt (anaerobic threshold)", "Maximale hartslag", "D2 trainingszone", "Ademfrequentie en adempatroon", "Hartslagvariabiliteit"]},
+        {"question": "Welke parameters van de meting zijn het belangrijkst om iets te kunnen zeggen over de mogelijkheden van je klant?", "answer": ["Maximale vermogen (talent)", "Vermogen bij omslagpunt", "Model van de ademfrequentielijn", "Herstel na inspanning (HRV, daling HR)"]},
+        {"question": "Wat moet je gecontroleerd hebben voordat je kan starten met de meting?", "answer": ["Rusthartslag (<100, geen koorts)", "Bloeddruk (<100 onderdruk, <135 bovendruk)", "Eigen observatie (overgewicht, uiterlijk)", "Medicatie (vooral bètablokkers)", "Longproblemen (SaO2 >90%)", "Anamnese doorgenomen."]},
+        {"question": "Noem 3 contra-indicaties voor de inspanningstest.", "answer": ["Te hoge bloeddruk (bijv. onderdruk 135+)", "Hartproblemen", "Medicatie die hartslag beïnvloedt (vooral bètablokkers)", "Ernstig overgewicht", "Diabetes 2"]},
+        {"question": "Wat moet je doen als iemand een te hoge bloeddruk heeft?", "answer": "Voorzichtig starten, eventueel submaximaal testen. Terugverwijzen naar huisarts/specialist bij twijfel. Niet starten boven 135 onderdruk."},
+        {"question": "Wat weet je van hartritmestoornissen tijdens inspanning?", "answer": "Kunnen voorkomen. Als storing op HR-signaal afneemt bij oplopend vermogen, vaak geen kwaad. Worden gedetecteerd door de apparatuur."},
+        {"question": "Wanneer zijn hartritmestoornissen een risico?", "answer": "Als ze medisch zijn vastgesteld als een risico. Bij afwijkingen altijd overleggen met specialist."},
+        {"question": "Welke medicatie is de grootste vijand tijdens testen?", "answer": "Bètablokkers (verlagen maximale hartslag, verminderen trainingsresultaat)."},
+        {"question": "Komt de klant niet tot rust na inspanning? Dan weten ze zeker dat er sprake is van:", "answer": "Overmatige stress (correct antwoordoptie in MC vraag). Dit duidt op een onvermogen tot herstel, het 'motortje blijft draaien'."}
+      ]
+    },{"source": "Intakeformulier (Algemeen)",
+      "section": "Persoons- en Contactgegevens",
+      "questions": [
+        {"question": "Voornaam:", "type": "text"},
+        {"question": "Achternaam:", "type": "text"},
+        {"question": "Geboortedatum:", "type": "date"},
+        {"question": "Lengte:", "type": "number", "unit": "cm"},
+        {"question": "Gewicht:", "type": "number", "unit": "kg"},
+        {"question": "Adres:", "type": "text"},
+        {"question": "Huisnummer:", "type": "text"},
+        {"question": "Postcode:", "type": "text"},
+        {"question": "Woonplaats:", "type": "text"},
+        {"question": "Telefoon (thuis):", "type": "tel"},
+        {"question": "Telefoon (mobiel):", "type": "tel"},
+        {"question": "E-mail:", "type": "email"},
+        {"question": "Huisarts:", "type": "text"},
+        {"question": "Telefoon huisarts:", "type": "tel"},
+        {"question": "Beroep/functie:", "type": "text"},
+        {"question": "Hoeveel uur werk je p/w:", "type": "number", "unit": "uur"},
+        {"question": "Uitgevallen? Sinds wanneer:", "type": "date"},
+        {"question": "Hobby:", "type": "text"}
+      ]
+    },{"source": "Intakeformulier (Algemeen)",
+      "section": "Medisch",
+      "questions": [
+        {"question": "Welke medicijnen gebruik je en waarvoor:", "type": "textarea"},
+        {"question": "Erfelijke aandoeningen binnen je familie:", "type": "textarea"},
+        {"question": "Heb je operaties ondergaan, welke en wanneer:", "type": "textarea"},
+        {"question": "Bij welke specialist(en) ben je nu onder behandeling, en waarvoor:", "type": "textarea"},
+        {"question": "Ben je/heb je (aanvinken wat van toepassing is):", "type": "checkbox_group", "options": ["Zwanger", "Pacemaker", "Inwendige defibrillator", "Hart en vaatziekten", "Tumor(en)", "Kort geleden een beroerte gehad", "Andere medische aandoening", "Geen van alle"]}
+      ]
+    },{"source": "Intakeformulier (Algemeen)",
+      "section": "Klachten en Doelstellingen",
+      "questions": [
+        {"question": "Omschrijf duidelijk en uitgebreid welke klachten je hebt:", "type": "textarea"},
+        {"question": "Wat is het doel dat je wilt bereiken?", "type": "textarea"},
+        {"question": "Waarom dit doel?", "type": "textarea"},
+        {"question": "Wat levert het je op?", "type": "textarea"},
+        {"question": "Hoe ben je hierbij gekomen?", "type": "textarea"},
+        {"question": "Wat kan een obstakel zijn om je doel te behalen?", "type": "textarea"}
+      ]
+    },{"source": "Intakeformulier (Algemeen)",
+      "section": "Sportactiviteiten",
+      "questions": [
+        {"question": "Huidige sportactiviteiten:", "type": "checkbox_group", "options": ["Geen", "Eenmaal per week", "Tweemaal per week", "Meer dan tweemaal per week"], "sub_question": "Wat:"},
+        {"question": "Sport historie:", "type": "text_input_group", "fields": [{"label": "0 t/m 17 jaar Wat/hoe vaak:", "type": "text"}, {"label": "18 t/m 25 jaar Wat/hoe vaak:", "type": "text"}, {"label": "26 t/m 40 jaar Wat/hoe vaak:", "type": "text"}, {"label": "41 t/m 50 jaar Wat/hoe vaak:", "type": "text"}, {"label": "Na 50 jaar Wat/hoe vaak:", "type": "text"}]}
+      ]
+    },{"source": "Intakeformulier (Algemeen)",
+      "section": "Intoxicaties",
+      "questions": [
+        {"question": "Geef aan hoe veel van onderstaande intoxicaties je gebruikt per week. Hoeveel jaar nuttig je deze al? Ben je gestopt, hoe lang al en hoeveel gebruikte je vroeger.", "type": "textarea"},
+        {"question": "Roken:", "type": "textarea"},
+        {"question": "Alcohol:", "type": "textarea"},
+        {"question": "Drugs:", "type": "textarea"}
+      ]
+    },{"source": "Intakeformulier (Algemeen)",
+      "section": "Voeding",
+      "questions": [
+        {"question": "Geef aan wat je normaal gesproken eet als ontbijt, voor de lunch en als avondeten. En niet geheel onbelangrijk, tussendoortjes.", "type": "textarea"}
+      ]
+    },{"source": "Intakeformulier (Algemeen)",
+      "section": "Overige Opmerkingen",
+      "questions": [
+        {"question": "Zijn er nog zaken die niet gevraagd of benoemd zijn in het formulier hierboven, schrijf ze dan hier op.", "type": "textarea"}
+      ]
+    },{"source": "Checklist Individuele Spankracht (CIS)",
+      "section": "Algemeen",
+      "description": "Vragenlijst om subjectieve vermoeidheid en gerelateerde gedragsaspecten te meten. Bestaat uit 20 uitspraken op een 7-punts Likertschaal ('ja, dat klopt' tot 'nee, dat klopt niet').",
+      "scoring_notes": "Hoge scores duiden op hoog niveau van vermoeidheid, concentratieproblemen, lage motivatie en laag niveau van fysieke activiteit. Totaalscore: 20-140. Afkappunt voor problematische vermoeidheid: 76. Een score van 27 of hoger op subschaal 'subjectieve vermoeidheid' is indicatie voor abnormale moeheid, 37 of hoger voor ernstige vermoeidheid.",
+      "items": [
+        {"id": 1, "statement": "Ik voel me moe."},
+        {"id": 2, "statement": "Ik heb zin om dingen te ondernemen."},
+        {"id": 3, "statement": "Ik kan me goed concentreren."},
+        {"id": 4, "statement": "Ik voel me futloos."},
+        {"id": 5, "statement": "Ik onderneem veel."},
+        {"id": 6, "statement": "Ik ben lichamelijk moe."},
+        {"id": 7, "statement": "Ik ben in staat om te doen wat ik wil."},
+        {"id": 8, "statement": "Ik kan me moeilijk concentreren."},
+        {"id": 9, "statement": "Ik voel me slap."},
+        {"id": 10, "statement": "Ik ben lichamelijk actief."},
+        {"id": 11, "statement": "Mijn concentratie is slecht."},
+        {"id": 12, "statement": "Ik voel me uitputtend moe."},
+        {"id": 13, "statement": "Het kost me moeite me te concentreren."},
+        {"id": 14, "statement": "Ik voel me lusteloos."},
+        {"id": 15, "statement": "Ik heb veel energie."},
+        {"id": 16, "statement": "Ik ben snel vermoeid."},
+        {"id": 17, "statement": "Ik ben overactief."},
+        {"id": 18, "statement": "Ik voel me gemotiveerd."},
+        {"id": 19, "statement": "Ik kan goed focussen."},
+        {"id": 20, "statement": "Ik ben mentaal moe."}
+      ]
+    },{"source": "Vragenlijst Doel Sportdocent",
+      "description": "Vragen om doel als sportdocent te bepalen en commitment te onderbouwen.",
+      "questions": [
+        {"question": "Waarom heb je ervoor gekozen om sportdocent te worden?", "underpinning": "Belangrijk om motivatie te begrijpen en te verwoorden voor toewijding."},
+        {"question": "Wat zijn de belangrijkste waarden die je wilt overbrengen aan je leerlingen door middel van sport?", "underpinning": "Identificeer kernwaarden zoals teamwork, discipline, respect, gezondheid, doorzettingsvermogen. Deze vormen de basis voor commitment."},
+        {"question": "Hoe wil je het leven van je leerlingen beïnvloeden door middel van sport?", "underpinning": "Reflecteer op impact (zelfvertrouwen, gezonde levensstijl, persoonlijke groei, plezier in bewegen)."},
+        {"question": "Welke specifieke doelen wil je bereiken met je leerlingen tijdens je lesprogramma?", "underpinning": "Formuleer concrete doelen (verbeteren technische vaardigheden, fysieke fitheid, sociale vaardigheden, leiderschap)."},
+        {"question": "Op welke manieren wil je een positieve en stimulerende leeromgeving creëren?", "underpinning": "Denk na over de strategieën en benaderingen die je wilt gebruiken om een veilige, inclusieve en motiverende omgeving te creëren."},
+        {"question": "Hoe wil je jezelf blijven ontwikkelen als sportdocent?", "underpinning": "Committeer je aan voortdurende professionele groei (bijscholing, workshops, conferenties, nieuwe methoden)."},
+        {"question": "Welke rol wil je spelen als mentor en rolmodel voor je leerlingen?", "underpinning": "Reflecteer op de verantwoordelijkheid om een positief voorbeeld te zijn."},
+        {"question": "Hoe wil je samenwerken met collega's, ouders en andere belanghebbenden om het leerproces van je leerlingen te ondersteunen?", "underpinning": "Erken het belang van samenwerking voor een holistische onderwijservaring en verhoogde betrokkenheid."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "business_knowledge_db": [
+    {
+      "category": "Bedrijfscultuur",
+      "name": "Praktische Gids voor HR-managers: Zo creëer je een sterke bedrijfscultuur",
+      "introduction": "Bedrijfscultuur is een sterk concurrentievoordeel dat medewerkers identificeert met het bedrijf, de tevredenheid en productiviteit intern verhoogt, en extern helpt bij het werven van de juiste kandidaten. Vereist bereidheid tot verandering en een toolbox met concrete, eenvoudig te implementeren maatregelen.",
+      "benefits": [
+        "Vermindert personeelsverloop (gem. 48,4% negatieve cultuur vs. 13,9% sterke cultuur).",
+        "Vereenvoudigt de werving (trekt juiste/gekwalificeerde/diverse sollicitanten aan, verhoogt aanbevelingen).",
+        "Bevordert de werksfeer (samenwerking, werkomgeving, missie, waardeoriëntatie 20% hoger beoordeeld).",
+        "Verhoogt de omzet (trekt hoogopgeleide medewerkers aan, kan leiden tot 33% hogere omzet).",
+        "Stimuleert de groei (gemotiveerde werknemers creëren toegevoegde waarde).",
+        "Bespaart geld (ongemotiveerde werknemers kosten veel geld)."
+      ],
+      "hr_role": "Communicator, ambassadeur, bemiddelaar en kwaliteitsbeheerder. Coördineert, leidt en begeleidt het proces vanuit topmanagement en medewerkers.",
+      "how_to_create": [
+        {
+          "step": "Doelen vastleggen",
+          "description": "Eerlijke inventarisatie van huidige staat, gewenste staat (2, 5, 10 jaar), benodigde waarden/gedragingen voor toekomstige uitdagingen. Bedrijfscultuur ondersteunt strategische bedrijfsdoelen.",
+          "questions": [
+            "Waar staan we op dit moment?",
+            "Waar willen we over 2, 5 of 10 jaar staan?",
+            "Welke waarden of gedragingen hebben we nodig om toekomstige uitdagingen het hoofd te bieden?",
+            "Wat definieert ons als bedrijf en als team? Wat vinden wij belangrijk?",
+            "Hoe werken we op dit moment? Hoe willen we (samen)werken?",
+            "Volgens welke (onbewuste) waarden handelen we? Welke waarden moeten we herdefiniëren om onze doelen te bereiken?"
+          ]
+        },
+        {
+          "step": "Waarden definiëren",
+          "description": "Waarden zijn de spelregels van de bedrijfscultuur en oriëntatiepunten voor gedrag. Ze helpen bij werving, beoordeling sollicitanten, besluitvorming, prioriteren taken en aantrekken klanten/partners.",
+          "process": [
+            "Coöperatieve aanpak: Cultuur opbouwen door degenen die er elke dag mee te maken hebben.",
+            "Richt een 'Culture Club' op: Diverse medewerkers en stakeholders (senior verkoopmedewerker, secretaresse, personen van 'oude cultuur'). Start met informatieve bijeenkomst.",
+            "Brainstormen en inperken: Drie centrale vragen (Wat maakt ons uniek? Ideale medewerker? Waarden voor toekomstige uitdagingen?). Definieer 3-6 waarden, gedetailleerd beschrijven. Vermijd open deuren (inzet, eerlijkheid).",
+            "Maak waarden tastbaar: Vertaal naar concreet gedrag (werkwaarden). Verantwoordelijkheid overdragen aan teams. Regelmatige controlemomenten en feedbackgesprekken. Start 'cultuurinitiatieven' (bijv. sociale verantwoordelijkheid, plastic verminderen)."
+          ]
+        },
+        {
+          "step": "Waarden verankeren",
+          "description": "Waarden moeten voortdurend onder de aandacht gebracht worden en in het DNA van het bedrijf gaan zitten.",
+          "methods": [
+            "Prioriteren (werving en onboarding): Vermeld culturele aspecten in personeelsadvertenties, vraag ernaar in sollicitatiegesprekken. Bereid medewerkers voor op interviewerrol. Onboarding (nieuwkomers cultuur aanleren, input afdelingshoofden/bedrijfsleiding, samen eten).",
+            "Inprenten (zichtbaarheid en storytelling): Print waarden uit en hang ze zichtbaar op (ingang, koffieautomaat, keuken). Gebruik storytelling: beschrijf situaties waarin medewerker volgens waarden handelde (bijv. 'waardeverhaal' op personeelsbijeenkomst).",
+            "Demonstreren (leidinggevenden als rolmodellen): Leidinggevenden leven waarden voor en treden op bij strijdig gedrag. Voorbereiden op rolmodel functie (bijv. communicatietraining).",
+            "Integreren (tools en teamevenementen): Concrete afspraken en maatregelen voor dagelijkse gang van zaken. Voorbeelden: Feelgoodbuddy (begeleidt nieuwkomers), Lunchroulette (medewerkers lunchen met elkaar), Waardering to go (openlijk waardering tonen), Vrijmibo's (socializen), Regelmatige team-evenementen (wildwatertocht, skiweekend, lamawandeling).",
+            "Employer branding: Actief beleefde bedrijfscultuur biedt stof voor employer branding (foto's, sociale media)."
+          ]
+        },
+        {
+          "step": "Cultuur meten en bijsturen",
+          "description": "Essentieel om te weten of maatregelen het gewenste effect hebben en om bij te sturen. Cultuur is een reis die actief gestuurd moet worden.",
+          "methods": [
+            "Verzamel feedback: Regelmatige korte enquêtes (bijv. via app Culturizer of teambay). Open dialoog tussen medewerkers en leidinggevenden.",
+            "Meet de productiviteitsscore: Arbeidsproductiviteit = (arbeidsresultaat in cijfers) / (arbeidsinspanningen in tijd).",
+            "Houd je ogen en oren open: Let op gedrag (bijv. koffie aanbieden aan bezoekers). HR moet bij waarschuwingssignalen actie ondernemen.",
+            "Denk na over je waarden: Cultuur is dynamisch, pas aan bij nieuwe medewerkers/vestigingen of veranderende doelen."
+          ],
+          "indicators": "Toenemend verzuim = slechte bedrijfscultuur. Dalend ziekteverzuim = maatregelen sorteren effect."
+        }
+      ],
+      "experts_cited": [
+        {"name": "Thomas Frühwein", "role": "Bedrijfscultuurexpert, oprichter Frühwein - 100% Unternehmenskultur."},
+        {"name": "Dr. Georg Wolfgang", "role": "Oprichter bedrijfscultuurapp Culturizer."},
+        {"name": "Hanno Renner", "role": "Oprichter en CEO Personio."},
+        {"name": "Claude Mancini", "role": "Hoofd HR Statista."},
+        {"name": "Sarah Bohlmeier", "role": "Oprichter en directeur teambay."}
+      ]
+    },
+    {
+      "category": "Bedrijfsstructuur",
+      "name": "The Energy Control Company",
+      "description": "Visie en structuur van The Energy Control Company, gericht op het hervormen van de gezondheidszorg en sportbranche door de Energy Control Methode.",
+      "mission_statement": "Een blijvende verandering doorvoeren in de gezondheidszorg en maatschappij via een gefaciliteerd netwerk van goed opgeleide mensen, die welzijn op een integrale manier benaderen met ademhaling, sport, techniek en wetenschap op basis van de EC methode.",
+      "identity_and_values": [
+        "Transparantie: Bedrijfsmiddelen, producten, verdienmodel inzichtelijk; toegevoegde waarde eindgebruiker centraal.",
+        "Maatwerk: Opties voor coaches en eindgebruikers maximaal verkennen; concrete voordelen/verschillen duidelijk maken.",
+        "Samenwerking: Hoge kwaliteit in samenwerking en communicatie met coaches en eindgebruikers (bijv. email templates). Samenwerking met bonden en topsporters is belangrijk.",
+        "Interoperabiliteit & Integraliteit: Diensten/platforms/tools makkelijk te koppelen aan andere organisaties (app, wearable, persoonlijke coaching). Perfecte werking app leidend.",
+        "Innovatief: Op het voorfront van innovatie op gebied van wetenschap en techniek (publicaties).",
+        "Nauwkeurigheid: Meetmethode is benchmark van nauwkeurigheid, kan concurreren met ziekenhuizen."
+      ],
+      "history": {
+        "origin": "Ontwikkeld in Huizen door Stans van der Poel (inspanningsfysioloog, longfunctielaborante, sportdocent, onderwijskundige).",
+        "initial_goal": "Kennis overdragen, vaardigheden verschaffen (inspanningstesten beoordelen, trainingsprogramma's maken, gezondheidsproblematiek herkennen).",
+        "early_application": "30 jaar succesvol toegepast in fysio's, sportscholen, revalidatiecentra (kleinschalig/lokaal).",
+        "expansion_2021": "Anno 2021: uitdragen methode, bestand coaches fors uitbreiden, gezondheidszorg en sportbranche revolutionair hervormen met meetbare duursport."
+      },
+      "organizational_structure": {
+        "principle": "Wijze waarop taken zijn verdeeld en afstemming tussen deeltaken tot stand is gebracht (verdeling activiteiten over afdelingen en taken werknemers).",
+        "foundation": "Coaches en eindgebruikers staan aan de basis. Belangrijk om deze groep goed in te lichten en mee te nemen in werking en opzet methode (incl. inkijk interne bedrijfsstructuur).",
+        "illustration": "Maaike en Hermen (onderste tandwiel), Steven (CEO), Richard (CTO) - tandwielen beïnvloeden en stimuleren elkaar (optimale weergave samenwerking).",
+        "key_personnel": [
+          {"name": "Steven de Graaf (1994)", "role": "Algemeen directeur", "experience": "15 jaar ervaring in methode, specialist EC-methode. Inhoudelijk onderlegd, perfecte koppeling met partners/eindgebruikers. Ruime ervaring intakegesprekken/testen. Anno 2021: focus op commerciële tak, kennisoverdracht/facilitatie."},
+          {"name": "Richard Tolboom (1996)", "role": "Technisch directeur en IT specialist", "experience": "Ruim 7 jaar ervaring coderen/onderhouden apps/websites. Verantwoordelijk technische gang van zaken (EC app-ontwikkelaar)."}
+        ]
+      },
+      "professionalization": "Groei en uitbreiding toetsen aan kernwaarden (bijv. verdienmodellen op basis van persoonlijke voorkeur). IT en bedrijfsmiddelen: groei gepaard met samenwerking en interoperabiliteit. Nieuwe ontwikkelingen app, website, software (CTO Richard verantwoordelijk)."
+    },
+    {
+      "category": "Leiderschap & Management",
+      "name": "De Macht (naar Kotter)",
+      "description": "Analyse van leiderschap en machtsbehoefte, met onderscheid tussen persoonlijke macht en gedelegeerde macht.",
+      "successful_leaders": {
+        "motivation": "Gedreven door een machtsbehoefte (vermogen anderen te mobiliseren voor hun agenda's), maar deze macht staat in dienst van een doel buiten henzelf.",
+        "approach": "Inspireren, beste krachten mobiliseren, zelf in dienst staan van 'hoger doel', juichen elk initiatief toe dat doel dient, stimuleren medezeggenschap, delegatie en persoonlijke verantwoordelijkheid, eisen meedenken meer dan gehoorzaamheid, regisseren netwerk voor functioneren organisatie."
+      },
+      "personal_power_leaders": "Weten alleen mensen aan zichzelf te binden, niet aan het gemeenschappelijke doel."
+    },
+    {
+      "category": "Marktwerking & Klanttrends (Sportdocent)",
+      "name": "Invloed van Marktwerking en Klanttrends op Sportdocenten",
+      "description": "Analyse van de dynamiek en concurrentie in de sport- en onderwijssector en het belang van het begrijpen van klanttrends.",
+      "market_dynamics": {
+        "diversity_in_sports_offering": "Marktwerking kan leiden tot opkomst populaire sporten; belangrijk om aanbod aan te passen aan vraag (bekwamen in nieuwe sporten).",
+        "competition_and_differentiation": "Concurrentie vereist onderscheiding door unieke/kwalitatieve lessen (lesmethoden aanpassen, speciale programma's, inspelen op specifieke behoeften).",
+        "advantages": ["Diversificatie van sportaanbod", "Concurrentie stimuleert kwaliteit."],
+        "disadvantages": ["Veranderende vraag en onzekerheid", "Toenemende concurrentie."]
+      },
+      "customer_trends_interests": {
+        "changing_sports": "Klanten wisselen van sport (persoonlijke voorkeuren, trends, variatie); docent moet flexibel zijn en bijscholen in verschillende sporten.",
+        "development_in_different_subjects": "Docenten kunnen zich ontwikkelen in verschillende vakken/niveaus (bijv. verschillende sportdisciplines, basis/voortgezet onderwijs).",
+        "advantages": ["Aansluiting bij behoeften van klanten", "Kansen voor groei en ontwikkeling."],
+        "disadvantages": ["Continu aanpassen en bijscholen (tijdrovend, kostbaar).", "Risico op verandering en onzekerheid van trends."]
+      },
+      "strategies_for_success": [
+        "Onderzoek en analyse: Marktonderzoek (sporttrends, vraag, concurrentie), analyse interesses/behoeften klanten (enquêtes, interviews).",
+        "Diversificatie sportaanbod: Ontwikkel expertise in verschillende sportdisciplines, varieer trainingsmethoden/spelvormen/intensiteitsniveaus.",
+        "Aanpassing aan klanttrends: Blijf op de hoogte, introduceer nieuwe activiteiten, pas programma's aan. Houd rekening met specifieke doelgroepen (kinderen, ouderen, speciale behoeften).",
+        "Samenwerking en netwerken: Werk samen met andere sportprofessionals/organisaties (gezamenlijke evenementen, doorverwijzingen), bouw netwerk op.",
+        "Marketing en promotie: Sterke online aanwezigheid (website, sociale media, advertenties), mond-tot-mondreclame (tevreden klanten aanmoedigen, beloon verwijzingen)."
+      ],
+      "notes": "Belangrijk om flexibel te zijn, aan te passen aan veranderingen, continu te leren en groeien. Open staan voor feedback."
+    }
+  ]
+}

@@ -1,0 +1,4377 @@
+[
+  {
+    "category": "Basics",
+    "name": "Displacement",
+    "description": "The shortest distance from the initial to the final position of a point.",
+    "formula": "$$\\Delta x = x_f - x_i$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Velocity (Average)",
+    "description": "The rate at which an object changes its position.",
+    "formula": "$$v_{avg} = \\frac{\\Delta x}{\\Delta t}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Acceleration (Average)",
+    "description": "The rate at which an object changes its velocity.",
+    "formula": "$$a_{avg} = \\frac{\\Delta v}{\\Delta t}$$",
+    "units": "meters per second squared (m/s²)"
+  },
+  {
+    "category": "Basics",
+    "name": "Newton's Second Law of Motion",
+    "description": "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.",
+    "formula": "$$F_{net} = ma$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Weight",
+    "description": "The force exerted on an object due to gravity.",
+    "formula": "$$W = mg$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Kinetic Energy",
+    "description": "The energy possessed by an object due to its motion.",
+    "formula": "$$KE = \\frac{1}{2}mv^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Gravitational Potential Energy",
+    "description": "The energy an object possesses due to its position in a gravitational field.",
+    "formula": "$$PE_g = mgh$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Work Done by a Constant Force",
+    "description": "The energy transferred to or from an object by a force acting over a displacement.",
+    "formula": "$$W = Fd\\cos\\theta$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Power",
+    "description": "The rate at which work is done or energy is transferred.",
+    "formula": "$$P = \\frac{W}{t}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Basics",
+    "name": "Momentum",
+    "description": "A measure of the mass in motion of an object.",
+    "formula": "$$p = mv$$",
+    "units": "kilogram meters per second (kg·m/s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Impulse",
+    "description": "The change in momentum of an object.",
+    "formula": "$$J = F\\Delta t = \\Delta p$$",
+    "units": "Newton seconds (N·s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Density",
+    "description": "Mass per unit volume of a substance.",
+    "formula": "$$\\rho = \\frac{m}{V}$$",
+    "units": "kilograms per cubic meter (kg/m³)"
+  },
+  {
+    "category": "Basics",
+    "name": "Pressure",
+    "description": "Force applied perpendicular to the surface of an object per unit area over which that force is distributed.",
+    "formula": "$$P = \\frac{F}{A}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Basics",
+    "name": "Hooke's Law (Spring Force)",
+    "description": "The force required to extend or compress a spring is directly proportional to the distance of that extension or compression.",
+    "formula": "$$F_s = -kx$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Period of a Simple Pendulum",
+    "description": "The time taken for one complete oscillation of a simple pendulum.",
+    "formula": "$$T = 2\\pi\\sqrt{\\frac{L}{g}}$$",
+    "units": "seconds (s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Frequency",
+    "description": "The number of cycles or oscillations per unit time.",
+    "formula": "$$f = \\frac{1}{T}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Basics",
+    "name": "Wave Speed",
+    "description": "The speed at which a wave travels through a medium.",
+    "formula": "$$v = f\\lambda$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Ohm's Law",
+    "description": "The current through a conductor between two points is directly proportional to the voltage across the two points.",
+    "formula": "$$V = IR$$",
+    "units": "Volts (V)"
+  },
+  {
+    "category": "Basics",
+    "name": "Electric Power",
+    "description": "The rate at which electrical energy is transferred.",
+    "formula": "$$P = IV = I^2R = \\frac{V^2}{R}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Basics",
+    "name": "Capacitance",
+    "description": "The ability of a system to store an electric charge.",
+    "formula": "$$C = \\frac{Q}{V}$$",
+    "units": "Farads (F)"
+  },
+  {
+    "category": "Basics",
+    "name": "Energy Stored in a Capacitor",
+    "description": "The electrical potential energy stored in the electric field of a capacitor.",
+    "formula": "$$E = \\frac{1}{2}CV^2 = \\frac{1}{2}\\frac{Q^2}{C}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Heat Transfer (Conduction)",
+    "description": "The transfer of thermal energy between objects in direct contact.",
+    "formula": "$$Q = \\frac{kA\\Delta T t}{L}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Specific Heat Capacity",
+    "description": "The amount of heat required to raise the temperature of one unit mass of a substance by one degree Celsius or Kelvin.",
+    "formula": "$$Q = mc\\Delta T$$",
+    "units": "Joules per kilogram Kelvin (J/kg·K)"
+  },
+  {
+    "category": "Basics",
+    "name": "Ideal Gas Law",
+    "description": "Relates pressure, volume, temperature, and the number of moles of an ideal gas.",
+    "formula": "$$PV = nRT$$",
+    "units": "Pascals (Pa), cubic meters (m³), moles (mol), Kelvin (K)"
+  },
+  {
+    "category": "Basics",
+    "name": "Refraction (Snell's Law)",
+    "description": "Describes the relationship between the angles of incidence and refraction, when light passes through a boundary between two different isotropic media.",
+    "formula": "$$n_1\\sin\\theta_1 = n_2\\sin\\theta_2$$",
+    "units": "dimensionless (angles in degrees or radians)"
+  },
+  {
+    "category": "Basics",
+    "name": "Lens Equation (Thin Lens)",
+    "description": "Relates the focal length of a lens to the distances of the object and image from the lens.",
+    "formula": "$$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Magnification (Thin Lens)",
+    "description": "The ratio of the image height to the object height.",
+    "formula": "$$M = \\frac{h_i}{h_o} = -\\frac{d_i}{d_o}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Basics",
+    "name": "Doppler Effect (Sound)",
+    "description": "The change in frequency or wavelength of a wave in relation to an observer who is moving relative to the wave source.",
+    "formula": "$$f' = f\\frac{(v \\pm v_o)}{(v \\mp v_s)}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Basics",
+    "name": "Sound Intensity",
+    "description": "The power carried by sound waves per unit area in a direction perpendicular to that area.",
+    "formula": "$$I = \\frac{P}{A}$$",
+    "units": "Watts per square meter (W/m²)"
+  },
+  {
+    "category": "Basics",
+    "name": "Sound Intensity Level (Decibels)",
+    "description": "A logarithmic measure of the sound intensity relative to a reference intensity.",
+    "formula": "$$\\beta = 10\\log_{10}\\left(\\frac{I}{I_0}\\right)$$",
+    "units": "Decibels (dB)"
+  },
+  {
+    "category": "Basics",
+    "name": "Kinematic Equation 1 (Constant Acceleration)",
+    "description": "Relates final velocity, initial velocity, acceleration, and time.",
+    "formula": "$$v = u + at$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Kinematic Equation 2 (Constant Acceleration)",
+    "description": "Relates displacement, initial velocity, final velocity, and time.",
+    "formula": "$$s = \\frac{(u+v)}{2}t$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Kinematic Equation 3 (Constant Acceleration)",
+    "description": "Relates final velocity, initial velocity, acceleration, and displacement.",
+    "formula": "$$v^2 = u^2 + 2as$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Kinematic Equation 4 (Constant Acceleration)",
+    "description": "Relates displacement, initial velocity, acceleration, and time.",
+    "formula": "$$s = ut + \\frac{1}{2}at^2$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Newton's First Law of Motion",
+    "description": "An object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.",
+    "formula": "$$F_{net} = 0 \\Rightarrow a = 0$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Newton's Third Law of Motion",
+    "description": "For every action, there is an equal and opposite reaction.",
+    "formula": "$$F_{AB} = -F_{BA}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Gravitational Force (Universal)",
+    "description": "The attractive force between any two masses.",
+    "formula": "$$F_g = \\frac{GMm}{r^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Elastic Potential Energy (Spring)",
+    "description": "The energy stored in a spring when it is stretched or compressed.",
+    "formula": "$$PE_s = \\frac{1}{2}kx^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Power (Force and Velocity)",
+    "description": "The rate at which work is done by a force moving an object.",
+    "formula": "$$P = Fv\\cos\\theta$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Basics",
+    "name": "Angular Velocity",
+    "description": "The rate of change of angular displacement.",
+    "formula": "$$\\omega = \\frac{\\Delta\\theta}{\\Delta t}$$",
+    "units": "radians per second (rad/s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Angular Acceleration",
+    "description": "The rate of change of angular velocity.",
+    "formula": "$$\\alpha = \\frac{\\Delta\\omega}{\\Delta t}$$",
+    "units": "radians per second squared (rad/s²)"
+  },
+  {
+    "category": "Basics",
+    "name": "Torque",
+    "description": "A twisting force that tends to cause rotation.",
+    "formula": "$$\\tau = rF\\sin\\theta$$",
+    "units": "Newton meters (N·m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Moment of Inertia (Point Mass)",
+    "description": "A measure of an object's resistance to changes in its rotation for a point mass.",
+    "formula": "$$I = mr^2$$",
+    "units": "kilogram meters squared (kg·m²)"
+  },
+  {
+    "category": "Basics",
+    "name": "Angular Momentum",
+    "description": "The rotational equivalent of linear momentum.",
+    "formula": "$$L = I\\omega$$",
+    "units": "kilogram meters squared per second (kg·m²/s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Rotational Kinetic Energy",
+    "description": "The kinetic energy an object possesses due to its rotation.",
+    "formula": "$$KE_{rot} = \\frac{1}{2}I\\omega^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Centripetal Acceleration",
+    "description": "The acceleration directed towards the center of a circular path.",
+    "formula": "$$a_c = \\frac{v^2}{r} = \\omega^2 r$$",
+    "units": "meters per second squared (m/s²)"
+  },
+  {
+    "category": "Basics",
+    "name": "Centripetal Force",
+    "description": "The force required to keep an object moving in a circular path.",
+    "formula": "$$F_c = \\frac{mv^2}{r} = m\\omega^2 r$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Period of a Mass-Spring System",
+    "description": "The time taken for one complete oscillation of a mass attached to a spring.",
+    "formula": "$$T = 2\\pi\\sqrt{\\frac{m}{k}}$$",
+    "units": "seconds (s)"
+  },
+  {
+    "category": "Basics",
+    "name": "Coulomb's Law",
+    "description": "Quantifies the force between two point charges.",
+    "formula": "$$F = k\\frac{|q_1 q_2|}{r^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Electric Field (Point Charge)",
+    "description": "The electric field strength produced by a point charge.",
+    "formula": "$$E = k\\frac{|q|}{r^2}$$",
+    "units": "Newtons per Coulomb (N/C) or Volts per meter (V/m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Electric Potential (Point Charge)",
+    "description": "The electric potential at a distance from a point charge.",
+    "formula": "$$V = k\\frac{q}{r}$$",
+    "units": "Volts (V)"
+  },
+  {
+    "category": "Basics",
+    "name": "Magnetic Force on a Moving Charge (Lorentz Force)",
+    "description": "The force exerted by a magnetic field on a moving electric charge.",
+    "formula": "$$\\mathbf{F} = q(\\mathbf{v} \\times \\mathbf{B})$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Magnetic Force on a Current-Carrying Wire",
+    "description": "The force exerted by a magnetic field on a current-carrying wire.",
+    "formula": "$$\\mathbf{F} = I(\\mathbf{L} \\times \\mathbf{B})$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Basics",
+    "name": "Magnetic Flux",
+    "description": "A measure of the total magnetic field passing through a given area.",
+    "formula": "$$\\Phi_B = BA\\cos\\theta$$",
+    "units": "Webers (Wb)"
+  },
+  {
+    "category": "Basics",
+    "name": "Faraday's Law of Induction",
+    "description": "States that a time-varying magnetic field produces an electric field (induced EMF).",
+    "formula": "$$\\mathcal{E} = -N\\frac{\\Delta\\Phi_B}{\\Delta t}$$",
+    "units": "Volts (V)"
+  },
+  {
+    "category": "Basics",
+    "name": "Motional EMF",
+    "description": "The electromotive force induced across a conductor moving through a magnetic field.",
+    "formula": "$$\\mathcal{E} = BLv$$",
+    "units": "Volts (V)"
+  },
+  {
+    "category": "Basics",
+    "name": "Internal Energy Change (First Law of Thermodynamics)",
+    "description": "The change in internal energy of a system, related to heat and work.",
+    "formula": "$$\\Delta U = q + w$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Work Done by Gas (Constant Pressure)",
+    "description": "The work done by a gas expanding against a constant external pressure.",
+    "formula": "$$w = -P_{ext}\\Delta V$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Enthalpy Change (Constant Pressure)",
+    "description": "The heat change of a system at constant pressure.",
+    "formula": "$$\\Delta H = \\Delta U + P\\Delta V$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Entropy Change (Reversible Process)",
+    "description": "The change in disorder for a reversible heat flow at constant temperature.",
+    "formula": "$$\\Delta S = \\frac{q_{rev}}{T}$$",
+    "units": "Joules per Kelvin (J/K)"
+  },
+  {
+    "category": "Basics",
+    "name": "Gibbs Free Energy Change",
+    "description": "Predicts the spontaneity of a process at constant temperature and pressure.",
+    "formula": "$$\\Delta G = \\Delta H - T\\Delta S$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Basics",
+    "name": "Wave Equation (1D)",
+    "description": "Describes the propagation of a one-dimensional wave.",
+    "formula": "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2}\\frac{\\partial^2 y}{\\partial t^2}$$",
+    "units": "dimensionless (for displacement y)"
+  },
+  {
+    "category": "Basics",
+    "name": "Intensity (Spherical Wave)",
+    "description": "The power per unit area carried by a spherical wave.",
+    "formula": "$$I = \\frac{P}{4\\pi r^2}$$",
+    "units": "Watts per square meter (W/m²)"
+  },
+  {
+    "category": "Basics",
+    "name": "Constructive Interference (Double Slit)",
+    "description": "Condition for bright fringes in a double-slit experiment.",
+    "formula": "$$d\\sin\\theta = m\\lambda$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Destructive Interference (Double Slit)",
+    "description": "Condition for dark fringes in a double-slit experiment.",
+    "formula": "$$d\\sin\\theta = (m + \\frac{1}{2})\\lambda$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Single Slit Diffraction (Minima)",
+    "description": "Condition for dark fringes in a single-slit diffraction pattern.",
+    "formula": "$$a\\sin\\theta = m\\lambda$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Standing Waves on a String (Wavelength)",
+    "description": "Wavelengths for standing waves on a string with fixed ends.",
+    "formula": "$$\\lambda_n = \\frac{2L}{n}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Basics",
+    "name": "Standing Waves on a String (Frequency)",
+    "description": "Frequencies for standing waves on a string with fixed ends.",
+    "formula": "$$f_n = \\frac{nv}{2L}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Stress (Normal)",
+    "description": "The internal force per unit area acting perpendicular to a surface within a material.",
+    "formula": "$$\\sigma = \\frac{F}{A}$$",
+    "units": "Pascals (Pa) or psi"
+  },
+  {
+    "category": "Engineering",
+    "name": "Strain (Normal)",
+    "description": "The deformation of a material in response to an applied force, expressed as the change in length per unit original length.",
+    "formula": "$$\\epsilon = \\frac{\\Delta L}{L_0}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Young's Modulus (Modulus of Elasticity)",
+    "description": "A measure of the stiffness of an elastic material, defined as the ratio of stress to strain.",
+    "formula": "$$E = \\frac{\\sigma}{\\epsilon}$$",
+    "units": "Pascals (Pa) or psi"
+  },
+  {
+    "category": "Engineering",
+    "name": "Shear Stress",
+    "description": "The internal force per unit area acting parallel to a surface within a material.",
+    "formula": "$$\\tau = \\frac{F}{A}$$",
+    "units": "Pascals (Pa) or psi"
+  },
+  {
+    "category": "Engineering",
+    "name": "Shear Strain",
+    "description": "The angular deformation of a material due to shear stress.",
+    "formula": "$$\\gamma = \\frac{\\Delta x}{h}$$",
+    "units": "dimensionless (radians)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Shear Modulus (Modulus of Rigidity)",
+    "description": "A measure of the resistance to shear deformation.",
+    "formula": "$$G = \\frac{\\tau}{\\gamma}$$",
+    "units": "Pascals (Pa) or psi"
+  },
+  {
+    "category": "Engineering",
+    "name": "Bulk Modulus",
+    "description": "A measure of a fluid's or solid's resistance to compression.",
+    "formula": "$$K = -V\\frac{\\Delta P}{\\Delta V}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Bernoulli's Principle",
+    "description": "States that for an incompressible, inviscid fluid in steady flow, an increase in the speed of the fluid occurs simultaneously with a decrease in pressure or a decrease in the fluid's potential energy.",
+    "formula": "$$P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Continuity Equation (Fluid Dynamics)",
+    "description": "States that for an incompressible fluid, the mass flow rate must remain constant along a streamline.",
+    "formula": "$$A_1v_1 = A_2v_2$$",
+    "units": "cubic meters per second (m³/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Volumetric Flow Rate",
+    "description": "The volume of fluid passing through a given cross-sectional area per unit time.",
+    "formula": "$$Q = Av$$",
+    "units": "cubic meters per second (m³/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Reynolds Number",
+    "description": "A dimensionless quantity used to predict flow patterns in different fluid flow situations.",
+    "formula": "$$Re = \\frac{\\rho v L}{\\mu}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Heat Transfer (Convection)",
+    "description": "The transfer of heat by the movement of a fluid.",
+    "formula": "$$Q = hA\\Delta T t$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Heat Transfer (Radiation - Stefan-Boltzmann Law)",
+    "description": "The total energy radiated per unit surface area of a black body across all wavelengths per unit time is directly proportional to the fourth power of the black body's thermodynamic temperature.",
+    "formula": "$$P = \\epsilon\\sigma A T^4$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Thermal Resistance (Conduction)",
+    "description": "A measure of a material's ability to resist the flow of heat.",
+    "formula": "$$R_{th} = \\frac{L}{kA}$$",
+    "units": "Kelvin per Watt (K/W)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Coefficient of Thermal Expansion (Linear)",
+    "description": "The fractional change in length per unit change in temperature.",
+    "formula": "$$\\Delta L = \\alpha L_0 \\Delta T$$",
+    "units": "per Kelvin (K⁻¹)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Mechanical Advantage",
+    "description": "The ratio of the output force to the input force in a machine.",
+    "formula": "$$MA = \\frac{F_{out}}{F_{in}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Efficiency",
+    "description": "The ratio of useful energy output to total energy input, often expressed as a percentage.",
+    "formula": "$$\\eta = \\frac{\\text{Energy Output}}{\\text{Energy Input}}$$",
+    "units": "dimensionless (or %)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Resistors in Series",
+    "description": "The total resistance of resistors connected in series is the sum of their individual resistances.",
+    "formula": "$$R_{total} = R_1 + R_2 + ... + R_n$$",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Resistors in Parallel",
+    "description": "The reciprocal of the total resistance of resistors connected in parallel is the sum of the reciprocals of their individual resistances.",
+    "formula": "$$\\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + ... + \\frac{1}{R_n}$$",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Capacitors in Series",
+    "description": "The reciprocal of the total capacitance of capacitors connected in series is the sum of the reciprocals of their individual capacitances.",
+    "formula": "$$\\frac{1}{C_{total}} = \\frac{1}{C_1} + \\frac{1}{C_2} + ... + \\frac{1}{C_n}$$",
+    "units": "Farads (F)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Capacitors in Parallel",
+    "description": "The total capacitance of capacitors connected in parallel is the sum of their individual capacitances.",
+    "formula": "$$C_{total} = C_1 + C_2 + ... + C_n$$",
+    "units": "Farads (F)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Inductance",
+    "description": "The property of an electrical conductor by which a change in current through it induces an electromotive force (voltage) in both the conductor itself and in any nearby conductors.",
+    "formula": "$$L = \\frac{\\Phi}{I}$$",
+    "units": "Henries (H)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Energy Stored in an Inductor",
+    "description": "The energy stored in the magnetic field of an inductor.",
+    "formula": "$$E = \\frac{1}{2}LI^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RC Circuit Time Constant",
+    "description": "The time required for the voltage across the capacitor to reach approximately 63.2% of its maximum value during charging or to fall to 36.8% during discharging.",
+    "formula": "$$\\tau = RC$$",
+    "units": "seconds (s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RL Circuit Time Constant",
+    "description": "The time required for the current in the inductor to reach approximately 63.2% of its maximum value during charging or to fall to 36.8% during discharging.",
+    "formula": "$$\\tau = \\frac{L}{R}$$",
+    "units": "seconds (s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Resonance Frequency (RLC Circuit)",
+    "description": "The frequency at which the inductive and capacitive reactances in an RLC circuit cancel each other out, leading to maximum current.",
+    "formula": "$$f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Coefficient of Performance (COP) - Heat Pump",
+    "description": "A measure of the efficiency of a heat pump, defined as the ratio of heat delivered to the work input.",
+    "formula": "$$COP_{HP} = \\frac{Q_H}{W}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Coefficient of Performance (COP) - Refrigerator",
+    "description": "A measure of the efficiency of a refrigerator, defined as the ratio of heat removed from the cold reservoir to the work input.",
+    "formula": "$$COP_{Ref} = \\frac{Q_C}{W}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Specific Impulse (Rocketry)",
+    "description": "A measure of the efficiency of a rocket engine, representing the thrust per unit mass flow rate of propellant.",
+    "formula": "$$I_{sp} = \\frac{F}{\\dot{m}g_0}$$",
+    "units": "seconds (s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Thrust (Rocketry)",
+    "description": "The force that propels a rocket, generated by the expulsion of high-velocity exhaust gases.",
+    "formula": "$$F = \\dot{m}v_e + (P_e - P_a)A_e$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "D'Alembert's Principle",
+    "description": "States that the sum of the differences between the forces acting on a system of particles and the time derivatives of the momenta of the particles along any virtual displacement is zero.",
+    "formula": "$$\\sum_i (F_i - m_i a_i) \\cdot \\delta r_i = 0$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Euler-Bernoulli Beam Equation",
+    "description": "Describes the relationship between the beam's deflection and the applied load.",
+    "formula": "$$EI\\frac{d^4w}{dx^4} = q(x)$$",
+    "units": "Newtons per meter (N/m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Torsion Equation (Shaft)",
+    "description": "Relates the applied torque to the shear stress and angle of twist in a circular shaft.",
+    "formula": "$$\\frac{T}{J} = \\frac{\\tau}{r} = \\frac{G\\phi}{L}$$",
+    "units": "Pascals (Pa), radians (rad)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Critical Buckling Load (Euler's Formula)",
+    "description": "The maximum axial compressive force that a slender column can withstand without buckling.",
+    "formula": "$$P_{cr} = \\frac{\\pi^2 EI}{(KL)^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Heat Engine Efficiency (Carnot)",
+    "description": "The maximum possible efficiency for a heat engine operating between two temperatures.",
+    "formula": "$$\\eta_{Carnot} = 1 - \\frac{T_C}{T_H}$$",
+    "units": "dimensionless (or %)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Coefficient of Drag",
+    "description": "A dimensionless quantity that is used to quantify the drag or resistance of an object in a fluid environment.",
+    "formula": "$$F_D = \\frac{1}{2}\\rho v^2 C_D A$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Coefficient of Lift",
+    "description": "A dimensionless quantity that relates the lift generated by a lifting body to the fluid density, velocity, and reference area.",
+    "formula": "$$L = \\frac{1}{2}\\rho v^2 C_L A$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Flow Rate (Hagen-Poiseuille Equation)",
+    "description": "Describes the pressure drop in an incompressible Newtonian fluid flowing in a laminar flow through a long cylindrical pipe of constant circular cross-section.",
+    "formula": "$$Q = \\frac{\\pi r^4 \\Delta P}{8\\mu L}$$",
+    "units": "cubic meters per second (m³/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Hydrostatic Pressure",
+    "description": "The pressure exerted by a fluid at equilibrium at a given point within the fluid, due to the force of gravity.",
+    "formula": "$$P = \\rho gh$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Torque",
+    "description": "A twisting force that tends to cause rotation.",
+    "formula": "$$\\tau = rF\\sin\\theta$$",
+    "units": "Newton meters (N·m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Moment of Inertia",
+    "description": "A measure of an object's resistance to changes in its rotation.",
+    "formula": "$$I = \\sum mr^2$$ (for point masses)",
+    "units": "kilogram meters squared (kg·m²)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Angular Momentum",
+    "description": "The rotational equivalent of linear momentum.",
+    "formula": "$$L = I\\omega$$",
+    "units": "kilogram meters squared per second (kg·m²/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Rotational Kinetic Energy",
+    "description": "The kinetic energy an object possesses due to its rotation.",
+    "formula": "$$KE_{rot} = \\frac{1}{2}I\\omega^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Stress-Strain Curve (Yield Strength)",
+    "description": "The stress at which a material begins to deform plastically.",
+    "formula": "$$\\sigma_y$$ (value from curve)",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Stress-Strain Curve (Ultimate Tensile Strength)",
+    "description": "The maximum stress a material can withstand while being stretched or pulled before breaking.",
+    "formula": "$$\\sigma_{UTS}$$ (value from curve)",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Poisson's Ratio",
+    "description": "The ratio of transverse strain to axial strain.",
+    "formula": "$$\\nu = -\\frac{\\epsilon_{transverse}}{\\epsilon_{axial}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Thermal Conductivity",
+    "description": "A material's ability to conduct heat.",
+    "formula": "$$k$$ (material property)",
+    "units": "Watts per meter Kelvin (W/m·K)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Convection Heat Transfer Coefficient",
+    "description": "A measure of the rate of heat transfer by convection between a surface and a fluid.",
+    "formula": "$$h$$ (empirical value)",
+    "units": "Watts per square meter Kelvin (W/m²·K)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Radiation Emissivity",
+    "description": "A measure of a material's ability to emit thermal radiation.",
+    "formula": "$$\\epsilon$$ (dimensionless, 0 to 1)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Electrical Resistivity",
+    "description": "A measure of how strongly a material opposes the flow of electric current.",
+    "formula": "$$\\rho = R\\frac{A}{L}$$",
+    "units": "Ohm meters ($\\Omega \\cdot m$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Electrical Conductivity",
+    "description": "A measure of a material's ability to conduct electric current.",
+    "formula": "$$\\sigma = \\frac{1}{\\rho}$$",
+    "units": "Siemens per meter (S/m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Inductive Reactance",
+    "description": "The opposition of an inductor to a change in current, measured in ohms.",
+    "formula": "$$X_L = 2\\pi fL$$",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Capacitive Reactance",
+    "description": "The opposition of a capacitor to a change in voltage, measured in ohms.",
+    "formula": "$$X_C = \\frac{1}{2\\pi fC}$$",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Impedance (Series RLC)",
+    "description": "The total opposition to current flow in an AC circuit, combining resistance and reactance.",
+    "formula": "$$Z = \\sqrt{R^2 + (X_L - X_C)^2}$$",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Power Factor (AC Circuit)",
+    "description": "The ratio of the real power flowing to the load to the apparent power in the circuit.",
+    "formula": "$$PF = \\cos\\phi = \\frac{R}{Z}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Mean Free Path (Gas Dynamics)",
+    "description": "The average distance a particle (e.g., atom, molecule, photon) travels between successive collisions with other particles.",
+    "formula": "$$\\lambda = \\frac{1}{\\sqrt{2}\\pi d^2 n}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Viscosity (Dynamic)",
+    "description": "A measure of a fluid's resistance to flow.",
+    "formula": "$$\\tau = \\mu \\frac{du}{dy}$$",
+    "units": "Pascal seconds (Pa·s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Kinematic Viscosity",
+    "description": "The ratio of the dynamic viscosity to the density of the fluid.",
+    "formula": "$$\\nu = \\frac{\\mu}{\\rho}$$",
+    "units": "square meters per second (m²/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Surface Tension",
+    "description": "The cohesive forces between liquid molecules at the surface that cause the surface to behave like an elastic sheet.",
+    "formula": "$$\\gamma = \\frac{F}{L}$$",
+    "units": "Newtons per meter (N/m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Mass Flow Rate",
+    "description": "The rate at which mass flows through a system.",
+    "formula": "$$\\dot{m} = \\rho Av$$",
+    "units": "kilograms per second (kg/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Froude Number",
+    "description": "Compares inertial forces to gravitational forces, useful for open channel flow.",
+    "formula": "$$Fr = \\frac{V}{\\sqrt{gL}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Darcy-Weisbach Equation (Head Loss)",
+    "description": "Calculates head loss due to friction in a pipe.",
+    "formula": "$$h_f = f\\frac{L}{D}\\frac{V^2}{2g}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Manning's Equation (Open Channel Flow)",
+    "description": "Estimates flow rate in open channels based on channel shape and roughness.",
+    "formula": "$$Q = \\frac{1}{n}AR^{2/3}S^{1/2}$$",
+    "units": "cubic meters per second (m³/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Orifice Equation (Flow Rate)",
+    "description": "Calculates flow rate through an orifice based on pressure difference.",
+    "formula": "$$Q = C_d A \\sqrt{\\frac{2\\Delta P}{\\rho}}$$",
+    "units": "cubic meters per second (m³/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Weir Flow Equation",
+    "description": "Determines flow rate over a weir based on the height of the water above the weir crest.",
+    "formula": "$$Q = C L H^{3/2}$$",
+    "units": "cubic meters per second (m³/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Mohr-Coulomb Failure Criterion (Soil Strength)",
+    "description": "Describes the shear strength of soils.",
+    "formula": "$$\\tau_f = c + \\sigma_n \\tan(\\phi)$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Terzaghi's 1D Consolidation Theory (Differential Equation)",
+    "description": "Describes time-dependent settlement of saturated cohesive soils.",
+    "formula": "$$\\frac{\\partial\\bar{u}}{\\partial t} = C_v \\frac{\\partial^2\\bar{u}}{\\partial z^2}$$",
+    "units": "Pascals per second (Pa/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Coefficient of Consolidation (Soil)",
+    "description": "Indicates combined effects of permeability and compressibility of soil.",
+    "formula": "$$C_v = \\frac{K}{m_v \\cdot \\gamma_w}$$",
+    "units": "square meters per second (m²/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Stress Concentration Factor",
+    "description": "Quantifies the increase in stress around geometric discontinuities.",
+    "formula": "$$K_t = \\frac{\\sigma_{max}}{\\sigma_{nom}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Effective Stress Concentration Factor",
+    "description": "Accounts for notch sensitivity in stress concentration.",
+    "formula": "$$K = 1 + q(K_t - 1)$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Newton's Law of Cooling",
+    "description": "The rate of temperature change of an object is proportional to the temperature difference between the object and its surroundings.",
+    "formula": "$$\\frac{dT}{dt} = -k(T - T_a)$$",
+    "units": "Kelvin per second (K/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Heat Engine Efficiency (General)",
+    "description": "The ratio of net work output to heat input for a heat engine.",
+    "formula": "$$\\eta = \\frac{W_{net}}{Q_{in}}$$",
+    "units": "dimensionless (or %)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Rankine Cycle Thermal Efficiency",
+    "description": "Efficiency of an ideal vapor power plant cycle.",
+    "formula": "$$\\eta_{th} = \\frac{w_t - w_p}{q_{in}}$$",
+    "units": "dimensionless (or %)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Brayton Cycle Efficiency (Ideal)",
+    "description": "Efficiency of an ideal gas turbine cycle.",
+    "formula": "$$\\eta = 1 - (r_p)^{(1-k)/k}$$",
+    "units": "dimensionless (or %)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Galilean Transformation (Position)",
+    "description": "How position transforms between inertial frames.",
+    "formula": "$$\\mathbf{r}' = \\mathbf{r} + \\mathbf{V}t$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Galilean Transformation (Velocity)",
+    "description": "How velocity transforms between inertial frames.",
+    "formula": "$$\\mathbf{v}' = \\mathbf{v} + \\mathbf{V}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Coriolis Force",
+    "description": "A fictitious force arising in rotating reference frames, causing deflection perpendicular to velocity.",
+    "formula": "$$\\mathbf{F}_c = -2m(\\mathbf{\\Omega} \\times \\mathbf{v})$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Lagrangian",
+    "description": "Difference between kinetic and potential energy, central to Lagrangian mechanics.",
+    "formula": "$$L = T - V$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Action (Hamilton's Principal Function)",
+    "description": "Time integral of the Lagrangian, minimized by the system's path.",
+    "formula": "$$\\mathcal{S} = \\int_{t_1}^{t_2} L(\\mathbf{q}, \\dot{\\mathbf{q}}, t) dt$$",
+    "units": "Joule seconds (J·s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Euler-Lagrange Equation",
+    "description": "Yields equations of motion from the Lagrangian.",
+    "formula": "$$\\frac{d}{dt}\\left(\\frac{\\partial L}{\\partial\\dot{x}}\\right) = \\frac{\\partial L}{\\partial x}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Hamiltonian",
+    "description": "Total energy of a system in Hamiltonian mechanics.",
+    "formula": "$$H = \\mathbf{p} \\cdot \\dot{\\mathbf{q}} - L$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Hamilton's Equations (Position)",
+    "description": "One of Hamilton's canonical equations.",
+    "formula": "$$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Hamilton's Equations (Momentum)",
+    "description": "One of Hamilton's canonical equations.",
+    "formula": "$$\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Electric Current Density (Convection)",
+    "description": "Current per unit area due to moving charges.",
+    "formula": "$$\\mathbf{J}_c = \\rho\\mathbf{v}$$",
+    "units": "Amperes per square meter (A/m²)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Electric Current Density (Displacement)",
+    "description": "Current per unit area arising from changing electric displacement fields.",
+    "formula": "$$\\mathbf{J}_d = \\frac{\\partial\\mathbf{D}}{\\partial t}$$",
+    "units": "Amperes per square meter (A/m²)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Electric Displacement Field",
+    "description": "Related to electric field and polarization of the medium.",
+    "formula": "$$\\mathbf{D} = \\epsilon\\mathbf{E}$$",
+    "units": "Coulombs per square meter (C/m²)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Magnetic Field from Vector Potential",
+    "description": "Magnetic field derived from its vector potential.",
+    "formula": "$$\\mathbf{B} = \\nabla \\times \\mathbf{A}$$",
+    "units": "Teslas (T)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Gauss's Law for Electricity (Differential Form)",
+    "description": "Relates electric displacement field to free charge density.",
+    "formula": "$$\\nabla \\cdot \\mathbf{D} = \\rho_v$$",
+    "units": "Coulombs per cubic meter (C/m³)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Gauss's Law for Magnetism (Differential Form)",
+    "description": "States there are no magnetic monopoles.",
+    "formula": "$$\\nabla \\cdot \\mathbf{B} = 0$$",
+    "units": "Teslas per meter (T/m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Faraday's Law of Induction (Differential Form)",
+    "description": "Time-varying magnetic field produces an electric field.",
+    "formula": "$$\\nabla \\times \\mathbf{E} = -\\frac{\\partial\\mathbf{B}}{\\partial t}$$",
+    "units": "Volts per meter squared (V/m²)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Ampere-Maxwell Law (Differential Form)",
+    "description": "Magnetic fields generated by electric currents and time-varying electric fields.",
+    "formula": "$$(\\nabla \\times \\mathbf{H}) = \\mathbf{J} + \\frac{\\partial\\mathbf{D}}{\\partial t}$$",
+    "units": "Amperes per square meter (A/m²)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Resistors in Series (Total Resistance)",
+    "description": "The total resistance of resistors connected in series is the sum of their individual resistances.",
+    "formula": "$$R_{net} = R_1 + R_2 + ... + R_n$$",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Resistors in Parallel (Total Resistance)",
+    "description": "The reciprocal of the total resistance of resistors connected in parallel is the sum of the reciprocals of their individual resistances.",
+    "formula": "$$\\frac{1}{R_{net}} = \\frac{1}{R_1} + \\frac{1}{R_2} + ... + \\frac{1}{R_n}$$",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Capacitors in Series (Total Capacitance)",
+    "description": "The reciprocal of the total capacitance of capacitors connected in series is the sum of the reciprocals of their individual capacitances.",
+    "formula": "$$\\frac{1}{C_{net}} = \\frac{1}{C_1} + \\frac{1}{C_2} + ... + \\frac{1}{C_n}$$",
+    "units": "Farads (F)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Capacitors in Parallel (Total Capacitance)",
+    "description": "The total capacitance of capacitors connected in parallel is the sum of their individual capacitances.",
+    "formula": "$$C_{net} = C_1 + C_2 + ... + C_n$$",
+    "units": "Farads (F)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Inductors in Series (Total Inductance)",
+    "description": "The total inductance of inductors connected in series is the sum of their individual inductances.",
+    "formula": "$$L_{net} = L_1 + L_2 + ... + L_n$$",
+    "units": "Henries (H)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Inductors in Parallel (Total Inductance)",
+    "description": "The reciprocal of the total inductance of inductors connected in parallel is the sum of the reciprocals of their individual inductances.",
+    "formula": "$$\\frac{1}{L_{net}} = \\frac{1}{L_1} + \\frac{1}{L_2} + ... + \\frac{1}{L_n}$$",
+    "units": "Henries (H)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RC Circuit (Charging Capacitor Charge)",
+    "description": "Charge on a capacitor in an RC circuit during charging.",
+    "formula": "$$q = CE(1 - e^{-t/RC})$$",
+    "units": "Coulombs (C)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RC Circuit (Discharging Capacitor Charge)",
+    "description": "Charge on a capacitor in an RC circuit during discharging.",
+    "formula": "$$q = CEe^{-t/RC}$$",
+    "units": "Coulombs (C)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RL Circuit (Rising Inductor Current)",
+    "description": "Current through an inductor in an RL circuit during current rise.",
+    "formula": "$$I = \\frac{E}{R}(1 - e^{-Rt/L})$$",
+    "units": "Amperes (A)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RL Circuit (Falling Inductor Current)",
+    "description": "Current through an inductor in an RL circuit during current fall.",
+    "formula": "$$I = \\frac{E}{R}e^{-t/\\tau_L}$$",
+    "units": "Amperes (A)"
+  },
+  {
+    "category": "Engineering",
+    "name": "LC Circuit Resonance Frequency",
+    "description": "The natural oscillation frequency of an LC circuit.",
+    "formula": "$$\\omega_{res} = \\frac{1}{\\sqrt{LC}}$$",
+    "units": "radians per second (rad/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RCL Circuit Damping Factor",
+    "description": "Characterizes the damping in an RLC circuit.",
+    "formula": "$$\\alpha = \\frac{R}{2L}$$",
+    "units": "per second (s⁻¹)"
+  },
+  {
+    "category": "Engineering",
+    "name": "RCL Circuit Resonant Frequency (Damped)",
+    "description": "The resonant frequency of a damped RLC circuit.",
+    "formula": "$$\\omega_d = \\sqrt{\\omega_0^2 - \\alpha^2}$$",
+    "units": "radians per second (rad/s)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Thevenin Equivalent Voltage",
+    "description": "The open-circuit voltage across the load terminals in a linear circuit.",
+    "formula": "$$V_{TH}$$ (calculated from circuit)",
+    "units": "Volts (V)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Thevenin Equivalent Resistance",
+    "description": "The equivalent resistance looking back into the circuit with independent sources turned off.",
+    "formula": "$$R_{TH}$$ (calculated from circuit)",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Norton Equivalent Current",
+    "description": "The short-circuit current through the load terminals in a linear circuit.",
+    "formula": "$$I_{no}$$ (calculated from circuit)",
+    "units": "Amperes (A)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Norton Equivalent Resistance",
+    "description": "The equivalent resistance looking back into the circuit with independent sources turned off.",
+    "formula": "$$R_{no}$$ (calculated from circuit)",
+    "units": "Ohms ($\\Omega$)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Permeability (Magnetic Materials)",
+    "description": "Ease with which a magnetic flux is established within a material.",
+    "formula": "$$\\mu = \\frac{B}{H}$$",
+    "units": "Henries per meter (H/m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Clapeyron Equation (Phase Transition)",
+    "description": "Relates vapor pressure and temperature during a phase transition.",
+    "formula": "$$\\frac{dP}{dT} = \\frac{L}{T(V_m^g - V_m^l)}$$",
+    "units": "Pascals per Kelvin (Pa/K)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Beam Deflection (Simply Supported, Center Load)",
+    "description": "Maximum deflection of a simply supported beam with a point load at its center.",
+    "formula": "$$\\delta = \\frac{PL^3}{48EI}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Euler's Column Formula (Pinned-Pinned)",
+    "description": "Critical buckling load for a pinned-pinned slender column.",
+    "formula": "$$P_{cr} = \\frac{\\pi^2 EI}{L^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Euler's Column Formula (Fixed-Free)",
+    "description": "Critical buckling load for a fixed-free slender column.",
+    "formula": "$$P_{cr} = \\frac{\\pi^2 EI}{4L^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Euler's Column Formula (Fixed-Fixed)",
+    "description": "Critical buckling load for a fixed-fixed slender column.",
+    "formula": "$$P_{cr} = \\frac{4\\pi^2 EI}{L^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Euler's Column Formula (Fixed-Pinned)",
+    "description": "Critical buckling load for a fixed-pinned slender column.",
+    "formula": "$$P_{cr} = \\frac{2.046\\pi^2 EI}{L^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Critical Buckling Stress",
+    "description": "The stress at which a slender column will buckle.",
+    "formula": "$$\\sigma_{cr} = \\frac{\\pi^2 E}{(L/r)^2}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Fatigue Life (S-N Curve)",
+    "description": "Relates nominal stress range to number of cycles to failure.",
+    "formula": "$$S = A N_f^b$$ (typical form)",
+    "units": "Pascals (Pa), cycles (dimensionless)"
+  },
+  {
+    "category": "Engineering",
+    "name": "Goodman Criterion (Mean Stress Correction)",
+    "description": "Used to account for the effect of mean stress on fatigue life.",
+    "formula": "$$\\frac{\\sigma_a}{\\sigma_e} + \\frac{\\sigma_m}{\\sigma_{UTS}} = 1$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Engineering",
+    "name": "Soderberg Criterion (Mean Stress Correction)",
+    "description": "A more conservative criterion for mean stress correction in fatigue.",
+    "formula": "$$\\frac{\\sigma_a}{\\sigma_e} + \\frac{\\sigma_m}{\\sigma_y} = 1$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Flow Rate (Poiseuille's Law - simplified)",
+    "description": "Describes the flow of viscous fluid through a cylindrical tube, applicable to blood vessels.",
+    "formula": "$$Q = \\frac{\\pi r^4 \\Delta P}{8\\eta L}$$",
+    "units": "cubic meters per second (m³/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Diffusion (Fick's First Law)",
+    "description": "Describes the rate of diffusion of a substance across a membrane or through a medium.",
+    "formula": "$$J = -D\\frac{dC}{dx}$$",
+    "units": "moles per square meter per second (mol/m²·s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Osmotic Pressure (van 't Hoff equation)",
+    "description": "The pressure that needs to be applied to a solution to prevent the inward flow of water across a semipermeable membrane.",
+    "formula": "$$\\Pi = iMRT$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Lever System (Mechanical Advantage in Biomechanics)",
+    "description": "The ratio of the output force to the input force in a biological lever system (e.g., muscle and bone).",
+    "formula": "$$MA = \\frac{\\text{Effort Arm}}{\\text{Resistance Arm}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Work Done by Muscle",
+    "description": "The work performed by a muscle contracting against a load.",
+    "formula": "$$W = F \\cdot d$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Power Output of Muscle",
+    "description": "The rate at which a muscle performs work.",
+    "formula": "$$P = \\frac{W}{t}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Hydrostatic Pressure (in body fluids)",
+    "description": "Pressure exerted by fluids within the body, such as blood pressure or interstitial fluid pressure.",
+    "formula": "$$P = \\rho gh$$",
+    "units": "Pascals (Pa) or mmHg"
+  },
+  {
+    "category": "Biology",
+    "name": "Surface Area to Volume Ratio",
+    "description": "The ratio of the surface area of an organism or cell to its volume, critical for processes like heat exchange and nutrient absorption.",
+    "formula": "$$\\frac{SA}{V}$$",
+    "units": "per meter (m⁻¹)"
+  },
+  {
+    "category": "Biology",
+    "name": "Lens Power (Diopters)",
+    "description": "A measure of the refractive power of a lens, used in optics of the eye.",
+    "formula": "$$P = \\frac{1}{f}$$",
+    "units": "Diopters (D)"
+  },
+  {
+    "category": "Biology",
+    "name": "Acoustic Impedance (in biological tissues)",
+    "description": "A measure of the resistance of a medium to the propagation of sound waves, relevant in ultrasound imaging.",
+    "formula": "$$Z = \\rho c$$",
+    "units": "Rayls (Pa·s/m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Flow Resistance (Blood Vessels)",
+    "description": "The resistance to blood flow through a vessel, influenced by vessel length, radius, and blood viscosity.",
+    "formula": "$$R = \\frac{8\\eta L}{\\pi r^4}$$",
+    "units": "Pascals per cubic meter per second (Pa·s/m³)"
+  },
+  {
+    "category": "Biology",
+    "name": "Cardiac Output",
+    "description": "The volume of blood pumped by the heart per unit time.",
+    "formula": "$$CO = HR \\times SV$$",
+    "units": "liters per minute (L/min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Pressure (Mean Arterial Pressure)",
+    "description": "The average arterial pressure during a single cardiac cycle.",
+    "formula": "$$MAP = DBP + \\frac{1}{3}(SBP - DBP)$$",
+    "units": "millimeters of mercury (mmHg)"
+  },
+  {
+    "category": "Biology",
+    "name": "Reynolds Number (Blood Flow)",
+    "description": "Used to predict turbulent flow in blood vessels, which can indicate pathological conditions.",
+    "formula": "$$Re = \\frac{\\rho v D}{\\mu}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Elasticity (Arterial Walls)",
+    "description": "The ability of arterial walls to stretch and recoil, influencing blood pressure and flow.",
+    "formula": "$$E = \\frac{\\Delta P}{\\Delta V/V_0}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Loss by Evaporation",
+    "description": "The loss of heat from the body due to the evaporation of sweat.",
+    "formula": "$$Q_e = m_w L_v$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Basal Metabolic Rate (BMR)",
+    "description": "The rate at which the body expends energy at rest to maintain vital functions.",
+    "formula": "$$\\text{Various empirical formulas exist, e.g., Mifflin-St Jeor Equation}$$",
+    "units": "Calories per day (kcal/day) or Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Force of Muscle Contraction",
+    "description": "The force generated by a muscle, dependent on factors like muscle cross-sectional area and activation level.",
+    "formula": "$$F = \\sigma A$$ (simplified)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Torque",
+    "description": "The rotational force around a joint, produced by muscles acting on bones.",
+    "formula": "$$\\tau = F \\cdot r_{\\perp}$$",
+    "units": "Newton meters (N·m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Center of Mass (Human Body)",
+    "description": "The average position of all the mass in the human body, crucial for balance and movement.",
+    "formula": "$$X_{CM} = \\frac{\\sum m_i x_i}{\\sum m_i}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Pressure in Alveoli (Laplace's Law)",
+    "description": "Relates the pressure inside a spherical bubble or alveolus to the surface tension and radius.",
+    "formula": "$$P = \\frac{2\\gamma}{r}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sound Attenuation in Tissue",
+    "description": "The reduction in sound intensity as it travels through biological tissue.",
+    "formula": "$$I = I_0 e^{-\\alpha x}$$",
+    "units": "Decibels (dB) or dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Light Absorption (Beer-Lambert Law)",
+    "description": "Relates the attenuation of light to the properties of the material through which the light is traveling.",
+    "formula": "$$A = \\epsilon c L$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Transfer in Body (Conduction)",
+    "description": "Heat transfer within the body or between the body and surfaces in contact.",
+    "formula": "$$Q = \\frac{kA\\Delta T t}{L}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Transfer in Body (Convection)",
+    "description": "Heat transfer between the body surface and surrounding air or water.",
+    "formula": "$$Q = hA\\Delta T t$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Transfer in Body (Radiation)",
+    "description": "Heat exchange between the body and its surroundings through electromagnetic waves.",
+    "formula": "$$P = \\epsilon\\sigma A (T_{skin}^4 - T_{surroundings}^4)$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Viscosity",
+    "description": "A measure of the resistance of blood to flow, influenced by red blood cell concentration and plasma proteins.",
+    "formula": "$$\\eta$$ (empirical value)",
+    "units": "Pascal seconds (Pa·s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Compliance (Blood Vessels/Lungs)",
+    "description": "A measure of the distensibility of a structure, i.e., how easily it stretches.",
+    "formula": "$$C = \\frac{\\Delta V}{\\Delta P}$$",
+    "units": "liters per millimeter of mercury (L/mmHg)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ventilation Rate (Respiratory Physics)",
+    "description": "The volume of air inhaled or exhaled per minute.",
+    "formula": "$$V_E = RR \\times TV$$",
+    "units": "liters per minute (L/min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Work of Breathing",
+    "description": "The energy expended by the respiratory muscles to move air in and out of the lungs.",
+    "formula": "$$W = \\int P dV$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Diffusion Coefficient (Biological Systems)",
+    "description": "A proportionality constant in Fick's laws that relates the molar flux due to diffusion to the concentration gradient.",
+    "formula": "$$D$$ (empirical value)",
+    "units": "square meters per second (m²/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Nernst Equation (Membrane Potential)",
+    "description": "Calculates the equilibrium potential for an ion across a membrane, based on its concentration gradient.",
+    "formula": "$$E_X = \\frac{RT}{zF}\\ln\\frac{[ion]_{out}}{[ion]_{in}}$$",
+    "units": "Volts (V)"
+  },
+  {
+    "category": "Biology",
+    "name": "Goldman-Hodgkin-Katz Voltage Equation (Resting Membrane Potential)",
+    "description": "Calculates the resting membrane potential across a cell membrane, considering multiple ions.",
+    "formula": "$$E_m = \\frac{RT}{F}\\ln\\left(\\frac{P_K[K^+]_{out} + P_{Na}[Na^+]_{out} + P_{Cl}[Cl^-]_{in}}{P_K[K^+]_{in} + P_{Na}[Na^+]_{in} + P_{Cl}[Cl^-]_{out}}\\right)$$",
+    "units": "Volts (V)"
+  },
+  {
+    "category": "Biology",
+    "name": "Action Potential Propagation Speed",
+    "description": "The speed at which an action potential travels along an axon.",
+    "formula": "$$v \\propto \\sqrt{d}$$ (simplified, for unmyelinated)",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Force-Velocity Relationship (Hill's Equation)",
+    "description": "Describes the inverse relationship between the force a muscle can generate and its shortening velocity.",
+    "formula": "$$(F+a)(V+b) = \\text{constant}$$",
+    "units": "Newtons (N), meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Length-Tension Relationship",
+    "description": "Describes how the force a muscle can generate depends on its length.",
+    "formula": "$$\\text{Graphical relationship, no simple formula}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Stress",
+    "description": "The internal force per unit area within bone tissue due to applied loads.",
+    "formula": "$$\\sigma = \\frac{F}{A}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Strain",
+    "description": "The deformation of bone tissue in response to stress.",
+    "formula": "$$\\epsilon = \\frac{\\Delta L}{L_0}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Young's Modulus (Bone)",
+    "description": "A measure of bone stiffness.",
+    "formula": "$$E = \\frac{\\sigma}{\\epsilon}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Reaction Force",
+    "description": "The force exerted by one bone segment on another at a joint.",
+    "formula": "$$\\sum F = ma$$ (vector sum)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ground Reaction Force (Biomechanics)",
+    "description": "The force exerted by the ground on a body in contact with it.",
+    "formula": "$$F_{GRF}$$ (measured by force plates)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Angular Velocity (Limb Movement)",
+    "description": "The rate of change of angular position of a limb or body segment.",
+    "formula": "$$\\omega = \\frac{\\Delta\\theta}{\\Delta t}$$",
+    "units": "radians per second (rad/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Angular Acceleration (Limb Movement)",
+    "description": "The rate of change of angular velocity of a limb or body segment.",
+    "formula": "$$\\alpha = \\frac{\\Delta\\omega}{\\Delta t}$$",
+    "units": "radians per second squared (rad/s²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rotational Inertia (Limb)",
+    "description": "A measure of a limb's resistance to changes in its rotational motion.",
+    "formula": "$$I$$ (calculated based on mass distribution)",
+    "units": "kilogram meters squared (kg·m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Momentum (Human Movement)",
+    "description": "The product of mass and velocity of the entire body or a body segment.",
+    "formula": "$$p = mv$$",
+    "units": "kilogram meters per second (kg·m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Impulse (Human Movement)",
+    "description": "The change in momentum of the body or a body segment.",
+    "formula": "$$J = F\\Delta t = \\Delta p$$",
+    "units": "Newton seconds (N·s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Collagen Elasticity (Connective Tissue)",
+    "description": "The ability of collagen fibers in connective tissues to stretch and return to their original shape.",
+    "formula": "$$E$$ (empirical value for tissue)",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Air Resistance (Sport)",
+    "description": "The drag force exerted by air on a moving object or athlete.",
+    "formula": "$$F_D = \\frac{1}{2}\\rho v^2 C_D A$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Buoyancy Force (Swimming)",
+    "description": "The upward force exerted by a fluid that opposes the weight of an immersed object.",
+    "formula": "$$F_B = \\rho g V_{displaced}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Metabolic Equivalent of Task (MET)",
+    "description": "A physiological measure expressing the energy cost of physical activities.",
+    "formula": "$$1 MET = 3.5\\text{ mL O}_2\\text{/kg/min}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Oxygen Consumption Rate (VO2)",
+    "description": "The rate at which oxygen is consumed by the body, indicating metabolic activity.",
+    "formula": "$$VO_2 = \\text{Cardiac Output} \\times (a-v)O_2\\text{ difference}$$",
+    "units": "liters per minute (L/min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Work-Energy Theorem (Sport)",
+    "description": "The net work done on an object is equal to the change in its kinetic energy.",
+    "formula": "$$W_{net} = \\Delta KE$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Conservation of Momentum (Collisions in Sport)",
+    "description": "In the absence of external forces, the total momentum of a system remains constant.",
+    "formula": "$$p_{total, initial} = p_{total, final}$$",
+    "units": "kilogram meters per second (kg·m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Projectile Motion (Vertical Displacement)",
+    "description": "Vertical displacement of an object thrown or projected into the air.",
+    "formula": "$$y = y_0 + (v_0\\sin\\theta)t - \\frac{1}{2}gt^2$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Range of Projectile (Sport)",
+    "description": "The horizontal distance traveled by a projectile.",
+    "formula": "$$R = \\frac{v_0^2\\sin(2\\theta)}{g}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Peak Height of Projectile (Sport)",
+    "description": "The maximum vertical displacement reached by a projectile.",
+    "formula": "$$h_{max} = \\frac{(v_0\\sin\\theta)^2}{2g}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Friction (Sport)",
+    "description": "The force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.",
+    "formula": "$$F_f = \\mu N$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Coefficient of Restitution (Collisions in Sport)",
+    "description": "A measure of the 'bounciness' of a collision.",
+    "formula": "$$e = \\frac{|v'_{rel}|}{|v_{rel}|}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Stokes-Einstein Relation (Diffusion)",
+    "description": "Connects the diffusion constant of a particle to thermal energy and fluid drag.",
+    "formula": "$$D = \\frac{k_B T}{\\zeta}$$",
+    "units": "square meters per second (m²/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bjerrum Length (Electrostatics in Biology)",
+    "description": "Distance at which electrostatic energy equals thermal energy in a medium.",
+    "formula": "$$\\lambda_B = \\frac{e^2}{\\epsilon k_B T}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Debye-Hückel Length (Screened Electrostatics)",
+    "description": "Describes the exponential decay of screened electrostatic interactions in an electrolyte solution.",
+    "formula": "$$\\kappa^{-1} = \\left(\\frac{\\epsilon k_B T}{8\\pi z^2 e^2 c_0}\\right)^{1/2}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Elastic Energy of a Filament (Bending)",
+    "description": "The energy stored in a filament due to bending.",
+    "formula": "$$E = \\frac{1}{2} A \\int ds \\kappa^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Persistence Length (Filament Stiffness)",
+    "description": "A measure of a filament's stiffness, indicating the length over which it remains rigid.",
+    "formula": "$$L_p = \\frac{A}{k_B T}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Euler Buckling Critical Force (Filament)",
+    "description": "The compressive force at which an elastic filament will buckle.",
+    "formula": "$$F_c = \\frac{4\\pi^2 A}{L^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mean Squared End-to-End Displacement (Random Walk Polymer)",
+    "description": "Mean squared distance between the ends of a random walk polymer.",
+    "formula": "$$\\langle R^2 \\rangle = Nb^2$$",
+    "units": "meters squared (m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Hookean Spring Constant (Entropic Spring)",
+    "description": "Spring constant for a polymer where elasticity arises from entropy.",
+    "formula": "$$k = \\frac{k_B T}{Nb^2}$$",
+    "units": "Newtons per meter (N/m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Power (Biomechanics)",
+    "description": "The rate at which work is done by muscles and tendons around a joint.",
+    "formula": "$$P = M \\times \\omega$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Moment Arm",
+    "description": "How effectively a muscle's contraction force can generate torque about a joint.",
+    "formula": "$$r = \\frac{dl}{d\\theta}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Drag Area (Cycling)",
+    "description": "Combines drag coefficient and frontal area for aerodynamic drag.",
+    "formula": "$$C_d A$$ (product)",
+    "units": "square meters (m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Hydrodynamic Drag (Swimming)",
+    "description": "The force water exerts on the swimmer, reducing forward displacement.",
+    "formula": "$$D = \\frac{1}{2} \\rho v^2 C_D S$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Van der Waals Interaction Potential",
+    "description": "Describes attractive force between neutral atoms/molecules.",
+    "formula": "$$u(r) = -\\frac{1}{2} \\hbar\\omega_0 \\frac{\\alpha^2}{r^6}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Interaction Energy (DLVO Theory)",
+    "description": "Combines van der Waals attraction and screened electrostatic repulsion between membranes.",
+    "formula": "$$V_{total}(d) = V_A(d) + V_R(d)$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Vesicle Fluctuation Elastic Energy (Spherical Harmonics)",
+    "description": "Elastic energy of vesicle fluctuations described by spherical harmonics.",
+    "formula": "$$E \\simeq 8\\pi k_c + \\frac{1}{2} k_c \\sum_{l,m} l(l-1)(l+1)(l+2) |a_{lm}|^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Fluctuation-Induced Repulsion (Helfrich Repulsion)",
+    "description": "Repulsive pressure between two elastic membranes due to thermal fluctuations.",
+    "formula": "$$P \\sim \\frac{(k_B T)^2}{8\\pi^3 c k_c} \\frac{1}{d^3}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Molecular Motor Stepping Velocity",
+    "description": "Velocity of a molecular motor related to its ATP hydrolysis rate.",
+    "formula": "$$v \\approx u_0 R$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "VO2 Max (Fick Equation)",
+    "description": "Maximum rate of oxygen consumption, a measure of aerobic capacity.",
+    "formula": "$$VO_{2max} = CO_{max} \\times (a-v)O_2\\text{diff}_{max}$$",
+    "units": "mL O₂/kg/min or L/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Respiratory Quotient (RQ)",
+    "description": "Ratio of carbon dioxide produced to oxygen consumed, indicating fuel source.",
+    "formula": "$$RQ = \\frac{VCO_2}{VO_2}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Heart Rate Max (Estimated)",
+    "description": "Estimated maximum heart rate for an individual.",
+    "formula": "$$HR_{max} = 220 - \\text{age}$$",
+    "units": "beats per minute (bpm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Target Heart Rate (Karvonen Formula)",
+    "description": "Calculates target heart rate for exercise based on desired intensity.",
+    "formula": "$$THR = ((HR_{max} - HR_{rest}) \\times \\%Intensity) + HR_{rest}$$",
+    "units": "beats per minute (bpm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Lactate Threshold",
+    "description": "Exercise intensity at which lactate begins to accumulate in the blood.",
+    "formula": "$$\\text{Determined empirically, no simple formula}$$",
+    "units": "Watts (W) or velocity (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rate of Perceived Exertion (RPE)",
+    "description": "Subjective measure of exercise intensity.",
+    "formula": "$$\\text{Borg Scale (6-20) or CR10 Scale (0-10)}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Work-to-Rest Ratio",
+    "description": "Ratio of work duration to rest duration in interval training.",
+    "formula": "$$\\text{Work Duration} : \\text{Rest Duration}$$",
+    "units": "dimensionless ratio"
+  },
+  {
+    "category": "Biology",
+    "name": "Training Load (TRIMP)",
+    "description": "Quantifies the physiological stress of a training session.",
+    "formula": "$$TRIMP = \\text{Duration} \\times HR_{ratio} \\times e^{b \\times HR_{ratio}}$$",
+    "units": "arbitrary units"
+  },
+  {
+    "category": "Biology",
+    "name": "Efficiency of Movement (Gross Efficiency)",
+    "description": "Ratio of mechanical power output to metabolic power input.",
+    "formula": "$$GE = \\frac{\\text{Mechanical Power Output}}{\\text{Metabolic Power Input}} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Running Economy",
+    "description": "Oxygen cost of running at a given speed.",
+    "formula": "$$RE = \\frac{VO_2}{\\text{Speed}}$$",
+    "units": "mL O₂/kg/km"
+  },
+  {
+    "category": "Biology",
+    "name": "Jump Height (from Flight Time)",
+    "description": "Calculates jump height based on the time spent in the air.",
+    "formula": "$$h = \\frac{1}{8}g t_{flight}^2$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Vertical Jump Power (Lewis Formula)",
+    "description": "Estimates power during a vertical jump.",
+    "formula": "$$P = \\sqrt{4.9 \\times \\text{Body Mass (kg)} \\times \\sqrt{\\text{Jump Height (m)}} \\times 9.81}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Balance (Center of Pressure Excursion)",
+    "description": "Measures the displacement of the center of pressure during standing or movement.",
+    "formula": "$$COP_{excursion} = \\sqrt{\\Delta x^2 + \\Delta y^2}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Stability Limits (Base of Support)",
+    "description": "The maximum angle of lean before losing balance.",
+    "formula": "$$\\theta_{max} = \\arctan\\left(\\frac{\\text{Distance to Edge of BOS}}{\\text{Height of COM}}\\right)$$",
+    "units": "radians or degrees"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Force (Landing)",
+    "description": "Force experienced during a landing or impact.",
+    "formula": "$$F_{impact} = \\frac{\\Delta p}{\\Delta t}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Shock Absorption (Damping Coefficient)",
+    "description": "A measure of a material's ability to dissipate energy during impact.",
+    "formula": "$$c$$ (material property)",
+    "units": "Newton seconds per meter (N·s/m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Fiber Type Distribution",
+    "description": "Proportion of slow-twitch (Type I) vs. fast-twitch (Type II) muscle fibers.",
+    "formula": "$$\\text{Determined by biopsy, no simple formula}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Electromyography (EMG) Amplitude",
+    "description": "Measures the electrical activity of muscles, indicating muscle activation level.",
+    "formula": "$$\\text{RMS (Root Mean Square) or Average Rectified Value}$$",
+    "units": "Volts (V) or millivolts (mV)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Fatigue Index",
+    "description": "Quantifies the decline in muscle force or power over time during sustained activity.",
+    "formula": "$$\\text{Various indices, e.g., (Initial Power - Final Power) / Initial Power}$$",
+    "units": "dimensionless (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Production (Metabolic Rate)",
+    "description": "Rate at which the body generates heat from metabolic processes.",
+    "formula": "$$Q_{prod} = \\text{Metabolic Rate} - \\text{Work Output}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Convective Heat Loss (Body)",
+    "description": "Heat loss from the body surface to the surrounding air/water.",
+    "formula": "$$Q_{conv} = h_c A (T_{skin} - T_{air})$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Radiative Heat Loss (Body)",
+    "description": "Heat loss from the body via infrared radiation.",
+    "formula": "$$Q_{rad} = \\epsilon \\sigma A (T_{skin}^4 - T_{surr}^4)$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Evaporative Heat Loss (Body)",
+    "description": "Heat loss due to the evaporation of sweat.",
+    "formula": "$$Q_{evap} = m_{sweat} L_v$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Heat Loss (Body)",
+    "description": "Sum of all heat loss mechanisms from the body.",
+    "formula": "$$Q_{total} = Q_{conv} + Q_{rad} + Q_{evap} + Q_{cond}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Comfort Index (PMV)",
+    "description": "Predicts the mean vote of a large group of people on a thermal sensation scale.",
+    "formula": "$$\\text{Complex empirical model, not a simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Effective Temperature",
+    "description": "A single temperature that combines the effects of air temperature, humidity, and air movement on thermal comfort.",
+    "formula": "$$\\text{Empirical chart-based, no simple formula}$$",
+    "units": "degrees Celsius (°C) or Fahrenheit (°F)"
+  },
+  {
+    "category": "Biology",
+    "name": "Cardiac Drift",
+    "description": "Gradual increase in heart rate during prolonged exercise despite constant intensity.",
+    "formula": "$$\\text{Observed phenomenon, no simple formula}$$",
+    "units": "beats per minute (bpm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rate of Force Development (RFD)",
+    "description": "The rate at which a muscle can generate force.",
+    "formula": "$$RFD = \\frac{\\Delta F}{\\Delta t}$$",
+    "units": "Newtons per second (N/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Stretch-Shortening Cycle (SSC) Efficiency",
+    "description": "Measure of how effectively elastic energy is utilized in movements involving eccentric-concentric muscle actions.",
+    "formula": "$$\\text{Ratio of work output to work input, or jump height difference}$$",
+    "units": "dimensionless (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Stiffness (Angular)",
+    "description": "Resistance of a joint to angular deformation.",
+    "formula": "$$K = \\frac{\\Delta M}{\\Delta \\theta}$$",
+    "units": "Newton meters per radian (N·m/rad)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Mineral Density (BMD)",
+    "description": "Measure of bone strength and density.",
+    "formula": "$$\\text{Measured by DXA scan, no simple formula}$$",
+    "units": "grams per square centimeter (g/cm²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Stress Fracture Risk (Bone Load)",
+    "description": "Risk assessment based on cumulative bone loading.",
+    "formula": "$$\\text{Complex models, often involving fatigue life concepts}$$",
+    "units": "dimensionless risk score"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Cross-Sectional Area (CSA)",
+    "description": "Area of muscle perpendicular to its fibers, related to force production.",
+    "formula": "$$\\text{Measured by imaging (MRI, ultrasound)}$$",
+    "units": "square centimeters (cm²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Pennation Angle",
+    "description": "Angle at which muscle fibers are oriented relative to the muscle's line of action.",
+    "formula": "$$\\text{Measured by ultrasound, no simple formula}$$",
+    "units": "degrees (°)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Fascicle Length",
+    "description": "Length of individual muscle fascicles, related to muscle shortening velocity.",
+    "formula": "$$\\text{Measured by ultrasound, no simple formula}$$",
+    "units": "millimeters (mm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Electromyography (EMG) Frequency Analysis (MDF)",
+    "description": "Mean or median frequency of the EMG signal, often used as a fatigue indicator.",
+    "formula": "$$\\text{Spectral analysis, no simple formula}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Contact Area",
+    "description": "Area over which two joint surfaces are in contact, influencing pressure distribution.",
+    "formula": "$$\\text{Measured by imaging or pressure mapping}$$",
+    "units": "square millimeters (mm²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Contact Pressure",
+    "description": "Pressure exerted between joint surfaces.",
+    "formula": "$$P = \\frac{F}{A_{contact}}$$",
+    "units": "Pascals (Pa) or MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Ligament/Tendon Strain",
+    "description": "Deformation of ligaments or tendons under load.",
+    "formula": "$$\\epsilon = \\frac{\\Delta L}{L_0}$$",
+    "units": "dimensionless (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ligament/Tendon Stress",
+    "description": "Internal force per unit area within ligaments or tendons.",
+    "formula": "$$\\sigma = \\frac{F}{A}$$",
+    "units": "Pascals (Pa) or MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Tissue Viscoelasticity (Stress Relaxation)",
+    "description": "Decrease in stress over time in a material held at constant strain.",
+    "formula": "$$\\sigma(t) = \\sigma_0 e^{-t/\\tau}$$ (simplified exponential decay)",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Tissue Viscoelasticity (Creep)",
+    "description": "Increase in strain over time in a material held at constant stress.",
+    "formula": "$$\\epsilon(t) = \\epsilon_0 (1 - e^{-t/\\tau})$$ (simplified exponential approach)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Collagen Fiber Orientation",
+    "description": "Alignment of collagen fibers within connective tissue, influencing mechanical properties.",
+    "formula": "$$\\text{Measured by imaging (e.g., polarized light microscopy)}$$",
+    "units": "degrees (°)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Activation Dynamics",
+    "description": "Temporal response of muscle force production to neural stimulation.",
+    "formula": "$$\\text{Modeled by differential equations, e.g., first-order kinetics}$$",
+    "units": "dimensionless (activation level)"
+  },
+  {
+    "category": "Biology",
+    "name": "Motor Unit Recruitment",
+    "description": "The process by which more motor units are activated to increase muscle force.",
+    "formula": "$$\\text{Physiological principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Proprioception (Joint Position Sense)",
+    "description": "The sense of the relative position of body parts and strength of effort being used in movement.",
+    "formula": "$$\\text{Measured by error in joint angle reproduction}$$",
+    "units": "degrees (°)"
+  },
+  {
+    "category": "Biology",
+    "name": "Vestibular System Function (Angular Acceleration Sensing)",
+    "description": "Sensing of head angular acceleration by the semicircular canals.",
+    "formula": "$$\\text{Output related to angular acceleration, complex neurophysiology}$$",
+    "units": "radians per second squared (rad/s²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Visual Acuity (Snellen Fraction)",
+    "description": "Measures the sharpness of vision.",
+    "formula": "$$\\text{e.g., 20/20, 6/6}$$",
+    "units": "dimensionless ratio"
+  },
+  {
+    "category": "Biology",
+    "name": "Reaction Time (Simple)",
+    "description": "Time taken to respond to a single, anticipated stimulus.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "seconds (s) or milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Reaction Time (Choice)",
+    "description": "Time taken to respond to one of several possible stimuli.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "seconds (s) or milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Information Processing Rate (Hick's Law)",
+    "description": "Relates reaction time to the number of choices.",
+    "formula": "$$RT = a + b \\log_2(N)$$",
+    "units": "seconds (s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Center of Pressure (COP) Velocity",
+    "description": "Rate of change of the center of pressure, indicating postural sway.",
+    "formula": "$$v_{COP} = \\frac{\\Delta COP}{\\Delta t}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Postural Stability Index (PSI)",
+    "description": "Quantifies overall postural stability based on COP displacement.",
+    "formula": "$$\\text{Various formulas based on COP variance}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Segmental Kinetic Energy (Biomechanics)",
+    "description": "Kinetic energy of individual body segments during movement.",
+    "formula": "$$KE_{segment} = \\frac{1}{2}m_{segment}v_{segment}^2 + \\frac{1}{2}I_{segment}\\omega_{segment}^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Body Kinetic Energy (Biomechanics)",
+    "description": "Sum of kinetic energies of all body segments.",
+    "formula": "$$KE_{total} = \\sum KE_{segment}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Body Potential Energy (Biomechanics)",
+    "description": "Sum of gravitational potential energies of all body segments.",
+    "formula": "$$PE_{total} = \\sum m_{segment} g h_{segment}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mechanical Work (Positive/Concentric)",
+    "description": "Work done by muscles during shortening (concentric contraction).",
+    "formula": "$$W_{pos} = \\int F_{muscle} \\cdot dl_{muscle}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mechanical Work (Negative/Eccentric)",
+    "description": "Work done on muscles during lengthening (eccentric contraction).",
+    "formula": "$$W_{neg} = \\int F_{muscle} \\cdot dl_{muscle}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mechanical Power (Positive/Concentric)",
+    "description": "Rate of work done by muscles during shortening.",
+    "formula": "$$P_{pos} = F_{muscle} \\cdot v_{muscle}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mechanical Power (Negative/Eccentric)",
+    "description": "Rate of work done on muscles during lengthening.",
+    "formula": "$$P_{neg} = F_{muscle} \\cdot v_{muscle}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Force-Length Relationship",
+    "description": "Relationship between muscle length and the force it can produce.",
+    "formula": "$$\\text{Graphical relationship, typically a bell-shaped curve}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Power-Velocity Relationship",
+    "description": "Relationship between muscle power output and contraction velocity.",
+    "formula": "$$\\text{Typically an inverted U-shaped curve}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Elastic Modulus (Tendon/Ligament)",
+    "description": "Stiffness of tendons and ligaments.",
+    "formula": "$$E = \\frac{\\text{Stress}}{\\text{Strain}}$$",
+    "units": "Pascals (Pa) or MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Ultimate Tensile Strength (Bone/Tissue)",
+    "description": "Maximum stress a bone or tissue can withstand before failure.",
+    "formula": "$$\\sigma_{UTS}$$ (material property)",
+    "units": "Pascals (Pa) or MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Yield Strength (Bone/Tissue)",
+    "description": "Stress at which bone or tissue begins to deform plastically.",
+    "formula": "$$\\sigma_y$$ (material property)",
+    "units": "Pascals (Pa) or MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Fracture Toughness (Bone)",
+    "description": "Material's resistance to crack propagation.",
+    "formula": "$$K_{Ic}$$ (material property)",
+    "units": "Pa·m^(1/2)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Remodeling Rate",
+    "description": "Rate at which bone is broken down and rebuilt, influenced by mechanical loading.",
+    "formula": "$$\\text{Complex biological process, no simple formula}$$",
+    "units": "grams per day (g/day)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Kinematics (Euler Angles)",
+    "description": "Describes 3D orientation of a joint using a sequence of three rotations.",
+    "formula": "$$\\text{Sequence of rotations (e.g., Z-Y-X)}$$",
+    "units": "degrees or radians"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Kinetics (Inverse Dynamics)",
+    "description": "Calculates joint forces and moments from kinematic data and external forces.",
+    "formula": "$$\\sum F = ma, \\sum \\tau = I\\alpha$$ (applied segment by segment)",
+    "units": "Newtons (N), Newton meters (N·m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Segmental Mass and Inertia Properties",
+    "description": "Mass, center of mass, and moment of inertia for individual body segments.",
+    "formula": "$$\\text{Anthropometric tables or imaging-based calculations}$$",
+    "units": "kg, m, kg·m²"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Lift (Ski Jumping/Cycling)",
+    "description": "Upward force generated by air flowing over an athlete or equipment.",
+    "formula": "$$F_L = \\frac{1}{2}\\rho v^2 C_L A$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rolling Resistance (Cycling/Running)",
+    "description": "Force opposing motion due to deformation of tires/shoes and ground.",
+    "formula": "$$F_R = C_{rr} N$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Power Output (Cycling)",
+    "description": "Mechanical power generated by a cyclist.",
+    "formula": "$$P = (F_{drag} + F_{rolling} + F_{gravity}) \\times v$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Swimming Propulsive Force (Simplified)",
+    "description": "Force generated by a swimmer to move through water.",
+    "formula": "$$F_p = \\rho A v^2$$ (simplified, based on momentum change)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Swimming Drag Coefficient",
+    "description": "Dimensionless coefficient quantifying resistance in swimming.",
+    "formula": "$$C_D = \\frac{2F_D}{\\rho A v^2}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Regulation (Core Temperature Change)",
+    "description": "Change in body core temperature due to heat balance.",
+    "formula": "$$\\Delta T_{core} = \\frac{Q_{prod} - Q_{loss}}{m_{body} c_{body}}$$",
+    "units": "degrees Celsius (°C)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Index (Apparent Temperature)",
+    "description": "Combines air temperature and relative humidity to estimate how hot it feels.",
+    "formula": "$$\\text{Complex empirical formula, often chart-based}$$",
+    "units": "degrees Fahrenheit (°F) or Celsius (°C)"
+  },
+  {
+    "category": "Biology",
+    "name": "Wind Chill Index (Apparent Temperature)",
+    "description": "Combines air temperature and wind speed to estimate how cold it feels.",
+    "formula": "$$\\text{Complex empirical formula, often chart-based}$$",
+    "units": "degrees Fahrenheit (°F) or Celsius (°C)"
+  },
+  {
+    "category": "Biology",
+    "name": "Fluid Balance (Net Fluid Gain/Loss)",
+    "description": "Difference between fluid intake and fluid output.",
+    "formula": "$$\\Delta V_{fluid} = V_{intake} - V_{output}$$",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Dehydration Percentage",
+    "description": "Percentage of body weight lost due to fluid deficit.",
+    "formula": "$$\\text{Dehydration %} = \\frac{\\text{Initial Body Mass} - \\text{Final Body Mass}}{\\text{Initial Body Mass}} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Osmolality",
+    "description": "Concentration of solutes in blood, influencing fluid shifts.",
+    "formula": "$$\\text{Osmolality} \\approx 2[Na^+] + \\frac{[Glucose]}{18} + \\frac{[BUN]}{2.8}$$",
+    "units": "mOsm/kg"
+  },
+  {
+    "category": "Biology",
+    "name": "Renal Clearance",
+    "description": "Volume of plasma cleared of a substance per unit time by the kidneys.",
+    "formula": "$$C = \\frac{U_X V}{P_X}$$",
+    "units": "mL/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Glomerular Filtration Rate (GFR)",
+    "description": "Rate at which blood is filtered by the glomeruli in the kidneys.",
+    "formula": "$$\\text{Estimated using creatinine levels, complex formulas}$$",
+    "units": "mL/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Lung Volumes (Tidal Volume)",
+    "description": "Volume of air inhaled or exhaled in a normal breath.",
+    "formula": "$$TV$$ (measured value)",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Lung Volumes (Vital Capacity)",
+    "description": "Maximum volume of air that can be exhaled after a maximal inhalation.",
+    "formula": "$$VC = IRV + TV + ERV$$",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Lung Volumes (Total Lung Capacity)",
+    "description": "Total volume of air in the lungs after a maximal inhalation.",
+    "formula": "$$TLC = VC + RV$$",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Airway Resistance",
+    "description": "Resistance to airflow in the respiratory tract.",
+    "formula": "$$R_{airway} = \\frac{\\Delta P}{\\dot{V}}$$",
+    "units": "cmH₂O/(L/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Pulmonary Compliance",
+    "description": "Measure of the lung's ability to stretch and expand.",
+    "formula": "$$C_{pulm} = \\frac{\\Delta V}{\\Delta P}$$",
+    "units": "L/cmH₂O"
+  },
+  {
+    "category": "Biology",
+    "name": "Oxygen Deficit (Exercise)",
+    "description": "Difference between total oxygen consumed during exercise and what would have been consumed had steady-state been reached immediately.",
+    "formula": "$$\\text{Area under VO2 curve, no simple formula}$$",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "EPOC (Excess Post-exercise Oxygen Consumption)",
+    "description": "Increased rate of oxygen intake following strenuous activity, to repay oxygen deficit.",
+    "formula": "$$\\text{Area under VO2 recovery curve, no simple formula}$$",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rate of Glycolysis",
+    "description": "Rate of glucose breakdown for energy.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "moles/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Rate of ATP Hydrolysis",
+    "description": "Rate at which ATP is broken down to release energy for muscle contraction.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "moles/s"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Fiber Conduction Velocity",
+    "description": "Speed at which action potentials propagate along muscle fibers.",
+    "formula": "$$\\text{Measured by EMG techniques, no simple formula}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Motor Unit Firing Rate",
+    "description": "Frequency at which a motor unit generates action potentials.",
+    "formula": "$$\\text{Measured by EMG techniques, no simple formula}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Biology",
+    "name": "Neuromuscular Efficiency",
+    "description": "Ratio of force output to EMG activity, indicating efficiency of neural drive.",
+    "formula": "$$\\text{Force / EMG amplitude}$$",
+    "units": "N/mV"
+  },
+  {
+    "category": "Biology",
+    "name": "Reflex Arc Latency",
+    "description": "Time delay between stimulus and reflex response.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sensory Receptor Threshold",
+    "description": "Minimum stimulus intensity required to activate a sensory receptor.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "various (e.g., N, Pa, Lux)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Spindle Sensitivity",
+    "description": "How responsive muscle spindles are to changes in muscle length and rate of change.",
+    "formula": "$$\\text{Physiological property, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Golgi Tendon Organ (GTO) Threshold",
+    "description": "Force threshold at which GTOs inhibit muscle contraction.",
+    "formula": "$$\\text{Physiological property, no simple formula}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Visual Field (Degrees)",
+    "description": "The extent of space visible to the eyes at any given moment.",
+    "formula": "$$\\text{Measured in degrees}$$",
+    "units": "degrees (°)"
+  },
+  {
+    "category": "Biology",
+    "name": "Depth Perception (Stereoacuity)",
+    "description": "Ability to perceive depth from binocular vision.",
+    "formula": "$$\\text{Measured in arcseconds}$$",
+    "units": "arcseconds ('' )"
+  },
+  {
+    "category": "Biology",
+    "name": "Auditory Threshold",
+    "description": "Minimum sound intensity required for hearing.",
+    "formula": "$$\\text{Measured in Decibels (dB SPL)}$$",
+    "units": "Decibels (dB)"
+  },
+  {
+    "category": "Biology",
+    "name": "Balance Confidence Scale (ABC Scale)",
+    "description": "Self-reported measure of balance confidence.",
+    "formula": "$$\\text{Questionnaire-based score}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Postural Sway Area",
+    "description": "Area covered by the center of pressure during quiet standing.",
+    "formula": "$$\\text{Area of ellipse or polygon enclosing COP data}$$",
+    "units": "square millimeters (mm²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Dynamic Stability Index (DSI)",
+    "description": "Quantifies stability during dynamic tasks like walking or jumping.",
+    "formula": "$$\\text{Complex biomechanical calculation}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Mechanical Power Absorption/Generation (Joint)",
+    "description": "Rate at which a joint absorbs or generates mechanical energy.",
+    "formula": "$$P_{joint} = M_{joint} \\cdot \\omega_{joint}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Elastic Energy Storage (Tendon)",
+    "description": "Energy stored in a tendon during stretching.",
+    "formula": "$$E_{elastic} = \\frac{1}{2} k_{tendon} (\\Delta L_{tendon})^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Power-to-Weight Ratio (Athlete)",
+    "description": "Ratio of an athlete's power output to their body mass, crucial for climbing and acceleration.",
+    "formula": "$$P/W = \\frac{\\text{Power (W)}}{\\text{Mass (kg)}}$$",
+    "units": "Watts per kilogram (W/kg)"
+  },
+  {
+    "category": "Biology",
+    "name": "Drag Coefficient (Running)",
+    "description": "Quantifies air resistance in running.",
+    "formula": "$$C_D$$ (empirical value)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Power (Running/Cycling)",
+    "description": "Power required to overcome air resistance.",
+    "formula": "$$P_{aero} = \\frac{1}{2}\\rho C_D A v^3$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rolling Resistance Coefficient (Running Shoes)",
+    "description": "Quantifies rolling friction for footwear.",
+    "formula": "$$C_{rr}$$ (empirical value)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Fluid Dynamic Efficiency (Swimming Stroke)",
+    "description": "Ratio of propulsive power to total power expenditure in swimming.",
+    "formula": "$$\\eta = \\frac{\\text{Propulsive Power}}{\\text{Total Metabolic Power}}$$",
+    "units": "dimensionless (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Gradient (Skin to Core)",
+    "description": "Temperature difference between skin and body core.",
+    "formula": "$$\\Delta T = T_{core} - T_{skin}$$",
+    "units": "degrees Celsius (°C)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sweat Rate",
+    "description": "Rate of fluid loss through sweating.",
+    "formula": "$$\\text{Sweat Rate} = \\frac{\\text{Body Mass Loss}}{\\text{Time}}$$",
+    "units": "liters per hour (L/h) or mL/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Acclimation Index",
+    "description": "Measures the physiological adaptation to heat stress.",
+    "formula": "$$\\text{Various indices, e.g., decrease in heart rate or core temperature}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Glycogen Depletion Rate",
+    "description": "Rate at which glycogen stores are used during exercise.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "mmol/kg wet muscle/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Fat Oxidation Rate",
+    "description": "Rate at which fat is used as fuel during exercise.",
+    "formula": "$$\\text{Calculated from VO2 and VCO2}$$",
+    "units": "grams per minute (g/min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Carbohydrate Oxidation Rate",
+    "description": "Rate at which carbohydrates are used as fuel during exercise.",
+    "formula": "$$\\text{Calculated from VO2 and VCO2}$$",
+    "units": "grams per minute (g/min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Respiratory Compensation Point (RCP)",
+    "description": "Exercise intensity at which ventilation disproportionately increases to buffer acidosis.",
+    "formula": "$$\\text{Determined empirically from ventilatory data}$$",
+    "units": "Watts (W) or velocity (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Critical Power/Speed",
+    "description": "The highest power/speed that can be maintained for a very long time without fatigue.",
+    "formula": "$$\\text{Calculated from multiple time-to-exhaustion trials}$$",
+    "units": "Watts (W) or meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Work Capacity Above Critical Power (W')",
+    "description": "Finite amount of work that can be performed above critical power.",
+    "formula": "$$\\text{Calculated from multiple time-to-exhaustion trials}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Fatigue Resistance Index",
+    "description": "Measure of an athlete's ability to resist fatigue during prolonged or intense exercise.",
+    "formula": "$$\\text{Various indices, e.g., percentage drop in power/force}$$",
+    "units": "dimensionless (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Recovery Rate (Heart Rate Recovery)",
+    "description": "Rate at which heart rate decreases after exercise, indicating fitness.",
+    "formula": "$$\\text{Change in HR over specific post-exercise period}$$",
+    "units": "beats per minute (bpm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rate of Perceived Exertion (RPE) Training Load",
+    "description": "Subjective training load calculated from RPE and duration.",
+    "formula": "$$sRPE = RPE \\times \\text{Duration (min)}$$",
+    "units": "arbitrary units (AU)"
+  },
+  {
+    "category": "Biology",
+    "name": "Training Impulse (TRIMP) (Banister's Model)",
+    "description": "Advanced training load model incorporating heart rate and duration.",
+    "formula": "$$TRIMP = \\text{Duration} \\times HR_{ratio} \\times e^{b \\times HR_{ratio}}$$",
+    "units": "arbitrary units (AU)"
+  },
+  {
+    "category": "Biology",
+    "name": "Acute:Chronic Workload Ratio (ACWR)",
+    "description": "Ratio of recent training load to long-term training load, used for injury risk management.",
+    "formula": "$$ACWR = \\frac{\\text{Acute Workload (e.g., 7-day sum)}}{\\text{Chronic Workload (e.g., 28-day sum)}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Damage Markers (Creatine Kinase)",
+    "description": "Enzyme released into blood after muscle damage, indicating exercise-induced muscle damage (EIMD).",
+    "formula": "$$\\text{Measured by blood test, no simple formula}$$",
+    "units": "U/L"
+  },
+  {
+    "category": "Biology",
+    "name": "Inflammatory Markers (Cytokines)",
+    "description": "Proteins involved in inflammation, indicating physiological stress.",
+    "formula": "$$\\text{Measured by blood test, no simple formula}$$",
+    "units": "pg/mL"
+  },
+  {
+    "category": "Biology",
+    "name": "Hormonal Response to Exercise (Cortisol/Testosterone Ratio)",
+    "description": "Ratio used to assess anabolic/catabolic balance and overtraining risk.",
+    "formula": "$$\\text{Testosterone/Cortisol Ratio}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Sleep Quality Index (PSQI)",
+    "description": "Questionnaire-based assessment of sleep quality.",
+    "formula": "$$\\text{Score based on questionnaire, 0-21}$$",
+    "units": "dimensionless score"
+  },
+  {
+    "category": "Biology",
+    "name": "Nutrition (Energy Balance)",
+    "description": "Difference between energy intake and energy expenditure.",
+    "formula": "$$\\text{Energy Balance} = \\text{Energy Intake} - \\text{Energy Expenditure}$$",
+    "units": "kilocalories (kcal) or Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Body Composition (Body Fat Percentage)",
+    "description": "Percentage of total body mass that is fat.",
+    "formula": "$$\\text{Various methods (DEXA, bioimpedance, skinfolds)}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Stress Index (BSI)",
+    "description": "Predicts bone stress based on load and geometry, used for stress fracture risk.",
+    "formula": "$$\\text{Complex biomechanical model}$$",
+    "units": "MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Loading Rate",
+    "description": "Rate at which force is applied to a joint.",
+    "formula": "$$\\text{Loading Rate} = \\frac{\\Delta F}{\\Delta t}$$",
+    "units": "Newtons per second (N/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Tendon Unit (MTU) Stiffness",
+    "description": "Overall stiffness of the muscle and tendon in series.",
+    "formula": "$$K_{MTU} = \\frac{\\Delta F}{\\Delta L}$$",
+    "units": "Newtons per meter (N/m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Contraction Velocity (Maximum)",
+    "description": "Maximum speed at which a muscle can shorten against zero load.",
+    "formula": "$$V_{max}$$ (from Hill's equation extrapolation)",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Isometric Force (Maximum)",
+    "description": "Maximum force a muscle can produce at a given length without changing length.",
+    "formula": "$$F_{iso,max}$$ (from force-length curve)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rate of Force Development (Time to Peak Force)",
+    "description": "Time taken to reach peak force during a rapid contraction.",
+    "formula": "$$t_{peak}$$ (measured experimentally)",
+    "units": "milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Relaxation Rate",
+    "description": "Rate at which muscle force declines after contraction.",
+    "formula": "$$\\text{Measured experimentally, e.g., time to 50% relaxation}$$",
+    "units": "milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Propulsion Efficiency (Swimming)",
+    "description": "Efficiency of converting muscular effort into forward motion in water.",
+    "formula": "$$\\eta_{propulsion} = \\frac{\\text{Propulsive Power}}{\\text{Total Power Output}}$$",
+    "units": "dimensionless (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Drag Power (Swimming/Cycling)",
+    "description": "Power required to overcome fluid drag.",
+    "formula": "$$P_{drag} = F_D \\times v$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Metabolic Cost of Running",
+    "description": "Energy expenditure per unit distance in running.",
+    "formula": "$$C_{run} = \\frac{VO_2}{\\text{Speed}}$$",
+    "units": "mL O₂/kg/km"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Conductivity (Biological Tissue)",
+    "description": "Ability of biological tissue to conduct heat.",
+    "formula": "$$k$$ (empirical value)",
+    "units": "Watts per meter Kelvin (W/m·K)"
+  },
+  {
+    "category": "Biology",
+    "name": "Specific Heat Capacity (Biological Tissue)",
+    "description": "Amount of heat required to raise the temperature of biological tissue.",
+    "formula": "$$c$$ (empirical value)",
+    "units": "Joules per kilogram Kelvin (J/kg·K)"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Flow Regulation (Vasodilation/Vasoconstriction)",
+    "description": "Changes in blood vessel diameter to regulate blood flow and heat exchange.",
+    "formula": "$$\\text{Physiological mechanism, no simple formula}$$",
+    "units": "dimensionless (e.g., percentage change in radius)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sweat Gland Activity",
+    "description": "Rate of sweat production by sweat glands.",
+    "formula": "$$\\text{Physiological mechanism, no simple formula}$$",
+    "units": "mL/min/gland"
+  },
+  {
+    "category": "Biology",
+    "name": "Shivering Heat Production",
+    "description": "Heat generated by involuntary muscle contractions in response to cold.",
+    "formula": "$$\\text{Physiological mechanism, no simple formula}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Non-shivering Thermogenesis (NST)",
+    "description": "Heat production through metabolic processes in brown adipose tissue.",
+    "formula": "$$\\text{Physiological mechanism, no simple formula}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Cellular Respiration Efficiency",
+    "description": "Efficiency of converting glucose energy into ATP.",
+    "formula": "$$\\text{Approximately 30-40%}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "ATP Production Rate",
+    "description": "Rate at which ATP is synthesized through metabolic pathways.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "moles/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Creatine Phosphate System (ATP Resynthesis)",
+    "description": "Rapid ATP resynthesis via creatine phosphate.",
+    "formula": "$$PCr + ADP \\rightleftharpoons Cr + ATP$$",
+    "units": "moles/s"
+  },
+  {
+    "category": "Biology",
+    "name": "Glycogenolysis Rate",
+    "description": "Rate of glycogen breakdown into glucose.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "mmol/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Gluconeogenesis Rate",
+    "description": "Rate of glucose synthesis from non-carbohydrate sources.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "mmol/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Lipolysis Rate",
+    "description": "Rate of fat breakdown into fatty acids and glycerol.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "mmol/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Protein Degradation Rate",
+    "description": "Rate at which proteins are broken down.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "grams/day"
+  },
+  {
+    "category": "Biology",
+    "name": "Protein Synthesis Rate",
+    "description": "Rate at which new proteins are built.",
+    "formula": "$$\\text{Complex biochemical kinetics, no simple formula}$$",
+    "units": "grams/day"
+  },
+  {
+    "category": "Biology",
+    "name": "Hormone Receptor Binding Affinity",
+    "description": "Strength of binding between a hormone and its receptor.",
+    "formula": "$$K_d$$ (dissociation constant)",
+    "units": "moles/liter (M)"
+  },
+  {
+    "category": "Biology",
+    "name": "Enzyme Kinetics (Michaelis-Menten)",
+    "description": "Describes the rate of enzymatic reactions.",
+    "formula": "$$V = \\frac{V_{max}[S]}{K_m + [S]}$$",
+    "units": "moles/s"
+  },
+  {
+    "category": "Biology",
+    "name": "Cell Membrane Fluidity",
+    "description": "Measure of the viscosity of the lipid bilayer, affecting protein movement and function.",
+    "formula": "$$\\text{Measured by fluorescence anisotropy, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Ion Channel Conductance",
+    "description": "Measure of how easily ions flow through an ion channel.",
+    "formula": "$$g = I/V$$",
+    "units": "Siemens (S)"
+  },
+  {
+    "category": "Biology",
+    "name": "Action Potential Refractory Period",
+    "description": "Time during which a neuron or muscle cell cannot generate another action potential.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Synaptic Delay",
+    "description": "Time taken for a signal to cross a synapse.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Neural Conduction Velocity",
+    "description": "Speed at which electrical signals travel along a neuron.",
+    "formula": "$$v = d/t$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Twitch Duration",
+    "description": "Duration of a single muscle contraction in response to a single stimulus.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Summation and Tetanus",
+    "description": "Increase in muscle force with increased stimulation frequency, leading to sustained contraction (tetanus).",
+    "formula": "$$\\text{Physiological principle, no simple formula}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Elastic Strain Energy",
+    "description": "Energy stored in bone due to elastic deformation.",
+    "formula": "$$U = \\frac{1}{2} \\sigma \\epsilon V$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Viscoelastic Damping",
+    "description": "Ability of bone to dissipate energy during deformation.",
+    "formula": "$$\\text{Measured by hysteresis loop area in stress-strain curve}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Lubrication (Coefficient of Friction)",
+    "description": "Friction between joint surfaces, reduced by synovial fluid.",
+    "formula": "$$\\mu$$ (empirical value)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Articular Cartilage Stiffness",
+    "description": "Stiffness of cartilage in joints, influencing load distribution.",
+    "formula": "$$E$$ (empirical value)",
+    "units": "Pascals (Pa) or MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Attenuation (Footwear/Surfaces)",
+    "description": "Reduction of impact forces by cushioning materials.",
+    "formula": "$$\\text{Percentage reduction in peak force or loading rate}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sport-Specific Power Output",
+    "description": "Power generated in specific athletic movements (e.g., throwing, jumping, hitting).",
+    "formula": "$$\\text{Context-dependent, often involves force x velocity}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sport-Specific Efficiency",
+    "description": "Efficiency of energy conversion for specific sports activities.",
+    "formula": "$$\\text{Ratio of useful work to total energy expenditure}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Spin Rate (Ball Sports)",
+    "description": "Rate of rotation of a ball, influencing its trajectory.",
+    "formula": "$$\\omega$$ (measured by high-speed camera)",
+    "units": "radians per second (rad/s) or RPM"
+  },
+  {
+    "category": "Biology",
+    "name": "Magnus Force (Ball Sports)",
+    "description": "Force on a spinning object moving through a fluid, perpendicular to motion and spin axis.",
+    "formula": "$$F_M = C_L \\frac{1}{2}\\rho A v^2$$ (simplified, where $C_L$ is lift coefficient due to spin)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Coefficient of Friction (Sport Surface)",
+    "description": "Friction between footwear/equipment and playing surface.",
+    "formula": "$$\\mu$$ (measured experimentally)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Profile (Athlete/Equipment)",
+    "description": "Shape optimization for minimizing air resistance.",
+    "formula": "$$\\text{Qualitative assessment or CFD simulation}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Hydrodynamic Profile (Swimmer/Equipment)",
+    "description": "Shape optimization for minimizing water resistance.",
+    "formula": "$$\\text{Qualitative assessment or CFD simulation}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Radiation Exchange (Athlete-Environment)",
+    "description": "Net heat exchange via radiation between an athlete and their surroundings.",
+    "formula": "$$Q_{rad,net} = \\sigma \\epsilon A (T_{skin}^4 - T_{env}^4)$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Convection Heat Exchange (Athlete-Environment)",
+    "description": "Net heat exchange via convection between an athlete and surrounding air/water.",
+    "formula": "$$Q_{conv,net} = h_c A (T_{skin} - T_{air})$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Evaporation Heat Exchange (Athlete)",
+    "description": "Heat loss from an athlete due to sweat evaporation.",
+    "formula": "$$Q_{evap} = m_{sweat} L_v$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Heat Balance (Athlete)",
+    "description": "Overall balance of heat production and loss in an athlete.",
+    "formula": "$$S = M - W_{ext} - (C+R+E) - K$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Core Temperature Regulation (Set Point Theory)",
+    "description": "Body's physiological control of core temperature around a set point.",
+    "formula": "$$\\text{Physiological control system, no simple formula}$$",
+    "units": "degrees Celsius (°C)"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermoregulatory Sweat Rate",
+    "description": "Sweat rate specifically for thermoregulation.",
+    "formula": "$$\\text{Dependent on heat load and environmental factors}$$",
+    "units": "L/h"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Glucose Regulation",
+    "description": "Homeostatic control of blood glucose levels by hormones like insulin and glucagon.",
+    "formula": "$$\\text{Complex endocrine system, no simple formula}$$",
+    "units": "mmol/L"
+  },
+  {
+    "category": "Biology",
+    "name": "Glycemic Index (GI)",
+    "description": "Measure of how quickly a food raises blood glucose levels.",
+    "formula": "$$\\text{GI} = \\frac{\\text{Area under blood glucose curve (test food)}}{\\text{Area under blood glucose curve (reference food)}} \\times 100$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Glycemic Load (GL)",
+    "description": "Quantifies the impact of carbohydrate portion size on blood glucose.",
+    "formula": "$$GL = GI \\times \\frac{\\text{Carbohydrate (g)}}{100}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Protein Turnover Rate",
+    "description": "Rate of protein synthesis and degradation in the body.",
+    "formula": "$$\\text{Complex biochemical process, no simple formula}$$",
+    "units": "grams/day"
+  },
+  {
+    "category": "Biology",
+    "name": "Fluid Compartment Volumes",
+    "description": "Volumes of intracellular, interstitial, and plasma fluid compartments.",
+    "formula": "$$\\text{Measured by tracer dilution methods}$$",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Electrolyte Balance",
+    "description": "Homeostatic regulation of ion concentrations (e.g., Na+, K+, Cl-) in body fluids.",
+    "formula": "$$\\text{Complex physiological process, no simple formula}$$",
+    "units": "mmol/L"
+  },
+  {
+    "category": "Biology",
+    "name": "Acid-Base Balance (Henderson-Hasselbalch Equation)",
+    "description": "Relates pH, bicarbonate, and carbonic acid in blood.",
+    "formula": "$$pH = pK_a + \\log_{10}\\left(\\frac{[HCO_3^-]}{[H_2CO_3]}\\right)$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Respiratory Rate",
+    "description": "Number of breaths per minute.",
+    "formula": "$$RR$$ (measured value)",
+    "units": "breaths per minute (bpm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Tidal Volume",
+    "description": "Volume of air inhaled or exhaled in a normal breath.",
+    "formula": "$$TV$$ (measured value)",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Alveolar Ventilation",
+    "description": "Volume of fresh air reaching the alveoli per minute.",
+    "formula": "$$\\dot{V}_A = (TV - V_D) \\times RR$$",
+    "units": "liters per minute (L/min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Dead Space Volume",
+    "description": "Volume of air in the respiratory system that does not participate in gas exchange.",
+    "formula": "$$V_D$$ (measured value)",
+    "units": "liters (L)"
+  },
+  {
+    "category": "Biology",
+    "name": "Pulmonary Gas Exchange (Fick's Law of Diffusion)",
+    "description": "Rate of gas diffusion across the alveolar-capillary membrane.",
+    "formula": "$$V_{gas} = \\frac{A \\cdot D_g \\cdot (P_1 - P_2)}{T}$$",
+    "units": "mL/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Oxygen-Hemoglobin Dissociation Curve",
+    "description": "Relationship between partial pressure of oxygen and hemoglobin saturation.",
+    "formula": "$$\\text{Sigmoidal curve, no simple formula}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Myocardial Oxygen Consumption (MVO2)",
+    "description": "Oxygen consumed by the heart muscle.",
+    "formula": "$$MVO_2 = HR \\times SBP \\times \\text{RPP}$$",
+    "units": "mL O₂/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Ejection Fraction",
+    "description": "Percentage of blood pumped out of the ventricle with each beat.",
+    "formula": "$$EF = \\frac{SV}{EDV} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Stroke Volume (SV)",
+    "description": "Volume of blood pumped out of the ventricle with each beat.",
+    "formula": "$$SV = EDV - ESV$$",
+    "units": "mL"
+  },
+  {
+    "category": "Biology",
+    "name": "Peripheral Resistance (Total)",
+    "description": "Total resistance to blood flow in the systemic circulation.",
+    "formula": "$$TPR = \\frac{MAP}{CO}$$",
+    "units": "mmHg·min/L"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Flow Velocity (Doppler Ultrasound)",
+    "description": "Velocity of blood flow measured using Doppler effect.",
+    "formula": "$$v = \\frac{f_D c}{2 f_0 \\cos\\theta}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Arterial Stiffness (Pulse Wave Velocity)",
+    "description": "Measure of arterial stiffness based on how fast the pulse wave travels.",
+    "formula": "$$PWV = \\frac{\\Delta x}{\\Delta t}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Pressure (Pulse Pressure)",
+    "description": "Difference between systolic and diastolic blood pressure.",
+    "formula": "$$PP = SBP - DBP$$",
+    "units": "millimeters of mercury (mmHg)"
+  },
+  {
+    "category": "Biology",
+    "name": "Blood Pressure (Hydrostatic Component)",
+    "description": "Component of blood pressure due to gravity in a vertical column of blood.",
+    "formula": "$$P_{hydro} = \\rho g h$$",
+    "units": "mmHg"
+  },
+  {
+    "category": "Biology",
+    "name": "Capillary Exchange (Starling Forces)",
+    "description": "Movement of fluid across capillary walls due to hydrostatic and oncotic pressures.",
+    "formula": "$$Net Filtration = K_f [(P_c - P_{if}) - (\\Pi_c - \\Pi_{if})]$$",
+    "units": "mL/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Lymph Flow Rate",
+    "description": "Rate at which lymph fluid moves through the lymphatic system.",
+    "formula": "$$\\text{Physiological process, no simple formula}$$",
+    "units": "mL/min"
+  },
+  {
+    "category": "Biology",
+    "name": "Fluid Shear Stress (Blood Vessels)",
+    "description": "Frictional force exerted by blood flow on the vessel wall.",
+    "formula": "$$\\tau_w = \\frac{4\\mu Q}{\\pi r^3}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Vascular Resistance (Regional)",
+    "description": "Resistance to blood flow in a specific vascular bed.",
+    "formula": "$$R = \\frac{\\Delta P}{Q}$$",
+    "units": "mmHg·min/mL"
+  },
+  {
+    "category": "Biology",
+    "name": "Cell Volume Regulation",
+    "description": "Mechanisms by which cells maintain their volume despite osmotic challenges.",
+    "formula": "$$\\text{Complex regulatory mechanisms, no simple formula}$$",
+    "units": "cubic micrometers (µm³)"
+  },
+  {
+    "category": "Biology",
+    "name": "Membrane Potential (Action Potential Peak)",
+    "description": "Maximum depolarization reached during an action potential.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "millivolts (mV)"
+  },
+  {
+    "category": "Biology",
+    "name": "Membrane Potential (Resting)",
+    "description": "Stable, negative membrane potential of an excitable cell at rest.",
+    "formula": "$$\\text{Measured experimentally, approximated by GHK}$$",
+    "units": "millivolts (mV)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ion Channel Gating Kinetics",
+    "description": "Rate at which ion channels open and close in response to stimuli.",
+    "formula": "$$\\text{Modeled by differential equations, e.g., Hodgkin-Huxley}$$",
+    "units": "per second (s⁻¹)"
+  },
+  {
+    "category": "Biology",
+    "name": "Synaptic Strength (LTP/LTD)",
+    "description": "Long-term potentiation (LTP) and long-term depression (LTD) of synaptic efficacy.",
+    "formula": "$$\\text{Measured by postsynaptic potential amplitude}$$",
+    "units": "millivolts (mV)"
+  },
+  {
+    "category": "Biology",
+    "name": "Neural Coding (Firing Rate)",
+    "description": "Information encoded by the frequency of action potentials.",
+    "formula": "$$f_{firing}$$ (measured value)",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Biology",
+    "name": "Neural Network Activity (Population Firing Rate)",
+    "description": "Average firing rate of a population of neurons.",
+    "formula": "$$\\text{Average of individual firing rates}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Force (Active Component)",
+    "description": "Force generated by contractile elements of muscle.",
+    "formula": "$$F_{active} = f(\\text{activation}, \\text{length}, \\text{velocity})$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Force (Passive Component)",
+    "description": "Force generated by non-contractile elements (e.g., connective tissue) when muscle is stretched.",
+    "formula": "$$F_{passive} = f(\\text{length})$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Stiffness (Passive)",
+    "description": "Resistance of passive muscle to stretch.",
+    "formula": "$$K_{passive} = \\frac{\\Delta F_{passive}}{\\Delta L}$$",
+    "units": "Newtons per meter (N/m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Viscosity (Passive)",
+    "description": "Resistance of passive muscle to rate of stretch.",
+    "formula": "$$\\eta_{passive} = \\frac{\\Delta F_{passive}}{\\Delta v}$$",
+    "units": "Newton seconds per meter (N·s/m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Range of Motion (ROM)",
+    "description": "Full movement potential of a joint, measured in degrees.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "degrees (°)"
+  },
+  {
+    "category": "Biology",
+    "name": "Moment of Inertia (Segmental, about Joint)",
+    "description": "Moment of inertia of a body segment about a specific joint axis.",
+    "formula": "$$I_{joint} = I_{CM} + m d^2$$ (parallel axis theorem)",
+    "units": "kilogram meters squared (kg·m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Angular Momentum (Total Body)",
+    "description": "Sum of angular momenta of all body segments.",
+    "formula": "$$L_{total} = \\sum L_{segment}$$",
+    "units": "kilogram meters squared per second (kg·m²/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Conservation of Angular Momentum (Sport)",
+    "description": "Total angular momentum remains constant in the absence of external torques.",
+    "formula": "$$I_1 \\omega_1 = I_2 \\omega_2$$",
+    "units": "kilogram meters squared per second (kg·m²/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Force (Peak)",
+    "description": "Maximum force experienced during an impact event.",
+    "formula": "$$F_{peak}$$ (measured by force plate)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Loading Rate",
+    "description": "Rate at which impact force is applied.",
+    "formula": "$$\\text{Loading Rate} = \\frac{\\Delta F_{impact}}{\\Delta t}$$",
+    "units": "Newtons per second (N/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mechanical Energy Recovery (SSC)",
+    "description": "Percentage of mechanical energy recovered in the stretch-shortening cycle.",
+    "formula": "$$\\text{Recovery %} = \\frac{\\text{Work Output}}{\\text{Work Input}} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Power (Peak)",
+    "description": "Maximum power output of a muscle or muscle group.",
+    "formula": "$$P_{peak}$$ (measured experimentally)",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Work (Total)",
+    "description": "Total mechanical work done by a muscle during a movement.",
+    "formula": "$$W_{total} = \\int P_{muscle} dt$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Stiffness (Linear)",
+    "description": "Resistance of a joint to linear deformation.",
+    "formula": "$$K = \\frac{\\Delta F}{\\Delta x}$$",
+    "units": "Newtons per meter (N/m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Viscoelasticity (Hysteresis Loss)",
+    "description": "Energy dissipated as heat during cyclic loading of viscoelastic tissue.",
+    "formula": "$$\\text{Area of hysteresis loop in stress-strain curve}$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Strain Rate",
+    "description": "Rate of deformation of bone tissue.",
+    "formula": "$$\\dot{\\epsilon} = \\frac{d\\epsilon}{dt}$$",
+    "units": "per second (s⁻¹)"
+  },
+  {
+    "category": "Biology",
+    "name": "Wolff's Law (Bone Remodeling)",
+    "description": "Bone adapts its structure to the loads it is subjected to.",
+    "formula": "$$\\text{Qualitative biological principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Reaction Force (3D Components)",
+    "description": "Components of the joint reaction force in three dimensions (X, Y, Z).",
+    "formula": "$$F_{Rx}, F_{Ry}, F_{Rz}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Moment (3D Components)",
+    "description": "Components of the joint moment in three dimensions (X, Y, Z).",
+    "formula": "$$M_{Jx}, M_{Jy}, M_{Jz}$$",
+    "units": "Newton meters (N·m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ground Reaction Force (Vertical Component)",
+    "description": "Vertical component of the force exerted by the ground, crucial for jumping and landing.",
+    "formula": "$$F_{GRF,z}$$ (measured by force plate)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ground Reaction Force (Anterior-Posterior Component)",
+    "description": "Force component along the direction of motion, related to propulsion and braking.",
+    "formula": "$$F_{GRF,y}$$ (measured by force plate)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ground Reaction Force (Medial-Lateral Component)",
+    "description": "Force component perpendicular to the direction of motion, related to stability.",
+    "formula": "$$F_{GRF,x}$$ (measured by force plate)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Center of Pressure (COP) Trajectory",
+    "description": "Path traced by the center of pressure during movement or standing.",
+    "formula": "$$COP(t) = (x(t), y(t))$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Drag (Cycling Position Optimization)",
+    "description": "Minimizing drag by optimizing body position and equipment.",
+    "formula": "$$\\text{Empirical data or CFD simulation}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Hydrodynamic Drag (Swimming Stroke Efficiency)",
+    "description": "Minimizing drag by optimizing swimming technique.",
+    "formula": "$$\\text{Empirical data or CFD simulation}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rolling Resistance (Tire Pressure)",
+    "description": "Influence of tire pressure on rolling resistance.",
+    "formula": "$$\\text{Empirical relationship, generally lower pressure = higher resistance}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Power Balance (Athlete)",
+    "description": "Balance between power generated and power dissipated (e.g., in cycling).",
+    "formula": "$$P_{generated} = P_{aero} + P_{rolling} + P_{gravity} + P_{acceleration}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Sensation Vote (TSV)",
+    "description": "Subjective rating of thermal comfort on a scale.",
+    "formula": "$$\\text{Scale-based (e.g., ASHRAE 7-point scale)}$$",
+    "units": "dimensionless score"
+  },
+  {
+    "category": "Biology",
+    "name": "Sweat Evaporation Rate (Maximum)",
+    "description": "Maximum rate at which sweat can evaporate from the skin.",
+    "formula": "$$E_{max} = h_e A (P_{s,skin} - P_{v,air})$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Storage in Body",
+    "description": "Net heat accumulated in the body, leading to temperature change.",
+    "formula": "$$S_{body} = Q_{met} - W_{ext} - (Q_{rad} + Q_{conv} + Q_{evap} + Q_{cond})$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Dehydration Impact on Performance",
+    "description": "Relationship between dehydration level and decline in exercise performance.",
+    "formula": "$$\\text{Empirical relationship, typically a percentage decrease in performance per % dehydration}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Glycogen Resynthesis Rate",
+    "description": "Rate at which muscle and liver glycogen stores are replenished after exercise.",
+    "formula": "$$\\text{Dependent on carbohydrate intake and insulin sensitivity}$$",
+    "units": "mmol/kg wet muscle/hour"
+  },
+  {
+    "category": "Biology",
+    "name": "Protein Synthesis (Post-Exercise)",
+    "description": "Increased rate of protein synthesis after exercise, crucial for muscle repair and growth.",
+    "formula": "$$\\text{Complex biochemical process, no simple formula}$$",
+    "units": "grams/hour"
+  },
+  {
+    "category": "Biology",
+    "name": "Hormonal Balance (Anabolic/Catabolic)",
+    "description": "Balance between hormones promoting tissue building (anabolic) and tissue breakdown (catabolic).",
+    "formula": "$$\\text{Ratio of anabolic to catabolic hormones (e.g., T/C ratio)}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Sleep Duration (Optimal for Performance)",
+    "description": "Recommended hours of sleep for optimal athletic performance and recovery.",
+    "formula": "$$\\text{Typically 7-9 hours, individual variation}$$",
+    "units": "hours"
+  },
+  {
+    "category": "Biology",
+    "name": "Recovery Strategies (Impact on Performance)",
+    "description": "Effectiveness of various recovery methods (e.g., cold water immersion, massage) on subsequent performance.",
+    "formula": "$$\\text{Empirical data, often percentage improvement}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Training Periodization (Macrocycle/Mesocycle/Microcycle)",
+    "description": "Systematic planning of training to optimize performance and minimize overtraining.",
+    "formula": "$$\\text{Structured training plan, no simple formula}$$",
+    "units": "weeks/months"
+  },
+  {
+    "category": "Biology",
+    "name": "Overload Principle (Training Adaptation)",
+    "description": "To improve, the body must be subjected to loads greater than accustomed to.",
+    "formula": "$$\\text{Qualitative principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Specificity Principle (Training Adaptation)",
+    "description": "Training adaptations are specific to the type of exercise performed.",
+    "formula": "$$\\text{Qualitative principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Reversibility Principle (Detraining)",
+    "description": "Physiological adaptations to training are lost when training ceases.",
+    "formula": "$$\\text{Qualitative principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Individualization Principle (Training)",
+    "description": "Training programs should be tailored to individual needs and responses.",
+    "formula": "$$\\text{Qualitative principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Progressive Overload (Training)",
+    "description": "Gradually increasing training stress over time to continue adaptation.",
+    "formula": "$$\\text{Qualitative principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Force-Time Curve (Muscle Contraction)",
+    "description": "Plot of force generated by a muscle over time during a contraction.",
+    "formula": "$$\\text{Graphical representation}$$",
+    "units": "Newtons (N) vs. seconds (s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Power-Time Curve (Muscle Contraction)",
+    "description": "Plot of power generated by a muscle over time during a contraction.",
+    "formula": "$$\\text{Graphical representation}$$",
+    "units": "Watts (W) vs. seconds (s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Work-Time Curve (Muscle Contraction)",
+    "description": "Plot of total work done by a muscle over time during a contraction.",
+    "formula": "$$\\text{Graphical representation}$$",
+    "units": "Joules (J) vs. seconds (s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Fatigue Threshold (EMG Median Frequency)",
+    "description": "Frequency at which EMG median frequency starts to decline, indicating fatigue.",
+    "formula": "$$\\text{Empirical observation from EMG data}$$",
+    "units": "Hertz (Hz)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Fiber Recruitment (Size Principle)",
+    "description": "Orderly recruitment of motor units from smallest to largest with increasing force.",
+    "formula": "$$\\text{Physiological principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Motor Unit Conduction Velocity",
+    "description": "Speed of action potential propagation along the motor unit.",
+    "formula": "$$\\text{Measured by EMG techniques}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Reaction Force (Magnitude)",
+    "description": "Overall magnitude of the force exerted across a joint.",
+    "formula": "$$|F_{JR}| = \\sqrt{F_{Rx}^2 + F_{Ry}^2 + F_{Rz}^2}$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Moment (Magnitude)",
+    "description": "Overall magnitude of the moment acting across a joint.",
+    "formula": "$$|M_{J}| = \\sqrt{M_{Jx}^2 + M_{Jy}^2 + M_{Jz}^2}$$",
+    "units": "Newton meters (N·m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ground Reaction Force (Resultant Vector)",
+    "description": "Vector sum of all ground reaction force components.",
+    "formula": "$$\\mathbf{F}_{GRF} = (F_{GRF,x}, F_{GRF,y}, F_{GRF,z})$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Center of Mass (COM) Trajectory",
+    "description": "Path traced by the body's center of mass during movement.",
+    "formula": "$$COM(t) = (x(t), y(t), z(t))$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Center of Mass (COM) Velocity",
+    "description": "Velocity of the body's center of mass.",
+    "formula": "$$v_{COM} = \\frac{dCOM}{dt}$$",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Center of Mass (COM) Acceleration",
+    "description": "Acceleration of the body's center of mass.",
+    "formula": "$$a_{COM} = \\frac{dv_{COM}}{dt}$$",
+    "units": "meters per second squared (m/s²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Impulse-Momentum Theorem (Sport-Specific)",
+    "description": "Relates impulse from ground contact to change in body momentum during a jump or sprint.",
+    "formula": "$$\\int F_{GRF} dt = \\Delta p_{body}$$",
+    "units": "Newton seconds (N·s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Angular Impulse-Momentum Theorem (Sport-Specific)",
+    "description": "Relates angular impulse from torques to change in body angular momentum during a spin or rotation.",
+    "formula": "$$\\int \\tau dt = \\Delta L_{body}$$",
+    "units": "Newton meters seconds (N·m·s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Work-Energy Principle (Sport-Specific)",
+    "description": "Net work done by external forces equals change in total mechanical energy of the athlete.",
+    "formula": "$$W_{ext} = \\Delta KE + \\Delta PE$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mechanical Efficiency (Sport)",
+    "description": "Ratio of mechanical work output to metabolic energy expenditure during exercise.",
+    "formula": "$$\\eta_{mech} = \\frac{\\text{Mechanical Work Output}}{\\text{Metabolic Energy Expenditure}} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Economy of Movement (General)",
+    "description": "Metabolic energy cost to perform a given amount of mechanical work or cover a given distance.",
+    "formula": "$$\\text{Energy Cost / Work or Distance}$$",
+    "units": "Joules per meter (J/m) or kcal/km"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Drag Coefficient (Athlete)",
+    "description": "Dimensionless coefficient for an athlete's body shape, influencing air resistance.",
+    "formula": "$$C_D$$ (empirical value, highly posture-dependent)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Frontal Area (Athlete)",
+    "description": "Area projected by an athlete's body perpendicular to the direction of motion, influencing air resistance.",
+    "formula": "$$A$$ (measured by photogrammetry or laser scanning)",
+    "units": "square meters (m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rolling Resistance Coefficient (Sports Equipment)",
+    "description": "Quantifies friction for wheels/balls on a surface.",
+    "formula": "$$C_{rr}$$ (empirical value)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Coefficient of Friction (Athlete-Surface)",
+    "description": "Friction between athlete's footwear and playing surface, crucial for traction.",
+    "formula": "$$\\mu$$ (measured experimentally)",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Force (Peak, Foot-Ground)",
+    "description": "Maximum force experienced by the foot upon ground contact during running/walking.",
+    "formula": "$$F_{peak}$$ (measured by force plate)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Loading Rate (Foot-Ground Impact)",
+    "description": "Rate at which force increases during foot-ground impact.",
+    "formula": "$$\\text{Loading Rate} = \\frac{\\Delta F}{\\Delta t}$$",
+    "units": "Newtons per second (N/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Stress Shielding (Bone)",
+    "description": "Reduction in bone density due to reduced mechanical loading, often seen with implants.",
+    "formula": "$$\\text{Qualitative principle, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Fatigue Life",
+    "description": "Number of loading cycles bone can withstand before fatigue failure.",
+    "formula": "$$\\text{S-N curve for bone, empirical}$$",
+    "units": "cycles"
+  },
+  {
+    "category": "Biology",
+    "name": "Articular Cartilage Contact Stress",
+    "description": "Stress experienced by joint cartilage under load.",
+    "formula": "$$P_{contact} = \\frac{F_{joint}}{A_{contact}}$$",
+    "units": "Pascals (Pa) or MPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Ligament/Tendon Force",
+    "description": "Force transmitted through a ligament or tendon.",
+    "formula": "$$F_{lig/tendon}$$ (calculated via inverse dynamics or modeling)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Activation Level",
+    "description": "Fraction of a muscle's maximum contractile capacity that is activated.",
+    "formula": "$$\\text{Normalized EMG signal or modeling parameter}$$",
+    "units": "dimensionless (0-1)"
+  },
+  {
+    "category": "Biology",
+    "name": "Motor Control (Feedback Loop)",
+    "description": "System where sensory information is used to adjust motor output.",
+    "formula": "$$\\text{Control system diagram, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Motor Control (Feedforward Control)",
+    "description": "Anticipatory motor adjustments based on prior experience or prediction.",
+    "formula": "$$\\text{Control system diagram, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Proprioceptive Acuity",
+    "description": "Precision of proprioceptive sense.",
+    "formula": "$$\\text{Measured by error in joint angle matching}$$",
+    "units": "degrees (°)"
+  },
+  {
+    "category": "Biology",
+    "name": "Vestibulo-Ocular Reflex (VOR) Gain",
+    "description": "Ratio of eye movement velocity to head movement velocity during head rotation.",
+    "formula": "$$Gain = \\frac{\\text{Eye Velocity}}{\\text{Head Velocity}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Visual Field (Peripheral)",
+    "description": "Extent of vision outside the central foveal area.",
+    "formula": "$$\\text{Measured in degrees}$$",
+    "units": "degrees (°)"
+  },
+  {
+    "category": "Biology",
+    "name": "Visual Processing Speed",
+    "description": "Speed at which visual information is processed by the brain.",
+    "formula": "$$\\text{Measured by reaction time to visual stimuli}$$",
+    "units": "milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Auditory Localization (Interaural Time Difference)",
+    "description": "Difference in arrival time of sound at each ear, used for sound localization.",
+    "formula": "$$\\Delta t = \\frac{d \\sin\\theta}{v_{sound}}$$",
+    "units": "seconds (s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Auditory Localization (Interaural Level Difference)",
+    "description": "Difference in sound intensity at each ear, used for sound localization.",
+    "formula": "$$\\Delta L$$ (measured in dB)",
+    "units": "Decibels (dB)"
+  },
+  {
+    "category": "Biology",
+    "name": "Tactile Sensitivity (Two-Point Discrimination)",
+    "description": "Minimum distance at which two points can be perceived as separate.",
+    "formula": "$$\\text{Measured in millimeters (mm)}$$",
+    "units": "millimeters (mm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Balance (Limits of Stability)",
+    "description": "Maximum range of motion in the anteroposterior and mediolateral directions without losing balance.",
+    "formula": "$$\\text{Measured by COP excursion limits}$$",
+    "units": "meters (m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Postural Control (Feedback Loop)",
+    "description": "System where sensory inputs (visual, vestibular, somatosensory) are used to maintain balance.",
+    "formula": "$$\\text{Control system diagram, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Postural Control (Feedforward Mechanism)",
+    "description": "Anticipatory adjustments to maintain balance during planned movements.",
+    "formula": "$$\\text{Control system diagram, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Energy Expenditure (Resting Metabolic Rate)",
+    "description": "Energy expended by the body at rest to maintain vital functions.",
+    "formula": "$$\\text{Measured by indirect calorimetry or predictive equations}$$",
+    "units": "kcal/day or Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Energy Expenditure (Exercise)",
+    "description": "Energy expended during physical activity.",
+    "formula": "$$\\text{Calculated from VO2 or METs}$$",
+    "units": "kcal/min or Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Daily Energy Expenditure (TDEE)",
+    "description": "Total energy expended by the body in a 24-hour period.",
+    "formula": "$$TDEE = RMR + TEF + NEAT + EAT$$",
+    "units": "kcal/day"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermic Effect of Food (TEF)",
+    "description": "Energy expended for digestion, absorption, and metabolism of food.",
+    "formula": "$$\\text{Typically 10% of energy intake}$$",
+    "units": "kcal"
+  },
+  {
+    "category": "Biology",
+    "name": "Non-Exercise Activity Thermogenesis (NEAT)",
+    "description": "Energy expended for all activities not related to sleeping, eating, or planned exercise.",
+    "formula": "$$\\text{Highly variable, no simple formula}$$",
+    "units": "kcal/day"
+  },
+  {
+    "category": "Biology",
+    "name": "Exercise Activity Thermogenesis (EAT)",
+    "description": "Energy expended during planned physical exercise.",
+    "formula": "$$\\text{Calculated from exercise duration and intensity}$$",
+    "units": "kcal/day"
+  },
+  {
+    "category": "Biology",
+    "name": "Body Mass Index (BMI)",
+    "description": "A measure of body fat based on height and weight.",
+    "formula": "$$BMI = \\frac{\\text{Weight (kg)}}{\\text{Height (m)}^2}$$",
+    "units": "kg/m²"
+  },
+  {
+    "category": "Biology",
+    "name": "Waist-to-Hip Ratio (WHR)",
+    "description": "Ratio of waist circumference to hip circumference, indicating fat distribution.",
+    "formula": "$$WHR = \\frac{\\text{Waist Circumference}}{\\text{Hip Circumference}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Body Surface Area (BSA)",
+    "description": "Total surface area of the human body, relevant for heat exchange and drug dosage.",
+    "formula": "$$\\text{Various formulas, e.g., Du Bois formula: } BSA = 0.007184 \\times W^{0.425} \\times H^{0.725}$$",
+    "units": "square meters (m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Strength Index (BSI)",
+    "description": "Composite index reflecting bone strength, combining BMD and structural properties.",
+    "formula": "$$\\text{Complex calculation, often proprietary}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Elastic Modulus (Apparent)",
+    "description": "Overall stiffness of bone at the macroscopic level.",
+    "formula": "$$E_{apparent}$$ (measured by mechanical testing)",
+    "units": "Pascals (Pa) or GPa"
+  },
+  {
+    "category": "Biology",
+    "name": "Bone Anisotropy",
+    "description": "Directional dependence of bone's mechanical properties.",
+    "formula": "$$\\text{Qualitative property, no simple formula}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Cartilage Permeability",
+    "description": "Ease with which fluid flows through articular cartilage, influencing load support.",
+    "formula": "$$k$$ (empirical value)",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Synovial Fluid Viscosity",
+    "description": "Viscosity of joint fluid, providing lubrication.",
+    "formula": "$$\\eta$$ (empirical value)",
+    "units": "Pascal seconds (Pa·s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ligament/Tendon Creep",
+    "description": "Time-dependent increase in length of ligament/tendon under constant load.",
+    "formula": "$$\\text{Observed phenomenon, modeled by viscoelastic models}$$",
+    "units": "millimeters (mm)"
+  },
+  {
+    "category": "Biology",
+    "name": "Ligament/Tendon Stress Relaxation",
+    "description": "Time-dependent decrease in stress in ligament/tendon held at constant length.",
+    "formula": "$$\\text{Observed phenomenon, modeled by viscoelastic models}$$",
+    "units": "Pascals (Pa)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Force-Time Integral",
+    "description": "Total impulse generated by a muscle contraction.",
+    "formula": "$$\\int F_{muscle} dt$$",
+    "units": "Newton seconds (N·s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Muscle Power-Time Integral",
+    "description": "Total work done by a muscle contraction.",
+    "formula": "$$\\int P_{muscle} dt$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Work (Total)",
+    "description": "Total mechanical work done across a joint during movement.",
+    "formula": "$$W_{joint} = \\int P_{joint} dt$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Joint Efficiency",
+    "description": "Efficiency of energy transfer across a joint.",
+    "formula": "$$\\eta_{joint} = \\frac{\\text{Work Output}}{\\text{Work Input}} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Segmental Angular Momentum",
+    "description": "Angular momentum of an individual body segment.",
+    "formula": "$$L_{segment} = I_{segment} \\omega_{segment}$$",
+    "units": "kilogram meters squared per second (kg·m²/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Body Angular Momentum",
+    "description": "Sum of angular momenta of all body segments, conserved in flight.",
+    "formula": "$$L_{total} = \\sum L_{segment}$$",
+    "units": "kilogram meters squared per second (kg·m²/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Moment of Inertia (Whole Body)",
+    "description": "Overall rotational inertia of the human body, adjustable by posture.",
+    "formula": "$$I_{body}$$ (variable, depends on posture)",
+    "units": "kilogram meters squared (kg·m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rotational Kinetic Energy (Whole Body)",
+    "description": "Kinetic energy due to the rotation of the entire body.",
+    "formula": "$$KE_{rot,body} = \\frac{1}{2}I_{body}\\omega_{body}^2$$",
+    "units": "Joules (J)"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Force (Ground Reaction Force Peak)",
+    "description": "Maximum vertical ground reaction force during landing or striking.",
+    "formula": "$$F_{GRF,peak}$$ (measured by force plate)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Duration",
+    "description": "Time over which an impact force is applied.",
+    "formula": "$$\\Delta t_{impact}$$ (measured experimentally)",
+    "units": "seconds (s) or milliseconds (ms)"
+  },
+  {
+    "category": "Biology",
+    "name": "Impact Attenuation (Material Properties)",
+    "description": "Ability of a material (e.g., in footwear) to reduce impact forces.",
+    "formula": "$$\\text{Energy absorption, stiffness, damping coefficient}$$",
+    "units": "dimensionless (%) or N/m"
+  },
+  {
+    "category": "Biology",
+    "name": "Stress-Strain Curve (Biological Tissue)",
+    "description": "Relationship between stress and strain for biological tissues (e.g., bone, tendon, cartilage).",
+    "formula": "$$\\text{Graphical representation, often nonlinear}$$",
+    "units": "Pascals (Pa) vs. dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Ultimate Strain (Biological Tissue)",
+    "description": "Strain at which biological tissue fails.",
+    "formula": "$$\\epsilon_{ult}$$ (material property)",
+    "units": "dimensionless (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Energy Stored (Biological Tissue)",
+    "description": "Energy stored in biological tissue during elastic deformation.",
+    "formula": "$$U = \\int \\sigma d\\epsilon$$",
+    "units": "Joules per cubic meter (J/m³)"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Drag (Form Drag)",
+    "description": "Drag due to the shape of an object moving through a fluid.",
+    "formula": "$$F_{form} = \\frac{1}{2}\\rho v^2 C_{D,form} A$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Drag (Skin Friction Drag)",
+    "description": "Drag due to friction between the fluid and the surface of the object.",
+    "formula": "$$F_{skin} = \\frac{1}{2}\\rho v^2 C_{D,skin} A$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Aerodynamic Lift-to-Drag Ratio",
+    "description": "Efficiency of an aerodynamic body, ratio of lift to drag.",
+    "formula": "$$L/D$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Hydrodynamic Drag (Pressure Drag)",
+    "description": "Drag due to pressure differences around a body moving through water.",
+    "formula": "$$F_{pressure} = \\frac{1}{2}\\rho v^2 C_{D,pressure} A$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Hydrodynamic Drag (Friction Drag)",
+    "description": "Drag due to friction between water and the surface of a body.",
+    "formula": "$$F_{friction} = \\frac{1}{2}\\rho v^2 C_{D,friction} A$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Hydrodynamic Drag (Wave Drag)",
+    "description": "Drag due to the generation of waves by a body moving at the water surface.",
+    "formula": "$$F_{wave}$$ (complex, depends on Froude number)",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Rolling Resistance (Slope Impact)",
+    "description": "Additional force due to rolling up or down a slope.",
+    "formula": "$$F_{slope} = mg \\sin\\theta$$",
+    "units": "Newtons (N)"
+  },
+  {
+    "category": "Biology",
+    "name": "Power-to-CdA Ratio (Cycling)",
+    "description": "Metric for aerodynamic efficiency in cycling.",
+    "formula": "$$P/C_dA$$",
+    "units": "Watts per square meter (W/m²)"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Comfort (Mean Radiant Temperature)",
+    "description": "Uniform temperature of a black enclosure that would result in the same radiant heat exchange as the actual non-uniform environment.",
+    "formula": "$$T_{mrt} = \\left[ (T_1^4 A_1 + T_2^4 A_2 + ... + T_n^4 A_n) / (A_1 + A_2 + ... + A_n) \\right]^{1/4}$$",
+    "units": "Kelvin (K) or degrees Celsius (°C)"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Comfort (Air Velocity)",
+    "description": "Speed of air movement, influencing convective heat exchange.",
+    "formula": "$$v_{air}$$ (measured value)",
+    "units": "meters per second (m/s)"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Comfort (Clothing Insulation)",
+    "description": "Resistance of clothing to heat transfer.",
+    "formula": "$$I_{clo}$$ (measured in clo units)",
+    "units": "clo"
+  },
+  {
+    "category": "Biology",
+    "name": "Thermal Comfort (Metabolic Rate)",
+    "description": "Heat production rate by the body, influencing thermal comfort.",
+    "formula": "$$M$$ (measured in METs or Watts)",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Stress Index (Wet Bulb Globe Temperature - WBGT)",
+    "description": "Composite temperature used to estimate heat stress in direct sunlight.",
+    "formula": "$$WBGT = 0.7 T_{nw} + 0.2 T_g + 0.1 T_a$$ (outdoor, no sun)",
+    "units": "degrees Celsius (°C) or Fahrenheit (°F)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Acclimation (Sweat Onset Time)",
+    "description": "Time taken for sweating to begin in response to heat stress, decreases with acclimation.",
+    "formula": "$$\\Delta t_{onset}$$ (measured experimentally)",
+    "units": "minutes (min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Heat Acclimation (Sweat Rate Increase)",
+    "description": "Increase in sweat rate with heat acclimation.",
+    "formula": "$$\\Delta \\dot{m}_{sweat}$$ (measured experimentally)",
+    "units": "L/h"
+  },
+  {
+    "category": "Biology",
+    "name": "Fluid Replacement Rate (Exercise)",
+    "description": "Rate at which fluids should be consumed during exercise to match sweat loss.",
+    "formula": "$$\\text{Fluid Replacement Rate} = \\text{Sweat Rate} - \\text{Urine Output Rate}$$",
+    "units": "L/h"
+  },
+  {
+    "category": "Biology",
+    "name": "Carbohydrate Intake (Exercise)",
+    "description": "Recommended carbohydrate intake during prolonged exercise to maintain performance.",
+    "formula": "$$\\text{Typically 30-90 g/hour}$$",
+    "units": "grams per hour (g/h)"
+  },
+  {
+    "category": "Biology",
+    "name": "Protein Intake (Recovery)",
+    "description": "Recommended protein intake after exercise for muscle repair and growth.",
+    "formula": "$$\\text{Typically 0.25-0.3 g/kg body mass}$$",
+    "units": "grams per kilogram (g/kg)"
+  },
+  {
+    "category": "Biology",
+    "name": "Fat Intake (General Nutrition)",
+    "description": "Recommended fat intake as a percentage of total daily energy intake.",
+    "formula": "$$\\text{Typically 20-35% of total calories}$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Vitamin D Status",
+    "description": "Blood level of 25-hydroxyvitamin D, important for bone health and immune function.",
+    "formula": "$$\\text{Measured by blood test}$$",
+    "units": "ng/mL or nmol/L"
+  },
+  {
+    "category": "Biology",
+    "name": "Iron Status (Ferritin)",
+    "description": "Blood ferritin levels, indicating iron stores, crucial for oxygen transport.",
+    "formula": "$$\\text{Measured by blood test}$$",
+    "units": "ng/mL"
+  },
+  {
+    "category": "Biology",
+    "name": "Sleep Efficiency",
+    "description": "Ratio of total sleep time to time in bed.",
+    "formula": "$$\\text{Sleep Efficiency} = \\frac{\\text{Total Sleep Time}}{\\text{Time in Bed}} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sleep Latency",
+    "description": "Time taken to fall asleep.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "minutes (min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Wake After Sleep Onset (WASO)",
+    "description": "Total time spent awake after initially falling asleep.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "minutes (min)"
+  },
+  {
+    "category": "Biology",
+    "name": "Total Sleep Time (TST)",
+    "description": "Total duration of sleep.",
+    "formula": "$$\\text{Measured experimentally}$$",
+    "units": "hours (h)"
+  },
+  {
+    "category": "Biology",
+    "name": "Sleep Debt",
+    "description": "Accumulated difference between required sleep and actual sleep.",
+    "formula": "$$\\text{Required Sleep} - \\text{Actual Sleep}$$",
+    "units": "hours (h)"
+  },
+  {
+    "category": "Biology",
+    "name": "Training Monotony",
+    "description": "Measure of the day-to-day variability in training load.",
+    "formula": "$$\\text{Monotony} = \\frac{\\text{Mean Daily Load}}{\\text{Standard Deviation of Daily Load}}$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Training Strain",
+    "description": "Overall physiological stress from training, combining load and monotony.",
+    "formula": "$$\\text{Strain} = \\text{Training Load} \\times \\text{Monotony}$$",
+    "units": "arbitrary units (AU)"
+  },
+  {
+    "category": "Biology",
+    "name": "Fitness-Fatigue Model (Training Adaptation)",
+    "description": "Models how training stimulus affects fitness and fatigue, influencing performance.",
+    "formula": "$$\\text{Performance}(t) = K_1 \\cdot \\text{Fitness}(t) - K_2 \\cdot \\text{Fatigue}(t)$$",
+    "units": "dimensionless"
+  },
+  {
+    "category": "Biology",
+    "name": "Tapering Strategy (Performance Optimization)",
+    "description": "Reduction in training load before competition to optimize performance.",
+    "formula": "$$\\text{Qualitative principle, no simple formula}$$",
+    "units": "percentage reduction"
+  },
+  {
+    "category": "Biology",
+    "name": "Peak Power (Wingate Test)",
+    "description": "Maximum power output during a short, maximal cycling sprint.",
+    "formula": "$$P_{peak} = \\frac{\\text{Force} \\times \\text{Distance}}{\\text{Time}}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Mean Power (Wingate Test)",
+    "description": "Average power output during a Wingate test.",
+    "formula": "$$P_{mean} = \\frac{\\text{Total Work}}{\\text{Test Duration}}$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Fatigue Index (Wingate Test)",
+    "description": "Percentage decline in power from peak to minimum during a Wingate test.",
+    "formula": "$$FI = \\frac{\\text{Peak Power} - \\text{Minimum Power}}{\\text{Peak Power}} \\times 100\\%$$",
+    "units": "percentage (%)"
+  },
+  {
+    "category": "Biology",
+    "name": "Isokinetic Strength (Peak Torque)",
+    "description": "Maximum torque generated at a constant angular velocity.",
+    "formula": "$$\\tau_{peak}$$ (measured by isokinetic dynamometer)",
+    "units": "Newton meters (N·m)"
+  },
+  {
+    "category": "Biology",
+    "name": "Isokinetic Power",
+    "description": "Power generated during isokinetic contraction.",
+    "formula": "$$P = \\tau \\times \\omega$$",
+    "units": "Watts (W)"
+  },
+  {
+    "category": "Biology",
+    "name": "Electromechanical Delay (EMD)",
+    "description": "Time delay between muscle electrical activation (EMG onset) and mechanical force production (force onset).",
+    "formula": "$$EMD = \\text{Force Onset Time} - \\text{EMG Onset Time}$$",
+    "units": "milliseconds (ms)"
+  }
+]

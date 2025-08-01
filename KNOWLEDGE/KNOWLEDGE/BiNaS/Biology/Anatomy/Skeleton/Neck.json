@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Hyoid Bone (Os Hyoideum)",
+    "type": "bone",
+    "category": "Neck",
+    "description": "Het Hyoid bot is een uniek, hoefijzervormig bot in de nek, gelegen superieur van de larynx, dat geen directe articulatie heeft met andere botten, maar wordt ondersteund door spieren en ligamenten.",
+    "location": "Anterieur deel van de nek, tussen de mandibula en het thyroïd kraakbeen.",
+    "articulations": [
+      "Geen directe articulaties met andere botten; opgehangen door spieren en ligamenten."
+    ],
+    "key_features": [
+      "Body (centrale deel)",
+      "Greater horns (laterale uitsteeksels)",
+      "Lesser horns (kleine uitsteeksels aan de basis van de grotere hoorns)"
+    ],
+    "dimensions": {
+      "average_length_mm": "40-50",
+      "average_width_mm": "10-15",
+      "average_thickness_mm": "3-5",
+      "note": "Variabel."
+    },
+    "function": {
+      "primary_role": "Ondersteuning van de tong, larynx en farynx; essentieel voor slikken en spreken.",
+      "details": "Dient als aanhechtingspunt voor een groot aantal spieren van de tong, mondbodem, farynx en larynx. Zijn unieke zwevende positie is cruciaal voor de complexe bewegingen die nodig zijn voor slikken en spraakproductie."
+    },
+    "visual_analogy": "Stel je het Hyoid bot voor als een hoefijzervormig 'zwevend botje' dat hoog in je nek zit, als een 'anker' waaraan talloze spieren van je tong en keel zijn bevestigd. Het is de 'dirigent' van je slik- en spraakbewegingen, die de positie van je tong en larynx reguleert zonder direct contact met andere botten.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Cervical Vertebrae (C1-C7)",
+    "type": "bone",
+    "category": "Neck",
+    "description": "De Cervicale wervels zijn de zeven wervels van de nek die de cervicale wervelkolom vormen, verantwoordelijk voor het ondersteunen van het hoofd en het faciliteren van een breed scala aan nekbewegingen.",
+    "location": "Nekregio, tussen de schedel en de thoracale wervelkolom.",
+    "articulations": [
+      "Occipital bone (C1, atlas)",
+      "Each other (via facet joints and intervertebral discs)",
+      "Thoracic vertebrae (C7)"
+    ],
+    "key_features": [
+      "Atlas (C1, geen lichaam, ringvormig, articuleert met schedel)",
+      "Axis (C2, heeft een dens/odontoid proces voor rotatie van C1)",
+      "Transverse foramina (doorgang voor vertebrale arteriën)",
+      "Bifid spinous processes (gespleten doornuitsteeksels, C2-C6)"
+    ],
+    "dimensions": {
+      "average_height_mm": {
+        "C1": "15-20",
+        "C2-C7_body": "10-15",
+        "note": "Hoogte van het wervellichaam, varieert per wervel."
+      },
+      "vertebral_canal_diameter_mm": {
+        "average": "15-20",
+        "note": "Relatief breed, voor ruggenmerg."
+      },
+      "range_of_motion_degrees": {
+        "flexion_extension": "130-145",
+        "lateral_flexion": "80-90",
+        "rotation": "140-160",
+        "note": "Totale bewegingsuitslag van de cervicale wervelkolom."
+      }
+    },
+    "function": {
+      "primary_role": "Ondersteuning van het hoofd, bescherming van het ruggenmerg, faciliteren van nekbewegingen.",
+      "details": "Vormt de flexibele as van de nek, waardoor het hoofd kan bewegen in meerdere richtingen. Beschermt het cervicale ruggenmerg en de vertebrale arteriën die de hersenen van bloed voorzien. C1 en C2 zijn gespecialiseerd voor knikken en roteren van het hoofd."
+    },
+    "visual_analogy": "Stel je de Cervicale wervels voor als een gestapelde toren van zeven 'ringen' van bot, elk met unieke kenmerken, die je nek vormen. C1 is als een 'draagring' voor je schedel, en C2 is als een 'draaipunt' waarop C1 roteert. Samen vormen ze een flexibele, beschermende kolom die je hoofd ondersteunt en een breed scala aan bewegingen mogelijk maakt, als een 'bewegende pilaar' voor je hoofd.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Thyroid Cartilage (Cartilago Thyroidea)",
+    "type": "cartilage",
+    "category": "Neck (Larynx)",
+    "description": "Het Thyroid kraakbeen is het grootste kraakbeen van de larynx (strottenhoofd), dat de vocale plooien (stembanden) beschermt en de 'adamsappel' vormt.",
+    "location": "Anterieur deel van de nek, superieur van het cricoïd kraakbeen.",
+    "articulations": [
+      "Cricoid cartilage (via cricothyroid joint)",
+      "Hyoid bone (via thyrohyoid membrane)"
+    ],
+    "key_features": [
+      "Laryngeal prominence ('adamsappel', prominentie bij mannen)",
+      "Superior and inferior horns (hoorns voor articulatie en aanhechting)",
+      "Oblique line (aanhechting voor spieren)"
+    ],
+    "dimensions": {
+      "average_height_mm": "40-50",
+      "average_width_mm": "30-40",
+      "average_thickness_mm": "2-4",
+      "note": "Grootste larynxkraakbeen, varieert met geslacht."
+    },
+    "function": {
+      "primary_role": "Bescherming van de stembanden, vorming van de larynx, aanhechting van spieren.",
+      "details": "Vormt de anterieure en laterale wanden van de larynx, beschermt de stembanden en andere delicate structuren binnenin. Dient als aanhechtingspunt voor verschillende spieren die de positie en spanning van de stembanden beïnvloeden, cruciaal voor stemproductie."
+    },
+    "visual_analogy": "Stel je het Thyroid kraakbeen voor als een open 'boek' van kraakbeen dat de voorkant van je keel vormt, met de 'adamsappel' als de prominentie. Het is het 'schild' van je stembanden, dat ze beschermt en de basis vormt voor het maken van geluid, als een instrument dat je stem vormgeeft.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Cricoid Cartilage (Cartilago Cricoidea)",
+    "type": "cartilage",
+    "category": "Neck (Larynx)",
+    "description": "Het Cricoid kraakbeen is een ringvormig kraakbeen van de larynx (strottenhoofd), gelegen inferieur van het thyroïd kraakbeen, dat de basis vormt van de larynx en de luchtweg openhoudt.",
+    "location": "Onderste deel van de larynx, superieur van de trachea.",
+    "articulations": [
+      "Thyroid cartilage (via cricothyroid joint)",
+      "Arytenoid cartilages (via cricoarytenoid joint)"
+    ],
+    "key_features": [
+      "Arch (anterieure boog)",
+      "Lamina (posterieure plaat)",
+      "Articular facets (voor articulatie met thyroïd en arytenoïd kraakbeen)"
+    ],
+    "dimensions": {
+      "average_height_mm": "10-15",
+      "average_diameter_mm": "20-25",
+      "average_thickness_mm": "2-4",
+      "note": "Enige complete ring van de luchtweg."
+    },
+    "function": {
+      "primary_role": "Basis van de larynx, openhouden van de luchtweg, aanhechting van spieren.",
+      "details": "Vormt de basis van de larynx en is de enige complete ring van kraakbeen in de luchtweg, waardoor de luchtweg altijd open blijft. Dient als aanhechtingspunt voor spieren die de beweging van de stembanden controleren, cruciaal voor ademhaling en stemproductie."
+    },
+    "visual_analogy": "Stel je het Cricoid kraakbeen voor als een 'zegelring' van kraakbeen dat de basis van je keel vormt, net boven je luchtpijp. Het is het 'fundament' van je stemapparaat, dat ervoor zorgt dat je luchtweg altijd open blijft en de basis vormt voor de beweging van je stembanden, als een stevige ring die je ademhaling ondersteunt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Arytenoid Cartilage (Cartilago Arytenoidea)",
+    "type": "cartilage",
+    "category": "Neck (Larynx)",
+    "description": "De Arytenoid kraakbeenderen zijn twee kleine, piramidevormige kraakbeenderen in de larynx (strottenhoofd) die articuleren met het cricoïd kraakbeen en dienen als aanhechtingspunten voor de vocale plooien (stembanden) en intrinsieke larynxspieren, essentieel voor stemproductie en ademhaling.",
+    "location": "Posterieur en superieur van het cricoïd kraakbeen.",
+    "articulations": [
+      "Cricoid cartilage (via cricoarytenoid joint)",
+      "Thyroid cartilage (indirect via vocale plooien)"
+    ],
+    "key_features": [
+      "Vocal process (aanhechting voor vocale ligament)",
+      "Muscular process (aanhechting voor intrinsieke larynxspieren)",
+      "Apex (aanhechting voor aryepiglottische plooi)"
+    ],
+    "dimensions": {
+      "average_height_mm": "10-12",
+      "average_base_mm": "5-7",
+      "note": "Klein en piramidevormig."
+    },
+    "function": {
+      "primary_role": "Beweging van stembanden, essentieel voor fonatie en ademhaling.",
+      "details": "De Arytenoïden roteren en glijden over het cricoïd kraakbeen, waardoor de positie en spanning van de stembanden worden gecontroleerd. Dit is cruciaal voor het openen en sluiten van de glottis voor ademhaling en het produceren van een breed scala aan stemgeluiden."
+    },
+    "visual_analogy": "Stel je de Arytenoid kraakbeenderen voor als twee kleine, piramidevormige 'poppetjes' die bovenop je ringvormige kraakbeen (cricoïd) zitten, met je stembanden eraan vast. Ze zijn de 'dansers' van je stemapparaat, die bewegen en draaien om je stembanden te openen, sluiten, spannen en ontspannen, waardoor je kunt ademen en spreken met een breed scala aan tonen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Epiglottis (Epiglottis)",
+    "type": "cartilage",
+    "category": "Neck (Larynx)",
+    "description": "De Epiglottis is een blad- of lepelvormig elastisch kraakbeen dat zich achter de tongwortel bevindt en de ingang van de larynx (strottenhoofd) afdekt tijdens slikken om te voorkomen dat voedsel in de luchtwegen terechtkomt.",
+    "location": "Posterieur van de tongwortel, superieur van de larynx.",
+    "articulations": [
+      "Thyroid cartilage (via thyroepiglottic ligament)",
+      "Hyoid bone (via hyoepiglottic ligament)"
+    ],
+    "key_features": [
+      "Petiole (steel, bevestigd aan thyroïd kraakbeen)",
+      "Free upper margin (vrije bovenrand)"
+    ],
+    "dimensions": {
+      "average_length_mm": "30-40",
+      "average_width_mm": "20-30",
+      "average_thickness_mm": "1-2",
+      "note": "Variabel, dun en flexibel."
+    },
+    "function": {
+      "primary_role": "Bescherming van de luchtwegen tijdens slikken.",
+      "details": "Tijdens slikken beweegt de Epiglottis naar beneden en dekt de ingang van de larynx af, waardoor voedsel en vloeistoffen veilig in de slokdarm worden geleid en aspiratie (voedsel in de luchtwegen) wordt voorkomen. Het fungeert als een 'klep' voor de luchtweg."
+    },
+    "visual_analogy": "Stel je de Epiglottis voor als een flexibel, blad- of lepelvormig 'dekseltje' van kraakbeen dat bovenop je luchtpijp zit, achter je tong. Wanneer je slikt, klapt dit dekseltje automatisch dicht over je luchtpijp, alsof het een 'barrière' is die voorkomt dat voedsel de verkeerde weg inslaat en in je longen terechtkomt, essentieel voor veilig slikken.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

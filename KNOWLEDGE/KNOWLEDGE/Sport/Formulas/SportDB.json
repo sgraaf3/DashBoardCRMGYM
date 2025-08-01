@@ -1,0 +1,99 @@
+{"sport_formulas_db": [
+    {"category": "Strength",
+      "name": "One-Rep Max (1RM) Estimation (Epley Formula)",
+      "description": "Schat het maximale gewicht dat een individu één keer correct kan tillen, gebaseerd op een sub-maximale lift.",
+      "formula": "$$1RM = Gewicht \\times (1 + \\frac{Herhalingen}{30})$$",
+      "notes": "Tal van 1RM-schattingsformules bestaan (bijv. Brzycki, Lombardi, O'Conner). Dit is een schatting; de werkelijke 1RM kan variëren. Representeert een 'maximale' inspanning voor een gegeven lift."
+    },{"category": "Strength",
+      "name": "Trainingsvolume (per oefening/set)",
+      "description": "Kwantificeert de totale arbeid die voor een specifieke oefening of set is verricht.",
+      "formula": "$$Volume = Sets \\times Herhalingen \\times Gewicht$$"
+    },{"category": "Strength",
+      "name": "Krachtpiramide Berekening op basis van 1RM",
+      "description": "Richtlijnen voor het bepalen van de trainingsintensiteit (gewichtspercentages van 1RM) voor verschillende herhalingsbereiken.",
+      "guidelines": [
+        "70-75% van 1RM voor 8-10 herhalingen (lichte gewichten voor de warming-up).",
+        "80-85% van 1RM voor 6-8 herhalingen.",
+        "90-95% van 1RM voor 3-5 herhalingen (zwaardere gewichten voor krachtontwikkeling).",
+        "100% of meer van 1RM voor 1-3 herhalingen (maximale gewichten voor kracht en power)."
+      ],"notes": "Deze percentages zijn richtlijnen en kunnen variëren afhankelijk van het trainingsdoel, het ervaringsniveau en de individuele capaciteiten. Luister naar je eigen lichaam."
+    },{"category": "Fysiologie & Metabolisme",
+      "name": "ATP Energie Vrijgave",
+      "description": "Energie die vrijkomt per mol afbraak van Adenosinetrifosfaat (ATP).",
+      "formula": "8 kcal per MOL ATP"
+    },{"category": "Fysiologie & Metabolisme",
+      "name": "Zuurstofopname (VO2/kg) Schatting (Hardlopen)",
+      "description": "Schat de zuurstofopname per kilogram lichaamsgewicht op basis van de maximale loopsnelheid.",
+      "formula": "$$VO_2/kg = (2.5 \\times MaxSnelheid) + 10$$",
+      "variables": [
+        {"name": "MaxSnelheid", "description": "Maximale loopsnelheid aangehouden gedurende ten minste 1 minuut", "unit": "km/u"}
+      ],"notes": "Deze formule dient als snelle controle voor veldtesten en is van toepassing op getrainde personen."
+    },{"category": "Duursport",
+      "name": "Hartslagreserve (Karvonen Methode Component)",
+      "description": "Berekent de hartslagreserve, een component die wordt gebruikt in de Karvonen-formule voor doelhartslagzones.",
+      "formula": "$$HR_{Reserve} = HR_{Max} - HR_{Rust}$$",
+      "variables": [
+        {"name": "HR_Max", "description": "Maximale Hartslag (kan geschat worden als 220 - leeftijd)"},
+        {"name": "HR_Rust", "description": "Rusthartslag"}
+      ],"notes": "De formule 220-leeftijd voor HR_Max is een gemiddelde en kan aanzienlijk variëren per individu. Individuele tests hebben de voorkeur."
+    },{"category": "Duursport",
+      "name": "Doelhartslag (Trainingszone) Berekening (Vereenvoudigd)",
+      "description": "Berekent een doelhartslag voor training op basis van de hartslagreserve en een percentage van de gewenste intensiteit.",
+      "formula": "$$HR_{Training} = (Percentage \\times HR_{Reserve}) + HR_{Rust}$$",
+      "variables": [
+        {"name": "Percentage", "description": "Gewenste trainingsintensiteit (bijv. 0,70 voor matig, 0,80 voor goed getraind, 0,90 voor zeer goed getraind)"}
+      ],"notes": "Gebruikt in de Energy Control methode met specifieke percentages voor verschillende trainingsniveaus (70%, 80%, 90% van de HR Reserve)."
+    },{"category": "Metabolisme & Energiebalans",
+      "name": "Schatting Basaal Metabolisme (BMR) (Katch-McArdle Formule)",
+      "description": "Schat de dagelijkse calorieverbranding in rust voor mannen en vrouwen, gebaseerd op vetvrije massa (VVM).",
+      "formula": "$$BMR = 370 + (21.6 \\times VVM)$$",
+      "variables": [
+        {"name": "VVM", "description": "Vetvrije Massa", "unit": "kg"}
+      ],"notes": "Deze formule wordt als nauwkeuriger beschouwd dan sommige andere, omdat deze rekening houdt met de vetvrije massa."
+    },{"category": "Metabolisme & Energiebalans",
+      "name": "Schatting Totale Dagelijkse Energieverbruik (TDEE)",
+      "description": "Schat het totale dagelijkse calorieverbruik door BMR te vermenigvuldigen met een activiteitsfactor.",
+      "formula": "$$TDEE = BMR \\times Activiteitsfactor$$"
+    },{"category": "Metabolisme & Energiebalans",
+      "name": "Macronutriënten Grammen (Eiwit, Koolhydraat, Vet)",
+      "description": "Berekent de dagelijkse graminname voor macronutriënten op basis van het totale aantal calorieën en hun calorische dichtheid.",
+      "formula": "$$Eiwit~g = \\frac{Eiwit~Calorie~% \\times Totaal~Calorieën}{4}$$ $$Koolhydraat~g = \\frac{Koolhydraat~Calorie~% \\times Totaal~Calorieën}{4}$$ $$Vet~g = \\frac{Vet~Calorie~% \\times Totaal~Calorieën}{9}$$"
+    },{"category": "Metabolisme & Energiebalans",
+      "name": "Respiratoir Quotiënt (RQ)",
+      "description": "Verhouding van geproduceerd koolstofdioxide tot verbruikte zuurstof, wat het brandstofgebruik aangeeft (koolhydraten versus vetten).",
+      "formula": "$$RQ = \\frac{VCO_2}{VO_2}$$"
+    },{"category": "Biomechanica",
+      "name": "Mechanisch Vermogen (Training)",
+      "description": "Meet de snelheid waarmee mechanische arbeid wordt verricht tijdens inspanning.",
+      "formula": "$$Vermogen = Kracht \\times Snelheid$$"
+    },{"category": "Biomechanica",
+      "name": "Verticale Spronghoogte (Krachtplaat)",
+      "description": "Berekent de verticale spronghoogte met behulp van krachtplaatgegevens.",
+      "formula": "$$Spronghoogte = \\frac{Vliegtijd^2 \\times g}{8}$$"
+    },{"category": "Biomechanica",
+      "name": "Snelheid van Krachtontwikkeling (RFD)",
+      "description": "Meet hoe snel een individu kracht kan ontwikkelen, wat explosieve kracht aangeeft.",
+      "formula": "$$RFD = \\frac{\\Delta Kracht}{\\Delta Tijd}$$"
+    },{"category": "Biomechanica",
+      "name": "Impuls (Training)",
+      "description": "De verandering in momentum, wat de totale kracht aangeeft die over een periode is uitgeoefend.",
+      "formula": "$$Impuls = Kracht \\times Tijd$$"
+    },{"category": "Biomechanica",
+      "name": "Kracht-Snelheid Profiel (F-V Profiel)",
+      "description": "Analyseert de relatie tussen krachtoutput en bewegingssnelheid tijdens een maximale inspanning.",
+      "formula": "$$Kracht = a - b \\times Snelheid$$"
+    },{"category": "Biomechanica",
+      "name": "Grondcontacttijd (GCT) & Vliegtijd (FT) (Hardlopen)",
+      "description": "Meet de tijd die op de grond en in de lucht wordt doorgebracht tijdens hardloopstappen, indicatoren van loopefficiëntie.",
+      "formula": "$$Stapfrequentie = \\frac{1}{GCT + FT}$$"
+    },{"category": "Trainingsbelasting",
+      "name": "Arbeid-Rust Verhouding (Intervaltraining)",
+      "description": "Verhouding tussen werkduur en rustduur in een intervaltraining.",
+      "formula": "$$Arbeid-Rust~Verhouding = Werkduur : Rustduur$$"
+    },{"category": "Trainingsbelasting",
+      "name": "Periodisatie Belastingsberekening (Conceptueel)",
+      "description": "Systematische planning van training om prestaties op specifieke momenten te maximaliseren, inclusief manipulatie van trainingsvolume, intensiteit en frequentie over cycli. Dit is meer een programmeerstrategie dan een enkele formule, inclusief concepten als ATL, CTL, TSB, ACWR."
+    }
+  ]
+}
+

@@ -1,0 +1,1133 @@
+[
+  {
+    "name": "Superior gemellus",
+    "description": "De Superior gemellus is een van de zes korte, externe rotatoren van de heup, gelegen aan de posterieure zijde van het heupgewricht, die bijdraagt aan de laterale rotatie van het dijbeen en de stabilisatie van het heupgewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Ischiadicus spina (spina ischiadica) van het bekken.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale oppervlak van de grote trochanter van het femur (dijbeen), versmolten met de pees van de Obturator internus.",
+        "details": [
+          "Vezels lopen horizontaal en lateraal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "20-30",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Korte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      },
+      "innervation": {
+        "nerve": "N. to Obturator internus (L5, S1, S2)",
+        "branch": null
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. glutea inferior (tak van de A. iliaca interna)."
+        ],
+        "venous_drainage": "V. glutea inferior."
+      }
+    },
+    "function": {
+      "primary_action": "Laterale rotatie van de dij.",
+      "mechanism_of_action": "Bij contractie roteert de Superior gemellus het dijbeen naar buiten (laterale rotatie) bij het heupgewricht. Het fungeert ook als een stabilisator van het heupgewricht, vooral wanneer het been gebogen is.",
+      "hip_rotation_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "role_in_expression": [
+        "Belangrijk voor stabiliteit van het heupgewricht tijdens staan en lopen, met name tijdens rotatiebewegingen.",
+        "Draagt bij aan de fijne motoriek van het heupgewricht."
+      ],
+      "synergists": [
+        "Obturator internus",
+        "Inferior gemellus",
+        "Piriformis",
+        "Quadratus femoris",
+        "Obturator externus (andere externe rotatoren)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor mediale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Superior gemellus voor als een klein, horizontaal spierbandje dat van een puntig botje aan de zijkant van je bekken naar de grote knobbel aan de bovenkant van je dijbeen loopt. Het is als een klein touwtje dat, wanneer het samentrekt, je been heel subtiel naar buiten draait, alsof je je voet naar buiten draait om een stap te zetten.",
+    "status": "done",
+    "precisie_score": 8
+  },{
+    "name": "Superficial transverse perineal",
+    "description": "De Superficial transverse perineal is een spier van de urogenitale driehoek die helpt bij de stabilisatie van het perineale lichaam en de functie van de urethra en vagina ondersteunt.",
+    "anatomy": {
+      "origin": {
+        "location": "Ischiadicus tuberositas (zitbeenknobbel) en de ramus van de ischium.",
+        "details": [
+          "Vezels lopen horizontaal mediaal."
+        ]
+      },
+      "insertion": {
+        "location": "Centrale tendineuze punt van het perineum (perineale lichaam).",
+        "details": [
+          "Vezels lopen horizontaal mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Relatief klein en variabel."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4)",
+      "branch": "Perineale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. pudenda interna (via perineale takken)."
+      ],
+      "venous_drainage": "V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Constrictie van de urethra (behoud van urinaire continentie), constrictie van de vagina (vrouwen).",
+      "mechanism_of_action": "Bij contractie trekt de spier aan het perineale lichaam, wat de stabiliteit van de structuren in de urogenitale driehoek verhoogt. Het draagt indirect bij aan de sluiting van de urethra en vagina, hoewel het niet de primaire sphincter is.",
+      "perineal_body_stabilization": "Essentieel voor de structurele integriteit van de bekkenbodem en het ondersteunen van de interne en externe urethrale sphincters.",
+      "role_in_expression": [
+        "Belangrijk voor de bekkenbodemfunctie, inclusief continentie en ondersteuning van bekkenorganen.",
+        "Speelt een rol bij seksuele functie en bevalling (bij vrouwen)."
+      ],
+      "synergists": [
+        "Bulbospongiosus",
+        "Ischiocavernosus",
+        "External anal sphincter (voor bekkenbodemfunctie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Superficial transverse perineal voor als een dun, horizontaal spierbandje dat van je ene zitbeenknobbel naar de andere loopt, precies in het midden van je perineum (tussen je anus en je genitaliën). Het is als een klein 'bruggetje' dat de structuren daar stabiliseert en helpt om de openingen iets dicht te trekken.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Sphincter urethrovaginalis",
+    "description": "De Sphincter urethrovaginalis is een spier van de diepe perineum (bekkenbodem) bij vrouwen, die de urethra en vagina omringt en helpt bij de continentie en clitorale stimulatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Ramus van de ischium en de inferior ramus van het pubis (bekkenbotten), en het perineale lichaam.",
+        "details": [
+          "Circulaire vezels."
+        ]
+      },
+      "insertion": {
+        "location": "Omringt de urethra en vagina, vezels versmelten met de externe urethrale sphincter en compressoren van de vagina.",
+        "details": [
+          "De vezels vormen een 'acht'-vormige lus rond de twee structuren."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Variabel, onderdeel van een complex spierweb."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4)",
+      "branch": "Perineale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. pudenda interna (via perineale takken)."
+      ],
+      "venous_drainage": "V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Constrictie van de urethra (behoud van urinaire continentie), constrictie van de vagina (vrouwen).",
+      "mechanism_of_action": "Dit spiercomplex comprimeert de urethra en de vagina, wat bijdraagt aan de urinaire en fecale continentie. Bij vrouwen kan het ook een rol spelen bij seksuele opwinding en het clinchen van de vagina.",
+      "role_in_expression": [
+        "Cruciaal voor urinaire continentie bij vrouwen.",
+        "Speelt een rol bij seksuele functie en bekkenbodemsterkte."
+      ],
+      "synergists": [
+        "External urethral sphincter",
+        "Bulbospongiosus",
+        "Pubococcygeus (onderdeel van de Levator ani groep)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Sphincter urethrovaginalis voor als een complex, acht-vormig elastiek dat om de buisjes voor urine en geslachtsgemeenschap in de bekkenbodem van een vrouw zit. Het trekt deze buisjes lichtjes samen, essentieel voor het controleren van urine en andere lichaamsfuncties, en speelt een rol bij seksuele sensatie.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Inferior gemellus",
+    "description": "De Inferior gemellus is een van de zes korte, externe rotatoren van de heup, gelegen aan de posterieure zijde van het heupgewricht, die bijdraagt aan de laterale rotatie van het dijbeen en de stabilisatie van het heupgewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Ischiadicus tuberositas (zitbeenknobbel), inferieur van de oorsprong van de Superior gemellus.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale oppervlak van de grote trochanter van het femur (dijbeen), versmolten met de pees van de Obturator internus.",
+        "details": [
+          "Vezels lopen horizontaal en lateraal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Korte spierbuik lengte."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. to Quadratus femoris (L4, L5, S1)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. glutea inferior (tak van de A. iliaca interna)."
+      ],
+      "venous_drainage": "V. glutea inferior."
+    },
+    "function": {
+      "primary_action": "Laterale rotatie van de dij.",
+      "mechanism_of_action": "Bij contractie roteert de Inferior gemellus het dijbeen naar buiten (laterale rotatie) bij het heupgewricht. Het fungeert ook als een stabilisator van het heupgewricht, vooral wanneer het been gebogen is. Het werkt synergetisch met de Superior gemellus en Obturator internus.",
+      "hip_rotation_degrees": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "role_in_expression": [
+        "Belangrijk voor stabiliteit van het heupgewricht tijdens staan en lopen, met name tijdens rotatiebewegingen.",
+        "Draagt bij aan de fijne motoriek van het heupgewricht."
+      ],
+      "synergists": [
+        "Obturator internus",
+        "Superior gemellus",
+        "Piriformis",
+        "Quadratus femoris",
+        "Obturator externus (andere externe rotatoren)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor mediale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Inferior gemellus voor als een klein, horizontaal spierbandje dat van de zitbeenknobbel (onderste deel van je bil) naar de grote knobbel aan de bovenkant van je dijbeen loopt, net onder de Superior gemellus. Het is als een klein touwtje dat, wanneer het samentrekt, je been heel subtiel naar buiten draait, alsof je je voet naar buiten draait om een stap te zetten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Iliococcygeus",
+    "description": "De Iliococcygeus is een deel van de Levator ani spier, een belangrijke spier van de bekkenbodem, die de bekkenbodem ondersteunt en de anus en vagina (bij vrouwen) comprimeert.",
+    "anatomy": {
+      "origin": {
+        "location": "Ischial spine (puntig uitsteeksel van het zitbeen) en de arcus tendineus van de obturator fascia (een verdikking van de fascia over de Obturator internus spier).",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van het coccyx (stuitbeen) en de anococcygeale raphe (een fibreuze naad tussen de anus en het stuitbeen).",
+        "details": [
+          "Vezels lopen posterieur en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4) en directe takken van de sacrale plexus (S3, S4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna en A. glutea inferior."
+      ],
+      "venous_drainage": "V. pudenda interna en V. glutea inferior."
+    },
+    "function": {
+      "primary_action": "Ondersteunt bekkenbodem, comprimeert anus en vagina.",
+      "mechanism_of_action": "Bij contractie trekt de Iliococcygeus de bekkenbodem omhoog en naar voren, wat de anus en vagina comprimeert en de bekkenorganen ondersteunt. Het speelt een cruciale rol in continentie en de stabiliteit van de bekkenbodem.",
+      "pelvic_floor_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale elevatie van de bekkenbodem."
+      },
+      "role_in_expression": [
+        "Essentieel voor urinaire en fecale continentie.",
+        "Belangrijk voor de ondersteuning van de bekkenorganen (blaas, baarmoeder/prostaat, rectum).",
+        "Speelt een rol bij bevalling (bij vrouwen) en seksuele functie.",
+        "Disfunctie kan leiden tot bekkenbodemverzakking of incontinentie."
+      ],
+      "synergists": [
+        "Pubococcygeus",
+        "Puborectalis (andere delen van Levator ani)",
+        "Coccygeus (voor bekkenbodemfunctie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Iliococcygeus voor als een platte, waaiervormige 'hangmat' van spier die van de zijkant van je bekken (zitbeen) naar het stuitbeen en de middenlijn van je bekkenbodem loopt. Het is als een 'ondersteunend net' dat je bekkenorganen omhoog houdt en helpt bij het sluiten van de anus en vagina, essentieel voor continentie en de stabiliteit van je bekkenbodem.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Iliacus",
+    "description": "De Iliacus is een grote, platte, driehoekige spier die de iliacale fossa vult en samen met de Psoas major de Iliopsoas vormt, de primaire flexor van de heup.",
+    "location": "Binnenste oppervlak van het ilium (bekkenbot).",
+    "articulations": [],
+    "key_features": [
+      "Vlezige, brede oorsprong."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. femoralis (L2, L3, L4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. circumflexa ilium profunda en A. iliolumbalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext heup.",
+      "mechanism_of_action": "Bij contractie trekt de Iliacus het dijbeen naar voren (flexie) bij het heupgewricht. Het werkt synergetisch met de Psoas major als de krachtigste heupflexor, essentieel voor lopen, rennen en het optillen van het been.",
+      "hip_flexion_torque_Nm": {
+        "average": "100-200",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische flexiekoppel van de Iliopsoas complex."
+      },
+      "role_in_expression": [
+        "Essentieel voor lopen, rennen, springen en het optillen van het been.",
+        "Belangrijk voor het handhaven van de houding en de stabiliteit van de romp.",
+        "Disfunctie kan leiden tot lage rugpijn of heupflexor strakheid."
+      ],
+      "synergists": [
+        "Psoas major (vormt Iliopsoas)",
+        "Rectus femoris",
+        "Sartorius",
+        "Tensor fasciae latae (voor heupflexie)"
+      ],
+      "antagonists": [
+        "Gluteus maximus",
+        "Hamstrings (voor heupextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliacus voor als een grote, platte 'vleugel' van spier die de binnenkant van je bekkenbot (ilium) bedekt en naar de bovenkant van je dijbeen loopt. Het is als een 'krachtige trekker' die je been naar voren trekt, essentieel voor het lopen en rennen, als een diepliggende motor voor je heupbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Psoas minor",
+    "description": "De Psoas minor is een lange, slanke, inconsistente spier die anterieur van de Psoas major ligt en die de lumbale wervelkolom flext en het bekken lateraal kantelt. Het is afwezig bij een significant deel van de populatie.",
+    "location": "Anterieur van de lumbale wervelkolom, over de Psoas major.",
+    "articulations": [],
+    "key_features": [
+      "Lange, dunne pees."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Variabel, vaak rudimentair."
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "Ventrale rami van L1 (en soms L2).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. lumbalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flexes lumbar vertebral column, laterally tilts pelvis.",
+      "mechanism_of_action": "Bij contractie flext de Psoas minor de lumbale wervelkolom en kantelt het bekken lateraal. Zijn functionele betekenis is echter minimaal en wordt vaak gezien als een rudimentair overblijfsel. De Psoas major is de primaire heupflexor en lumbale flexor.",
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Psoas major (voor lumbale flexie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor lumbale extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Psoas minor voor als een heel dun, lang 'draadje' dat langs de voorkant van je lage ruggengraat loopt, over de Psoas major. Het is zo klein en zeldzaam dat het nauwelijks een echte functie heeft, meer een toevallige connectie die soms aanwezig is zonder duidelijke rol in de beweging, alsof het een 'evolutionair overblijfsel' is.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Psoas major",
+    "description": "De Psoas major is een lange, dikke spier die zich uitstrekt van de lumbale wervelkolom door het bekken naar het dijbeen, en samen met de Iliacus de Iliopsoas vormt, de primaire flexor van de heup.",
+    "location": "Lateraal van de lumbale wervelkolom, door het bekken naar het dijbeen.",
+    "articulations": [],
+    "key_features": [
+      "Lange, vlezige spierbuik."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "Ventrale rami van L1, L2, L3.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. lumbalis en A. iliolumbalis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext heup, flext lumbale wervelkolom.",
+      "mechanism_of_action": "Bij contractie trekt de Psoas major het dijbeen naar voren (flexie) bij het heupgewricht. Het flext ook de lumbale wervelkolom. Samen met de Iliacus vormt het de Iliopsoas, de krachtigste heupflexor, essentieel voor lopen, rennen en het optillen van het been. Het speelt ook een belangrijke rol bij de stabilisatie van de romp en het handhaven van de houding.",
+      "hip_flexion_torque_Nm": {
+        "average": "100-200",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische flexiekoppel van de Iliopsoas complex."
+      },
+      "lumbar_flexion_degrees": {
+        "average": "10-20",
+        "note": "Bijdrage aan lumbale flexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor alle bewegingen die het been naar voren brengen (lopen, rennen, trappen).",
+        "Belangrijk voor het handhaven van de rechtopstaande houding en de stabiliteit van de romp.",
+        "Disfunctie kan leiden tot lage rugpijn of heupflexor strakheid."
+      ],
+      "synergists": [
+        "Iliacus (vormt Iliopsoas)",
+        "Rectus femoris",
+        "Sartorius",
+        "Tensor fasciae latae (voor heupflexie)"
+      ],
+      "antagonists": [
+        "Gluteus maximus",
+        "Hamstrings (voor heupextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Psoas major voor als een lange, dikke 'kabel' van spier die diep in je buik loopt, van je lage ruggengraat door je bekken naar de bovenkant van je dijbeen. Het is de 'hoofdmotor' voor het optillen van je been naar voren, essentieel voor het lopen en rennen, als een krachtige trekker die je heup beweegt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Piriformis",
+    "description": "De Piriformis is een diepliggende spier van de bil en het bekken, die de heup lateraal roteert en abduceert, en de stabiliteit van het heupgewricht vergroot.",
+    "location": "Diep in de bil, van het sacrum naar de grote trochanter.",
+    "articulations": [],
+    "key_features": [
+      "Peer-vormige spier."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+      "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. to Piriformis (S1, S2).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. glutea superior en inferior."
+      ],
+      "venous_drainage": "V. glutea superior en inferior."
+    },
+    "function": {
+      "primary_action": "Laterale rotatie van dij, abductie van dij (wanneer heup geflecteerd is).",
+      "mechanism_of_action": "Bij contractie roteert de Piriformis het dijbeen naar buiten (laterale rotatie) bij het heupgewricht. Wanneer de heup geflecteerd is (bijv. bij zitten), wordt het een abductor van de heup. Het is een belangrijke stabilisator van het heupgewricht en een oriëntatiepunt voor de neurovasculaire structuren in de bil (N. ischiadicus loopt er vaak onderdoor).",
+      "heup_laterale_rotatie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "heup_abductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan abductie (bij flexie)."
+      },
+      "role_in_expression": [
+        "Essentieel voor de stabiliteit van het heupgewricht tijdens staan, lopen en rennen.",
+        "Belangrijk voor activiteiten die laterale rotatie van de heup vereisen (bijv. dansen, draaibewegingen).",
+        "Kan betrokken zijn bij 'piriformis syndroom' (compressie van de N. ischiadicus)."
+      ],
+      "synergists": [
+        "Gluteus maximus",
+        "Obturator internus",
+        "Obturator externus",
+        "Gemelli (voor laterale rotatie)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor mediale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Piriformis voor als een peer-vormige 'diepliggende draaier' die van de voorkant van je heiligbeen (diep in je bil) schuin naar de grote knobbel aan de bovenkant van je dijbeen loopt. Het is als een 'sleutel' die je been naar buiten draait en stabiliseert, en ook kan helpen je been zijwaarts te bewegen, essentieel voor de rotatie en stabiliteit van je heup.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Puboprostaticus (males) / Pubovaginalis (females)",
+    "description": "De Puboprostaticus (bij mannen) en Pubovaginalis (bij vrouwen) zijn delen van de Levator ani spier, een belangrijke spier van de bekkenbodem, die de prostaat/vagina ondersteunt en de bekkenbodem comprimeert.",
+    "location": "Bekkenbodem, rond de prostaat (mannen) of vagina (vrouwen).",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen van het pubis naar de prostaat/vagina."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4) en directe takken van de sacrale plexus (S3, S4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna."
+      ],
+      "venous_drainage": "V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Supports prostate/vagina, compresses pelvic floor.",
+      "mechanism_of_action": "Bij contractie trekken deze spieren de prostaat (mannen) of vagina (vrouwen) omhoog en naar voren, wat bijdraagt aan de ondersteuning van de bekkenorganen en de continentie. Ze zijn integraal onderdeel van de Levator ani complex.",
+      "pelvic_floor_elevation_mm": {
+        "average": "3-8",
+        "note": "Geschatte verticale elevatie van de bekkenbodem."
+      },
+      "role_in_expression": [
+        "Essentieel voor urinaire en fecale continentie.",
+        "Belangrijk voor de ondersteuning van de bekkenorganen en de stabiliteit van de bekkenbodem.",
+        "Speelt een rol bij seksuele functie en bevalling (bij vrouwen)."
+      ],
+      "synergists": [
+        "Pubococcygeus",
+        "Puborectalis",
+        "Iliococcygeus (andere delen van Levator ani)",
+        "External urethral sphincter",
+        "External anal sphincter (voor continentie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Puboprostaticus/Pubovaginalis voor als een gespierd 'bandje' dat van je schaambeen naar de prostaat (mannen) of vagina (vrouwen) loopt, als een 'ondersteunende riem' die deze structuren omhoog houdt en helpt bij het sluiten van de bekkenbodem, essentieel voor continentie en de stabiliteit van je bekken.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Puboperinealis",
+    "description": "De Puboperinealis is een deel van de Levator ani spier, een belangrijke spier van de bekkenbodem, die bijdraagt aan de ondersteuning van het perineum en de continentie.",
+    "location": "Bekkenbodem, van het pubis naar het perineale lichaam.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen van het pubis naar het perineum."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4) en directe takken van de sacrale plexus (S3, S4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna."
+      ],
+      "venous_drainage": "V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Supports perineum, compresses pelvic floor.",
+      "mechanism_of_action": "Bij contractie trekt de Puboperinealis het perineale lichaam omhoog, wat bijdraagt aan de ondersteuning van de bekkenbodem en de continentie. Het is een integraal onderdeel van de Levator ani complex.",
+      "pelvic_floor_elevation_mm": {
+        "average": "3-8",
+        "note": "Geschatte verticale elevatie van de bekkenbodem."
+      },
+      "role_in_expression": [
+        "Essentieel voor urinaire en fecale continentie.",
+        "Belangrijk voor de ondersteuning van de bekkenorganen en de stabiliteit van de bekkenbodem.",
+        "Speelt een rol bij seksuele functie en bevalling (bij vrouwen)."
+      ],
+      "synergists": [
+        "Pubococcygeus",
+        "Puborectalis",
+        "Iliococcygeus (andere delen van Levator ani)",
+        "External urethral sphincter",
+        "External anal sphincter (voor continentie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Puboperinealis voor als een gespierd 'bandje' dat van je schaambeen naar het midden van je perineum loopt, als een 'ondersteunende riem' die dit gebied omhoog houdt en helpt bij het sluiten van de bekkenbodem, essentieel voor continentie en de stabiliteit van je bekken.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Pubococcygeus",
+    "description": "De Pubococcygeus is het grootste en belangrijkste deel van de Levator ani spier, een belangrijke spier van de bekkenbodem, die de bekkenbodem ondersteunt en de anus en vagina/rectum comprimeert.",
+    "location": "Bekkenbodem, van het pubis naar het coccyx en de anococcygeale raphe.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen van het pubis naar het coccyx."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4) en directe takken van de sacrale plexus (S3, S4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna en A. glutea inferior."
+      ],
+      "venous_drainage": "V. pudenda interna en V. glutea inferior."
+    },
+    "function": {
+      "primary_action": "Supports pelvic floor, compresses anus and vagina/rectum.",
+      "mechanism_of_action": "Bij contractie trekt de Pubococcygeus de bekkenbodem omhoog en naar voren, wat de anus en vagina/rectum comprimeert en de bekkenorganen ondersteunt. Het is de meest cruciale spier voor urinaire en fecale continentie en de stabiliteit van de bekkenbodem.",
+      "pelvic_floor_elevation_mm": {
+        "average": "5-10",
+        "note": "Geschatte verticale elevatie van de bekkenbodem."
+      },
+      "role_in_expression": [
+        "Essentieel voor urinaire en fecale continentie.",
+        "Belangrijk voor de ondersteuning van de bekkenorganen (blaas, baarmoeder/prostaat, rectum).",
+        "Speelt een cruciale rol bij bevalling (bij vrouwen) en seksuele functie.",
+        "Disfunctie kan leiden tot bekkenbodemverzakking of incontinentie (vaak aangeduid als 'Kegel-spier')."
+      ],
+      "synergists": [
+        "Puborectalis",
+        "Iliococcygeus (andere delen van Levator ani)",
+        "External urethral sphincter",
+        "External anal sphincter (voor continentie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Pubococcygeus voor als een grote, gespierde 'hangmat' die het grootste deel van je bekkenbodem vormt, van je schaambeen naar je stuitbeen en de anus. Het is de 'hoofdondersteuner' van je bekkenorganen, die ze omhoog houdt en helpt bij het sluiten van de anus en vagina/rectum, essentieel voor continentie en de stabiliteit van je bekkenbodem, als een krachtig, flexibel fundament.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Puboanalis (puborectalis)",
+    "description": "De Puboanalis (Puborectalis) is een lusvormig deel van de Levator ani spier, een belangrijke spier van de bekkenbodem, die de anus omringt en helpt bij de fecale continentie.",
+    "location": "Bekkenbodem, rond de anus.",
+    "articulations": [],
+    "key_features": [
+      "Vormt een U-vormige lus rond de anorectale junctie."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4) en directe takken van de sacrale plexus (S3, S4).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna en A. rectalis inferior."
+      ],
+      "venous_drainage": "V. pudenda interna en V. rectalis inferior."
+    },
+    "function": {
+      "primary_action": "Maintains anorectal angle, aids in fecal continence.",
+      "mechanism_of_action": "Bij contractie trekt de Puborectalis de anorectale junctie naar voren, waardoor een scherpe hoek ontstaat die essentieel is voor het handhaven van fecale continentie in rust. Tijdens defecatie ontspant deze spier om de hoek te vergroten en de passage van ontlasting te vergemakkelijken.",
+      "anorectal_angle_degrees": {
+        "average_rest": "80-90",
+        "average_contracted": "60-70",
+        "note": "Hoek tussen rectum en anale kanaal, verandert bij contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor fecale continentie en het controleren van de stoelgang.",
+        "Belangrijk voor de stabiliteit van de bekkenbodem en de ondersteuning van de bekkenorganen.",
+        "Disfunctie kan leiden tot fecale incontinentie of obstipatie."
+      ],
+      "synergists": [
+        "Pubococcygeus",
+        "Iliococcygeus (andere delen van Levator ani)",
+        "External anal sphincter (voor continentie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Puborectalis voor als een gespierde 'lus' die van je schaambeen naar de achterkant van je anus loopt en eromheen wikkelt, als een 'sling' die de hoek van je darm reguleert. Het is de 'poortwachter' van je darm, die ervoor zorgt dat je ontlasting kunt ophouden en helpt bij de stoelgang, essentieel voor je continentie.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Quadratus femoris",
+    "description": "De Quadratus femoris is een korte, platte, vierkante spier van de diepe bil, die de heup lateraal roteert en adduceert, en de stabiliteit van het heupgewricht vergroot.",
+    "location": "Diep in de bil, van het ischium naar het femur.",
+    "articulations": [],
+    "key_features": [
+      "Vierkante vorm."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. to Quadratus femoris (L4, L5, S1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. glutea inferior en A. circumflexa femoris medialis."
+      ],
+      "venous_drainage": "V. glutea inferior en V. circumflexa femoris medialis."
+    },
+    "function": {
+      "primary_action": "Laterale rotatie van dij, adduceert dij.",
+      "mechanism_of_action": "Bij contractie roteert de Quadratus femoris het dijbeen naar buiten (laterale rotatie) en trekt het naar de middenlijn (adductie) bij het heupgewricht. Het is een belangrijke stabilisator van het heupgewricht, vooral tijdens gewichtdragende activiteiten, en werkt synergetisch met de andere externe rotatoren.",
+      "heup_laterale_rotatie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "heup_adductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan adductie."
+      },
+      "role_in_expression": [
+        "Essentieel voor de stabiliteit van het heupgewricht tijdens staan, lopen en rennen.",
+        "Belangrijk voor activiteiten die laterale rotatie en adductie van de heup vereisen (bijv. dansen, draaibewegingen).",
+        "Draagt bij aan de fijne motoriek van het heupgewricht."
+      ],
+      "synergists": [
+        "Piriformis",
+        "Obturator internus",
+        "Obturator externus",
+        "Gemelli (andere externe rotatoren)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor mediale rotatie en abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Quadratus femoris voor als een klein, vierkant 'blokje' van spier dat diep in je bil zit, van je zitbeen naar de bovenkant van je dijbeen. Het is als een 'draaier' die je been naar buiten draait en stabiliseert, essentieel voor de rotatie en stabiliteit van je heup, als een robuuste, fijne afsteller voor je heupbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Deep transverse perineal",
+    "description": "De Deep transverse perineal is een spier van de diepe perineum (bekkenbodem), die deel uitmaakt van het urogenitale diafragma en helpt bij de ondersteuning van de bekkenbodem en de continentie.",
+    "location": "Diep in de urogenitale driehoek van het perineum.",
+    "articulations": [],
+    "key_features": [
+      "Vormt een transversale band van spiervezels."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4)",
+      "branch": "Perineale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna."
+      ],
+      "venous_drainage": "V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Supports pelvic floor, compresses urethra.",
+      "mechanism_of_action": "Bij contractie trekt de Deep transverse perineal het perineale lichaam naar achteren en stabiliseert het de bekkenbodem. Het speelt een belangrijke rol bij de ondersteuning van de urethra en de vagina (bij vrouwen) en draagt bij aan de urinaire continentie.",
+      "pelvic_floor_stabilization": "Essentieel voor de structurele integriteit van de bekkenbodem en het ondersteunen van de interne en externe urethrale sphincters.",
+      "role_in_expression": [
+        "Belangrijk voor urinaire continentie en de ondersteuning van de bekkenorganen.",
+        "Speelt een rol bij seksuele functie en bevalling (bij vrouwen)."
+      ],
+      "synergists": [
+        "External urethral sphincter",
+        "Bulbospongiosus",
+        "Ischiocavernosus (voor bekkenbodemfunctie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Deep transverse perineal voor als een diepliggende, horizontale 'brug' van spier die de zijkanten van je bekkenbodem verbindt, als een 'versteviging' die je bekkenbodem stabiliseert en helpt bij het sluiten van de urethra, essentieel voor continentie.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Cremaster",
+    "description": "De Cremaster is een spier die bij mannen de testis omhoog trekt in reactie op kou of seksuele opwinding, en bij vrouwen rudimentair is en deel uitmaakt van het ronde ligament van de uterus.",
+    "location": "In de liesregio, rond de funiculus spermaticus (mannen) of het ronde ligament (vrouwen).",
+    "articulations": [],
+    "key_features": [
+      "Gevormd uit vezels van de Internal abdominal oblique en Transversus abdominis."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. genitofemoralis (L1, L2), genitale tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. cremasterica (tak van de A. epigastrica inferior)."
+      ],
+      "venous_drainage": "V. cremasterica."
+    },
+    "function": {
+      "primary_action": "Elevates testis (males).",
+      "mechanism_of_action": "Bij mannen trekt de Cremaster de testis omhoog naar het lichaam, wat helpt bij het reguleren van de temperatuur van de testis (belangrijk voor spermatogenese) en als reflex bij kou of seksuele opwinding. Bij vrouwen is de functie minimaal en trekt het aan het ronde ligament van de uterus.",
+      "testis_elevation_mm": {
+        "average": "10-20",
+        "note": "Verticale verplaatsing van de testis bij contractie."
+      },
+      "role_in_expression": [
+        "Belangrijk voor de thermoregulatie van de testis en de cremasterreflex (bij mannen).",
+        "Geen significante rol in beweging of expressie bij vrouwen."
+      ],
+      "synergists": [],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Cremaster voor als een dun, gespierd 'touwtje' dat bij mannen de zaadbal omhoog kan trekken in reactie op kou of opwinding, alsof het een 'lift' is die de zaadbal dichter bij het lichaam brengt. Bij vrouwen is het meer een rudimentair draadje zonder duidelijke functie.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Bulbospongiosus",
+    "description": "De Bulbospongiosus is een spier van de perineum (bekkenbodem) die bij mannen de bulbus penis omringt en helpt bij erectie en ejaculatie, en bij vrouwen de bulbus vestibuli omringt en helpt bij clitorale stimulatie en vaginale vernauwing.",
+    "location": "Centrale deel van het perineum, rond de basis van de penis (mannen) of vagina (vrouwen).",
+    "articulations": [],
+    "key_features": [
+      "Gepaarde, oppervlakkige spier."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4)",
+      "branch": "Perineale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna."
+      ],
+      "venous_drainage": "V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Compresses bulb of penis (males), constricts vagina (females).",
+      "mechanism_of_action": "Bij mannen comprimeert de Bulbospongiosus de bulbus penis en de basis van de corpus spongiosum, wat helpt bij het handhaven van de erectie en het uitdrijven van urine en sperma. Bij vrouwen comprimeert het de bulbus vestibuli en vernauwt het de vaginale opening, wat bijdraagt aan seksuele opwinding en vaginale contracties.",
+      "erection_maintenance_pressure_mmHg": {
+        "average": "Niet direct kwantificeerbaar, maar essentieel voor erectie.",
+        "note": "Draagt bij aan de rigiditeit van de penis."
+      },
+      "vaginal_constriction_percentage": {
+        "average": "10-20%",
+        "note": "Geschatte vernauwing van de vaginale opening."
+      },
+      "role_in_expression": [
+        "Essentieel voor seksuele functie (erectie, ejaculatie bij mannen; seksuele opwinding, vaginale contracties bij vrouwen).",
+        "Belangrijk voor de urinaire continentie (door compressie van de urethra).",
+        "Speelt een rol bij de bekkenbodemfunctie."
+      ],
+      "synergists": [
+        "Ischiocavernosus",
+        "External urethral sphincter",
+        "External anal sphincter (voor bekkenbodemfunctie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Bulbospongiosus voor als een gespierde 'ring' die bij mannen de basis van de penis omringt, en bij vrouwen de ingang van de vagina. Het is als een 'pomp' die helpt bij erectie en ejaculatie (mannen) of bij seksuele opwinding en contracties (vrouwen), essentieel voor de seksuele functie en de bekkenbodem.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "External urethral sphincter",
+    "description": "De External urethral sphincter is een vrijwillig controleerbare spier die de urethra omringt en essentieel is voor de urinaire continentie.",
+    "location": "Diep in het perineum, rond de urethra.",
+    "articulations": [],
+    "key_features": [
+      "Circulaire spiervezels."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4)",
+      "branch": "Perineale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. pudenda interna."
+      ],
+      "venous_drainage": "V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Constricts urethra to maintain urinary continence.",
+      "mechanism_of_action": "Bij contractie comprimeert de External urethral sphincter de urethra, waardoor de urinestroom wordt gestopt of gecontroleerd. Dit is een willekeurige spier, waardoor je bewust de urinestroom kunt regelen. Het is cruciaal voor urinaire continentie.",
+      "urethral_closure_pressure_cmH2O": {
+        "average": "50-100",
+        "note": "Geschatte druk bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor urinaire continentie en het controleren van de urinestroom.",
+        "Belangrijk voor de bekkenbodemfunctie en de ondersteuning van de bekkenorganen.",
+        "Disfunctie kan leiden tot stressincontinentie of urge-incontinentie."
+      ],
+      "synergists": [
+        "Levator ani (voor bekkenbodemondersteuning)",
+        "Bulbospongiosus (voor compressie van de urethra)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de External urethral sphincter voor als een vrijwillig controleerbare 'ring' van spier die rond de urinebuis zit, als een 'kraan' die je bewust kunt dichtknijpen om de urinestroom te stoppen. Het is de 'poortwachter' van je blaas, essentieel voor je continentie.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "External anal sphincter, subcutaneous, superficial, and deep parts",
+    "description": "De External anal sphincter is een vrijwillig controleerbare spier die de anus omringt en essentieel is voor de fecale continentie. Het bestaat uit drie delen: subcutaan, oppervlakkig en diep.",
+    "location": "Rond de anus, in het perineum.",
+    "articulations": [],
+    "key_features": [
+      "Circulaire spiervezels, met vezels die zich vermengen met het perineale lichaam en het coccyx."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. pudendus (S2, S3, S4)",
+      "branch": "Inferieure rectale takken."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. rectalis inferior (tak van de A. pudenda interna)."
+      ],
+      "venous_drainage": "V. rectalis inferior."
+    },
+    "function": {
+      "primary_action": "Constricts anus to maintain fecal continence.",
+      "mechanism_of_action": "Bij contractie comprimeert de External anal sphincter de anus, waardoor de passage van ontlasting wordt gestopt of gecontroleerd. Dit is een willekeurige spier, waardoor je bewust de stoelgang kunt regelen. Het is cruciaal voor fecale continentie.",
+      "anal_closure_pressure_mmHg": {
+        "average": "80-120",
+        "note": "Geschatte druk bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor fecale continentie en het controleren van de stoelgang.",
+        "Belangrijk voor de bekkenbodemfunctie en de ondersteuning van de bekkenorganen.",
+        "Disfunctie kan leiden tot fecale incontinentie."
+      ],
+      "synergists": [
+        "Levator ani (voor bekkenbodemondersteuning)",
+        "Puborectalis (voor het handhaven van de anorectale hoek)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de External anal sphincter voor als een vrijwillig controleerbare 'ring' van spier die rond de anus zit, als een 'poortwachter' die je bewust kunt dichtknijpen om de stoelgang te regelen. Het is de 'kraan' van je darm, essentieel voor je continentie.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Obturator internus",
+    "description": "De Obturator internus is een diepliggende spier van de bil en het bekken, die de heup lateraal roteert en abduceert, en de stabiliteit van het heupgewricht vergroot.",
+    "location": "Binnenste oppervlak van het bekken, door het foramen ischiadicum minus naar de grote trochanter.",
+    "articulations": [],
+    "key_features": [
+      "Pees loopt door het foramen ischiadicum minus."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. to Obturator internus (L5, S1, S2).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. glutea inferior en A. pudenda interna."
+      ],
+      "venous_drainage": "V. glutea inferior en V. pudenda interna."
+    },
+    "function": {
+      "primary_action": "Laterale rotatie van dij, abductie van dij (wanneer heup geflecteerd is).",
+      "mechanism_of_action": "Bij contractie roteert de Obturator internus het dijbeen naar buiten (laterale rotatie) bij het heupgewricht. Wanneer de heup geflecteerd is (bijv. bij zitten), wordt het een abductor van de heup. Het is een belangrijke stabilisator van het heupgewricht en werkt synergetisch met de gemelli spieren.",
+      "heup_laterale_rotatie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "heup_abductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan abductie (bij flexie)."
+      },
+      "role_in_expression": [
+        "Essentieel voor de stabiliteit van het heupgewricht tijdens staan, lopen en rennen.",
+        "Belangrijk voor activiteiten die laterale rotatie van de heup vereisen (bijv. dansen, draaibewegingen).",
+        "Draagt bij aan de fijne motoriek van het heupgewricht."
+      ],
+      "synergists": [
+        "Piriformis",
+        "Quadratus femoris",
+        "Obturator externus",
+        "Gemelli (andere externe rotatoren)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor mediale rotatie en abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Obturator internus voor als een diepliggende, waaiervormige 'draaier' die van de binnenkant van je bekkenbot (rondom het foramen obturatum) naar de grote knobbel aan de bovenkant van je dijbeen loopt. Het is als een 'sleutel' die je been naar buiten draait en stabiliseert, essentieel voor de rotatie en stabiliteit van je heup, als een diepe, fijne afsteller voor je heupbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Obturator externus",
+    "description": "De Obturator externus is een diepliggende spier van de heup, gelegen aan de anterieure zijde van het bekken, die de heup lateraal roteert en adduceert, en de stabiliteit van het heupgewricht vergroot.",
+    "location": "Anterieur van het bekken, van het foramen obturatum naar de grote trochanter.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen over het foramen obturatum."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null,
+    "innervation": {
+      "nerve": "N. obturatorius (L3, L4), posterieure tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. obturatoria."
+      ],
+      "venous_drainage": "V. obturatoria."
+    },
+    "function": {
+      "primary_action": "Laterale rotatie van dij, adduceert dij.",
+      "mechanism_of_action": "Bij contractie roteert de Obturator externus het dijbeen naar buiten (laterale rotatie) en trekt het naar de middenlijn (adductie) bij het heupgewricht. Het is een belangrijke stabilisator van het heupgewricht en werkt synergetisch met de andere externe rotatoren.",
+      "heup_laterale_rotatie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan laterale rotatie."
+      },
+      "heup_adductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan adductie."
+      },
+      "role_in_expression": [
+        "Essentieel voor de stabiliteit van het heupgewricht tijdens staan, lopen en rennen.",
+        "Belangrijk voor activiteiten die laterale rotatie en adductie van de heup vereisen (bijv. dansen, draaibewegingen).",
+        "Draagt bij aan de fijne motoriek van het heupgewricht."
+      ],
+      "synergists": [
+        "Piriformis",
+        "Quadratus femoris",
+        "Obturator internus",
+        "Gemelli (andere externe rotatoren)"
+      ],
+      "antagonists": [
+        "Gluteus medius",
+        "Gluteus minimus",
+        "Tensor fasciae latae (voor mediale rotatie en abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Obturator externus voor als een diepliggende, waaiervormige 'draaier' die van de buitenkant van je bekkenbot (rondom het foramen obturatum) naar de grote knobbel aan de bovenkant van je dijbeen loopt. Het is als een 'sleutel' die je been naar buiten draait en stabiliseert, essentieel voor de rotatie en stabiliteit van je heup, als een diepe, fijne afsteller voor je heupbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

@@ -1,0 +1,183 @@
+[   {"voedingsmiddel": "Kipfilet (gekookt, zonder vel)",
+    "eenheid": "per 100g",
+    "nutriënten": {
+      "calorieën": 165,
+      "eiwit": 31.0,
+      "koolhydraten": 0.0,
+      "vet": 3.6,
+      "vezels": 0.0,
+      "vitamine_b3_niacine": 11.4,
+      "vitamine_b6": 0.6,
+      "fosfor": 210,
+      "seleen": 25.0
+    }
+    },{"voedingsmiddel": "Zalm (gekookt)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 208,
+        "eiwit": 20.0,
+        "koolhydraten": 0.0,
+        "vet": 13.0,
+        "vezels": 0.0,
+        "omega_3_vetzuren": 2.3,
+        "vitamine_d": 10.0,
+        "vitamine_b12": 3.0,
+        "seleen": 40.0
+      }
+    },{"voedingsmiddel": "Linzen (gekookt)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 116,
+        "eiwit": 9.0,
+        "koolhydraten": 20.0,
+        "vet": 0.4,
+        "vezels": 7.9,
+        "foliumzuur": 181,
+        "ijzer": 3.3,
+        "mangaan": 0.5
+      }
+    },{"voedingsmiddel": "Bruine Rijst (gekookt)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 112,
+        "eiwit": 2.6,
+        "koolhydraten": 23.0,
+        "vet": 0.9,
+        "vezels": 1.8,
+        "magnesium": 43,
+        "seleen": 15.0
+      }
+    },{"voedingsmiddel": "Hafervlokken (droog)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 389,
+        "eiwit": 16.9,
+        "koolhydraten": 66.3,
+        "vet": 6.9,
+        "vezels": 10.6,
+        "mangaan": 4.9,
+        "fosfor": 523,
+        "magnesium": 177
+      }
+    },{"voedingsmiddel": "Broccoli (gekookt)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 35,
+        "eiwit": 2.4,
+        "koolhydraten": 7.2,
+        "vet": 0.4,
+        "vezels": 3.3,
+        "vitamine_c": 89.2,
+        "vitamine_k": 102.0,
+        "foliumzuur": 108.0
+      }
+    },{"voedingsmiddel": "Spinazie (gekookt)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 23,
+        "eiwit": 2.9,
+        "koolhydraten": 3.6,
+        "vet": 0.4,
+        "vezels": 2.2,
+        "vitamine_k": 483.0,
+        "vitamine_a": 469.0,
+        "foliumzuur": 194.0,
+        "ijzer": 2.7
+      }
+    },{"voedingsmiddel": "Amandelen (rauw)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 579,
+        "eiwit": 21.2,
+        "koolhydraten": 21.6,
+        "vet": 49.9,
+        "vezels": 12.5,
+        "vitamine_e": 25.6,
+        "magnesium": 269,
+        "calcium": 264
+      }
+    },{"voedingsmiddel": "Griekse Yoghurt (naturel, mager)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 59,
+        "eiwit": 10.0,
+        "koolhydraten": 3.6,
+        "vet": 0.4,
+        "vezels": 0.0,
+        "calcium": 110,
+        "vitamine_b12": 0.7,
+        "fosfor": 170
+      }
+    },{"voedingsmiddel": "Ei (heel, gekookt)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 155,
+        "eiwit": 12.6,
+        "koolhydraten": 1.1,
+        "vet": 10.6,
+        "vezels": 0.0,
+        "vitamine_d": 2.2,
+        "vitamine_b12": 1.1,
+        "seleen": 30.8
+      }
+    },{"voedingsmiddel": "Appel (met schil)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 52,
+        "eiwit": 0.3,
+        "koolhydraten": 13.8,
+        "vet": 0.2,
+        "vezels": 2.4,
+        "vitamine_c": 4.6,
+        "kalium": 107
+      }
+    },{"voedingsmiddel": "Banaan",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 89,
+        "eiwit": 1.1,
+        "koolhydraten": 22.8,
+        "vet": 0.3,
+        "vezels": 2.6,
+        "kalium": 358,
+        "vitamine_b6": 0.37
+      }
+    },{"voedingsmiddel": "Volkoren Brood",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 265,
+        "eiwit": 13.0,
+        "koolhydraten": 48.0,
+        "vet": 3.5,
+        "vezels": 6.0,
+        "ijzer": 2.5,
+        "magnesium": 80
+      }
+    },{"voedingsmiddel": "Olijfolie (Extra Vierge)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 884,
+        "eiwit": 0.0,
+        "koolhydraten": 0.0,
+        "vet": 100.0,
+        "vezels": 0.0,
+        "vitamine_e": 14.3,
+        "vitamine_k": 60.2
+      }
+    },{"voedingsmiddel": "Zoete Aardappel (gekookt)",
+      "eenheid": "per 100g",
+      "nutriënten": {
+        "calorieën": 86,
+        "eiwit": 1.6,
+        "koolhydraten": 20.1,
+        "vet": 0.1,
+        "vezels": 3.0,
+        "vitamine_a": 709,
+        "vitamine_c": 2.4,
+        "kalium": 337
+      }
+    }
+]
+
+
+

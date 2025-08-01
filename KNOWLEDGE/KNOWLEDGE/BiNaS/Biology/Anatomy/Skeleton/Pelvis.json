@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Hip Bone (Os Coxae)",
+    "type": "bone",
+    "category": "Pelvis",
+    "description": "Het heupbeen, of os coxae, is een groot, onregelmatig gevormd bot dat de laterale en anterieure zijden van het bekken vormt. Het bestaat uit drie gefuseerde delen: het ilium, ischium en pubis.",
+    "location": "Laterale en anterieure zijden van het bekken.",
+    "parts": [
+      {
+        "name": "Ilium (Darmbeen)",
+        "description": "Het grootste en superieure deel van het heupbeen, dat de prominente bekkenkam vormt.",
+        "key_features": [
+          "Iliac crest (bekkenkam)",
+          "Anterior superior iliac spine (ASIS)",
+          "Posterior superior iliac spine (PSIS)",
+          "Gluteal lines (aanhechting voor gluteale spieren)",
+          "Iliac fossa (mediale holte)"
+        ]
+      },
+      {
+        "name": "Ischium (Zitbeen)",
+        "description": "Het inferieure en posterieure deel van het heupbeen, dat het 'zitbot' vormt.",
+        "key_features": [
+          "Ischial tuberosity (zitbeenknobbel, waar je op zit)",
+          "Ischial spine (puntig uitsteeksel)",
+          "Lesser sciatic notch (inkeping)"
+        ]
+      },
+      {
+        "name": "Pubis (Schaambeen)",
+        "description": "Het anterieure en inferieure deel van het heupbeen, dat de voorzijde van het bekken vormt.",
+        "key_features": [
+          "Body (centrale deel)",
+          "Superior and inferior rami (takken)",
+          "Pubic crest (richel)",
+          "Pubic tubercle (knobbel)"
+        ]
+      }
+    ],
+    "articulations": [
+      "Opposite hip bone (via pubic symphysis)",
+      "Sacrum (via sacroiliac joint)",
+      "Femur (dijbeen, via acetabulum)"
+    ],
+    "key_features_overall": [
+      "Acetabulum (diepe kom voor femurhoofd)",
+      "Obturator foramen (grote opening in het bekken)"
+    ],
+    "dimensions": {
+      "average_height_mm": "200-250",
+      "average_width_mm": "150-200",
+      "average_thickness_mm": "10-20",
+      "note": "Grootte varieert."
+    },
+    "function": {
+      "primary_role": "Verbinding van de wervelkolom met de onderste ledematen, ondersteuning van lichaamsgewicht, bescherming van bekkenorganen, aanhechting van spieren.",
+      "details": "Vormt de benige ring van het bekken, draagt het gewicht van de romp over naar de benen. Beschermt de bekkenorganen (blaas, voortplantingsorganen, deel van de darmen). Dient als aanhechtingspunt voor een groot aantal spieren van de romp en de onderste ledematen, essentieel voor staan, lopen en balans."
+    },
+    "visual_analogy": "Stel je het heupbeen voor als een groot, complex 'vleugel'-vormig bot dat de zijkant van je bekken vormt, bestaande uit drie gefuseerde delen die samen een 'kom' (acetabulum) vormen voor je dijbeen. Het is de 'brug' tussen je ruggengraat en je benen, die je lichaamsgewicht draagt en de basis vormt voor al je beenbewegingen, als een krachtig, beschermend frame voor je bekken.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Sacrum (Heiligbeen)",
+    "type": "bone",
+    "category": "Pelvis",
+    "description": "Het Sacrum is een groot, driehoekig bot aan de basis van de lumbale wervelkolom, gevormd door de fusie van vijf sacrale wervels. Het verbindt de wervelkolom met het bekken.",
+    "location": "Posterieur deel van het bekken, tussen de heupbeenderen.",
+    "articulations": [
+      "Lumbar vertebrae (L5, via lumbosacrale gewricht)",
+      "Hip bones (via sacroiliac joints)",
+      "Coccyx (stuitbeen, via sacrococcygeaal gewricht)"
+    ],
+    "key_features": [
+      "Sacral promontory (anterieure rand van S1)",
+      "Sacral foramina (openingen voor sacrale zenuwen)",
+      "Auricular surface (articulatie met ilium)",
+      "Median sacral crest (gefuseerde doornuitsteeksels)"
+    ],
+    "dimensions": {
+      "average_length_mm": "100-120",
+      "average_width_mm": "100-120",
+      "average_thickness_mm": "20-30",
+      "note": "Grootte varieert."
+    },
+    "function": {
+      "primary_role": "Verbinding van wervelkolom en bekken, overdracht van lichaamsgewicht, bescherming van zenuwen.",
+      "details": "Draagt het gewicht van de bovenste romp over naar de heupbeenderen en de onderste ledematen. Beschermt de sacrale zenuwen die door de sacrale foramina lopen. Dient als aanhechtingspunt voor belangrijke spieren van de rug en het bekken."
+    },
+    "visual_analogy": "Stel je het Sacrum voor als een groot, driehoekig 'wigvormig' bot dat aan de basis van je ruggengraat zit, als een 'centraal blok' dat je ruggengraat verbindt met je bekken. Het is de 'gewichtsoverbrenger' van je lichaam, die de krachten van je bovenlichaam naar je benen leidt en de zenuwen beschermt die naar je benen en bekken lopen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Coccyx (Stuitbeen)",
+    "type": "bone",
+    "category": "Pelvis",
+    "description": "Het Coccyx, of stuitbeen, is een klein, driehoekig bot aan het inferieure uiteinde van het sacrum, gevormd door de fusie van drie tot vijf rudimentaire wervels. Het is het 'staartbeen' van de mens.",
+    "location": "Inferieur uiteinde van het sacrum, aan de basis van de wervelkolom.",
+    "articulations": [
+      "Sacrum (via sacrococcygeaal gewricht)"
+    ],
+    "key_features": [
+      "Rudimentary vertebral bodies (rudimentaire wervellichamen)",
+      "Coccygeal cornua (kleine hoorns die articuleren met sacrum)"
+    ],
+    "dimensions": {
+      "average_length_mm": "20-40",
+      "average_width_mm": "10-20",
+      "average_thickness_mm": "5-10",
+      "note": "Klein en variabel."
+    },
+    "function": {
+      "primary_role": "Aanhechting van bekkenbodemspieren en ligamenten, ondersteuning bij zitten.",
+      "details": "Dient als aanhechtingspunt voor verschillende spieren en ligamenten van de bekkenbodem (bijv. Coccygeus, Levator ani), die essentieel zijn voor de ondersteuning van bekkenorganen en continentie. Het biedt ook een klein ondersteuningspunt bij het zitten."
+    },
+    "visual_analogy": "Stel je het Coccyx voor als een klein, rudimentair 'staartje' van bot dat aan de onderkant van je heiligbeen zit, als een 'restant' van een staart. Het is het 'ankerpunt' voor je bekkenbodemspieren, die je bekkenorganen ondersteunen en een kleine rol spelen bij het zitten, als een klein, maar functioneel puntje aan het einde van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 8
+  }
+]

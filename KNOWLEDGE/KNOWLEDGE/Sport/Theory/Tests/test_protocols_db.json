@@ -1,0 +1,349 @@
+{
+  "test_protocols_db": [
+    {
+      "test_name": "Hip Flexor Test",
+      "description": "Een veelgebruikte test om de flexibiliteit en het bewegingsbereik van de heupflexoren te meten, belangrijk voor activiteiten zoals hardlopen en springen.",
+      "protocol": {
+        "preparation": [
+          "Zorg voor een vlak oppervlak.",
+          "Plaats een meetlint parallel aan het oppervlak met duidelijke markeringen."
+        ],
+        "execution": [
+          "Deelnemer gaat op een tafel of mat liggen met het onderste been gestrekt.",
+          "Bovenste been wordt gebogen en vastgehouden met beide handen om de knie.",
+          "Deelnemer brengt bovenbeen naar de borst toe, heup wordt gebogen.",
+          "Knie van bovenbeen zo ver mogelijk naar de borst brengen, onderste been gestrekt houden.",
+          "Afstand tussen knie van bovenbeen en tafel/mat wordt gemeten met meetlint."
+        ],
+        "repetition": "Herhaal voor het andere been voor bilaterale vergelijking."
+      },
+      "assessment_form": {
+        "fields": [
+          {"label": "Naam van de deelnemer", "type": "text"},
+          {"label": "Leeftijd", "type": "number"},
+          {"label": "Datum van de test", "type": "date"}
+        ],
+        "results": [
+          {"label": "Linkerbeen", "unit": "cm"},
+          {"label": "Rechterbeen", "unit": "cm"}
+        ],
+        "interpretation": "Vergelijk gemeten waarden met normatieve gegevens (leeftijd, geslacht), indien beschikbaar.",
+        "notes_section": "Ruimte voor opmerkingen over testuitvoering, beperkingen of andere relevante informatie."
+      },
+      "notes": "De Hip Flexor Test is slechts één methode; andere tests zoals de Thomas Test en Modified Thomas Test zijn ook beschikbaar. Raadpleeg een gekwalificeerde professional voor nauwkeurige beoordeling en interpretatie."
+    },
+    {
+      "test_name": "T-test Snelheidstest",
+      "description": "Populaire test om laterale wendbaarheid en snelheid te meten, simuleert sportbewegingen (voetbal, basketbal, hockey, tennis). Vereist snelle voetplaatsing, explosieve kracht, behendigheid.",
+      "protocol": {
+        "materials": [
+          "Meetlint of afstandsmarkeringen",
+          "Vier kegels of pylonen",
+          "Stopwatch of timer"
+        ],
+        "setup": [
+          "Plaats kegels in T-vormig patroon (basis 10m horizontaal, verticale lijn 5m).",
+          "Atleet start in midden horizontale lijn, één voet aan voorkant lijn."
+        ],
+        "execution": [
+          "Op startsignaal: ren zo snel mogelijk naar 1e kegel (uiteinde horizontale lijn).",
+          "Bij 1e kegel: snelle draai, sprint diagonaal naar 2e kegel (andere uiteinde horizontale lijn).",
+          "Bij 2e kegel: snelle draai, sprint naar 3e kegel (midden T-vorm).",
+          "Bij 3e kegel: snelle draai, sprint naar 4e kegel (uiteinde horizontale lijn).",
+          "Bij 4e kegel: laatste snelle draai, sprint zo snel mogelijk terug naar startpunt.",
+          "Tijd meten vanaf startsignaal tot atleet startpunt bereikt."
+        ]
+      },
+      "assessment_form": {
+        "fields": [
+          {"label": "Naam van de atleet", "type": "text"},
+          {"label": "Leeftijd", "type": "number"},
+          {"label": "Datum van de test", "type": "date"}
+        ],
+        "results": [
+          {"label": "Tijd die de atleet nodig heeft om de T-test af te leggen", "unit": "seconden"}
+        ],
+        "notes_section": "Ruimte voor opmerkingen over uitvoering (technische fouten, problemen met draaien)."
+      },
+      "interpretation": {
+        "reference_values": {
+          "Uitstekend": "< 9 seconden",
+          "Goed": "9 - 10 seconden",
+          "Gemiddeld": "10 - 11 seconden",
+          "Onder het gemiddelde": "11 - 12 seconden",
+          "Zwak": "> 12 seconden"
+        },
+        "notes": "Referentiewaarden zijn algemeen en kunnen variëren (leeftijd, geslacht, sport, niveau). T-test is aanvullend aan andere tests. Zorg voor goede warming-up en veilige ondergrond. Snelheid en wendbaarheid zijn trainbaar."
+      }
+    },
+    {
+      "test_name": "1RM (One Repetition Maximum) Krachttest",
+      "description": "Meet de maximale kracht van een individu: het maximale gewicht dat een persoon één keer correct kan tillen voor een specifieke oefening (bijv. bankdrukken, squatten, deadliften).",
+      "importance": "Inzicht in potentieel om gewicht te tillen, indicatie van progressie, helpt bij stellen realistische doelen en ontwikkelen passend trainingsprogramma, evalueren effectiviteit krachttraining, vergelijken individuele kracht.",
+      "protocol": {
+        "preparation": "Grondige opwarming (algemene dynamische oefeningen, specifieke oefeningen voor te testen spiergroepen).",
+        "technique": "Juiste techniek kennen en toepassen (lichaamshouding, stabiliteit, bewegingsbereik).",
+        "progression": "Start met lichter gewicht, geleidelijk belasting verhogen. Voorzichtigheid om blessures te voorkomen.",
+        "exercise_selection": "Kies oefeningen relevant voor de sport/activiteit."
+      },
+      "notes": "Niet geschikt voor iedereen (ouderen, beginners, geblesseerden). Raadpleeg gekwalificeerde professional. Veiligheid, techniek en progressie cruciaal voor betrouwbare resultaten.",
+      "application": {
+        "power_pyramid_calculation": {
+          "description": "Na 1RM-test, krachtpiramide maken om trainingsintensiteit voor verschillende herhalingen en gewichten te bepalen.",
+          "steps": [
+            "Bepaal 1RM (maximaal gewicht succesvol getild).",
+            "Stel gewichten in percentages van 1RM in voor herhalingen (bijv. 70-75% voor 8-10 reps, 80-85% voor 6-8 reps, 90-95% voor 3-5 reps, 100%+ voor 1-3 reps).",
+            "Bereken gewicht voor elke set en herhaling door percentage van 1RM toe te passen."
+          ],
+          "example_squat_100kg": "8-10 herhalingen: 70-75 kg; 6-8 herhalingen: 80-85 kg; 3-5 herhalingen: 90-95 kg; 1-3 herhalingen: 100+ kg."
+        }
+      }
+    },
+    {
+      "test_name": "10RM Krachttest",
+      "description": "Meet het maximale gewicht dat een persoon kan tillen voor 10 volledige herhalingen met goede vorm en techniek. Gebruikt voor trainingsintensiteit en progressie.",
+      "protocol": "Progressieve aanpak: gewicht geleidelijk verhogen tot 10 herhalingen niet meer lukken. Juiste rustperiodes tussen sets.",
+      "benefits": [
+        "Bepaalt trainingsintensiteit voor toekomstige programma's.",
+        "Biedt een basislijnmeting voor krachtontwikkeling.",
+        "Volgt vooruitgang in kracht en spieruithoudingsvermogen.",
+        "Identificeert trainingsplateaus (indien geen verbetering: aanpassingen nodig)."
+      ],
+      "notes": "Uitvoeren met juiste techniek en veiligheidsmaatregelen (goede opwarming, mobilisatie spieren). Onder begeleiding van gekwalificeerde trainer. Veiligheid en correcte uitvoering essentieel."
+    },
+    {
+      "test_name": "Functional Movement Screen (FMS)",
+      "description": "Gestandaardiseerd screeningsinstrument om bewegingskwaliteit en functionele asymmetrieën te beoordelen. Ontwikkeld door Gray Cook en Lee Burton.",
+      "purpose": [
+        "Identificeren van beperkingen, zwakke schakels en risico's op letsel in het bewegingsapparaat.",
+        "Informatie over asymmetrieën tussen linker- en rechterzijde (kracht, flexibiliteit, neuromusculaire controle)."
+      ],
+      "components": "Zeven fundamentele bewegingspatronen (diepe kniebuigingen, heuphinges, schouderbewegingen, rompcontrole, stabiliteit, evenwicht enkelbeenstand).",
+      "scoring": "Score van 0 tot 3 voor elk patroon (0=niet correct, 3=vloeiend/symmetrisch zonder beperkingen). Totaalscore voor algemene indicatie van bewegingskwaliteit en asymmetrieën.",
+      "notes": "Aanvullend instrument, geen vervanging voor uitgebreide evaluatie door professional (fysiotherapeut, bewegingsdeskundige). Verdere beoordeling/behandeling kan nodig zijn. Waardevol voor ontwikkelen gerichte interventies, optimaliseren bewegingsvaardigheden, verminderen letselrisico, verbeteren fysieke capaciteiten."
+    },
+    {
+      "test_name": "Visuele Reactietijdtest",
+      "description": "Meet de reactietijd van een individu bij het reageren op visuele stimuli (object, lichtsignaal, verandering omgeving). Relevant voor sporten met snelle visuele waarneming en reactie.",
+      "protocol": {
+        "preparation": "Gecontroleerde en goed verlichte testomgeving zonder afleidingen.",
+        "position": "Sporter in startpositie, klaar om te reageren.",
+        "stimulus": "Visuele stimulus (lichtpaneel, bewegend object, omgevingsverandering).",
+        "execution": "Presenteer stimulus op willekeurige momenten, sporter reageert zo snel mogelijk. Gebruik reactiemetingssysteem/stopwatch.",
+        "repetition": "Herhaal meerdere keren voor consistente resultaten en minimalisatie vermoeidheidseffecten."
+      },
+      "assessment_form": {
+        "fields": [
+          {"label": "Naam van de sporter", "type": "text"},
+          {"label": "Testdatum", "type": "date"}
+        ],
+        "results": "Reactietijd voor elke testpoging (bijv. 5 pogingen).",
+        "notes_section": "Ruimte voor opmerkingen, observaties of factoren die prestaties beïnvloeden."
+      },
+      "notes": "Vereist nauwkeurige timing en apparatuur voor betrouwbare resultaten. Raadpleeg gekwalificeerde professional voor veilige uitvoering en interpretatie."
+    },
+    {
+      "test_name": "Decision Making Test",
+      "description": "Meet het vermogen van atleten om snel en accuraat beslissingen te nemen onder druk in een sportomgeving. Inzicht in cognitief proces bij besluitvorming.",
+      "purpose": "Beoordelen reactievermogen, perceptie, situatiebewustzijn, analysevaardigheden, besluitvormingsvaardigheden.",
+      "protocol": {
+        "introduction": "Uitleg testdoelstellingen en -instructies. Zorgen dat atleet proces begrijpt en vragen kan stellen.",
+        "scenarios": "Presenteer sportgerelateerde scenario's (video's, afbeeldingen, gesimuleerde situaties) die realistisch zijn voor de sport/context.",
+        "task": "Vraag atleet om snel en accuraat beslissingen te nemen (juiste actie selecteren, opties evalueren, reageren op veranderende situaties)."
+      },
+      "assessment_form": {
+        "elements_for_assessment": [
+          "Snelheid van reactie", "Nauwkeurigheid van beslissing", "Situatiebewustzijn (relevante info verwerken)",
+          "Besluitvormingsvaardigheid (effectiviteit keuzes)", "Flexibiliteit (aanpassen aan veranderende omstandigheden)"
+        ],
+        "structure": "Scores/beoordelingen op elk element, ruimte voor opmerkingen/observaties van testleider."
+      },
+      "notes": "Beoordeling is complex en afhankelijk van sport, context, doelstellingen. Raadzaam om gekwalificeerde professional te raadplegen voor betrouwbare en valide tests."
+    },
+    {
+      "test_name": "Concentratietest (Sport)",
+      "description": "Gestructureerde taken of oefeningen die de focus, reactietijd en nauwkeurigheid van de atleet testen, essentieel voor optimale sportprestaties.",
+      "purpose": "Meten en verbeteren van concentratievaardigheden (focus, afleiding negeren, snel/nauwkeurig reageren op relevante info).",
+      "protocol": {
+        "materials": ["Stopwatch", "Testmateriaal (visuele/auditieve stimuli)", "Pen en papier"],
+        "instructions_to_athlete": [
+          "Leg doelstelling en procedure uit.",
+          "Leg stimuli en reactietaken uit.",
+          "Benadruk snelheid en nauwkeurigheid."
+        ],
+        "execution": "Rustige omgeving. Atleet richt aandacht op specifieke stimuli, negeert afleidingen, reageert snel/nauwkeurig. Variatie: visuele/auditieve taken, complexe cognitieve uitdagingen."
+      },
+      "assessment_form": {
+        "fields": [
+          {"label": "Naam van de atleet", "type": "text"},
+          {"label": "Testdatum", "type": "date"}
+        ],
+        "results": "Reactietijd voor elke testpoging (bijv. 5 pogingen).",
+        "notes_section": "Ruimte voor opmerkingen, observaties, factoren die prestaties beïnvloeden.",
+        "conclusion_options": [
+          "Uitstekende concentratievaardigheden (snelle reactietijden, hoge nauwkeurigheid).",
+          "Matige concentratievaardigheden (redelijke reactietijden, acceptabel nauwkeurigheid).",
+          "Zwakkere concentratievaardigheden (langzamere reactietijden, lager nauwkeurigheid)."
+        ],
+        "recommendation": "Gerichte interventies en training mogelijk. Regelmatige herhaling voor monitoring voortgang."
+      },
+      "notes": "Raadzaam om gekwalificeerde professional (sportpsychologie, sportprestaties) te raadplegen."
+    },
+    {
+      "test_name": "Sit-and-Reach Test",
+      "description": "Meet de lenigheid van de hamstrings en de lage rug, belangrijk voor gezonde bewegingsvrijheid en blessurepreventie. Evalueert flexibiliteit van de posterior keten.",
+      "protocol": {
+        "preparation": [
+          "Plaats meetlint op vloer met nulmarkering zichtbaar.",
+          "Plaats Sit-and-Reach box tegen meetlint.",
+          "Deelnemer schoenen uit, comfortabel voelen."
+        ],
+        "execution": [
+          "Deelnemer zit op grond met gestrekte benen tegen box.",
+          "Eén voet tegen box (hak tegen, tenen omhoog).",
+          "Strekt armen recht naar voren, handen over elkaar, vingers uitgestrekt.",
+          "Op teken: langzaam voorover buigen, vingertoppen zo ver mogelijk langs meetlint schuiven, knieën gestrekt houden.",
+          "Maximale uitrekkende positie vasthouden, tester meet afstand tussen nulmarkering en verste punt."
+        ]
+      },
+      "assessment_form": {
+        "fields": [
+          {"label": "Naam van de deelnemer", "type": "text"},
+          {"label": "Leeftijd", "type": "number"},
+          {"label": "Datum van de test", "type": "date"}
+        ],
+        "results": [
+          {"label": "Gemeten afstand", "unit": "cm"}
+        ],
+        "notes_section": "Ruimte voor opmerkingen over testuitvoering, beperkingen of andere relevante informatie."
+      },
+      "notes": "Vergelijk met normatieve gegevens (leeftijd, geslacht). Individuele factoren (trainingsniveau, genetische aanleg) beïnvloeden resultaten. Belangrijk onderdeel van fysieke fitheid beoordeling. Raadzaam onder begeleiding van getraind personeel."
+    },
+    {
+      "test_name": "Energy Control Intake & Test Procedure (Algemeen)",
+      "description": "De start van het Energy Control traject, inclusief anamnese, rustmetingen en inspanningstest, om inzicht te krijgen in de gesteldheid en belastbaarheid van de cliënt.",
+      "intake_process": {
+        "initial_steps": "Geen tijdsdruk. Intakeformulier gezamenlijk doornemen, dieper ingaan op bijzondere zaken en risicofactoren.",
+        "simple_rest_measurements": [
+          {"name": "Saturatie (SaO2)", "details": "Zuurstof in bloed gebonden aan Hb. 99-100% = onrust. <90% = niet beginnen. 95-98% = optimaal."},
+          {"name": "Bloeddruk", "details": "Niet beginnen bij te hoog (bovendruk >160, onderdruk >90). Onderdruk >100 = niet maximaal belasten. Onderdruk >135 = niet starten."},
+          {"name": "Gewicht, vetpercentage en BMI", "details": "Gescoorde kleuren in rapport geven risiconiveau aan. Hoge vetpercentage bij slanke mensen = bewegen nodig."}
+        ],
+        "ec_equipment_rest_measurement": [
+          {"name": "Rusthartslag", "details": "Gemiddeld over 10 min. >90 in rust = indicatie dat het niet goed gaat."},
+          {"name": "Ademfrequentie", "details": ">15 ademteugen/min = te hoog."},
+          {"name": "Adempatroon", "details": "Kijken naar rustpauze na uitademing en te diep zuchten. Wachten is cruciaal voor rust en balans."},
+          {"name": "Hartslagvariabiliteit (HRV)", "details": "Moet niet te laag zijn (<20 = probleem). Hoe meer tijden verschillen, hoe ontspannender en gezonder de persoon. Kan beïnvloed worden door ademtherapie (lagere ademfrequentie, lagere hartslag, hogere HRV)."}
+        ]
+      },
+      "exertion_test": {
+        "purpose": "Zoeken naar verloop van verbranding (suiker vs. vet), melkzuuraanmaak. Hoe langer in vetverbranding, hoe beter.",
+        "protocol": "Fietsbelasting begint laag, wordt elke minuut zwaarder tot voldoende informatie/cliënt aangeeft dat het te zwaar wordt/niet verantwoord is. Test maximaal als ademfrequentie >40 is (topsporters >60). Omslagpunt ligt meestal tussen ademfrequentie 30-40. Na max: 3 min uitfietsen op 40% van max vermogen, daarna 3 min stilzitten.",
+        "parameters": [
+          "Maximaal vermogen (zegt iets over talent)",
+          "Vermogen bij omslagpunt",
+          "Model van de ademfrequentielijn (vrij gauw verzuren na Aerobe Drempel zegt iets over vermoeidheid)",
+          "Herstel na inspanning"
+        ],
+        "troubleshooting": "Storingen (band niet goed, hartritmestoornissen). Storing hartslagsignaal die afneemt bij oplopend vermogen kan duiden op onschuldige hartritmestoornissen. Bij dikke mensen soms moeilijk ademsignaal te krijgen (sensor op rug)."
+      },
+      "reporting_and_advice": {
+        "report_creation": "Direct na test rapport maken en uitleggen (automatisch via EC-software, inclusief beginnersprogramma voor 6 weken). Belangrijk: gedegen uitleg op papier (cliënt vergeet veel door stress).",
+        "post_test_recovery": "Cliënt 20 minuten op massage matrasje met infraroodlicht en magneetveldtherapie om uitputting te verminderen.",
+        "training_plan": "Passieve warming-up (massage, IR, magneetveld), actieve warming-up (6 min), duurtraining (zie Excel rapport), pauze/gesprek, krachttraining, cooling-down, passieve cooling-down, ademtherapie, overleg."
+      },
+      "notes": "Belangrijk om cliënt niet alleen te laten komen bij ernstige vermoeidheid. Normwaarden zijn mooi, maar sporthistorie is cruciaal. Medicatie die hartslag beïnvloedt, is belangrijk (bètablokkers). Altijd eigen observatie meenemen (overgewicht, uiterlijk, wondjes, haargroei). Saturatiemeter bij longproblemen. Testresultaten en trainingsprogramma's worden geëvalueerd en bijgesteld (elke 6 weken)."
+    },
+    {
+      "test_name": "Energy Control Rustmeting in Praktijk",
+      "description": "Praktische handleiding voor het uitvoeren van een rustmeting met Energy Control apparatuur.",
+      "equipment": {
+        "ATDS": ["Elastische band met 3 drukkers", "Antenne", "Docking station", "Kabeltje van docking station naar de computer", "Handleiding in PowerPoint", "Software"],
+        "Co2ntrol": ["Polar hartslagmeterband ongecodeerd", "De Co2ntrol apparaat zelf", "Kabeltje van Co2ntrol PC met verlengkabel", "Handleiding in Powerpoint", "Software"],
+        "EC-Coach": ["Band", "Sensor", "Bluetooth Sensor", "Software"],
+        "EC Watch": ["Band", "Sensor", "Dongel", "Horloge", "Software"]
+      },
+      "software_setup": "Controleer com poorten (settings). Selecteer map voor opslaan testpersonen (apply bevestigen).",
+      "measurement_start": {
+        "atds": "Elastische band omdoen, sensor op drukkertjes. Knopje in midden snel laten knipperen (langzaam knipperen = alleen opslaan). Snelkoppeling op bureaublad, klik aan, venstertje met getallen.",
+        "co2ntrol": "Aandoen via zwart knopje zijkant (groen lampje). Snelkoppeling op bureaublad, klik aan, venstertje met getallen.",
+        "general": "Vanuit klein venster via Graph naar meetscherm. Rode punt aanklikken om meting te starten. Rustmeting min. 5-10 min. Zwart vierkantje om meting te beëindigen. Data opslaan met unieke filenaam (naam + datum)."
+      },
+      "troubleshooting_during_measurement": [
+        "Storing (hartslag/ademsignaal): band zit niet goed. Soms lijkt storing op overslag (pols voelen). Storing = HR-signaal valt recht naar beneden weg, horizontaal, komt recht terug.",
+        "HRV curve: bij overslagjes ECG-lijkende pieken, bij echte storing hoekiger.",
+        "Dikke mensen: moeilijk goed ademsignaal (band draaien, sensor op rug).",
+        "Ademsignaal niet meetbaar: mooi stukje inzoomen op 12 seconden, ademfrequentie tellen x 5."
+      ],
+      "analysis_procedure": {
+        "steps": [
+          "Rechtermuisknop: 'determine spreadsheet input'.",
+          "2 raaklijntjes zichtbaar (rustmeting). Gebruik alleen verticale lijn (diagonaal virtuele driehoek). Selecteer mooi stukje.",
+          "Rechtermuisknop: 'generate spreadsheet from input'.",
+          "Vul gevraagde gegevens in. Kies Excel template 'rustvoortgang'.",
+          "Excel formulier gemaakt. Vul extra gegevens in."
+        ],
+        "output": "Overzicht van metingen (tot 50) op pagina 1 (tabblad totaal). Uitgewerkte trials op pagina 2 (tabs). Marges normwaardes bij fysiologische metingen."
+      }
+    },
+    {
+      "test_name": "Energy Control Submaximale Test",
+      "description": "Testmethode voor situaties waarin een maximale inspanningstest niet raadzaam is, maar waarbij toch een trainingsniveau moet worden bepaald.",
+      "contraindications": [
+        "Verhoogde bloeddruk",
+        "Hartproblemen",
+        "Medicatie (m.n. voor hartproblemen)",
+        "Ernstig overgewicht",
+        "Diabetes 2"
+      ],
+      "protocol": {
+        "software_settings": "Band multiplier en band minimum zo laag mogelijk instellen in settings (tijdens inspanningstest is dit het beste, anders achteraf opnieuw inlezen met filters laag en HRV recalculate aangevinkt).",
+        "execution": "Belasting laten oplopen volgens normaal eigen protocol. Software doet voorspelling over omslagpunt (op basis van afnemende HRV). Test kan dan gestopt worden. File opslaan.",
+        "heart_rhythm_disorders": "Bij hartritmestoornissen: tijdens test settings benaderen via View, band Multiplier en Band Minimum op 10 en 5 zetten (voor rustmeting 40 en 40). Kan ook achteraf door test opnieuw in te lezen met HRV recalculate."
+      },
+      "assessment_procedure": {
+        "steps": [
+          "Rechtermuisknop: 'Generate Training using Calculated AT'.",
+          "Veld verschijnt voor persoonlijke data. Maximale hartslag: omslagpunt + 10 slagen.",
+          "Maximaal vermogen schatten: 80% optellen bij gehaalde vermogen (bijv. 100 Watt AT -> 180 Watt max power). Vermogen bij AT x 1.8.",
+          "Alles invullen, genereren rapport in Excel (kies 'inspannings/trainings rapport')."
+        ],
+        "output": "Rapport met trainingsadvies."
+      },
+      "notes": "Bij twijfel over gezondheid/risico: niet maximaal testen. Cliënt terugsturen naar huisarts/specialist indien nodig. Rapport kan voorzien worden van eigen logo/bedrijfsgegevens (alleen tekst wijzigen, getallen intact laten). Opslaan als XLT sjabloon file in software map."
+    },
+    {
+      "test_name": "Trunk Rotation Test",
+      "description": "Meet de lenigheid en mobiliteit van de romp en de wervelkolom, belangrijk voor rotatie- en draaibewegingen in sport en dagelijks leven.",
+      "purpose": "Identificeren van bewegingsbeperkingen, asymmetrieën in rotatiebereik, en algehele flexibiliteit/mobiliteit van de wervelkolom.",
+      "protocol": {
+        "execution": [
+          "Deelnemer zit op mat/testbank, knieën gebogen, voeten stevig op grond.",
+          "Meetinstrument (meetlint) gebruiken om startpositie te markeren (heupen).",
+          "Deelnemer draait romp naar links en rechts, zo ver mogelijk zonder pijn/ongemak.",
+          "Afstand gemeten vanaf startpositie naar verste punt aan elke zijde.",
+          "Herhaal 3-5 keer voor consistente resultaten.",
+          "Gemiddelde rotatieafstand aan beide zijden berekenen voor totale rotatiecapaciteit."
+        ]
+      },
+      "assessment_form": {
+        "fields": [
+          {"label": "Naam van de deelnemer", "type": "text"},
+          {"label": "Leeftijd", "type": "number"},
+          {"label": "Datum van de test", "type": "date"}
+        ],
+        "results": [
+          {"label": "Rotatieafstand Linkerkant", "unit": "cm"},
+          {"label": "Rotatieafstand Rechterkant", "unit": "cm"}
+        ],
+        "notes_section": "Ruimte voor opmerkingen over uitvoering of relevante observaties."
+      },
+      "variations_adaptations": [
+        "Beperkingen heupbeweging: Deelnemers op stoel/bank met benen gestrekt (minimaliseert invloed heupbewegingen).",
+        "Metingen met rotatiehoeken: Hoeken meten in graden met goniometer.",
+        "Functionele toepassingen: Nabootsen specifieke functionele bewegingen (bijv. met golfclub/tennisracket)."
+      ],
+      "notes": "Gebruik als onderdeel van uitgebreide evaluatie (kracht, stabiliteit, mobiliteit). Interpreteer in context van individu en doelen. Raadpleeg gekwalificeerde professional voor correcte uitvoering, interpretatie en behandelplan. Uitvoeren met zorg om letsel/verkeerde interpretatie te voorkomen."
+    }
+  ]
+}

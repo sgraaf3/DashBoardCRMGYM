@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Femur (Dijbeen)",
+    "type": "bone",
+    "category": "Leg",
+    "description": "Het Femur, of dijbeen, is het langste, zwaarste en sterkste bot in het menselijk lichaam, dat articuleert met het heupbeen bij de heup en met de tibia en patella bij de knie.",
+    "location": "Bovenbeen, tussen de heup en de knie.",
+    "articulations": [
+      "Hip bone (via heupgewricht)",
+      "Patella (knieschijf, via patellofemorale gewricht)",
+      "Tibia (scheenbeen, via tibiofemorale gewricht)"
+    ],
+    "key_features": [
+      "Head (articuleert met acetabulum van heupbeen)",
+      "Neck (smalle deel onder het hoofd, veelvoorkomende breuklocatie)",
+      "Greater and lesser trochanters (aanhechting voor heup- en dijspieren)",
+      "Linea aspera (ruwe richel aan posterieure zijde, aanhechting voor dijspieren)",
+      "Medial and lateral condyles (articulatie met tibia)",
+      "Medial and lateral epicondyles (aanhechting voor ligamenten en spieren)",
+      "Adductor tubercle (aanhechting voor Adductor magnus)"
+    ],
+    "dimensions": {
+      "average_length_mm": "450-550",
+      "average_diameter_mm": "25-35",
+      "note": "Lengte varieert met lichaamslengte."
+    },
+    "function": {
+      "primary_role": "Dragen van lichaamsgewicht, aanhechting van spieren, facilitatie van beenbewegingen.",
+      "details": "Vormt het structurele fundament van het bovenbeen, draagt het gewicht van het bovenlichaam en dient als aanhechtingspunt voor de krachtigste spieren van het lichaam (quadriceps, hamstrings, gluteale spieren). Cruciaal voor staan, lopen, rennen, springen en alle bewegingen van de onderste ledematen."
+    },
+    "visual_analogy": "Stel je het Femur voor als een lange, robuuste 'pilaar' van bot die je bovenbeen vormt, met een 'bal' aan de bovenkant (femurhoofd) die in de kom van je heupbeen past, en twee 'rollen' aan de onderkant (condylen) die op je scheenbeen rusten. Het is de 'hoofdpilaar' van je been, die je lichaamsgewicht draagt en je in staat stelt te bewegen met ongekende kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Patella (Knieschijf)",
+    "type": "bone",
+    "category": "Leg",
+    "description": "De Patella, of knieschijf, is een sesamoid bot (ingebed in een pees) dat zich aan de voorkant van het kniegewricht bevindt, binnen de Quadriceps pees.",
+    "location": "Anterieur van het kniegewricht, in de Quadriceps pees.",
+    "articulations": [
+      "Femur (dijbeen, via patellofemorale gewricht)"
+    ],
+    "key_features": [
+      "Apex (puntig inferieur deel)",
+      "Base (breed superieur deel)",
+      "Articular facets (voor articulatie met femur)"
+    ],
+    "dimensions": {
+      "average_length_mm": "40-50",
+      "average_width_mm": "40-50",
+      "average_thickness_mm": "15-20",
+      "note": "Grootte varieert."
+    },
+    "function": {
+      "primary_role": "Verhoogt de efficiëntie van de Quadriceps spier, bescherming van het kniegewricht.",
+      "details": "Fungeert als een katrol, waardoor de trekkracht van de Quadriceps spier op de tibia wordt vergroot en de efficiëntie van de knie-extensie toeneemt. Beschermt het kniegewricht tegen directe trauma's en vermindert wrijving op de Quadriceps pees."
+    },
+    "visual_analogy": "Stel je de Patella voor als een klein, rond 'schildje' van bot dat in de pees van je dijbeenspier (quadriceps) zit, aan de voorkant van je knie. Het is als een 'katrol' die de kracht van je dijbeenspier vergroot om je been te strekken, en tegelijkertijd je knie beschermt, als een klein, maar essentieel onderdeel van je kniegewricht.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Tibia (Scheenbeen)",
+    "type": "bone",
+    "category": "Leg",
+    "description": "De Tibia, of scheenbeen, is het grote, mediale bot van het onderbeen, dat het grootste deel van het lichaamsgewicht draagt en articuleert met het femur, fibula en talus.",
+    "location": "Mediale zijde van het onderbeen, van knie tot enkel.",
+    "articulations": [
+      "Femur (dijbeen, via tibiofemorale gewricht)",
+      "Fibula (kuitbeen, via proximale en distale tibiofibulair gewrichten)",
+      "Talus (sprongbeen, via enkelgewricht)"
+    ],
+    "key_features": [
+      "Medial and lateral condyles (articulatie met femur)",
+      "Tibial tuberosity (aanhechting voor patellaire pees)",
+      "Anterior border (scherpe rand, 'scheenbeen')",
+      "Medial malleolus (prominentie aan mediale zijde van enkel)",
+      "Interosseous border (aanhechting voor interossea membraan)"
+    ],
+    "dimensions": {
+      "average_length_mm": "350-450",
+      "average_diameter_mm": "20-30",
+      "note": "Lengte varieert met lichaamslengte."
+    },
+    "function": {
+      "primary_role": "Dragen van lichaamsgewicht, aanhechting van spieren, vorming van knie- en enkelgewricht.",
+      "details": "Vormt het belangrijkste gewichtdragende bot van het onderbeen, draagt de krachten van het bovenlichaam over naar de voet. Dient als aanhechtingspunt voor veel spieren van het onderbeen en de voet. Cruciaal voor staan, lopen, rennen en springen."
+    },
+    "visual_analogy": "Stel je de Tibia voor als een lange, stevige 'zuil' van bot die je scheenbeen vormt, als de 'hoofdpilaar' van je onderbeen. Het is het 'gewichtdragende bot' dat de krachten van je lichaam opvangt en je in staat stelt te staan, lopen en springen, als een robuuste ondersteuning voor je bewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Fibula (Kuitbeen)",
+    "type": "bone",
+    "category": "Leg",
+    "description": "De Fibula, of kuitbeen, is het slanke, laterale bot van het onderbeen, dat primair dient als aanhechtingspunt voor spieren en stabiliteit biedt aan de enkel.",
+    "location": "Laterale zijde van het onderbeen, parallel aan de tibia.",
+    "articulations": [
+      "Tibia (scheenbeen, via proximale en distale tibiofibulair gewrichten)",
+      "Talus (sprongbeen, via enkelgewricht)"
+    ],
+    "key_features": [
+      "Head (proximaal uiteinde, articuleert met tibia)",
+      "Neck (smalle deel onder het hoofd)",
+      "Lateral malleolus (prominentie aan laterale zijde van enkel)",
+      "Interosseous border (aanhechting voor interossea membraan)"
+    ],
+    "dimensions": {
+      "average_length_mm": "340-440",
+      "average_diameter_mm": "5-10",
+      "note": "Lengte varieert met lichaamslengte."
+    },
+    "function": {
+      "primary_role": "Aanhechting van spieren, stabilisatie van de enkel, vorming van enkelgewricht.",
+      "details": "Draagt relatief weinig gewicht, maar is cruciaal voor de aanhechting van veel spieren van het onderbeen en de voet (bijv. Fibularis spieren, Tibialis posterior). Vormt de laterale malleolus, die de stabiliteit van de enkel vergroot en de Talus omvat. Belangrijk voor pronatie en supinatie van de voet."
+    },
+    "visual_analogy": "Stel je de Fibula voor als een lange, slanke 'stok' van bot die parallel aan je scheenbeen loopt, aan de buitenkant van je onderbeen, met een 'knobbel' aan de onderkant (laterale malleolus) die je enkel vormt. Het is de 'stabilisator' van je enkel, die je spieren aanhecht en je enkelgewricht verstevigt, als een slanke partner van het scheenbeen.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

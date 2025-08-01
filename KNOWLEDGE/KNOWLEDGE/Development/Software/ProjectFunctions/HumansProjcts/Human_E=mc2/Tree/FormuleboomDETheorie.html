@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactieve Formuleboom: Een Eengemaakte Theorie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Warm Neutrals -->
+    <!-- Application Structure Plan: The application is designed as an interactive concept explorer rather than a linear document. The core is a dynamic network graph rendered on an HTML Canvas, representing the "Grootste Gekoppelde Groep". This visualizes the interconnectedness central to the report's thesis. Users can click on nodes (concepts) to display detailed information in a dedicated side panel. This non-linear, exploratory structure is chosen for usability, as it allows users to freely navigate the complex web of relationships at their own pace, making the abstract content more digestible and engaging. A secondary section presents the "Niet Aangekoppeld" concepts as distinct cards, maintaining their separation as described in the source. This structure transforms the dense report into an intuitive tool for discovery. -->
+    <!-- Visualization & Content Choices: Report Info: The core of the report is the relationship between concepts from different fields. Goal: To visualize these relationships and allow deep exploration. Viz/Presentation Method: A force-directed network graph on a Canvas for the main connected group, and info cards for the unconnected concepts. Interaction: Clicking a node on the canvas highlights it and its connections, and populates a detail panel with its full description, formula, and context. A donut chart visualizes the disciplinary breakdown of concepts. Justification: This approach is superior to a static list as it makes the primary thesis—interconnectedness—the central, interactive experience. Library/Method: Vanilla JS for graph logic and interaction on a Canvas 2D context. Chart.js for the donut chart. HTML/CSS for info cards and layout. This adheres to the constraints. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF8;
+            color: #4A4A4A;
+        }
+        .formula {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            color: #A98B73;
+        }
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            height: 65vh;
+            max-height: 700px;
+            background-color: #F5F1ED;
+            border-radius: 0.75rem;
+            border: 1px solid #EAE3DC;
+        }
+        #conceptCanvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .detail-panel {
+            background-color: #FFFFFF;
+            border: 1px solid #EAE3DC;
+            transition: transform 0.3s ease-in-out;
+        }
+        .concept-card {
+            background-color: #FFFFFF;
+            border: 1px solid #EAE3DC;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .concept-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#A98B73] mb-2">De Formuleboom van Alles</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">Een interactieve verkenning van de eengemaakte theorie van computatie, informatie en realiteit.</p>
+        </header>
+
+        <main>
+            <!-- Sectie 1: De Gekoppelde Groep - Interactieve Graaf -->
+            <section id="gekoppeld" class="mb-16">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold mb-2">De Kern: Het Gekoppelde Netwerk</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Verken de fundamentele concepten die de kern vormen van de unificatietheorie. Klik op een knooppunt om de details en relaties te onthullen.</p>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-2/3">
+                        <div class="canvas-container shadow-lg">
+                            <canvas id="conceptCanvas"></canvas>
+                        </div>
+                    </div>
+                    <div id="detailPanel" class="lg:w-1/3 p-6 rounded-lg shadow-lg detail-panel">
+                        <h3 id="detailTitle" class="text-2xl font-bold text-[#A98B73] mb-3">Selecteer een Concept</h3>
+                        <p id="detailGroup" class="font-semibold text-sm uppercase tracking-wider text-gray-500 mb-4">&nbsp;</p>
+                        <p id="detailDescription" class="text-gray-700 mb-4">Klik op een van de knooppunten in de visualisatie om hier de gedetailleerde beschrijving, de relevantie en de onderliggende 'formule' te zien.</p>
+                        <div id="detailFormula" class="formula text-lg p-4 bg-gray-50 rounded-md border border-gray-200 mt-4">&nbsp;</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sectie 2: Visuele Analyse -->
+            <section class="mb-16">
+                 <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold mb-2">Conceptuele Analyse</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Een visuele weergave van de verdeling van de kernconcepten over de verschillende wetenschappelijke disciplines.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+                    <div class="chart-container">
+                        <canvas id="disciplineChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sectie 3: Niet Aangekoppelde Concepten -->
+            <section id="niet-gekoppeld">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold mb-2">Potentiële Toekomstige Koppelingen</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Deze concepten zijn zeer relevant, maar hun formele koppeling met de kerntheorie is nog speculatief. Ze vertegenwoordigen de grenzen van dit onderzoeksveld.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Kaarten worden hier dynamisch ingevoegd -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center mt-16 pt-8 border-t border-gray-200">
+            <p class="text-gray-500">Gecreëerd als een interactieve synthese van het rapport "Naar een Eengemaakte Theorie van Computatie en Informatie".</p>
+        </footer>
+    </div>
+
+<script>
+const conceptsData = [
+    {
+        id: 'church_turing',
+        title: 'Church-Turing Thesis',
+        group: 'Fundamentele Computationele Axioma\'s',
+        discipline: 'Informatica',
+        isCore: true,
+        description: 'Definieert berekenbaarheid en stelt een universele standaard voor algoritmen vast, vormt de basis van de computationele theorie. De equivalentie met Lambda Calculus ondersteunt dit.',
+        connections: ['kolmogorov', 'complexity_theory', 'formal_methods']
+    },
+    {
+        id: 'kolmogorov',
+        title: 'Kolmogorov-complexiteit',
+        group: 'Fundamentele Computationele Axioma\'s',
+        discipline: 'Informatica',
+        isCore: true,
+        description: 'Kwantificeert de intrinsieke informatie-inhoud van een object als de lengte van het kortste genererende programma, en biedt een objectieve maatstaf voor willekeur.',
+        connections: ['church_turing', 'shannon_entropy']
+    },
+    {
+        id: 'complexity_theory',
+        title: 'Computationele Complexiteitstheorie',
+        group: 'Fundamentele Computationele Axioma\'s',
+        discipline: 'Informatica',
+        isCore: true,
+        description: 'Classificeert problemen op basis van inherente moeilijkheidsgraad en kwantificeert benodigde middelen (tijd, geheugen), wat de grenzen van computatie bepaalt.',
+        connections: ['church_turing']
+    },
+    {
+        id: 'shannon_entropy',
+        title: 'Shannon-entropie',
+        group: 'Informatie-Fysica Koppeling',
+        discipline: 'Informatica',
+        isCore: true,
+        formula: 'H(X) = -Σ p(x) log₂(p(x))',
+        description: 'Kwantificeert onzekerheid en informatie-inhoud, en legt de basis voor informatietheorie en de verbinding met thermodynamische entropie.',
+        connections: ['landauer', 'kolmogorov']
+    },
+    {
+        id: 'landauer',
+        title: 'Landauer\'s Principe',
+        group: 'Informatie-Fysica Koppeling',
+        discipline: 'Fysica',
+        isCore: true,
+        formula: 'E_min = k_B * T * ln(2)',
+        description: 'Stelt dat informatie fysiek is en dat logisch onomkeerbare berekeningen een minimale energiekost en entropietoename met zich meebrengen, wat een fundamentele fysieke beperking is voor computatie.',
+        connections: ['shannon_entropy', 'semiconductor', 'quantum_info']
+    },
+    {
+        id: 'category_theory',
+        title: 'Categorietheorie',
+        group: 'Meta-Wiskundige Unificatie',
+        discipline: 'Wiskunde',
+        isCore: true,
+        formula: 'Objecten, Morfismen, Functoren',
+        description: 'Biedt een abstracte taal voor het beschrijven van structuren en relaties, en fungeert als een meta-kader voor het verenigen van concepten uit diverse wetenschappelijke disciplines.',
+        connections: ['formal_methods', 'general_systems']
+    },
+    {
+        id: 'formal_methods',
+        title: 'Formele Methoden en Logica',
+        group: 'Meta-Wiskundige Unificatie',
+        discipline: 'Wiskunde',
+        isCore: true,
+        description: 'Wiskundig rigoureuze technieken voor specificatie, ontwerp en verificatie van systemen, die zorgen voor correctheid en betrouwbaarheid. Logica is fundamenteel voor berekenbaarheid.',
+        connections: ['church_turing', 'category_theory']
+    },
+    {
+        id: 'quantum_info',
+        title: 'Kwantuminformatie',
+        group: 'Fysieke Grondslagen van Computatie',
+        discipline: 'Fysica',
+        isCore: true,
+        formula: 'Superpositie, Verstrengeling, Qubits',
+        description: 'De fundamentele theorie die de basis vormt voor kwantumcomputatie, wat radicaal nieuwe computationele mogelijkheden biedt.',
+        connections: ['landauer', 'semiconductor']
+    },
+    {
+        id: 'semiconductor',
+        title: 'Halfgeleiderfysica',
+        group: 'Fysieke Grondslagen van Computatie',
+        discipline: 'Fysica',
+        isCore: true,
+        description: 'Beschrijft de elektrische eigenschappen van materialen die de basis vormen van klassieke elektronica en de fysieke beperkingen van huidige hardware.',
+        connections: ['landauer', 'quantum_info', 'molecular_electronics']
+    },
+    {
+        id: 'general_systems',
+        title: 'Algemene Systeemtheorie',
+        group: 'Emergentie en Complexe Systemen',
+        discipline: 'Biologie/Cognitie',
+        isCore: true,
+        description: 'Een interdisciplinair kader voor het begrijpen van complexe systemen, de opkomst van eigenschappen uit interacties en zelfregulatie.',
+        connections: ['emergence', 'category_theory', 'bio_inspired']
+    },
+    {
+        id: 'emergence',
+        title: 'Emergentie',
+        group: 'Emergentie en Complexe Systemen',
+        discipline: 'Biologie/Cognitie',
+        isCore: true,
+        description: 'Beschrijft hoe complexe patronen en gedragingen voortkomen uit eenvoudigere componenten, cruciaal voor het begrijpen van intelligentie en complexe adaptieve systemen.',
+        connections: ['general_systems', 'bio_inspired', 'iit']
+    },
+    {
+        id: 'molecular_electronics',
+        title: 'Moleculaire Elektronica',
+        group: 'Geavanceerde Computationele Paradigma\'s',
+        discipline: 'Fysica',
+        isCore: false,
+        description: 'Een opkomend veld dat de fysieke beperkingen van silicium wil overstijgen door computationele functionaliteit op moleculair niveau te implementeren.',
+        potentialConnections: 'Halfgeleiderfysica, Kwantummechanica'
+    },
+    {
+        id: 'bio_inspired',
+        title: 'Bio-geïnspireerde Computatie',
+        group: 'Geavanceerde Computationele Paradigma\'s',
+        discipline: 'Biologie/Cognitie',
+        isCore: false,
+        description: 'Technieken die computationele problemen oplossen door principes uit biologische systemen te lenen, met focus op parallellisme en emergentie.',
+        potentialConnections: 'Emergentie, Algemene Systeemtheorie'
+    },
+    {
+        id: 'computational_universe',
+        title: 'Computational Universe Hypothesis',
+        group: 'Computationele Modellen van Realiteit',
+        discipline: 'Fysica',
+        isCore: false,
+        description: 'De filosofische en theoretische stelling dat het universum fundamenteel opereert via computationele processen.',
+        potentialConnections: 'Fundamentele Fysica, Church-Turing Thesis'
+    },
+    {
+        id: 'computational_physics',
+        title: 'Computationele Fysica & Chemie',
+        group: 'Computationele Modellen van Realiteit',
+        discipline: 'Fysica',
+        isCore: false,
+        description: 'De toepassing van computationele methoden om complexe problemen in de fysica en chemie op te lossen, wat de effectiviteit van computatie als model van de realiteit aantoont.',
+        potentialConnections: 'Computational Universe Hypothesis'
+    },
+    {
+        id: 'iit',
+        title: 'Geïntegreerde Informatietheorie (IIT)',
+        group: 'Kwantificering van Bewustzijn',
+        discipline: 'Biologie/Cognitie',
+        isCore: false,
+        formula: 'Φ (Phi)',
+        description: 'Een wiskundig model dat bewustzijn kwantificeert als geïntegreerde informatie, en de causale structuur van systemen koppelt aan subjectieve ervaring.',
+        potentialConnections: 'Emergentie, Informatie-Fysica Koppeling'
+    }
+];
+
+document.addEventListener('DOMContentLoaded', () => {
+    const coreConcepts = conceptsData.filter(c => c.isCore);
+    const nonCoreConcepts = conceptsData.filter(c => !c.isCore);
+
+    const canvas = document.getElementById('conceptCanvas');
+    const ctx = canvas.getContext('2d');
+    const container = canvas.parentElement;
+
+    let width, height;
+    const nodes = [];
+    let selectedNode = null;
+    let hoverNode = null;
+
+    const disciplineColors = {
+        'Informatica': '#A98B73',
+        'Fysica': '#8A9A5B',
+        'Wiskunde': '#6A89A5',
+        'Biologie/Cognitie': '#B565A7'
+    };
+
+    function setupCanvas() {
+        const dpr = window.devicePixelRatio || 1;
+        width = container.clientWidth;
+        height = container.clientHeight;
+        canvas.width = width * dpr;
+        canvas.height = height * dpr;
+        canvas.style.width = `${width}px`;
+        canvas.style.height = `${height}px`;
+        ctx.scale(dpr, dpr);
+    }
+
+    function initializeNodes() {
+        const numNodes = coreConcepts.length;
+        const radius = Math.min(width, height) * 0.35;
+        const centerX = width / 2;
+        const centerY = height / 2;
+
+        coreConcepts.forEach((concept, i) => {
+            const angle = (i / numNodes) * 2 * Math.PI;
+            nodes.push({
+                id: concept.id,
+                title: concept.title,
+                x: centerX + radius * Math.cos(angle),
+                y: centerY + radius * Math.sin(angle),
+                vx: 0,
+                vy: 0,
+                radius: 10,
+                color: disciplineColors[concept.discipline] || '#cccccc'
+            });
+        });
+    }
+
+    function findNodeById(id) {
+        return nodes.find(n => n.id === id);
+    }
+
+    function applyForces() {
+        const repulsion = 50000;
+        const attraction = 0.005;
+        const damping = 0.95;
+
+        for (let i = 0; i < nodes.length; i++) {
+            for (let j = i + 1; j < nodes.length; j++) {
+                const dx = nodes[j].x - nodes[i].x;
+                const dy = nodes[j].y - nodes[i].y;
+                const distance = Math.sqrt(dx * dx + dy * dy) || 1;
+                const force = repulsion / (distance * distance);
+                nodes[i].vx -= (force * dx / distance);
+                nodes[i].vy -= (force * dy / distance);
+                nodes[j].vx += (force * dx / distance);
+                nodes[j].vy += (force * dy / distance);
+            }
+        }
+
+        coreConcepts.forEach(concept => {
+            if (concept.connections) {
+                concept.connections.forEach(connId => {
+                    const nodeA = findNodeById(concept.id);
+                    const nodeB = findNodeById(connId);
+                    if (nodeA && nodeB) {
+                        const dx = nodeB.x - nodeA.x;
+                        const dy = nodeB.y - nodeA.y;
+                        const force = attraction;
+                        nodeA.vx += dx * force;
+                        nodeA.vy += dy * force;
+                        nodeB.vx -= dx * force;
+                        nodeB.vy -= dy * force;
+                    }
+                });
+            }
+        });
+        
+        nodes.forEach(node => {
+            node.vx *= damping;
+            node.vy *= damping;
+            node.x += node.vx;
+            node.y += node.vy;
+
+            node.x = Math.max(node.radius, Math.min(width - node.radius, node.x));
+            node.y = Math.max(node.radius, Math.min(height - node.radius, node.y));
+        });
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        const selectedConcept = selectedNode ? conceptsData.find(c => c.id === selectedNode.id) : null;
+        
+        coreConcepts.forEach(concept => {
+            if (concept.connections) {
+                concept.connections.forEach(connId => {
+                    const nodeA = findNodeById(concept.id);
+                    const nodeB = findNodeById(connId);
+                    if (nodeA && nodeB) {
+                        ctx.beginPath();
+                        ctx.moveTo(nodeA.x, nodeA.y);
+                        ctx.lineTo(nodeB.x, nodeB.y);
+                        let isConnectedToSelected = selectedConcept && (selectedConcept.id === nodeA.id || selectedConcept.id === nodeB.id || selectedConcept.connections.includes(nodeA.id) || selectedConcept.connections.includes(nodeB.id));
+                        ctx.strokeStyle = isConnectedToSelected ? '#A98B73' : 'rgba(0, 0, 0, 0.1)';
+                        ctx.lineWidth = isConnectedToSelected ? 2 : 1;
+                        ctx.stroke();
+                    }
+                });
+            }
+        });
+
+        nodes.forEach(node => {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, node.radius, 0, 2 * Math.PI);
+            
+            let isDimmed = selectedNode && node.id !== selectedNode.id && !selectedConcept.connections.includes(node.id);
+            
+            ctx.fillStyle = node.color;
+            ctx.globalAlpha = isDimmed ? 0.3 : 1.0;
+            ctx.fill();
+
+            if (node === selectedNode || node === hoverNode) {
+                ctx.strokeStyle = '#000000';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+            
+            ctx.globalAlpha = 1.0;
+            ctx.fillStyle = 'black';
+            ctx.font = '10px Inter';
+            ctx.textAlign = 'center';
+            ctx.fillText(node.title, node.x, node.y + node.radius + 12);
+        });
+    }
+
+    function animate() {
+        applyForces();
+        draw();
+        requestAnimationFrame(animate);
+    }
+
+    function updateDetailPanel(concept) {
+        document.getElementById('detailTitle').textContent = concept.title;
+        document.getElementById('detailGroup').textContent = concept.group;
+        document.getElementById('detailDescription').textContent = concept.description;
+        const formulaEl = document.getElementById('detailFormula');
+        if (concept.formula) {
+            formulaEl.innerHTML = concept.formula.replace(/_(\w+)/g, '<sub>$1</sub>').replace(/\*/g, ' &middot; ');
+            formulaEl.style.display = 'block';
+        } else {
+            formulaEl.style.display = 'none';
+        }
+    }
+
+    canvas.addEventListener('click', (e) => {
+        const rect = canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        let clickedNode = null;
+        for (const node of nodes) {
+            const distance = Math.sqrt(Math.pow(x - node.x, 2) + Math.pow(y - node.y, 2));
+            if (distance < node.radius + 5) {
+                clickedNode = node;
+                break;
+            }
+        }
+
+        if (clickedNode) {
+            selectedNode = clickedNode;
+            const concept = conceptsData.find(c => c.id === clickedNode.id);
+            updateDetailPanel(concept);
+        }
+    });
+
+    canvas.addEventListener('mousemove', (e) => {
+        const rect = canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        let foundNode = null;
+        for (const node of nodes) {
+            const distance = Math.sqrt(Math.pow(x - node.x, 2) + Math.pow(y - node.y, 2));
+            if (distance < node.radius + 5) {
+                foundNode = node;
+                break;
+            }
+        }
+        hoverNode = foundNode;
+        canvas.style.cursor = foundNode ? 'pointer' : 'default';
+    });
+    
+    function populateNonCoreConcepts() {
+        const container = document.querySelector('#niet-gekoppeld .grid');
+        nonCoreConcepts.forEach(concept => {
+            const card = document.createElement('div');
+            card.className = 'p-6 rounded-lg concept-card';
+            let formulaHTML = '';
+            if (concept.formula) {
+                formulaHTML = `<div class="formula text-md p-3 bg-gray-50 rounded-md border border-gray-200 mt-3">${concept.formula.replace(/_(\w+)/g, '<sub>$1</sub>')}</div>`;
+            }
+            card.innerHTML = `
+                <h3 class="text-xl font-bold text-[#A98B73] mb-2">${concept.title}</h3>
+                <p class="font-semibold text-sm uppercase tracking-wider text-gray-500 mb-3">${concept.group}</p>
+                <p class="text-gray-700">${concept.description}</p>
+                ${formulaHTML}
+                <p class="text-sm text-gray-500 mt-4 pt-4 border-t border-gray-200"><strong>Potentiële Koppeling:</strong> ${concept.potentialConnections}</p>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    function createDisciplineChart() {
+        const disciplineCounts = coreConcepts.reduce((acc, concept) => {
+            acc[concept.discipline] = (acc[concept.discipline] || 0) + 1;
+            return acc;
+        }, {});
+
+        const chartCtx = document.getElementById('disciplineChart').getContext('2d');
+        new Chart(chartCtx, {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(disciplineCounts),
+                datasets: [{
+                    label: 'Verdeling van Concepten',
+                    data: Object.values(disciplineCounts),
+                    backgroundColor: Object.values(disciplineColors),
+                    borderColor: '#FDFBF8',
+                    borderWidth: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                family: 'Inter'
+                            }
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Verdeling van Kernconcepten per Discipline',
+                        font: {
+                            size: 16,
+                            family: 'Inter'
+                        },
+                        padding: {
+                            bottom: 20
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    window.addEventListener('resize', () => {
+        setupCanvas();
+        nodes.length = 0;
+        initializeNodes();
+    });
+
+    setupCanvas();
+    initializeNodes();
+    animate();
+    populateNonCoreConcepts();
+    createDisciplineChart();
+});
+</script>
+
+</body>
+</html>

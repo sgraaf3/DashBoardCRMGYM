@@ -1,0 +1,381 @@
+{
+  "Anatomy": {
+    "Muscles": {
+      "Arm": [
+        {
+          "name": "Triceps brachii",
+          "description": "De Triceps brachii is een grote spier...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Foot": [
+        {
+          "name": "Extensor digitorum brevis",
+          "description": "De Extensor digitorum brevis...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Forearm": [
+        {
+          "name": "Supinator",
+          "description": "De Supinator...",
+          "anatomy": {},
+          "function": {}
+        },
+        {
+          "name": "Flexor pollicis longus",
+          "description": "De Flexor pollicis longus...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Hand": [
+        {
+          "name": "Adductor pollicis",
+          "description": "De Adductor pollicis...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Head": [
+        {
+          "name": "Zygomaticus minor",
+          "description": "De Zygomaticus minor...",
+          "anatomy": {},
+          "function": {}
+        },
+        {
+          "name": "Zygomaticus major",
+          "description": "De Zygomaticus major...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Leg": [
+        {
+          "name": "Vastus medialis",
+          "description": "De Vastus medialis is een van de vier koppen...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Neck": [
+        {
+          "name": "Sternocleidomastoid",
+          "description": "De Sternocleidomastoid...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Pelvis": [
+        {
+          "name": "Superior gemellus",
+          "description": "De Superior gemellus...",
+          "anatomy": {},
+          "function": {}
+        }
+      ],
+      "Torso": [
+        {
+          "name": "Trapezius, transverse part",
+          "description": "De transversale vezels...",
+          "anatomy": {},
+          "function": {}
+        }
+      ]
+    },
+    "Skeleton": {
+      "Arm": [
+        {
+          "name": "Humerus",
+          "type": "bone",
+          "category": "Arm",
+          "description": "De Humerus...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Foot": [
+        {
+          "name": "Tarsal Bones",
+          "type": "bone",
+          "category": "Foot",
+          "description": "De Tarsale botten...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Hand": [
+        {
+          "name": "Carpal Bones",
+          "type": "bone",
+          "category": "Hand",
+          "description": "De Carpale botten...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Head": [
+        {
+          "name": "Cranium",
+          "type": "bone",
+          "category": "Head",
+          "description": "Het Cranium...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Hip": [
+        {
+          "name": "Femur (Dijbeen)",
+          "type": "bone",
+          "category": "Hip",
+          "description": "Het Femur...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Leg": [
+        {
+          "name": "Femur (Dijbeen)",
+          "type": "bone",
+          "category": "Leg",
+          "description": "Het Femur...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Neck": [
+        {
+          "name": "Hyoid Bone (Os Hyoideum)",
+          "type": "bone",
+          "category": "Neck",
+          "description": "Het Hyoid bot...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Pelvis": [
+        {
+          "name": "Ilium",
+          "type": "bone",
+          "category": "Pelvis",
+          "description": "Het Ilium...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Shoulder": [
+        {
+          "name": "Clavicle (Sleutelbeen)",
+          "type": "bone",
+          "category": "Shoulder",
+          "description": "De Clavicula...",
+          "location": "",
+          "function": {}
+        }
+      ],
+      "Torso": [
+        {
+          "name": "Ribs",
+          "type": "bone",
+          "category": "Torso",
+          "description": "De Ribben...",
+          "location": "",
+          "function": {}
+        }
+      ]
+    },
+    "HumanBiologySportsHealth": {
+      "title": "An Extensive Database for Human Biology...",
+      "sections": []
+    }
+  },
+  "Physiology": {
+    "SportFysiology": {
+      "data": [
+        {
+          "concept": "Energie en Arbeid",
+          "description": "Definitie van energie...",
+          "forms_of_energy": []
+        }
+      ]
+    }
+  },
+  "Psychology": {
+    "Perception": {
+      "data": [
+        {
+          "chapter_title": "Wat nemen we waar?",
+          "concepts": []
+        }
+      ]
+    }
+  },
+  "Nutritions": {
+    "Calculations": [
+      {
+        "categorie": "Energiebehoeften (Calorieberekening)",
+        "subType": "Basis Metabolische Snelheid (BMS) & Totaal Dagelijks Energieverbruik (TDEV)",
+        "formules": []
+      }
+    ],
+    "FoodsAndVegetables": [
+      {
+        "voedingsmiddel": "Kipfilet (gekookt, zonder vel)",
+        "eenheid": "per 100g",
+        "nutriënten": {
+          "calorieën": 165
+        }
+      }
+    ]
+  },
+  "Sport": {
+    "Formulas": {
+      "FitnessTraining": [
+        {
+          "trainingType": "Strength",
+          "subType": "Muscular Strength, Hypertrophy & Relative Strength",
+          "formulas": [
+            {
+              "name": "One-Rep Max (1RM) Estimation (Epley Formula)",
+              "description": "Estimates the maximum weight...",
+              "formula": "$$1RM = Weight \\times (1 + \\frac{Reps}{30})$$ "
+            }
+          ]
+        }
+      ],
+      "SportDB": [
+        {
+          "category": "Strength",
+          "name": "One-Rep Max (1RM) Estimation...",
+          "description": "Schat het maximale gewicht..."
+        }
+      ]
+    },
+    "Questionnaires": [
+      {
+        "source": "Examen Energy Control Coach",
+        "section": "Ademhaling",
+        "questions": []
+      }
+    ],
+    "Support": [
+      {
+        "name": "Co2ntrol (Meetinstrument)",
+        "description": "Een klein en licht apparaat...",
+        "components": []
+      }
+    ],
+    "TrainingTheory": {
+      "Tests": [
+        {
+          "test_name": "Hip Flexor Test",
+          "description": "Een veelgebruikte test...",
+          "protocol": {}
+        }
+      ],
+      "Schedules": {
+        "SpecificSportData": [
+          {
+            "sport": "Aqua-Fitness",
+            "period": "4 maart t/m 8 maart",
+            "description": "Een les gericht op conditionele training...",
+            "exercises": []
+          }
+        ],
+        "SportTrainingTheory": [
+          {
+            "concept": "Progressie",
+            "description": "Zorgt voor een stapsgewijze opbouw...",
+            "aspects": []
+          }
+        ]
+      },
+      "Theory": {
+        "data": [
+          {
+            "concept": "Progressie",
+            "description": "Zorgt voor een stapsgewijze opbouw...",
+            "aspects": []
+          }
+        ]
+      }
+    }
+  },
+  "Business": {
+    "Sales": [
+      {
+        "concept": "Salesproces (Playbook Extern)",
+        "description": "De stappen en technieken...",
+        "key_areas": []
+      }
+    ],
+    "Marketing": [
+      {
+        "concept": "Marketingcommunicatie (Playbook Extern)",
+        "description": "De middelen en strategieën...",
+        "goal": "Meer deals sluiten..."
+      }
+    ],
+    "Education": [
+      {
+        "concept": "Lesgeven Algemeen (Sportschool)",
+        "description": "Richtlijnen en basisregels...",
+        "before_class": []
+      }
+    ],
+    "General": [
+      {
+        "category": "Bedrijfscultuur",
+        "name": "Praktische Gids...",
+        "introduction": "Bedrijfscultuur is een sterk..."
+      }
+    ]
+  },
+  "Development": {
+    "AIResearch": {
+      "ManualData": {
+        "title": "Our Research Focus",
+        "topic": "Artificial Intelligence",
+        "introduction": "At the core of our innovation...",
+        "researchAreas": []
+      }
+    },
+    "GymCRM": {},
+    "GeneralFunctions": {}
+  },
+  "Chemistry": {
+    "Theory": {
+      "title": "Extensive Research on Basic Chemistry",
+      "sections": [
+        {
+          "title": "Major Branches of Chemistry",
+          "content": []
+        }
+      ]
+    }
+  },
+  "Physics": {
+    "Theory": [
+      {
+        "category": "Basics",
+        "name": "Displacement",
+        "description": "The shortest distance...",
+        "formula": "$$\\Delta x = x_f - x_i$$",
+        "units": "meters (m)"
+      }
+    ]
+  },
+  "Events": {
+    "Documents": [
+      {
+        "document_type": "Draaiboek Evenementen",
+        "event_name": "Volleybaltoernooi...",
+        "date": "20 januari 2024"
+      }
+    ]
+  }
+}

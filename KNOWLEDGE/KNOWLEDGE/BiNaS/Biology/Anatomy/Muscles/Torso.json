@@ -1,0 +1,3389 @@
+[
+  {
+    "name": "Trapezius, transverse part",
+    "description": "De transversale vezels van de Trapezius zijn het middelste deel van deze grote, oppervlakkige rugspier, voornamelijk verantwoordelijk voor retractie van de scapula.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de thoracale wervels T1-T4 (soms T5) en het ligamentum nuchae.",
+        "details": [
+          "Horizontaal georiënteerde vezels."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale rand van het acromion en het bovenste deel van de spina scapulae.",
+        "details": [
+          "De vezels lopen lateraal naar de scapula."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. accessorius (elfde hersenzenuw, nervus cranialis XI) en takken van de ventrale rami van C3 en C4 (voor proprioceptie).",
+      "branch": "Motorische takken van de N. accessorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. transversa colli (tak van de truncus thyrocervicalis).",
+        "Perforerende takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "V. transversa colli."
+    },
+    "function": {
+      "primary_action": "Retractie (adductie) en elevatie van de scapula.",
+      "mechanism_of_action": "Bij contractie trekken de transversale vezels de scapula direct naar de wervelkolom toe. Ze assisteren ook bij het stabiliseren en licht elevaren van de scapula.",
+      "scapular_movement_mm": {
+        "retraction_mm": "10-20",
+        "note": "Geschatte horizontale verplaatsing van de mediale rand van de scapula."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het trekken van de schouders naar achteren, wat bijdraagt aan een rechte houding.",
+        "Cruciaal voor bewegingen van de arm boven het hoofd, waarbij de scapula moet roteren."
+      ],
+      "synergists": [
+        "Rhomboid major",
+        "Rhomboid minor"
+      ],
+      "antagonists": [
+        "Serratus anterior (voor protractie)"
+      ]
+    },
+    "visual_analogy": "Stel je de transversale Trapezius voor als een horizontale band spieren die van je bovenrug naar je schouderbladen loopt. Wanneer deze band strakker wordt, trekken je schouderbladen naar elkaar toe, alsof je je schouders recht trekt en je borst opent.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Trapezius, ascending part",
+    "description": "De opgaande (onderste) vezels van de Trapezius zijn het meest inferieure deel van de spier en zijn voornamelijk verantwoordelijk voor de depressie en retractie van de scapula, en het assisteren bij opwaartse rotatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de thoracale wervels T5-T12.",
+        "details": [
+          "Vezels lopen schuin naar boven en lateraal."
+        ]
+      },
+      "insertion": {
+        "location": "Tuberculum van de spina scapulae en de mediale zijde van de acromion.",
+        "details": [
+          "De vezels convergeren superieur naar de scapula."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. accessorius (elfde hersenzenuw, nervus cranialis XI) en takken van de ventrale rami van C3 en C4 (voor proprioceptie).",
+      "branch": "Motorische takken van de N. accessorius."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. transversa colli (diepste takken).",
+        "Takken van de dorsale scapulaire arterie."
+      ],
+      "venous_drainage": "V. transversa colli."
+    },
+    "function": {
+      "primary_action": "Retractie en depressie van de scapula, assisteert bij opwaartse rotatie van de scapula.",
+      "mechanism_of_action": "Contractie van de opgaande vezels trekt de scapula inferieur en mediaal. Samen met de bovenste en middelste vezels, dragen ze bij aan de opwaartse rotatie van de scapula, essentieel voor armelevatie boven 90 graden.",
+      "scapular_movement_mm": {
+        "depression_mm": "5-10",
+        "retraction_mm": "5-10",
+        "upward_rotation_degrees": "Bijdrage aan de totale rotatie van 60 graden van de scapula.",
+        "note": "Geschatte verplaatsing en rotatie."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het naar beneden trekken van de schouders.",
+        "Cruciaal voor volledige elevatie van de arm boven het hoofd, door de scapula te positioneren."
+      ],
+      "synergists": [
+        "Serratus anterior (voor opwaartse rotatie)",
+        "Latissimus dorsi (voor depressie van de scapula, indirect)"
+      ],
+      "antagonists": [
+        "Levator scapulae (voor elevatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de opgaande Trapezius voor als een diagonale band van spieren die van je middenrug schuin omhoog en naar je schouderblad loopt. Wanneer deze spier samentrekt, trekt hij je schouderblad naar beneden en naar de ruggengraat toe, alsof je je schouders naar beneden drukt en ze plat tegen je rug trekt.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Transversus thoracis",
+    "description": "De Transversus thoracis is een platte, waaiervormige spier aan de binnenzijde van de voorste borstwand, die helpt bij de depressie van de ribben tijdens geforceerde expiratie.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur oppervlak van het onderste deel van het sternum (borstbeen), xiphoid proces, en de costale kraakbeenderen van de 3e tot 7e rib.",
+        "details": [
+          "Oorsprong is breed en diffuus."
+        ]
+      },
+      "insertion": {
+        "location": "Binnenste oppervlakken van de costale kraakbeenderen van de 2e tot 6e ribben (soms tot de 7e rib), nabij hun verbinding met de botdelen.",
+        "details": [
+          "Vezels lopen schuin superolateraal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Intercostale zenuwen (T2-T6)",
+      "branch": "Takken van de ventrale rami van de thoracale spinale zenuwen."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. thoracica interna (arteria mammaria interna) en haar takken."
+      ],
+      "venous_drainage": "V. thoracica interna."
+    },
+    "function": {
+      "primary_action": "Deprimeert de ribben.",
+      "mechanism_of_action": "Bij contractie trekken de vezels van de Transversus thoracis de ribben naar beneden, wat de thoraxholte verkleint en bijdraagt aan geforceerde expiratie.",
+      "rib_movement_mm": {
+        "depression_mm": "1-3",
+        "note": "Geschatte verticale depressie van de ribben."
+      },
+      "role_in_expression": [
+        "Assisteert bij geforceerde uitademing, zoals bij hoesten, niezen of diep zuchten.",
+        "Speelt een rol bij het handhaven van de stabiliteit van de borstwand."
+      ],
+      "synergists": [
+        "Interne intercostale spieren",
+        "Transversus abdominis",
+        "Rectus abdominis"
+      ],
+      "antagonists": [
+        "Externe intercostale spieren",
+        "Diafragma"
+      ]
+    },
+    "visual_analogy": "Stel je de Transversus thoracis voor als een dun, maar breed, plat netwerk van spieren aan de binnenzijde van je ribbenkast, aan de voorkant. Wanneer je krachtig uitademt, trekken deze spieren je ribbenkast naar beneden en naar binnen, alsof een gordijn sluit om de lucht uit je longen te persen.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Transversus abdominis",
+    "description": "De Transversus abdominis is de diepste spier van de anterolaterale buikwand, essentieel voor het comprimeren van de abdominale organen, stabilisatie van de romp en geforceerde expiratie.",
+    "anatomy": {
+      "origin": {
+        "location": "Binnenste oppervlakken van de kraakbeenderen van de laatste zes ribben (interdigitatie met het diafragma), thoracolumbale fascia, crista iliaca (bekkenkam), en laterale derde van het inguinale ligament.",
+        "details": [
+          "Zeer brede en uitgebreide oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Linea alba (middenlijn van de buik), crista pubica (schaambeenkam), en de pectineale lijn van het os pubis (via de conjoint tendon met de interne abdominale oblique).",
+        "details": [
+          "Vezels lopen hoofdzakelijk horizontaal naar mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T11) en subcostale zenuw (T12), Iliohypogastrische en Ilioinguinale zenuwen (L1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën.",
+        "A. epigastrica superior en inferior.",
+        "A. circumflexa ilium profunda."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert romp naar dezelfde zijde (unilateraal), comprimeert abdominale organen, assists bij expiratie.",
+      "mechanism_of_action": "De meest significante functie is het creëren van spanning over de thoracolumbale fascia en het comprimeren van de abdominale inhoud, wat bijdraagt aan de rompstabiliteit ('core stability'). Bij unilaterale contractie kan het bijdragen aan rotatie van de romp naar dezelfde zijde. Het speelt een cruciale rol bij geforceerde uitademing en verhoogde intra-abdominale druk (bijv. hoesten, niezen, persen).",
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "2-5",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "kPa",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor 'core' stabiliteit en lumbale ondersteuning.",
+        "Belangrijk voor ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "Draagt bij aan het 'afvlakken' van de buikwand."
+      ],
+      "synergists": [
+        "Internal abdominal oblique (voor rotatie en compressie)",
+        "Rectus abdominis (voor compressie en flexie)",
+        "Diaphragm (voor respiratie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie van de romp)",
+        "Diaphragm (voor inspiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Transversus abdominis voor als een breed korset van spieren dat strak om je middel zit, onder al je andere buikspieren. Wanneer deze spier samentrekt, trekt hij je hele buikwand strak naar binnen, alsof je een riem omdoet en deze zo strak mogelijk aantrekt, wat je romp stabiliseert en lucht uit je longen perst.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Serratus posterior superior",
+    "description": "De Serratus posterior superior is een dunne, platte spier van de bovenrug en thorax, die helpt bij de elevatie van de ribben tijdens inspiratie.",
+    "anatomy": {
+      "origin": {
+        "location": "Ligamentum nuchae en de processus spinosus van C7 en T1-T3 (soms T2-T4).",
+        "details": [
+          "Pezige, brede oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Superieure randen van de 2e tot 5e ribben (II tot V), lateraal van hun hoeken.",
+        "details": [
+          "Vlezige, smalle inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Variabel, typisch dun en plat."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale rami van de thoracale spinale zenuwen (T1-T4).",
+      "branch": "Intercostale zenuwen."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Eleveert ribben (II tot V), helpt bij inspiratie.",
+      "mechanism_of_action": "Bij contractie trekt de Serratus posterior superior de ribben waaraan hij insertie omhoog. Deze beweging vergroot de anteroposteriore en laterale diameter van de thoraxholte, wat de inademing ondersteunt, vooral tijdens geforceerde inspiratie.",
+      "rib_elevation_mm": {
+        "average": "2-4",
+        "note": "Geschatte verticale elevatie van de ribben."
+      },
+      "role_in_expression": [
+        "Assisteert bij ademhaling, met name diepe of geforceerde inademing (bijv. tijdens inspanning of bij ademnood).",
+        "Kan bijdragen aan rug- of nekpijn indien overbelast."
+      ],
+      "synergists": [
+        "External intercostals",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor inspiratie)"
+      ],
+      "antagonists": [
+        "Internal intercostals",
+        "Serratus posterior inferior (voor expiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Serratus posterior superior voor als dunne, schuine vingers van spiervezels die van je nek en bovenrug (langs de ruggengraat) naar de bovenkant van je ribben (schuin naar beneden) reiken. Wanneer je diep inademt, trekken deze vingers je bovenste ribben zachtjes omhoog, alsof ze de 'luiken' van je borstkas openen om meer lucht binnen te laten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Serratus posterior inferior",
+    "description": "De Serratus posterior inferior is een dunne, platte spier van de onderrug en thoracale regio, die helpt bij de depressie van de ribben tijdens geforceerde expiratie.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de thoracale wervels T11-T12 en de lumbale wervels L1-L3, en de thoracolumbale fascia.",
+        "details": [
+          "Brede, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Inferieure randen van de laatste vier ribben (IX tot XII), lateraal van hun hoeken.",
+        "details": [
+          "Vlezige, smalle inserties die schuin superolateraal lopen."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Variabel, typisch dun en plat."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Ventrale rami van de thoracale spinale zenuwen (T9-T12).",
+      "branch": "Intercostale zenuwen."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Deprimeert onderste ribben (IX tot XII), helpt bij expiratie.",
+      "mechanism_of_action": "Bij contractie trekt de Serratus posterior inferior de onderste ribben waaraan hij insertie naar beneden. Deze beweging verkleint de thoracale holte, wat de uitademing ondersteunt, vooral tijdens geforceerde expiratie (bijv. hoesten, niezen).",
+      "rib_depression_mm": {
+        "average": "2-4",
+        "note": "Geschatte verticale depressie van de ribben."
+      },
+      "role_in_expression": [
+        "Assisteert bij ademhaling, met name geforceerde uitademing.",
+        "Kan bijdragen aan lage rugpijn indien overbelast."
+      ],
+      "synergists": [
+        "Internal intercostals",
+        "Transversus abdominis",
+        "Rectus abdominis (voor expiratie)"
+      ],
+      "antagonists": [
+        "External intercostals",
+        "Diafragma (voor inspiratie)",
+        "Serratus posterior superior"
+      ]
+    },
+    "visual_analogy": "Stel je de Serratus posterior inferior voor als dunne, schuine vingers van spiervezels die van je lage rug (langs de ruggengraat) schuin omhoog en naar je onderste ribben reiken. Wanneer je krachtig uitademt, trekken deze vingers je onderste ribben naar beneden, alsof ze de 'luiken' van je borstkas sluiten om de lucht eruit te persen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Serratus anterior",
+    "description": "De Serratus anterior is een grote, brede spier van de borstwand, die diep ligt ten opzichte van de Pectoralis major en de scapula protracteert, roteert en stabiliseert. Het wordt ook wel de 'bokserspier' genoemd.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale oppervlakken van de bovenste acht of negen ribben (1-8 of 1-9), door middel van digitaatvormige slipjes.",
+        "details": [
+          "Brede, interdigitating oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Costale (anterieure) oppervlak van de mediale rand van de scapula (schouderblad).",
+        "details": [
+          "Vezels convergeren naar de mediale rand van de scapula."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. thoracicus longus (C5, C6, C7)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. thoracica lateralis (tak van de A. axillaris).",
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Protracteert en stabiliseert scapula, assisteert bij opwaartse rotatie.",
+      "mechanism_of_action": "Bij contractie trekt de Serratus anterior de scapula naar voren rond de borstkas (protractie), zoals bij een stootbeweging. Het roteert ook de scapula naar boven (glenoïd holte omhoog), wat essentieel is voor abductie en flexie van de arm boven 90 graden. Het fixeert de scapula tegen de borstwand, waardoor 'winged scapula' wordt voorkomen.",
+      "scapular_movement_mm": {
+        "protractie_mm": "15-25",
+        "opwaartse_rotatie_graden": "30-45",
+        "note": "Geschatte verplaatsing en rotatie van de scapula."
+      },
+      "role_in_expression": [
+        "Essentieel voor duwende bewegingen (push-ups, bankdrukken) en stootbewegingen (boksen).",
+        "Cruciaal voor de stabiliteit van de schoudergordel en het voorkomen van scapulaire dyskinesie.",
+        "Draagt bij aan de armbeweging boven het hoofd."
+      ],
+      "synergists": [
+        "Pectoralis minor (voor protractie en depressie)",
+        "Trapezius (bovenste en onderste vezels voor opwaartse rotatie)",
+        "Pectoralis major (voor protractie)"
+      ],
+      "antagonists": [
+        "Rhomboid major",
+        "Rhomboid minor",
+        "Trapezius (transversale vezels voor retractie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Serratus anterior voor als een reeks 'vingers' van spieren die van de zijkant van je ribbenkast (onder je oksel) schuin naar achteren en naar de binnenrand van je schouderblad reiken. Wanneer je een stoot uitdeelt, trekken deze vingers je schouderblad naar voren en draaien het, alsof ze een schouderblad-schild strak tegen je borst trekken en roteren om kracht te genereren.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Spinalis thoracis",
+    "description": "De Spinalis thoracis is de meest mediale en kleine kolom van de erector spinae spiergroep in de thoracale regio van de wervelkolom, voornamelijk verantwoordelijk voor extensie van de thoracale wervelkolom.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de thoracale wervels T11-L2, en soms van de lumbale wervels T10-T12.",
+        "details": [
+          "Variabele en minder prominent dan de andere erector spinae groepen."
+        ]
+      },
+      "insertion": {
+        "location": "Processus spinosus van de thoracale wervels T2-T8 (soms T9).",
+        "details": [
+          "Korte, pezige inserties."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert/flext de wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Spinalis thoracis de thoracale wervelkolom, waardoor de romp rechtop wordt gehouden of de rug wordt geëxtendeerd. Unilaterale contractie kan leiden tot lichte laterale flexie. Het speelt een stabiliserende rol voor de wervelkolom.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "note": "Geschatte bijdrage aan thoracale extensie."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Draagt bij aan de algemene stabiliteit van de ruggengraat."
+      ],
+      "synergists": [
+        "Longissimus thoracis",
+        "Iliocostalis thoracis (andere erector spinae groepen)",
+        "Multifidus thoracis"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Spinalis thoracis voor als een reeks kleine, verticale rijtjes spiervezels die dicht langs de doornuitsteeksels van je bovenrugwervels lopen. Wanneer ze samentrekken, trekken ze je ruggengraat recht en stabiliseren ze je bovenrug, alsof ze kleine, fijne draden die de wervels recht en strak houden.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Semispinalis thoracis",
+    "description": "De Semispinalis thoracis is een spier van de diepe rug, onderdeel van de transversospinalis groep, die de thoracale wervelkolom extendert en roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus transversus van de thoracale wervels T6-T10.",
+        "details": [
+          "Oorsprong is van de transversale uitsteeksels."
+        ]
+      },
+      "insertion": {
+        "location": "Processus spinosus van de thoracale wervels T1-T6 en de cervicale wervels C6-C7.",
+        "details": [
+          "Vezels overbruggen typisch 4 tot 6 wervels, lopen superolateraal naar mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert/roteert de wervelkolom.",
+      "mechanism_of_action": "Bilaterale contractie: Extendert de thoracale wervelkolom. Unilaterale contractie: Roteert de thoracale wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Het is een belangrijke stabilisator van de wervelkolom.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "rotatie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor de houding en stabiliteit van de bovenrug en nek.",
+        "Draagt bij aan de fijne controle van de wervelkolomsegmenten.",
+        "Speelt een rol bij de complexere romprotatiebewegingen."
+      ],
+      "synergists": [
+        "Multifidus thoracis",
+        "Rotatores thoracis",
+        "Erector spinae (voor extensie)"
+      ],
+      "antagonists": [
+        "External abdominal oblique (voor rotatie naar ipsilaterale zijde)",
+        "Rectus abdominis (voor flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Semispinalis thoracis voor als een reeks korte, dikke touwtjes die diagonaal van de dwarsuitsteeksels van je onderste bovenrugwervels omhoog en naar de doornuitsteeksels van je bovenste thoracale en nekwervels lopen. Wanneer ze samentrekken, trekken ze je ruggengraat recht en roteren ze je bovenrug, alsof ze kleine, gecontroleerde trekbewegingen maken om je romp in verschillende richtingen te sturen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Sternalis",
+    "description": "De Sternalis is een zeldzame, inconsistente spier van de borstwand, gelegen anterieur van de Pectoralis major. Zijn functie is onduidelijk en van weinig klinisch belang. Het is afwezig bij 8-20% van de populatie en wordt voornamelijk beschouwd als een anatomische variatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Variabel; kan ontspringen van de rectus schede, manubrium sterni, of de fascia van de Pectoralis major.",
+        "details": [
+          "Afwezig bij 8-20% van de populatie."
+        ]
+      },
+      "insertion": {
+        "location": "Variabel; kan insertie in de sternale, claviculaire of costale delen van de Pectoralis major, of de sternum zelf.",
+        "details": [
+          "Vezels lopen typisch verticaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer variabel, klein tot rudimentair."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Variabel; kan geïnnerveerd worden door intercostale zenuwen, pectorale zenuwen, of takken van de supraclaviculaire zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. thoracica interna of de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Geen expliciete, consistente functie gedocumenteerd.",
+      "mechanism_of_action": "Vanwege zijn variabiliteit en kleine omvang is de functie hoogstwaarschijnlijk minimaal. Sommige theorieën suggereren een rudimentaire rol bij het bewegen van de huid van de borst of het assisteren van de Pectoralis major, maar dit is niet significant. De primaire betekenis is anatomisch als een variant.",
+      "role_in_expression": [
+        "Geen bekende rol in beweging of expressie. Voornamelijk van anatomisch belang vanwege zijn variabiliteit."
+      ],
+      "synergists": null,
+      "antagonists": null
+    },
+    "visual_analogy": "Stel je de Sternalis voor als een klein, dun 'extra' spiervezeltje dat soms verticaal over je borstbeen loopt, net onder de huid. Het is zo zeldzaam en klein dat het nauwelijks iets doet, alsof het een overblijfsel is van een oudere evolutionaire functie die nu grotendeels verdwenen is.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Subcostales 1-n",
+    "description": "De Subcostales zijn kleine, variabele spieren die diep in de thoraxwand liggen, voornamelijk in het onderste deel, en die bijdragen aan de depressie van de ribben tijdens expiratie. Ze overbruggen één of twee ribben.",
+    "anatomy": {
+      "origin": {
+        "location": "Binnenste oppervlak van de ribben, nabij de hoek, één of twee ribben boven hun insertie.",
+        "details": [
+          "Oorsprong is intercostaal."
+        ]
+      },
+      "insertion": {
+        "location": "Binnenste oppervlak van de ribben, één of twee ribben inferieur van hun oorsprong.",
+        "details": [
+          "Vezels lopen schuin in dezelfde richting als de interne intercostale spieren."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Variabel, typisch kort."
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Draagt bij aan depressie van de ribben tijdens expiratie.",
+      "mechanism_of_action": "Bij contractie trekken de Subcostales de ribben waaraan ze zijn bevestigd naar beneden, wat bijdraagt aan de geforceerde expiratie. Hun exacte rol is echter ondergeschikt aan die van de interne intercostale spieren en ze spelen waarschijnlijk een grotere proprioceptieve rol in de regulatie van de ademhaling.",
+      "rib_movement_mm": {
+        "depression_mm": "1-2",
+        "note": "Kleine verticale depressie van de ribben."
+      },
+      "role_in_expression": [
+        "Assisteert bij geforceerde uitademing (hoesten, niezen).",
+        "Mogelijk een rol in de proprioceptie van de thoraxwand, wat helpt bij de coördinatie van de ademhaling."
+      ],
+      "synergists": [
+        "Internal intercostals",
+        "Transversus thoracis"
+      ],
+      "antagonists": [
+        "External intercostals",
+        "Diafragma"
+      ]
+    },
+    "visual_analogy": "Stel je de Subcostales voor als kleine, diepliggende bruggetjes van spiervezels die tussen de binnenkant van je onderste ribben lopen, schuin naar beneden. Wanneer ze samentrekken, trekken ze de ribben net iets dichter bij elkaar en naar beneden, alsof ze de 'sluizen' van je ribbenkast verder sluiten om de laatste lucht uit je longen te persen.",
+    "status": "done",
+    "precisie_score": 6
+  },
+  {
+    "name": "Subclavius",
+    "description": "De Subclavius is een kleine, driehoekige spier die onder de clavicula (sleutelbeen) ligt en die de clavicula depresseert en stabiliseert, en de eerste rib eleveert.",
+    "anatomy": {
+      "origin": {
+        "location": "Kostenchondrale junctie van de 1e rib (waar de rib en het kraakbeen samenkomen).",
+        "details": [
+          "Smalle, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Groef op het inferieure oppervlak van de middelste één derde van de clavicula.",
+        "details": [
+          "Vezels lopen schuin superolateraal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "50-70",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. subclavius (C5, C6)",
+      "branch": "Tak van de bovenste truncus van de plexus brachialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. suprascapularis (tak van de truncus thyrocervicalis).",
+        "A. thoracica superior (tak van de A. axillaris)."
+      ],
+      "venous_drainage": "V. suprascapularis en V. subclavia."
+    },
+    "function": {
+      "primary_action": "Deprimeert clavicula.",
+      "mechanism_of_action": "Bij contractie trekt de Subclavius de clavicula naar beneden en naar voren (depressie en protractie), wat de stabiliteit van de schoudergordel vergroot en bescherming biedt aan de onderliggende neurovasculaire structuren. Het kan ook de eerste rib elevaren tijdens diepe inspiratie.",
+      "clavicular_movement_mm": {
+        "depression_mm": "5-10",
+        "protraction_mm": "2-5",
+        "note": "Geschatte verplaatsing bij contractie."
+      },
+      "role_in_expression": [
+        "Belangrijk voor de stabiliteit van de schoudergordel tijdens armbewegingen.",
+        "Beschermt de plexus brachialis en de subclavia vaten tegen breuken van de clavicula."
+      ],
+      "synergists": [
+        "Pectoralis minor (voor depressie van de scapula, indirect)"
+      ],
+      "antagonists": [
+        "Levator scapulae",
+        "Trapezius (dalende deel voor elevatie van de scapula)"
+      ]
+    },
+    "visual_analogy": "Stel je de Subclavius voor als een klein, verborgen 'ankertje' dat van je eerste rib naar de onderkant van je sleutelbeen loopt. Wanneer het samentrekt, trekt het je sleutelbeen iets naar beneden en naar voren, alsof het een stabiliserend touw is dat voorkomt dat je sleutelbeen te veel beweegt.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Latissimus dorsi",
+    "description": "De Latissimus dorsi is een grote, platte, driehoekige spier die het grootste deel van de onderrug bedekt en de arm extendert, adduceert en mediaal roteert.",
+    "anatomy": {
+      "origin": {
+        "location": "Processus spinosus van de thoracale wervels T7-T12, lumbale wervels L1-L5, sacrum (via thoracolumbale fascia), iliac crest (bekkenkam), en de inferieure drie of vier ribben.",
+        "details": [
+          "Zeer brede en uitgebreide oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Intertubercular groove (bicipitale groeve) van de humerus (opperarmbeen), aan de bodem.",
+        "details": [
+          "Smalle, pezige insertie die spiraalvormig om de Teres major heen wikkelt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. thoracodorsalis (C6, C7, C8).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. thoracodorsalis (tak van de A. subscapularis)."
+      ],
+      "venous_drainage": "V. thoracodorsalis."
+    },
+    "function": {
+      "primary_action": "Extendert, adduceert en mediale roteert arm.",
+      "mechanism_of_action": "Bij contractie trekt de Latissimus dorsi de arm krachtig naar achteren (extensie), naar de romp toe (adductie) en roteert deze naar binnen (mediale rotatie). Het is een belangrijke spier voor trekbewegingen (pull-ups, roeien) en klimmen. Het kan ook de romp lateraal buigen en de bekken elevaren.",
+      "shoulder_extension_degrees": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan schouder extensie."
+      },
+      "shoulder_adduction_degrees": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan schouder adductie."
+      },
+      "shoulder_medial_rotation_degrees": {
+        "average": "30-50",
+        "note": "Belangrijke bijdrage aan schouder mediale rotatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor trekbewegingen, klimmen, roeien en zwemmen (crawlslag).",
+        "Belangrijk voor de houding van de romp en de stabiliteit van de schoudergordel.",
+        "Een van de grootste spieren van het lichaam, vaak getraind voor kracht en esthetiek ('V-vorm')."
+      ],
+      "synergists": [
+        "Teres major",
+        "Pectoralis major (voor adductie en mediale rotatie)",
+        "Triceps brachii (lange kop voor extensie)"
+      ],
+      "antagonists": [
+        "Deltoid (voor abductie en flexie)",
+        "Supraspinatus (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Latissimus dorsi voor als een enorme, platte 'vleugel' van spier die het grootste deel van je onderrug bedekt en zich uitstrekt naar je bovenarm. Wanneer hij samentrekt, trekt hij je arm krachtig naar beneden, naar achteren en naar binnen, alsof je een roeibeweging maakt of je optrekt, essentieel voor trekbewegingen en klimmen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Intertransversarii, thoracis 1-9",
+    "description": "De Intertransversarii thoracis zijn kleine, diepliggende spieren die tussen de transversale processus van de thoracale wervels liggen en de thoracale wervelkolom lateraal buigen en stabiliseren.",
+    "location": "Diep in de thoracale wervelkolom, tussen de transversale processus.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij unilaterale contractie buigen de Intertransversarii thoracis de thoracale wervelkolom lateraal naar de ipsilaterale zijde. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de thoracale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Rotatores thoracis",
+        "Multifidus thoracis (voor stabilisatie en rotatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Intertransversarii thoracis voor als minuscule, diepliggende 'draadjes' die tussen de dwarsuitsteeksels van je bovenrugwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Intertransversarii, medial lumborum 1-5",
+    "description": "De mediale Intertransversarii lumborum zijn kleine, diepliggende spieren die tussen de accessoire en mammillaire processus van de lumbale wervels liggen en de lumbale wervelkolom lateraal buigen en stabiliseren.",
+    "location": "Diep in de lumbale wervelkolom, tussen de processus.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij unilaterale contractie buigen de mediale Intertransversarii lumborum de lumbale wervelkolom lateraal naar de ipsilaterale zijde. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Rotatores lumborum",
+        "Multifidus lumborum (voor stabilisatie en rotatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de mediale Intertransversarii lumborum voor als minuscule, diepliggende 'draadjes' die tussen de uitsteeksels van je lage rugwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Intertransversarii, lateral lumborum, ventral parts 1-5",
+    "description": "De ventrale laterale Intertransversarii lumborum zijn kleine, diepliggende spieren die tussen de transversale processus van de lumbale wervels liggen en de lumbale wervelkolom lateraal buigen en stabiliseren.",
+    "location": "Diep in de lumbale wervelkolom, tussen de transversale processus.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Ventrale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij unilaterale contractie buigen de ventrale laterale Intertransversarii lumborum de lumbale wervelkolom lateraal naar de ipsilaterale zijde. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Quadratus lumborum",
+        "Oblique abdominis (voor laterale flexie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de ventrale laterale Intertransversarii lumborum voor als minuscule, diepliggende 'draadjes' die tussen de dwarsuitsteeksels aan de voorkant van je lage rugwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Intertransversarii, lateral lumborum, dorsal parts 1-5",
+    "description": "De dorsale laterale Intertransversarii lumborum zijn kleine, diepliggende spieren die tussen de transversale processus van de lumbale wervels liggen en de lumbale wervelkolom lateraal buigen en stabiliseren.",
+    "location": "Diep in de lumbale wervelkolom, tussen de transversale processus.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Laterally flexes and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij unilaterale contractie buigen de dorsale laterale Intertransversarii lumborum de lumbale wervelkolom lateraal naar de ipsilaterale zijde. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Quadratus lumborum",
+        "Erector spinae (voor laterale flexie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de dorsale laterale Intertransversarii lumborum voor als minuscule, diepliggende 'draadjes' die tussen de dwarsuitsteeksels aan de achterkant van je lage rugwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Interspinales thoracis 1-3",
+    "description": "De Interspinales thoracis zijn kleine, inconsistente spieren die tussen de doornuitsteeksels van de thoracale wervels liggen en de thoracale wervelkolom extendert en stabiliseert.",
+    "location": "Diep in de thoracale wervelkolom, tussen de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren, vaak afwezig."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij bilaterale contractie extendert de Interspinales thoracis de thoracale wervelkolom. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de thoracale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Spinalis thoracis",
+        "Multifidus thoracis",
+        "Rotatores thoracis (voor extensie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Interspinales thoracis voor als minuscule, diepliggende 'draadjes' die tussen de doornuitsteeksels van je bovenrugwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 6
+  },
+  {
+    "name": "Interspinales lumborum 1-4",
+    "description": "De Interspinales lumborum zijn kleine, diepliggende spieren die tussen de doornuitsteeksels van de lumbale wervels liggen en de lumbale wervelkolom extendert en stabiliseert.",
+    "location": "Diep in de lumbale wervelkolom, tussen de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert and stabilizes vertebral column.",
+      "mechanism_of_action": "Bij bilaterale contractie extendert de Interspinales lumborum de lumbale wervelkolom. Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Spinalis lumborum",
+        "Multifidus lumborum",
+        "Rotatores lumborum (voor extensie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Interspinales lumborum voor als minuscule, diepliggende 'draadjes' die tussen de doornuitsteeksels van je lage rugwervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 6
+  },
+  {
+    "name": "Internal intercostal 1-11",
+    "description": "De Internal intercostals zijn spieren die diep in de thoraxwand liggen, tussen de ribben, die de ribben deprimeren en de borstkas vernauwen tijdens geforceerde expiratie.",
+    "location": "Tussen de ribben, van het sternum tot de wervelkolom.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferieur en posterieur (loodrecht op externe intercostals)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Depresses ribs, aids in forced expiration.",
+      "mechanism_of_action": "Bij contractie trekken de Internal intercostals de ribben naar beneden, wat de thoraxholte verkleint en de lucht uit de longen perst. Dit is essentieel voor geforceerde uitademing (bijv. hoesten, niezen) en kan ook bijdragen aan de stabiliteit van de ribbenkast.",
+      "rib_depression_mm": {
+        "average": "3-5",
+        "note": "Geschatte verticale depressie van de ribben."
+      },
+      "role_in_expression": [
+        "Essentieel voor geforceerde uitademing (bijv. tijdens inspanning, hoesten, niezen).",
+        "Belangrijk voor de stabiliteit van de borstwand en de bescherming van de organen.",
+        "Draagt bij aan de proprioceptie van de ademhalingsbeweging."
+      ],
+      "synergists": [
+        "Transversus thoracis",
+        "Rectus abdominis",
+        "Oblique abdominis (voor geforceerde expiratie)"
+      ],
+      "antagonists": [
+        "External intercostals",
+        "Diafragma (voor inspiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Internal intercostals voor als schuine 'trekbandjes' die tussen de binnenkant van je ribben lopen, van boven naar beneden en van voor naar achteren. Wanneer je krachtig uitademt, trekken deze bandjes je ribben naar beneden en naar binnen, alsof ze een 'compressie' uitoefenen om de lucht uit je longen te persen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Internal abdominal oblique",
+    "description": "De Internal abdominal oblique is een spier van de anterolaterale buikwand, die diep ligt ten opzichte van de External abdominal oblique, en die de romp flext, roteert en lateraal buigt, en de abdominale organen comprimeert.",
+    "location": "Anterolaterale buikwand, tussen de External abdominal oblique en Transversus abdominis.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen superomedial (loodrecht op externe oblique)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12) en Iliohypogastrische en Ilioinguinale zenuwen (L1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën.",
+        "A. epigastrica superior en inferior.",
+        "A. circumflexa ilium profunda."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext, lateraal flext en roteert romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de Internal abdominal oblique de romp (buigt naar voren) en comprimeert de abdominale inhoud. Bij unilaterale contractie roteert het de romp naar de ipsilaterale zijde (zelfde zijde) en buigt het lateraal naar de ipsilaterale zijde. Het is een belangrijke spier voor de stabiliteit van de romp en de ademhaling.",
+      "romp_flexie_graden": {
+        "average": "30-40",
+        "note": "Bijdrage aan rompfexie."
+      },
+      "romp_rotatie_graden_per_zijde": {
+        "average": "20-30",
+        "note": "Bijdrage aan romprotatie."
+      },
+      "romp_laterale_flexie_graden_per_zijde": {
+        "average": "15-25",
+        "note": "Bijdrage aan laterale flexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "2-5",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen, draaien en zijwaarts buigen van de romp (bijv. bij sport, dans).",
+        "Belangrijk voor 'core' stabiliteit, ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "Draagt bij aan het 'afvlakken' van de buikwand."
+      ],
+      "synergists": [
+        "External abdominal oblique (voor flexie en laterale flexie, contralaterale rotatie)",
+        "Rectus abdominis",
+        "Transversus abdominis (voor compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Internal abdominal oblique voor als een schuine, gespierde 'band' die diep in je buikwand zit, van je bekken en lies schuin omhoog en naar je ribben loopt (loodrecht op de buitenste schuine spier). Wanneer hij samentrekt, buigt hij je romp naar voren, draait hij je naar dezelfde kant en buigt hij je zijwaarts, alsof het een 'spiraalvormige riem' is die je romp in complexe bewegingen kan draaien en buigen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Innermost intercostal 1-11",
+    "description": "De Innermost intercostals zijn de diepst gelegen spieren van de thoraxwand, die tussen de ribben liggen en de ribben deprimeren en de borstkas vernauwen tijdens geforceerde expiratie.",
+    "location": "Diepste laag tussen de ribben, van het sternum tot de wervelkolom.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferieur en posterieur (parallel aan interne intercostals)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Depresses ribs, aids in forced expiration.",
+      "mechanism_of_action": "Bij contractie trekken de Innermost intercostals de ribben naar beneden, wat de thoraxholte verkleint en de lucht uit de longen perst. Ze werken synergetisch met de Internal intercostals en zijn essentieel voor geforceerde uitademing. Ze spelen waarschijnlijk ook een proprioceptieve rol.",
+      "rib_depression_mm": {
+        "average": "3-5",
+        "note": "Geschatte verticale depressie van de ribben."
+      },
+      "role_in_expression": [
+        "Essentieel voor geforceerde uitademing (bijv. tijdens inspanning, hoesten, niezen).",
+        "Belangrijk voor de stabiliteit van de borstwand en de bescherming van de organen.",
+        "Draagt bij aan de proprioceptie van de ademhalingsbeweging."
+      ],
+      "synergists": [
+        "Internal intercostals",
+        "Transversus thoracis",
+        "Rectus abdominis",
+        "Oblique abdominis (voor geforceerde expiratie)"
+      ],
+      "antagonists": [
+        "External intercostals",
+        "Diafragma (voor inspiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Innermost intercostals voor als de diepste, dunste 'trekbandjes' die tussen de binnenkant van je ribben lopen, parallel aan de interne intercostals. Wanneer je krachtig uitademt, trekken deze bandjes je ribben naar beneden en naar binnen, alsof ze de 'compressie' op je borstkas maximaliseren om de laatste lucht eruit te persen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Iliocostalis thoracis",
+    "description": "De Iliocostalis thoracis is een spier van de diepe rug, onderdeel van de erector spinae groep, die de thoracale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus thoracis, van de ribben naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext thoracale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis thoracis de thoracale wervelkolom. Bij unilaterale contractie buigt het de thoracale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Draagt bij aan de algemene stabiliteit van de ruggengraat.",
+        "Speelt een rol bij het uitvoeren van zijwaartse buigingen van de romp."
+      ],
+      "synergists": [
+        "Longissimus thoracis",
+        "Spinalis thoracis (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis thoracis voor als een lange, verticale 'band' van spier die langs de buitenkant van je bovenrug loopt, van rib naar rib. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Iliocostalis lumborum",
+    "description": "De Iliocostalis lumborum is een spier van de diepe rug, onderdeel van de erector spinae groep, die de lumbale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus lumborum, van het bekken naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae in de lumbale regio."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext lumbale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis lumborum de lumbale wervelkolom. Bij unilaterale contractie buigt het de lumbale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp, en is cruciaal voor het tillen van zware objecten.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Cruciaal voor het tillen van zware objecten en het uitvoeren van buig- en strekbewegingen van de rug.",
+        "Vaak een bron van lage rugpijn bij overbelasting."
+      ],
+      "synergists": [
+        "Longissimus lumborum",
+        "Spinalis lumborum (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis lumborum voor als een lange, verticale 'band' van spier die langs de buitenkant van je lage rug loopt, van je bekken naar je ribben. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen, essentieel voor het tillen van zware objecten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Hemidiaphragm, lumbar/costal/sternal part",
+    "description": "Het Hemidiaphragma is de helft van het Diafragma, de primaire ademhalingsspier, die de thoraxholte van de abdominale holte scheidt en essentieel is voor inspiratie.",
+    "location": "Tussen de thoraxholte en de abdominale holte.",
+    "articulations": [],
+    "key_features": [
+      "Koepelvormige spier, met een centrale peesplaat.",
+      "Bestaan uit lumbale, costale en sternale delen."
+    ],
+    "dimensions": {
+      "total_surface_area_cm2": "250-350",
+      "thickness_mm": "3-5",
+      "note": "Groot en dun."
+    },
+    "function": {
+      "primary_action": "Primary muscle of inspiration.",
+      "mechanism_of_action": "Bij contractie daalt het Hemidiaphragma en vlakt het af, waardoor de verticale diameter van de thoraxholte toeneemt en lucht de longen in wordt gezogen (inspiratie). Het is de belangrijkste spier voor rustige ademhaling en speelt een cruciale rol bij geforceerde ademhaling, hoesten en niezen.",
+      "diaphragmatic_excursion_mm": {
+        "average_rest": "10-20",
+        "average_forced": "70-100",
+        "note": "Verticale verplaatsing tijdens ademhaling."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "5-10",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor ademhaling en het handhaven van de gasuitwisseling.",
+        "Belangrijk voor hoesten, niezen, lachen, zingen en het genereren van intra-abdominale druk (bijv. bij defecatie, bevalling).",
+        "Disfunctie kan leiden tot ademhalingsproblemen."
+      ],
+      "synergists": [
+        "External intercostals",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor inspiratie)"
+      ],
+      "antagonists": [
+        "Internal intercostals",
+        "Abdominal wall muscles (voor expiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je het Hemidiaphragma voor als een grote, koepelvormige 'parachute' van spier die je borstkas scheidt van je buik, als een 'zuiger' die bij elke ademhaling naar beneden trekt om lucht in je longen te zuigen. Het is de 'hoofdmotor' van je ademhaling, essentieel voor het leven en voor krachtige uitademingen zoals hoesten of zingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Rectus abdominis",
+    "description": "De Rectus abdominis is een lange, platte, gepaarde spier aan de voorkant van de buik, die de romp flext, de bekken posterieur kantelt en de abdominale organen comprimeert.",
+    "location": "Anterieur deel van de buikwand, van het sternum naar het pubis.",
+    "articulations": [],
+    "key_features": [
+      "Tendinous intersections ('six-pack' segmenten)",
+      "Linea alba (middenlijn fibreuze naad)"
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. epigastrica superior en inferior."
+      ],
+      "venous_drainage": "V. epigastrica superior en inferior."
+    },
+    "function": {
+      "primary_action": "Flext romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de Rectus abdominis de romp (buigt naar voren) en comprimeert de abdominale inhoud. Het speelt een belangrijke rol bij het handhaven van de houding, geforceerde expiratie en het genereren van intra-abdominale druk.",
+      "romp_flexie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan rompfexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "5-10",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen van de romp (sit-ups, crunches) en het handhaven van de houding.",
+        "Belangrijk voor ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "De zichtbaarheid van de 'six-pack' is afhankelijk van de spiermassa en het vetpercentage."
+      ],
+      "synergists": [
+        "External abdominal oblique",
+        "Internal abdominal oblique",
+        "Transversus abdominis (voor flexie en compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus abdominis voor als een 'washboard' van spieren die langs de voorkant van je buik loopt, verdeeld in segmenten door peesplaten. Het is de 'buigspier' van je romp, die je helpt voorover te buigen en je buikspieren aan te spannen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pyramidalis",
+    "description": "De Pyramidalis is een kleine, driehoekige spier die zich in de rectus schede bevindt, anterieur van de Rectus abdominis. Het is afwezig bij een significant deel van de populatie en heeft een minimale functie.",
+    "location": "Onderste deel van de anterieure buikwand, in de rectus schede.",
+    "articulations": [],
+    "key_features": [
+      "Driehoekige vorm, variabel in aanwezigheid en grootte."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer klein en variabel."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Subcostale zenuw (T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. epigastrica inferior."
+      ],
+      "venous_drainage": "V. epigastrica inferior."
+    },
+    "function": {
+      "primary_action": "Spant linea alba.",
+      "mechanism_of_action": "Bij contractie trekt de Pyramidalis aan de linea alba (de middenlijn fibreuze naad van de buikwand), wat helpt bij het spannen van de buikwand. Zijn functionele betekenis is echter minimaal en wordt vaak gezien als een rudimentair overblijfsel.",
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Rectus abdominis (voor het spannen van de linea alba)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Pyramidalis voor als een minuscuul, driehoekig 'lapje' van spier dat diep in je onderbuik zit, net boven je schaambeen, zo klein en zeldzaam dat het nauwelijks een rol speelt in enige beweging. Het is als een 'evolutionair overblijfsel' dat soms wordt gevonden zonder duidelijke functie.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Rotatores, short 1-11",
+    "description": "De Rotatores breves zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen één wervelsegment.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores breves de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores longi (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores breves voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores, long 1-11",
+    "description": "De Rotatores longi zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen twee wervelsegmenten.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores longi de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "2-4",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores breves (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores longi voor als kleine, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de twee erboven gelegen wervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores lumborum",
+    "description": "De Rotatores lumborum zijn kleine, diepliggende spieren van de lage rug, onderdeel van de transversospinalis groep, die de lumbale wervelkolom roteren en stabiliseren.",
+    "location": "Diep in de lumbale wervelkolom, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores lumborum de lumbale wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus lumborum",
+        "Spinalis lumborum (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores lumborum voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één lage rugwervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rectus abdominis",
+    "description": "De Rectus abdominis is een lange, platte, gepaarde spier aan de voorkant van de buik, die de romp flext, de bekken posterieur kantelt en de abdominale organen comprimeert.",
+    "location": "Anterieur deel van de buikwand, van het sternum naar het pubis.",
+    "articulations": [],
+    "key_features": [
+      "Tendinous intersections ('six-pack' segmenten)",
+      "Linea alba (middenlijn fibreuze naad)"
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. epigastrica superior en inferior."
+      ],
+      "venous_drainage": "V. epigastrica superior en inferior."
+    },
+    "function": {
+      "primary_action": "Flext romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de Rectus abdominis de romp (buigt naar voren) en comprimeert de abdominale inhoud. Het speelt een belangrijke rol bij het handhaven van de houding, geforceerde expiratie en het genereren van intra-abdominale druk.",
+      "romp_flexie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan rompfexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "5-10",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen van de romp (sit-ups, crunches) en het handhaven van de houding.",
+        "Belangrijk voor ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "De zichtbaarheid van de 'six-pack' is afhankelijk van de spiermassa en het vetpercentage."
+      ],
+      "synergists": [
+        "External abdominal oblique",
+        "Internal abdominal oblique",
+        "Transversus abdominis (voor flexie en compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus abdominis voor als een 'washboard' van spieren die langs de voorkant van je buik loopt, verdeeld in segmenten door peesplaten. Het is de 'buigspier' van je romp, die je helpt voorover te buigen en je buikspieren aan te spannen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pyramidalis",
+    "description": "De Pyramidalis is een kleine, driehoekige spier die zich in de rectus schede bevindt, anterieur van de Rectus abdominis. Het is afwezig bij een significant deel van de populatie en heeft een minimale functie.",
+    "location": "Onderste deel van de anterieure buikwand, in de rectus schede.",
+    "articulations": [],
+    "key_features": [
+      "Driehoekige vorm, variabel in aanwezigheid en grootte."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer klein en variabel."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Subcostale zenuw (T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. epigastrica inferior."
+      ],
+      "venous_drainage": "V. epigastrica inferior."
+    },
+    "function": {
+      "primary_action": "Spant linea alba.",
+      "mechanism_of_action": "Bij contractie trekt de Pyramidalis aan de linea alba (de middenlijn fibreuze naad van de buikwand), wat helpt bij het spannen van de buikwand. Zijn functionele betekenis is echter minimaal en wordt vaak gezien als een rudimentair overblijfsel.",
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Rectus abdominis (voor het spannen van de linea alba)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Pyramidalis voor als een minuscuul, driehoekig 'lapje' van spier dat diep in je onderbuik zit, net boven je schaambeen, zo klein en zeldzaam dat het nauwelijks een rol speelt in enige beweging. Het is als een 'evolutionair overblijfsel' dat soms wordt gevonden zonder duidelijke functie.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Rotatores, short 1-11",
+    "description": "De Rotatores breves zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen één wervelsegment.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores breves de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores longi (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores breves voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores, long 1-11",
+    "description": "De Rotatores longi zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen twee wervelsegmenten.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores longi de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "2-4",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores breves (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores longi voor als kleine, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de twee erboven gelegen wervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores lumborum",
+    "description": "De Rotatores lumborum zijn kleine, diepliggende spieren van de lage rug, onderdeel van de transversospinalis groep, die de lumbale wervelkolom roteren en stabiliseren.",
+    "location": "Diep in de lumbale wervelkolom, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores lumborum de lumbale wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus lumborum",
+        "Spinalis lumborum (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores lumborum voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één lage rugwervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "External intercostal 1-11",
+    "description": "De External intercostals zijn spieren die diep in de thoraxwand liggen, tussen de ribben, die de ribben eleveert en de borstkas uitzet tijdens inspiratie.",
+    "location": "Tussen de ribben, van de wervelkolom tot het sternum.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferieur en anterieur (loodrecht op interne intercostals)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Eleveert ribs, aids in inspiration.",
+      "mechanism_of_action": "Bij contractie trekken de External intercostals de ribben omhoog, wat de thoraxholte vergroot en lucht de longen in zuigt. Dit is essentieel voor rustige en geforceerde inademing en draagt bij aan de stabiliteit van de ribbenkast.",
+      "rib_elevation_mm": {
+        "average": "3-5",
+        "note": "Geschatte verticale elevatie van de ribben."
+      },
+      "role_in_expression": [
+        "Essentieel voor ademhaling, met name inademing.",
+        "Belangrijk voor de stabiliteit van de borstwand en de bescherming van de organen.",
+        "Draagt bij aan de proprioceptie van de ademhalingsbeweging."
+      ],
+      "synergists": [
+        "Diafragma",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor inspiratie)"
+      ],
+      "antagonists": [
+        "Internal intercostals",
+        "Transversus thoracis",
+        "Rectus abdominis",
+        "Oblique abdominis (voor expiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de External intercostals voor als schuine 'trekbandjes' die tussen de buitenkant van je ribben lopen, van boven naar beneden en van achter naar voren. Wanneer je inademt, trekken deze bandjes je ribben omhoog en naar buiten, alsof ze een 'expansie' uitoefenen om de lucht in je longen te zuigen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "External abdominal oblique",
+    "description": "De External abdominal oblique is de grootste en meest oppervlakkige spier van de anterolaterale buikwand, die de romp flext, roteert en lateraal buigt, en de abdominale organen comprimeert.",
+    "location": "Anterolaterale buikwand, van de ribben naar het bekken.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferomedial (loodrecht op interne oblique)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën.",
+        "A. circumflexa ilium superficialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext, lateraal flext en roteert romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de External abdominal oblique de romp (buigt naar voren) en comprimeert de abdominale inhoud. Bij unilaterale contractie roteert het de romp naar de contralaterale zijde (tegenovergestelde zijde) en buigt het lateraal naar de ipsilaterale zijde. Het is een belangrijke spier voor de stabiliteit van de romp en de ademhaling.",
+      "romp_flexie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan rompfexie."
+      },
+      "romp_rotatie_graden_per_zijde": {
+        "average": "20-30",
+        "note": "Belangrijke bijdrage aan romprotatie."
+      },
+      "romp_laterale_flexie_graden_per_zijde": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan laterale flexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "2-5",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen, draaien en zijwaarts buigen van de romp (bijv. bij sport, dans).",
+        "Belangrijk voor 'core' stabiliteit, ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "Draagt bij aan de esthetiek van de buikspieren ('V-lijnen')."
+      ],
+      "synergists": [
+        "Internal abdominal oblique (voor flexie en laterale flexie, ipsilaterale rotatie)",
+        "Rectus abdominis",
+        "Transversus abdominis (voor compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de External abdominal oblique voor als een grote, platte, schuine 'band' van spier die de buitenkant van je buikwand bedekt, van je ribben schuin naar beneden en naar je bekken loopt (alsof je je handen in je broekzakken steekt). Wanneer hij samentrekt, buigt hij je romp naar voren, draait hij je naar de tegenovergestelde kant en buigt hij je zijwaarts, alsof het een krachtige 'draaier' is die je romp in complexe bewegingen kan draaien en buigen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Iliocostalis thoracis",
+    "description": "De Iliocostalis thoracis is een spier van de diepe rug, onderdeel van de erector spinae groep, die de thoracale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus thoracis, van de ribben naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext thoracale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis thoracis de thoracale wervelkolom. Bij unilaterale contractie buigt het de thoracale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Draagt bij aan de algemene stabiliteit van de ruggengraat.",
+        "Speelt een rol bij het uitvoeren van zijwaartse buigingen van de romp."
+      ],
+      "synergists": [
+        "Longissimus thoracis",
+        "Spinalis thoracis (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis thoracis voor als een lange, verticale 'band' van spier die langs de buitenkant van je bovenrug loopt, van rib naar rib. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Iliocostalis lumborum",
+    "description": "De Iliocostalis lumborum is een spier van de diepe rug, onderdeel van de erector spinae groep, die de lumbale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus lumborum, van het bekken naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae in de lumbale regio."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext lumbale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis lumborum de lumbale wervelkolom. Bij unilaterale contractie buigt het de lumbale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp, en is cruciaal voor het tillen van zware objecten.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Cruciaal voor het tillen van zware objecten en het uitvoeren van buig- en strekbewegingen van de rug.",
+        "Vaak een bron van lage rugpijn bij overbelasting."
+      ],
+      "synergists": [
+        "Longissimus lumborum",
+        "Spinalis lumborum (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis lumborum voor als een lange, verticale 'band' van spier die langs de buitenkant van je lage rug loopt, van je bekken naar je ribben. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen, essentieel voor het tillen van zware objecten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Hemidiaphragm, lumbar/costal/sternal part",
+    "description": "Het Hemidiaphragma is de helft van het Diafragma, de primaire ademhalingsspier, die de thoraxholte van de abdominale holte scheidt en essentieel is voor inspiratie.",
+    "location": "Tussen de thoraxholte en de abdominale holte.",
+    "articulations": [],
+    "key_features": [
+      "Koepelvormige spier, met een centrale peesplaat.",
+      "Bestaan uit lumbale, costale en sternale delen."
+    ],
+    "dimensions": {
+      "total_surface_area_cm2": "250-350",
+      "thickness_mm": "3-5",
+      "note": "Groot en dun."
+    },
+    "function": {
+      "primary_action": "Primary muscle of inspiration.",
+      "mechanism_of_action": "Bij contractie daalt het Hemidiaphragma en vlakt het af, waardoor de verticale diameter van de thoraxholte toeneemt en lucht de longen in wordt gezogen (inspiratie). Het is de belangrijkste spier voor rustige ademhaling en speelt een cruciale rol bij geforceerde ademhaling, hoesten en niezen.",
+      "diaphragmatic_excursion_mm": {
+        "average_rest": "10-20",
+        "average_forced": "70-100",
+        "note": "Verticale verplaatsing tijdens ademhaling."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "5-10",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor ademhaling en het handhaven van de gasuitwisseling.",
+        "Belangrijk voor hoesten, niezen, lachen, zingen en het genereren van intra-abdominale druk (bijv. bij defecatie, bevalling).",
+        "Disfunctie kan leiden tot ademhalingsproblemen."
+      ],
+      "synergists": [
+        "External intercostals",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor inspiratie)"
+      ],
+      "antagonists": [
+        "Internal intercostals",
+        "Abdominal wall muscles (voor expiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je het Hemidiaphragma voor als een grote, koepelvormige 'parachute' van spier die je borstkas scheidt van je buik, als een 'zuiger' die bij elke ademhaling naar beneden trekt om lucht in je longen te zuigen. Het is de 'hoofdmotor' van je ademhaling, essentieel voor het leven en voor krachtige uitademingen zoals hoesten of zingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Rectus abdominis",
+    "description": "De Rectus abdominis is een lange, platte, gepaarde spier aan de voorkant van de buik, die de romp flext, de bekken posterieur kantelt en de abdominale organen comprimeert.",
+    "location": "Anterieur deel van de buikwand, van het sternum naar het pubis.",
+    "articulations": [],
+    "key_features": [
+      "Tendinous intersections ('six-pack' segmenten)",
+      "Linea alba (middenlijn fibreuze naad)"
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. epigastrica superior en inferior."
+      ],
+      "venous_drainage": "V. epigastrica superior en inferior."
+    },
+    "function": {
+      "primary_action": "Flext romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de Rectus abdominis de romp (buigt naar voren) en comprimeert de abdominale inhoud. Het speelt een belangrijke rol bij het handhaven van de houding, geforceerde expiratie en het genereren van intra-abdominale druk.",
+      "romp_flexie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan rompfexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "5-10",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen van de romp (sit-ups, crunches) en het handhaven van de houding.",
+        "Belangrijk voor ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "De zichtbaarheid van de 'six-pack' is afhankelijk van de spiermassa en het vetpercentage."
+      ],
+      "synergists": [
+        "External abdominal oblique",
+        "Internal abdominal oblique",
+        "Transversus abdominis (voor flexie en compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus abdominis voor als een 'washboard' van spieren die langs de voorkant van je buik loopt, verdeeld in segmenten door peesplaten. Het is de 'buigspier' van je romp, die je helpt voorover te buigen en je buikspieren aan te spannen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pyramidalis",
+    "description": "De Pyramidalis is een kleine, driehoekige spier die zich in de rectus schede bevindt, anterieur van de Rectus abdominis. Het is afwezig bij een significant deel van de populatie en heeft een minimale functie.",
+    "location": "Onderste deel van de anterieure buikwand, in de rectus schede.",
+    "articulations": [],
+    "key_features": [
+      "Driehoekige vorm, variabel in aanwezigheid en grootte."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer klein en variabel."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Subcostale zenuw (T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. epigastrica inferior."
+      ],
+      "venous_drainage": "V. epigastrica inferior."
+    },
+    "function": {
+      "primary_action": "Spant linea alba.",
+      "mechanism_of_action": "Bij contractie trekt de Pyramidalis aan de linea alba (de middenlijn fibreuze naad van de buikwand), wat helpt bij het spannen van de buikwand. Zijn functionele betekenis is echter minimaal en wordt vaak gezien als een rudimentair overblijfsel.",
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Rectus abdominis (voor het spannen van de linea alba)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Pyramidalis voor als een minuscuul, driehoekig 'lapje' van spier dat diep in je onderbuik zit, net boven je schaambeen, zo klein en zeldzaam dat het nauwelijks een rol speelt in enige beweging. Het is als een 'evolutionair overblijfsel' dat soms wordt gevonden zonder duidelijke functie.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Rotatores, short 1-11",
+    "description": "De Rotatores breves zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen één wervelsegment.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores breves de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores longi (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores breves voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores, long 1-11",
+    "description": "De Rotatores longi zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen twee wervelsegmenten.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores longi de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "2-4",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores breves (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores longi voor als kleine, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de twee erboven gelegen wervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores lumborum",
+    "description": "De Rotatores lumborum zijn kleine, diepliggende spieren van de lage rug, onderdeel van de transversospinalis groep, die de lumbale wervelkolom roteren en stabiliseren.",
+    "location": "Diep in de lumbale wervelkolom, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores lumborum de lumbale wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus lumborum",
+        "Spinalis lumborum (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores lumborum voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één lage rugwervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "External intercostal 1-11",
+    "description": "De External intercostals zijn spieren die diep in de thoraxwand liggen, tussen de ribben, die de ribben eleveert en de borstkas uitzet tijdens inspiratie.",
+    "location": "Tussen de ribben, van de wervelkolom tot het sternum.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferieur en anterieur (loodrecht op interne intercostals)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Eleveert ribs, aids in inspiration.",
+      "mechanism_of_action": "Bij contractie trekken de External intercostals de ribben omhoog, wat de thoraxholte vergroot en lucht de longen in zuigt. Dit is essentieel voor rustige en geforceerde inademing en draagt bij aan de stabiliteit van de ribbenkast.",
+      "rib_elevation_mm": {
+        "average": "3-5",
+        "note": "Geschatte verticale elevatie van de ribben."
+      },
+      "role_in_expression": [
+        "Essentieel voor ademhaling, met name inademing.",
+        "Belangrijk voor de stabiliteit van de borstwand en de bescherming van de organen.",
+        "Draagt bij aan de proprioceptie van de ademhalingsbeweging."
+      ],
+      "synergists": [
+        "Diafragma",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor inspiratie)"
+      ],
+      "antagonists": [
+        "Internal intercostals",
+        "Transversus thoracis",
+        "Rectus abdominis",
+        "Oblique abdominis (voor expiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de External intercostals voor als schuine 'trekbandjes' die tussen de buitenkant van je ribben lopen, van boven naar beneden en van achter naar voren. Wanneer je inademt, trekken deze bandjes je ribben omhoog en naar buiten, alsof ze een 'expansie' uitoefenen om de lucht in je longen te zuigen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "External abdominal oblique",
+    "description": "De External abdominal oblique is de grootste en meest oppervlakkige spier van de anterolaterale buikwand, die de romp flext, roteert en lateraal buigt, en de abdominale organen comprimeert.",
+    "location": "Anterolaterale buikwand, van de ribben naar het bekken.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferomedial (loodrecht op interne oblique)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën.",
+        "A. circumflexa ilium superficialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext, lateraal flext en roteert romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de External abdominal oblique de romp (buigt naar voren) en comprimeert de abdominale inhoud. Bij unilaterale contractie roteert het de romp naar de contralaterale zijde (tegenovergestelde zijde) en buigt het lateraal naar de ipsilaterale zijde. Het is een belangrijke spier voor de stabiliteit van de romp en de ademhaling.",
+      "romp_flexie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan rompfexie."
+      },
+      "romp_rotatie_graden_per_zijde": {
+        "average": "20-30",
+        "note": "Belangrijke bijdrage aan romprotatie."
+      },
+      "romp_laterale_flexie_graden_per_zijde": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan laterale flexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "2-5",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen, draaien en zijwaarts buigen van de romp (bijv. bij sport, dans).",
+        "Belangrijk voor 'core' stabiliteit, ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "Draagt bij aan de esthetiek van de buikspieren ('V-lijnen')."
+      ],
+      "synergists": [
+        "Internal abdominal oblique (voor flexie en laterale flexie, ipsilaterale rotatie)",
+        "Rectus abdominis",
+        "Transversus abdominis (voor compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de External abdominal oblique voor als een grote, platte, schuine 'band' van spier die de buitenkant van je buikwand bedekt, van je ribben schuin naar beneden en naar je bekken loopt (alsof je je handen in je broekzakken steekt). Wanneer hij samentrekt, buigt hij je romp naar voren, draait hij je naar de tegenovergestelde kant en buigt hij je zijwaarts, alsof het een krachtige 'draaier' is die je romp in complexe bewegingen kan draaien en buigen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Internal intercostal 1-11",
+    "description": "De Internal intercostals zijn spieren die diep in de thoraxwand liggen, tussen de ribben, die de ribben deprimeren en de borstkas vernauwen tijdens geforceerde expiratie.",
+    "location": "Tussen de ribben, van het sternum tot de wervelkolom.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferieur en posterieur (loodrecht op externe intercostals)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Depresses ribs, aids in forced expiration.",
+      "mechanism_of_action": "Bij contractie trekken de Internal intercostals de ribben naar beneden, wat de thoraxholte verkleint en de lucht uit de longen perst. Dit is essentieel voor geforceerde uitademing (bijv. hoesten, niezen) en kan ook bijdragen aan de stabiliteit van de ribbenkast.",
+      "rib_depression_mm": {
+        "average": "3-5",
+        "note": "Geschatte verticale depressie van de ribben."
+      },
+      "role_in_expression": [
+        "Essentieel voor geforceerde uitademing (bijv. tijdens inspanning, hoesten, niezen).",
+        "Belangrijk voor de stabiliteit van de borstwand en de bescherming van de organen.",
+        "Draagt bij aan de proprioceptie van de ademhalingsbeweging."
+      ],
+      "synergists": [
+        "Transversus thoracis",
+        "Rectus abdominis",
+        "Oblique abdominis (voor geforceerde expiratie)"
+      ],
+      "antagonists": [
+        "External intercostals",
+        "Diafragma (voor inspiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Internal intercostals voor als schuine 'trekbandjes' die tussen de binnenkant van je ribben lopen, van boven naar beneden en van voor naar achteren. Wanneer je krachtig uitademt, trekken deze bandjes je ribben naar beneden en naar binnen, alsof ze een 'compressie' uitoefenen om de lucht uit je longen te persen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Innermost intercostal 1-11",
+    "description": "De Innermost intercostals zijn de diepst gelegen spieren van de thoraxwand, die tussen de ribben liggen en de ribben deprimeren en de borstkas vernauwen tijdens geforceerde expiratie.",
+    "location": "Diepste laag tussen de ribben, van het sternum tot de wervelkolom.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferieur en posterieur (parallel aan interne intercostals)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Depresses ribs, aids in forced expiration.",
+      "mechanism_of_action": "Bij contractie trekken de Innermost intercostals de ribben naar beneden, wat de thoraxholte verkleint en de lucht uit de longen perst. Ze werken synergetisch met de Internal intercostals en zijn essentieel voor geforceerde uitademing. Ze spelen waarschijnlijk ook een proprioceptieve rol.",
+      "rib_depression_mm": {
+        "average": "3-5",
+        "note": "Geschatte verticale depressie van de ribben."
+      },
+      "role_in_expression": [
+        "Essentieel voor geforceerde uitademing (bijv. tijdens inspanning, hoesten, niezen).",
+        "Belangrijk voor de stabiliteit van de borstwand en de bescherming van de organen.",
+        "Draagt bij aan de proprioceptie van de ademhalingsbeweging."
+      ],
+      "synergists": [
+        "Internal intercostals",
+        "Transversus thoracis",
+        "Rectus abdominis",
+        "Oblique abdominis (voor geforceerde expiratie)"
+      ],
+      "antagonists": [
+        "External intercostals",
+        "Diafragma (voor inspiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Innermost intercostals voor als de diepste, dunste 'trekbandjes' die tussen de binnenkant van je ribben lopen, parallel aan de interne intercostals. Wanneer je krachtig uitademt, trekken deze bandjes je ribben naar beneden en naar binnen, alsof ze de 'compressie' op je borstkas maximaliseren om de laatste lucht eruit te persen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Iliocostalis thoracis",
+    "description": "De Iliocostalis thoracis is een spier van de diepe rug, onderdeel van de erector spinae groep, die de thoracale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus thoracis, van de ribben naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext thoracale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis thoracis de thoracale wervelkolom. Bij unilaterale contractie buigt het de thoracale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Draagt bij aan de algemene stabiliteit van de ruggengraat.",
+        "Speelt een rol bij het uitvoeren van zijwaartse buigingen van de romp."
+      ],
+      "synergists": [
+        "Longissimus thoracis",
+        "Spinalis thoracis (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis thoracis voor als een lange, verticale 'band' van spier die langs de buitenkant van je bovenrug loopt, van rib naar rib. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Iliocostalis lumborum",
+    "description": "De Iliocostalis lumborum is een spier van de diepe rug, onderdeel van de erector spinae groep, die de lumbale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus lumborum, van het bekken naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae in de lumbale regio."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext lumbale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis lumborum de lumbale wervelkolom. Bij unilaterale contractie buigt het de lumbale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp, en is cruciaal voor het tillen van zware objecten.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Cruciaal voor het tillen van zware objecten en het uitvoeren van buig- en strekbewegingen van de rug.",
+        "Vaak een bron van lage rugpijn bij overbelasting."
+      ],
+      "synergists": [
+        "Longissimus lumborum",
+        "Spinalis lumborum (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis lumborum voor als een lange, verticale 'band' van spier die langs de buitenkant van je lage rug loopt, van je bekken naar je ribben. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen, essentieel voor het tillen van zware objecten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Hemidiaphragm, lumbar/costal/sternal part",
+    "description": "Het Hemidiaphragma is de helft van het Diafragma, de primaire ademhalingsspier, die de thoraxholte van de abdominale holte scheidt en essentieel is voor inspiratie.",
+    "location": "Tussen de thoraxholte en de abdominale holte.",
+    "articulations": [],
+    "key_features": [
+      "Koepelvormige spier, met een centrale peesplaat.",
+      "Bestaan uit lumbale, costale en sternale delen."
+    ],
+    "dimensions": {
+      "total_surface_area_cm2": "250-350",
+      "thickness_mm": "3-5",
+      "note": "Groot en dun."
+    },
+    "function": {
+      "primary_action": "Primary muscle of inspiration.",
+      "mechanism_of_action": "Bij contractie daalt het Hemidiaphragma en vlakt het af, waardoor de verticale diameter van de thoraxholte toeneemt en lucht de longen in wordt gezogen (inspiratie). Het is de belangrijkste spier voor rustige ademhaling en speelt een cruciale rol bij geforceerde ademhaling, hoesten en niezen.",
+      "diaphragmatic_excursion_mm": {
+        "average_rest": "10-20",
+        "average_forced": "70-100",
+        "note": "Verticale verplaatsing tijdens ademhaling."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "5-10",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor ademhaling en het handhaven van de gasuitwisseling.",
+        "Belangrijk voor hoesten, niezen, lachen, zingen en het genereren van intra-abdominale druk (bijv. bij defecatie, bevalling).",
+        "Disfunctie kan leiden tot ademhalingsproblemen."
+      ],
+      "synergists": [
+        "External intercostals",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor inspiratie)"
+      ],
+      "antagonists": [
+        "Internal intercostals",
+        "Abdominal wall muscles (voor expiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je het Hemidiaphragma voor als een grote, koepelvormige 'parachute' van spier die je borstkas scheidt van je buik, als een 'zuiger' die bij elke ademhaling naar beneden trekt om lucht in je longen te zuigen. Het is de 'hoofdmotor' van je ademhaling, essentieel voor het leven en voor krachtige uitademingen zoals hoesten of zingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Rectus abdominis",
+    "description": "De Rectus abdominis is een lange, platte, gepaarde spier aan de voorkant van de buik, die de romp flext, de bekken posterieur kantelt en de abdominale organen comprimeert.",
+    "location": "Anterieur deel van de buikwand, van het sternum naar het pubis.",
+    "articulations": [],
+    "key_features": [
+      "Tendinous intersections ('six-pack' segmenten)",
+      "Linea alba (middenlijn fibreuze naad)"
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. epigastrica superior en inferior."
+      ],
+      "venous_drainage": "V. epigastrica superior en inferior."
+    },
+    "function": {
+      "primary_action": "Flext romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de Rectus abdominis de romp (buigt naar voren) en comprimeert de abdominale inhoud. Het speelt een belangrijke rol bij het handhaven van de houding, geforceerde expiratie en het genereren van intra-abdominale druk.",
+      "romp_flexie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan rompfexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "5-10",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen van de romp (sit-ups, crunches) en het handhaven van de houding.",
+        "Belangrijk voor ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "De zichtbaarheid van de 'six-pack' is afhankelijk van de spiermassa en het vetpercentage."
+      ],
+      "synergists": [
+        "External abdominal oblique",
+        "Internal abdominal oblique",
+        "Transversus abdominis (voor flexie en compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Rectus abdominis voor als een 'washboard' van spieren die langs de voorkant van je buik loopt, verdeeld in segmenten door peesplaten. Het is de 'buigspier' van je romp, die je helpt voorover te buigen en je buikspieren aan te spannen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pyramidalis",
+    "description": "De Pyramidalis is een kleine, driehoekige spier die zich in de rectus schede bevindt, anterieur van de Rectus abdominis. Het is afwezig bij een significant deel van de populatie en heeft een minimale functie.",
+    "location": "Onderste deel van de anterieure buikwand, in de rectus schede.",
+    "articulations": [],
+    "key_features": [
+      "Driehoekige vorm, variabel in aanwezigheid en grootte."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer klein en variabel."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Subcostale zenuw (T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. epigastrica inferior."
+      ],
+      "venous_drainage": "V. epigastrica inferior."
+    },
+    "function": {
+      "primary_action": "Spant linea alba.",
+      "mechanism_of_action": "Bij contractie trekt de Pyramidalis aan de linea alba (de middenlijn fibreuze naad van de buikwand), wat helpt bij het spannen van de buikwand. Zijn functionele betekenis is echter minimaal en wordt vaak gezien als een rudimentair overblijfsel.",
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Rectus abdominis (voor het spannen van de linea alba)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Pyramidalis voor als een minuscuul, driehoekig 'lapje' van spier dat diep in je onderbuik zit, net boven je schaambeen, zo klein en zeldzaam dat het nauwelijks een rol speelt in enige beweging. Het is als een 'evolutionair overblijfsel' dat soms wordt gevonden zonder duidelijke functie.",
+    "status": "skipped",
+    "precisie_score": 1
+  },
+  {
+    "name": "Rotatores, short 1-11",
+    "description": "De Rotatores breves zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen één wervelsegment.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm",
+      "note": "Zeer kort."
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores breves de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores longi (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores breves voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores, long 1-11",
+    "description": "De Rotatores longi zijn kleine, diepliggende spieren van de rug, onderdeel van de transversospinalis groep, die de wervelkolom roteren en stabiliseren. Ze overbruggen twee wervelsegmenten.",
+    "location": "Diep in de rug, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de spinale zenuwen (thoracale, lumbale en cervicale regio's).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale en lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores longi de wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "2-4",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus",
+        "Rotatores breves (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores longi voor als kleine, diepliggende 'draadjes' die van de dwarsuitsteeksels van één wervel naar de doornuitsteeksels van de twee erboven gelegen wervels lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Rotatores lumborum",
+    "description": "De Rotatores lumborum zijn kleine, diepliggende spieren van de lage rug, onderdeel van de transversospinalis groep, die de lumbale wervelkolom roteren en stabiliseren.",
+    "location": "Diep in de lumbale wervelkolom, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Kleine, segmentale spieren."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Roteert en stabiliseert wervelkolom.",
+      "mechanism_of_action": "Bij unilaterale contractie roteren de Rotatores lumborum de lumbale wervelkolom naar de contralaterale zijde (tegenovergestelde zijde). Hun primaire rol is echter proprioceptief en segmentale stabilisatie van de wervelkolom, wat bijdraagt aan de fijne controle van de rompbewegingen.",
+      "vertebral_rotation_degrees_per_segment": {
+        "average": "1-3",
+        "note": "Kleine bijdrage aan rotatie per segment."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolomsegmenten, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen."
+      ],
+      "synergists": [
+        "Multifidus lumborum",
+        "Spinalis lumborum (voor rotatie en stabilisatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Rotatores lumborum voor als minuscule, diepliggende 'draadjes' die van de dwarsuitsteeksels van één lage rugwervel naar de doornuitsteeksels van de direct erboven gelegen wervel lopen. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "External intercostal 1-11",
+    "description": "De External intercostals zijn spieren die diep in de thoraxwand liggen, tussen de ribben, die de ribben eleveert en de borstkas uitzet tijdens inspiratie.",
+    "location": "Tussen de ribben, van de wervelkolom tot het sternum.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferieur en anterieur (loodrecht op interne intercostals)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Intercostale zenuwen (overeenkomstige thoracale spinale zenuwen).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Eleveert ribs, aids in inspiration.",
+      "mechanism_of_action": "Bij contractie trekken de External intercostals de ribben omhoog, wat de thoraxholte vergroot en lucht de longen in zuigt. Dit is essentieel voor rustige en geforceerde inademing en draagt bij aan de stabiliteit van de ribbenkast.",
+      "rib_elevation_mm": {
+        "average": "3-5",
+        "note": "Geschatte verticale elevatie van de ribben."
+      },
+      "role_in_expression": [
+        "Essentieel voor ademhaling, met name inademing.",
+        "Belangrijk voor de stabiliteit van de borstwand en de bescherming van de organen.",
+        "Draagt bij aan de proprioceptie van de ademhalingsbeweging."
+      ],
+      "synergists": [
+        "Diafragma",
+        "Scalene spieren",
+        "Sternocleidomastoid (voor inspiratie)"
+      ],
+      "antagonists": [
+        "Internal intercostals",
+        "Transversus thoracis",
+        "Rectus abdominis",
+        "Oblique abdominis (voor expiratie)"
+      ]
+    },
+    "visual_analogy": "Stel je de External intercostals voor als schuine 'trekbandjes' die tussen de buitenkant van je ribben lopen, van boven naar beneden en van achter naar voren. Wanneer je inademt, trekken deze bandjes je ribben omhoog en naar buiten, alsof ze een 'expansie' uitoefenen om de lucht in je longen te zuigen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "External abdominal oblique",
+    "description": "De External abdominal oblique is de grootste en meest oppervlakkige spier van de anterolaterale buikwand, die de romp flext, roteert en lateraal buigt, en de abdominale organen comprimeert.",
+    "location": "Anterolaterale buikwand, van de ribben naar het bekken.",
+    "articulations": [],
+    "key_features": [
+      "Vezels lopen inferomedial (loodrecht op interne oblique)."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Thoracoabdominale zenuwen (ventrale rami van T7-T12).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën.",
+        "A. circumflexa ilium superficialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext, lateraal flext en roteert romp, comprimeert abdominale organen.",
+      "mechanism_of_action": "Bij bilaterale contractie flext de External abdominal oblique de romp (buigt naar voren) en comprimeert de abdominale inhoud. Bij unilaterale contractie roteert het de romp naar de contralaterale zijde (tegenovergestelde zijde) en buigt het lateraal naar de ipsilaterale zijde. Het is een belangrijke spier voor de stabiliteit van de romp en de ademhaling.",
+      "romp_flexie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan rompfexie."
+      },
+      "romp_rotatie_graden_per_zijde": {
+        "average": "20-30",
+        "note": "Belangrijke bijdrage aan romprotatie."
+      },
+      "romp_laterale_flexie_graden_per_zijde": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan laterale flexie."
+      },
+      "intra_abdominal_pressure_increase_kPa": {
+        "average": "2-5",
+        "note": "Geschatte toename bij maximale contractie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het buigen, draaien en zijwaarts buigen van de romp (bijv. bij sport, dans).",
+        "Belangrijk voor 'core' stabiliteit, ademhaling (geforceerde expiratie), defecatie, mictie en partus (bevalling).",
+        "Draagt bij aan de esthetiek van de buikspieren ('V-lijnen')."
+      ],
+      "synergists": [
+        "Internal abdominal oblique (voor flexie en laterale flexie, ipsilaterale rotatie)",
+        "Rectus abdominis",
+        "Transversus abdominis (voor compressie)"
+      ],
+      "antagonists": [
+        "Erector spinae (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de External abdominal oblique voor als een grote, platte, schuine 'band' van spier die de buitenkant van je buikwand bedekt, van je ribben schuin naar beneden en naar je bekken loopt (alsof je je handen in je broekzakken steekt). Wanneer hij samentrekt, buigt hij je romp naar voren, draait hij je naar de tegenovergestelde kant en buigt hij je zijwaarts, alsof het een krachtige 'draaier' is die je romp in complexe bewegingen kan draaien en buigen, essentieel voor je 'core' kracht en stabiliteit.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Iliocostalis thoracis",
+    "description": "De Iliocostalis thoracis is een spier van de diepe rug, onderdeel van de erector spinae groep, die de thoracale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus thoracis, van de ribben naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext thoracale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis thoracis de thoracale wervelkolom. Bij unilaterale contractie buigt het de thoracale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Draagt bij aan de algemene stabiliteit van de ruggengraat.",
+        "Speelt een rol bij het uitvoeren van zijwaartse buigingen van de romp."
+      ],
+      "synergists": [
+        "Longissimus thoracis",
+        "Spinalis thoracis (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis thoracis voor als een lange, verticale 'band' van spier die langs de buitenkant van je bovenrug loopt, van rib naar rib. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Iliocostalis lumborum",
+    "description": "De Iliocostalis lumborum is een spier van de diepe rug, onderdeel van de erector spinae groep, die de lumbale wervelkolom extendert en lateraal buigt.",
+    "location": "Diep in de rug, lateraal van de Longissimus lumborum, van het bekken naar de ribben.",
+    "articulations": [],
+    "key_features": [
+      "Meest laterale kolom van de erector spinae in de lumbale regio."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extendert en lateraal flext lumbale wervelkolom.",
+      "mechanism_of_action": "Bij bilaterale contractie strekt de Iliocostalis lumborum de lumbale wervelkolom. Bij unilaterale contractie buigt het de lumbale wervelkolom lateraal naar de ipsilaterale zijde. Het speelt een belangrijke rol bij de houding en stabiliteit van de romp, en is cruciaal voor het tillen van zware objecten.",
+      "vertebral_movement_degrees": {
+        "extensie_graden": "5-10",
+        "laterale_flexie_graden_per_zijde": "5-10",
+        "note": "Geschatte bijdrage aan bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het handhaven van de rechtopstaande houding en het controleren van de rompbewegingen.",
+        "Cruciaal voor het tillen van zware objecten en het uitvoeren van buig- en strekbewegingen van de rug.",
+        "Vaak een bron van lage rugpijn bij overbelasting."
+      ],
+      "synergists": [
+        "Longissimus lumborum",
+        "Spinalis lumborum (voor extensie)",
+        "Quadratus lumborum (voor laterale flexie)"
+      ],
+      "antagonists": [
+        "Rectus abdominis",
+        "Oblique abdominis (voor rompfexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Iliocostalis lumborum voor als een lange, verticale 'band' van spier die langs de buitenkant van je lage rug loopt, van je bekken naar je ribben. Wanneer hij samentrekt, trekt hij je ruggengraat recht en buigt hij je zijwaarts, alsof het een 'stabilisator' is die je romp rechtop houdt en helpt bij zijwaartse bewegingen, essentieel voor het tillen van zware objecten.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Multifidus thoracis",
+    "description": "De Multifidus thoracis is een spier van de diepe rug, onderdeel van de transversospinalis groep, die de thoracale wervelkolom stabiliseert en assisteert bij extensie en rotatie.",
+    "location": "Diep in de thoracale wervelkolom, van de transversale processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Korte, segmentale spieren, overbruggen 2-4 wervelsegmenten."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de thoracale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de intercostale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Stabilizes vertebrae in local movements of vertebral column.",
+      "mechanism_of_action": "De Multifidus thoracis werkt als een diepe stabilisator van de thoracale wervelkolom, waardoor de individuele wervels worden gecontroleerd tijdens beweging. Bij bilaterale contractie assisteert het bij extensie van de rug. Unilaterale contractie veroorzaakt rotatie naar de contralaterale zijde en lichte laterale flexie. Zijn primaire rol is proprioceptief en segmentale stabilisatie.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de thoracale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen.",
+        "Disfunctie of zwakte kan leiden tot chronische rugpijn en instabiliteit."
+      ],
+      "synergists": [
+        "Rotatores thoracis",
+        "Spinalis thoracis",
+        "Longissimus thoracis (voor extensie en rotatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Multifidus thoracis voor als een reeks kleine, diepliggende 'draadjes' die diagonaal van de dwarsuitsteeksels van je bovenrugwervels omhoog lopen naar de doornuitsteeksels van de wervels erboven. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Multifidus lumborum",
+    "description": "De Multifidus lumborum is een spier van de diepe rug, onderdeel van de transversospinalis groep, die de lumbale wervelkolom stabiliseert en assisteert bij extensie en rotatie.",
+    "location": "Diep in de lumbale wervelkolom, van de mammillaire processus naar de doornuitsteeksels.",
+    "articulations": [],
+    "key_features": [
+      "Korte, segmentale spieren, overbruggen 2-4 wervelsegmenten."
+    ],
+    "dimensions": {
+      "length_mm": null,
+      "range": null,
+      "standard_deviation": null,
+      "unit": "mm"
+    },
+    "width_mm": null,
+    "thickness_mm": null
+    ,
+    "innervation": {
+      "nerve": "Dorsale rami van de lumbale spinale zenuwen.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de lumbale arteriën."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Stabilizes vertebrae in local movements of vertebral column.",
+      "mechanism_of_action": "De Multifidus lumborum werkt als een diepe stabilisator van de lumbale wervelkolom, waardoor de individuele wervels worden gecontroleerd tijdens beweging. Bij bilaterale contractie assisteert het bij extensie van de lage rug. Unilaterale contractie veroorzaakt rotatie naar de contralaterale zijde en lichte laterale flexie. Zijn primaire rol is proprioceptief en segmentale stabilisatie.",
+      "vertebral_stabilization_Nm": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor fijne motoriek en stabiliteit.",
+        "note": "Belangrijk voor segmentale controle."
+      },
+      "role_in_expression": [
+        "Essentieel voor de fijne controle en stabiliteit van de lumbale wervelkolom, wat bijdraagt aan de algehele houding en beweging van de romp.",
+        "Belangrijk voor proprioceptie, waardoor de hersenen de exacte positie van de ruggengraat kennen.",
+        "Disfunctie of zwakte kan leiden tot chronische lage rugpijn en instabiliteit."
+      ],
+      "synergists": [
+        "Rotatores lumborum",
+        "Spinalis lumborum",
+        "Longissimus lumborum (voor extensie en rotatie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Multifidus lumborum voor als een reeks kleine, diepliggende 'draadjes' die diagonaal van de mammillaire uitsteeksels van je lage rugwervels omhoog lopen naar de doornuitsteeksels van de wervels erboven. Het is als een 'micromanipulator' die de individuele wervels fijn afstelt en stabiliseert, waardoor je rug soepel en gecontroleerd kan bewegen, en je hersenen constant informeert over de positie van je ruggengraat.",
+    "status": "done",
+    "precisie_score": 8
+  }
+]

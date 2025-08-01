@@ -1,0 +1,198 @@
+{"sport_training_theory_db": [
+    {"concept": "Progressie",
+      "description": "Zorgt voor een stapsgewijze opbouw van technieken en strategieën, waarbij de complexiteit en moeilijkheidsgraad geleidelijk toenemen.",
+      "aspects": [
+        "Stapsgewijze opbouw: Begin met eenvoudige basisvaardigheden en voer geleidelijk de complexiteit op.",
+        "Progressieve weerstand: Geleidelijke verhoging van weerstand, druk of moeilijkheidsgraad.",
+        "Variatie: Introduceer verschillende spelvormen, omgevingen of regels om de sporter betrokken en uitgedaagd te houden."
+      ]
+    },{"concept": "Differentiatie",
+      "description": "Houdt rekening met individuele behoeften en capaciteiten van sporters door instructie en oefeningen aan te passen.",
+      "aspects": [
+        "Individuele behoeften: Pas instructie en oefeningen aan op basis van niveau, ervaring en capaciteiten.",
+        "Diverse leermethoden: Gebruik demonstraties, visuele instructies, verbale uitleg, praktische oefeningen en peer-to-peer leren.",
+        "Gedifferentieerde oefeningen: Pas oefeningen aan qua intensiteit, duur, weerstand of moeilijkheidsgraad.",
+        "Individuele begeleiding: Gerichte feedback en ondersteuning voor sterke en zwakke punten."
+      ]
+    },{"concept": "Progressie in Lesinhoud",
+      "description": "Gestructureerde en geleidelijke opbouw van lesinhoud om continue ontwikkeling te waarborgen.",
+      "aspects": [
+        "Opbouw van fundamenten: Leg een stevige basis van basisvaardigheden en -concepten.",
+        "Sequencing: Logische volgorde van presentatie, waarbij eerdere kennis bouwstenen zijn voor de volgende stappen.",
+        "Differentiatie: Pas de progressie aan op basis van individuele behoeften en capaciteiten.",
+        "Herhaling en verdieping: Consolideer vaardigheden en kennis met herhaling en introduceer complexere toepassingen.",
+        "Evaluatie en aanpassing: Monitor voortgang en pas de inhoud aan op basis van prestaties en behoeften."
+      ]
+    },{"concept": "Relevantie op Inhoud",
+      "description": "Verbindt lesinhoud met de realiteit en behoeften van sporters om waarde en belang te verduidelijken.",
+      "strategies": [
+        "Realistische context: Presenteer inhoud binnen een realistische sportomgeving (wedstrijdsituaties, uitdagingen).",
+        "Praktische toepassing: Benadruk hoe het geleerde kan worden gebruikt om prestaties te verbeteren.",
+        "Persoonlijke betekenis: Verbind inhoud met persoonlijke doelen, interesses en behoeften van sporters.",
+        "Cultuur en diversiteit: Zorg voor inclusieve lesinhoud die verschillende perspectieven omvat.",
+        "Voortgang en groei: Toon sporters hoe lesinhoud bijdraagt aan hun ontwikkeling en het bereiken van doelen."
+      ]
+    },{"concept": "Supercompensatiecurve",
+      "description": "Het fysiologische principe waarbij het lichaam na een trainingsprikkel en voldoende rust sterker wordt dan voorheen.",
+      "principles": [
+        "Na inspanning nemen energierijke glucosevoorraden af.",
+        "Voldoende rust (doorgaans 48 uur na zware inspanning) vult deze voorraden aan en maakt ze groter dan voorheen (overcompensatie).",
+        "Te weinig, te licht, te vaak of te zwaar sporten voorkomt het gewenste trainingseffect."
+      ],"application": "Duidelijk dat het niet 'hoe meer hoe beter' is. Dagelijks monitoren van HRV helpt bij het kiezen van het juiste trainings- of rustmoment om de piek in prestatievermogen te benutten."
+    },{"concept": "Trainingsfrequentie en Herstel",
+      "description": "De optimale frequentie van trainingen in relatie tot herstel om progressie te garanderen en overtraining/blessures te voorkomen.",
+      "guidelines": [
+        "Maximaal éénmaal per 48 uur trainen op een hoog intensiteitsniveau (glucoseverbranding) om optimale aanvulling van glucosevoorraden te waarborgen.",
+        "Minimaal 3 keer per week trainen is zinvol voor gezondheidsbevordering en conditieopbouw; één keer per week is onvoldoende effectief (effect verdwijnt na 4 dagen).",
+        "Niet rusten na inspanning is een veelvoorkomende fout, wat leidt tot uitputting en stagnerend herstel."
+      ]
+    },{"concept": "Belasting Protocollen (Fiets & Loopband)",
+      "description": "Gestandaardiseerde methoden voor het opbouwen van trainingsintensiteit tijdens tests.",
+      "guidelines_bike": [
+        "Niet te snel oplopen: voor gezonde mannen 20 Watt per minuut (starten op 20 Watt).",
+        "Voor ongetrainde vrouwen, ouderen, herstellende mensen: 10 Watt per minuut.",
+        "Rustige opbouw met kleine stappen is betrouwbaarder.",
+        "Gewichtsafhankelijke en voorspellende protocollen worden afgeraden."
+      ],"guidelines_running": [
+        "Inlopen op een snelheid die gemakkelijk gehaald kan worden (bijv. 2 km/u onder 10km duurloopsnelheid).",
+        "Progressie van 0.5 km/u per minuut of 1 km/u per 2 minuten tot maximale snelheid is bereikt."
+      ],"notes": "De testduur moet een goed compromis zijn tussen voldoende belasting en betrouwbaarheid."
+    },{"concept": "Trainingszones en Intensiteit",
+      "description": "Verschillende hartslagzones en hun relatie tot brandstofverbruik en trainingseffecten.",
+      "zones": [
+        {"name": "Wit vlak (Warming-up)", "HR_level": "Laag", "effect": "100% vetverbranding, nauwelijks effect op conditie, voelt makkelijk aan."},
+        {"name": "Geel vlak (Hersteltraining)", "HR_level": "Iets hoger dan wit", "effect": "75% vet, 25% suikerverbranding, licht trainingseffect, goed bij verhoogde ochtendpols."},
+        {"name": "Groen vlak (Duur 2)", "HR_level": "Optimaal (50% vet, 50% suiker)", "effect": "Meest belangrijk voor (her)winnen van energie, snelste en beste resultaat, max 1x/48u."},
+        {"name": "Paars vlak (Duur 3)", "HR_level": "Hoger dan groen (25% vet, 75% suiker)", "effect": "Extra trainingsprikkel, functioneel als conditie beter wordt."},
+        {"name": "Rood vlak (Snelheid/Kracht)", "HR_level": "Zeer hoog", "effect": "Interessant voor wedstrijdsport en explosiviteit, verzuring treedt op, te hoog voor conditietraining."}
+      ],"notes": "Hartslagen zijn specifiek per persoon en worden bepaald tijdens een inspanningstest. Een hoge hartslag betekent niet per definitie verzuring, maar kan wijzen op meer spiervezels die zuurstof nodig hebben."
+    },{"concept": "Lesindeling (Road & Fieldwork)",
+      "description": "Gestandaardiseerde indeling van een buitenles met een conditionele doelstelling.",
+      "phases": [
+        "Inleiding (minimaal 10 minuten sub-max inspanning): Tellen deelnemers, gewenning aan terreinomstandigheden. Belangrijk: instructeur loopt altijd een 'half pasje voor' om te sturen en competitie met de groep te vermijden.",
+        "Kern: Behandeling van alle 18 spiergroepen (frequentie, intensiteit, duur) met creativiteit en voldoende arbeidsintensiteit.",
+        "Kalmering: Leerling geestelijk en lichamelijk voorbereiden op naar huis gaan (wandelend en pratend de laatste honderd meter)."
+      ],"planning_elements": [
+        "Aantal-registratie/presentielijst",
+        "Keuze startplaats en terrein",
+        "Looprichting",
+        "Oefenstof omschrijving (series, reps, duur)",
+        "Cumulatieve minuten verloop"
+      ],"attire_outdoor": "2-laags sporttenue voor romp, lange trainingsbroek (kreupelhout), plastic folie om op te zitten/liggen, handdoek bij regen."
+    },{"concept": "Invloed van Omstandigheden op Training (Road & Fieldwork)",
+      "description": "Factoren die de invulling en intensiteit van buitenlessen beïnvloeden.",
+      "factors": [
+        "Temperatuur: Hogere temperatuur = meer 'oefeningen op de plaats'. Koudere temperatuur = meer oefeningen tijdens het voortgaan door het terrein.",
+        "Regen: Bossen bieden meer beschutting dan heide of velden.",
+        "Windsterkte: Bepaalt of in open terrein getraind kan worden (afkoeling).",
+        "Windrichting: Start tegen de wind in; eindig met de wind in de rug.",
+        "Seizoen: Vitaliteitsdieptepunt in februari-april vraagt om voorzichtigere opbouw (sub-max duurtrainingen beter dan interval max belasting).",
+        "Moment van de dag: Meer inspanning voor een werkdag dan erna.",
+        "Moment in de week: Begin van de week (ma/di) of weekend (vr/za/zo) kan gemaximaliseerd worden door rustdag ervoor."
+      ]
+    },{"concept": "Trainingsbegeleiding Kwaliteit",
+      "description": "Kenmerken van effectieve sportbegeleiding en herkenning van een goede test.",
+      "principles": [
+        "Individuele benadering: Rekening houden met sporthistorie, talent, beschikbare tijd, doelstellingen.",
+        "Testen als basis: Essentieel voor efficiënte training, inzicht in mogelijkheden/onmogelijkheden, blessurepreventie.",
+        "Objectieve metingen: Cruciaal, vermijd tabellen gebaseerd op '220-leeftijd'. Lactaattesten, ademhalingsmetingen (Energy Control apparatuur) zijn betrouwbaar.",
+        "Kwaliteit van test: Geijkte fiets, voldoende meetpunten, niet te snelle/grote belastingsstappen, ijken met uitgeademde lucht (niet kamerlucht).",
+        "Progressie bewaken: Meer vermogen leveren bij dezelfde hartslag, daling rustpols, stijging HRV, logboek bijhouden.",
+        "Coaching: Aandacht en kwaliteit worden gewaardeerd, communicatie over testmogelijkheden en programma's."
+      ]
+    },{"concept": "Variatie en Creativiteit in Lesgeven",
+      "description": "Cruciale elementen voor het vormgeven van lessen om motivatie en leerrendement te verhogen.",
+      "aspects": [
+        "Oefeningen en activiteiten: Varieer trainingsmethoden (circuittraining, intervaltraining, spelvormen), introduceer nieuwe en uitdagende oefeningen.",
+        "Trainingsmaterialen: Gebruik diverse materialen (ballen, hordes, pionnen, touwen, weerstandsbanden) om nieuwe oefeningen te creëren.",
+        "Aanpassen van regels en doelen: Verander spelregels, stel nieuwe uitdagingen, voeg wedstrijd/samenwerking/strategie toe.",
+        "Stimuleer eigen inbreng: Geef sporters ruimte voor eigen ideeën en nieuwe benaderingen.",
+        "Verbind met de context: Pas oefeningen aan de sportcontext aan, gebruik wedstrijdsituaties of scenario's."
+      ],"benefits": "Houdt sporters gemotiveerd, uitgedaagd en bevordert plezier; stimuleert probleemoplossend vermogen, flexibiliteit en creatief denken."
+    },{"concept": "Teambuilding",
+      "description": "Activiteiten en processen om samenwerking, communicatie, vertrouwen en cohesie binnen een team te verbeteren.",
+      "strategies": [
+        "Kennismaking (ijsbrekers, informele gesprekken)",
+        "Communicatie (luisteroefeningen, samenwerkingsopdrachten, rollenspellen)",
+        "Samenwerking (teamgerichte oefeningen, probleemoplossing, besluitvorming, flexibiliteit)",
+        "Vertrouwen en ondersteuning (vertrouwensspellen, persoonlijke ervaringen delen)",
+        "Doelgerichtheid (gemeenschappelijke doelen stellen)",
+        "Teamuitdagingen (hindernisbaan, gezamenlijke sportprestatie)",
+        "Teamreflectie (groepsgesprekken over successen/uitdagingen)",
+        "Sociale activiteiten (teamuitjes, maaltijden)",
+        "Leiderschapstraining (ontwikkeling van leiderschapspotentieel)",
+        "Feedback en waardering (erkennen van inspanningen en prestaties)."
+      ],"difficulties": [
+        "Weerstand en verzet van teamleden (scepsis, ongemak met persoonlijke info).",
+        "Conflicten en spanningen (vereist conflictoplossingsvaardigheden).",
+        "Diversiteit en individuele behoeften (aanpassen aan verschillende persoonlijkheden, achtergronden).",
+        "Tijd en middelen (voldoende tijd vinden in trainingsschema's)."
+      ],"benefits": [
+        "Versterking teamcohesie, verbetering communicatie, ontwikkeling leiderschap, stimulering creativiteit en probleemoplossend vermogen, bevordering positieve teamcultuur, verbeterde teamprestaties, verhoogde motivatie en betrokkenheid, vermindering conflicten."
+      ]
+    },{"concept": "Span of Support",
+      "description": "Het aantal sporters dat een docent effectief kan ondersteunen en begeleiden, inclusief directe instructie en algemene zorg.",
+      "importance": [
+        "Individuele begeleiding: Aandacht voor individuele prestaties, techniek en ontwikkeling.",
+        "Motivatie en zelfvertrouwen: Vergroten door ondersteuning en aanmoediging.",
+        "Mentale en emotionele ondersteuning: Luisteren naar zorgen, omgaan met stress en tegenslagen.",
+        "Individuele progressie: Gerichte feedback afgestemd op specifieke behoeften.",
+        "Bevordering van betrokkenheid: Gesteund en gewaardeerd voelen, wat motivatie stimuleert.",
+        "Preventie van blessures: Toezicht op uitvoering, identificatie van risicovolle situaties."
+      ],"challenges": [
+        "Tijdsbeheer: Beperkte tijd bij grote groepen.",
+        "Persoonlijke band opbouwen: Moeilijker bij grotere groepen.",
+        "Differentiatie: Uitdaging om maatwerk te bieden binnen een grote groep.",
+        "Beperkte middelen: Tijd, assistenten, ruimte beperken individuele aandacht.",
+        "Gebrek aan personalisatie: Moeilijk om sterke persoonlijke band op te bouwen.",
+        "Heterogeniteit van sporters: Verschillende niveaus, leeftijden, achtergronden vereisen aangepaste strategieën."
+      ]
+    },{"concept": "Klasgroottes Sportinstructie",
+      "description": "Overzicht van veelgebruikte klasgroottes in sportinstructie met bijbehorende voor- en nadelen.",
+      "types": [
+        {"size": "Individuele training (1 persoon)", "advantages": "Maximale individuele aandacht en focus, persoonlijke begeleiding, aanpassing aan specifieke behoeften.", "disadvantages": "Hoge kosten, beperkte interactie en competitieve elementen."},
+        {"size": "Kleine groepstraining (2-10 personen)", "advantages": "Individuele aandacht, interactie, teamwork, persoonlijke sfeer.", "disadvantages": "Minder individuele focus dan 1-op-1, beperkt maatwerk, minder flexibiliteit."},
+        {"size": "Middelgrote groepstraining (11-30 personen)", "advantages": "Meer diversiteit, groepsdynamiek, teambuilding, lagere kosten.", "disadvantages": "Beperkte individuele aandacht, moeilijk om training af te stemmen, uitdagingen bij groepsbeheer."},
+        {"size": "Grote groepstraining (31-50 personen)", "advantages": "Grotere dynamiek/energie, teambuilding/competitie, kostenbesparend.", "disadvantages": "Beperkte individuele aandacht/feedback, uitdagingen met orde/discipline, minder persoonlijke interactie."},
+        {"size": "Massatraining (meer dan 50 personen)", "advantages": "Kosteneffectief, groepsevenementen/demonstraties, stimulerende sfeer.", "disadvantages": "Zeer beperkte individuele aandacht, uitdagingen met orde/veiligheid, minder interactie/persoonlijke begeleiding."}
+      ],"notes": "Keuze afhankelijk van doelen, sport, middelen, behoeften. Balans tussen individuele aandacht en groepsinteractie is essentieel."
+    },{"concept": "Individueel Lesgeven",
+      "description": "Voordelen en uitdagingen van individueel lesgeven in de sport.",
+      "advantages": [
+        "Persoonlijke aandacht: Volledige focus op individuele behoeften, sterke en zwakke punten.",
+        "Gerichte ontwikkeling: Concentratie op specifieke vaardigheden, technieken en strategieën.",
+        "Snellere progressie: Snellere vooruitgang door volledige aandacht, grenzen verleggen.",
+        "Flexibiliteit en aanpassingsvermogen: Lessen aanpassen aan niveau, fysieke capaciteiten, leervvermogen, beschikbare tijd."
+      ],"disadvantages": [
+        "Kostbaar: Hogere kosten per sporter.",
+        "Minder sociale interactie: Gebrek aan groepsgevoel en teamtraining.",
+        "Minder wedstrijdervaring: Geen oefening/competitie met anderen, invloed op presteren onder druk.",
+        "Beperkte leermomenten: Minder kans om van anderen te leren of profiteren van peer-feedback."
+      ],"notes": "Belangrijk om evenwicht te vinden tussen individuele lessen en groepsactiviteiten."
+    },{"concept": "Sfeercurve",
+      "description": "De dynamiek en emoties die zich tijdens een sportles ontwikkelen, en het belang van het kunnen beïnvloeden ervan.",
+      "importance": [
+        "Motivatie en betrokkenheid: Positieve sfeer verhoogt deelname en inzet.",
+        "Vertrouwen en samenwerking: Bevordert onderlinge band en positieve groepsdynamiek.",
+        "Stressvermindering: Helpt sporters zich op hun gemak te voelen en optimaal te presteren.",
+        "Plezier en tevredenheid: Belangrijke motivator voor continuïteit in sport."
+      ],"influencing_factors_docent": [
+        "Positieve communicatie: Complimenten, aanmoediging, constructieve feedback.",
+        "Teamactiviteiten: Stimuleren samenwerking en interactie.",
+        "Variatie en uitdaging: Voorkomen verveling, houden sporters uitgedaagd.",
+        "Positieve groepscultuur: Respect, samenwerking, ondersteuning centraal.",
+        "Geef het goede voorbeeld: Wees positief, enthousiast, toon passie."
+      ],"notes": "Begrip en beïnvloeding vergt tijd en ervaring. Observeren van behoeften en reacties, luisteren naar feedback en aanpassingen maken."
+    },{"concept": "Verdeling van Oefenstof",
+      "description": "Strategische planning van oefeningen over de lesduur voor optimale benutting en effectiviteit.",
+      "importance": [
+        "Optimaal gebruik van lesduur: Alle aspecten van sport aan bod (warming-up, techniek, tactiek, spelvormen, cooling-down).",
+        "Progressieve opbouw van intensiteit: Geleidelijk opwarmen en voorbereiden op intensievere activiteiten, blessurepreventie.",
+        "Variatie en motivatie: Houdt sporters gemotiveerd en betrokken door nieuwe uitdagingen.",
+        "Specifieke leerdoelen: Gerichte ontwikkeling van vaardigheden en tactieken.",
+        "Tijd voor evaluatie en feedback: Voldoende ruimte voor observatie en input voor verbetering.",
+        "Afsluiting en reflectie: Passende cooling-down en moment voor bespreking van leerpunten en prestaties."
+      ]
+    }
+  ]
+}

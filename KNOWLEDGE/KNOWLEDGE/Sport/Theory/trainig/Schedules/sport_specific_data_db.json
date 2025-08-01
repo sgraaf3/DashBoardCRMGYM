@@ -1,0 +1,236 @@
+{"sport_specific_data_db": [
+    {"sport": "Aqua-Fitness",
+      "period": "4 maart t/m 8 maart",
+      "description": "Een les gericht op conditionele training in water met gebruik van dumbells.",
+      "exercises": [
+        {"nr": 1, "organization": "Lengte banen, dumbells onder je voeten.", "description": "Hardlopen (voor-zij-achter-zijwaarts hele banen)", "duration": "10 min", "notes": "Knieën heffen. 10x 10 versnellingen met hardlopen."},
+        {"nr": 2, "organization": "Staan in het ondiepe gedeelte", "description": "Armen zwaaien (naar voren en naar achteren, molen), armen tegelijk, armen om en om", "duration": "5 min", "notes": ""},
+        {"nr": 3, "organization": "Lengte banen. Dumbells onder de voeten of armen", "description": "Wisselslag (eerst alleen benen, dan alleen armen, daarna armen en benen)", "duration": "15 min", "notes": ""},
+        {"nr": 4, "organization": "Staan in het diepe, dumbells in je hand.", "description": "Neutrale positie benen onder, gezicht naar mij, ik wijs welke kant de benen op moeten.", "duration": "5 min", "notes": ""},
+        {"nr": 5, "organization": "Staan met schouders onder water", "description": "Borst/rug met licht gebogen armen, biceps/triceps, 2 tallen: dumbell schuin doorgeven", "duration": "5 min", "notes": ""},
+        {"nr": 6, "organization": "Liggen op je rug.", "description": "Ademhaling: In via de neus, uit via de mond.", "duration": "1 min", "notes": ""},
+        {"nr": 7, "organization": "In het ondiepe.", "description": "Rekken.", "duration": "4 min", "notes": ""}
+      ]
+    },{"sport": "Aqua-Joggen",
+      "period": "4 maart t/m 8 maart",
+      "description": "Zelfde oefeningen als Aqua-Fitness, maar zonder dumbells.",
+      "exercises": [
+        {"nr": "Zie hier boven", "organization": "Zonder dumbells", "description": "", "duration": "", "notes": ""}
+      ]
+    },{"sport": "CrossFit / WODs (Workouts Of the Day)",
+      "week": "Week 40 (2 oktober - 8 oktober)",
+      "description": "Voorbeelden van dagelijkse workouts met specifieke oefeningen, herhalingen, gewichten en tijdsdoelen. Gebruikt termen als AMRAP (As Many Rounds As Possible), EMOM (Every Minute On the Minute), RFT (Rounds For Time).",
+      "days": [
+        {"day": "MAANDAG 2 OKTOBER",
+          "wu": "6 AMRAP: 10 AIRSQUATS, 2 INCHWORMS, 40 M.CLIMBERS (L+R=2)",
+          "skill": "SNATCH (20 MINUTEN): HANG SNATCH (POWER EN FULL), SNATCH (POWER EN FULL). *Techniek is lastig, aandacht voor gezonde opbouw, deel-oefeningen voor minder ervaren deelnemers.",
+          "wod": "28 EMOM: A: 12 KB CLEANS (32/24) 6L 6R, B: 10 T2B, C: 10 GOOD MORNINGS (40/30), D: 100 SINGLES",
+          "express_wod": "20 EMOM: A: 10 BOX STEP UPS (2X 32/24), B: 12 KB CLEAN AND JERKS (32/24) 6 PER ARM, C: 10 SL DEADLIFTS (100/60), D: 45 SEC VLS"
+        },{"day": "DINSDAG 3 OKTOBER",
+          "wu": "DOORNEMEN ROEITECHNIEK EN TACTIEK, 1000M ROW FT*. *Eerste 200M alleen arm, dan tot 500M rug/arm, dan tot einde hele slag. Let op: armslag met rest lichaam totaal stil. Bij rug/arm benen gestrekt (15 MINUTEN TOTAAL).",
+          "skill": "DEADLIFT/ HANG POWER CLEANS/ PUSH JERK* (20 MINUTEN). *Laat deelnemers de tijd nemen techniek en opbouw goed te doen.",
+          "wod": "'DT' 5RFT (TC 20 MIN)*: 12 DEADLIFTS (70/47,5), 9 HANG POWER CLEANS (70/47,5), 6 PUSH JERKS (70/47,5). *DT is een zware benchmark WOD. RX is voor de sterkste deelnemers."
+        },{"day": "WOENSDAG 4 OKTOBER",
+          "wu": "TABATA AIRSQUATS/ PUSH UPS",
+          "wod": "'KAREN' FT (TC 13 MIN): 150 WALL BALLS (10/6)",
+          "s_and_s": "BACKSQUAT* (15 MINUTEN): TECHNIEK HIGH/LOW BAR PLUS VEILIGHEID. AANSLUITEND: WOD: 5-5-5-5 BACKSQUATS (NAAR EIGEN VERMOGEN) TC 12 MINUTEN *. *De 5 herhalingen moeten dermate intensief zijn dat een deelnemer echt rust nodig heeft voor de volgende serie. Typische 'heavy day'.",
+          "express_wod": "10 EMOM: A: 100 SINGLES, B: 45 SEC VLS. EXPRESS WOD: 20 EMOM: A: 5 BACK SQUATS, B: 15 KB SWINGS, C: 5 KB THRUSTERS (MET 2 KB’S), D: 45 SEC VLS"
+        },{"day": "DONDERDAG 5 OKTOBER",
+          "wu": "-1 RRR (RONDJE ROND REBEL), -50 KB SWINGS (AM 24/16), -1 RRR, - 50 KB GOBLET SQUATS (24/16)",
+          "skill": "JERKS* (20 MINUTEN): *UIT HET REK. ZOWEL SPLIT (VOOR EN ZIJWAARD) ALS PUSH. BOUW OP ALS DE TECHNIEK GOED IS.",
+          "wod": "'FAT AMY' (TC 20 MINUTEN): 50 AIRSQUATS, 10 BURPEES, 40 SIT UPS, 10 BURPEES, 30 LUNGES (ALT), 10 BURPEES, 20 KB SWINGS (AM 24/16), 10 BURPEES, 10 METER BEAR CRAWL, 10 BURPEES, 20 KB SWINGS (AM 24/16), 10 BURPEES, 30 LUNGES (ALT), 10 BURPEES, 40 SIT UPS, 10 BURPEES, 50 AIRSQUATS"
+        },{"day": "VRIJDAG 6 OKTOBER",
+          "wu": "4 NAAR DE OVERKANT, COMBINATIE INCHWORM EN BURPEE *. *START RECHTOP MET DE INCHWORM. NA HET OPDRUKKEN SPRING JE BIJ ZOALS BIJ EEN BURPEE EN STA JE WEER RECHTOP.",
+          "skill": "POWER CLEAN/ FRONT SQUAT/ JERK* (20 MINUTEN). *BOUW OP MET GOEDE TECHNIEK NAAR DE WOD GEWICHTEN.",
+          "wod": "15 AMRAP: A: 3 POWER CLEANS (75/60), B: 3 FRONT SQUATS (75/60), C: 3 JERKS (75/60)",
+          "skill_2": "UITLEG ROEITECHNIEK",
+          "wod_2": "250M ROW*: *VOLLE SPRINT"
+        },{"day": "ZATERDAG 7 OKTOBER",
+          "wu": "OPBOUW KANG SQUAT* (10 MINUTEN). *START ZONDER GEWICHT EN BOUW DAN OP MET MED BALL OF KB. ALS DE TECHNIEK GOED IS KAN ER EEN BARBELL WORDEN GEBRUIKT.",
+          "wod": "10 EMOM: 5 KANG SQUATS (NAAR VERMOGEN DEELNEMER)",
+          "wod_2": "'FILTHY FIFTY' (TC 22 MINUTEN): 50 BOX JUMPS (24/20), 50 JUMPING PULL UPS, 50 KB SWINGS (24/16), 50 WALKING LUNGES, 50 KNEES TO ELBOW, 50 PUSH PRESSES (20/15), 50 BACK EXTENTIONS, 50 WALL BALLS (10/6), 50 BURPEES, 50 DU’S",
+          "dessert": "'KLOKKENLUIDER'*: 150 KB SWINGS (RUS 32/24). *MUSICALE SUGGESTIE ‘BIM BAM’ ANDRE VAN DUIN"
+        }
+      ]
+    },{"sport": "Hardlopen (Marathon Revolution - 14K Methode)",
+      "description": "Een trainingsmethode ontwikkeld door Stans van der Poel en Koen de Jong, gericht op het lopen van een marathon met een maximale trainingsafstand van 14 km per sessie, met focus op hartslagzones en herstel.",
+      "principles": [
+        "Nooit meer dan 14km per training.",
+        "Trainen op marathon hartslag (Zone 3: 70-80% van max HR), wat zorgt voor efficiënte vetverbranding en glycogeenbesparing.",
+        "Nadruk op herstel: 4 trainingen per week, dagelijkse 10-minuten ademhalingsoefeningen voor ontspanning en herstel.",
+        "Kwaliteit boven kwantiteit: Minder kilometers, hogere intensiteit, minder blessurerisico (overtraining, overbelasting van pezen/kraakbeen).",
+        "Mentale voorbereiding: Maakt de marathon mentaal haalbaarder, consistentie in training verhoogt zelfvertrouwen."
+      ],"prerequisites": [
+        "Kunnen hardlopen: 10km in minder dan 65 minuten.",
+        "Gewichtslimiet: Lengte in cm - 100 + 10% = gewichtslimiet (bijv. 180cm -> 88kg). Overgewicht verhoogt blessurerisico bij hogere snelheden."
+      ],"pace_chart_creation": [
+        "Bepaal target 14k split time (via 10k race/time trial en race time predictor).",
+        "Plan voor consistente pacing (14k pace voor eerste 28km, lichte vertraging 5-10 sec/km in laatste 22.2km).",
+        "Optimaliseer trainingsruns (twee wekelijkse runs op MHR, één wekelijkse hogere intensiteit run, 'bird watching').",
+        "Ontwikkel mentale checkpoints (10K, 21.1K, 30K, 35K met mantras).",
+        "Houd rekening met parcours (hoogteprofiel, weer, pas aan voor heuvels).",
+        "Oefen je pace (gebruik hartslagmeter, focus op MHR)."
+      ],"benefits": [
+        "Tijd-efficiënt (langste run max 90 min).",
+        "Verminderd blessurerisico (minder overbelasting).",
+        "Maakt marathon haalbaar (mentale shift).",
+        "Kwaliteitstraining boven 'junk miles' (doelgerichte training).",
+        "Sneller herstel tussen runs.",
+        "Verbeterde mentale veerkracht."
+      ],"drawbacks": [
+        "Vereist discipline voor consistente hartslagtraining.",
+        "Mentale uitdaging om plan te vertrouwen (geen lange runs).",
+        "Gewichtslimiet (niet geschikt voor mensen met overgewicht).",
+        "Hogere loopsnelheid in training (niet voor 'wandelaars')."
+      ],"research_findings": "Analyse Rotterdam Marathon 2016 (Maarten Fornerod): 14K lopers toonden 30% minder tempoverval in tweede helft, finishten sneller, presteerden beter dan ervaren lopers, lager uitvalpercentage (3% vs 8.1%).",
+      "references": [
+        "Toresdahl, B., et al. (2022). Training patterns associated with injury in New York City Marathon runners. British Journal of Sports Medicine.",
+        "Macera, C., et al. (1989). Predicting lower-extremity injuries among habitual runners. Archives of internal medicine.",
+        "Smith, B., et al. (2018). Incidence and prevalence of patellofemoral pain: A systematic review and meta-analysis. PLoS ONE."
+      ],"historical_context": "Populaire in Nederland, opgepakt door Runner's World en De Volkskrant. Ontstaan uit revalidatie van toppers in de jaren '90. Contrast met traditionele plannen (jaren '70, gericht op snelle, ervaren lopers).",
+      "personal_experiences": "Stans van der Poel (Ironman na 4 weken voorbereiding), Koen de Jong (marathon in 3:09), Diana van Schijndel (geen shin splints, finish met glimlach), Ysbrand Visser (journalist Runner's World, Nederlands kampioen horden)."
+    },{"sport": "Wielrennen",
+      "description": "Training op vermogen (Watt training) versus hartslagtraining, en de combinatie daarvan.",
+      "power_training": {
+        "benefits": "Betrouwbare uitspraken over talent, inzicht in actuele kracht, motiverend bij vooruitgang.",
+        "notes": "Vermogen per kg of zuurstofopname per kg zijn goede voorspellers van succes. Meetfout van 10% bij 400 Watt is 40 Watt, wat veel is voor topatleten (2% verschil)."
+      },"heart_rate_training": {
+        "benefits": "Aanpassen aan de vorm van de dag, voorkomt overtraining. Lagere hartslag bij hetzelfde vermogen = efficiënter brandstofgebruik.",
+        "notes": "Hartslag is individueel, '220 - leeftijd' is een ruwe schatting. Gebruik betrouwbare test voor grenzen."
+      },"combination": "Combinatie van vermogen en hartslag is het beste voor vooruitgang en voorkoming van overtraining. Dagelijkse rustmeting onder dezelfde omstandigheden wordt aanbevolen.",
+      "case_study_lance_armstrong": "Ondanks doping, benadrukt het belang van talent, doorzettingsvermogen, focus en pijn kunnen lijden. Vermogen per kg of zuurstofopname per kg is cruciaal. Afvallen is de beste conditie verbeteraar."
+    },{"sport": "Triathlon",
+      "description": "Begeleiding voor (hele) triatlons, met nadruk op training op lage verbrandingsniveaus.",
+      "principles": "Lichaam moet wennen aan lopen en fietsen op lagere hartslagen (laag verbrandingsniveau). Vermijd te hoog of te laag trainen. Betrouwbare meting is essentieel om niveau exact te bepalen.",
+      "preparation": "Korte wedstrijden of goede 10km hardloopprestatie belangrijk voor schema's."
+    },{"sport": "Zwemmen",
+      "description": "Zwemmen als trainingsvorm en de impact op energieverbruik.",
+      "notes": "Kost niet veel energie, zelfs ontspannend. Armen werken het hardst, minder spiervezels dan benen. Pittig schoolslag zwemmen laat benen hard werken."
+    },{"sport": "Skeeleren",
+      "description": "Overwegingen bij skeeleren als trainingsvorm.",
+      "notes": "Te onregelmatig en kan stress opleveren als het druk is, daardoor niet de beste optie voor Energy Control training."
+    },{"sport": "Roeien / Steppen / Recline (Cardiofitness)",
+      "description": "Voorbeelden van cardiofitness apparaten die geschikt zijn voor training binnen de Energy Control methode.",
+      "notes": "Goede keuzes binnen de sportschool cardiofitness afdeling."
+    },{"sport": "Teamsporten / Tennis",
+      "description": "Impact van teamsporten op de verbrandingsbalans.",
+      "notes": "Geven veel onrust, lichaam komt niet in balans, steeds wisseling van verbrandingsvormen. Niet per definitie 'slecht', maar vereist dat lichaam weer kan uitrusten."
+    },{"sport": "Aqua-Fitness",
+      "period": "4 maart t/m 8 maart",
+      "description": "Een les gericht op conditionele training in water met gebruik van dumbells.",
+      "exercises": [
+        {"nr": 1, "organization": "Lengte banen, dumbells onder je voeten.", "description": "Hardlopen (voor-zij-achter-zijwaarts hele banen)", "duration": "10 min", "notes": "Knieën heffen. 10x 10 versnellingen met hardlopen."},
+        {"nr": 2, "organization": "Staan in het ondiepe gedeelte", "description": "Armen zwaaien (naar voren en naar achteren, molen), armen tegelijk, armen om en om", "duration": "5 min", "notes": ""},
+        {"nr": 3, "organization": "Lengte banen. Dumbells onder de voeten of armen", "description": "Wisselslag (eerst alleen benen, dan alleen armen, daarna armen en benen)", "duration": "15 min", "notes": ""},
+        {"nr": 4, "organization": "Staan in het diepe, dumbells in je hand.", "description": "Neutrale positie benen onder, gezicht naar mij, ik wijs welke kant de benen op moeten.", "duration": "5 min", "notes": ""},
+        {"nr": 5, "organization": "Staan met schouders onder water", "description": "Borst/rug met licht gebogen armen, biceps/triceps, 2 tallen: dumbell schuin doorgeven", "duration": "5 min", "notes": ""},
+        {"nr": 6, "organization": "Liggen op je rug.", "description": "Ademhaling: In via de neus, uit via de mond.", "duration": "1 min", "notes": ""},
+        {"nr": 7, "organization": "In het ondiepe.", "description": "Rekken.", "duration": "4 min", "notes": ""}
+      ]
+    },{"sport": "Aqua-Joggen",
+      "period": "4 maart t/m 8 maart",
+      "description": "Zelfde oefeningen als Aqua-Fitness, maar zonder dumbells.",
+      "exercises": [
+        {"nr": "Zie hier boven", "organization": "Zonder dumbells", "description": "", "duration": "", "notes": ""}
+      ]
+    },{"sport": "CrossFit / WODs (Workouts Of the Day)",
+      "week": "Week 40 (2 oktober - 8 oktober)",
+      "description": "Voorbeelden van dagelijkse workouts met specifieke oefeningen, herhalingen, gewichten en tijdsdoelen. Gebruikt termen als AMRAP (As Many Rounds As Possible), EMOM (Every Minute On the Minute), RFT (Rounds For Time).",
+      "days": [
+        {"day": "MAANDAG 2 OKTOBER",
+          "wu": "6 AMRAP: 10 AIRSQUATS, 2 INCHWORMS, 40 M.CLIMBERS (L+R=2)",
+          "skill": "SNATCH (20 MINUTEN): HANG SNATCH (POWER EN FULL), SNATCH (POWER EN FULL). *Techniek is lastig, aandacht voor gezonde opbouw, deel-oefeningen voor minder ervaren deelnemers.",
+          "wod": "28 EMOM: A: 12 KB CLEANS (32/24) 6L 6R, B: 10 T2B, C: 10 GOOD MORNINGS (40/30), D: 100 SINGLES",
+          "express_wod": "20 EMOM: A: 10 BOX STEP UPS (2X 32/24), B: 12 KB CLEAN AND JERKS (32/24) 6 PER ARM, C: 10 SL DEADLIFTS (100/60), D: 45 SEC VLS"
+        },{"day": "DINSDAG 3 OKTOBER",
+          "wu": "DOORNEMEN ROEITECHNIEK EN TACTIEK, 1000M ROW FT*. *Eerste 200M alleen arm, dan tot 500M rug/arm, dan tot einde hele slag. Let op: armslag met rest lichaam totaal stil. Bij rug/arm benen gestrekt (15 MINUTEN TOTAAL).",
+          "skill": "DEADLIFT/ HANG POWER CLEANS/ PUSH JERK* (20 MINUTEN). *Laat deelnemers de tijd nemen techniek en opbouw goed te doen.",
+          "wod": "'DT' 5RFT (TC 20 MIN)*: 12 DEADLIFTS (70/47,5), 9 HANG POWER CLEANS (70/47,5), 6 PUSH JERKS (70/47,5). *DT is een zware benchmark WOD. Zoals altijd is de RX voor de sterkste deelnemers;)"
+        },{"day": "WOENSDAG 4 OKTOBER",
+          "wu": "TABATA AIRSQUATS/ PUSH UPS",
+          "wod": "'KAREN' FT (TC 13 MIN): 150 WALL BALLS (10/6)",
+          "s_and_s": "BACKSQUAT* (15 MINUTEN): TECHNIEK HIGH/LOW BAR PLUS VEILIGHEID. AANSLUITEND: WOD: 5-5-5-5 BACKSQUATS (NAAR EIGEN VERMOGEN) TC 12 MINUTEN *. *De 5 herhalingen moeten dermate intensief zijn dat een deelnemer echt rust nodig heeft voor de volgende serie. Typische 'heavy day'.",
+          "express_wod": "10 EMOM: A: 100 SINGLES, B: 45 SEC VLS. EXPRESS WOD: 20 EMOM: A: 5 BACK SQUATS, B: 15 KB SWINGS, C: 5 KB THRUSTERS (MET 2 KB’S), D: 45 SEC VLS"
+        },{"day": "DONDERDAG 5 OKTOBER",
+          "wu": "-1 RRR (RONDJE ROND REBEL), -50 KB SWINGS (AM 24/16), -1 RRR, - 50 KB GOBLET SQUATS (24/16)",
+          "skill": "JERKS* (20 MINUTEN): *UIT HET REK. ZOWEL SPLIT (VOOR EN ZIJWAARD) ALS PUSH. BOUW OP ALS DE TECHNIEK GOED IS.",
+          "wod": "'FAT AMY' (TC 20 MINUTEN): 50 AIRSQUATS, 10 BURPEES, 40 SIT UPS, 10 BURPEES, 30 LUNGES (ALT), 10 BURPEES, 20 KB SWINGS (AM 24/16), 10 BURPEES, 10 METER BEAR CRAWL, 10 BURPEES, 20 KB SWINGS (AM 24/16), 10 BURPEES, 30 LUNGES (ALT), 10 BURPEES, 40 SIT UPS, 10 BURPEES, 50 AIRSQUATS"
+        },{"day": "VRIJDAG 6 OKTOBER",
+          "wu": "4 NAAR DE OVERKANT, COMBINATIE INCHWORM EN BURPEE *. *START RECHTOP MET DE INCHWORM. NA HET OPDRUKKEN SPRING JE BIJ ZOALS BIJ EEN BURPEE EN STA JE WEER RECHTOP.",
+          "skill": "POWER CLEAN/ FRONT SQUAT/ JERK* (20 MINUTEN). *BOUW OP MET GOEDE TECHNIEK NAAR DE WOD GEWICHTEN.",
+          "wod": "15 AMRAP: A: 3 POWER CLEANS (75/60), B: 3 FRONT SQUATS (75/60), C: 3 JERKS (75/60)",
+          "skill_2": "UITLEG ROEITECHNIEK",
+          "wod_2": "250M ROW*: *VOLLE SPRINT"
+        },{"day": "ZATERDAG 7 OKTOBER",
+          "wu": "OPBOUW KANG SQUAT* (10 MINUTEN). *START ZONDER GEWICHT EN BOUW DAN OP MET MED BALL OF KB. ALS DE TECHNIEK GOED IS KAN ER EEN BARBELL WORDEN GEBRUIKT.",
+          "wod": "10 EMOM: 5 KANG SQUATS (NAAR VERMOGEN DEELNEMER)",
+          "wod_2": "'FILTHY FIFTY' (TC 22 MINUTEN): 50 BOX JUMPS (24/20), 50 JUMPING PULL UPS, 50 KB SWINGS (24/16), 50 WALKING LUNGES, 50 KNEES TO ELBOW, 50 PUSH PRESSES (20/15), 50 BACK EXTENTIONS, 50 WALL BALLS (10/6), 50 BURPEES, 50 DU’S",
+          "dessert": "'KLOKKENLUIDER'*: 150 KB SWINGS (RUS 32/24). *MUSICALE SUGGESTIE ‘BIM BAM’ ANDRE VAN DUIN"
+        }
+      ]
+    },{"sport": "Hardlopen (Marathon Revolution - 14K Methode)",
+      "description": "Een trainingsmethode ontwikkeld door Stans van der Poel en Koen de Jong, gericht op het lopen van een marathon met een maximale trainingsafstand van 14 km per sessie, met focus op hartslagzones en herstel.",
+      "principles": [
+        "Nooit meer dan 14km per training.",
+        "Trainen op marathon hartslag (Zone 3: 70-80% van max HR), wat zorgt voor efficiënte vetverbranding en glycogeenbesparing.",
+        "Nadruk op herstel: 4 trainingen per week, dagelijkse 10-minuten ademhalingsoefeningen voor ontspanning en herstel.",
+        "Kwaliteit boven kwantiteit: Minder kilometers, hogere intensiteit, minder blessurerisico (overtraining, overbelasting van pezen/kraakbeen).",
+        "Mentale voorbereiding: Maakt de marathon mentaal haalbaarder, consistentie in training verhoogt zelfvertrouwen."
+      ],"prerequisites": [
+        "Kunnen hardlopen: 10km in minder dan 65 minuten.",
+        "Gewichtslimiet: Lengte in cm - 100 + 10% = gewichtslimiet (bijv. 180cm -> 88kg). Overgewicht verhoogt blessurerisico bij hogere snelheden."
+      ],"pace_chart_creation": [
+        "Bepaal target 14k split time (via 10k race/time trial en race time predictor).",
+        "Plan voor consistente pacing (14k pace voor eerste 28km, lichte vertraging 5-10 sec/km in laatste 22.2km).",
+        "Optimaliseer trainingsruns (twee wekelijkse runs op MHR, één wekelijkse hogere intensiteit run, 'bird watching').",
+        "Ontwikkel mentale checkpoints (10K, 21.1K, 30K, 35K met mantras).",
+        "Houd rekening met parcours (hoogteprofiel, weer, pas aan voor heuvels).",
+        "Oefen je pace (gebruik hartslagmeter, focus op MHR)."
+      ],"benefits": [
+        "Tijd-efficiënt (langste run max 90 min).",
+        "Verminderd blessurerisico (minder overbelasting).",
+        "Maakt marathon haalbaar (mentale shift).",
+        "Kwaliteitstraining boven 'junk miles' (doelgerichte training).",
+        "Sneller herstel tussen runs.",
+        "Verbeterde mentale veerkracht."
+      ],"drawbacks": [
+        "Vereist discipline voor consistente hartslagtraining.",
+        "Mentale uitdaging om plan te vertrouwen (geen lange runs).",
+        "Gewichtslimiet (niet geschikt voor mensen met overgewicht).",
+        "Hogere loopsnelheid in training (niet voor 'wandelaars')."
+      ],"research_findings": "Analyse Rotterdam Marathon 2016 (Maarten Fornerod): 14K lopers toonden 30% minder tempoverval in tweede helft, finishten sneller, presteerden beter dan ervaren lopers, lager uitvalpercentage (3% vs 8.1%).",
+      "references": [
+        "Toresdahl, B., et al. (2022). Training patterns associated with injury in New York City Marathon runners. British Journal of Sports Medicine.",
+        "Macera, C., et al. (1989). Predicting lower-extremity injuries among habitual runners. Archives of internal medicine.",
+        "Smith, B., et al. (2018). Incidence and prevalence of patellofemoral pain: A systematic review and meta-analysis. PLoS ONE."
+      ],"historical_context": "Populaire in Nederland, opgepakt door Runner's World en De Volkskrant. Ontstaan uit revalidatie van toppers in de jaren '90. Contrast met traditionele plannen (jaren '70, gericht op snelle, ervaren lopers).",
+      "personal_experiences": "Stans van der Poel (Ironman na 4 weken voorbereiding), Koen de Jong (marathon in 3:09), Diana van Schijndel (geen shin splints, finish met glimlach), Ysbrand Visser (journalist Runner's World, Nederlands kampioen horden)."
+    },{"sport": "Wielrennen",
+      "description": "Training op vermogen (Watt training) versus hartslagtraining, en de combinatie daarvan.",
+      "power_training": {
+        "benefits": "Betrouwbare uitspraken over talent, inzicht in actuele kracht, motiverend bij vooruitgang.",
+        "notes": "Vermogen per kg of zuurstofopname per kg zijn goede voorspellers van succes. Meetfout van 10% bij 400 Watt is 40 Watt, wat veel is voor topatleten (2% verschil)."
+      },"heart_rate_training": {
+        "benefits": "Aanpassen aan de vorm van de dag, voorkomt overtraining. Lagere hartslag bij hetzelfde vermogen = efficiënter brandstofgebruik.",
+        "notes": "Hartslag is individueel, '220 - leeftijd' is een ruwe schatting. Gebruik betrouwbare test voor grenzen."
+      },"combination": "Combinatie van vermogen en hartslag is het beste voor vooruitgang en voorkoming van overtraining. Dagelijkse rustmeting onder dezelfde omstandigheden wordt aanbevolen.",
+      "case_study_lance_armstrong": "Ondanks doping, benadrukt het belang van talent, doorzettingsvermogen, focus en pijn kunnen lijden. Vermogen per kg of zuurstofopname per kg is cruciaal. Afvallen is de beste conditie verbeteraar."
+    },{"sport": "Triathlon",
+      "description": "Begeleiding voor (hele) triatlons, met nadruk op training op lage verbrandingsniveaus.",
+      "principles": "Lichaam moet wennen aan lopen en fietsen op lagere hartslagen (laag verbrandingsniveau). Vermijd te hoog of te laag trainen. Betrouwbare meting is essentieel om niveau exact te bepalen.",
+      "preparation": "Korte wedstrijden of goede 10km hardloopprestatie belangrijk voor schema's."
+    },{"sport": "Zwemmen",
+      "description": "Zwemmen als trainingsvorm en de impact op energieverbruik.",
+      "notes": "Kost niet veel energie, zelfs ontspannend. Armen werken het hardst, minder spiervezels dan benen. Pittig schoolslag zwemmen laat benen hard werken."
+    },{"sport": "Skeeleren",
+      "description": "Overwegingen bij skeeleren als trainingsvorm.",
+      "notes": "Te onregelmatig en kan stress opleveren als het druk is, daardoor niet de beste optie voor Energy Control training."
+    },{"sport": "Roeien / Steppen / Recline (Cardiofitness)",
+      "description": "Voorbeelden van cardiofitness apparaten die geschikt zijn voor training binnen de Energy Control methode.",
+      "notes": "Goede keuzes binnen de sportschool cardiofitness afdeling."
+    },{"sport": "Teamsporten / Tennis",
+      "description": "Impact van teamsporten op de verbrandingsbalans.",
+      "notes": "Geven veel onrust, lichaam komt niet in balans, steeds wisseling van verbrandingsvormen. Niet per definitie 'slecht', maar vereist dat lichaam weer kan uitrusten."
+    }
+  ]
+}

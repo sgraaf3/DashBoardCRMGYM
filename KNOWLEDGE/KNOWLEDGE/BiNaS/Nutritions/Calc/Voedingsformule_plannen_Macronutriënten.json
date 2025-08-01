@@ -1,0 +1,232 @@
+{"NutritionFormulas": [
+    {"categorie": "Energiebehoeften (Calorieberekening)",
+      "subType": "Basis Metabolische Snelheid (BMS) & Totaal Dagelijks Energieverbruik (TDEV)",
+      "formules": [
+          {"naam": "Basis Metabolische Snelheid (BMS) - Mifflin-St Jeor Formule",
+            "beschrijving": "Schat het aantal calorieën dat het lichaam in rust verbrandt om basale fysiologische functies te onderhouden. Dit is de 'minimale' energiebehoefte voor overleving.",
+            "formule": "Voor Mannen: $$BMS = (10 \\times Gewicht_{kg}) + (6.25 \\times Lengte_{cm}) - (5 \\times Leeftijd_{jaren}) + 5$$ Voor Vrouwen: $$BMS = (10 \\times Gewicht_{kg}) + (6.25 \\times Lengte_{cm}) - (5 \\times Leeftijd_{jaren}) - 161$$",
+            "variabelen": [
+              { "naam": "BMS", "beschrijving": "Basis Metabolische Snelheid", "eenheid": "calorieën/dag" },
+              { "naam": "$Gewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+              { "naam": "$Lengte_{cm}$", "beschrijving": "Lengte", "eenheid": "cm" },
+              { "naam": "$Leeftijd_{jaren}$", "beschrijving": "Leeftijd", "eenheid": "jaren" }
+            ],"notities": "Wordt beschouwd als een van de meest nauwkeurige voorspellende vergelijkingen voor BMS. Andere formules bestaan (bijv. Harris-Benedict). Dit vertegenwoordigt de 'minimale' caloriebehoefte in rust."
+          },{"naam": "Totaal Dagelijks Energieverbruik (TDEV)",
+            "beschrijving": "Schat het totale aantal calorieën dat op een dag wordt verbrand, inclusief BMS en fysieke activiteit. Dit kan de 'maximale' energiebehoefte vertegenwoordigen, afhankelijk van het activiteitsniveau.",
+            "formule": "$$TDEV = BMS \\times Activiteitsfactor$$",
+            "variabelen": [
+              { "naam": "TDEV", "beschrijving": "Totaal Dagelijks Energieverbruik", "eenheid": "calorieën/dag" },
+              { "naam": "BMS", "beschrijving": "Basis Metabolische Snelheid", "eenheid": "calorieën/dag" },
+              { "naam": "Activiteitsfactor", "beschrijving": "Vermenigvuldigingsfactor gebaseerd op activiteitsniveau (bijv. Zittend: 1.2, Licht actief: 1.375, Matig actief: 1.55, Zeer actief: 1.725, Extra actief: 1.9)" }
+            ], "notities": "Wordt gebruikt om de calorie-inname te bepalen voor gewichtsbehoud, -verlies of -toename."
+          },{"naam": "Calorietekort/Overschot",
+            "beschrijving": "Het verschil tussen de geconsumeerde en verbruikte calorieën, wat de gewichtsverandering bepaalt. Een 'tekort' is een negatieve waarde, een 'overschot' is positief.",
+            "formule": "$$Calorietekort/Overschot = Calorie-inname - TDEV$$",
+            "variabelen": [
+              { "naam": "Calorietekort/Overschot", "beschrijving": "Netto caloriebalans", "eenheid": "calorieën/dag" },
+              { "naam": "Calorie-inname", "beschrijving": "Totaal aantal geconsumeerde calorieën", "eenheid": "calorieën/dag" },
+              { "naam": "TDEV", "beschrijving": "Totaal Dagelijks Energieverbruik", "eenheid": "calorieën/dag" }
+            ],"notities": "Een tekort leidt tot gewichtsverlies, een overschot tot gewichtstoename. Ongeveer 7700 calorieën = 1 kg lichaamsvet."
+          }
+        ]
+    },{"categorie": "Macronutriëntenberekening",
+      "subType": "Verdeling van Eiwitten, Koolhydraten en Vetten",
+      "formules": [
+        {"naam": "Macronutriënten in Grammen (bijv. Eiwit)",
+          "beschrijving": "Berekent de doelgrammen van een specifiek macronutriënt op basis van de totale calorie-inname en het gewenste percentage. Kan worden gebruikt om 'minimale' of 'maximale' inname voor specifieke doelen te bepalen.",
+          "formule": "$$Grammen_{Macro} = \\frac{Totaal Calorieën \\times \\%Calorieën_{Macro}}{Calorieën Per Gram_{Macro}}$$",
+          "variabelen": [
+            { "naam": "$Grammen_{Macro}$", "beschrijving": "Grammen van het specifieke macronutriënt", "eenheid": "g" },
+            { "naam": "Totaal Calorieën", "beschrijving": "Totale dagelijkse calorie-inname", "eenheid": "calorieën" },
+            { "naam": "$\\%Calorieën_{Macro}$", "beschrijving": "Gewenst percentage calorieën van dat macronutriënt (bijv. 0.30 voor 30%)", "eenheid": "%" },
+            { "naam": "$Calorieën Per Gram_{Macro}$", "beschrijving": "Calorische waarde per gram (Eiwit: 4 kcal/g, Koolhydraten: 4 kcal/g, Vet: 9 kcal/g)", "eenheid": "kcal/g" }
+          ],"notities": "Gebruikt voor nauwkeurige dieetplanning om fitnessdoelen te ondersteunen. Bijvoorbeeld, een 'minimale' eiwitinname kan 0.8g/kg lichaamsgewicht zijn, terwijl een 'maximale' 2.2g/kg of meer kan zijn voor spiergroei."
+        },{"naam": "Eiwitbehoefte per Lichaamsgewicht",
+          "beschrijving": "Berekent de aanbevolen dagelijkse eiwitinname op basis van lichaamsgewicht, vaak uitgedrukt in grammen per kilogram lichaamsgewicht.",
+          "formule": "$$Eiwit_{gram} = Lichaamsgewicht_{kg} \\times Eiwitfactor_{g/kg}$$",
+          "variabelen": [
+            { "naam": "$Eiwit_{gram}$", "beschrijving": "Dagelijkse eiwitinname", "eenheid": "g" },
+            { "naam": "$Lichaamsgewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+            { "naam": "$Eiwitfactor_{g/kg}$", "beschrijving": "Aanbevolen eiwit per kg lichaamsgewicht (bijv. 0.8 voor algemeen, 1.6-2.2 voor sporters)", "eenheid": "g/kg" }
+          ],"notities": "De eiwitfactor varieert sterk afhankelijk van activiteitsniveau, leeftijd en doelen (bijv. spiergroei, gewichtsverlies)."
+        },{"naam": "Koolhydraatbehoefte per Lichaamsgewicht",
+          "beschrijving": "Berekent de aanbevolen dagelijkse koolhydraatinname op basis van lichaamsgewicht, vaak uitgedrukt in grammen per kilogram lichaamsgewicht, vooral voor sporters.",
+          "formule": "$$Koolhydraat_{gram} = Lichaamsgewicht_{kg} \\times Koolhydraatfactor_{g/kg}$$",
+          "variabelen": [
+            { "naam": "$Koolhydraat_{gram}$", "beschrijving": "Dagelijkse koolhydraatinname", "eenheid": "g" },
+            { "naam": "$Lichaamsgewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+            { "naam": "$Koolhydraatfactor_{g/kg}$", "beschrijving": "Aanbevolen koolhydraat per kg lichaamsgewicht (bijv. 3-10 voor sporters, afhankelijk van intensiteit)", "eenheid": "g/kg" }
+          ],"notities": "De behoefte aan koolhydraten is sterk afhankelijk van de trainingsintensiteit en duur. Hogere factoren voor duursporters."
+        },{"naam": "Vetbehoefte per Lichaamsgewicht",
+          "beschrijving": "Berekent de aanbevolen dagelijkse vetinname op basis van lichaamsgewicht, vaak uitgedrukt in grammen per kilogram lichaamsgewicht.",
+          "formule": "$$Vet_{gram} = Lichaamsgewicht_{kg} \\times Vetfactor_{g/kg}$$",
+          "variabelen": [
+            { "naam": "$Vet_{gram}$", "beschrijving": "Dagelijkse vetinname", "eenheid": "g" },
+            { "naam": "$Lichaamsgewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+            { "naam": "$Vetfactor_{g/kg}$", "beschrijving": "Aanbevolen vet per kg lichaamsgewicht (bijv. 0.5-1.0)", "eenheid": "g/kg" }
+          ],"notities": "Vetinname is cruciaal voor hormoonproductie en algehele gezondheid. Vaak uitgedrukt als een percentage van de totale calorieën (bijv. 20-35%)."
+        }
+      ]
+    },{"categorie": "Micronutriënten & Voedingsrichtlijnen",
+      "subType": "Aanbevolen Dagelijkse Hoeveelheden (ADH) & Referentie-innames",
+      "formules": [
+        {"naam": "Aanbevolen Dagelijkse Hoeveelheden (ADH) / Dietary Reference Intakes (DRIs)",
+          "beschrijving": "Vastgestelde waarden voor de inname van vitaminen en mineralen om tekorten te voorkomen en optimale gezondheid te ondersteunen. Dit zijn 'minimale' tot 'optimale' innamehoeveelheden.",
+          "formule": "Geen specifieke formule; dit zijn vastgestelde referentiewaarden per nutriënt, variërend per leeftijd, geslacht, zwangerschap/lactatie, en activiteitsniveau.",
+          "variabelen": [
+            { "naam": "Nutriënt", "beschrijving": "Specifieke vitamine of mineraal (bijv. Vitamine C, IJzer, Calcium)" },
+            { "naam": "ADH Waarde", "beschrijving": "Aanbevolen dagelijkse inname", "eenheid": "mg, µg, IE" }
+          ],"notities": "Deze waarden worden gepubliceerd door nationale en internationale gezondheidsorganisaties (bijv. Gezondheidsraad in Nederland, USDA in VS). Overschrijding van de 'maximale' toelaatbare inname (Tolerable Upper Intake Levels - ULs) kan toxiciteit veroorzaken."
+        },{"naam": "Nutriëntdichtheid Index",
+          "beschrijving": "Een maat voor de hoeveelheid nutriënten per calorie in een voedingsmiddel, om voedingsmiddelen te identificeren die veel nutriënten leveren met relatief weinig calorieën.",
+          "formule": "$$Nutriëntdichtheid = \\frac{\\% ADH van Nutriënt}{Calorieën per portie} \\times 100$$",
+          "variabelen": [
+            { "naam": "Nutriëntdichtheid", "beschrijving": "Nutriëntdichtheidsscore", "eenheid": "eenheidsloos" },
+            { "naam": "% ADH van Nutriënt", "beschrijving": "Percentage van de aanbevolen dagelijkse hoeveelheid van een specifiek nutriënt in een portie" },
+            { "naam": "Calorieën per portie", "beschrijving": "Aantal calorieën in die portie" }
+          ],"notities": "Hogere scores duiden op een hogere nutriëntdichtheid. Helpt bij het kiezen van voedingsmiddelen die 'maximaal' nutriënten leveren voor 'minimale' calorieën."
+        }
+      ]
+    },{"categorie": "Dieetplannen & Analyse",
+      "subType": "Specifieke Dieetbenaderingen & Evaluatie",
+      "formules": [
+        {"naam": "Eiwit/Koolhydraat/Vet Verhouding",
+          "beschrijving": "De procentuele verdeling van calorieën over eiwitten, koolhydraten en vetten in een dieetplan.",
+          "formule": "$$\\text{Verhouding} = \\%Eiwit : \\%Koolhydraten : \\%Vetten$$",
+          "variabelen": [
+            { "naam": "%Eiwit", "beschrijving": "Percentage calorieën uit eiwit" },
+            { "naam": "%Koolhydraten", "beschrijving": "Percentage calorieën uit koolhydraten" },
+            { "naam": "%Vetten", "beschrijving": "Percentage calorieën uit vet" }
+          ],"notities": "Gangbare verhoudingen variëren sterk (bijv. 30/40/30 voor gebalanceerd, 20/50/30 voor duursporters, 40/30/30 voor gewichtsverlies/spierbehoud). Dit is een 'maximale' of 'minimale' focus op bepaalde macronutriënten."
+        },{"naam": "Glycemische Index (GI) / Glycemische Lading (GL)",
+          "beschrijving": "De Glycemische Index (GI) meet hoe snel koolhydraten in een voedingsmiddel de bloedsuikerspiegel verhogen. De Glycemische Lading (GL) houdt rekening met zowel de GI als de portiegrootte.",
+          "formule": "$$GL = \\frac{GI \\times Hoeveelheid Koolhydraten (gram)}{100}$$",
+          "variabelen": [
+            { "naam": "GL", "beschrijving": "Glycemische Lading", "eenheid": "eenheidsloos" },
+            { "naam": "GI", "beschrijving": "Glycemische Index", "eenheid": "eenheidsloos" },
+            { "naam": "Hoeveelheid Koolhydraten", "beschrijving": "Grammen koolhydraten in een portie", "eenheid": "g" }
+          ],"notities": "Lage GI/GL voedingsmiddelen zorgen voor een stabielere bloedsuikerspiegel. Belangrijk voor diabetesmanagement en duurprestaties. De 'minimale' of 'maximale' impact op de bloedsuikerspiegel."
+        },{"naam": "Vezelinname",
+          "beschrijving": "De aanbevolen dagelijkse inname van vezels voor darmgezondheid en verzadiging.",
+          "formule": "Geen specifieke formule; aanbevelingen zijn vaak in grammen per dag (bijv. 25-30g/dag voor volwassenen).",
+          "variabelen": [
+            { "naam": "Vezelinname", "beschrijving": "Dagelijkse vezelinname", "eenheid": "g/dag" }
+          ],"notities": "Een 'minimale' inname is cruciaal voor gezondheid, terwijl een 'maximale' inname (te veel) spijsverteringsproblemen kan veroorzaken."
+        },{"naam": "Hydratatiestatus (Urine Kleur Schaal)",
+          "beschrijving": "Een subjectieve, maar veelgebruikte methode om de hydratatiestatus te beoordelen op basis van de kleur van de urine. Donkere urine duidt op 'minimale' hydratatie.",
+          "formule": "Visuele schaal van 1 (zeer lichtgeel/helder) tot 8 (donkerbruin).",
+          "variabelen": [
+            { "naam": "Urine Kleur Score", "beschrijving": "Score op de urineschaal", "eenheid": "eenheidsloos" }
+          ],"notities": "Lichtere kleuren (1-3) duiden op goede hydratatie, donkere kleuren (4+) op uitdroging. Dit is een snelle visuele indicator, geen analytische formule."
+        },{"naam": "Waterbehoefte",
+          "beschrijving": "Schatting van de dagelijkse waterbehoefte, afhankelijk van lichaamsgewicht en activiteitsniveau.",
+          "formule": "$$Waterbehoefte (L) = Lichaamsgewicht (kg) \\times 0.03$$ (basisrichtlijn) + extra voor activiteit en omgevingsfactoren",
+          "variabelen": [
+            { "naam": "Waterbehoefte", "beschrijving": "Dagelijkse waterinname", "eenheid": "L" },
+            { "naam": "Lichaamsgewicht", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" }
+          ],"notities": "Dit is een basisrichtlijn; individuele behoeften variëren sterk. Sporters en mensen in warme klimaten hebben een 'maximale' behoefte."
+        }
+      ]
+    },{"categorie": "Algemene Macronutriënten Informatie",
+      "subType": "Feiten & Aanbevelingen",
+      "formules": [{"naam": "Eiwitten Algemeen",
+          "description": "Essentieel voor spiergroei en -herstel, enzymen, hormonen en immuunfunctie.",
+          "recommendations": {
+            "general_adults": "0.8 - 1.0 gram per kg lichaamsgewicht",
+            "resistance_training": "1.6 - 2.2 gram per kg lichaamsgewicht",
+            "endurance_athletes": "1.2 - 1.8 gram per kg lichaamsgewicht"
+          },"examples_per_100g": {
+              "kipfilet_gekookt": "31g",
+              "rundvlees_mager": "26g",
+              "zalm_gekookt": "22g",
+              "eieren_groot": "13g",
+              "kwark_mager": "11g",
+              "linzen_gekookt": "9g"
+  },"relevance_human_algorithm": "De 'bouwstenen' voor algoritme-ontwikkeling en -onderhoud; essentieel voor de integriteit en reparatie van het systeem, en de constructie van nieuwe modules."
+        },{"naam": "Koolhydraten Algemeen",
+          "description": "Primaire energiebron voor het lichaam en de hersenen.",
+          "recommendations": {
+            "general_adults": "45-65% van totale calorieën",
+            "high_intensity_exercise": "5-10 gram per kg lichaamsgewicht (afhankelijk van duur en intensiteit)"
+          },"examples_per_100g": {
+            "rijst_gekookt": "28g",
+            "havervlokken_droog": "66g",
+            "brood_volkoren": "41g",
+            "aardappelen_gekookt": "17g",
+            "banaan": "23g",
+            "broccoli": "7g"
+          },"relevance_human_algorithm": "De 'brandstof' voor computationele processen; de primaire energiebron voor het uitvoeren van instructies en het verwerken van data."
+        },{"naam": "Vetten Algemeen",
+          "description": "Essentieel voor hormoonproductie, vitamine-absorptie, celmembranen en energiereserves.",
+          "recommendations": {
+            "general_adults": "20-35% van totale calorieën",
+            "saturated_fat": "<10% van totale calorieën"
+          },"examples_per_100g": {
+            "olijfolie": "100g",
+            "avocado": "15g",
+            "amandelen": "49g",
+            "vette_vis_zalm": "13g",
+            "boter": "81g"
+          },"relevance_human_algorithm": "De 'lange-termijn opslag' en 'structurele componenten' van het algoritme; cruciaal voor stabiliteit, communicatie tussen modules en reserve-energie."
+        }
+      ]
+    },{"categorie": "Algemene Micronutriënten Informatie",
+      "subType": "Vitaminen & Mineralen Overzicht",
+      "formules": [
+        {"naam": "Vitaminen Algemeen",
+          "description": "Organische verbindingen nodig in kleine hoeveelheden voor diverse lichaamsfuncties.",
+          "categories": {"fat_soluble": [
+              "Vitamine A (zicht, immuunfunctie)",
+              "Vitamine D (botgezondheid, immuunfunctie)",
+              "Vitamine E (antioxidant)",
+              "Vitamine K (bloedstolling, botgezondheid)"
+              ],"water_soluble": [
+                "Vitamine C (immuunfunctie, collageensynthese)",
+                "B-vitamines (energieproductie, zenuwfunctie)"
+              ]
+            },"relevance_human_algorithm": "De 'co-factoren' of 'configuratieparameters' die kleine, maar cruciale, aanpassingen mogelijk maken voor de optimale werking van specifieke subroutines of modules."
+        },{"naam": "Mineralen Algemeen",
+          "description": "Anorganische elementen nodig voor botten, tanden, zenuwfunctie, vloeistofbalans, etc.",
+          "categories": {
+            "macro_minerals": [
+              "Calcium (botten, spierfunctie)",
+              "Magnesium (spier- en zenuwfunctie, energie)",
+              "Kalium (vloeistofbalans, bloeddruk)",
+              "Natrium (vloeistofbalans, zenuwfunctie)",
+              "Fosfor (botten, DNA/RNA)",
+              "Zwavel (eiwitsynthese)"
+            ],"trace_minerals": [
+              "IJzer (zuurstoftransport)",
+              "Zink (immuunfunctie, wondgenezing)",
+              "Selenium (antioxidant)",
+              "Jodium (schildklierfunctie)",
+              "Koper (energieproductie, ijzermetabolisme)",
+              "Mangaan (botvorming, metabolisme)",
+              "Chroom (glucosemetabolisme)",
+              "Fluoride (tandgezondheid)"
+            ]
+          },"relevance_human_algorithm": "De 'essentiële bibliotheken' of 'frameworks' die de fundamentele functionaliteit van het algoritme ondersteunen, van data-overdracht tot structurele integriteit."
+        }
+      ]
+    },{"categorie": "Analytische Gegevens & Referenties",
+      "subType": "Bronnen & Richtlijnen",
+      "formules": [
+        {"naam": "Voedingscompositie Databases",
+          "description": "Data over de precieze voedingswaarde van duizenden voedingsmiddelen.",
+          "examples": [
+            "USDA FoodData Central (VS)",
+            "NEVO-online (Nederland)",
+            "Food Composition Databases van EFSA (Europa)"
+          ],"relevance_human_algorithm": "De 'referentietabellen' en 'lookup-tabellen' die het algoritme gebruikt om contextuele informatie over zijn 'inputs' (voeding) te begrijpen."
+        },{"naam": "Voedingsreferentie-innames (DRIs)",
+          "description": "Referentiewaarden voor voedingsstoffen voor gezonde populaties.",
+          "categories": [
+            "Aanbevolen Dagelijkse Hoeveelheid (ADH): Gemiddelde dagelijkse inname die voldoende is voor bijna alle gezonde individuen.",
+            "Adequate Inname (AI): Gebruikt wanneer ADH niet kan worden vastgesteld, gebaseerd op waarnemingen van gezonde mensen.",
+            "Tolerable Upper Intake Level (UL): Maximale dagelijkse inname die waarschijnlijk geen nadelige gezondheidseffecten veroorzaakt."
+          ],"relevance_human_algorithm": "De 'veiligheidsprotocollen' en 'optimale configuratielimieten' voor de input van het algoritme, om zowel functionaliteit als 'gezondheid' te garanderen."
+        }
+      ]
+    }
+  ]
+}

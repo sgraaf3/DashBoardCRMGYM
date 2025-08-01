@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Flexor pollicis brevis",
+    "description": "De Flexor pollicis brevis is een kleine spier in de thenar eminence (duimmuis) van de hand, die de duim flext en adduceert.",
+    "anatomy": {
+      "origin": {
+        "location": "Flexor retinaculum, trapezium (handwortelbotje), en het capitatum (handwortelbotje).",
+        "details": [
+          "Twee koppen: oppervlakkige kop en diepe kop."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van de basis van de proximale falanx van de duim (grote teen bij de voet).",
+        "details": [
+          "Pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": {
+        "superficial_head": "N. medianus (C8, T1)"
+      },
+      "deep_head": {
+        "nerve": "N. ulnaris (C8, T1)"
+      },
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. radialis (via de oppervlakkige palmaire boog)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext thumb.",
+      "mechanism_of_action": "Bij contractie flext de Flexor pollicis brevis de duim bij het metacarpofalangeale gewricht (het gewricht aan de basis van de duim) en assisteert het bij adductie. Het is cruciaal voor grijpbewegingen en het vormen van een vuist.",
+      "thumb_flexion_degrees": {
+        "average": "40-60",
+        "note": "Bereik van flexie bij de MCP-gewricht."
+      },
+      "grip_strength_contribution_percentage": {
+        "average": "5-10%",
+        "note": "Bijdrage aan de totale grijpkracht."
+      },
+      "role_in_expression": [
+        "Essentieel voor grijpen, knijpen en vasthouden van objecten.",
+        "Belangrijk voor fijne motoriek van de hand, zoals schrijven, typen en knopen dichtmaken.",
+        "Disfunctie kan leiden tot een 'ape hand' (verlies van duimfunctie)."
+      ],
+      "synergists": [
+        "Flexor pollicis longus",
+        "Opponens pollicis",
+        "Adductor pollicis (voor duimbewegingen)"
+      ],
+      "antagonists": [
+        "Extensor pollicis longus",
+        "Extensor pollicis brevis",
+        "Abductor pollicis longus (voor duimextensie en abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Flexor pollicis brevis voor als een klein, gespierd 'kussentje' aan de basis van je duim (duimmuis), dat van de handwortelbotjes naar de basis van je duim loopt. Wanneer hij samentrekt, buigt hij je duim bij het basisgewricht en trekt hij hem iets naar binnen, alsof hij een 'haakje' vormt om iets vast te pakken, essentieel voor de fijne controle van je duim.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Flexor digiti minimi (hand)",
+    "description": "De Flexor digiti minimi (manus) is een kleine spier in de hypothenar eminence (pinkmuis) van de hand, die de pink flext.",
+    "anatomy": {
+      "origin": {
+        "location": "Hamulus van het hamatum (haakvormig bot) en het flexor retinaculum.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale zijde van de basis van de proximale falanx van de pink (5e vinger).",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C8, T1), diepe tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. ulnaris (via de diepe palmaire boog)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext pink.",
+      "mechanism_of_action": "Bij contractie flext de Flexor digiti minimi de pink bij het metacarpofalangeale gewricht (het gewricht aan de basis van de pink). Het assisteert ook bij het naar buiten bewegen van de pink (abductie) en het 'cuppen' van de handpalm.",
+      "pinky_flexion_degrees": {
+        "average": "30-40",
+        "note": "Bereik van flexie bij de MCP-gewricht."
+      },
+      "role_in_expression": [
+        "Essentieel voor het grijpen van objecten, het sluiten van de hand en het vormen van een vuist.",
+        "Belangrijk voor de fijne motoriek van de hand en het uitvoeren van precisietaken.",
+        "Draagt bij aan de 'cupping' van de handpalm, wat helpt bij het vasthouden van objecten."
+      ],
+      "synergists": [
+        "Opponens digiti minimi (hand) (voor pinkoppositie)",
+        "Dorsal interossei (hand) (voor pinkabductie)"
+      ],
+      "antagonists": [
+        "Extensor digiti minimi (voor pinkextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Flexor digiti minimi (hand) voor als een klein, gespierd 'kussentje' aan de basis van je pink (pinkmuis), dat van de handwortelbotjes naar de basis van je pink loopt. Wanneer hij samentrekt, buigt hij je pink bij het basisgewricht en trekt hij hem iets naar binnen, alsof hij een 'haakje' vormt om iets vast te pakken of je handpalm te 'cuppen'.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Dorsal interossei (hand) 1-4",
+    "description": "De Dorsal interossei (hand) zijn vier kleine spieren diep in de hand, tussen de middenhandsbeentjes, die de vingers abduceren (spreiden) en de metacarpofalangeale gewrichten flext en de interfalangeale gewrichten extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Aangrenzende zijden van de metacarpaalbotten (middenhandsbeentjes).",
+        "details": [
+          "Bipennate (veer-achtig) oorsprong, van twee metacarpaalbotten."
+        ]
+      },
+      "insertion": {
+        "location": "Basissen van de proximale falanxen en de extensor aponeurose van de 2e, 3e en 4e vingers (II, III, IV).",
+        "details": [
+          "Eerste abduceert de wijsvinger, tweede en derde abduceren de middelvinger, vierde abduceert de ringvinger."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C8, T1), diepe tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de diepe palmaire boog (van de A. radialis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Abduceert vingers (II-IV), flext MCP joints, extendert IP joints.",
+      "mechanism_of_action": "De Dorsal interossei spreiden de vingers uit elkaar (abductie) vanaf de middenlijn van de hand (de middelvinger). Ze buigen ook de vingers bij de metacarpofalangeale gewrichten en strekken de vingers bij de interfalangeale gewrichten, wat essentieel is voor fijne motoriek en het vasthouden van objecten.",
+      "finger_abduction_degrees": {
+        "average": "10-20",
+        "note": "Bereik van vingerabductie."
+      },
+      "MCP_flexion_degrees": {
+        "average": "30-40",
+        "note": "Bereik van MCP-flexie."
+      },
+      "IP_extension_degrees": {
+        "average": "10-20",
+        "note": "Bereik van IP-extensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het spreiden van de vingers, het vasthouden van objecten (bijv. een pen, een glas) en het uitvoeren van precisietaken.",
+        "Belangrijk voor het controleren van de fijne motoriek van de hand en het uitvoeren van gebaren (bijv. 'peace sign').",
+        "Disfunctie kan leiden tot een 'klauwhand' (door onbalans met extrinsieke flexoren)."
+      ],
+      "synergists": [
+        "Palmar interossei (voor adductie en vingerflexie)",
+        "Lumbricals (voor vingerflexie en IP-extensie)"
+      ],
+      "antagonists": [
+        "Palmar interossei (voor adductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Dorsal interossei voor als kleine, diepliggende 'webben' van spieren die tussen de botten van je handpalm (middenhandsbeentjes) zitten en naar de basis van je vingers lopen. Wanneer ze samentrekken, spreiden ze je vingers uit elkaar, alsof je je vingers 'openwaaiert' om iets te pakken of een gebaar te maken, en helpen ze je vingers te buigen bij de knokkels en recht te maken bij de gewrichten.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Palmaris longus",
+    "description": "De Palmaris longus is een slanke, oppervlakkige spier in het anterieure compartiment van de onderarm, die de pols flext en de palmaire aponeurose spant. Het is afwezig bij een significant deel van de populatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale epicondyl van de humerus (opperarmbeen).",
+        "details": [
+          "Gemeenschappelijke flexor oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Palmaire aponeurose (een fibreus blad in de handpalm) en het flexor retinaculum.",
+        "details": [
+          "Lange, dunne pees die over de Flexor retinaculum loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C7, C8).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. ulnaris en A. recurrens ulnaris."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext pols, spant palmaire aponeurose.",
+      "mechanism_of_action": "Bij contractie flext de Palmaris longus de pols naar voren. Zijn belangrijkste functie is echter het spannen van de palmaire aponeurose, wat helpt bij het vormen van een stevige grip en het beschermen van de onderliggende neurovasculaire structuren in de handpalm. Het is afwezig bij ongeveer 10-15% van de populatie en wordt vaak gebruikt als transplantaat voor peesreconstructie.",
+      "wrist_flexion_degrees": {
+        "average": "5-10",
+        "note": "Kleine bijdrage aan polsflexie."
+      },
+      "palmar_aponeurosis_tension_increase": {
+        "average": "Niet direct kwantificeerbaar, maar draagt bij aan handpalmstabiliteit.",
+        "note": "Belangrijk voor grip."
+      },
+      "role_in_expression": [
+        "Assisteert bij de polsflexie en het verstevigen van de handpalm tijdens grijpbewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en nut als transplantaat."
+      ],
+      "synergists": [
+        "Flexor carpi radialis",
+        "Flexor carpi ulnaris (voor polsflexie)"
+      ],
+      "antagonists": [
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis",
+        "Extensor carpi ulnaris (voor polsextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Palmaris longus voor als een lange, dunne 'peesdraad' die van de binnenkant van je elleboog naar het midden van je handpalm loopt, net onder de huid. Wanneer hij samentrekt, buigt hij je pols en spant hij de huid van je handpalm, alsof hij een 'anker' is dat je handpalm strak trekt voor een stevige grip, maar het is zo zeldzaam dat sommige mensen het niet eens hebben.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Palmaris brevis",
+    "description": "De Palmaris brevis is een kleine, oppervlakkige spier in de hypothenar eminence (pinkmuis) van de hand, die de huid van de pinkmuis rimpelt en de ulnaire rand van de handpalm 'cupt'.",
+    "anatomy": {
+      "origin": {
+        "location": "Flexor retinaculum en de aponeurose van de Palmaris longus (indien aanwezig).",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Huid van de hypothenar eminence (pinkmuis) aan de ulnaire zijde van de handpalm.",
+        "details": [
+          "Smalle, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C8, T1), oppervlakkige tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. ulnaris (via de oppervlakkige palmaire boog)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Rimpelt huid van hypothenar eminence, cups hand.",
+      "mechanism_of_action": "Bij contractie trekt de Palmaris brevis de huid van de hypothenar eminence naar mediaal, wat rimpels veroorzaakt en de ulnaire rand van de handpalm 'cupt'. Dit helpt bij het vormen van een stevige grip en het vasthouden van objecten door de handpalm te verdiepen.",
+      "hand_cupping_mm": {
+        "average": "2-3",
+        "note": "Geschatte toename in diepte van de handpalm."
+      },
+      "role_in_expression": [
+        "Essentieel voor het vormen van een stevige grip en het vasthouden van objecten, met name cilindrische voorwerpen.",
+        "Draagt bij aan de fijne motoriek van de hand en het uitvoeren van precisietaken.",
+        "Kan bijdragen aan de expressie van spanning of concentratie in de hand."
+      ],
+      "synergists": [
+        "Opponens digiti minimi (hand) (voor pinkoppositie)",
+        "Flexor digiti minimi (hand) (voor pinkflexie)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Palmaris brevis voor als een klein, dun 'huidspiertje' dat net onder de huid van je pinkmuis (hypothenar eminence) zit. Wanneer hij samentrekt, trekt hij de huid daar rimpelig en helpt hij je handpalm iets te 'cuppen', alsof je je hand vormt om een bal of een glas vast te pakken, essentieel voor een stevige grip.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Palmar interossei 1-3",
+    "description": "De Palmar interossei zijn drie kleine spieren diep in de hand, tussen de middenhandsbeentjes, die de vingers adduceren (naar elkaar toe brengen) en de metacarpofalangeale gewrichten flext en de interfalangeale gewrichten extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale zijde van het 2e metacarpaal, en de laterale zijden van het 4e en 5e metacarpaal (middenhandsbeentjes).",
+        "details": [
+          "Unipennate (veer-achtig) oorsprong, van één metacarpaalbot."
+        ]
+      },
+      "insertion": {
+        "location": "Basissen van de proximale falanxen en de extensor aponeurose van de 2e, 4e en 5e vingers (II, IV, V).",
+        "details": [
+          "Eerste adduceert de wijsvinger, tweede adduceert de ringvinger, derde adduceert de pink."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C8, T1), diepe tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de diepe palmaire boog (van de A. radialis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adduceert vingers (II, IV, V), flext MCP joints, extendert IP joints.",
+      "mechanism_of_action": "De Palmar interossei brengen de vingers naar elkaar toe (adductie) richting de middenlijn van de hand (de middelvinger). Ze buigen ook de vingers bij de metacarpofalangeale gewrichten en strekken de vingers bij de interfalangeale gewrichten, wat essentieel is voor fijne motoriek en het vasthouden van objecten.",
+      "finger_adduction_degrees": {
+        "average": "10-20",
+        "note": "Bereik van vingeradductie."
+      },
+      "MCP_flexion_degrees": {
+        "average": "30-40",
+        "note": "Bereik van MCP-flexie."
+      },
+      "IP_extension_degrees": {
+        "average": "10-20",
+        "note": "Bereik van IP-extensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het sluiten van de vingers, het vasthouden van objecten (bijv. een pen, een glas) en het uitvoeren van precisietaken.",
+        "Belangrijk voor het controleren van de fijne motoriek van de hand en het uitvoeren van gebaren (bijv. 'ok' gebaar).",
+        "Disfunctie kan leiden tot een 'klauwhand' (door onbalans met extrinsieke flexoren)."
+      ],
+      "synergists": [
+        "Dorsal interossei (hand) (voor vingerflexie en IP-extensie)",
+        "Lumbricals (voor vingerflexie en IP-extensie)"
+      ],
+      "antagonists": [
+        "Dorsal interossei (hand) (voor abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Palmar interossei voor als kleine, diepliggende 'trekbandjes' die tussen de botten van je handpalm (middenhandsbeentjes) zitten en naar de basis van je vingers lopen. Wanneer ze samentrekken, trekken ze je vingers naar elkaar toe, alsof je je vingers 'sluit' om iets vast te pakken, en helpen ze je vingers te buigen bij de knokkels en recht te maken bij de gewrichten.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Opponens pollicis",
+    "description": "De Opponens pollicis is een kleine spier diep in de thenar eminence (duimmuis) van de hand, die de duim opponeert (naar de pink toe brengt en roteert).",
+    "anatomy": {
+      "origin": {
+        "location": "Flexor retinaculum en het tuberculum van het trapezium (handwortelbotje).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale rand van het 1e metacarpaal (middenhandsbeentje) van de duim.",
+        "details": [
+          "Brede, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C8, T1), recurrente tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de oppervlakkige palmaire boog (van de A. radialis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Opponeert duim.",
+      "mechanism_of_action": "Bij contractie roteert de Opponens pollicis het 1e metacarpaal mediaal en flext het, waardoor de duim wordt gebracht in een positie om de andere vingers te raken (oppositie). Dit is de meest unieke en cruciale beweging van de menselijke hand, essentieel voor precisiegrijpen.",
+      "thumb_opposition_degrees": {
+        "average": "45-60",
+        "note": "Bereik van duimoppositie (rotatie en flexie)."
+      },
+      "role_in_expression": [
+        "Essentieel voor fijne motoriek en precisiegrijpen (bijv. het vasthouden van een naald, het bedienen van een pincet).",
+        "Belangrijk voor het uitvoeren van complexe handelingen en het vormen van een 'ok' gebaar.",
+        "Disfunctie kan leiden tot een aanzienlijk verlies van handfunctie (verlies van oppositie is zeer invaliderend)."
+      ],
+      "synergists": [
+        "Flexor pollicis brevis",
+        "Abductor pollicis brevis (voor duimbewegingen)"
+      ],
+      "antagonists": [
+        "Extensor pollicis longus",
+        "Extensor pollicis brevis (voor duimextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Opponens pollicis voor als een klein, diepliggend 'draaimechanisme' dat aan de basis van je duim (binnenin de duimmuis) zit en vastzit aan het eerste middenhandsbeentje. Wanneer hij samentrekt, draait en buigt hij je duim naar de andere vingers toe, alsof hij een 'scharnier' is die je duim in de perfecte positie brengt om iets vast te pakken, wat de unieke grijpkracht van de menselijke hand mogelijk maakt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Opponens digiti minimi (hand)",
+    "description": "De Opponens digiti minimi (manus) is een kleine spier diep in de hypothenar eminence (pinkmuis) van de hand, die de pink opponeert (naar de duim toe brengt en roteert).",
+    "anatomy": {
+      "origin": {
+        "location": "Hamulus van het hamatum (haakvormig bot) en het flexor retinaculum.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale rand van het 5e metacarpaal (middenhandsbeentje) van de pink.",
+        "details": [
+          "Brede, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C8, T1), diepe tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de diepe palmaire boog (van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Opponeert pink.",
+      "mechanism_of_action": "Bij contractie roteert de Opponens digiti minimi het 5e metacarpaal lateraal en flext het, waardoor de pink wordt gebracht in een positie om de duim te naderen (oppositie). Dit helpt bij het vormen van een diepe, komvormige handpalm voor het vasthouden van objecten.",
+      "pinky_opposition_degrees": {
+        "average": "10-20",
+        "note": "Bereik van pinkoppositie (rotatie en flexie)."
+      },
+      "role_in_expression": [
+        "Essentieel voor het vormen van een stevige grip en het vasthouden van objecten, met name cilindrische voorwerpen.",
+        "Belangrijk voor de fijne motoriek van de hand en het uitvoeren van precisietaken.",
+        "Draagt bij aan de 'cupping' van de handpalm."
+      ],
+      "synergists": [
+        "Flexor digiti minimi (hand) (voor pinkflexie)",
+        "Palmaris brevis (voor handpalm cupping)"
+      ],
+      "antagonists": [
+        "Extensor digiti minimi (voor pinkextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Opponens digiti minimi (hand) voor als een klein, diepliggend 'draaimechanisme' dat aan de basis van je pink (binnenin de pinkmuis) zit en vastzit aan het vijfde middenhandsbeentje. Wanneer hij samentrekt, draait en buigt hij je pink naar de duim toe, alsof hij een 'scharnier' is die je pink in de perfecte positie brengt om iets vast te pakken of je handpalm te 'cuppen'.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Abductor pollicis brevis",
+    "description": "De Abductor pollicis brevis is een kleine spier in de thenar eminence (duimmuis) van de hand, die de duim abduceert (weg van de handpalm beweegt) en assisteert bij flexie.",
+    "anatomy": {
+      "origin": {
+        "location": "Flexor retinaculum, trapezium (handwortelbotje), en de scaphoid (handwortelbotje).",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van de basis van de proximale falanx van de duim (grote teen bij de voet).",
+        "details": [
+          "Pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C8, T1), recurrente tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de oppervlakkige palmaire boog (van de A. radialis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Abducts thumb.",
+      "mechanism_of_action": "Bij contractie beweegt de Abductor pollicis brevis de duim weg van de handpalm (abductie) in een vlak loodrecht op de handpalm. Het assisteert ook bij de flexie van de duim bij het metacarpofalangeale gewricht en oppositie. Het is een cruciale spier voor het openen van de hand en het positioneren van de duim voor grijpbewegingen.",
+      "thumb_abduction_degrees": {
+        "average": "40-60",
+        "note": "Bereik van duimabductie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het openen van de hand, het loslaten van objecten en het uitvoeren van gebaren (bijv. 'duim omhoog').",
+        "Belangrijk voor fijne motoriek van de hand, zoals schrijven, typen en knopen dichtmaken.",
+        "Disfunctie kan leiden tot een 'ape hand' (verlies van duimfunctie)."
+      ],
+      "synergists": [
+        "Abductor pollicis longus",
+        "Extensor pollicis brevis (voor duimabductie en extensie)"
+      ],
+      "antagonists": [
+        "Adductor pollicis (voor duimadductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Abductor pollicis brevis voor als een klein, gespierd 'kussentje' aan de basis van je duim (duimmuis), dat van de handwortelbotjes naar de basis van je duim loopt. Wanneer hij samentrekt, trekt hij je duim weg van je handpalm en iets naar voren, alsof hij een 'hendel' is die je duim 'opent' en positioneert voor het grijpen van objecten, essentieel voor de beweeglijkheid van je duim.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Adductor pollicis",
+    "description": "De Adductor pollicis is een grote, diepe spier in de hand, bestaande uit twee koppen, die de duim adduceert (naar de handpalm toe brengt).",
+    "anatomy": {
+      "origin": {
+        "oblique_head": {
+          "location": "Capitatum (handwortelbotje), basissen van het 2e en 3e metacarpaal (middenhandsbeentjes), en de peesschede van de Flexor carpi radialis."
+        },
+        "transverse_head": {
+          "location": "Anterieure oppervlak van het 3e metacarpaal (middenhandsbeentje)."
+        },
+        "details": "Twee hoofden die convergeren."
+      },
+      "insertion": {
+        "location": "Mediale zijde van de basis van de proximale falanx van de duim (grote teen bij de voet), en de sesamoid botten.",
+        "details": [
+          "Pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C8, T1), diepe tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de diepe palmaire boog (van de A. radialis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Adducts thumb at carpometacarpal joint.",
+      "mechanism_of_action": "Bij contractie trekt de Adductor pollicis de duim naar de handpalm (adductie) en assisteert het bij flexie en oppositie. Het is de meest krachtige adductor van de duim en essentieel voor het krachtig vasthouden van objecten tussen de duim en de vingers.",
+      "thumb_adduction_degrees": {
+        "average": "40-60",
+        "note": "Bereik van duimadductie."
+      },
+      "grip_strength_contribution_percentage": {
+        "average": "50-60%",
+        "note": "Belangrijke bijdrage aan de totale grijpkracht, vooral knijpkracht."
+      },
+      "role_in_expression": [
+        "Essentieel voor krachtige grijpbewegingen, knijpen en vasthouden van objecten (bijv. een hamer, een fles).",
+        "Belangrijk voor fijne motoriek van de hand, zoals het vasthouden van een pen of het bedienen van kleine knoppen.",
+        "Disfunctie kan leiden tot een 'Froment's sign' (zwakte bij het vasthouden van papier tussen duim en wijsvinger)."
+      ],
+      "synergists": [
+        "Flexor pollicis brevis",
+        "Opponens pollicis (voor duimflexie en oppositie)"
+      ],
+      "antagonists": [
+        "Abductor pollicis longus",
+        "Abductor pollicis brevis",
+        "Extensor pollicis longus",
+        "Extensor pollicis brevis (voor duimabductie en extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Adductor pollicis voor als een grote, gespierde 'tang' die diep in je handpalm zit, met twee 'armen' die van de handwortelbotjes en het middenhandsbeentje naar de basis van je duim lopen. Wanneer hij samentrekt, trekt hij je duim krachtig naar je handpalm toe, alsof hij een 'klem' is die je duim stevig tegen je hand drukt om iets vast te houden, essentieel voor je knijpkracht.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Abductor digiti minimi (hand)",
+    "description": "De Abductor digiti minimi (manus) is een spier in de hypothenar eminence (pinkmuis) van de hand, die de pink abduceert (weg van de ringvinger beweegt).",
+    "anatomy": {
+      "origin": {
+        "location": "Peziform bot en de pees van de Flexor carpi ulnaris.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale zijde van de basis van de proximale falanx van de pink (5e vinger), en de extensor aponeurose.",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C8, T1), diepe tak.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de diepe palmaire boog (van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Abducts pink.",
+      "mechanism_of_action": "Bij contractie beweegt de Abductor digiti minimi de pink weg van de ringvinger (abductie). Het assisteert ook bij flexie van de pink bij het metacarpofalangeale gewricht. Het is cruciaal voor het spreiden van de vingers en het vasthouden van objecten.",
+      "pinky_abduction_degrees": {
+        "average": "10-20",
+        "note": "Bereik van pinkabductie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het spreiden van de vingers, het vasthouden van objecten (bijv. een glas) en het uitvoeren van gebaren (bijv. 'rock on' gebaar).",
+        "Belangrijk voor fijne motoriek van de hand en het uitvoeren van precisietaken.",
+        "Draagt bij aan de 'cupping' van de handpalm."
+      ],
+      "synergists": [
+        "Dorsal interossei (hand) (voor vingerabductie)"
+      ],
+      "antagonists": [
+        "Palmar interossei (voor adductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Abductor digiti minimi (hand) voor als een klein, gespierd 'kussentje' aan de basis van je pink (pinkmuis), dat van de handwortelbotjes naar de basis van je pink loopt. Wanneer hij samentrekt, trekt hij je pink weg van de ringvinger, alsof hij een 'hendel' is die je pink 'opent' en positioneert voor het grijpen van objecten, essentieel voor de beweeglijkheid van je pink.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

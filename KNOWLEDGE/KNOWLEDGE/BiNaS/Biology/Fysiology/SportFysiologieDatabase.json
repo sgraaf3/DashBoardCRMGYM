@@ -1,0 +1,190 @@
+{"sport_physiology_db": [ 
+    {"concept": "Energie en Arbeid",
+      "description": "Definitie van energie als het vermogen om arbeid te verrichten, en arbeid als kracht die over een bepaalde afstand wordt uitgeoefend.",
+      "forms_of_energy": ["Chemische energie", "Mechanische energie", "Warmte", "Licht", "Elektrische energie", "Kernenergie"],
+      "transformation": "Elke vorm van energie kan in een andere worden omgezet (energietransformatie), met name chemische energie uit voedsel naar mechanische energie (lichaamsbeweging)."
+    },{"concept": "Adenosinetrifosfaat (ATP)",
+      "description": "De directe bron van energie voor elke cel van het lichaam, inclusief spiercellen. Energie uit voedsel wordt gebruikt voor de resynthese van ATP, opgeslagen in spiervezels.",
+      "structure": "Opgebouwd uit adenosine en drie fosfaatgroepen.",
+      "energy_yield": "8 kcal vrij per MOL ATP.",
+      "atp_resynthesis": "Energie is vereist voor de resynthese van ATP, geleverd door drie energiesystemen."
+    },{"concept": "Energiesystemen",
+      "description": "Drie primaire systemen voor de aanvoer van energie (ATP) in het menselijk lichaam, afhankelijk van de aanwezigheid van zuurstof en de aard van de inspanning.",
+      "systems": [
+        {"name": "ATP-CP (Fosfaatsysteem)",
+          "type": "Anaeroob (geen zuurstof vereist)",
+          "fuel": "Creatinefosfaat (CP)",
+          "speed": "Vlug/snelst beschikbare bron van ATP",
+          "atp_yield": "Geringe hoeveelheid ATP, voorraad binnen 10 seconden uitgeput",
+          "notes": "Opgeslagen nabij contractiele spierstructuren, geen chemische reacties of zuurstoftransport nodig."
+        },{"name": "Anaerobe Glycolyse (Melkzuursysteem)",
+          "type": "Anaeroob (geen zuurstof vereist)",
+          "fuel": "Koolhydraten (glucose, glycogeen)",
+          "speed": "Vlug",
+          "atp_yield": "Geringe hoeveelheid ATP (enkele mollen per mol glucose)",
+          "byproducts": "Melkzuur (lactaat), pyrodruivenzuur (pyruvaat)",
+          "notes": "Onvolledige afbraak van koolhydraten tot melkzuur. Veroorzaakt spiervermoeidheid door verzuring (waterstofionen). PFK-enzym cruciaal voor snelheid. Ophoping van 60-70 gram melkzuur bij uitputtende belasting. Essentieel voor kortdurende, intensieve belasting (1-3 minuten)."
+        },{"name": "Aerobe Systeem (Zuurstofsysteem)",
+          "type": "Aeroob (zuurstof vereist)",
+          "fuel": "Koolhydraten (glucose, glycogeen), Vetten",
+          "speed": "Traag",
+          "atp_yield": "Onbeperkte/grootste hoeveelheid ATP (meest efficiënt)",
+          "byproducts": "Geen nevenproducten (CO2 en H2O)",
+          "notes": "Volledige afbraak van brandstoffen. Geschikt voor langdurige belasting (5 minuten of langer). Belangrijkste systeem voor ATP-productie."
+        }
+      ]
+    },{"concept": "Krebs-cyclus (Tricarbon- of Citroenzuurcyclus)",
+      "description": "Centraal onderdeel van het aerobe metabolisme, waar pyrodruivenzuur verder wordt afgebroken in de mitochondriën.",
+      "key_events": [
+        "Productie van CO2",
+        "Oxidatie ofwel het onttrekken van elektronen",
+        "Resynthese van ATP"
+      ]
+    },{"concept": "Elektronentransportsysteem (Ademhalingsketen)",
+      "description": "De specifieke reeks reacties waarbij H2O wordt gevormd als onderdeel van het aerobe metabolisme."
+    },{"concept": "Vetmetabolisme (Aerobe)",
+      "description": "Afbraak van vetten (vetzuren) via oxidatie, met directe toegang tot de Krebs-cyclus, voor ATP-resynthese in het aerobe systeem.",
+      "notes": "In rust wordt ongeveer tweederde van de energie geleverd door vetten, eenderde door koolhydraten. Eiwitten tellen in rust niet mee als energiebron."
+    },{"concept": "Energiebijdrage tijdens Belasting",
+      "description": "De rol van anaerobe en aerobe systemen is afhankelijk van de belasting, trainingstoestand en voeding.",
+      "short_duration_load": {
+        "duration": "Maximale belasting gedurende korte tijdsperioden (bijv. 100-800 meter loop, 2-3 minuten)",
+        "fuel": "Koolhydraten (belangrijkste bijdrage), vetten veel minder, eiwitten niet.",
+        "system": "Anaerobe systeem overheerst (fosfaatsysteem en anaerobe glycolyse)."
+      },"long_duration_load": {
+        "duration": "Vijf minuten of langer (bijv. marathon)",
+        "fuel": "Koolhydraten en vetten (glycogeen belangrijkst bij start, vetten later).",
+        "system": "Aerobe systeem levert grootste deel ATP.",
+        "fatigue_causes": "Melkzuur, lage glucoseconcentraties, uitputting glycogeenvoorraden, uitdroging, verveling, lichamelijke afmatting."
+      }
+    },{"concept": "Hartslagvariabiliteit (HRV) / Hartslagcoherentie",
+      "description": "De variatie in tijd tussen twee opeenvolgende hartslagen, een belangrijke graadmeter voor de gezondheid en de activiteit van het autonome zenuwstelsel.",
+      "measurement": "Tijd tussen opeenvolgende R-pieken in het ECG (electrocardiogram). Minimaal 300 goede hartslagen nodig voor medische analyse.",
+      "autonomic_nervous_system": {
+        "description": "Regelt onbewuste lichaamsfuncties (hartslag, ademhaling, spijsvertering, zweten, ontlasting) en bestaat uit twee delen:",
+        "sympaticus": "Het 'gaspedaal'; geactiveerd bij stress, verdriet, trauma's, zorgen of levensgevaarlijke situaties. Versnelt ademhaling, verhoogt hartslag, remt spijsvertering, geeft adrenaline vrij (tijdelijk verminderen pijn/vermoeidheid). Overuren van sympaticus leiden tot onvoldoende herstel.",
+        "parasympaticus": "Het 'rempedaal'; geactiveerd bij herstel, rust en aanvulling van energievoorraden. Vertraagt ademhaling, verlaagt hartslag, bevordert doorbloeding en spijsvertering."
+      },"interpretation_hrv": {
+        "low_variation": "Verhoogde sympathische activiteit (stress, ziekte, inspanning), lichaam hard aan het werk, slechte herstelcapaciteit. Gemiddeld verschil kleiner dan 20ms duidt op een probleem.",
+        "high_variation": "Verhoogde parasympatische activiteit (ontspanning, herstel), goede gezondheid.",
+        "fatigue_connection": "Bij burn-out, ME, CVS, overtrainde sporters draait de sympaticus overuren; lichaam continu in actieve staat, kan niet herstellen. Dit is meetbaar met HRV."
+      },"conscious_influence": "HRV kan bewust worden beïnvloed met gedachten en ademoefeningen om de balans te herstellen."
+    },{"concept": "Ademfysiologie en Metabolisme",
+      "description": "De invloed van ademhaling op gaswisseling, pH-balans, en brandstofverbruik in het lichaam.",
+      "components": [
+        {"name": "Ademfrequentie (BF)", "range_normal_rest": "8-12 ademteugen per minuut", "deviations": ">15 is onrustig, <6 te diep zuchten, >16 is erg onrustig. >30 is verzuring (inspanning)."},
+        {"name": "Ademteug (Volume)", "range_normal_rest": "0.5-1 liter", "deviations": "Te diep zuchten bij lage frequentie, of te kleine teug bij hoge frequentie."},
+        {"name": "Adempatroon", "ideal": "Rustige inademing, langere uitademing, even wachten (pauze) vóór de volgende inademing.", "importance_of_pause": "Gaswisseling vindt plaats tijdens uitademing en pauze. Wachten is cruciaal voor rust en balans; houdt CO2 binnen. Dit herstelt de pH-balans."}
+      ],"gas_exchange": "Zuurstof wordt opgenomen en koolzuur afgegeven. CO2 verlaat bloed sneller dan O2. Te snel ademen blaast te veel CO2 af, wat leidt tot lage CO2-spanning in bloed. Principe van communicerende vaten.",
+      "consequences_low_co2": [
+        "pH-disbalans (zuur-base evenwicht te hoog/basisch).",
+        "Hypoglycemie (lege suikervoorraden, lichaam verbrandt suiker in rust i.p.v. vet).",
+        "Spierpijn (door melkzuuraanmaak bij suikerverbruik in rust).",
+        "Vecht/vlucht stand (concentratie neemt af, prikkelbaarheid).",
+        "Verstoorde spijsvertering (door verstoorde pH, slechte opname voedingsstoffen).",
+        "Infecties (bacteriën/schimmels gedijen beter bij verhoogde pH).",
+        "Bloedvaatvernauwing (minder zuurstof naar zenuwcellen/hersenen, koude handen/voeten).",
+        "Vermoeidheid en uitputting (door continu hoge activiteit en verbruik inspanningsenergie in rust)."
+      ],"breathing_during_exercise": "Op zeker niveau neemt het lichaam de controle over, ademhaling past zich vanzelf aan. Geforceerd door de neus ademen bij middelmatige/hoge arbeid is niet voldoende. Lippen tuiten ('pursed lips breathing') vergroot effectieve zuurstofopname door druk in longen."
+    },{"concept": "Bloedgassen en Zuur-Base-Evenwicht",
+      "description": "Regulatie van de pH-waarde van lichaamsvloeistoffen en de diagnose van verstoringen.",
+      "ph_value": {
+        "definition": "Negatieve logaritme van de waterstofionenconcentratie (H+).",
+        "normal_blood_ph": "7.35 - 7.45 (licht basisch).",
+        "acidosis": "pH < 7.35 (bloed zuur); remt hartcontractie, vermindert vaatreactie op catecholaminen.",
+        "alkalosis": "pH > 7.45 (bloed basisch); veroorzaakt problemen met weefseloxygenatie en neuromusculaire functies, beïnvloedt medicatiewerking."
+      },"buffers": {
+        "function": "Stoffen die overmaat aan zure of basische stoffen binden om pH constant te houden (eerste opvang).",
+        "types": ["Bicarbonaatbuffer (75% buffercapaciteit, reguleert via CO2)", "Eiwitbuffers", "Fosfaatbuffers", "Hemoglobine (in erytrocyten)"],
+        "open_system": "Nieren (trage compensatie, uren-dagen) en longen (snelle compensatie, seconden-minuten via ventilatie/CO2-afgifte)."
+      },"disorders": {
+        "metabolic_acidosis": "Ontstaat door tekort aan bicarbonaat of te veel zuur (o.a. nierfalen, circulatoire shock/lactaat). Snelle ademcompensatie (hyperventilatie).",
+        "metabolic_alkalosis": "Een verstoringsproces waarbij primair een verlies van een sterk zuur of toeneming van bicarbonaat in de extracellulaire vloeistof is opgetreden. Kan o.a. ontstaan door maagdrainage, braken of diuretica. Respiratoire compensatie: pulmonale ventilatie neemt af, longen houden CO2 vast.",
+        "respiratory_alkalosis": "Te veel koolzuur uitgeademd (hyperventilatie, pijn, angst). Compensatie door nieren (H+ vasthouden) is te traag in acute fase.",
+        "respiratory_acidosis": "Te weinig gasuitwisseling (hypoventilatie: sedativa, anesthesie, chronische longziekte, neuromusculaire aandoeningen). Acute vorm levensbedreigend. Chronische vorm met renale compensatie. 'Hypoxic drive' van belang."
+      },"mixed_disorders": "Twee of meer zuur-base afwijkingen tegelijk, vaak bij ernstig zieke patiënten.",
+      "astrup_interpretation": {
+        "parameters": ["pH", "PaCO2", "HCO3-", "St.bic (Standaard bicarbonaat)", "PaO2", "B.E. (Base Exces)", "SaO2"],
+        "normal_values": {
+          "pH": "7.35-7.45", "PaCO2": "4.7-6.0 Kpa / 35-45mm Hg", "HCO3-": "22-28 mmol/l",
+          "St.bic": "22-28 mmol/l", "PaO2": "9.2-13 Kpa / 75-100 mm Hg", "B.E.": "-3.0 - +3.0 mmol/l", "SaO2": "94-97 %"
+        },"assessment_steps": "1. pH (acidose, alkalose, normaal) -> 2. Primaire stoornis (metabool/respiratoir) -> 3. Compensatie -> 4. Kwantitatieve compensatie (adequaat/inadequaat)."
+      },"davenport_diagram": "Praktisch hulpmiddel voor analyse: pH op X-as, bicarbonaat op Y-as, pCO2 isobaren. Geeft visuele weergave van zuur-base status en gemengde stoornissen."
+    },{"concept": "Overgewicht en Diabetes Type 2 (Fysiologisch)",
+      "description": "Fysiologische aspecten van overgewicht en diabetes type 2, en de rol van beweging en voeding.",
+      "impact_overweight": "Verhoogt risico op hart- en vaatziekten, hersenbloeding, diverse kankers, galstenen, trombose, hoge bloeddruk, diabetes type II, gewrichtsklachten, vroegtijdige slijtage. Geringe gewichtsafname (5%) vermindert risico's.",
+      "fuel_burning_dysfunction": "Mensen met overgewicht en slechte conditie zijn vaak niet in staat vet te verbranden voor inspanning; verbranden suikers in rust. Dit leidt tot lege suikervoorraden en vermoeidheid.",
+      "exercise_impact": "Activeert spieren om weer vet te verbranden. Spierweefsel verbruikt in rust meer energie. PowerPlate training versnelt spierversterking. Joggen is zeer effectief voor calorieverbranding maar risicovol bij overgewicht. Min. 3x/week 1 uur beweging op redelijk niveau. Spiermassa en botdichtheid nemen toe, bloeddruk en stress verminderen. Afvallen verbetert uithoudingsvermogen (10kg = 1 uur sneller marathon).",
+      "diet_impact": "Koolhydraat- en suikerarm dieet (Paleo, Dokter Frank) activeren vetverbranding. Vermijd suikervervangers (zetten lichaam op verkeerd been). Eet waterrijk voedsel. Vermijd zuivel (groeihormonen).",
+      "stress_impact": "Stress vergroot risico op diabetes 2 door vaker suikerverbranding te activeren."
+    },{"concept": "Chronische Vermoeidheid (Fysiologisch)",
+      "description": "Fysiologische verklaringen voor chronische vermoeidheid (CVS, ME, Fibromyalgie, Burn-out) en de impact van training en ademhaling.",
+      "underlying_issue": "Lichaam in rust vertoont verhoogde verbranding (alsof het sport), primair suikerverbranding. Onbalans door te veel toeren zonder arbeid.",
+      "physiological_processes_in_fight_flight": [
+        "Zuur-base evenwicht verstoord (te hoge pH door te veel CO2 afblazen).",
+        "Lage CO2-waarden leiden tot neurologische en fysiologische problemen.",
+        "Lege suikervoorraden (hypoglycemie), spierpijn (melkzuur in rust).",
+        "Vecht/vlucht stand (concentratie neemt af, prikkelbaarheid).",
+        "Verstoorde spijsvertering (door verstoorde pH, slechte opname voedingsstoffen).",
+        "Infecties (bacteriën/schimmels gedijen beter bij verhoogde pH).",
+        "Bloedvaatvernauwing (minder zuurstof naar zenuwcellen/hersenen, koude handen/voeten).",
+        "Vermoeidheid en uitputting (door continu hoge activiteit en verbruik inspanningsenergie in rust)."
+      ],"testing_insights": {
+        "heart_rate": "Vaak verhoogd in rust (>70, soms >90). Afwijking van persoonlijke norm belangrijker dan absolute norm.",
+        "breathing_frequency": "Verhoogd in rust (>15 ademteugen per minuut).",
+        "breathing_pattern": "Uitademingstijd te kort, gaswisseling te snel, lichaam kan niet in balans komen.",
+        "oxygen_saturation": "Te hoog in rust (99-100%) door over-ademen, bloedvaatvernauwing verhindert goede opname op celniveau. <90% duidt op hart-/longprobleem.",
+        "lactate_in_rest": "Verhoogd, maar niet gebruikt (lichaam 'sport' in rust).",
+        "exertion_test_response": "Lichaam werkt meer in begin test dan halverwege; soms daling hartslag bij toenemende arbeid (balansbereiking). Na test: systeem blijft 'doorjakkeren' (onvermogen tot rust)."
+      },"treatment_principles": "Bewegen op balansniveau (3x/week 30min). Afbouwen van inspanning naar ontspanning met ademtherapie. Leren ontspannen na sporten. Lichamelijk reconditioneren (spieren weer activeren, voorraden laden, weerstand verhogen).",
+      "common_mistakes": "Vergeten te ontspannen, te hoog/laag niveau trainen, dagelijks trainen (geen 48u herstel)."
+    }, {"concept": "Longproblemen (Fysiologisch)",
+      "description": "De fysiologische basis van longproblemen en de impact van beweging.",
+      "types": [
+        {"name": "Obstructieve stoornis (COPD)", "issue": "Ventilatieprobleem, slappe longen (vaak door roken). Uitademingssnelheid en snel weggeblazen volume verminderen (bijv. van 3.5L+ naar 1L of minder)."},
+        {"name": "Restrictieve stoornis", "issue": "Stugge longen door beschadigingen/littekenweefsel (ontstekingen, ingeademde stoffen). Totaal volume neemt af, percentage weggeblazen is normaal."},
+        {"name": "Astma/Allergische reactie", "issue": "Toename weerstand van in- en uitademing. Goede medicatiecontrole maakt sporten mogelijk."}
+      ],"exercise_impact": "Mix van kracht- en duurtraining. Krachttraining in deelbewegingen (arm/been afzonderlijk) vraagt minder van longen. Extra zuurstof tijdens duurtraining verhoogt vermogen en trainingseffect. Power-Plate is zeer effectief. Max HR is lager (soms <120 bpm bij GOLD 4).",
+      "monitoring": "Saturatiemeter (SaO2) is cruciaal; staken arbeid onder 90%.",
+      "breathing_techniques": "Grote teugen met accent op uitademing. Lippen tuiten ('pursed lips breathing') vergroot effectieve zuurstofopname door druk in longen."
+    },{"concept": "Hartproblemen (Fysiologisch)",
+        "description": "Fysiologische overwegingen bij hartproblemen en de rol van beweging.",
+        "guidance": "Grondig onderzoek door cardioloog en hartslaggrenzen voor veilig trainen zijn leidraad. ECG-bewaking of veilig gebied vastgesteld door cardioloog bij ritmestoornissen.",
+        "exercise_impact": "Duursport heeft enorme impact op cholesterol, bloeddruk, hartspierversterking. Korte krachtoefeningen ideaal (minder impact op hartslag, veel effect op perifere spieren). Trilplaat kan van grote waarde zijn.",
+        "misconceptions": "Sport wordt vaak de schuld gegeven van hartinfarcten, maar wetenschappelijk is dit niet onderbouwd. Jim Fixx voorbeeld: overleden door uitdroging en aangeboren hartafwijking, niet door joggen zelf.",
+        "beta_blockers_impact": "Verlagen maximale hartslag (vaak tot 120 bpm); verminderen trainingsresultaat. Arts overleggen voor alternatieven."
+    },{"concept": "Fysiologie van Veroudering en Beweging",
+      "description": "De fysiologische veranderingen met leeftijd en hoe beweging hierop van invloed is.",
+      "age_related_decline": "Acceptatie van achteruitgang met leeftijd is te gemakkelijk. Op 50e leeftijd is <5% verlies van max vermogen bij gezonde levensstijl. Overgewicht en longfalen zijn oorzaken van verminderde prestaties.",
+      "exercise_benefits": "Verhoogt mobiliteit, botdichtheid (3x/week sporten > norm), behoud van zelfverzorging bij ouderen. Warmte (klimaat, sauna) bevordert mobiliteit.",
+      "bone_density": "Botmassa/dichtheid neemt toe tot ~35 jaar, daarna afname (vrouwen 25%, mannen 12%). Osteoporose (botontkalking) treedt op wanneer afbraak > opbouw. Beweging (belasting) vertraagt dit proces ('Schijf van 3')."
+    },{"concept": "Fysiologie bij Kanker en Behandeling",
+      "description": "De fysiologische respons op kanker en de behandeling, en de rol van beweging.",
+      "pre_treatment_conditioning": "Conditie verhogen vóór medische ingreep/behandeling (binnen 6 weken 100% max conditie opbouw mogelijk) verbetert herstel en vermindert klachten na operatie.",
+      "exercise_during_treatment": "Voortzetten van sporten tijdens chemotherapie op haalbaar niveau. Lichaam is beter in staat te vechten, kan levensduur verlengen en zelfs operabiliteit van tumoren beïnvloeden.",
+      "resistance": "Topvorm verhoogt weerstand en verkleint kans op terugval. Ademtherapie en bewegen bestrijden stress door angst voor ziekte."
+    },{"concept": "Zuurstofverzadiging (SaO2)",
+      "description": "Meting van zuurstof gebonden aan hemoglobine in het bloed.",
+      "measurement": "Gemeten aan de middelvinger (in procenten).",
+      "interpretation": {
+        "high_values": "99-100% duidt op onrust of stress in het lichaam (te veel ademen, te veel CO2 afgeblazen).",
+        "normal_values": "96-98% is goed.",
+        "low_values": "95% of lager is te laag, aanleiding voor nader onderzoek naar longen (ventilatie) en hart (circulatie). Onder 90% is erg laag en kan aanleiding zijn om inspanningstest te stoppen of niet te beginnen."
+      }
+    },{"concept": "Rusthartslag (Rustpols)",
+      "description": "De hartslag in rust, een indicator van de activiteit in het lichaam.",
+      "interpretation": "Boven de 70 (gemiddelde norm) of ruim boven de 70 duidt op verhoogde activiteit/onrust in het lichaam (stress, ziekte). Laagste gemeten hartslag is ideaal, maar medicatie kan deze kunstmatig verlagen (HRV blijft dan laag)."
+    },{"concept": "Verbrandingsanalyse",
+      "description": "Analyse van brandstofverbruik (vet vs. suiker) in rust en tijdens inspanning.",
+      "rest_burning": "Tussen 1500-2500 kcal/dag afhankelijk van geslacht, gewicht en activiteiten. Spierweefsel verbruikt meer energie, zelfs in rust. Goede verbranding in rust is >75% vet of <25% suiker.",
+      "dysfunction": "Te veel suikerverbranding in rust (door slechte conditie, stress, onrust) leidt tot verhoogde behoefte aan zoetigheid en vermoeidheidsklachten (Burn-out). Vet wordt opgeslagen in depots en nauwelijks gebruikt.",
+      "exercise_impact": "Sporten alleen leidt niet direct tot veel gewichtsverlies, maar maakt spieren sterker, waardoor meer calorieën worden verbrand, zelfs in rust. PowerPlate training versnelt dit."
+    },{"concept": "Stress en Hormonale Reacties (Biologisch)",
+      "description": "De biologische mechanismen die ten grondslag liggen aan de rol van fysieke fitheid in gezondheid en veerkracht.",
+      "stress_response_blunting": "Fysieke fitheid vermindert stressreactiviteit door het afzwakken/optimaliseren van hormonale stressreactieve systemen (hypothalamic–pituitary–adrenal as en sympathisch zenuwstelsel).",
+      "reduced_reactivity": "Leidt tot verminderde emotionele, fysiologische en metabole reactiviteit, en verhoogde positieve stemming en welzijn.",
+      "anti_inflammatory_effects": "Regelmatige beweging minimaliseert overmatige ontsteking. Chronische stress, inactiviteit en abdominale adipositas zijn geassocieerd met systemische, laaggradige ontsteking en negatieve gezondheidseffecten. Anti-inflammatoire effecten bevorderen gedrags- en metabole veerkracht.",
+      "brain_benefits": "Beweging verbetert de hersenen door verhoging van groeifactor expressie en neurale plasticiteit, wat bijdraagt aan een verbeterde stemming en cognitie."
+    }
+  ]
+}

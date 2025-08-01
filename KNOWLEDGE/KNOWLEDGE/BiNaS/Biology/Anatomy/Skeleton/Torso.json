@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Thoracic Vertebrae (T1-T12)",
+    "type": "bone",
+    "category": "Torso",
+    "description": "De Thoracale wervels zijn de twaalf wervels van de borstkas die de thoracale wervelkolom vormen, verantwoordelijk voor het ondersteunen van de ribben en het beschermen van de organen in de borstkas.",
+    "location": "Borstregio, tussen de cervicale en lumbale wervelkolom.",
+    "articulations": [
+      "Cervical vertebrae (T1)",
+      "Each other (via facet joints and intervertebral discs)",
+      "Ribs (via costal facets)",
+      "Lumbar vertebrae (T12)"
+    ],
+    "key_features": [
+      "Costal facets (voor articulatie met ribben op lichaam en transversale processus)",
+      "Long, downward-sloping spinous processes (lange, naar beneden hellende doornuitsteeksels)",
+      "Heart-shaped body (hartvormig wervellichaam)"
+    ],
+    "dimensions": {
+      "average_height_mm": {
+        "body": "15-25",
+        "note": "Hoogte van het wervellichaam, neemt toe naar distaal."
+      },
+      "vertebral_canal_diameter_mm": {
+        "average": "10-12",
+        "note": "Relatief smal, voor ruggenmerg."
+      },
+      "range_of_motion_degrees": {
+        "flexion_extension": "30-40",
+        "lateral_flexion": "20-30",
+        "rotation": "30-40",
+        "note": "Beperkte bewegingsuitslag vergeleken met cervicale en lumbale regio's."
+      }
+    },
+    "function": {
+      "primary_role": "Ondersteuning van de ribben, bescherming van het ruggenmerg en organen, stabilisatie van de romp.",
+      "details": "Vormt het centrale deel van de wervelkolom, biedt aanhechting voor de ribben en beschermt het thoracale ruggenmerg. De beperkte flexibiliteit draagt bij aan de stabiliteit van de borstkas."
+    },
+    "visual_analogy": "Stel je de Thoracale wervels voor als twaalf 'scharnierblokken' van bot, elk met kleine 'haakjes' (costale facetten) waaraan de ribben vastzitten, die je bovenrug vormen. Ze zijn als een 'stevige pilaar' die je borstkas ondersteunt en je ruggengraat beschermt, met een beperkte bewegingsvrijheid om de stabiliteit te waarborgen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Lumbar Vertebrae (L1-L5)",
+    "type": "bone",
+    "category": "Torso",
+    "description": "De Lumbale wervels zijn de vijf grootste en sterkste wervels van de ruggengraat, die de lumbale wervelkolom vormen, verantwoordelijk voor het dragen van het grootste deel van het lichaamsgewicht en het faciliteren van rompflexie en extensie.",
+    "location": "Lage rugregio, tussen de thoracale wervelkolom en het sacrum.",
+    "articulations": [
+      "Thoracic vertebrae (L1)",
+      "Each other (via facet joints and large intervertebral discs)",
+      "Sacrum (L5)"
+    ],
+    "key_features": [
+      "Large, kidney-shaped body (groot, niervormig wervellichaam)",
+      "Short, sturdy spinous processes (korte, stevige doornuitsteeksels)",
+      "Mammillary and accessory processes (aanhechtingspunten voor spieren)"
+    ],
+    "dimensions": {
+      "average_height_mm": {
+        "body": "20-30",
+        "note": "Hoogte van het wervellichaam, neemt toe naar distaal."
+      },
+      "vertebral_canal_diameter_mm": {
+        "average": "12-15",
+        "note": "Relatief breed, voor cauda equina."
+      },
+      "range_of_motion_degrees": {
+        "flexion_extension": "60-80",
+        "lateral_flexion": "20-30",
+        "rotation": "5-10",
+        "note": "Grote flexie/extensie, beperkte rotatie."
+      }
+    },
+    "function": {
+      "primary_role": "Dragen van lichaamsgewicht, bescherming van het ruggenmerg, faciliteren van rompbewegingen.",
+      "details": "Vormt de primaire gewichtdragende sectie van de wervelkolom. De grote wervellichamen en tussenwervelschijven absorberen schokken. De lumbale wervels zijn cruciaal voor flexie en extensie van de romp, essentieel voor buigen en strekken."
+    },
+    "visual_analogy": "Stel je de Lumbale wervels voor als vijf grote, robuuste 'stenen' van bot, elk met dikke 'kussens' (tussenwervelschijven) ertussen, die je lage rug vormen. Ze zijn als de 'fundamenten' van je romp, die het grootste deel van je lichaamsgewicht dragen en je in staat stellen te buigen en te strekken, als een krachtige, flexibele pilaar voor je bewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Ribs (Costae) 1-12",
+    "type": "bone",
+    "category": "Torso",
+    "description": "De Ribben zijn twaalf paar gebogen, platte botten die de borstkas vormen, de organen in de borstkas beschermen en een rol spelen bij de ademhaling.",
+    "location": "Borstkas, aan weerszijden van de wervelkolom en het sternum.",
+    "articulations": [
+      "Thoracic vertebrae (via hoofd en tuberculum)",
+      "Sternum (via costale kraakbeenderen, direct of indirect)",
+      "Each other (via costochondrale en interchondrale gewrichten)"
+    ],
+    "key_features": [
+      "Head (articuleert met wervellichaam)",
+      "Neck (smalle deel tussen hoofd en tuberculum)",
+      "Tubercle (articuleert met transversale processus van wervel)",
+      "Angle (punt van maximale kromming)",
+      "Body/Shaft (hoofddeel van de rib)",
+      "Costal groove (groeve aan inferieure rand voor neurovasculaire bundel)"
+    ],
+    "dimensions": {
+      "average_length_mm": {
+        "longest_ribs": "250-350",
+        "note": "Lengte varieert, 7e rib is vaak de langste."
+      },
+      "average_thickness_mm": "2-4",
+      "note": "Relatief dun en flexibel."
+    },
+    "function": {
+      "primary_role": "Bescherming van vitale organen, ondersteuning van de borstkas, faciliteren van ademhaling.",
+      "details": "Vormt een beschermende kooi rond het hart, de longen en grote bloedvaten. De beweging van de ribben tijdens de ademhaling (via spiercontractie) vergroot en verkleint de thoracale holte, wat essentieel is voor in- en uitademing."
+    },
+    "visual_analogy": "Stel je de Ribben voor als twaalf paar gebogen 'beschermende bogen' van bot die je borstkas omringen, van je ruggengraat naar je borstbeen. Ze zijn als een 'flexibele kooi' die je vitale organen beschermt en uitzet en samentrekt bij elke ademhaling, als een mechanisme dat je longen helpt vullen en legen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Sternum (Borstbeen)",
+    "type": "bone",
+    "category": "Torso",
+    "description": "Het Sternum, of borstbeen, is een plat, dolkvormig bot in het midden van de borstkas, waaraan de ribben en de claviculae articuleren.",
+    "location": "Anterieur deel van de borstkas, middenlijn.",
+    "articulations": [
+      "Clavicle (sleutelbeen, via sternoclaviculaire gewrichten)",
+      "Ribs (via costale kraakbeenderen, 1e-7e ribben direct, 8e-10e indirect)"
+    ],
+    "key_features": [
+      "Manubrium (superieur deel, handvat)",
+      "Body (corpus, middenstuk)",
+      "Xiphoid process (inferieur deel, zwaardvormig uitsteeksel, variabel in vorm)",
+      "Jugular notch (inkeping aan superieure rand van manubrium)"
+    ],
+    "dimensions": {
+      "average_length_mm": "150-180",
+      "average_width_mm": "50-60",
+      "average_thickness_mm": "10-15",
+      "note": "Lengte varieert met leeftijd en geslacht."
+    },
+    "function": {
+      "primary_role": "Bescherming van vitale organen, aanhechting van ribben en spieren.",
+      "details": "Vormt de centrale, anterieure bescherming voor het hart en de grote bloedvaten. Dient als aanhechtingspunt voor de ribben en belangrijke spieren van de borst en nek (bijv. Pectoralis major, Sternocleidomastoid), die essentieel zijn voor armbewegingen en ademhaling."
+    },
+    "visual_analogy": "Stel je het Sternum voor als een plat, dolkvormig 'schild' van bot dat in het midden van je borstkas zit, als een 'centraal schild' waaraan je ribben en sleutelbeenderen vastzitten. Het is het 'hartschild' van je borstkas, dat je vitale organen beschermt en de basis vormt voor je ademhaling en armbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "marketing_db": [
+    {
+      "concept": "Marketingcommunicatie (Playbook Extern)",
+      "description": "De middelen en strategieën die klanten aantrekken, essentieel voor het succesvol vermarkten van een kwalitatief product.",
+      "goal": "Meer deals sluiten, meer omzet genereren, verkoopdoelen overtreffen.",
+      "key_areas": [
+        "Visie en meerwaarde van Energy Control",
+        "Producten",
+        "Marketingcommunicatie",
+        "Sales",
+        "Doelgroepen",
+        "De cliënt (in alle vormen en maten)",
+        "Bijlagen (brochures, pitches, presentaties, templates)"
+      ],
+      "notes": "Alle informatie mag vrij worden gedeeld binnen de onderneming. Tip: zet eigen logo op documenten voor naamsbekendheid."
+    },
+    {
+      "concept": "Doelgroepen (Energy Control Methode)",
+      "description": "Een actueel en precies inzicht in de doelgroepen die de Energy Control methode kan bedienen, cruciaal voor succesvolle implementatie. De methode werkt voor iedereen hetzelfde, maar de behoeften en communicatie verschillen per doelgroep.",
+      "main_groups": [
+        {
+          "name": "Mensen met ziektebeelden",
+          "subgroups": [
+            {"name": "CVS/ME", "estimated_prevalence_nl": "44.200 tot 130.900 mensen (gebaseerd op IOM-rapport VS, 2015). Groot gebrek aan cijfers en DBC's in NL."},
+            {"name": "Fibromyalgie", "prevalence_2021": "~2% tot 2.5% van de bevolking."},
+            {"name": "Burn-out", "prevalence_2019": "17% van de bevolking kampt met burn-outklachten."},
+            {"name": "Obesitas", "prevalence_2017": "14% van de bevolking (ruim 2.5x meer dan begin jaren '80)."},
+            {"name": "Diabetes type 2", "prevalence_2017": "~7% van de bevolking. Schatting: 1 op 3 volwassen Nederlanders (45+) krijgt in toekomst diabetes."}
+          ],
+          "notes": "Stans van der Poel zag parallellen tussen zieke mensen en (top)sporters: beiden moeten efficiënt omgaan met energie."
+        },
+        {
+          "name": "Sporters",
+          "subgroups": [
+            {"name": "Algemeen", "prevalence_nl_2020": "55% van Nederlanders (4+) sport 1x/week of vaker. Stabiel percentage 12+ jaar. Verwachting tot 2030: verschuiving naar individuele sporten."},
+            {"name": "Geslacht (2020)", "details": "Mannen 56%, Vrouwen 54% (4+ jaar). Lichte stijging mannen 12+, stabiele trend vrouwen."},
+            {"name": "Populairste Sporten (2020)", "details": "Fitness/conditietraining (meest beoefend), hardlopen, voetbal. Groepslessen op 14e plek. Fitness populariteit toegenomen (14% vs 23%). Hardlopen toegenomen (5% vs 12%). Zwemmen en tennis minder populair (gehalveerd). Voetbal constant."},
+            {"name": "Lidmaatschap/Abonnement (2020)", "details": "3/4 van wekelijkse sporters heeft lidmaatschap/abonnement. Neemt af met leeftijd. Kinderen/jongeren: sportvereniging (62%/59%). Volwassenen/ouderen: sportaanbieder (37%/32%)."},
+            {"name": "Teamsport (2023)", "details": "Een vijfde van wekelijkse sporters (4+) doet aan teamsport (12% van leeftijdsgroep). Volwassenen (18+): 8%. Sporten meegerekend: basketbal, cricket, handbal, hockey, ijshockey, honkbal, softbal, korfbal, roeien, rugby, American football, acrogym, (ultimate) frisbee, voetbal, volleybal, waterpolo, bobsleeën, curling, catamaran zeilen, zeezeilen, synchroonzwemmen."},
+            {"name": "Sportlocatie (2023)", "details": "42% sport alleen binnen, 27% alleen buiten, 31% zowel binnen als buiten (4+ jaar). Vergelijkbaar voor 18+."},
+            {"name": "Ervaren beperking bij sporten (2023)", "details": "6% ernstige beperking, 18% niet ernstig (4+ jaar). Ouderen (65+): 10% ernstig, 41% niet ernstig. 37% van volwassenen met ernstige beperking sport wekelijks. 68% van volwassenen met niet-ernstige beperking sport wekelijks."},
+            {"name": "Beweegrichtlijnen (2024)", "details": "Mensen die voldoen aan beweegrichtlijnen sporten 1.5-2x vaker wekelijks."}
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "Producten en Prijzen (Energy Control)",
+      "description": "Overzicht van producten en diensten, inclusief gangbare prijzen en tools voor prijsopbouw en omzetberekening. Belang van kennis over producten en realistische verwachtingen scheppen.",
+      "general_pricing": "Energy Control rekent een vast bedrag, maar coaches kunnen zelf prijs bepalen (onderbouwd).",
+      "starting_point_client_journey": "Intake is de start van elk traject.",
+      "products_services": [
+        {
+          "name": "Intake",
+          "description": "Start van Energy Control traject. Op locatie afgenomen. Inleidend gesprek (persoonlijke doelen, behoeftes, lichamelijke/medische conditie). Ademconsult en inspanningstest. Nodig voor berekening verbrandingszones en talent.",
+          "price_typical": "€150,- excl. BTW",
+          "notes": "Scheppen van realistische verwachtingen en goede afspraken tijdens intake vergemakkelijkt aanbieden traject. Ademconsult en inspanningstest ook los aangeboden."
+        },
+        {
+          "name": "Ademconsult (Rustmeting)",
+          "description": "Inzicht in ademhaling (frequentie, ritme), hartslag, amplitude, saturatie. Bepaalt conditie-indicatie, mate van herstel, huidige gezondheid. Meet verbranding en calorie-inname (met/zonder beweging).",
+          "price_typical": "€75,- excl. BTW"
+        },
+        {
+          "name": "Inspanningstest",
+          "description": "Meet maximaal vermogen van cliënt. Maakt huidig vermogen en belasting t.o.v. norm duidelijk.",
+          "price_typical": "€75,- excl. BTW"
+        },
+        {
+          "name": "App",
+          "description": "Centrale omgeving voor eindgebruikers om metingen en trainingen uit te voeren en op te slaan. Gebruikt hartslagmeter en dongel. Maakt training op afstand mogelijk, wat efficiëntie en ROI vergroot. Sporten op basis van methode na inspanningstest.",
+          "price_typical": "€20,- per maand"
+        },
+        {"name": "Trainingsschema’s", "status": "Nog af te maken"},
+        {"name": "Boeken", "status": "Nog af te maken"},
+        {"name": "Meetsoftware", "status": "Niet gespecificeerd, maar genoemd als product"},
+        {"name": "Apparatuur: Hartslagmeter + Dongel", "status": "Nog af te maken"},
+        {"name": "Apparatuur: Testfiets", "status": "Nog af te maken"},
+        {"name": "Apparatuur: Meetsoftware Coach Offline (ATDS 1-1, ATDS Team)", "status": "Nog af te maken"},
+        {"name": "Opleidingen (Looptrainersdag, Ademtherapie Basis/Inspanningsfysiologie Basis, Ademtherapeut/Inspanningsfysiologie, Medical Fitness Coach, Master Coach)", "status": "Nog af te maken"}
+      ],
+      "roi_tool": "Gebruikt om rendement uit doelgroepen te optimaliseren, rekening houdend met prijzen en kwantiteit van afname. Benadrukt flexibele integratie in bedrijfsmodel (fysieke begeleiding vs. begeleiding op afstand via app).",
+      "coaches_as_fte": "Mogelijkheid om andere coaches op te leiden binnen het bedrijf om skill set uit te breiden en verdiensten te vergroten.",
+      "mastercoach_upgrade": "Extra categorie voor ervaren coaches met lange geschiedenis van accurate metingen en ondersteuning. Kan verdiensten en status binnen EC concept bevorderen."
+    },
+    {
+      "concept": "Verdienmodellen (Energy Control)",
+      "description": "Verschillende mogelijkheden voor het factureren van de Energy Control methode aan klanten, afgestemd op behoeften van coach en cliënt.",
+      "models": [
+        {"name": "Uur factuur", "description": "Uurtje-factuurtje, elk gewerkt uur wordt uitbetaald.", "advantages": "Veel vrijheid, weinig/geen korting op uurprijs, goede kosten/baten afweging, goed te controleren, evenredige werklast, weinig voorbereiding, weinig voorwaarde.", "disadvantages": "Klanten moeite met tijdrekken/niet oplossen probleem, moeilijk kosten vooraf inschatten, moeten aansturen op meer werk, weinig zekerheid in werkvoorziening.", "client_type": "Nieuwe klanten, oude klant terugkomen om bij te schaven, oude klanten opnieuw in aanmerking tot klant.", "price_percentage": "100%", "client_percentage": "5%-15%", "discount_range": "0%-10%", "when_to_use": "Uitstekend model om klanten met onderneming in contact te laten komen. Biedt veel vrijheid in zoeken naar juiste dienstverlening. Vaak ingezet ter uitbreiding van huidige dienstverlening bij bestaande klanten."},
+        {"name": "Strippenkaart", "description": "Flexibel inkopen tegen vast tarief, elke strip = één afgesproken dienst. Vaak met houdbaarheidsperiode.", "advantages": "Vaste prijs vooraf, weet hoeveel strippen, geen verrassingen achteraf, bijkopen afhankelijk van behoefte/geld.", "disadvantages": "Korting op uurprijs, onregelmatig in planning, grotere investering vooraf voor klant, strippen na afloop periode geven onrust, duidelijke voorwaarde opstellen.", "client_type": "Nieuwe klanten niet klaar voor abonnement, abonnees met extra uren buiten projecten.", "price_percentage": "90%", "client_percentage": "5%-10%", "discount_range": "5%-15%", "when_to_use": "Uitstekend model om klanten (verder) aan je te binden. Brug van uur factuur naar abonnementen. Klant went aan hogere betalingen. Grotere investering vooraf kan reden zijn naar abonnement over te gaan."},
+        {"name": "Basis abonnement", "description": "Overeenkomst met periodieke levering van product/dienst tegen betaling. Basis in abonnement, rest via uur-factuur/strippenkaart.", "advantages": "Vaste afspraken tegen vaste beloning, inkomsten voor bepaalde duur, overige dienstverlening makkelijker aanbieden (UPSELL), goede kosten/baten afweging, risicospreiding.", "disadvantages": "Veel voorbereiding, verplichtingen langere periode, duidelijke opbouwfase, vooraf bedenken hoe te stoppen, snelle groei kan te snel gaan, veel voorwaarde.", "client_type": "Vaste klantenbestand, grootste gedeelte van de klanten.", "price_percentage": "80%", "client_percentage": "45%-65%", "discount_range": "10%-25%", "when_to_use": "Uitstekend model voor bestaande klanten. Biedt ruimte voor groei via uur-factuur/strippenkaart bovenop abonnement. Kan klanten overzetten naar gevorderde/all you can eat abonnementen."},
+        {"name": "Gevorderd abonnement", "description": "Uitgebreider abonnement dan basis, niet alle dienstverlening inbegrepen.", "advantages": "Vaste afspraken tegen vaste beloning, hogere inkomsten voor bepaalde duur, UPSELL makkelijker aan te bieden, goede kosten/baten afweging, risicospreiding.", "disadvantages": "Veel voorbereiding, verplichtingen langere periode, vooraf bedenken hoe te stoppen, veel voorwaarde.", "client_type": "Extra behoevende klanten, premium klanten, 'showers'.", "price_percentage": "100%", "client_percentage": "15%-25%", "discount_range": "15%-33.4%", "when_to_use": "Uitstekend model voor bestaande klanten met extra behoeftes. Biedt ruimte voor groei via uur-factuur/strippenkaart bovenop abonnement. Kan klanten overzetten naar all you can eat abonnement. Niet alle klanten komen hiervoor in aanmerking."},
+        {"name": "All you can eat abonnement", "description": "Klant betaalt voor alle dienstverlening conform voorwaarden.", "advantages": "Geen onverwachte kosten, vaste afspraken, sterke binding met onderneming, goed beeld van hoge inkomsten tegen vaste verwachtingen.", "disadvantages": "Veel voorbereiding, veel werk, verplichtingen langere periode, duidelijke opbouwfase, vooraf bedenken hoe te stoppen, snelle groei kan te snel gaan, veel voorwaarde.", "client_type": "Fans van je bedrijf, klein aantal ambassadeurs, 'showers'.", "price_percentage": "150%", "client_percentage": "10%-15%", "discount_range": "25%-50%", "when_to_use": "De heilige graal van dienstverlening. Genereert voor de klant de sterkste binding met de onderneming en geeft vaak een goed beeld van hoge inkomsten tegen vaste verwachtingen."}
+      ],
+      "switching_models": "Mogelijk om tussen modellen te schakelen (up- en down-sell).",
+      "upsell": "Klant met basisabonnement overhalen tot duurder abonnement door inspelen op aanvullende behoeften.",
+      "downsell": "Aanbieden van goedkoper product/aanbieding wanneer origineel product wordt afgewezen (bijv. strippenkaart of individuele diensten na afwijzing abonnement).",
+      "templates_emails": "Groot aantal templates beschikbaar voor communicatie (afspraakbevestiging, welkomst/afscheidsbrief, accountverificatie, afspraakherinnering, annuleringsbevestiging, intakeverslag, notificatie nieuw formulier, kennismaking app, uitslag rustmeting/inspanningstest, wachtwoord herstellen, etc.). Vrij te gebruiken, aanmoediging eigen logo toe te voegen."
+    },
+    {
+      "category": "Marketing & Sales (Algemeen)",
+      "name": "25 Tips to Crush Your Sales Goal eBook by Marc Wayshak",
+      "description": "Boek over effectieve verkooptechnieken en strategieën, gericht op het overtreffen van verkoopdoelen.",
+      "author": "Marc Wayshak (America's Sales Coach)",
+      "key_takeaways": [
+        "Verkoopsucces komt niet alleen door een goede verkoper, maar door effectief vermarkten van een kwalitatief product.",
+        "Nieuwe verkoopmodellen zijn nodig in de huidige markt (kopers hebben toegang tot informatie online).",
+        "Boek biedt praktische strategieën en bruikbare oplossingen voor het sluiten van deals.",
+        "Nadruk op 'Game Plan Selling' systeem: aanpassen van verkoopstrategie aan de huidige markt.",
+        "Belang van talent, doorzettingsvermogen, focus en pijn kunnen lijden voor succes in sport en sales."
+      ]
+    },
+    {
+      "category": "Marketing & Sales (Algemeen)",
+      "name": "Website Content (Energy Control Methode)",
+      "description": "Overzicht van de homepage en content van de Energy Control website, gericht op het aantrekken van klanten en coaches.",
+      "homepage_elements": [
+        "Beeld/Video (trainer en getrainde persoon).",
+        "Titel: The Energy CO2ntrol Company (netwerk van mensen met passie voor gezondheid).",
+        "Introductie: Energy Control Methode is voor iedereen (behandeling, (top)sportbegeleiding, opleiding coach).",
+        "Links naar 'Energy Co2ntrol Academy' en 'De pakketten'.",
+        "Slogan: 'Doe het lekker zelf met de Energy Control Methode'.",
+        "Uitleg methode: Lichaam meetbaar maken (conditie, herstelvermogen), helpt bij klachten (vermoeidheid, burn-out, diabetes, overgewicht), ook voor topsport. Links naar 'lees meer over de methode' en 'cijfers & publicaties'.",
+        "Filmpje van hoe de methode werkt (app komt naar voren)."
+      ],
+      "energy_control_academy_section": {
+        "description": "Voor iedereen die mensen wil helpen naar een fittere en vitale levensstijl.",
+        "coach_role_video": "Filmpje: coach vertelt dagelijkse bezigheden (inspanningstest afnemen, trainingsprogramma maken, ademhaling leren, bewegen op persoonlijk niveau, gezondheidsproblematiek herkennen).",
+        "basic_training_content": [
+          "Startmeting/Nulmeting", "Lezen en interpreteren van testen", "Ademtherapie", "Inspanningsfysiologie",
+          "Praktijk: coachen met de Energy Control Methode", "Medische Fitness", "Looptrainer", "Topcoach"
+        ],
+        "test_costs": "€10,- excl. BTW per test (voor lezen en interpreteren)."
+      },
+      "packages_section": {
+        "description": "Kies het pakket dat het beste past. Inclusief 'Doe de test' (pakketkeuzehulp).",
+        "do_it_yourself_sport": {
+          "price": "Niet gespecificeerd, maar impliciet aanwezig.",
+          "duration": "18 weken",
+          "features": "Startmeting/nulmeting, pakket (band, contactgel, boekje, app-toegang, extra merch, voedingsadviezen?), zelfstandig trainen met app."
+        },
+        "do_it_together": {
+          "price": "Niet gespecificeerd, maar impliciet aanwezig.",
+          "duration": "18 weken",
+          "features": "Begeleiding door gecertificeerde coach."
+        },
+        "company_package": {
+          "description": "Uitval en preventie, bespaart max. €63.840,- per uitgevallen werknemer, werknemer gemiddeld 152 dagen eerder terug op werk.",
+          "features": "Startmeting/nulmeting, pakket (band, contactgel, boekje, app-toegang, extra merch, voedingsadviezen?), zelfstandig trainen met app."
+        }
+      },
+      "our_coaches_section": {
+        "description": "Vind een coach in de buurt, mogelijkheid om te filteren op specialisme (fysio, CVS, personal training, afvallen, etc.). Idee voor coachprofielen en persoonlijke touch."
+      },
+      "about_us_section": {
+        "company_vision": "The Energy CO2ntrol Company wil via commerciële wijze de gezondheidszorg betreden om te laten zien dat het beste medicijn gratis is (juiste ademhaling, beweging, voeding, rust). Reageert op bezuinigingen in zorg, bureaucratie, magere salarissen, gebrek aan aandacht voor patiënten.",
+        "what_we_do": [
+          "Opleiden van een netwerk van coaches (verhoogt uurloon bijna verdrievoudigd door korte lijntjes en onafhankelijkheid coach).",
+          "Behandelen van mensen met langdurige/chronische ziekte/vermoeidheid (CVS/ME, fibromyalgie, burn-out, kankerherstel, obesitas, diabetes). 92% voelt zich binnen 18 weken fit genoeg voor dagelijks leven.",
+          "Begeleiden van mensen die willen presteren/excelleren (topsport, werkprestatie, productiviteit, stresspreventie)."
+        ],
+        "people_behind_company": "Foto's en functies van Stans, Steven, Tim, Pauline en Maaike. Stans van der Poel: bedenker/ontwikkelaar apparatuur (Co2ntrol, EC-coach, EC teamsystem, Apps), longfunctielaborante, sportdocent, onderwijskundige. Publiceerde 'Hardlooprevolutie' en 'Chronische Vermoeidheid nooit meer'. Missie: kennis overdragen op behandelaars. Werkte samen met Patrick van Luijk (Energy Control Rotterdam) - prijzen gewonnen voor behandeling op locatie en app (MKB innovatieprijs, andere prijs). Volbracht triatlons met slechte knie, artsen verboden sport."
+      },
+      "the_method_section": {
+        "description": "De Energy Control Methode houdt rekening met maximaal haalbare uit DNA. Conditie en herstelvermogen gemeten met speciale apparatuur (hartslagband met ademhalingssensor: hartslag, HRV, ademteug, ademfrequentie, adempatroon). Voorkomt overtraining/onderbelasting. Combinatie met voeding, rust, ademhalingsoefeningen. Alles in een app.",
+        "slogans": [
+          "Neem het heft in eigen handen", "Wees jezelf, wees onafhankelijk", "Kies voor jouw vrijheid, kies voor Energy Control",
+          "Vrij, onafhankelijk, autonomie, ongebonden, zelfstandig", "Onafhankelijk met EC", "Controle over je energie, controle over je leven",
+          "Doe het lekker zelf", "Energie is trainbaar", "Kom in je kracht"
+        ]
+      },
+      "publications": "Boeken, onderzoeken, artikelen. Call to action op elke pagina voor aanmelding."
+    }
+  ]
+}

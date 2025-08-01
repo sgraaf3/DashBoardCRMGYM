@@ -1,0 +1,1182 @@
+[
+  {
+    "name": "Supinator",
+    "description": "De Supinator is een diepgelegen spier in het anterieure deel van de onderarm die de onderarm supineert (handpalm naar boven draait).",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale epicondyl van de humerus, supinator crest van de ulna (ellepijp), en de radiale collaterale en annulaire ligamenten.",
+        "details": [
+          "Oorsprong is breed en omvat zowel bot als ligamenten."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale, anterieure en posterieure oppervlakken van de proximale één derde van de radius (spaakbeen).",
+        "details": [
+          "Vezels omwikkelen de radius."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "80-100",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. radialis (C5, C6) via de diepe tak van de N. radialis (posterior interosseus nerve na doorgang door de spier).",
+      "branch": "Diepe tak van de N. radialis."
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. recurrens radialis (tak van de A. radialis).",
+        "A. interossea posterior."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Supineert de onderarm.",
+      "mechanism_of_action": "Bij contractie roteert de Supinator de radius lateraal rond de ulna, waardoor de handpalm naar voren of omhoog wordt gedraaid (supinatie). Het is de primaire supinator bij alle elleboogposities, met name wanneer de elleboog gestrekt is.",
+      "supination_degrees": {
+        "average": "60-90",
+        "note": "Totale bereik van supinatie, deels bijgedragen door Supinator."
+      },
+      "contribution_percentage_force": {
+        "average": "70-80%",
+        "note": "Geschatte bijdrage aan de totale supinatiekracht bij gestrekte elleboog."
+      },
+      "role_in_expression": [
+        "Essentieel voor handelingen zoals het draaien van een schroevendraaier (met de klok mee), het vasthouden van een kom soep of het draaien van een deurknop.",
+        "Belangrijk voor motorische controle van de onderarm in alledaagse activiteiten."
+      ],
+      "synergists": [
+        "Biceps brachii (een krachtige supinator, vooral bij 90 graden elleboogflexie)."
+      ],
+      "antagonists": [
+        "Pronator teres",
+        "Pronator quadratus (voor pronatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Supinator voor als een spiraalvormige spier die om je spaakbeen (radius) heen wikkelt, net onder je elleboog. Wanneer deze spier samentrekt, draait hij je spaakbeen en daarmee je handpalm naar buiten, alsof je je hand opendraait om iets te ontvangen, of een deurknop opendraait.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Flexor pollicis longus",
+    "description": "De Flexor pollicis longus is een diepe spier in het anterieure compartiment van de onderarm, die de duim flext bij alle gewrichten (interfalangeaal en metacarpofalangeaal).",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure oppervlak van de radius (spaakbeen), distaal van de tuberositas radii, en de aangrenzende interossea membraan.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de distale falanx van de duim (grote teen bij de voet).",
+        "details": [
+          "Lange, dunne pees die door de carpale tunnel loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C7, C8, T1), via de N. interosseus anterior.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea anterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext thumb.",
+      "mechanism_of_action": "Bij contractie trekt de Flexor pollicis longus de distale falanx van de duim naar de handpalm, wat resulteert in flexie van de interfalangeale en metacarpofalangeale gewrichten van de duim. Het is de enige spier die de interfalangeale gewricht van de duim flext, wat cruciaal is voor grijpbewegingen.",
+      "thumb_flexion_degrees": {
+        "average": "60-80",
+        "note": "Totale flexie van de duim."
+      },
+      "grip_strength_contribution_percentage": {
+        "average": "15-20%",
+        "note": "Geschatte bijdrage aan de totale grijpkracht."
+      },
+      "role_in_expression": [
+        "Essentieel voor grijpen, knijpen en vasthouden van objecten.",
+        "Belangrijk voor fijne motoriek van de hand, zoals schrijven, typen en knopen dichtmaken.",
+        "Disfunctie kan leiden tot een 'drop thumb' of verlies van grijpfunctie."
+      ],
+      "synergists": [
+        "Flexor pollicis brevis",
+        "Opponens pollicis",
+        "Adductor pollicis (voor duimbewegingen)"
+      ],
+      "antagonists": [
+        "Extensor pollicis longus",
+        "Extensor pollicis brevis (voor duimextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Flexor pollicis longus voor als een lange, diepe 'kabel' die van de voorkant van je spaakbeen (onderarm) naar de punt van je duim loopt. Wanneer hij samentrekt, trekt hij je duim krachtig naar binnen, alsof hij een haakje is dat je duim buigt om iets vast te pakken, essentieel voor je grijpkracht.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Flexor digitorum superficialis",
+    "description": "De Flexor digitorum superficialis is een grote, oppervlakkige spier in het anterieure compartiment van de onderarm, die primair de vingers flext bij de proximale interfalangeale gewrichten.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale epicondyl van de humerus (opperarmbeen), coronoid proces van de ulna (ellepijp), en de schuine lijn van de radius (spaakbeen).",
+        "details": [
+          "Brede, complexe oorsprong ('humeroulnar head' en 'radial head')."
+        ]
+      },
+      "insertion": {
+        "location": "Zijkanten van de middelste falanx van de 2e tot 5e vingers (II tot V).",
+        "details": [
+          "Vier afzonderlijke pezen, die zich splitsen en om de pezen van de Flexor digitorum profundus heen gaan."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C7, C8, T1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. ulnaris en A. radialis (via recurrente takken)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext fingers (primarily at proximal interphalangeal joints).",
+      "mechanism_of_action": "Bij contractie buigt de Flexor digitorum superficialis de vingers bij de proximale interfalangeale gewrichten (het middelste gewricht van de vinger). Het assisteert ook bij flexie van de metacarpofalangeale gewrichten en flexie van de pols. Het is cruciaal voor het vastpakken van objecten en het vormen van een vuist.",
+      "finger_flexion_degrees": {
+        "average": "90-100",
+        "note": "Bereik van flexie bij de PIP-gewrichten."
+      },
+      "grip_strength_contribution_percentage": {
+        "average": "30-40%",
+        "note": "Belangrijke bijdrage aan de totale grijpkracht."
+      },
+      "role_in_expression": [
+        "Essentieel voor grijpen, knijpen en vasthouden van objecten.",
+        "Belangrijk voor fijne motoriek van de hand, zoals schrijven, typen en muziekinstrumenten bespelen.",
+        "Disfunctie kan leiden tot een 'clenched fist' of verlies van vingerflexie."
+      ],
+      "synergists": [
+        "Flexor digitorum profundus (voor verdere vingerflexie)",
+        "Lumbricals",
+        "Interossei (voor vingerbewegingen)"
+      ],
+      "antagonists": [
+        "Extensor digitorum",
+        "Extensor indicis",
+        "Extensor digiti minimi (voor vinger-extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Flexor digitorum superficialis voor als een brede, gespierde 'plaat' aan de voorkant van je onderarm, die zich splitst in vier afzonderlijke pezen die naar de middelste gewrichten van je vingers lopen. Wanneer hij samentrekt, buigt hij je vingers bij die middelste gewrichten, alsof je je vingers kromt om iets vast te pakken, essentieel voor het vormen van een vuist of het vastpakken van een beker.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Flexor digitorum profundus",
+    "description": "De Flexor digitorum profundus is een diepe spier in het anterieure compartiment van de onderarm, die primair de vingers flext bij de distale interfalangeale gewrichten en ook de pols flext.",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure en mediale oppervlakken van de ulna (ellepijp), distaal van de coronoid proces, en de mediale helft van de interossea membraan.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de distale falanx van de 2e tot 5e vingers (II tot V).",
+        "details": [
+          "Vier afzonderlijke pezen die door de carpale tunnel lopen en door de gespleten pezen van de Flexor digitorum superficialis gaan."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": {
+        "medial_half": "N. ulnaris (C8, T1)"
+      },
+      "lateral_half": {
+        "nerve": "N. medianus (C8, T1), via de N. interosseus anterior."
+      },
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. ulnaris en A. interossea anterior."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flext pols, flext interfalangeale gewrichten.",
+      "mechanism_of_action": "Bij contractie buigt de Flexor digitorum profundus de vingers bij de distale interfalangeale gewrichten (het buitenste gewricht van de vinger), wat de 'diepste' vingerflexie mogelijk maakt. Het assisteert ook bij flexie van de proximale interfalangeale en metacarpofalangeale gewrichten, en flexie van de pols. Het is cruciaal voor een krachtige grijpbeweging en het vasthouden van kleine objecten.",
+      "finger_flexion_degrees": {
+        "average": "80-90",
+        "note": "Bereik van flexie bij de DIP-gewrichten."
+      },
+      "grip_strength_contribution_percentage": {
+        "average": "40-50%",
+        "note": "Belangrijke bijdrage aan de totale grijpkracht."
+      },
+      "role_in_expression": [
+        "Essentieel voor krachtige grijpbewegingen, knijpen en het vasthouden van objecten met de vingertoppen.",
+        "Belangrijk voor fijne motoriek van de hand, zoals het schrijven, typen en het uitvoeren van precisietaken.",
+        "Disfunctie kan leiden tot een 'hook hand' of verlies van grijpfunctie."
+      ],
+      "synergists": [
+        "Flexor digitorum superficialis (voor vingerflexie)",
+        "Lumbricals",
+        "Interossei (voor vingerbewegingen)"
+      ],
+      "antagonists": [
+        "Extensor digitorum",
+        "Extensor indicis",
+        "Extensor digiti minimi (voor vinger-extensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Flexor digitorum profundus voor als een diepe, brede 'plaat' aan de voorkant van je onderarm, die zich splitst in vier afzonderlijke pezen die naar de toppen van je vingers lopen. Wanneer hij samentrekt, buigt hij je vingers bij de buitenste gewrichten, waardoor je een krachtige, diepe grip krijgt, alsof je je vingertoppen gebruikt om iets stevig vast te houden, essentieel voor precisietaken en kracht.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pronator teres",
+    "description": "De Pronator teres is een oppervlakkige spier in het anterieure compartiment van de onderarm, die de onderarm pronateert (handpalm naar beneden draait) en assisteert bij elleboogflexie.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale epicondyl van de humerus (opperarmbeen) en het coronoid proces van de ulna (ellepijp).",
+        "details": [
+          "Twee hoofden: humerale kop en ulnare kop."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale oppervlak van de radius (spaakbeen), halverwege de schacht.",
+        "details": [
+          "Smalle, ruwe insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C6, C7).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. ulnaris en A. radialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Pronates forearm, flexes elbow.",
+      "mechanism_of_action": "Bij contractie roteert de Pronator teres de radius mediaal over de ulna, waardoor de handpalm naar achteren of beneden wordt gedraaid (pronatie). Het assisteert ook bij de flexie van de elleboog. Het is een van de primaire pronatoren van de onderarm.",
+      "pronation_degrees": {
+        "average": "60-90",
+        "note": "Totale bereik van pronatie, deels bijgedragen door Pronator teres."
+      },
+      "elbow_flexion_degrees": {
+        "average": "5-10",
+        "note": "Kleine bijdrage aan elleboogflexie."
+      },
+      "role_in_expression": [
+        "Essentieel voor handelingen zoals het draaien van een schroevendraaier (tegen de klok in), het omkeren van een handpalm of het werpen van een bal onderhands.",
+        "Belangrijk voor motorische controle van de onderarm in alledaagse activiteiten.",
+        "Kan betrokken zijn bij pronator teres syndroom (compressie van de N. medianus)."
+      ],
+      "synergists": [
+        "Pronator quadratus (hoofd pronator, vooral bij gestrekte elleboog)"
+      ],
+      "antagonists": [
+        "Supinator",
+        "Biceps brachii (voor supinatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Pronator teres voor als een schuine 'band' van spier die van de binnenkant van je elleboog naar de zijkant van je onderarm loopt. Wanneer hij samentrekt, draait hij je spaakbeen en daarmee je handpalm naar binnen, alsof je je hand omdraait om iets te bedekken, essentieel voor het draaien van je handpalm naar beneden.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Pronator quadratus",
+    "description": "De Pronator quadratus is een diepe, vierkante spier in het distale deel van de onderarm, die primair de onderarm pronateert (handpalm naar beneden draait).",
+    "anatomy": {
+      "origin": {
+        "location": "Anterieure oppervlak van de ulna (ellepijp), distaal van de kop van de ulna.",
+        "details": [
+          "Brede, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Anterieure oppervlak van de radius (spaakbeen), distaal van de tuberositas radii.",
+        "details": [
+          "Brede, lineaire insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C8, T1), via de N. interosseus anterior.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea anterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Weakly pronates forearm.",
+      "mechanism_of_action": "Bij contractie trekt de Pronator quadratus de distale radius over de ulna, wat resulteert in pronatie van de onderarm. Het is de primaire pronator, vooral wanneer de elleboog geflecteerd is, en speelt een cruciale rol bij het stabiliseren van de distale radio-ulnare gewricht.",
+      "pronation_degrees": {
+        "average": "60-90",
+        "note": "Totale bereik van pronatie, deels bijgedragen door Pronator quadratus."
+      },
+      "stabilization_force_N": {
+        "average": "Niet direct kwantificeerbaar, maar essentieel voor distale radio-ulnare gewrichtsstabiliteit.",
+        "note": "Belangrijk voor fijne motoriek en stabiliteit."
+      },
+      "role_in_expression": [
+        "Essentieel voor handelingen zoals het draaien van een schroevendraaier (tegen de klok in) en het omkeren van een handpalm.",
+        "Belangrijk voor de stabiliteit van de pols en onderarm tijdens diverse bewegingen.",
+        "Disfunctie kan leiden tot beperkte pronatie en pijn in de pols."
+      ],
+      "synergists": [
+        "Pronator teres (voor pronatie)"
+      ],
+      "antagonists": [
+        "Supinator",
+        "Biceps brachii (voor supinatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Pronator quadratus voor als een klein, vierkant 'blokje' van spier dat diep in je onderarm zit, net boven je pols, en je spaakbeen en ellepijp met elkaar verbindt. Wanneer hij samentrekt, trekt hij je spaakbeen over je ellepijp, waardoor je handpalm naar beneden draait, alsof het een fijne 'draaier' is die je onderarm in de juiste positie brengt.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Extensor pollicis longus",
+    "description": "De Extensor pollicis longus is een spier in het posterieure compartiment van de onderarm, die de duim extendert bij alle gewrichten (interfalangeaal en metacarpofalangeaal) en de pols dorsiflext.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure oppervlak van de ulna (ellepijp), distaal van de oorsprong van de Abductor pollicis longus, en de aangrenzende interossea membraan.",
+        "details": [
+          "Smalle, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de distale falanx van de duim (grote teen bij de voet).",
+        "details": [
+          "Lange, dunne pees die door het 3e dorsale compartiment van de pols loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea posterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends thumb (metacarpophalangeal and interphalangeal).",
+      "mechanism_of_action": "Bij contractie trekt de Extensor pollicis longus de distale falanx van de duim naar achteren, wat resulteert in extensie van de interfalangeale en metacarpofalangeale gewrichten van de duim. Het is de primaire extensor van de duim en essentieel voor het openen van de hand en het loslaten van objecten.",
+      "thumb_extension_degrees": {
+        "average": "60-80",
+        "note": "Totale extensie van de duim."
+      },
+      "role_in_expression": [
+        "Essentieel voor het openen van de hand, het loslaten van objecten en het uitvoeren van gebaren (bijv. 'duim omhoog').",
+        "Belangrijk voor fijne motoriek van de hand, zoals het vasthouden van een potlood of het gebruiken van een toetsenbord.",
+        "Disfunctie kan leiden tot een 'drop thumb' of beperkte duimextensie."
+      ],
+      "synergists": [
+        "Extensor pollicis brevis",
+        "Abductor pollicis longus (voor duimextensie en abductie)"
+      ],
+      "antagonists": [
+        "Flexor pollicis longus",
+        "Flexor pollicis brevis (voor duimflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor pollicis longus voor als een lange, dunne 'kabel' die van de achterkant van je onderarm naar de punt van je duim loopt. Wanneer hij samentrekt, trekt hij je duim krachtig recht en naar achteren, alsof hij een 'veer' is die je duim strekt om iets los te laten of een gebaar te maken.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Extensor pollicis brevis",
+    "description": "De Extensor pollicis brevis is een spier in het posterieure compartiment van de onderarm, die de duim extendert bij het metacarpofalangeale gewricht en assisteert bij abductie van de duim.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure oppervlak van de radius (spaakbeen), distaal van de oorsprong van de Abductor pollicis longus, en de aangrenzende interossea membraan.",
+        "details": [
+          "Smalle, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de proximale falanx van de duim (grote teen bij de voet).",
+        "details": [
+          "Korte, pezige insertie die door het 1e dorsale compartiment van de pols loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea posterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends thumb at metacarpophalangeal joint.",
+      "mechanism_of_action": "Bij contractie trekt de Extensor pollicis brevis de proximale falanx van de duim naar achteren, wat resulteert in extensie van het metacarpofalangeale gewricht van de duim. Het assisteert ook bij de abductie van de duim. Het is een belangrijke spier voor het openen van de hand en het positioneren van de duim.",
+      "thumb_extension_degrees": {
+        "average": "20-30",
+        "note": "Bereik van extensie bij de MCP-gewricht."
+      },
+      "thumb_abduction_degrees": {
+        "average": "5-10",
+        "note": "Kleine bijdrage aan duimabductie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het openen van de hand, het loslaten van objecten en het uitvoeren van gebaren.",
+        "Belangrijk voor fijne motoriek van de hand, zoals het vasthouden van een pen of het gebruiken van een muis.",
+        "Disfunctie kan leiden tot pijn en beperkte duimextensie (bijv. De Quervain's tenosynovitis)."
+      ],
+      "synergists": [
+        "Extensor pollicis longus (voor verdere duimextensie)",
+        "Abductor pollicis longus (voor duimabductie)"
+      ],
+      "antagonists": [
+        "Flexor pollicis longus",
+        "Flexor pollicis brevis (voor duimflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor pollicis brevis voor als een kortere, dunne 'kabel' die van de achterkant van je onderarm naar de basis van je duim loopt. Wanneer hij samentrekt, trekt hij je duim recht en iets naar buiten, alsof hij een 'veer' is die je duim strekt om iets los te laten of een gebaar te maken, en ook helpt je duim iets van je hand af te bewegen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Extensor indicis",
+    "description": "De Extensor indicis is een diepe spier in het posterieure compartiment van de onderarm, die primair de wijsvinger (index) extendert en assisteert bij polsextensie.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure oppervlak van de ulna (ellepijp), distaal van de oorsprong van de Extensor pollicis longus, en de aangrenzende interossea membraan.",
+        "details": [
+          "Smalle, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Extensor expansie van de wijsvinger (index), versmeltend met de pees van de Extensor digitorum.",
+        "details": [
+          "Lange, dunne pees die door het 4e dorsale compartiment van de pols loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea posterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends index finger, wrist.",
+      "mechanism_of_action": "Bij contractie strekt de Extensor indicis de wijsvinger onafhankelijk van de andere vingers bij alle gewrichten (DIP, PIP, MCP). Het assisteert ook bij de extensie van de pols. Het is cruciaal voor gebaren en fijne motoriek die de wijsvinger isoleren.",
+      "index_finger_extension_degrees": {
+        "average": "70-90",
+        "note": "Bereik van extensie bij de MCP-gewricht."
+      },
+      "wrist_extension_degrees": {
+        "average": "5-10",
+        "note": "Kleine bijdrage aan polsextensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het wijzen met de vinger, typen, en het uitvoeren van fijne, geïsoleerde vingerbewegingen.",
+        "Belangrijk voor non-verbale communicatie en precisietaken.",
+        "Disfunctie kan leiden tot een 'drop finger' of beperkte wijsvingerextensie."
+      ],
+      "synergists": [
+        "Extensor digitorum (voor vinger-extensie)",
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis",
+        "Extensor carpi ulnaris (voor polsextensie)"
+      ],
+      "antagonists": [
+        "Flexor digitorum profundus",
+        "Flexor digitorum superficialis (voor vingerflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor indicis voor als een dunne, lange 'draad' die van de achterkant van je onderarm naar de wijsvinger loopt, parallel aan de pezen van de andere vingers. Wanneer hij samentrekt, strekt hij alleen je wijsvinger recht uit, alsof hij een 'speciale trekker' is die je wijsvinger onafhankelijk laat bewegen voor het wijzen of typen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Extensor digitorum",
+    "description": "De Extensor digitorum is een oppervlakkige spier in het posterieure compartiment van de onderarm, die primair de vingers extendert bij de metacarpofalangeale gewrichten en assisteert bij polsextensie.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale epicondyl van de humerus (opperarmbeen) via de gemeenschappelijke extensorpees.",
+        "details": [
+          "Puntvormige, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Extensor expansie van de 2e tot 5e vingers (II tot V), die zich verder verdeelt naar de middelste en distale falanxen.",
+        "details": [
+          "Vier afzonderlijke pezen die door het 4e dorsale compartiment van de pols lopen."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. recurrens radialis en A. interossea posterior."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends hand, extends fingers.",
+      "mechanism_of_action": "Bij contractie strekt de Extensor digitorum de vingers bij de metacarpofalangeale gewrichten (de knokkels) en assisteert het bij de extensie van de pols. Het is de primaire spier voor het openen van de hand en het strekken van de vingers, hoewel het de interfalangeale gewrichten minder krachtig strekt dan de intrinsieke handspieren (Lumbricals, Interossei).",
+      "finger_extension_degrees": {
+        "average": "70-90",
+        "note": "Bereik van extensie bij de MCP-gewrichten."
+      },
+      "wrist_extension_degrees": {
+        "average": "30-45",
+        "note": "Belangrijke bijdrage aan polsextensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het openen van de hand, het loslaten van objecten en het uitvoeren van gebaren (bijv. zwaaien).",
+        "Belangrijk voor fijne motoriek van de hand, zoals typen en het bespelen van muziekinstrumenten.",
+        "Disfunctie kan leiden tot een 'drop wrist' of beperkte vinger-extensie."
+      ],
+      "synergists": [
+        "Extensor indicis",
+        "Extensor digiti minimi (voor vinger-extensie)",
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis",
+        "Extensor carpi ulnaris (voor polsextensie)"
+      ],
+      "antagonists": [
+        "Flexor digitorum profundus",
+        "Flexor digitorum superficialis (voor vingerflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor digitorum voor als een brede 'plaat' van spier aan de achterkant van je onderarm, die zich splitst in vier pezen die naar de knokkels van je vingers lopen. Wanneer hij samentrekt, strekt hij je vingers recht uit, alsof je je hand openklapt om iets te laten zien of los te laten, essentieel voor het openen van je hand en het strekken van je vingers.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Extensor digiti minimi",
+    "description": "De Extensor digiti minimi is een slanke spier in het posterieure compartiment van de onderarm, die primair de pink (digitus minimus) extendert en assisteert bij polsextensie.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale epicondyl van de humerus (opperarmbeen), via de gemeenschappelijke extensorpees, en het aangrenzende intermusculaire septum.",
+        "details": [
+          "Puntvormige, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Extensor expansie van de pink (digitus minimus), versmeltend met de pees van de Extensor digitorum.",
+        "details": [
+          "Lange, dunne pees die door het 5e dorsale compartiment van de pols loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea posterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends little finger at all joints.",
+      "mechanism_of_action": "Bij contractie strekt de Extensor digiti minimi de pink onafhankelijk van de andere vingers bij alle gewrichten (DIP, PIP, MCP). Het assisteert ook bij de extensie van de pols. Het is cruciaal voor gebaren en fijne motoriek die de pink isoleren.",
+      "little_finger_extension_degrees": {
+        "average": "70-90",
+        "note": "Bereik van extensie bij de MCP-gewricht."
+      },
+      "wrist_extension_degrees": {
+        "average": "5-10",
+        "note": "Kleine bijdrage aan polsextensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het uitvoeren van gebaren (bijv. 'pinky up'), typen, en het uitvoeren van fijne, geïsoleerde vingerbewegingen.",
+        "Belangrijk voor non-verbale communicatie en precisietaken.",
+        "Disfunctie kan leiden tot een 'drop finger' of beperkte pinkextensie."
+      ],
+      "synergists": [
+        "Extensor digitorum (voor vinger-extensie)",
+        "Extensor carpi ulnaris (voor polsextensie)"
+      ],
+      "antagonists": [
+        "Flexor digiti minimi (hand)",
+        "Flexor digitorum profundus",
+        "Flexor digitorum superficialis (voor vingerflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor digiti minimi voor als een dunne, lange 'draad' die van de achterkant van je onderarm naar je pink loopt, parallel aan de pezen van de andere vingers. Wanneer hij samentrekt, strekt hij alleen je pink recht uit, alsof hij een 'speciale trekker' is die je pink onafhankelijk laat bewegen voor gebaren of typen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Extensor carpi ulnaris",
+    "description": "De Extensor carpi ulnaris is een spier in het posterieure compartiment van de onderarm, die de pols extendert en adduceert (ulnaire deviatie).",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale epicondyl van de humerus (opperarmbeen) via de gemeenschappelijke extensorpees, en de posterieure rand van de ulna (ellepijp).",
+        "details": [
+          "Twee hoofden: humerale kop en ulnare kop."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de 5e metacarpaal (middenhandsbeentje) aan de dorsale zijde.",
+        "details": [
+          "Sterke, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea posterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends and adducts wrist.",
+      "mechanism_of_action": "Bij contractie strekt de Extensor carpi ulnaris de pols (dorsiflexie) en beweegt deze naar de ulnaire zijde (ulnaire deviatie). Het is een belangrijke spier voor het stabiliseren van de pols tijdens grijpbewegingen en voor krachtige extensie en zijwaartse bewegingen van de pols.",
+      "wrist_extension_degrees": {
+        "average": "30-45",
+        "note": "Belangrijke bijdrage aan polsextensie."
+      },
+      "wrist_ulnar_deviation_degrees": {
+        "average": "15-25",
+        "note": "Belangrijke bijdrage aan ulnaire deviatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het stabiliseren van de pols tijdens handbewegingen, zoals grijpen, werpen of zwaaien met een racket.",
+        "Belangrijk voor sporten die polskracht en controle vereisen (bijv. tennis, golf, gewichtheffen).",
+        "Disfunctie kan leiden tot polspijn en instabiliteit."
+      ],
+      "synergists": [
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis (voor polsextensie)",
+        "Flexor carpi ulnaris (voor ulnaire deviatie)"
+      ],
+      "antagonists": [
+        "Flexor carpi radialis",
+        "Flexor carpi ulnaris (voor polsflexie)",
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis (voor radiale deviatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor carpi ulnaris voor als een gespierde 'band' die van de buitenkant van je elleboog langs de achterkant van je onderarm loopt en vastzit aan de basis van je pink. Wanneer hij samentrekt, strekt hij je pols recht en buigt hij je hand naar de pink-kant, alsof hij een 'anker' is dat je pols stabiliseert en zijwaarts kan bewegen, essentieel voor krachtige polsbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Extensor carpi radialis longus",
+    "description": "De Extensor carpi radialis longus is een spier in het posterieure compartiment van de onderarm, die de pols extendert en abduceert (radiale deviatie).",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale supracondylaire richel van de humerus (opperarmbeen).",
+        "details": [
+          "Smalle, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de 2e metacarpaal (middenhandsbeentje) aan de dorsale zijde.",
+        "details": [
+          "Lange, platte pees die door het 2e dorsale compartiment van de pols loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C6, C7).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. recurrens radialis (tak van de A. radialis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends wrist joint, abducts hand at wrist.",
+      "mechanism_of_action": "Bij contractie strekt de Extensor carpi radialis longus de pols (dorsiflexie) en beweegt deze naar de radiale zijde (radiale deviatie). Het is een belangrijke spier voor het stabiliseren van de pols tijdens grijpbewegingen en voor krachtige extensie en zijwaartse bewegingen van de pols.",
+      "wrist_extension_degrees": {
+        "average": "45-60",
+        "note": "Belangrijke bijdrage aan polsextensie."
+      },
+      "wrist_radial_deviation_degrees": {
+        "average": "15-20",
+        "note": "Belangrijke bijdrage aan radiale deviatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het stabiliseren van de pols tijdens handbewegingen, zoals grijpen, werpen of typen.",
+        "Belangrijk voor sporten die polskracht en controle vereisen (bijv. tennis, badminton, gewichtheffen).",
+        "Disfunctie kan leiden tot polspijn en instabiliteit (bijv. 'tenniselleboog')."
+      ],
+      "synergists": [
+        "Extensor carpi radialis brevis",
+        "Extensor carpi ulnaris (voor polsextensie)",
+        "Flexor carpi radialis (voor radiale deviatie)"
+      ],
+      "antagonists": [
+        "Flexor carpi radialis",
+        "Flexor carpi ulnaris (voor polsflexie)",
+        "Extensor carpi ulnaris (voor ulnaire deviatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor carpi radialis longus voor als een lange, gespierde 'band' die van de buitenkant van je elleboog langs de achter-buitenkant van je onderarm loopt en vastzit aan de basis van je wijsvinger. Wanneer hij samentrekt, strekt hij je pols recht en buigt hij je hand naar de duim-kant, alsof hij een 'stuurkabel' is die je pols stabiliseert en zijwaarts kan bewegen, essentieel voor krachtige polsbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Extensor carpi radialis brevis",
+    "description": "De Extensor carpi radialis brevis is een spier in het posterieure compartiment van de onderarm, die de pols extendert en abduceert (radiale deviatie). Het is korter en dieper dan de Extensor carpi radialis longus.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale epicondyl van de humerus (opperarmbeen) via de gemeenschappelijke extensorpees.",
+        "details": [
+          "Puntvormige, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de 3e metacarpaal (middenhandsbeentje) aan de dorsale zijde.",
+        "details": [
+          "Korte, platte pees die door het 2e dorsale compartiment van de pols loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. recurrens radialis (tak van de A. radialis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Extends wrist joint, abducts hand at wrist.",
+      "mechanism_of_action": "Bij contractie strekt de Extensor carpi radialis brevis de pols (dorsiflexie) en beweegt deze naar de radiale zijde (radiale deviatie). Het is een belangrijke spier voor het stabiliseren van de pols tijdens grijpbewegingen en voor krachtige extensie en zijwaartse bewegingen van de pols. Het is vaak de primaire polsextensor bij een gebalde vuist.",
+      "wrist_extension_degrees": {
+        "average": "45-60",
+        "note": "Belangrijke bijdrage aan polsextensie."
+      },
+      "wrist_radial_deviation_degrees": {
+        "average": "15-20",
+        "note": "Belangrijke bijdrage aan radiale deviatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het stabiliseren van de pols tijdens handbewegingen, zoals grijpen, werpen of typen.",
+        "Belangrijk voor sporten die polskracht en controle vereisen (bijv. tennis, badminton, gewichtheffen).",
+        "Een veelvoorkomende bron van laterale epicondylitis ('tenniselleboog')."
+      ],
+      "synergists": [
+        "Extensor carpi radialis longus",
+        "Extensor carpi ulnaris (voor polsextensie)",
+        "Flexor carpi radialis (voor radiale deviatie)"
+      ],
+      "antagonists": [
+        "Flexor carpi radialis",
+        "Flexor carpi ulnaris (voor polsflexie)",
+        "Extensor carpi ulnaris (voor ulnaire deviatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Extensor carpi radialis brevis voor als een kortere, diepere 'band' die van de buitenkant van je elleboog langs de achter-buitenkant van je onderarm loopt en vastzit aan de basis van je middelvinger. Wanneer hij samentrekt, strekt hij je pols recht en buigt hij je hand naar de duim-kant, alsof hij een 'stuurkabel' is die je pols stabiliseert en zijwaarts kan bewegen, essentieel voor krachtige polsbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Flexor carpi ulnaris",
+    "description": "De Flexor carpi ulnaris is een oppervlakkige spier in het anterieure compartiment van de onderarm, die de pols flext en adduceert (ulnaire deviatie).",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale epicondyl van de humerus (opperarmbeen) via de gemeenschappelijke flexorpees, en de olecranon en posterieure rand van de ulna (ellepijp).",
+        "details": [
+          "Twee hoofden: humerale kop en ulnare kop."
+        ]
+      },
+      "insertion": {
+        "location": "Pisiforme botje, haak van het hamatum (haakbeentje), en de basis van de 5e metacarpaal (middenhandsbeentje).",
+        "details": [
+          "Sterke, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. ulnaris (C7, C8, T1).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. ulnaris (via recurrente takken)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flexes and adducts wrist.",
+      "mechanism_of_action": "Bij contractie buigt de Flexor carpi ulnaris de pols (palmairflexie) en beweegt deze naar de ulnaire zijde (ulnaire deviatie). Het is een krachtige spier voor het stabiliseren van de pols tijdens grijpbewegingen en voor krachtige flexie en zijwaartse bewegingen van de pols.",
+      "wrist_flexion_degrees": {
+        "average": "70-80",
+        "note": "Belangrijke bijdrage aan polsflexie."
+      },
+      "wrist_ulnar_deviation_degrees": {
+        "average": "30-40",
+        "note": "Belangrijke bijdrage aan ulnaire deviatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het stabiliseren van de pols tijdens handbewegingen, zoals grijpen, werpen of zwaaien met een racket.",
+        "Belangrijk voor sporten die polskracht en controle vereisen (bijv. tennis, golf, gewichtheffen).",
+        "Disfunctie kan leiden tot polspijn en instabiliteit."
+      ],
+      "synergists": [
+        "Flexor carpi radialis",
+        "Palmaris longus (voor polsflexie)",
+        "Extensor carpi ulnaris (voor ulnaire deviatie)"
+      ],
+      "antagonists": [
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis",
+        "Extensor carpi ulnaris (voor polsextensie)",
+        "Flexor carpi radialis (voor radiale deviatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Flexor carpi ulnaris voor als een gespierde 'band' die van de binnenkant van je elleboog langs de binnen-achterkant van je onderarm loopt en vastzit aan de basis van je pink en de kleine botjes in je pols. Wanneer hij samentrekt, buigt hij je pols naar beneden en naar de pink-kant, alsof hij een 'anker' is dat je pols stabiliseert en zijwaarts kan bewegen, essentieel voor krachtige polsbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Flexor carpi radialis",
+    "description": "De Flexor carpi radialis is een oppervlakkige spier in het anterieure compartiment van de onderarm, die de pols flext en abduceert (radiale deviatie).",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale epicondyl van de humerus (opperarmbeen) via de gemeenschappelijke flexorpees.",
+        "details": [
+          "Puntvormige, pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de 2e en soms 3e metacarpaal (middenhandsbeentje) aan de palmaire zijde.",
+        "details": [
+          "Lange, dunne pees die door de carpale tunnel loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. medianus (C6, C7).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. radialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flexes and abducts wrist.",
+      "mechanism_of_action": "Bij contractie buigt de Flexor carpi radialis de pols (palmairflexie) en beweegt deze naar de radiale zijde (radiale deviatie). Het is een krachtige spier voor het stabiliseren van de pols tijdens grijpbewegingen en voor krachtige flexie en zijwaartse bewegingen van de pols.",
+      "wrist_flexion_degrees": {
+        "average": "70-80",
+        "note": "Belangrijke bijdrage aan polsflexie."
+      },
+      "wrist_radial_deviation_degrees": {
+        "average": "20-30",
+        "note": "Belangrijke bijdrage aan radiale deviatie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het stabiliseren van de pols tijdens handbewegingen, zoals grijpen, werpen of typen.",
+        "Belangrijk voor sporten die polskracht en controle vereisen (bijv. tennis, badminton, gewichtheffen).",
+        "Disfunctie kan leiden tot polspijn en instabiliteit (bijv. 'golferselleboog')."
+      ],
+      "synergists": [
+        "Flexor carpi ulnaris",
+        "Palmaris longus (voor polsflexie)",
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis (voor radiale deviatie)"
+      ],
+      "antagonists": [
+        "Extensor carpi radialis longus",
+        "Extensor carpi radialis brevis",
+        "Extensor carpi ulnaris (voor polsextensie)",
+        "Flexor carpi ulnaris (voor ulnaire deviatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Flexor carpi radialis voor als een gespierde 'band' die van de binnenkant van je elleboog langs de voorkant van je onderarm loopt en vastzit aan de basis van je wijsvinger en middelvinger. Wanneer hij samentrekt, buigt hij je pols naar beneden en naar de duim-kant, alsof hij een 'stuurkabel' is die je pols stabiliseert en zijwaarts kan bewegen, essentieel voor krachtige polsbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Abductor pollicis longus",
+    "description": "De Abductor pollicis longus is een diepe spier in het posterieure compartiment van de onderarm, die de duim abduceert (van de handpalm af beweegt) en extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieure oppervlakken van de ulna (ellepijp) en radius (spaakbeen), en de aangrenzende interossea membraan, in het midden één derde.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Basis van de 1e metacarpaal (middenhandsbeentje) van de duim.",
+        "details": [
+          "Lange, pezige insertie die door het 1e dorsale compartiment van de pols loopt."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8), via de N. interosseus posterior (diepe tak van de N. radialis).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. interossea posterior (tak van de A. ulnaris)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Abducts and extends thumb.",
+      "mechanism_of_action": "Bij contractie trekt de Abductor pollicis longus de duim van de handpalm af (abductie) en extendert het bij het carpometacarpale gewricht. Het is de primaire abductor van de duim en essentieel voor het openen van de hand en het vastpakken van grote objecten.",
+      "thumb_abduction_degrees": {
+        "average": "40-60",
+        "note": "Bereik van abductie bij de CMC-gewricht."
+      },
+      "thumb_extension_degrees": {
+        "average": "10-20",
+        "note": "Kleine bijdrage aan duimextensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het openen van de hand, het vasthouden van objecten en het uitvoeren van gebaren (bijv. 'duim omhoog').",
+        "Belangrijk voor fijne motoriek van de hand, zoals het vastpakken van een pen of het gebruiken van een muis.",
+        "Disfunctie kan leiden tot pijn en beperkte duimbeweging (bijv. De Quervain's tenosynovitis)."
+      ],
+      "synergists": [
+        "Extensor pollicis brevis",
+        "Extensor pollicis longus (voor duimextensie)"
+      ],
+      "antagonists": [
+        "Adductor pollicis",
+        "Flexor pollicis brevis (voor duimadductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Abductor pollicis longus voor als een lange, diepe 'kabel' die van de achterkant van je onderarm naar de basis van je duim loopt. Wanneer hij samentrekt, trekt hij je duim van je handpalm af en strekt het tegelijkertijd, alsof hij een 'opener' is die je duim spreidt om iets vast te pakken of een gebaar te maken.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Brachioradialis",
+    "description": "De Brachioradialis is een oppervlakkige spier in het laterale compartiment van de onderarm, die de elleboog flext en de onderarm pronateert wanneer deze gesupineerd is, en supineert wanneer deze geproneerd is (brengt de onderarm naar een neutrale positie).",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale supracondylaire richel van de humerus (opperarmbeen) en het laterale intermusculaire septum.",
+        "details": [
+          "Lange, lineaire oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van de distale radius (spaakbeen), net boven de processus styloideus radii.",
+        "details": [
+          "Pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C5, C6, C7).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. radialis recurrens en A. radialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Flexes forearm, pronates forearm when supine, supinates forearm when prone.",
+      "mechanism_of_action": "Bij contractie flext de Brachioradialis de elleboog, vooral effectief bij snelle bewegingen of wanneer er weerstand is. Zijn unieke functie is het terugbrengen van de onderarm naar een neutrale positie (duim omhoog) vanuit zowel pronatie als supinatie. Het is de meest effectieve elleboogflexor in een neutrale onderarmpositie.",
+      "elbow_flexion_degrees": {
+        "average": "90-120",
+        "note": "Belangrijke bijdrage aan elleboogflexie."
+      },
+      "pronation_supination_degrees": {
+        "average": "Tot neutrale positie (ongeveer 45 graden vanuit extreme pronatie/supinatie).",
+        "note": "Brengt de onderarm naar de neutrale positie."
+      },
+      "role_in_expression": [
+        "Essentieel voor alle trekbewegingen van de arm en het optillen van objecten.",
+        "Belangrijk voor het handhaven van de stabiliteit van de elleboog en de onderarm tijdens diverse activiteiten.",
+        "Vaak een focus in krachttraining voor armspieren."
+      ],
+      "synergists": [
+        "Biceps brachii",
+        "Brachialis (voor elleboogflexie)",
+        "Pronator teres",
+        "Supinator (voor pronatie/supinatie naar neutraal)"
+      ],
+      "antagonists": [
+        "Triceps brachii",
+        "Anconeus (voor elleboogextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Brachioradialis voor als een lange, gespierde 'band' die van de buitenkant van je bovenarm (net boven de elleboog) langs de zijkant van je onderarm loopt en vastzit aan de basis van je duim. Wanneer hij samentrekt, buigt hij je elleboog en brengt hij je hand in een neutrale positie (duim omhoog), alsof het een 'stuurkabel' is die je onderarm in de juiste stand brengt voor diverse handelingen.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

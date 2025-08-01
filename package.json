@@ -1,0 +1,17 @@
+{
+  "name": "cute-fitness-hub",
+  "version": "1.0.0",
+  "description": "Comprehensive Universal Training Environment Fitness Hub",
+  "main": "src/app/app.js",
+  "scripts": {
+    "start": "live-server . --port=8080 --no-browser",
+    "build": "node src/core/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.21.3",
+    "fs-extra": "^11.2.0",
+    "live-server": "^1.2.2"
+  }
+}

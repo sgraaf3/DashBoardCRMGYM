@@ -1,0 +1,1108 @@
+:root {
+    --primary-color: #4a4a4a; /* Darker grey for primary elements */
+    --secondary-color: #6b6b6b; /* Medium grey for secondary elements */
+    --background-color: #f0f0f0; /* Light grey for background */
+    --surface-color: #ffffff; /* White for cards/surfaces */
+    --text-color: #333333; /* Dark grey for text */
+    --border-color: #cccccc; /* Light grey for borders */
+    --danger-color: #cc0000; /* A subtle red for danger, can be adjusted to grey if needed */
+    --accent-color: #888888; /* A neutral grey for accents */
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Main Layout */
+#app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: none; /* Hidden as per request */
+}
+
+/* Sidebar - Hidden as per request */
+#sidebar {
+    display: none;
+}
+
+main {
+    flex-grow: 1;
+    padding: 2rem;
+    width: 100%; /* Ensure main content takes full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--surface-color);
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9em;
+}
+
+/* General Elements */
+.btn {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+.btn:hover {
+    background-color: #555555; /* Darker grey on hover */
+}
+.btn.btn-primary {
+    background-color: var(--primary-color);
+}
+.btn.btn-primary:hover {
+    background-color: #3a3a3a; /* Darker grey on hover */
+}
+.btn.btn-danger {
+    background-color: var(--danger-color);
+}
+.btn.btn-danger:hover {
+    background-color: #a30000; /* Darker red on hover */
+}
+.btn-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 4px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    transition: background-color 0.2s, color 0.2s;
+}
+.btn-icon:hover {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+/* View & Component Styles */
+.view-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+.view-subheader {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+.view-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.view-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--surface-color);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+.back-link {
+    display: block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.view-actions {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+/* Modal Styles */
+.hidden { display: none; }
+
+#modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+#modal-content {
+    background-color: var(--surface-color); /* Changed to grey */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    min-width: 500px;
+    max-width: 90%;
+    border: 2px solid var(--border-color); /* Changed to grey */
+    position: relative; /* For positioning the close button */
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.modal-close-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #888;
+    background: none;
+    border: none;
+}
+
+.modal-body .modal-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex-grow: 1;
+}
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: var(--surface-color);
+    color: var(--text-color);
+    font-family: inherit;
+}
+
+/* Notification / Toast Styles */
+#notification-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1050;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.notification {
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    color: rgb(65, 70, 145);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    opacity: 0;
+    animation: fadeIn 0.5s forwards, fadeOut 0.5s 2.5s forwards;
+}
+
+.notification.info {
+    background-color: var(--secondary-color);
+}
+
+.notification.success {
+    background-color: var(--accent-color);
+}
+
+.notification.error {
+    background-color: var(--danger-color);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(100%); }
+    to { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(100%); }
+}
+
+/* Detail View Sections */
+.detail-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+.detail-section h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* Dashboard */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 1rem;
+    align-items: start; /* Prevent stretching of grid items */
+}
+
+.widget {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    height: auto; /* Allow height to adjust to content */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.widget.error-widget {
+    background-color: #fff5f5;
+    border-color: var(--danger-color);
+    color: var(--danger-color);
+}
+
+.widget-header-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.invoice-summary {
+    font-weight: 500;
+    color: var(--danger-color);
+}
+
+.invoice-summary.paid {
+    color: #28a745; /* Green */
+}
+
+.widget h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+#weekly-notes-container textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.expand-icon {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.expand-icon:hover {
+    color: var(--primary-color);
+}
+
+.widget-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.widget-list li:last-child {
+    border-bottom: none;
+}
+
+.widget-list.ordered {
+    list-style: decimal inside;
+    padding-left: 0.5rem;
+}
+
+.widget-list li.clickable {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.widget-list li.clickable:hover {
+    background-color: var(--background-color);
+}
+
+.widget-list a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.widget-list a:hover {
+    text-decoration: underline;
+}
+
+.widget-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.btn-sm {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8em;
+}
+
+.status {
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status-active {
+    background-color: var(--accent-color);
+}
+
+.status-busy {
+    background-color: #f59e0b; /* Amber */
+}
+
+.status-empty {
+    background-color: #28a745; /* Green */
+}
+
+.status-expired {
+    background-color: var(--danger-color);
+}
+
+.status-pending {
+    background-color: #cccccc; /* Grey for pending */
+    color: var(--text-color);
+}
+
+.status-refunded {
+    background-color: #6b7280; /* A neutral grey for refunded */
+    text-decoration: line-through;
+}
+
+/* Change Indicators */
+.change-indicator {
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.change-indicator.positive {
+    color: #28a745; /* Green */
+}
+
+.change-indicator.negative {
+    color: #dc3545; /* Red */
+}
+
+.change-indicator .icon {
+    margin-right: 0.2rem;
+}
+
+.member-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.member-list-header input {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.member-list-controls .form-control {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 0.9em;
+    background-color: var(--surface-color);
+}
+
+.member-list-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.member-detail-card p {
+    margin: 0.5rem 0;
+}
+
+.activity-table {
+    width: fit-content;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.activity-table th,
+.activity-table td {
+    border: 1px solid var(--border-color);
+    padding: 0.25rem;
+    text-align: left;
+}
+
+.activity-table th {
+    background-color: var(--background-color);
+    font-weight: bold;
+}
+
+.activity-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.activity-table tbody tr:hover {
+    background-color: var(--background-color);
+}
+
+.activity-table tr.clickable-row:hover {
+    cursor: pointer;
+    background-color: #e5e7eb; /* A slightly different hover for clickable rows */
+}
+
+.activity-table td.actions {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.note {
+    font-size: 0.85em;
+    color: var(--secondary-color);
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.ice-result-item {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    background-color: #f9f9f9;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#workout-search {
+    padding-right: 2.5rem; /* Make space for the button */
+}
+
+#clear-search-btn {
+    position: absolute;
+    right: 0.5rem;
+    font-size: 1.5rem;
+}
+.planner-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.filter-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.filter-group .btn {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.filter-group .btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+.financial-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+/* Tools View */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.tool-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.tool-card h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.tool-card .btn {
+    margin: 0.25rem;
+}
+
+/* Workout Timer (formerly Stopwatch) */
+.timer-nav {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+.timer-nav-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: var(--secondary-color);
+    border-bottom: 3px solid transparent;
+}
+.timer-nav-btn.active {
+    color: var(--primary-color);
+    font-weight: bold;
+    border-bottom-color: var(--primary-color);
+}
+
+.timer-display {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+.timer-display.amrap-ending {
+    color: var(--danger-color);
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.hr-chart-container, .hrv-chart-container {
+    width: 100%;
+    min-height: 300px;
+    background-color: #fdfdfd;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.timer-settings {
+    background-color: var(--background-color);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    align-items: end;
+}
+
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+    max-height: 150px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* Reaction Time Game */
+.reaction-display {
+    padding: 3rem 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.1s;
+    font-weight: bold;
+    color: white;
+}
+.reaction-display.waiting {
+    background-color: var(--danger-color);
+}
+.reaction-display.ready {
+    background-color: var(--accent-color);
+}
+
+/* Coaching / Schema Builder */
+.schema-list {
+    margin-top: 1.5rem;
+}
+.schema-item {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+.schema-item h3 {
+    margin-top: 0;
+}
+.schema-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.schema-builder-form {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+.exercise-block {
+    border: 1px dashed var(--border-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    position: relative;
+}
+.exercise-inputs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+.remove-exercise-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+/* Calendar Styles */
+.calendar-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.calendar-navigation h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.calendar-navigation button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.calendar-title-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.calendar-grid-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calendar-weekdays,
+.calendar-days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-weekdays {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.calendar-weekday {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.calendar-days-grid {
+    background-color: var(--surface-color);
+}
+
+.calendar-day {
+    border: 1px solid var(--border-color);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    min-height: 80px; /* Adjust as needed */
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.calendar-day:hover {
+    background-color: var(--background-color);
+}
+
+.calendar-day.empty {
+    background-color: #f9f9f9;
+    cursor: default;
+}
+
+.calendar-day.selected {
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+}
+
+.list-group-exercises {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-item-exercise {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.list-group-item-exercise:last-child {
+    border-bottom: none;
+}
+
+.calendar-workout-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5rem;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: left;
+}
+
+.calendar-workout-item {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.calendar-workout-item.highlighted-workout {
+    border: 2px solid #f59e0b; /* Amber border */
+    box-shadow: 0 0 8px rgba(245, 158, 11, 0.7);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.calendar-workout-item:hover {
+    opacity: 0.8;
+}
+
+.calendar-workout-item.dragging {
+    opacity: 0.4;
+}
+
+.calendar-day.drag-over {
+    background-color: #e0f2fe; /* Light blue drop indicator */
+}
+.exercise-status {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 0.2rem;
+}
+
+.exercise-notes {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 0.2rem;
+}
+
+.ice-result-item p {
+    margin: 0.25rem 0;
+    font-size: 0.9em;
+}
+
+/* Text color utilities */
+.text-danger {
+    color: var(--danger-color);
+}
+
+.text-success {
+    color: #28a745; /* A standard green, as no success variable exists */
+}
+
+/* --- Bluetooth Floating Widget --- */
+#bluetooth-status-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+#bluetooth-status-widget .bluetooth-icon {
+    font-size: 1.5rem;
+}
+
+#bluetooth-status-widget .bluetooth-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+#bluetooth-status-widget .bluetooth-actions .btn-icon:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* State-specific styles */
+#bluetooth-status-widget.disconnected {
+    border-left: 5px solid var(--secondary-color); /* gray */
+}
+
+#bluetooth-status-widget.connecting {
+    border-left: 5px solid #4299e1; /* blue - no theme variable */
+}
+
+#bluetooth-status-widget.connected {
+    border-left: 5px solid #28a745; /* green - no theme variable */
+}
+
+#bluetooth-status-widget.error {
+    border-left: 5px solid var(--danger-color); /* red */
+}
+
+/* --- Global Loading Indicator --- */
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 240, 240, 0.95); /* Use background color with opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#loading-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loading-spinner {
+    border: 8px solid var(--border-color);
+    border-top: 8px solid var(--primary-color);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* --- Weekly Schedule View --- */
+.schedule-grid-container {
+    overflow-x: auto;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 60px repeat(7, 1fr); /* Time column + 7 days */
+    min-width: 900px; /* Ensure it doesn't get too squished */
+}
+
+.schedule-header-time,
+.schedule-header-day,
+.schedule-time-slot,
+.schedule-cell {
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.schedule-header-day, .schedule-header-time {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.schedule-time-slot {
+    background-color: var(--background-color);
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: right;
+}
+
+.schedule-lesson-item {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin-bottom: 0.25rem;
+    cursor: help;
+}
+.schedule-lesson-item small {
+    display: block;
+    opacity: 0.8;
+}
+
+.schedule-lesson-item[data-action="book-lesson"] {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.schedule-lesson-item[data-action="book-lesson"]:hover {
+    background-color: var(--primary-color);
+    filter: brightness(1.2);
+}
+
+.invoice-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.settings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.invoice-item {
+    background-color: #f9f9f9;
+    border: 1px solid var(--border-color);
+
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom:1rem;
+}
+.exercise-block-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    background-color: var(--surface-color);
+    cursor: grab;
+}
+.exercise-block-summary.dragging {
+    opacity: 0.5;
+    background: #e0f2fe;
+}
+.chart-tooltip {
+    position: fixed; /* Use fixed to position relative to viewport */
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.85em;
+    pointer-events: none; /* So it doesn't interfere with mouse events on the chart */
+    z-index: 1010;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+}

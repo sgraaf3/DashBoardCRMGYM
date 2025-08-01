@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Tarsal Bones (Voetwortelbeentjes)",
+    "type": "bone",
+    "category": "Foot",
+    "description": "De Tarsale botten zijn zeven onregelmatig gevormde botten die de proximale helft van de voet vormen, gelegen tussen het onderbeen en de middenvoetsbeentjes. Ze zijn cruciaal voor de stabiliteit en flexibiliteit van de voet.",
+    "location": "Proximaal deel van de voet, tussen het onderbeen en de metatarsale botten.",
+    "bones_list": [
+      "Talus (sprongbeen)",
+      "Calcaneus (hielbeen)",
+      "Navicular (bootvormig bot)",
+      "Cuboid (kubusvormig bot)",
+      "Medial cuneiform (mediaal wigvormig bot)",
+      "Intermediate cuneiform (intermediair wigvormig bot)",
+      "Lateral cuneiform (lateraal wigvormig bot)"
+    ],
+    "articulations": [
+      "Tibia (scheenbeen, via enkelgewricht)",
+      "Fibula (kuitbeen, via enkelgewricht)",
+      "Elkaar (via intertarsale gewrichten)",
+      "Metatarsal bones"
+    ],
+    "key_features": [
+      "Subtalar joint (tussen talus en calcaneus, voor inversie/eversie)",
+      "Transverse tarsal joint (tussen talus/calcaneus en navicular/cuboid)"
+    ],
+    "dimensions": {
+      "total_length_mm": "90-120",
+      "total_width_mm": "50-70",
+      "note": "Totale afmetingen van de tarsale regio."
+    },
+    "function": {
+      "primary_role": "Schokabsorptie, aanpassing aan oneffen oppervlakken, stabiliteit van de voet.",
+      "details": "Vormt het achterste en middelste deel van de voet, essentieel voor het absorberen van schokken tijdens het lopen en rennen. De complexe gewrichten tussen de tarsale botten maken de voet flexibel en aanpasbaar aan verschillende ondergronden, terwijl ze stabiliteit bieden."
+    },
+    "visual_analogy": "Stel je de Tarsale botten voor als een 'cluster' van zeven onregelmatige, robuuste stenen die de achterkant en het midden van je voet vormen, als de 'schokdempers' van je lichaam. Ze zijn als een 'flexibele fundering' die zich aanpast aan de grond en de krachten van het lopen en springen absorbeert, essentieel voor je balans en voortbeweging.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Metatarsal Bones (Middenvoetsbeentjes) 1-5",
+    "type": "bone",
+    "category": "Foot",
+    "description": "De Metatarsale botten zijn vijf lange, slanke botten die de voorvoet vormen en articuleren met de tarsale botten en de falanxen.",
+    "location": "Voorvoet, tussen de tarsale botten en de tenen.",
+    "articulations": [
+      "Tarsal bones (via tarsometatarsale gewrichten)",
+      "Elkaar (via intermetatarsale gewrichten)",
+      "Proximal phalanges (via metatarsal-falangeale gewrichten)"
+    ],
+    "key_features": [
+      "Base (proximaal uiteinde, articuleert met tarsale botten)",
+      "Shaft (lichaam)",
+      "Head (distaal uiteinde, articuleert met falanxen, vormt 'bal van de voet')"
+    ],
+    "dimensions": {
+      "average_length_mm": {
+        "1st_metatarsal": "60-70",
+        "2nd_metatarsal": "70-80",
+        "note": "Lengte varieert, 2e is vaak het langst."
+      },
+      "average_diameter_mm": "5-10",
+      "note": "Relatief slank."
+    },
+    "function": {
+      "primary_role": "Ondersteuning van de voetboog, aanhechting van spieren, voortstuwing tijdens lopen.",
+      "details": "Vormt de benige structuur van de voorvoet en draagt bij aan de longitudinale en transversale voetbogen. Dient als aanhechtingspunt voor intrinsieke voetspieren en is cruciaal voor de 'push-off' fase van het lopen en rennen, waarbij het lichaamsgewicht wordt overgebracht naar de tenen."
+    },
+    "visual_analogy": "Stel je de Metatarsale botten voor als vijf lange, slanke 'balkjes' van bot die de voorkant van je voet vormen, als de 'fundamenten' van je tenen. Hun koppen vormen de 'bal van je voet', en ze zijn als 'hefbomen' die je helpen af te zetten tijdens het lopen en rennen, essentieel voor je voortbeweging en balans.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Phalanges (Teenkootjes) - Foot",
+    "type": "bone",
+    "category": "Foot",
+    "description": "De Falanxen zijn de botten die de tenen vormen. Elke teen (2e-5e) heeft drie falanxen (proximaal, middelste, distaal), en de grote teen (1e) heeft twee (proximaal, distaal).",
+    "location": "Tenen.",
+    "articulations": [
+      "Metatarsal bones (proximale falanxen)",
+      "Elkaar (via interfalangeale gewrichten)"
+    ],
+    "key_features": [
+      "Base (proximaal uiteinde)",
+      "Shaft (lichaam)",
+      "Head (distaal uiteinde)"
+    ],
+    "dimensions": {
+      "average_length_mm": {
+        "proximal_phalanx_big_toe": "30-40",
+        "distal_phalanx_little_toe": "5-10",
+        "note": "Lengte varieert aanzienlijk per falanx en teen."
+      },
+      "average_diameter_mm": "3-8",
+      "note": "Worden smaller naar distaal."
+    },
+    "function": {
+      "primary_role": "Vorming van tenen, flexibiliteit van de tenen, aanhechting van pezen, aanpassing aan ondergrond.",
+      "details": "Vormt de benige structuur van de tenen, waardoor flexie en extensie mogelijk zijn. Essentieel voor het handhaven van de balans, het aanpassen aan oneffen oppervlakken, en het afzetten tijdens het lopen en rennen. De grote teen is cruciaal voor de voortstuwing."
+    },
+    "visual_analogy": "Stel je de Falanxen voor als kleine, gestapelde 'buisjes' van bot die je tenen vormen, als de 'segmenten' die je tenen flexibel maken. Ze zijn als de 'scharnierende schakels' die je tenen in staat stellen te buigen en te strekken, essentieel voor het aanpassen aan de grond en het afzetten tijdens het lopen.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

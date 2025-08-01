@@ -1,0 +1,74 @@
+{
+  "manualSection": {
+    "title": "Our Research Focus",
+    "topic": "Artificial Intelligence",
+    "introduction": "At the core of our innovation lies a dedicated focus on Artificial Intelligence (AI). We believe AI is not just a technology but a transformative force shaping the future across various industries. Our research spans several key sub-domains within AI, aiming to push the boundaries of what's possible and develop practical, ethical, and impactful solutions.",
+    "researchAreas": [
+      {
+        "id": "ml",
+        "name": "Machine Learning (ML)",
+        "description": "Forms the foundation of much of our AI work. We explore advanced algorithms for supervised, unsupervised, and reinforcement learning, with a particular emphasis on deep learning architectures like CNNs and RNNs. Our goal is to develop more efficient, robust, and interpretable ML models.",
+        "subTopics": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Reinforcement Learning",
+          "Deep Learning (CNNs, RNNs)"
+        ],
+        "applications": [
+          "Predictive Analytics",
+          "Pattern Recognition",
+          "Data Analysis"
+        ]
+      },
+      {
+        "id": "nlp",
+        "name": "Natural Language Processing (NLP)",
+        "description": "Understanding and generating human language is crucial for intuitive human-AI interaction. Our NLP research focuses on developing sophisticated models for sentiment analysis, machine translation, text summarization, and conversational AI (chatbots).",
+        "subTopics": [
+          "Sentiment Analysis",
+          "Machine Translation",
+          "Text Summarization",
+          "Conversational AI"
+        ],
+        "applications": [
+          "Chatbots",
+          "Language Interfaces",
+          "Content Generation"
+        ]
+      },
+      {
+        "id": "cv",
+        "name": "Computer Vision (CV)",
+        "description": "Enabling machines to \"see\" and interpret the visual world is a significant challenge and opportunity. Our CV team works on object detection, facial recognition, image segmentation, and video analysis.",
+        "subTopics": [
+          "Object Detection",
+          "Facial Recognition",
+          "Image Segmentation",
+          "Video Analysis"
+        ],
+        "applications": [
+          "Autonomous Vehicles",
+          "Medical Diagnostics",
+          "Security Systems"
+        ]
+      },
+      {
+        "id": "ethical_xai",
+        "name": "Ethical AI and Explainable AI (XAI)",
+        "description": "As AI becomes more integrated into daily life, addressing ethical considerations and ensuring transparency is paramount. We research methods to ensure fairness, accountability, and privacy in AI systems. XAI focuses on making AI decisions understandable to humans.",
+        "subTopics": [
+          "Fairness in AI",
+          "Accountability",
+          "Privacy",
+          "Interpretability"
+        ],
+        "applications": [
+          "Responsible AI Deployment",
+          "Trust Building",
+          "Compliance"
+        ]
+      }
+    ],
+    "overallObjective": "To contribute to a future where AI serves humanity by solving complex problems, enhancing productivity, and improving quality of life, all while adhering to strong ethical principles."
+  }
+}

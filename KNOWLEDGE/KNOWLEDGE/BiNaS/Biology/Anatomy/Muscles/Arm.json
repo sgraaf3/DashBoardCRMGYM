@@ -1,0 +1,939 @@
+[
+  {
+    "name": "Triceps brachii",
+    "description": "De Triceps brachii is een grote spier aan de achterzijde van de bovenarm, bestaande uit drie koppen, en is de primaire extensor van de onderarm.",
+    "anatomy": {
+      "origin": {
+        "long_head": {
+          "location": "Infraglenoïd tuberculum van de scapula (schouderblad).",
+          "details": "Deze kop passeert tussen de Teres minor en Teres major."
+        },
+        "lateral_head": {
+          "location": "Posterieur oppervlak van de humerus, proximaal van de sulcus spiralis.",
+          "details": "Ontspringt superieur en lateraal van de sulcus voor de nervus radialis."
+        },
+        "medial_head": {
+          "location": "Posterieur oppervlak van de humerus, distaal van de sulcus spiralis.",
+          "details": "Ontspringt inferieur en mediaal van de sulcus voor de nervus radialis, en van het mediale en laterale intermusculaire septum."
+        }
+      },
+      "insertion": {
+        "location": "Olecrano-proces van de ulna (ellepijp) en de fascia van de onderarm.",
+        "details": [
+          "Alle drie de koppen convergeren naar een gemeenschappelijke pees die insertie op het olecranon."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "300-400",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Totale lengte van de spier, afhankelijk van de kop."
+        },
+        "volume_cm3": {
+          "average": "350-500",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "cm³",
+          "note": "Geschat spierbuik volume bij volwassen mannen."
+        }
+      },
+      "innervation": {
+        "nerve": "N. radialis (C6, C7, C8, T1)",
+        "branch": "Takken van de N. radialis die door de sulcus spiralis lopen."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. profunda brachii (tak van de A. brachialis).",
+          "A. circumflexa humeri posterior."
+        ],
+        "venous_drainage": "V. brachialis."
+      }
+    },
+    "function": {
+      "primary_action": "Extendert de onderarm; lange kop adduceert de schouder.",
+      "mechanism_of_action": "Bij contractie strekken de tricepskoppen de onderarm bij het ellebooggewricht. De lange kop heeft een additionele functie van adductie van de humerus bij het schoudergewricht.",
+      "force_generation": {
+        "extension_force_Nm": {
+          "average": "80-120",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "Nm",
+          "note": "Geschatte maximale isometrische extensiekracht bij de elleboog."
+        }
+      },
+      "joint_stabilization": "Stabiliseert het ellebooggewricht, met name tijdens fijne bewegingen en gewichtdragende activiteiten.",
+      "role_in_expression": [
+        "Essentieel voor duwende bewegingen, zoals bankdrukken, opdrukken en het strekken van de arm.",
+        "Belangrijk voor activiteiten die precisie en kracht in de arm vereisen."
+      ],
+      "synergists": [
+        "Anconeus (assisteert elleboogextensie)"
+      ],
+      "antagonists": [
+        "Biceps brachii",
+        "Brachialis",
+        "Brachioradialis"
+      ]
+    },
+    "visual_analogy": "Stel je de Triceps brachii voor als een grote, driedelige bundel spieren aan de achterkant van je bovenarm, als drie krachtige kabels die samenkomen en aan je elleboog trekken. Wanneer ze samentrekken, strekken ze je arm krachtig recht, alsof je iets van je af duwt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Teres minor",
+    "description": "De Teres minor is een van de vier rotatormanchetspieren, gelegen aan de posterieure zijde van het schoudergewricht, belangrijk voor laterale rotatie en adductie van de humerus.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur oppervlak van de scapula (schouderblad), langs de laterale rand (bovenste tweederde).",
+        "details": [
+          "Oorsprong is lang en smal."
+        ]
+      },
+      "insertion": {
+        "location": "Laagste impressie op de tuberculum majus van de humerus (opperarmbeen) en de posterieure capsule van het schoudergewricht.",
+        "details": [
+          "Pees loopt superolateraal over de humerus."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "80-120",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": null
+      },
+      "innervation": {
+        "nerve": "N. axillaris (C5, C6)",
+        "branch": "Posterieure tak van de N. axillaris."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. circumflexa scapulae (tak van de A. subscapularis).",
+          "A. circumflexa humeri posterior (tak van de A. axillaris)."
+        ],
+        "venous_drainage": "V. circumflexa scapulae en V. circumflexa humeri posterior."
+      }
+    },
+    "function": {
+      "primary_action": "Lateraal roteert en adduceert de humerus, stabiliseert de schouder.",
+      "mechanism_of_action": "Bij contractie roteert de Teres minor de humerus naar buiten (laterale rotatie) en trekt deze naar de romp toe (adductie). Als onderdeel van de rotatormanchet helpt het de caput humeri (opperarmkop) in de glenoid holte te stabiliseren, met name tijdens abductie.",
+      "joint_movement_degrees": {
+        "laterale_rotatie_graden": "15-25",
+        "adductie_graden": "5-10",
+        "note": "Geschatte bijdrage aan de bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor het uitvoeren van externe rotatiebewegingen van de arm, zoals het gooien van een bal overhands of het openen van een deurknop.",
+        "Cruciaal voor de dynamische stabiliteit van het schoudergewricht, voorkomt superieure verplaatsing van de humeruskop."
+      ],
+      "synergists": [
+        "Infraspinatus (primaire laterale rotator)",
+        "Deltoid (posterieure vezels voor laterale rotatie)"
+      ],
+      "antagonists": [
+        "Subscapularis",
+        "Teres major",
+        "Latissimus dorsi",
+        "Pectoralis major (voor mediale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Teres minor voor als een klein, plat bandje dat aan de achterkant van je schouderblad (laterale rand) begint en schuin omhoog naar de buitenkant van je bovenarm loopt. Wanneer deze spier samentrekt, draait hij je arm naar buiten, alsof je je handpalm naar voren draait bij een saluut, en trekt hij je arm iets dichter bij je lichaam.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Teres major",
+    "description": "De Teres major is een grote, dikke spier van de schouder, gelegen aan de posterieure zijde, die mediale rotatie, adductie en extensie van de humerus uitvoert.",
+    "anatomy": {
+      "origin": {
+        "location": "Dorsale oppervlak van de scapula (schouderblad), bij de inferieure hoek en het inferieure deel van de laterale rand.",
+        "details": [
+          "Brede, ovale oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale lip van de sulcus intertubercularis (bicipitale groeve) van de humerus (opperarmbeen).",
+        "details": [
+          "Pees loopt anterieur over de humerus, parallel aan de Latissimus dorsi."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "150-200",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "volume_cm3": {
+          "average": "80-120",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "cm³",
+          "note": "Geschat spierbuik volume."
+        }
+      },
+      "innervation": {
+        "nerve": "N. subscapularis inferior (C5, C6, C7)",
+        "branch": "Takken van de posterieure fasciculus van de plexus brachialis."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. circumflexa scapulae (tak van de A. subscapularis).",
+          "A. circumflexa humeri posterior."
+        ],
+        "venous_drainage": "V. circumflexa scapulae en V. circumflexa humeri posterior."
+      }
+    },
+    "function": {
+      "primary_action": "Interne (mediale) rotatie van de humerus.",
+      "mechanism_of_action": "Bij contractie roteert de Teres major de humerus naar binnen (mediale rotatie), trekt deze naar de romp toe (adductie) en beweegt de arm naar achteren (extensie), vooral vanuit een geflecteerde positie. Wordt vaak de 'Latissimus' minor genoemd vanwege zijn vergelijkbare functies.",
+      "joint_movement_degrees": {
+        "mediale_rotatie_graden": "30-45",
+        "adductie_graden": "30-50",
+        "extensie_graden": "20-30",
+        "note": "Geschatte bijdrage aan de bewegingsuitslag."
+      },
+      "role_in_expression": [
+        "Belangrijk voor trekbewegingen van de arm, zoals roeien of optrekken (pull-ups).",
+        "Speelt een rol bij sporten die krachtige interne rotatie en adductie vereisen, zoals werpsporten of zwemmen (crawlslag)."
+      ],
+      "synergists": [
+        "Latissimus dorsi",
+        "Subscapularis",
+        "Pectoralis major (voor mediale rotatie en adductie)"
+      ],
+      "antagonists": [
+        "Infraspinatus",
+        "Teres minor",
+        "Deltoid (middelste en posterieure vezels voor abductie en laterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Teres major voor als een gespierde band die vanuit de onderkant van je schouderblad schuin naar voren en omhoog loopt, om vast te hechten aan de voorkant van je bovenarm. Wanneer deze spier samentrekt, draait hij je arm krachtig naar binnen en trekt hij deze strak tegen je lichaam, alsof je je arm stevig tegen je zij drukt en naar voren draait.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Supraspinatus",
+    "description": "De Supraspinatus is een van de vier rotatormanchetspieren, gelegen in de supraspinata fossa van de scapula, en is primair verantwoordelijk voor de initiële abductie van de humerus en het stabiliseren van het glenohumerale gewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Supraspinata fossa van de scapula (schouderblad) en de aangrenzende fascia supraspinata.",
+        "details": [
+          "Brede, platte oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Superieure facet van de tuberculum majus van de humerus (opperarmbeen) en de schoudergewrichtscapsule.",
+        "details": [
+          "Pees loopt lateraal onder het acromion."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "60-90",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "thickness_mm": {
+          "average": "10-15",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Gemiddelde dikte."
+        }
+      },
+      "innervation": {
+        "nerve": "N. suprascapularis (C4, C5, C6)",
+        "branch": null
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. suprascapularis (tak van de truncus thyrocervicalis).",
+          "A. circumflexa scapulae."
+        ],
+        "venous_drainage": "V. suprascapularis."
+      }
+    },
+    "function": {
+      "primary_action": "Abducteert en stabiliseert de humerus.",
+      "mechanism_of_action": "De Supraspinatus initieert de abductie van de arm (de eerste 15-20 graden), waarna de Deltoid de beweging overneemt. Het oefent ook een neerwaartse trekkracht uit op de humeruskop, wat helpt bij het stabiliseren van de schouder en het voorkomen van superieure verplaatsing tijdens armbewegingen.",
+      "abduction_initiation_degrees": {
+        "average": "0-15",
+        "note": "Bereik van abductie waar de Supraspinatus primair is."
+      },
+      "stabilization_force_N": {
+        "average": "Niet direct kwantificeerbaar in algemene zin, maar essentieel voor gewrichtscongruentie.",
+        "note": "Bijdrage aan statische en dynamische stabiliteit."
+      },
+      "role_in_expression": [
+        "Essentieel voor het optillen van de arm zijwaarts.",
+        "Cruciaal voor de gezondheid en functie van de rotatormanchet; vatbaar voor scheuren door overbelasting of degeneratie."
+      ],
+      "synergists": [
+        "Deltoid (voor abductie)"
+      ],
+      "antagonists": [
+        "Latissimus dorsi",
+        "Pectoralis major",
+        "Teres major (voor adductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Supraspinatus voor als een platte, enigszins verborgen spier die zich als een deken over de bovenkant van je schouderblad uitstrekt en onder het schouderdak doorgaat naar de bovenkant van je bovenarm. Wanneer je je arm zijwaarts begint op te tillen, is deze spier de eerste die 'trekt', alsof hij een kleine lift is die de beweging voorzichtig inzet voordat de grote kraan het overneemt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Subscapularis",
+    "description": "De Subscapularis is de grootste en krachtigste van de rotatormanchetspieren, gelegen aan het anterieure oppervlak van de scapula, en is de primaire mediale rotator van de humerus en een belangrijke stabilisator van het schoudergewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Subscapulaire fossa van de scapula (schouderblad).",
+        "details": [
+          "Brede, concave oorsprong die bijna het gehele voorste oppervlak van de scapula beslaat."
+        ]
+      },
+      "insertion": {
+        "location": "Tuberculum minus van de humerus (opperarmbeen) en de anterieure capsule van het schoudergewricht.",
+        "details": [
+          "Pees loopt lateraal over het schoudergewricht."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "100-150",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "thickness_mm": {
+          "average": "15-25",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Gemiddelde dikte, relatief dikke spier."
+        }
+      },
+      "innervation": {
+        "nerve": "N. subscapularis superior en inferior (C5, C6, C7)",
+        "branch": "Takken van de posterieure fasciculus van de plexus brachialis."
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. subscapularis (tak van de A. axillaris).",
+          "A. circumflexa scapulae."
+        ],
+        "venous_drainage": "V. subscapularis."
+      }
+    },
+    "function": {
+      "primary_action": "Mediale rotatie van de humerus, stabiliseert de schouder.",
+      "mechanism_of_action": "Bij contractie roteert de Subscapularis de humerus naar binnen (mediale rotatie). Het is ook een krachtige stabilisator van de caput humeri in de glenoid holte, wat essentieel is voor de integriteit en functie van het schoudergewricht, vooral tijdens abductie en flexie.",
+      "mediale_rotatie_graden": {
+        "average": "40-60",
+        "note": "Geschatte bijdrage aan de bewegingsuitslag."
+      },
+      "stabilisatie_kracht_N": {
+        "average": "Niet direct kwantificeerbaar, maar cruciaal voor schoudergewrichtscongruentie.",
+        "note": "Grootste bijdrage aan rotatormanchetstabiliteit anterieur."
+      },
+      "role_in_expression": [
+        "Essentieel voor interne rotatiebewegingen van de arm, zoals het gooien van een bal onderhands, het sluiten van een autodeur of het uitvoeren van een push-up.",
+        "Cruciaal voor de dynamische stabiliteit van het schoudergewricht en het voorkomen van anterieure dislocatie van de humerus."
+      ],
+      "synergists": [
+        "Pectoralis major",
+        "Latissimus dorsi",
+        "Teres major (voor mediale rotatie)"
+      ],
+      "antagonists": [
+        "Infraspinatus",
+        "Teres minor",
+        "Deltoid (posterieure vezels voor laterale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Subscapularis voor als een grote, platte spier die als een 'dekking' de hele voorkant van je schouderblad vult, en waarvan de pees naar de voorkant van je bovenarm loopt. Wanneer deze spier samentrekt, trekt hij je bovenarm krachtig naar binnen, alsof je je arm strak tegen je lichaam draait en de bovenkant van je bovenarm naar voren roteert.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Deltoid, clavicular/acromial/scapular spinal parts",
+    "description": "De Deltoid is een grote, driehoekige spier die de schouder bedekt en is de primaire abductor van de humerus, en draagt ook bij aan flexie, extensie en rotatie van de schouder.",
+    "anatomy": {
+      "origin": {
+        "clavicular_part": {
+          "location": "Laterale één derde van de clavicula (sleutelbeen)."
+        },
+        "acromial_part": {
+          "location": "Acromion van de scapula (schouderblad)."
+        },
+        "spinal_part": {
+          "location": "Spina scapulae (schouderblad)."
+        },
+        "details": "Elk deel heeft afzonderlijke vezelrichtingen en functies."
+      },
+      "insertion": {
+        "location": "Deltoïde tuberositas van de humerus (opperarmbeen).",
+        "details": [
+          "Sterke, gemeenschappelijke pees."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+      },
+    "innervation": {
+      "nerve": "N. axillaris (C5, C6)",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. circumflexa humeri posterior (tak van de A. axillaris).",
+        "Takken van de A. deltoidea (tak van de A. thoracoacromialis)."
+      ],
+      "venous_drainage": "V. circumflexa humeri posterior en V. cephalica."
+    }
+    },
+    "function": {
+      "primary_action": "Abduceert, flext en extendert schouder.",
+      "mechanism_of_action": "De acromiale (middelste) vezels zijn de primaire abductor van de humerus (vanaf 15 graden). De claviculaire (anterieure) vezels flexen en mediaal roteren de schouder. De spinale (posterieure) vezels extendere en lateraal roteren de schouder. Gezamenlijk zorgen ze voor een breed scala aan armbewegingen.",
+      "abductie_graden": {
+        "average": "90-180",
+        "note": "Volledige abductie, vooral na de eerste 15 graden door Supraspinatus."
+      },
+      "flexie_graden": {
+        "average": "90-180",
+        "note": "Volledige flexie."
+      },
+      "extensie_graden": {
+        "average": "45-60",
+        "note": "Volledige extensie."
+      },
+      "role_in_expression": [
+        "Essentieel voor bijna alle armbewegingen, met name het optillen van de arm in diverse richtingen.",
+        "Belangrijk voor sporten zoals zwemmen, werpsporten en gewichtheffen.",
+        "Geeft de schouder zijn afgeronde contour."
+      ],
+      "synergists": [
+        "Supraspinatus (voor initiële abductie)",
+        "Pectoralis major (anterieure deltoid voor flexie)",
+        "Latissimus dorsi",
+        "Teres major (posterieure deltoid voor extensie)"
+      ],
+      "antagonists": [
+        "Latissimus dorsi",
+        "Pectoralis major",
+        "Teres major (voor adductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Deltoid voor als een grote, afgeronde 'schoudervulling' die over je schoudergewricht ligt, bestaande uit drie delen die als een waaier samenkomen. Het is de 'allrounder' van de schouder, die je arm in bijna elke richting kan optillen, naar voren kan zwaaien of naar achteren kan trekken, alsof het een krachtige, veelzijdige hijskraan is.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Coracobrachialis",
+    "description": "De Coracobrachialis is een slanke spier in de bovenarm, diep gelegen ten opzichte van de Biceps brachii, die de humerus flext en adduceert.",
+    "anatomy": {
+      "origin": {
+        "location": "Apex van de processus coracoideus van de scapula (schouderblad), gemeenschappelijk met de korte kop van de Biceps brachii.",
+        "details": [
+          "Pezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale oppervlak van de humerus (opperarmbeen), halverwege de schacht.",
+        "details": [
+          "Lineaire, ruwe insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+        "thickness_mm": null
+      }
+    },
+    "innervation": {
+      "nerve": "N. musculocutaneus (C5, C6, C7), vaak doorboort de spier.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. brachialis."
+      ],
+      "venous_drainage": "V. brachialis."
+    },
+    "function": {
+      "primary_action": "Flext en adduceert schouder.",
+      "mechanism_of_action": "Bij contractie trekt de Coracobrachialis de humerus naar voren (flexie) en naar de romp toe (adductie). Het assisteert ook bij de stabilisatie van de humeruskop in de glenoid holte. Het is een relatief zwakke spier in vergelijking met de Pectoralis major en Deltoid voor deze bewegingen, maar is belangrijk voor fijne controle.",
+      "schouder_flexie_graden": {
+        "average": "10-20",
+        "note": "Bijdrage aan schouderflexie."
+      },
+      "schouder_adductie_graden": {
+        "average": "5-10",
+        "note": "Bijdrage aan schouderadductie."
+      },
+      "role_in_expression": [
+        "Assisteert bij bewegingen van de arm naar voren en naar het lichaam toe (bijv. bij het reiken of het vasthouden van objecten dicht bij het lichaam).",
+        "Draagt bij aan de stabiliteit van het schoudergewricht."
+      ],
+      "synergists": [
+        "Pectoralis major (voor flexie en adductie)",
+        "Deltoid (anterieure vezels voor flexie)"
+      ],
+      "antagonists": [
+        "Latissimus dorsi",
+        "Teres major (voor extensie en abductie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Coracobrachialis voor als een dun, verticaal touwtje dat van een haakvormig uitsteeksel aan je schouderblad (coracoïd proces) naar het midden van je bovenarm loopt. Wanneer het samentrekt, trekt het je arm naar voren en iets naar je lichaam toe, alsof het een subtiele 'trekker' is die je arm dichterbij brengt.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Brachialis",
+    "description": "De Brachialis is een diepgelegen spier in de bovenarm, diep gelegen ten opzichte van de Biceps brachii, en is de primaire flexor van de elleboog, ongeacht de positie van de onderarm.",
+    "anatomy": {
+      "origin": {
+        "location": "Distale helft van de anterieure oppervlak van de humerus (opperarmbeen) en het mediale en laterale intermusculaire septum.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Tuberositas ulnae (ellepijp) en de coronoid proces van de ulna.",
+        "details": [
+          "Sterke, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. musculocutaneus (C5, C6), en soms een kleine tak van de N. radialis (C7).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. brachialis en A. recurrens radialis."
+      ],
+      "venous_drainage": "V. brachialis."
+    },
+    "function": {
+      "primary_action": "Flext elleboog.",
+      "mechanism_of_action": "Bij contractie trekt de Brachialis de ulna naar de humerus, wat resulteert in flexie van het ellebooggewricht. Het is de 'pure' elleboogflexor, aangezien zijn actie niet wordt beïnvloed door de pronatie of supinatie van de onderarm.",
+      "elleboog_flexie_koppel_Nm": {
+        "average": "60-100",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische flexiekoppel bij de elleboog."
+      },
+      "role_in_expression": [
+        "Essentieel voor alle trekbewegingen van de arm, zoals het optillen van objecten, roeien en klimmen.",
+        "Belangrijk voor het handhaven van een gebogen elleboogpositie tegen weerstand.",
+        "Speelt een cruciale rol in de dagelijkse activiteiten die elleboogflexie vereisen."
+      ],
+      "synergists": [
+        "Biceps brachii",
+        "Brachioradialis (voor elleboogflexie)"
+      ],
+      "antagonists": [
+        "Triceps brachii",
+        "Anconeus (voor elleboogextensie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Brachialis voor als een diepliggende, brede spier die de voorkant van je bovenarm bedekt, net boven je elleboog, en vastzit aan de ellepijp. Het is de 'fundamentele' elleboogbuiger, die je onderarm naar je bovenarm trekt, ongeacht hoe je je hand draait, alsof het een krachtige scharnier is die de beweging van je elleboog aandrijft.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Biceps brachii",
+    "description": "De Biceps brachii is een prominente spier aan de voorkant van de bovenarm, bestaande uit twee koppen, die de elleboog flext en de onderarm supineert.",
+    "anatomy": {
+      "origin": {
+        "short_head": {
+          "location": "Apex van de processus coracoideus van de scapula (schouderblad), gemeenschappelijk met de Coracobrachialis."
+        },
+        "long_head": {
+          "location": "Supraglenoïd tuberculum van de scapula (schouderblad), pees loopt door de bicipitale groeve van de humerus.",
+          "details": "Deze kop is intra-articulair, maar extrasynoviaal."
+        }
+      },
+      "insertion": {
+        "location": "Tuberositas radii (spaakbeen) en de fascia van de onderarm via de bicipitale aponeurose.",
+        "details": [
+          "De twee koppen versmelten tot een gemeenschappelijke pees."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "250-350",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte van de spierbuik."
+        },
+        "volume_cm3": {
+          "average": "150-250",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "cm³",
+          "note": "Geschat spierbuik volume bij volwassen mannen."
+        }
+      },
+      "innervation": {
+        "nerve": "N. musculocutaneus (C5, C6)",
+        "branch": null
+      },
+      "blood_supply": {
+        "arterial": [
+          "Takken van de A. brachialis."
+        ],
+        "venous_drainage": "V. brachialis en V. cephalica."
+      }
+    },
+    "function": {
+      "primary_action": "Flext elleboog, supineert onderarm.",
+      "mechanism_of_action": "Bij contractie buigt de Biceps brachii de onderarm bij de elleboog. Het is een krachtige supinator van de onderarm, vooral wanneer de elleboog gebogen is. De lange kop assisteert ook bij lichte flexie en abductie van de schouder.",
+      "elleboog_flexie_koppel_Nm": {
+        "average": "50-90",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische flexiekoppel bij de elleboog."
+      },
+      "supinatie_koppel_Nm": {
+        "average": "30-60",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische supinatiekoppel."
+      },
+      "role_in_expression": [
+        "Essentieel voor trekbewegingen van de arm (pull-ups, roeien) en het optillen van objecten met de handpalm naar boven.",
+        "Belangrijk voor dagelijkse activiteiten zoals het openen van flessen of het gebruiken van een schroevendraaier.",
+        "Een veel getrainde spier voor esthetische doeleinden."
+      ],
+      "synergists": [
+        "Brachialis",
+        "Brachioradialis (voor elleboogflexie)",
+        "Supinator (voor supinatie)"
+      ],
+      "antagonists": [
+        "Triceps brachii",
+        "Anconeus (voor elleboogextensie)",
+        "Pronator teres",
+        "Pronator quadratus (voor pronatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Biceps brachii voor als twee gespierde 'ballonnen' die aan de voorkant van je bovenarm zitten, die samenkomen in een dikke pees die naar je onderarm loopt. Wanneer je je arm buigt en je handpalm omhoog draait, voel je deze spier krachtig samentrekken, alsof hij een zware last optilt, wat de iconische 'spierbal' vormt.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Articularis cubiti",
+    "description": "De Articularis cubiti (ook bekend als Anconeus, hoewel soms als apart beschouwd) is een kleine spier nabij het ellebooggewricht die helpt bij het liften van de gewrichtscapsule tijdens elleboogextensie om inklemming te voorkomen.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur oppervlak van de laterale epicondyl van de humerus (opperarmbeen).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Posterieur oppervlak van de ulna (ellepijp), nabij het olecranon, en de ellebooggewrichtscapsule.",
+        "details": [
+          "Vezels lopen distaal en mediaal."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8, T1), tak naar Anconeus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. collateralis media (tak van de A. profunda brachii)."
+      ],
+      "venous_drainage": "V. brachialis."
+    },
+    "function": {
+      "primary_action": "Lifts capsule away from joint (voorkomt inklemming).",
+      "mechanism_of_action": "Bij contractie trekt de Articularis cubiti de posterieure gewrichtscapsule van het ellebooggewricht weg van de olecranon fossa van de humerus tijdens volledige elleboogextensie. Dit voorkomt dat de capsule bekneld raakt tussen de botten.",
+      "capsule_retractie_mm": {
+        "average": "1-2",
+        "note": "Geschatte retractie van de gewrichtscapsule."
+      },
+      "role_in_expression": [
+        "Essentieel voor de soepele en pijnvrije beweging van het ellebooggewricht, met name bij volledige strekking.",
+        "Een belangrijke, maar vaak over het hoofd geziene, stabilisator van het ellebooggewricht."
+      ],
+      "synergists": [
+        "Triceps brachii (voor elleboogextensie)",
+        "Anconeus (indien apart beschouwd)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Articularis cubiti voor als een klein, onzichtbaar 'touwtje' dat aan de achterkant van je elleboog zit en de gewrichtscapsule wegtrekt wanneer je je arm strekt. Het is als een kleine 'veiligheidslijn' die voorkomt dat het gewricht bekneld raakt, waardoor je elleboog soepel kan bewegen zonder pijn.",
+    "status": "done",
+    "precisie_score": 7
+  },
+  {
+    "name": "Anconeus",
+    "description": "De Anconeus is een kleine, driehoekige spier aan de posterieure zijde van het ellebooggewricht, die de elleboog assisteert bij extensie en de ulna abduceert tijdens pronatie.",
+    "anatomy": {
+      "origin": {
+        "location": "Posterieur oppervlak van de laterale epicondyl van de humerus (opperarmbeen).",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Lateraal oppervlak van het olecranon en het superieure deel van de posterieure oppervlak van de ulna (ellepijp).",
+        "details": [
+          "Brede, vlezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. radialis (C7, C8, T1), tak naar Anconeus.",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "A. collateralis media (tak van de A. profunda brachii).",
+        "A. interossea recurrens (tak van de A. interossea posterior)."
+      ],
+      "venous_drainage": "V. brachialis."
+    },
+    "function": {
+      "primary_action": "Partly blended with triceps, extends forearm, stabilises elbow, abducts ulna during pronation.",
+      "mechanism_of_action": "De Anconeus assisteert de Triceps brachii bij de extensie van de elleboog, vooral tijdens langzame of ongecoördineerde bewegingen. Het trekt ook de ulna lateraal tijdens pronatie, wat helpt bij de nauwkeurigheid van de beweging. Het is een belangrijke stabilisator van het ellebooggewricht.",
+      "elleboog_extensie_koppel_Nm": {
+        "average": "5-10",
+        "note": "Kleine bijdrage aan elleboogextensiekoppel."
+      },
+      "ulnaire_abductie_mm": {
+        "average": "1-2",
+        "note": "Minimale laterale verplaatsing van de ulna."
+      },
+      "role_in_expression": [
+        "Assisteert bij alle duwende bewegingen van de arm.",
+        "Belangrijk voor de fijne motoriek en stabiliteit van het ellebooggewricht.",
+        "Speelt een rol bij het handhaven van de gewrichtscongruentie tijdens diverse armposities."
+      ],
+      "synergists": [
+        "Triceps brachii (hoofd elleboogextensor)",
+        "Articularis cubiti (voor gewrichtscapsule retractie)"
+      ],
+      "antagonists": [
+        "Biceps brachii",
+        "Brachialis",
+        "Brachioradialis (voor elleboogflexie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Anconeus voor als een klein, driehoekig 'hulpje' dat aan de buitenkant van je elleboog zit, net onder de Triceps. Het is als een kleine 'duwer' die helpt je arm recht te maken en de elleboog stabiel te houden, vooral wanneer je je hand draait, alsof het een fijne afsteller is voor de gewrichtsbeweging.",
+    "status": "done",
+    "precisie_score": 8
+  },
+  {
+    "name": "Infraspinatus",
+    "description": "De Infraspinatus is een van de vier rotatormanchetspieren, gelegen in de infraspinata fossa van de scapula, en is de primaire laterale rotator van de humerus en een belangrijke stabilisator van het glenohumerale gewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Infraspinata fossa van de scapula (schouderblad) en de aangrenzende fascia infraspinata.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Middelste facet van de tuberculum majus van de humerus (opperarmbeen) en de schoudergewrichtscapsule.",
+        "details": [
+          "Pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "100-140",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte spierbuik lengte."
+        },
+        "width_mm": null,
+        "thickness_mm": {
+          "average": "10-15",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Gemiddelde dikte."
+        }
+      },
+      "innervation": {
+        "nerve": "N. suprascapularis (C5, C6)",
+        "branch": null
+      },
+      "blood_supply": {
+        "arterial": [
+          "A. suprascapularis (tak van de truncus thyrocervicalis).",
+          "A. circumflexa scapulae."
+        ],
+        "venous_drainage": "V. suprascapularis."
+      }
+    },
+    "function": {
+      "primary_action": "Lateraal roteert humerus, stabiliseert schouder.",
+      "mechanism_of_action": "Bij contractie roteert de Infraspinatus de humerus naar buiten (laterale rotatie). Het oefent ook een neerwaartse trekkracht uit op de humeruskop, wat helpt bij het stabiliseren van de schouder en het voorkomen van superieure verplaatsing tijdens armbewegingen. Het is cruciaal voor de dynamische stabiliteit van het schoudergewricht.",
+      "schouder_laterale_rotatie_graden": {
+        "average": "40-60",
+        "note": "Belangrijke bijdrage aan schouder laterale rotatie."
+      },
+      "stabilisatie_kracht_N": {
+        "average": "Niet direct kwantificeerbaar in algemene zin, maar essentieel voor gewrichtscongruentie.",
+        "note": "Grootste bijdrage aan rotatormanchetstabiliteit posterieur."
+      },
+      "role_in_expression": [
+        "Essentieel voor het uitvoeren van externe rotatiebewegingen van de arm, zoals het gooien van een bal overhands, het openen van een deurknop of het reiken naar objecten achter het lichaam.",
+        "Cruciaal voor de gezondheid en functie van de rotatormanchet; vatbaar voor scheuren door overbelasting of degeneratie."
+      ],
+      "synergists": [
+        "Teres minor",
+        "Deltoid (posterieure vezels voor laterale rotatie)"
+      ],
+      "antagonists": [
+        "Subscapularis",
+        "Pectoralis major",
+        "Latissimus dorsi",
+        "Teres major (voor mediale rotatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Infraspinatus voor als een platte, gespierde 'deken' die de achterkant van je schouderblad bedekt, onder de schouderkam, en naar de buitenkant van je bovenarm loopt. Wanneer hij samentrekt, draait hij je arm krachtig naar buiten, alsof je je handpalm naar voren draait bij een saluut, en helpt hij je schouder stabiel te houden, essentieel voor je armbewegingen.",
+    "status": "done",
+    "precisie_score": 9
+  },
+  {
+    "name": "Biceps brachii",
+    "description": "De Biceps brachii is een prominente spier aan de voorkant van de bovenarm, bestaande uit twee koppen, die de elleboog flext en de onderarm supineert.",
+    "anatomy": {
+      "origin": {
+        "short_head": {
+          "location": "Apex van de processus coracoideus van de scapula (schouderblad), gemeenschappelijk met de Coracobrachialis."
+        },
+        "long_head": {
+          "location": "Supraglenoïd tuberculum van de scapula (schouderblad), pees loopt door de bicipitale groeve van de humerus.",
+          "details": "Deze kop is intra-articulair, maar extrasynoviaal."
+        }
+      },
+      "insertion": {
+        "location": "Tuberositas radii (spaakbeen) en de fascia van de onderarm via de bicipitale aponeurose.",
+        "details": [
+          "De twee koppen versmelten tot een gemeenschappelijke pees."
+        ]
+      },
+      "dimensions": {
+        "length_mm": {
+          "average": "250-350",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "mm",
+          "note": "Geschatte lengte van de spierbuik."
+        },
+        "volume_cm3": {
+          "average": "150-250",
+          "range": null,
+          "standard_deviation": null,
+          "unit": "cm³",
+          "note": "Geschat spierbuik volume bij volwassen mannen."
+        }
+      },
+      "innervation": {
+        "nerve": "N. musculocutaneus (C5, C6)",
+        "branch": null
+      },
+      "blood_supply": {
+        "arterial": [
+          "Takken van de A. brachialis."
+        ],
+        "venous_drainage": "V. brachialis en V. cephalica."
+      }
+    },
+    "function": {
+      "primary_action": "Flext elleboog, supineert onderarm.",
+      "mechanism_of_action": "Bij contractie buigt de Biceps brachii de onderarm bij de elleboog. Het is een krachtige supinator van de onderarm, vooral wanneer de elleboog gebogen is. De lange kop assisteert ook bij lichte flexie en abductie van de schouder.",
+      "elleboog_flexie_koppel_Nm": {
+        "average": "50-90",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische flexiekoppel bij de elleboog."
+      },
+      "supinatie_koppel_Nm": {
+        "average": "30-60",
+        "range": null,
+        "standard_deviation": null,
+        "unit": "Nm",
+        "note": "Geschatte maximale isometrische supinatiekoppel."
+      },
+      "role_in_expression": [
+        "Essentieel voor trekbewegingen van de arm (pull-ups, roeien) en het optillen van objecten met de handpalm naar boven.",
+        "Belangrijk voor dagelijkse activiteiten zoals het openen van flessen of het gebruiken van een schroevendraaier.",
+        "Een veel getrainde spier voor esthetische doeleinden."
+      ],
+      "synergists": [
+        "Brachialis",
+        "Brachioradialis (voor elleboogflexie)",
+        "Supinator (voor supinatie)"
+      ],
+      "antagonists": [
+        "Triceps brachii",
+        "Anconeus (voor elleboogextensie)",
+        "Pronator teres",
+        "Pronator quadratus (voor pronatie)"
+      ]
+    },
+    "visual_analogy": "Stel je de Biceps brachii voor als twee gespierde 'ballonnen' die aan de voorkant van je bovenarm zitten, die samenkomen in een dikke pees die naar je onderarm loopt. Wanneer je je arm buigt en je handpalm omhoog draait, voel je deze spier krachtig samentrekken, alsof hij een zware last optilt, wat de iconische 'spierbal' vormt.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]

@@ -1,0 +1,800 @@
+["FitnessCalc",
+  {"trainingType": "Strength",
+    "subType": "Muscular Strength, Hypertrophy & Relative Strength",
+    "formulas": [
+      {"name": "One-Rep Max (1RM) Estimation (Epley Formula)",
+        "description": "Estimates the maximum weight an individual can lift for one repetition, representing their maximal strength for that lift, based on a sub-maximal lift.",
+        "formula": "$$1RM = Weight \\times (1 + \\frac{Reps}{30})$$",
+        "variables": [
+          {"name": "1RM", "description": "One-Repetition Maximum (Maximal Strength)", "unit": "kg or lbs"},
+          {"name": "Weight", "description": "Weight lifted during the test", "unit": "kg or lbs"},
+          {"name": "Reps", "description": "Number of repetitions performed to failure (typically 2-10 reps)"}
+        ],"notes": "Numerous 1RM estimation formulas exist (e.g., Brzycki, Lombardi, O'Conner). This is an estimation; actual 1RM may vary. Represents a 'maximal' effort for a given lift."
+      },{
+        "name": "Training Volume (per exercise/set)",
+        "description": "Quantifies the total work performed for a specific exercise or set.",
+        "formula": "$$Volume = Sets \\times Reps \\times Weight$$",
+        "variables": [
+          {"name": "Volume", "description": "Total training volume", "unit": "kg or lbs"},
+          {"name": "Sets", "description": "Number of sets performed"},
+          {"name": "Reps", "description": "Number of repetitions per set"},
+          {"name": "Weight", "description": "Weight lifted per repetition", "unit": "kg or lbs"}
+        ],
+        "notes": "Can be summed across multiple exercises for total session or weekly volume. Essential for tracking progressive overload."
+      },
+      {
+        "name": "Percentage of One-Rep Max (%1RM)",
+        "description": "Calculates the target weight to be lifted based on a percentage of the estimated 1RM, used for prescribing training intensity.",
+        "formula": "$$Target Weight = 1RM \\times \\%Target$$",
+        "variables": [
+          {"name": "Target Weight", "description": "Weight to be lifted", "unit": "kg or lbs"},
+          {"name": "1RM", "description": "One-Repetition Maximum", "unit": "kg or lbs"},
+          {"name": "%Target", "description": "Desired intensity as a percentage (e.g., 0.80 for 80%)"}
+        ],
+        "notes": "Different percentages correspond to different training adaptations (e.g., 85%+ for strength, 60-80% for hypertrophy, <60% for endurance)."
+      },
+      {
+        "name": "Reps in Reserve (RIR)",
+        "description": "A subjective measure of how many more repetitions a person *could* have performed at the end of a set before reaching momentary muscular failure. RIR 0 represents a maximal effort for that set.",
+        "formula": "Subjective Scale (e.g., RIR 0 = no reps left, RIR 3 = 3 reps left)",
+        "variables": [
+          {"name": "RIR", "description": "Reps in Reserve", "unit": "reps"}
+        ],
+        "notes": "Used to autoregulate training intensity. RIR 0 signifies a 'maximal' effort for the set, while higher RIR values indicate a 'minimal' or submaximal effort relative to failure."
+      },
+      {
+        "name": "Relative Strength",
+        "description": "Measures an individual's strength in relation to their body weight, often used to compare strength across different body sizes.",
+        "formula": "$$Relative Strength = \\frac{1RM}{Body Weight}$$",
+        "variables": [
+          {"name": "Relative Strength", "description": "Strength relative to body weight", "unit": "unitless (e.g., 2x bodyweight)"},
+          {"name": "1RM", "description": "One-Repetition Maximum", "unit": "kg or lbs"},
+          {"name": "Body Weight", "description": "Individual's body weight", "unit": "kg or lbs"}
+        ],
+        "notes": "Higher values indicate greater relative strength, important in sports like gymnastics or climbing."
+      },
+      {
+        "name": "Strength-Endurance Index",
+        "description": "Measures the ability to sustain a percentage of maximal strength over multiple repetitions.",
+        "formula": "$$Strength-Endurance Index = \\frac{Number of Reps at \\%1RM}{Max Reps Expected at \\%1RM}$$",
+        "variables": [
+          {"name": "Strength-Endurance Index", "description": "Index of muscular endurance", "unit": "unitless or %"},
+          {"name": "Number of Reps at %1RM", "description": "Actual repetitions performed at a given percentage of 1RM"},
+          {"name": "Max Reps Expected at %1RM", "description": "Theoretical maximal repetitions at that %1RM (from a rep max chart)"}
+        ],
+        "notes": "Used to assess and train the ability to perform repeated efforts at a given intensity."
+      }
+    ]
+    },{"trainingType": "Speed",
+      "subType": "Linear Speed, Acceleration & Running Mechanics",
+      "formulas": [
+        {"name": "Average Speed",
+          "description": "Calculates the average rate at which an object or person covers a distance. Maximal speed is the highest average speed achieved over a short distance.",
+          "formula": "$$Speed = \\frac{Distance}{Time}$$",
+          "variables": [
+            {"name": "Speed", "description": "Average speed", "unit": "m/s or km/h"},
+            {"name": "Distance", "description": "Total distance covered", "unit": "m or km"},
+            {"name": "Time", "description": "Total time taken", "unit": "s or h"}
+          ],
+          "notes": "Used for sprint times, running pace, etc. 'Maximal speed' refers to the highest speed attained, typically over 10-30m flying sprints."
+        },{"name": "Average Acceleration",
+          "description": "Calculates the rate of change of velocity over a period of time. Maximal acceleration is the highest rate of change in velocity.",
+          "formula": "$$Acceleration = \\frac{\\Delta Velocity}{\\Delta Time} = \\frac{Final Velocity - Initial Velocity}{Time}$$",
+          "variables": [
+            {"name": "Acceleration", "description": "Average acceleration", "unit": "m/s$^2$"},
+            {"name": "$\\Delta Velocity$", "description": "Change in velocity", "unit": "m/s"},
+            {"name": "$\\Delta Time$", "description": "Change in time", "unit": "s"}
+          ],
+          "notes": "Important for understanding the starting phase of a sprint or change of direction. 'Maximal acceleration' is the peak acceleration achieved during a sprint start."
+        },{"name": "Stride Length",
+          "description": "The distance covered by one complete gait cycle (e.g., from one foot strike to the next foot strike of the same foot).",
+          "formula": "$$Stride Length = \\frac{Total Distance}{Number of Strides}$$",
+          "variables": [
+            {"name": "Stride Length", "description": "Distance per stride", "unit": "m"},
+            {"name": "Total Distance", "description": "Total distance covered", "unit": "m"},
+            {"name": "Number of Strides", "description": "Total number of strides taken"}
+          ],
+          "notes": "Optimizing stride length and frequency is key for running efficiency and speed. Often measured with specialized sensors or video analysis."
+        },{"name": "Stride Frequency (Cadence)",
+          "description": "The number of steps or strides taken per unit of time.",
+          "formula": "$$Stride Frequency = \\frac{Number of Strides}{Time}$$",
+          "variables": [
+            {"name": "Stride Frequency", "description": "Number of strides per minute or second", "unit": "strides/min or strides/s"},
+            {"name": "Number of Strides", "description": "Total number of strides taken"},
+            {"name": "Time", "description": "Total time taken", "unit": "min or s"}
+          ],
+          "notes": "Often measured as steps per minute (SPM) or strides per minute. Higher cadence is often associated with better running economy at higher speeds."
+        }
+      ]
+    },{"trainingType": "Coordination",
+      "subType": "Agility, Balance & Motor Control",
+      "formulas": [
+        {"name": "Agility Test Time",
+          "description": "Measures the time taken to complete a specific agility drill, indicating an individual's ability to change direction quickly and efficiently. The goal is to achieve the minimal time.",
+          "formula": "$$Time_{Agility} = Time_{End} - Time_{Start}$$ (measured with timing gates or stopwatch)",
+          "variables": [
+            {"name": "$Time_{Agility}$", "description": "Total time to complete the agility drill (minimal time desired)", "unit": "s"},
+            {"name": "$Time_{Start}$", "description": "Time at the start of the drill", "unit": "s"},
+            {"name": "$Time_{End}$", "description": "Time at the end of the drill", "unit": "s"}
+          ],"notes": "Common tests include the T-Test, Pro Agility Shuttle (5-10-5), or Illinois Agility Test. Lower times indicate better agility and coordination."
+        },{"name": "Y-Balance Test Reach Distance",
+          "description": "Measures dynamic balance and neuromuscular control by assessing maximum reach in three directions. The goal is to achieve maximal reach distances.",
+          "formula": "Measured directly in centimeters or inches for anterior, posteromedial, and posterolateral directions.",
+          "variables": [
+            {"name": "Reach Distance", "description": "Maximum distance reached", "unit": "cm or inches"}
+          ],"notes": "Often normalized to limb length. Used to identify asymmetries and risk of injury. Not a formula, but a key measurement where 'maximal' performance is desired."
+        },{"name": "Star Excursion Balance Test (SEBT) Composite Score",
+          "description": "A comprehensive measure of dynamic balance, assessing reach in eight directions. The goal is to achieve a maximal composite score.",
+          "formula": "$$Composite Score = \\frac{Sum of 3 trials in all 8 directions}{24 \\times Leg Length} \\times 100$$",
+          "variables": [
+            {"name": "Composite Score", "description": "Overall balance score (maximal score desired)", "unit": "%"},
+            {"name": "Sum of 3 trials in all 8 directions", "description": "Total reach distance from 3 trials in each of 8 directions", "unit": "cm or inches"},
+            {"name": "Leg Length", "description": "Measured leg length", "unit": "cm or inches"}
+          ],"notes": "Higher scores indicate better dynamic balance. Used for injury screening and performance assessment."
+        }
+      ]
+    },{"trainingType": "Endurance",
+      "subType": "Cardiovascular, Muscular Endurance & Aerobic Capacity",
+      "formulas": [
+        {"name": "Maximum Heart Rate (MHR) Estimation (Tanaka Formula)",
+          "description": "Estimates the maximum number of times your heart can beat per minute during intense exercise. This is a crucial 'maximal' physiological parameter.",
+          "formula": "$$MHR = 207 - (0.7 \\times Age)$$",
+          "variables": [
+            {"name": "MHR", "description": "Maximum Heart Rate", "unit": "beats/min"},
+            {"name": "Age", "description": "Age of the individual", "unit": "years"}
+          ],"notes": "This formula is often considered more accurate than '220 - Age'. MHR is used as a basis for calculating training zones. An individual's true MHR can only be determined by a maximal exercise test."
+        },{"name": "Resting Heart Rate (RHR)",
+          "description": "The number of times your heart beats per minute while at complete rest. A lower RHR typically indicates better cardiovascular fitness ('minimal' heart rate).",
+          "formula": "Measured directly by counting beats per minute upon waking or after prolonged rest.",
+          "variables": [
+            {"name": "RHR", "description": "Resting Heart Rate", "unit": "beats/min"}
+          ],"notes": "A key indicator of cardiovascular health and recovery. Consistently elevated RHR can be a sign of fatigue or illness."
+        },{"name": "Heart Rate Reserve (HRR)",
+          "description": "The difference between your maximum heart rate and your resting heart rate, representing the range of heart rates available for exercise.",
+          "formula": "$$HRR = MHR - RHR$$",
+          "variables": [
+            {"name": "HRR", "description": "Heart Rate Reserve", "unit": "beats/min"},
+            {"name": "MHR", "description": "Maximum Heart Rate", "unit": "beats/min"},
+            {"name": "RHR", "description": "Resting Heart Rate", "unit": "beats/min"}
+          ],"notes": "A key component of the Karvonen Formula for calculating target heart rate zones."
+        },{"name": "Target Heart Rate (THR) (Karvonen Formula)",
+          "description": "Calculates the target heart rate for a specific exercise intensity, taking into account resting heart rate for a more personalized zone.",
+          "formula": "$$THR = (HRR \\times \\%Intensity) + RHR$$",
+          "variables": [
+            {"name": "THR", "description": "Target Heart Rate", "unit": "beats/min"},
+            {"name": "HRR", "description": "Heart Rate Reserve", "unit": "beats/min"},
+            {"name": "%Intensity", "description": "Desired intensity as a percentage (e.g., 0.60 for 60%)"},
+            {"name": "RHR", "description": "Resting Heart Rate", "unit": "beats/min"}
+          ],"notes": "Different intensity percentages correspond to different training effects (e.g., 50-70% for aerobic base, 70-85% for cardiovascular fitness)."
+        },{"name": "VO2 Max Estimation (1.5 Mile Run Test)",
+          "description": "Estimates maximal oxygen uptake based on the distance covered in a 1.5-mile run. This is a key 'maximal' physiological capacity.",
+          "formula": "$$VO2 Max = \\frac{483}{Time (minutes)} + 3.5$$ (for runners)",
+          "variables": [
+            {"name": "VO2 Max", "description": "Maximal Oxygen Uptake", "unit": "mL/kg/min"},
+            {"name": "Time", "description": "Time to complete 1.5 miles", "unit": "minutes"}
+          ],"notes": "Numerous field tests exist (e.g., Cooper 12-minute run, Rockport Walk Test) with different formulas. This is a common estimation for runners. Lab tests are more accurate for true maximal values."
+        },{"name": "Running Economy",
+          "description": "The oxygen cost of running at a given submaximal speed, indicating how efficiently a runner uses oxygen. The goal is to minimize oxygen cost for a given speed.",
+          "formula": "Measured via indirect calorimetry during submaximal running, often expressed as mL O2/kg/km.",
+          "variables": [
+            {"name": "Running Economy", "description": "Oxygen cost per unit distance or time (minimal cost desired)", "unit": "mL O2/kg/km"}
+          ],"notes": "Lower oxygen cost at a given speed indicates better running economy. Not a simple formula for calculation without lab equipment."
+        },{"name": "Lactate Threshold (LT)",
+          "description": "The exercise intensity at which blood lactate begins to accumulate rapidly, indicating a shift from predominantly aerobic to anaerobic metabolism. Represents the maximal sustainable aerobic intensity.",
+          "formula": "Determined by measuring blood lactate concentration at increasing exercise intensities (e.g., during a graded exercise test).",
+          "variables": [
+            {"name": "Lactate Threshold", "description": "Exercise intensity (e.g., heart rate, power, speed)", "unit": "beats/min, Watts, m/s"}
+          ],"notes": "A critical determinant of endurance performance. Often identified as the highest intensity that can be sustained without continuous lactate accumulation."
+        },{"name": "Ventilatory Thresholds (VT1 & VT2)",
+          "description": "Points during exercise where ventilation increases disproportionately to oxygen uptake, indicating shifts in metabolic reliance. VT2 often correlates with the maximal lactate steady state.",
+          "formula": "Determined by gas exchange analysis during a graded exercise test (identifying breakpoints in VE/VO2 and VE/VCO2 ratios).",
+          "variables": [
+            {"name": "VT1 (Aerobic Threshold)", "description": "Intensity at first disproportionate increase in ventilation", "unit": "HR, Power, Speed"},
+            {"name": "VT2 (Anaerobic Threshold / Respiratory Compensation Point)", "description": "Intensity at second disproportionate increase in ventilation", "unit": "HR, Power, Speed"}
+          ],"notes": "Used for precise training zone prescription. Requires specialized lab equipment."
+        },{"name": "Critical Power / Speed",
+          "description": "The highest power output or speed that can be maintained for a prolonged period without continuous fatigue, representing the boundary between heavy and severe exercise domains. This is a 'maximal' sustainable effort.",
+          "formula": "Derived from multiple time-to-exhaustion trials at different constant power outputs or speeds, using a linear regression model.",
+          "variables": [
+            {"name": "Critical Power", "description": "Sustainable power output", "unit": "Watts"},
+            {"name": "Critical Speed", "description": "Sustainable speed", "unit": "m/s"}
+          ],"notes": "A robust measure of aerobic capacity and fatigue resistance. Requires multiple maximal effort tests."
+        },{"name": "Power-to-Weight Ratio (Cycling)",
+          "description": "Measures a cyclist's power output relative to their body weight, crucial for climbing performance.",
+          "formula": "$$Power-to-Weight Ratio = \\frac{Power (Watts)}{Body Weight (kg)}$$",
+          "variables": [
+            {"name": "Power-to-Weight Ratio", "description": "Relative power output", "unit": "W/kg"},
+            {"name": "Power", "description": "Power output", "unit": "Watts"},
+            {"name": "Body Weight", "description": "Body weight", "unit": "kg"}
+          ],"notes": "Higher values indicate better climbing ability. Often expressed for different durations (e.g., 5-second max, 20-minute FTP)."
+        }
+      ]
+    },{"trainingType": "Stamina",
+      "subType": "Sustained Effort & Fatigue Resistance",
+      "formulas": [
+        {"name": "Session RPE (sRPE) Training Load",
+          "description": "Quantifies the perceived physiological stress of a training session, combining subjective effort and duration.",
+          "formula": "$$sRPE = RPE \\times Session Duration (minutes)$$",
+          "variables": [
+            {"name": "sRPE", "description": "Session Rate of Perceived Exertion", "unit": "arbitrary units (AU)"},
+            {"name": "RPE", "description": "Rate of Perceived Exertion (0-10 scale, or Borg 6-20 scale)"},
+            {"name": "Session Duration", "description": "Total duration of the training session", "unit": "minutes"}
+          ],"notes": "A simple and effective method for monitoring daily training load and tracking fatigue. Can be summed for weekly load."
+        },{"name": "Training Stress Score (TSS) / Normalized Power (NP) (Cycling/Running)",
+          "description": "A proprietary metric (from TrainingPeaks) that quantifies the physiological stress of a workout, accounting for intensity, duration, and individual fitness. Based on power (cycling) or pace (running).",
+          "formula": "$$TSS = \\frac{Duration (s) \\times Normalized Power (W) \\times Intensity Factor}{FTP \\times 3600}$$ (Cycling example)",
+          "variables": [
+            {"name": "TSS", "description": "Training Stress Score", "unit": "unitless"},
+            {"name": "Duration", "description": "Workout duration", "unit": "seconds"},
+            {"name": "Normalized Power (NP)", "description": "Adjusted power output that accounts for variability", "unit": "Watts"},
+            {"name": "Intensity Factor (IF)", "description": "Ratio of NP to Functional Threshold Power (FTP)", "unit": "unitless"},
+            {"name": "FTP", "description": "Functional Threshold Power (maximal power sustainable for 60 min)", "unit": "Watts"}
+          ],"notes": "Similar formulas exist for running (rTSS) based on pace and Functional Threshold Pace (FTPace). Used for precise load management."
+        },{"name": "Acute Training Load (ATL) / Fatigue",
+          "description": "Represents the short-term training stress, often a weighted average of recent daily training loads (e.g., sRPE, TSS).",
+          "formula": "$$ATL = \\frac{\\sum_{i=1}^{7} (Load_i \\times Weighting_i)}{\\sum_{i=1}^{7} Weighting_i}$$ (typically an exponentially weighted moving average)",
+          "variables": [
+            {"name": "ATL", "description": "Acute Training Load", "unit": "AU or TSS"},
+            {"name": "$Load_i$", "description": "Daily training load (sRPE or TSS) for day 'i'", "unit": "AU or TSS"},
+            {"name": "$Weighting_i$", "description": "Weighting factor for day 'i' (e.g., more recent days weighted higher)"}
+          ],"notes": "Reflects how fatigued an athlete is from recent training. A common decay is 7 days."
+        },{"name": "Chronic Training Load (CTL) / Fitness",
+          "description": "Represents the long-term training stress and accumulated fitness, often a weighted average of daily training loads over a longer period.",
+          "formula": "$$CTL = \\frac{\\sum_{i=1}^{42} (Load_i \\times Weighting_i)}{\\sum_{i=1}^{42} Weighting_i}$$ (typically an exponentially weighted moving average)",
+          "variables": [
+            {"name": "CTL", "description": "Chronic Training Load", "unit": "AU or TSS"},
+            {"name": "$Load_i$", "description": "Daily training load (sRPE or TSS) for day 'i'", "unit": "AU or TSS"},
+            {"name": "$Weighting_i$", "description": "Weighting factor for day 'i' (e.g., more recent days weighted higher)"}
+          ],"notes": "Reflects an athlete's overall fitness level. A common decay is 42 days."
+        },{"name": "Training Stress Balance (TSB) / Form",
+          "description": "Indicates an athlete's readiness to perform, by comparing long-term fitness to short-term fatigue.",
+          "formula": "$$TSB = CTL - ATL$$",
+          "variables": [
+            {"name": "TSB", "description": "Training Stress Balance", "unit": "AU or TSS"},
+            {"name": "CTL", "description": "Chronic Training Load", "unit": "AU or TSS"},
+            {"name": "ATL", "description": "Acute Training Load", "unit": "AU or TSS"}
+          ],"notes": "A positive TSB suggests freshness and readiness for performance, while a negative TSB suggests fatigue and potential for overtraining. The goal is often to optimize TSB for maximal performance at key times."
+        },{"name": "Acute:Chronic Workload Ratio (ACWR)",
+          "description": "Compares recent training load (acute) to chronic training load to assess injury risk and training appropriateness.",
+          "formula": "$$ACWR = \\frac{ATL}{CTL}$$",
+          "variables": [
+            {"name": "ACWR", "description": "Acute:Chronic Workload Ratio", "unit": "unitless"},
+            {"name": "ATL", "description": "Acute Training Load", "unit": "AU or TSS"},
+            {"name": "CTL", "description": "Chronic Training Load", "unit": "AU or TSS"}
+          ], "notes": "An ACWR between 0.8-1.3 is often considered the 'sweet spot' for optimal training adaptation with reduced injury risk. Values >1.5 are associated with higher injury risk. This helps identify 'minimal' safe increases in workload."
+        },{"name": "Minimal Effective Dose (MED)",
+          "description": "The lowest amount of training stimulus (volume, intensity, frequency) required to elicit a desired adaptation or maintain fitness. This is a conceptual 'minimal' threshold for training.",
+          "formula": "Not a single formula; determined empirically through individual trial and error, or based on scientific literature for general guidelines.",
+          "variables": [
+            {"name": "Training Volume", "description": "Sets, reps, weight, duration", "unit": "various"},
+            {"name": "Training Intensity", "description": "RPE, %1RM, HR zones", "unit": "various"},
+            {"name": "Training Frequency", "description": "Sessions per week", "unit": "sessions/week"}
+          ], "notes": "The MED helps prevent overtraining and maximize recovery by avoiding unnecessary training load. It's about finding the 'minimum' required stimulus for progress."
+        }
+      ]
+    },{"trainingType": "Explosiveness",
+      "subType": "Power & Rate of Force Development",
+      "formulas": [
+        {"name": "Mechanical Power",
+          "description": "The rate at which work is done, or the product of force and velocity. Maximal power is the highest power output achieved.",
+          "formula": "$$Power = \\frac{Work}{Time} = Force \\times Velocity$$",
+          "variables": [
+            {"name": "Power", "description": "Mechanical Power", "unit": "Watts (W)"},
+            {"name": "Work", "description": "Work done (Force x Distance)", "unit": "Joules (J)"},
+            {"name": "Time", "description": "Time taken", "unit": "s"},
+            {"name": "Force", "description": "Force applied", "unit": "Newtons (N)"},
+            {"name": "Velocity", "description": "Velocity of movement", "unit": "m/s"}
+          ],"notes": "Crucial for activities requiring rapid, forceful movements like jumping, throwing, and sprinting. 'Maximal power' is often measured during specific tests like countermovement jumps or Olympic lifts."
+        },{"name": "Vertical Jump Height (from Flight Time)",
+          "description": "Estimates vertical jump height based on the time an individual spends in the air during a jump. The goal is to achieve maximal jump height.",
+          "formula": "$$Jump Height = \\frac{1}{2} \\times g \\times (Flight Time / 2)^2$$ (where $g$ is acceleration due to gravity)",
+          "variables": [
+            {"name": "Jump Height", "description": "Vertical height of the jump (maximal height desired)", "unit": "m"},
+            {"name": "$g$", "description": "Acceleration due to gravity (approx. 9.81 m/s$^2$)", "unit": "m/s$^2$"},
+            {"name": "Flight Time", "description": "Total time spent in the air", "unit": "s"}
+          ],"notes": "A common method using jump mats or video analysis. Higher jump height indicates greater lower body power."
+        },{"name": "Rate of Force Development (RFD)",
+          "description": "Measures how quickly an individual can produce force, indicating explosive strength. Maximal RFD is the highest rate of force increase.",
+          "formula": "$$RFD = \\frac{\\Delta Force}{\\Delta Time}$$",
+          "variables": [
+            {"name": "RFD", "description": "Rate of Force Development", "unit": "N/s"},
+            {"name": "$\\Delta Force$", "description": "Change in force produced", "unit": "Newtons (N)"},
+            {"name": "$\\Delta Time$", "description": "Change in time over which force is produced", "unit": "s"}
+          ],"notes": "Typically measured using force plates during isometric or dynamic contractions. Higher RFD means faster force production. 'Maximal RFD' is the peak slope of the force-time curve."
+        },{"name": "Impulse",
+          "description": "The change in momentum of an object, representing the effect of force applied over time. Crucial for understanding explosive movements.",
+          "formula": "$$Impulse = Force \\times Time$$",
+          "variables": [
+            {"name": "Impulse", "description": "Change in momentum", "unit": "N·s (Newton-seconds)"},
+            {"name": "Force", "description": "Average force applied", "unit": "Newtons (N)"},
+            {"name": "Time", "description": "Duration of force application", "unit": "s"}
+          ],"notes": "Often measured from force-time curves during jumps or sprints. Greater impulse leads to greater changes in velocity."
+        },{"name": "Force-Velocity Profile",
+          "description": "Analyzes the relationship between the force an individual can produce and the velocity at which they can produce it. Identifies strengths (e.g., maximal force, maximal velocity, maximal power).",
+          "formula": "Derived from multiple lifts/jumps at varying loads, plotting force vs. velocity. Often represented graphically.",
+          "variables": [
+            {"name": "Force", "description": "Force produced", "unit": "N"},
+            {"name": "Velocity", "description": "Velocity of movement", "unit": "m/s"}
+          ],"notes": "Used to tailor training to improve specific aspects of power (e.g., more force-dominant or velocity-dominant training). Identifies maximal capabilities."
+        },{"name": "Velocity Loss (VBT)",
+          "description": "The percentage decrease in mean propulsive velocity (MPV) from the first repetition to the last repetition in a set. Used to autoregulate training intensity and fatigue.",
+          "formula": "$$Velocity Loss = \\frac{MPV_{Initial} - MPV_{Final}}{MPV_{Initial}} \\times 100$$",
+          "variables": [
+            {"name": "Velocity Loss", "description": "Percentage decrease in velocity", "unit": "%"},
+            {"name": "$MPV_{Initial}$", "description": "Mean propulsive velocity of the first repetition", "unit": "m/s"},
+            {"name": "$MPV_{Final}$", "description": "Mean propulsive velocity of the last repetition", "unit": "m/s"}
+          ],"notes": "Used in Velocity-Based Training (VBT) to prescribe sets to a specific fatigue threshold (e.g., stop set at 20% velocity loss). Helps manage 'minimal' fatigue for a given session."
+        }
+      ]
+    },{"trainingType": "Reaction Time",
+      "subType": "Response Speed",
+      "formulas": [
+        {"name": "Reaction Time Measurement",
+          "description": "The time elapsed between a stimulus and the initiation of a response. The goal is to achieve minimal reaction time.",
+          "formula": "Measured directly via specialized equipment (e.g., reaction time testers, timing gates, software).",
+          "variables": [
+            {"name": "Reaction Time", "description": "Time from stimulus onset to response initiation (minimal time desired)", "unit": "milliseconds (ms) or seconds (s)"}
+          ],"notes": "Can be simple (response to a single stimulus) or choice (response to one of several stimuli). Shorter times indicate faster reaction."
+        }
+      ]
+    },{"trainingType": "Turn Speed",
+      "subType": "Change of Direction Speed / Agility",
+      "formulas": [
+        {"name": "Change of Direction Speed Test Time",
+          "description": "Measures the time taken to complete a drill involving multiple changes in direction, reflecting agility and turn speed. The goal is to achieve minimal time.",
+          "formula": "$$Time_{COD} = Time_{End} - Time_{Start}$$ (measured with timing gates or stopwatch)",
+          "variables": [
+            {"name": "$Time_{COD}$", "description": "Total time to complete the change of direction drill (minimal time desired)", "unit": "s"},
+            {"name": "$Time_{Start}$", "description": "Time at the start of the drill", "unit": "s"},
+            {"name": "$Time_{End}$", "description": "Time at the end of the drill", "unit": "s"}
+          ],"notes": "Similar to agility tests, but specifically emphasizes the speed of turning and re-acceleration. Examples include 5-0-5 Agility Test or Zig-Zag Run."
+        },{"name": "Angular Velocity",
+          "description": "The rate at which an object rotates or revolves around an axis. Relevant for analyzing body segment rotation during turns. Maximal angular velocity is the highest rate of rotation.",
+          "formula": "$$\\omega = \\frac{\\Delta \\theta}{\\Delta t}$$",
+          "variables": [
+            {"name": "$\\omega$", "description": "Angular Velocity", "unit": "radians/s or degrees/s"},
+            {"name": "$\\Delta \\theta$", "description": "Change in angular displacement", "unit": "radians or degrees"},
+            {"name": "$\\Delta t$", "description": "Change in time", "unit": "s"}
+          ],"notes": "Often analyzed using motion capture technology to precisely measure joint and limb rotations during turning movements. 'Maximal angular velocity' refers to the peak rotational speed achieved."
+        }
+      ]
+    },{"trainingType": "Flexibility",
+      "subType": "Range of Motion & Mobility",
+      "formulas": [
+        {"name": "Joint Range of Motion (ROM) Measurement",
+          "description": "Measures the degrees of movement available at a specific joint. The goal is often to achieve maximal ROM without discomfort.",
+          "formula": "Measured directly using a goniometer or inclinometer.",
+          "variables": [
+            {"name": "ROM", "description": "Range of Motion (maximal ROM desired)", "unit": "degrees ($^{\\circ}$)"}
+          ],"notes": "Assessments often compare passive (external force) vs. active (muscle contraction) ROM. Important for injury prevention and movement efficiency. 'Minimal' ROM would indicate a restriction."
+        },{"name": "Sit-and-Reach Test Score",
+          "description": "Measures hamstring and lower back flexibility. The goal is to achieve a maximal reach score.",
+          "formula": "Measured directly in centimeters or inches from a standardized baseline.",
+          "variables": [
+            {"name": "Score", "description": "Distance reached beyond (or short of) the toes (maximal score desired)", "unit": "cm or inches"}
+          ],"notes": "A higher score (further reach) indicates greater flexibility."
+        }
+      ]
+    },{"trainingType": "Body Composition",
+      "subType": "Body Fat, Lean Mass, & Distribution",
+      "formulas": [
+        {"name": "Body Mass Index (BMI)",
+          "description": "A simple index of weight-for-height that is commonly used to classify underweight, overweight and obesity in adults. Can indicate 'minimal' healthy weight or 'maximal' unhealthy weight.",
+          "formula": "$$BMI = \\frac{Weight (kg)}{Height (m)^2}$$",
+          "variables": [
+            {"name": "BMI", "description": "Body Mass Index", "unit": "kg/m$^2$"},
+            {"name": "Weight", "description": "Body weight", "unit": "kg"},
+            {"name": "Height", "description": "Height", "unit": "m"}
+          ],
+          "notes": "Does not differentiate between fat and muscle mass. A high BMI can be due to high muscle mass. Use with caution for athletes. Classifications define 'minimal' and 'maximal' healthy ranges."
+        },{"name": "Waist-to-Hip Ratio (WHR)",
+          "description": "Measures the ratio of waist circumference to hip circumference, indicating body fat distribution and associated health risks. The goal is often to maintain a 'minimal' WHR for health.",
+          "formula": "$$WHR = \\frac{Waist Circumference}{Hip Circumference}$$",
+          "variables": [
+            {"name": "WHR", "description": "Waist-to-Hip Ratio", "unit": "unitless"},
+            {"name": "Waist Circumference", "description": "Circumference at the narrowest point of the waist", "unit": "cm or inches"},
+            {"name": "Hip Circumference", "description": "Circumference at the widest part of the hips", "unit": "cm or inches"}
+          ],"notes": "Higher ratios (especially >0.90 for men, >0.85 for women) are associated with increased health risks. Lower WHR is generally desirable."
+        },{"name": "Body Fat Percentage (General Calculation)",
+          "description": "The proportion of total body weight that is fat. Often estimated via various methods. Athletes may aim for a 'minimal' healthy body fat percentage for performance.",
+          "formula": "$$Body Fat \\% = \\frac{Fat Mass}{Total Body Weight} \\times 100$$",
+          "variables": [
+            {"name": "Body Fat %", "description": "Body Fat Percentage", "unit": "%"},
+            {"name": "Fat Mass", "description": "Total weight of fat in the body", "unit": "kg or lbs"},
+            {"name": "Total Body Weight", "description": "Overall body weight", "unit": "kg or lbs"}
+          ],"notes": "Fat mass can be estimated using skinfold calipers (requiring specific equations like Jackson-Pollock), Bioelectrical Impedance Analysis (BIA), or more accurately with DEXA scans. The formula here is conceptual. 'Minimal' healthy body fat is crucial for performance and health."
+        },{"name": "Lean Body Mass (LBM)",
+          "description": "The weight of the body's non-fat components (muscle, bone, organs, water). The goal is often to maximize LBM for strength and power sports.",
+          "formula": "$$LBM = Total Body Weight - Fat Mass$$ OR $$LBM = Total Body Weight \\times (1 - \\frac{Body Fat \\%}{100})$$",
+          "variables": [
+            {"name": "LBM", "description": "Lean Body Mass (maximal LBM desired for certain goals)", "unit": "kg or lbs"},
+            {"name": "Total Body Weight", "description": "Overall body weight", "unit": "kg or lbs"},
+            {"name": "Fat Mass", "description": "Total weight of fat in the body", "unit": "kg or lbs"},
+            {"name": "Body Fat %", "description": "Body Fat Percentage", "unit": "%"}
+          ],"notes": "Important for calculating basal metabolic rate and tracking muscle gain/loss."
+        }
+      ]
+    },{"trainingType": "Metabolic Rate & Energy Balance",
+      "subType": "Calorie Needs & Macronutrient Planning",
+      "formulas": [
+        {"name": "Basal Metabolic Rate (BMR) (Mifflin-St Jeor Equation)",
+          "description": "Estimates the number of calories your body burns at rest to maintain basic physiological functions. This is the 'minimal' energy expenditure for survival.",
+          "formula": "For Men: $$BMR = (10 \\times Weight_{kg}) + (6.25 \\times Height_{cm}) - (5 \\times Age_{years}) + 5$$ For Women: $$BMR = (10 \\times Weight_{kg}) + (6.25 \\times Height_{cm}) - (5 \\times Age_{years}) - 161$$",
+          "variables": [
+            {"name": "BMR", "description": "Basal Metabolic Rate", "unit": "calories/day"},
+            {"name": "$Weight_{kg}$", "description": "Body weight", "unit": "kg"},
+            {"name": "$Height_{cm}$", "description": "Height", "unit": "cm"},
+            {"name": "$Age_{years}$", "description": "Age", "unit": "years"}
+          ],"notes": "Considered one of the most accurate predictive equations for BMR. Other equations exist (e.g., Harris-Benedict)."
+        },{"name": "Total Daily Energy Expenditure (TDEE)",
+          "description": "Estimates the total number of calories burned in a day, including BMR and physical activity. This represents the 'maximal' energy expenditure for a given activity level.",
+          "formula": "$$TDEE = BMR \\times Activity Factor$$",
+          "variables": [
+            {"name": "TDEE", "description": "Total Daily Energy Expenditure", "unit": "calories/day"},
+            {"name": "BMR", "description": "Basal Metabolic Rate", "unit": "calories/day"},
+            {"name": "Activity Factor", "description": "Multiplier based on activity level (e.g., Sedentary: 1.2, Lightly Active: 1.375, Moderately Active: 1.55, Very Active: 1.725, Extra Active: 1.9)"}
+          ],"notes": "Used to determine caloric intake for weight maintenance, loss, or gain."
+        },{"name": "Caloric Deficit/Surplus",
+          "description": "The difference between calories consumed and calories expended, determining weight change. A 'deficit' is a negative value, 'surplus' is positive.",
+          "formula": "$$Caloric Deficit/Surplus = Caloric Intake - TDEE$$",
+          "variables": [
+            {"name": "Caloric Deficit/Surplus", "description": "Net calorie balance", "unit": "calories/day"},
+            {"name": "Caloric Intake", "description": "Total calories consumed", "unit": "calories/day"},
+            {"name": "TDEE", "description": "Total Daily Energy Expenditure", "unit": "calories/day"}
+          ],"notes": "A deficit leads to weight loss, a surplus to weight gain. Approximately 3500 calories = 1 lb of body fat."
+        },{"name": "Macronutrient Grams (e.g., Protein)",
+          "description": "Calculates the target grams of a specific macronutrient based on total caloric intake and desired percentage. Can be used to determine 'minimal' or 'maximal' intake for specific goals.",
+          "formula": "$$Grams_{Macro} = \\frac{Total Calories \\times \\%Calories_{Macro}}{Calories Per Gram_{Macro}}$$",
+          "variables": [
+            {"name": "$Grams_{Macro}$", "description": "Grams of the specific macronutrient", "unit": "g"},
+            {"name": "Total Calories", "description": "Total daily caloric intake", "unit": "calories"},
+            {"name": "$\\%Calories_{Macro}$", "description": "Desired percentage of calories from that macronutrient (e.g., 0.30 for 30%)", "unit": "%"},
+            {"name": "$Calories Per Gram_{Macro}$", "description": "Caloric value per gram (Protein: 4 kcal/g, Carbs: 4 kcal/g, Fat: 9 kcal/g)", "unit": "kcal/g"}
+          ],"notes": "Used for precise dietary planning to support fitness goals. For example, a 'minimal' protein intake might be 0.8g/kg body weight, while a 'maximal' might be 2.2g/kg or more for muscle gain."
+        },{"name": "Respiratory Quotient (RQ)",
+          "description": "The ratio of carbon dioxide produced to oxygen consumed, indicating the type of fuel (carbohydrates vs. fat) being metabolized. Ranges from 0.7 (pure fat) to 1.0 (pure carbohydrate).",
+          "formula": "$$RQ = \\frac{VCO_2}{VO_2}$$",
+          "variables": [
+            {"name": "RQ", "description": "Respiratory Quotient", "unit": "unitless"},
+            {"name": "$VCO_2$", "description": "Volume of carbon dioxide produced", "unit": "L/min"},
+            {"name": "$VO_2$", "description": "Volume of oxygen consumed", "unit": "L/min"}
+          ],"notes": "RQ values closer to 1.0 indicate carbohydrate metabolism, closer to 0.7 indicate fat metabolism. Measured via indirect calorimetry. Represents the 'maximal' or 'minimal' reliance on a specific fuel source."
+        }
+      ]
+    },{"trainingType": "Recovery & Wellness",
+      "subType": "Physiological Monitoring & Overtraining Prevention",
+      "formulas": [
+        {"name": "Heart Rate Variability (HRV)",
+          "description": "The physiological phenomenon of the variation in the time interval between consecutive heartbeats. While complex to calculate directly, it's a critical metric. Higher HRV generally indicates better recovery ('maximal' readiness), lower HRV indicates stress ('minimal' readiness).",
+          "formula": "Calculated by specialized devices/software using various statistical methods (e.g., RMSSD, SDNN, LF/HF ratio).",
+          "variables": [
+            {"name": "HRV Metric", "description": "Specific HRV value (e.g., RMSSD)", "unit": "ms"}
+          ],"notes": "Higher HRV generally indicates a well-recovered and parasympathetic-dominant state, while lower HRV can signal fatigue, stress, or overtraining. Often tracked daily to observe trends and identify 'minimal' recovery states."
+        },{"name": "Orthostatic Heart Rate Test",
+          "description": "Measures the change in heart rate from lying to standing, used to assess autonomic nervous system balance and recovery status. An exaggerated or blunted response can indicate fatigue or overtraining.",
+          "formula": "Comparison of HR (lying) vs. HR (standing after 1-2 minutes).",
+          "variables": [
+            {"name": "HR (Lying)", "description": "Heart rate while lying down", "unit": "beats/min"},
+            {"name": "HR (Standing)", "description": "Heart rate after standing", "unit": "beats/min"}
+          ],"notes": "A consistent increase in standing HR compared to baseline can suggest fatigue or sympathetic overactivity. Not a single formula, but a comparative assessment."
+        },{"name": "Sleep Duration",
+          "description": "The total time spent sleeping. Optimal sleep duration is a range, with 'minimal' required hours for health and 'maximal' beneficial hours.",
+          "formula": "Measured directly (e.g., from sleep trackers, self-report).",
+          "variables": [
+            {"name": "Sleep Duration", "description": "Total time asleep", "unit": "hours"}
+          ],"notes": "Adequate sleep is crucial for recovery, performance, and overall health. Not a formula, but a vital metric. Recommendations often suggest 7-9 hours as an optimal range, with values below this being 'minimal' and potentially detrimental."
+        },{"name": "Wellness Score (Subjective)",
+          "description": "A composite score derived from subjective ratings of various wellness parameters (e.g., sleep quality, muscle soreness, stress levels, mood). The goal is to maximize this score.",
+          "formula": "Typically a sum or average of individual subjective ratings (e.g., 1-5 scale for each parameter).",
+          "variables": [
+            {"name": "Wellness Score", "description": "Overall subjective well-being (maximal score desired)", "unit": "arbitrary units"}
+          ],"notes": "Used to monitor an athlete's subjective response to training and identify signs of overreaching or under-recovery. Not a rigid formula, but a common practice. A 'minimal' score would indicate poor well-being."
+        }
+      ]
+    },{"trainingType": "Biomechanics",
+      "subType": "Movement Analysis & Efficiency",
+      "formulas": [
+        {"name": "Work Done (Mechanical)",
+          "description": "The amount of energy transferred by a force acting over a distance. Can refer to maximal work performed.",
+          "formula": "$$Work = Force \\times Distance$$",
+          "variables": [
+            {"name": "Work", "description": "Work done", "unit": "Joules (J)"},
+            {"name": "Force", "description": "Force applied", "unit": "Newtons (N)"},
+            {"name": "Distance", "description": "Distance over which the force is applied", "unit": "m"}
+          ],"notes": "Used to quantify the mechanical output of movements like lifting, jumping, or pushing. 'Maximal work' refers to the highest amount of work performed in a given task."
+        },{"name": "Ground Reaction Force (GRF)",
+          "description": "The force exerted by the ground on a body in contact with it. Key for analyzing locomotion and jump mechanics. Often analyzed for peak (maximal) force.",
+          "formula": "Measured directly using force plates. Often analyzed for peak force, average force, and impulse.",
+          "variables": [
+            {"name": "GRF", "description": "Ground Reaction Force", "unit": "Newtons (N)"}
+          ],"notes": "Provides insight into force production, absorption, and stability during movement. Not a formula, but a critical measured parameter. 'Maximal GRF' is the peak force exerted during a movement."
+        },{"name": "Efficiency (Mechanical)",
+          "description": "The ratio of mechanical work output to metabolic energy input, indicating how effectively energy is converted into movement. The goal is to maximize efficiency and minimize energy waste.",
+          "formula": "$$Efficiency = \\frac{Work Output (Mechanical)}{Energy Input (Metabolic)} \\times 100$$",
+          "variables": [
+            {"name": "Efficiency", "description": "Mechanical Efficiency (maximal efficiency desired)", "unit": "%"},
+            {"name": "Work Output", "description": "Mechanical work performed", "unit": "Joules (J)"},
+            {"name": "Energy Input", "description": "Metabolic energy consumed (e.g., from VO2)", "unit": "Joules (J) or Calories"}
+          ],"notes": "Higher efficiency means less energy is wasted. Requires sophisticated measurement of both mechanical work and metabolic cost. 'Minimal' energy input for a given output signifies high efficiency."
+        },{"name": "Joint Angles",
+          "description": "Measurement of the angle at a specific joint during movement, used to analyze technique and range of motion. Can identify maximal or minimal angles achieved.",
+          "formula": "Measured using goniometers, inclinometers, or motion capture systems.",
+          "variables": [
+            {"name": "Joint Angle", "description": "Angle at a specific joint", "unit": "degrees ($^{\\circ}$)"}
+          ],"notes": "Crucial for assessing movement patterns, identifying limitations, and optimizing technique. For example, 'maximal knee flexion' during a squat."
+        },{"name": "Center of Mass (COM) Displacement/Velocity",
+          "description": "Tracking the position and movement of the body's center of mass, essential for analyzing balance, posture, and dynamic movements.",
+          "formula": "Calculated from kinematic data (e.g., motion capture) or force plate data.",
+          "variables": [
+            {"name": "COM Displacement", "description": "Change in COM position", "unit": "m"},
+            {"name": "COM Velocity", "description": "Rate of change of COM position", "unit": "m/s"}
+          ],"notes": "Provides insight into overall body control and movement strategy. Can identify 'maximal' displacement or velocity during a movement."
+        },{"name": "Ground Contact Time (GCT) & Flight Time (FT)",
+          "description": "For running and jumping, GCT is the time the foot is on the ground, and FT is the time spent in the air. Optimizing these is key for performance.",
+          "formula": "Measured using force plates, timing gates, or specialized sensors.",
+          "variables": [
+            {"name": "Ground Contact Time", "description": "Time foot is on the ground (minimal desired for speed)", "unit": "ms"},
+            {"name": "Flight Time", "description": "Time spent in the air (maximal desired for jump height)", "unit": "ms"}
+          ],"notes": "Shorter GCT and longer FT are generally indicative of more powerful and efficient running/jumping. These are 'minimal' and 'maximal' targets respectively."
+        }
+      ]
+    },{"trainingType": "General Fitness Assessment & Programming",
+      "subType": "Overall Fitness & Training Design",
+      "formulas": [
+        {"name": "Fitness Index (e.g., from Step Test)",
+          "description": "A score derived from a submaximal exercise test (e.g., 3-minute step test) to estimate cardiovascular fitness.",
+          "formula": "$$Fitness Index = \\frac{Duration of Exercise (seconds) \\times 100}{2 \\times Sum of Recovery Pulse Counts}$$",
+          "variables": [
+            {"name": "Fitness Index", "description": "Overall fitness score", "unit": "unitless"},
+            {"name": "Duration of Exercise", "description": "Total time of exercise", "unit": "seconds"},
+            {"name": "Sum of Recovery Pulse Counts", "description": "Sum of heart rate counts at specific intervals during recovery"}
+          ],"notes": "Higher index indicates better fitness. Many variations of step tests and their formulas exist."
+        },{"name": "Work-to-Rest Ratio",
+          "description": "The ratio of the duration of work (exercise) to the duration of rest in an interval training session.",
+          "formula": "$$Work-to-Rest Ratio = Work Duration : Rest Duration$$",
+          "variables": [
+            {"name": "Work Duration", "description": "Time spent exercising", "unit": "s or min"},
+            {"name": "Rest Duration", "description": "Time spent resting", "unit": "s or min"}
+          ],"notes": "Crucial for designing interval training sessions to target specific energy systems (e.g., 1:1 for aerobic power, 1:3+ for anaerobic power)."
+        },{"name": "Periodization Load Calculation (Conceptual)",
+          "description": "The systematic planning of training to maximize performance at specific times, involving manipulation of training volume, intensity, and frequency across cycles. This is more of a programming strategy than a single formula.",
+          "formula": "Involves calculating and adjusting ATL, CTL, TSB, and ACWR over macrocycles, mesocycles, and microcycles.",
+          "variables": [
+            {"name": "Training Load Progression", "description": "Planned increase/decrease in load over time"},
+            {"name": "Tapering Strategy", "description": "Planned reduction in load to maximize freshness for competition ('minimal' load before peak)"}
+          ],"notes": "While specific formulas are used for components (like ATL/CTL), periodization itself is a complex planning process, not a single calculation. It involves managing the 'maximal' and 'minimal' training loads strategically."
+        }
+      ]
+    },{"NutritionFormulas": [
+          {"categorie": "Energiebehoeften (Calorieberekening)",
+            "subType": "Basis Metabolische Snelheid (BMS) & Totaal Dagelijks Energieverbruik (TDEV)",
+            "formules": [
+                {"naam": "Basis Metabolische Snelheid (BMS) - Mifflin-St Jeor Formule",
+                  "beschrijving": "Schat het aantal calorieën dat het lichaam in rust verbrandt om basale fysiologische functies te onderhouden. Dit is de 'minimale' energiebehoefte voor overleving.",
+                  "formule": "Voor Mannen: $$BMS = (10 \\times Gewicht_{kg}) + (6.25 \\times Lengte_{cm}) - (5 \\times Leeftijd_{jaren}) + 5$$ Voor Vrouwen: $$BMS = (10 \\times Gewicht_{kg}) + (6.25 \\times Lengte_{cm}) - (5 \\times Leeftijd_{jaren}) - 161$$",
+                  "variabelen": [
+                    { "naam": "BMS", "beschrijving": "Basis Metabolische Snelheid", "eenheid": "calorieën/dag" },
+                    { "naam": "$Gewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+                    { "naam": "$Lengte_{cm}$", "beschrijving": "Lengte", "eenheid": "cm" },
+                    { "naam": "$Leeftijd_{jaren}$", "beschrijving": "Leeftijd", "eenheid": "jaren" }
+                  ],"notities": "Wordt beschouwd als een van de meest nauwkeurige voorspellende vergelijkingen voor BMS. Andere formules bestaan (bijv. Harris-Benedict). Dit vertegenwoordigt de 'minimale' caloriebehoefte in rust."
+                },{"naam": "Totaal Dagelijks Energieverbruik (TDEV)",
+                  "beschrijving": "Schat het totale aantal calorieën dat op een dag wordt verbrand, inclusief BMS en fysieke activiteit. Dit kan de 'maximale' energiebehoefte vertegenwoordigen, afhankelijk van het activiteitsniveau.",
+                  "formule": "$$TDEV = BMS \\times Activiteitsfactor$$",
+                  "variabelen": [
+                    { "naam": "TDEV", "beschrijving": "Totaal Dagelijks Energieverbruik", "eenheid": "calorieën/dag" },
+                    { "naam": "BMS", "beschrijving": "Basis Metabolische Snelheid", "eenheid": "calorieën/dag" },
+                    { "naam": "Activiteitsfactor", "beschrijving": "Vermenigvuldigingsfactor gebaseerd op activiteitsniveau (bijv. Zittend: 1.2, Licht actief: 1.375, Matig actief: 1.55, Zeer actief: 1.725, Extra actief: 1.9)" }
+                  ], "notities": "Wordt gebruikt om de calorie-inname te bepalen voor gewichtsbehoud, -verlies of -toename."
+                },{"naam": "Calorietekort/Overschot",
+                  "beschrijving": "Het verschil tussen de geconsumeerde en verbruikte calorieën, wat de gewichtsverandering bepaalt. Een 'tekort' is een negatieve waarde, een 'overschot' is positief.",
+                  "formule": "$$Calorietekort/Overschot = Calorie-inname - TDEV$$",
+                  "variabelen": [
+                    { "naam": "Calorietekort/Overschot", "beschrijving": "Netto caloriebalans", "eenheid": "calorieën/dag" },
+                    { "naam": "Calorie-inname", "beschrijving": "Totaal aantal geconsumeerde calorieën", "eenheid": "calorieën/dag" },
+                    { "naam": "TDEV", "beschrijving": "Totaal Dagelijks Energieverbruik", "eenheid": "calorieën/dag" }
+                  ],"notities": "Een tekort leidt tot gewichtsverlies, een overschot tot gewichtstoename. Ongeveer 7700 calorieën = 1 kg lichaamsvet."
+                }
+              ]
+          },{"categorie": "Macronutriëntenberekening",
+            "subType": "Verdeling van Eiwitten, Koolhydraten en Vetten",
+            "formules": [
+              {"naam": "Macronutriënten in Grammen (bijv. Eiwit)",
+                "beschrijving": "Berekent de doelgrammen van een specifiek macronutriënt op basis van de totale calorie-inname en het gewenste percentage. Kan worden gebruikt om 'minimale' of 'maximale' inname voor specifieke doelen te bepalen.",
+                "formule": "$$Grammen_{Macro} = \\frac{Totaal Calorieën \\times \\%Calorieën_{Macro}}{Calorieën Per Gram_{Macro}}$$",
+                "variabelen": [
+                  { "naam": "$Grammen_{Macro}$", "beschrijving": "Grammen van het specifieke macronutriënt", "eenheid": "g" },
+                  { "naam": "Totaal Calorieën", "beschrijving": "Totale dagelijkse calorie-inname", "eenheid": "calorieën" },
+                  { "naam": "$\\%Calorieën_{Macro}$", "beschrijving": "Gewenst percentage calorieën van dat macronutriënt (bijv. 0.30 voor 30%)", "eenheid": "%" },
+                  { "naam": "$Calorieën Per Gram_{Macro}$", "beschrijving": "Calorische waarde per gram (Eiwit: 4 kcal/g, Koolhydraten: 4 kcal/g, Vet: 9 kcal/g)", "eenheid": "kcal/g" }
+                ],"notities": "Gebruikt voor nauwkeurige dieetplanning om fitnessdoelen te ondersteunen. Bijvoorbeeld, een 'minimale' eiwitinname kan 0.8g/kg lichaamsgewicht zijn, terwijl een 'maximale' 2.2g/kg of meer kan zijn voor spiergroei."
+              },{"naam": "Eiwitbehoefte per Lichaamsgewicht",
+                "beschrijving": "Berekent de aanbevolen dagelijkse eiwitinname op basis van lichaamsgewicht, vaak uitgedrukt in grammen per kilogram lichaamsgewicht.",
+                "formule": "$$Eiwit_{gram} = Lichaamsgewicht_{kg} \\times Eiwitfactor_{g/kg}$$",
+                "variabelen": [
+                  { "naam": "$Eiwit_{gram}$", "beschrijving": "Dagelijkse eiwitinname", "eenheid": "g" },
+                  { "naam": "$Lichaamsgewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+                  { "naam": "$Eiwitfactor_{g/kg}$", "beschrijving": "Aanbevolen eiwit per kg lichaamsgewicht (bijv. 0.8 voor algemeen, 1.6-2.2 voor sporters)", "eenheid": "g/kg" }
+                ],"notities": "De eiwitfactor varieert sterk afhankelijk van activiteitsniveau, leeftijd en doelen (bijv. spiergroei, gewichtsverlies)."
+              },{"naam": "Koolhydraatbehoefte per Lichaamsgewicht",
+                "beschrijving": "Berekent de aanbevolen dagelijkse koolhydraatinname op basis van lichaamsgewicht, vaak uitgedrukt in grammen per kilogram lichaamsgewicht, vooral voor sporters.",
+                "formule": "$$Koolhydraat_{gram} = Lichaamsgewicht_{kg} \\times Koolhydraatfactor_{g/kg}$$",
+                "variabelen": [
+                  { "naam": "$Koolhydraat_{gram}$", "beschrijving": "Dagelijkse koolhydraatinname", "eenheid": "g" },
+                  { "naam": "$Lichaamsgewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+                  { "naam": "$Koolhydraatfactor_{g/kg}$", "beschrijving": "Aanbevolen koolhydraat per kg lichaamsgewicht (bijv. 3-10 voor sporters, afhankelijk van intensiteit)", "eenheid": "g/kg" }
+                ],"notities": "De behoefte aan koolhydraten is sterk afhankelijk van de trainingsintensiteit en duur. Hogere factoren voor duursporters."
+              },{"naam": "Vetbehoefte per Lichaamsgewicht",
+                "beschrijving": "Berekent de aanbevolen dagelijkse vetinname op basis van lichaamsgewicht, vaak uitgedrukt in grammen per kilogram lichaamsgewicht.",
+                "formule": "$$Vet_{gram} = Lichaamsgewicht_{kg} \\times Vetfactor_{g/kg}$$",
+                "variabelen": [
+                  { "naam": "$Vet_{gram}$", "beschrijving": "Dagelijkse vetinname", "eenheid": "g" },
+                  { "naam": "$Lichaamsgewicht_{kg}$", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" },
+                  { "naam": "$Vetfactor_{g/kg}$", "beschrijving": "Aanbevolen vet per kg lichaamsgewicht (bijv. 0.5-1.0)", "eenheid": "g/kg" }
+                ],"notities": "Vetinname is cruciaal voor hormoonproductie en algehele gezondheid. Vaak uitgedrukt als een percentage van de totale calorieën (bijv. 20-35%)."
+              }
+            ]
+          },{"categorie": "Micronutriënten & Voedingsrichtlijnen",
+            "subType": "Aanbevolen Dagelijkse Hoeveelheden (ADH) & Referentie-innames",
+            "formules": [
+              {"naam": "Aanbevolen Dagelijkse Hoeveelheden (ADH) / Dietary Reference Intakes (DRIs)",
+                "beschrijving": "Vastgestelde waarden voor de inname van vitaminen en mineralen om tekorten te voorkomen en optimale gezondheid te ondersteunen. Dit zijn 'minimale' tot 'optimale' innamehoeveelheden.",
+                "formule": "Geen specifieke formule; dit zijn vastgestelde referentiewaarden per nutriënt, variërend per leeftijd, geslacht, zwangerschap/lactatie, en activiteitsniveau.",
+                "variabelen": [
+                  { "naam": "Nutriënt", "beschrijving": "Specifieke vitamine of mineraal (bijv. Vitamine C, IJzer, Calcium)" },
+                  { "naam": "ADH Waarde", "beschrijving": "Aanbevolen dagelijkse inname", "eenheid": "mg, µg, IE" }
+                ],"notities": "Deze waarden worden gepubliceerd door nationale en internationale gezondheidsorganisaties (bijv. Gezondheidsraad in Nederland, USDA in VS). Overschrijding van de 'maximale' toelaatbare inname (Tolerable Upper Intake Levels - ULs) kan toxiciteit veroorzaken."
+              },{"naam": "Nutriëntdichtheid Index",
+                "beschrijving": "Een maat voor de hoeveelheid nutriënten per calorie in een voedingsmiddel, om voedingsmiddelen te identificeren die veel nutriënten leveren met relatief weinig calorieën.",
+                "formule": "$$Nutriëntdichtheid = \\frac{\\% ADH van Nutriënt}{Calorieën per portie} \\times 100$$",
+                "variabelen": [
+                  { "naam": "Nutriëntdichtheid", "beschrijving": "Nutriëntdichtheidsscore", "eenheid": "eenheidsloos" },
+                  { "naam": "% ADH van Nutriënt", "beschrijving": "Percentage van de aanbevolen dagelijkse hoeveelheid van een specifiek nutriënt in een portie" },
+                  { "naam": "Calorieën per portie", "beschrijving": "Aantal calorieën in die portie" }
+                ],"notities": "Hogere scores duiden op een hogere nutriëntdichtheid. Helpt bij het kiezen van voedingsmiddelen die 'maximaal' nutriënten leveren voor 'minimale' calorieën."
+              }
+            ]
+          },{"categorie": "Dieetplannen & Analyse",
+            "subType": "Specifieke Dieetbenaderingen & Evaluatie",
+            "formules": [
+              {"naam": "Eiwit/Koolhydraat/Vet Verhouding",
+                "beschrijving": "De procentuele verdeling van calorieën over eiwitten, koolhydraten en vetten in een dieetplan.",
+                "formule": "$$\\text{Verhouding} = \\%Eiwit : \\%Koolhydraten : \\%Vetten$$",
+                "variabelen": [
+                  { "naam": "%Eiwit", "beschrijving": "Percentage calorieën uit eiwit" },
+                  { "naam": "%Koolhydraten", "beschrijving": "Percentage calorieën uit koolhydraten" },
+                  { "naam": "%Vetten", "beschrijving": "Percentage calorieën uit vet" }
+                ],"notities": "Gangbare verhoudingen variëren sterk (bijv. 30/40/30 voor gebalanceerd, 20/50/30 voor duursporters, 40/30/30 voor gewichtsverlies/spierbehoud). Dit is een 'maximale' of 'minimale' focus op bepaalde macronutriënten."
+              },{"naam": "Glycemische Index (GI) / Glycemische Lading (GL)",
+                "beschrijving": "De Glycemische Index (GI) meet hoe snel koolhydraten in een voedingsmiddel de bloedsuikerspiegel verhogen. De Glycemische Lading (GL) houdt rekening met zowel de GI als de portiegrootte.",
+                "formule": "$$GL = \\frac{GI \\times Hoeveelheid Koolhydraten (gram)}{100}$$",
+                "variabelen": [
+                  { "naam": "GL", "beschrijving": "Glycemische Lading", "eenheid": "eenheidsloos" },
+                  { "naam": "GI", "beschrijving": "Glycemische Index", "eenheid": "eenheidsloos" },
+                  { "naam": "Hoeveelheid Koolhydraten", "beschrijving": "Grammen koolhydraten in een portie", "eenheid": "g" }
+                ],"notities": "Lage GI/GL voedingsmiddelen zorgen voor een stabielere bloedsuikerspiegel. Belangrijk voor diabetesmanagement en duurprestaties. De 'minimale' of 'maximale' impact op de bloedsuikerspiegel."
+              },{"naam": "Vezelinname",
+                "beschrijving": "De aanbevolen dagelijkse inname van vezels voor darmgezondheid en verzadiging.",
+                "formule": "Geen specifieke formule; aanbevelingen zijn vaak in grammen per dag (bijv. 25-30g/dag voor volwassenen).",
+                "variabelen": [
+                  { "naam": "Vezelinname", "beschrijving": "Dagelijkse vezelinname", "eenheid": "g/dag" }
+                ],"notities": "Een 'minimale' inname is cruciaal voor gezondheid, terwijl een 'maximale' inname (te veel) spijsverteringsproblemen kan veroorzaken."
+              },{"naam": "Hydratatiestatus (Urine Kleur Schaal)",
+                "beschrijving": "Een subjectieve, maar veelgebruikte methode om de hydratatiestatus te beoordelen op basis van de kleur van de urine. Donkere urine duidt op 'minimale' hydratatie.",
+                "formule": "Visuele schaal van 1 (zeer lichtgeel/helder) tot 8 (donkerbruin).",
+                "variabelen": [
+                  { "naam": "Urine Kleur Score", "beschrijving": "Score op de urineschaal", "eenheid": "eenheidsloos" }
+                ],"notities": "Lichtere kleuren (1-3) duiden op goede hydratatie, donkere kleuren (4+) op uitdroging. Dit is een snelle visuele indicator, geen analytische formule."
+              },{"naam": "Waterbehoefte",
+                "beschrijving": "Schatting van de dagelijkse waterbehoefte, afhankelijk van lichaamsgewicht en activiteitsniveau.",
+                "formule": "$$Waterbehoefte (L) = Lichaamsgewicht (kg) \\times 0.03$$ (basisrichtlijn) + extra voor activiteit en omgevingsfactoren",
+                "variabelen": [
+                  { "naam": "Waterbehoefte", "beschrijving": "Dagelijkse waterinname", "eenheid": "L" },
+                  { "naam": "Lichaamsgewicht", "beschrijving": "Lichaamsgewicht", "eenheid": "kg" }
+                ],"notities": "Dit is een basisrichtlijn; individuele behoeften variëren sterk. Sporters en mensen in warme klimaten hebben een 'maximale' behoefte."
+              }
+            ]
+          },{"categorie": "Algemene Macronutriënten Informatie",
+              "subType": "Feiten & Aanbevelingen",
+              "formules": [{"naam": "Eiwitten Algemeen",
+                  "description": "Essentieel voor spiergroei en -herstel, enzymen, hormonen en immuunfunctie.",
+                  "recommendations": {
+                    "general_adults": "0.8 - 1.0 gram per kg lichaamsgewicht",
+                    "resistance_training": "1.6 - 2.2 gram per kg lichaamsgewicht",
+                    "endurance_athletes": "1.2 - 1.8 gram per kg lichaamsgewicht"
+                  },"examples_per_100g": {
+                      "kipfilet_gekookt": "31g",
+                      "rundvlees_mager": "26g",
+                      "zalm_gekookt": "22g",
+                      "eieren_groot": "13g",
+                      "kwark_mager": "11g",
+                      "linzen_gekookt": "9g"
+          },"relevance_human_algorithm": "De 'bouwstenen' voor algoritme-ontwikkeling en -onderhoud; essentieel voor de integriteit en reparatie van het systeem, en de constructie van nieuwe modules."
+                },{"naam": "Koolhydraten Algemeen",
+                  "description": "Primaire energiebron voor het lichaam en de hersenen.",
+                  "recommendations": {
+                    "general_adults": "45-65% van totale calorieën",
+                    "high_intensity_exercise": "5-10 gram per kg lichaamsgewicht (afhankelijk van duur en intensiteit)"
+                  },"examples_per_100g": {
+                    "rijst_gekookt": "28g",
+                    "havervlokken_droog": "66g",
+                    "brood_volkoren": "41g",
+                    "aardappelen_gekookt": "17g",
+                    "banaan": "23g",
+                    "broccoli": "7g"
+                  },"relevance_human_algorithm": "De 'brandstof' voor computationele processen; de primaire energiebron voor het uitvoeren van instructies en het verwerken van data."
+                },{"naam": "Vetten Algemeen",
+                  "description": "Essentieel voor hormoonproductie, vitamine-absorptie, celmembranen en energiereserves.",
+                  "recommendations": {
+                    "general_adults": "20-35% van totale calorieën",
+                    "saturated_fat": "<10% van totale calorieën"
+                  },"examples_per_100g": {
+                    "olijfolie": "100g",
+                    "avocado": "15g",
+                    "amandelen": "49g",
+                    "vette_vis_zalm": "13g",
+                    "boter": "81g"
+                  },"relevance_human_algorithm": "De 'lange-termijn opslag' en 'structurele componenten' van het algoritme; cruciaal voor stabiliteit, communicatie tussen modules en reserve-energie."
+                }
+              ]
+          },{"categorie": "Algemene Micronutriënten Informatie",
+            "subType": "Vitaminen & Mineralen Overzicht",
+            "formules": [
+              {"naam": "Vitaminen Algemeen",
+                "description": "Organische verbindingen nodig in kleine hoeveelheden voor diverse lichaamsfuncties.",
+                "categories": {"fat_soluble": [
+                    "Vitamine A (zicht, immuunfunctie)",
+                    "Vitamine D (botgezondheid, immuunfunctie)",
+                    "Vitamine E (antioxidant)",
+                    "Vitamine K (bloedstolling, botgezondheid)"
+                    ],"water_soluble": [
+                      "Vitamine C (immuunfunctie, collageensynthese)",
+                      "B-vitamines (energieproductie, zenuwfunctie)"
+                    ]
+                  },"relevance_human_algorithm": "De 'co-factoren' of 'configuratieparameters' die kleine, maar cruciale, aanpassingen mogelijk maken voor de optimale werking van specifieke subroutines of modules."
+              },{"naam": "Mineralen Algemeen",
+                "description": "Anorganische elementen nodig voor botten, tanden, zenuwfunctie, vloeistofbalans, etc.",
+                "categories": {
+                  "macro_minerals": [
+                    "Calcium (botten, spierfunctie)",
+                    "Magnesium (spier- en zenuwfunctie, energie)",
+                    "Kalium (vloeistofbalans, bloeddruk)",
+                    "Natrium (vloeistofbalans, zenuwfunctie)",
+                    "Fosfor (botten, DNA/RNA)",
+                    "Zwavel (eiwitsynthese)"
+                  ],"trace_minerals": [
+                    "IJzer (zuurstoftransport)",
+                    "Zink (immuunfunctie, wondgenezing)",
+                    "Selenium (antioxidant)",
+                    "Jodium (schildklierfunctie)",
+                    "Koper (energieproductie, ijzermetabolisme)",
+                    "Mangaan (botvorming, metabolisme)",
+                    "Chroom (glucosemetabolisme)",
+                    "Fluoride (tandgezondheid)"
+                  ]
+                },"relevance_human_algorithm": "De 'essentiële bibliotheken' of 'frameworks' die de fundamentele functionaliteit van het algoritme ondersteunen, van data-overdracht tot structurele integriteit."
+              }
+            ]
+          },{"categorie": "Analytische Gegevens & Referenties",
+          "subType": "Bronnen & Richtlijnen",
+          "formules": [
+            {"naam": "Voedingscompositie Databases",
+              "description": "Data over de precieze voedingswaarde van duizenden voedingsmiddelen.",
+              "examples": [
+                "USDA FoodData Central (VS)",
+                "NEVO-online (Nederland)",
+                "Food Composition Databases van EFSA (Europa)"
+              ],"relevance_human_algorithm": "De 'referentietabellen' en 'lookup-tabellen' die het algoritme gebruikt om contextuele informatie over zijn 'inputs' (voeding) te begrijpen."
+            },{"naam": "Voedingsreferentie-innames (DRIs)",
+              "description": "Referentiewaarden voor voedingsstoffen voor gezonde populaties.",
+              "categories": [
+                "Aanbevolen Dagelijkse Hoeveelheid (ADH): Gemiddelde dagelijkse inname die voldoende is voor bijna alle gezonde individuen.",
+                "Adequate Inname (AI): Gebruikt wanneer ADH niet kan worden vastgesteld, gebaseerd op waarnemingen van gezonde mensen.",
+                "Tolerable Upper Intake Level (UL): Maximale dagelijkse inname die waarschijnlijk geen nadelige gezondheidseffecten veroorzaakt."
+              ],"relevance_human_algorithm": "De 'veiligheidsprotocollen' en 'optimale configuratielimieten' voor de input van het algoritme, om zowel functionaliteit als 'gezondheid' te garanderen."
+            }
+          ]
+          } 
+        ]
+    }
+]

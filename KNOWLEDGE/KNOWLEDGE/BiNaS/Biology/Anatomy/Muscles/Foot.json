@@ -1,0 +1,451 @@
+[
+  {"name": "Flexor hallucis brevis",
+    "description": "De Flexor hallucis brevis is een intrinsieke spier van de voet, gelegen in de voetzool, die de grote teen flext bij het metatarsal-falangeale gewricht.",
+    "anatomy": {
+      "origin": {
+        "location": "Cuboid (voetwortelbotje) en de laterale cuneïforme (wigvormig bot), en de pees van de Tibialis posterior.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },"insertion": {
+        "location": "Mediale en laterale zijden van de basis van de proximale falanx van de grote teen (hallux).",
+        "details": [
+          "Twee hoofden die elk een sesamoid bot omvatten."
+        ]
+      },"dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },"width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. plantaris medialis (tak van de N. tibialis) (S1, S2).",
+      "branch": null
+    },"blood_supply": {
+      "arterial": [
+        "Takken van de A. plantaris medialis en lateralis."
+      ],"venous_drainage": "Overeenkomstige venen."
+    },"function": {
+      "primary_action": "Flext big toe (hallux).",
+      "mechanism_of_action": "Bij contractie buigt de Flexor hallucis brevis de grote teen bij het metatarsal-falangeale gewricht. Het speelt een cruciale rol bij de afzetfase van het lopen en het handhaven van de voetboog.",
+      "big_toe_flexion_degrees": {
+        "average": "30-40",
+        "note": "Bereik van flexie bij het MTP-gewricht."
+      },"arch_support_contribution": {
+        "average": "Belangrijk voor dynamische voetboogondersteuning.",
+        "note": "Niet direct kwantificeerbaar, maar essentieel voor functie."
+      },"role_in_expression": [
+        "Essentieel voor lopen, rennen en springen, door de afzetkracht van de grote teen te vergroten.",
+        "Belangrijk voor de stabiliteit van de voet en het handhaven van de voetboog tijdens gewichtdragende activiteiten.",
+        "Disfunctie kan bijdragen aan hallux valgus (bunion) of andere voetproblemen."
+      ],"synergists": [
+        "Flexor hallucis longus (voor flexie van de grote teen)",
+        "Adductor hallucis",
+        "Abductor hallucis (voor stabilisatie van de grote teen)"
+      ],"antagonists": [
+        "Extensor hallucis longus",
+        "Extensor hallucis brevis (voor extensie van de grote teen)"
+      ]
+    },"visual_analogy": "Stel je de Flexor hallucis brevis voor als een gespierd 'kussentje' aan de basis van je grote teen (voetzool), dat van de middenvoetbotjes naar de basis van je grote teen loopt. Wanneer hij samentrekt, buigt hij je grote teen bij het basisgewricht, alsof hij een 'haakje' vormt om je af te zetten tijdens het lopen of om je balans te bewaren, essentieel voor je voortbeweging.",
+    "status": "done",
+    "precisie_score": 9
+  },{"name": "Flexor digiti minimi brevis (foot)",
+    "description": "De Flexor digiti minimi brevis (pedis) is een intrinsieke spier van de voet, gelegen in de voetzool, die de kleine teen flext en abduceert.",
+    "anatomy": {
+      "origin": {
+        "location": "Basis van het 5e metatarsale (middenvoetsbeentje) en de peesschede van de Fibularis longus.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },"insertion": {
+        "location": "Laterale zijde van de basis van de proximale falanx van de kleine teen (5e teen).",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },"dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },"width_mm": null,
+      "thickness_mm": null
+    },"innervation": {
+      "nerve": "N. plantaris lateralis (tak van de N. tibialis) (S1, S2).",
+      "branch": "Oppervlakkige tak."
+    },"blood_supply": {
+      "arterial": [
+        "Takken van de A. plantaris lateralis."
+      ],"venous_drainage": "Overeenkomstige venen."
+    },"function": {
+      "primary_action": "Flext little toe, abducts little toe.",
+      "mechanism_of_action": "Bij contractie buigt de Flexor digiti minimi brevis de kleine teen bij het metatarsal-falangeale gewricht en beweegt het zijwaarts (abductie). Het draagt bij aan de stabiliteit van de laterale voetboog en de controle van de kleine teen tijdens het lopen.",
+      "little_toe_flexion_degrees": {
+        "average": "20-30",
+        "note": "Bereik van flexie bij het MTP-gewricht."
+      },"little_toe_abduction_degrees": {
+        "average": "5-10",
+        "note": "Bereik van abductie."
+      },"role_in_expression": [
+        "Assisteert bij de stabiliteit van de voet en het handhaven van de voetboog tijdens gewichtdragende activiteiten.",
+        "Belangrijk voor de fijne motoriek van de tenen en het aanpassen aan oneffen oppervlakken."
+      ],"synergists": [
+        "Abductor digiti minimi (foot) (voor abductie en flexie)"
+      ],"antagonists": [
+        "Extensor digiti minimi brevis (foot) (voor extensie)"
+      ]
+    },"visual_analogy": "Stel je de Flexor digiti minimi brevis (voet) voor als een klein, gespierd 'kussentje' aan de basis van je kleine teen (voetzool), dat van het middenvoetsbeentje naar de basis van je kleine teen loopt. Wanneer hij samentrekt, buigt hij je kleine teen en trekt hij hem iets zijwaarts, alsof hij een 'haakje' vormt om je af te zetten of je balans te bewaren, essentieel voor de fijne controle van je kleine teen.",
+    "status": "done",
+    "precisie_score": 8
+  },{"name": "Dorsal interossei (foot) 1-4",
+    "description": "De Dorsal interossei (pedis) zijn vier kleine spieren diep in de voet, tussen de middenvoetsbeentjes, die de tenen abduceren (spreiden) en de metatarsal-falangeale gewrichten flext en de interfalangeale gewrichten extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Aangrenzende zijden van de metatarsale botten (middenvoetsbeentjes).",
+        "details": [
+          "Bipennate (veer-achtig) oorsprong, van twee metatarsale botten."
+        ]
+      },"insertion": {
+        "location": "Basissen van de proximale falanxen en de extensor aponeurose van de 2e, 3e en 4e tenen (II, III, IV).",
+        "details": [
+          "Eerste abduceert de 2e teen, tweede en derde abduceren de 3e teen, vierde abduceert de 4e teen (vanaf de 2e teen als referentie)."
+        ]
+      },"dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },"width_mm": null,
+      "thickness_mm": null
+    },"innervation": {
+      "nerve": "N. plantaris lateralis (tak van de N. tibialis) (S1, S2), diepe tak.",
+      "branch": null
+    },"blood_supply": {
+      "arterial": [
+        "Takken van de diepe plantaire boog (van de A. plantaris lateralis)."
+      ],"venous_drainage": "Overeenkomstige venen."
+    },"function": {
+      "primary_action": "Abduceert tenen (II-IV), flext MTP joints, extendert IP joints.",
+      "mechanism_of_action": "De Dorsal interossei spreiden de tenen uit elkaar (abductie) vanaf de middenlijn van de voet (de tweede teen). Ze buigen ook de tenen bij de metatarsal-falangeale gewrichten en strekken de tenen bij de interfalangeale gewrichten, wat essentieel is voor het aanpassen aan oneffen oppervlakken en het handhaven van de balans.",
+      "toe_abduction_degrees": {
+        "average": "5-10",
+        "note": "Bereik van teenabductie."
+      },"MTP_flexion_degrees": {
+        "average": "10-20",
+        "note": "Bereik van MTP-flexie."
+      },"IP_extension_degrees": {
+        "average": "5-10",
+        "note": "Bereik van IP-extensie."
+      },"role_in_expression": [
+        "Essentieel voor het aanpassen van de voet aan oneffen oppervlakken, het handhaven van de balans en het afzetten tijdens het lopen en rennen.",
+        "Belangrijk voor de fijne motoriek van de tenen en het voorkomen van teenmisvormingen."
+      ],"synergists": [
+        "Plantar interossei (voor adductie en teenflexie)",
+        "Lumbricals (foot) (voor teenflexie en IP-extensie)"
+      ],"antagonists": [
+        "Plantar interossei (voor adductie)"
+      ]
+    },"visual_analogy": "Stel je de Dorsal interossei (voet) voor als kleine, diepliggende 'webben' van spieren die tussen de botten van je middenvoet (middenvoetsbeentjes) zitten en naar de basis van je tenen lopen. Wanneer ze samentrekken, spreiden ze je tenen uit elkaar, alsof je je tenen 'openwaaiert' om je balans te bewaren op een oneffen ondergrond, en helpen ze je tenen te buigen bij de knokkels en recht te maken bij de gewrichten.",
+    "status": "done",
+    "precisie_score": 8
+  },{"name": "Plantar interossei 1-3",
+    "description": "De Plantar interossei zijn drie kleine spieren diep in de voet, tussen de middenvoetsbeentjes, die de tenen adduceren (naar elkaar toe brengen) en de metatarsal-falangeale gewrichten flext en de interfalangeale gewrichten extendert.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale zijden van het 3e, 4e en 5e metatarsale (middenvoetsbeentjes).",
+        "details": [
+          "Unipennate (veer-achtig) oorsprong, van één metatarsale bot."
+        ]
+      },"insertion": {
+        "location": "Mediale zijden van de basissen van de proximale falanxen en de extensor aponeurose van de 3e, 4e en 5e tenen (III, IV, V).",
+        "details": [
+          "Eerste adduceert de 3e teen, tweede adduceert de 4e teen, derde adduceert de 5e teen (naar de 2e teen als referentie)."
+        ]
+      },"dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },"width_mm": null,
+      "thickness_mm": null
+    },"innervation": {
+      "nerve": "N. plantaris lateralis (tak van de N. tibialis) (S1, S2), diepe tak.",
+      "branch": null
+    },"blood_supply": {
+      "arterial": [
+        "Takken van de diepe plantaire boog (van de A. plantaris lateralis)."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },"function": {
+      "primary_action": "Adduceert tenen (III-V), flext MTP joints, extendert IP joints.",
+      "mechanism_of_action": "De Plantar interossei brengen de tenen naar elkaar toe (adductie) richting de middenlijn van de voet (de tweede teen). Ze buigen ook de tenen bij de metatarsal-falangeale gewrichten en strekken de tenen bij de interfalangeale gewrichten, wat essentieel is voor het handhaven van de voetboog en het afzetten tijdens het lopen.",
+      "toe_adduction_degrees": {
+        "average": "5-10",
+        "note": "Bereik van teenadductie."
+      },"MTP_flexion_degrees": {
+        "average": "10-20",
+        "note": "Bereik van MTP-flexie."
+      },"IP_extension_degrees": {
+        "average": "5-10",
+        "note": "Bereik van IP-extensie."
+      },"role_in_expression": [
+        "Essentieel voor het stabiliseren van de voet en het handhaven van de voetboog tijdens gewichtdragende activiteiten.",
+        "Belangrijk voor de fijne motoriek van de tenen en het aanpassen aan oneffen oppervlakken.",
+        "Draagt bij aan de 'push-off' fase van de gangcyclus."
+      ],"synergists": [
+        "Dorsal interossei (foot) (voor teenflexie en IP-extensie)",
+        "Lumbricals (foot) (voor teenflexie en IP-extensie)"
+      ],"antagonists": [
+        "Dorsal interossei (foot) (voor abductie)"
+      ]
+    },"visual_analogy": "Stel je de Plantar interossei voor als kleine, diepliggende 'trekbandjes' die tussen de botten van je middenvoet (middenvoetsbeentjes) zitten en naar de basis van je tenen lopen. Wanneer ze samentrekken, trekken ze je tenen naar elkaar toe, alsof je je tenen 'sluit' om je af te zetten tijdens het lopen, en helpen ze je tenen te buigen bij de knokkels en recht te maken bij de gewrichten.",
+    "status": "done",
+    "precisie_score": 8
+  },{"name": "Opponens digiti minimi muscle of foot (opponens digiti quinti)",
+    "description": "De Opponens digiti minimi (pedis) is een zeldzame, inconsistente intrinsieke spier van de voet, die de 5e metatarsale (middenvoetsbeentje) flext en roteert, wat helpt bij het verdiepen van de laterale voetboog.",
+    "anatomy": {
+      "origin": {
+        "location": "Basis van het 5e metatarsale (middenvoetsbeentje) en de peesschede van de Fibularis longus.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },"insertion": {
+        "location": "Laterale zijde van het 5e metatarsale (middenvoetsbeentje).",
+        "details": [
+          "Smalle, vlezige insertie."
+        ]
+      },"dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer klein en variabel, vaak afwezig of samengevoegd met andere spieren."
+      },"width_mm": null,
+      "thickness_mm": null
+    },"innervation": {
+      "nerve": "N. plantaris lateralis (tak van de N. tibialis) (S1, S2), diepe tak.",
+      "branch": null
+    },"blood_supply": {
+      "arterial": [
+        "Takken van de A. plantaris lateralis."
+      ],"venous_drainage": "Overeenkomstige venen."
+    },"function": {
+      "primary_action": "Flext en roteert 5e metatarsale, verdiept laterale voetboog.",
+      "mechanism_of_action": "Indien aanwezig, buigt en roteert de Opponens digiti minimi (pedis) het 5e metatarsale, wat helpt bij het verdiepen van de laterale longitudinale voetboog. Dit draagt bij aan de stabiliteit van de voet en het aanpassen aan oneffen oppervlakken, maar zijn functionele bijdrage is minimaal.",
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],"synergists": [
+        "Flexor digiti minimi brevis (foot) (voor flexie van de kleine teen)"
+      ],"antagonists": []
+    },"visual_analogy": "Stel je de Opponens digiti minimi (voet) voor als een minuscuul, vaak afwezig, spiervezeltje dat diep in de voetzool zit, net onder de kleine teen, en het botje van de kleine teen iets kan buigen en draaien. Het is zo klein en zeldzaam dat het nauwelijks een echte functie heeft, meer een toevallige connectie die soms aanwezig is zonder duidelijke rol in de voetbeweging.",
+    "status": "skipped",
+    "precisie_score": 2
+  },{"name": "Quadratus plantae",
+    "description": "De Quadratus plantae (ook bekend als Flexor accessorius) is een intrinsieke spier van de voet, gelegen in de voetzool, die de pezen van de Flexor digitorum longus assisteert en hun trekkracht aanpast.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale en laterale zijden van het calcaneus (hielbeen), van het plantaire oppervlak.",
+        "details": [
+          "Twee hoofden: mediale kop en laterale kop."
+        ]
+      },"insertion": {
+        "location": "Posterieure en laterale rand van de pezen van de Flexor digitorum longus (voor de 2e-5e tenen).",
+        "details": [
+          "Vlezige insertie."
+        ]
+      },"dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },"width_mm": null,
+      "thickness_mm": null
+    },"innervation": {
+      "nerve": "N. plantaris lateralis (tak van de N. tibialis) (S1, S2).",
+      "branch": "Diepe tak."
+    },"blood_supply": {
+      "arterial": [
+        "Takken van de A. plantaris lateralis en A. plantaris medialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },"function": {
+      "primary_action": "Assisteert flexie van de 2e-5e tenen, trekt pezen van Flexor digitorum longus naar lateraal.",
+      "mechanism_of_action": "Bij contractie trekt de Quadratus plantae de pezen van de Flexor digitorum longus naar lateraal, waardoor hun trekkracht op de tenen directer wordt en de neiging tot mediale deviatie wordt gecorrigeerd. Dit verbetert de efficiëntie van de teenflexie en draagt bij aan de stabiliteit van de voetboog.",
+      "toe_flexion_assistance": {
+        "average": "Niet direct kwantificeerbaar, maar verbetert de effectiviteit van de Flexor digitorum longus.",
+        "note": "Belangrijk voor efficiënte teenflexie."
+      },"role_in_expression": [
+        "Essentieel voor de fijne controle van de teenbewegingen tijdens het lopen, rennen en springen.",
+        "Belangrijk voor het handhaven van de voetboog en het aanpassen aan oneffen oppervlakken.",
+        "Draagt bij aan de 'push-off' fase van de gangcyclus."
+      ],"synergists": [
+        "Flexor digitorum longus (voor teenflexie)",
+        "Lumbricals (foot) (voor teenflexie)"
+      ],"antagonists": [
+        "Extensor digitorum longus",
+        "Extensor digitorum brevis (voor teenextensie)"
+      ]
+    },"visual_analogy": "Stel je de Quadratus plantae voor als een platte, vierkante 'hulp'-spier die diep in je voetzool ligt, van je hielbeen naar de pezen van je lange teenbuigers. Het is als een 'katrol'-systeem dat de pezen recht trekt, waardoor je tenen efficiënter kunnen buigen en je voetboog stabiel blijft, essentieel voor een soepele afzet tijdens het lopen.",
+    "status": "done",
+    "precisie_score": 8
+  },{"name": "Abductor of fifth metatarsal abductor ossis metatarsi quinti (foot)",
+    "description": "De Abductor ossis metatarsi quinti is een intrinsieke spier van de voet, gelegen in de voetzool, die het 5e metatarsale (middenvoetsbeentje) abduceert (weg van de 4e teen beweegt).",
+    "anatomy": {
+      "origin": {
+        "location": "Basis van het 5e metatarsale (middenvoetsbeentje) en de peesschede van de Fibularis longus.",
+        "details": [
+          "Puntvormige oorsprong."
+        ]
+      },"insertion": {
+        "location": "Laterale zijde van het 5e metatarsale (middenvoetsbeentje).",
+        "details": [
+          "Smalle, vlezige insertie."
+        ]
+      },"dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm",
+        "note": "Zeer klein en variabel, soms samengevoegd met de Flexor digiti minimi brevis (foot)."
+      },"width_mm": null,
+      "thickness_mm": null
+    },"innervation": {
+      "nerve": "N. plantaris lateralis (tak van de N. tibialis) (S1, S2), diepe tak.",
+      "branch": null
+    },"blood_supply": {
+      "arterial": [
+        "Takken van de A. plantaris lateralis."
+      ],"venous_drainage": "Overeenkomstige venen."
+    },"function": {
+      "primary_action": "Abducts 5th metatarsal.",
+      "mechanism_of_action": "Bij contractie beweegt de Abductor ossis metatarsi quinti het 5e metatarsale zijwaarts (abductie) weg van de 4e teen. Dit draagt bij aan het verdiepen van de laterale voetboog en het aanpassen aan oneffen oppervlakken, maar zijn functionele bijdrage is minimaal.",
+      "role_in_expression": [
+        "Zeer minimale functionele rol in de meeste bewegingen.",
+        "Anatomisch interessant vanwege zijn variabiliteit en rudimentaire aard."
+      ],
+      "synergists": [
+        "Flexor digiti minimi brevis (foot) (voor flexie van de kleine teen)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Abductor ossis metatarsi quinti voor als een minuscuul, vaak afwezig, spiervezeltje dat diep in de voetzool zit, net onder de kleine teen, en het botje van de kleine teen iets zijwaarts kan bewegen. Het is zo klein en zeldzaam dat het nauwelijks een echte functie heeft, meer een toevallige connectie die soms aanwezig is zonder duidelijke rol in de voetbeweging.",
+    "status": "skipped",
+    "precisie_score": 2
+  },{"name": "Abductor hallucis",
+    "description": "De Abductor hallucis is een intrinsieke spier van de voet, gelegen aan de mediale zijde van de voetzool, die de grote teen abduceert (weg van de 2e teen beweegt) en assisteert bij flexie.",
+    "anatomy": {
+      "origin": {
+        "location": "Mediale tuberculum van het calcaneus (hielbeen), flexor retinaculum, en de plantaire aponeurose.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Mediale zijde van de basis van de proximale falanx van de grote teen (hallux) en het mediale sesamoid bot.",
+        "details": [
+          "Pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. plantaris medialis (tak van de N. tibialis) (S1, S2).",
+      "branch": null
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. plantaris medialis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Abducts big toe.",
+      "mechanism_of_action": "Bij contractie beweegt de Abductor hallucis de grote teen weg van de tweede teen (abductie) en assisteert het bij de flexie van de grote teen. Het draagt bij aan de stabiliteit van de mediale voetboog en is cruciaal voor de afzetfase van het lopen.",
+      "big_toe_abduction_degrees": {
+        "average": "10-20",
+        "note": "Bereik van grote teenabductie."
+      },
+      "arch_support_contribution": {
+        "average": "Belangrijk voor dynamische voetboogondersteuning.",
+        "note": "Niet direct kwantificeerbaar, maar essentieel voor functie."
+      },
+      "role_in_expression": [
+        "Essentieel voor lopen, rennen en springen, door de afzetkracht van de grote teen te vergroten.",
+        "Belangrijk voor de stabiliteit van de voet en het handhaven van de voetboog tijdens gewichtdragende activiteiten.",
+        "Disfunctie kan bijdragen aan hallux valgus (bunion) of andere voetproblemen."
+      ],
+      "synergists": [
+        "Flexor hallucis brevis",
+        "Flexor hallucis longus (voor flexie van de grote teen)"
+      ],
+      "antagonists": [
+        "Adductor hallucis (voor adductie van de grote teen)"
+      ]
+    },
+    "visual_analogy": "Stel je de Abductor hallucis voor als een gespierd 'kussentje' aan de binnenkant van je voetzool, dat van je hielbeen naar de basis van je grote teen loopt. Wanneer hij samentrekt, trekt hij je grote teen weg van de andere tenen en buigt hij hem iets, alsof hij een 'hendel' is die je grote teen 'opent' en positioneert voor een krachtige afzet tijdens het lopen, essentieel voor je voortbeweging.",
+    "status": "done",
+    "precisie_score": 9
+  },{"name": "Abductor digiti minimi (foot)",
+    "description": "De Abductor digiti minimi (pedis) is een intrinsieke spier van de voet, gelegen aan de laterale zijde van de voetzool, die de kleine teen abduceert (weg van de 4e teen beweegt) en assisteert bij flexie.",
+    "anatomy": {
+      "origin": {
+        "location": "Laterale tuberculum van het calcaneus (hielbeen), basis van het 5e metatarsale (middenvoetsbeentje), en de plantaire aponeurose.",
+        "details": [
+          "Brede, vlezige oorsprong."
+        ]
+      },
+      "insertion": {
+        "location": "Laterale zijde van de basis van de proximale falanx van de kleine teen (5e teen).",
+        "details": [
+          "Smalle, pezige insertie."
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "range": null,
+        "standard_deviation": null,
+        "unit": "mm"
+      },
+      "width_mm": null,
+      "thickness_mm": null
+    },
+    "innervation": {
+      "nerve": "N. plantaris lateralis (tak van de N. tibialis) (S1, S2).",
+      "branch": "Oppervlakkige tak."
+    },
+    "blood_supply": {
+      "arterial": [
+        "Takken van de A. plantaris lateralis."
+      ],
+      "venous_drainage": "Overeenkomstige venen."
+    },
+    "function": {
+      "primary_action": "Abducts little toe.",
+      "mechanism_of_action": "Bij contractie beweegt de Abductor digiti minimi (pedis) de kleine teen weg van de 4e teen (abductie) en assisteert het bij flexie van de kleine teen. Het draagt bij aan de stabiliteit van de laterale voetboog en de controle van de kleine teen tijdens het lopen.",
+      "little_toe_abduction_degrees": {
+        "average": "10-20",
+        "note": "Bereik van kleine teenabductie."
+      },
+      "role_in_expression": [
+        "Essentieel voor het aanpassen van de voet aan oneffen oppervlakken, het handhaven van de balans en het afzetten tijdens het lopen en rennen.",
+        "Belangrijk voor de fijne motoriek van de tenen en het voorkomen van teenmisvormingen."
+      ],
+      "synergists": [
+        "Flexor digiti minimi brevis (foot) (voor flexie van de kleine teen)"
+      ],
+      "antagonists": []
+    },
+    "visual_analogy": "Stel je de Abductor digiti minimi (voet) voor als een gespierd 'kussentje' aan de buitenkant van je voetzool, dat van je hielbeen naar de basis van je kleine teen loopt. Wanneer hij samentrekt, trekt hij je kleine teen weg van de andere tenen en buigt hij hem iets, alsof hij een 'hendel' is die je kleine teen 'opent' en positioneert voor het aanpassen aan de ondergrond, essentieel voor je balans.",
+    "status": "done",
+    "precisie_score": 9
+  }
+]
