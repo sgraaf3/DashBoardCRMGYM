@@ -37,7 +37,7 @@ export default class DashboardView {
         }
     }
 
-    async handleDashboardRrUpload(file) {
+    async function handleDashboardRrUpload(file) {
         if (!file) return;
         try {
             const content = await this.app.fileService.readFileAsText(file);
