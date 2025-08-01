@@ -1,18 +1,31 @@
 :root {
-    --primary-color: #4a4a4a; /* Darker grey for primary elements */
-    --secondary-color: #6b6b6b; /* Medium grey for secondary elements */
-    --background-color: #f0f0f0; /* Light grey for background */
-    --surface-color: #ffffff; /* White for cards/surfaces */
-    --text-color: #333333; /* Dark grey for text */
-    --border-color: #cccccc; /* Light grey for borders */
-    --danger-color: #cc0000; /* A subtle red for danger, can be adjusted to grey if needed */
-    --accent-color: #888888; /* A neutral grey for accents */
+    --primary-color: #4a4a4a;
+    --secondary-color: #6b6b6b;
+    --background-color: #f0f0f0;
+    --surface-color: #ffffff;
+    --text-color: #333333;
+        --border-color: #cccccc;
+    --danger-color: #cc0000;
+    --accent-color: #888888;
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+:root.dark-theme {
+    --primary-color: #9cdbff;
+    --secondary-color: #a7b7c7;
+    --background-color: #282828;
+    --surface-color: #3b3b3b;
+    --text-color: #ffffff;
+    --border-color: #555555;
+    --danger-color: #ff4d4d;
+    --accent-color: #aaaaaa;
+}
+
+
+
+
 body {
     font-family: var(--font-family);
-    line-height: 1.6;
     margin: 0;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -273,10 +286,12 @@ footer {
 
 /* Dashboard */
 .dashboard-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 1rem;
-    align-items: start; /* Prevent stretching of grid items */
+    position: relative;
+    width: 100%;  /* Take up the full width */
+    /* Remove grid layout */
+    /*grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));*/
+    /*gap: 1rem;*/
+    /*align-items: start; /* Prevent stretching of grid items */
 }
 
 .widget {
@@ -284,9 +299,15 @@ footer {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 1.5rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    height: auto; /* Allow height to adjust to content */
-    overflow: hidden; /* Hide any overflowing content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    /*width: fit-content; /* Fit width to content */
+    width: max-content; /* width to max content */
+        /*height: fit-content; /* Fit height to content */
+    position: absolute; /* Expected to be absolute */
+    margin: 0;  /* Remove default margins */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure widgets are above potential background */
 }
 
 .widget.error-widget {

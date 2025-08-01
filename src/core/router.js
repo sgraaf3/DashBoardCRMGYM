@@ -68,15 +68,7 @@ class Router {
             let { route, params } = matchedRoute;
             let model = null;
 
-            // Handle lazy-loaded views
-            let ViewClass;
-            if (typeof route.view === 'function') {
-                const module = await route.view();
-                ViewClass = module.default;
-            } else {
-                ViewClass = route.view; // For non-lazy-loaded views (if any)
-            }
-            const view = new ViewClass(this.app);
+          
 
             // Data resolver function
             if (route.resolve) {

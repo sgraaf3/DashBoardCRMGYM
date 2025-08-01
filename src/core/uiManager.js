@@ -3,6 +3,7 @@ class UIManager {
         this.authManager = authManager;
         this.stylingManager = stylingManager;
         this.localizationService = localizationService;
+
         this.modalBackdrop = document.getElementById('modal-backdrop');
         this.modalContent = document.getElementById('modal-content');
         this.modalBody = document.getElementById('modal-body');
@@ -32,9 +33,15 @@ class UIManager {
         setTimeout(() => { notification.classList.remove('show'); setTimeout(() => notification.remove(), 500); }, duration);
     }
 
-    showModal(title, bodyHtml, onRenderedCallback = null) {
-        this.modalTitle.textContent = title;
-        this.modalBody.innerHTML = bodyHtml;
+    showModal(title, bodyHtml, onRenderedCallback = null, footerHtml = '') {
+        // Use a template literal for the modal content
+        const modalTemplate = `
+            <div class="modal-header"><h3 class="modal-title">${title}</h3><button class="modal-close-button">&times;</button></div>
+            <div class="modal-body">${bodyHtml}</div>
+             ${footerHtml ? `<div class="modal-footer">${footerHtml}</div>` : ''}
+        `;
+
+        this.modalContent.innerHTML = modalTemplate;
         this.modalBackdrop.style.display = 'flex';
         if (onRenderedCallback) {
             requestAnimationFrame(onRenderedCallback);
@@ -43,7 +50,7 @@ class UIManager {
 
     hideModal() {
         this.modalBackdrop.style.display = 'none';
-        this.modalBody.innerHTML = '';
+        this.modalContent.innerHTML = ''; // Clear the entire content including header and footer
     }
 
     /**

@@ -4,7 +4,7 @@
  * @param {number} delay - The debounce delay in milliseconds.
  * @returns {Function} The debounced function.
  */
-export function debounce(func, delay = 300) {
+export default function debounce(func, delay = 300) {
     let timeoutId;
     return function(...args) {
         clearTimeout(timeoutId);

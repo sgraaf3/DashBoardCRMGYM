@@ -30,13 +30,6 @@ export function addDashboardEventListeners(view, container) {
         const target = e.target.closest('[data-action], .expand-icon');
         if (!target) return;
 
-        // Handle expand icon separately as it doesn't use data-action
-        if (target.classList.contains('expand-icon')) {
-            const widgetId = target.dataset.widgetId;
-            view.handleWidgetExpand(widgetId);
-            return;
-        }
-
         const action = target.dataset.action;
         const memberId = target.dataset.memberId;
 
